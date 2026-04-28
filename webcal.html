@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>NHA RTO/ISO Meeting Tracker</title>
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+  <style>
+    :root {
+      --bg: #f5f6f8;
+      --panel: #ffffff;
+      --border: #e3e6eb;
+      --border-strong: #cfd4dc;
+      --text: #1f2937;
+      --text-muted: #6b7280;
+      --text-soft: #9aa2ad;
+      --accent: #0f766e;
+      --accent-soft: #ecfdf5;
+      --accent-border: #5ea79a;
+      --hydro-flag: #2ca02c;
+      --hydro-flag-soft: #e8f5e9;
+      --warn: #f5a623;
+      --selected: #fff4d9;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 14px;
+      height: 100%;
+    }
+
+    /* ── Top bar ──────────────────────────────────────────────────── */
+    #topbar {
+      background: var(--panel);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    #topbar h1 {
+      margin: 0;
+      font-size: 1.15em;
+      font-weight: 600;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+    #topbar .counts {
+      color: var(--text-muted);
+      font-size: 0.9em;
+    }
+    #topbar .counts strong { color: var(--hydro-flag); }
+
+    .filters {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-left: auto;
+    }
+    .filters label {
+      font-size: 0.85em;
+      color: var(--text-muted);
+      margin-right: 2px;
+    }
+    .filters select,
+    .filters input[type="text"] {
+      padding: 6px 10px;
+      border: 1px solid var(--border-strong);
+      border-radius: 6px;
+      font-size: 0.88em;
+      background: #fff;
+      color: var(--text);
+    }
+    .filters input[type="text"] { width: 200px; }
+    .toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85em;
+      color: var(--text-muted);
+      cursor: pointer;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border-strong);
+      background: #fff;
+      user-select: none;
+    }
+    .toggle input { cursor: pointer; margin: 0; }
+    .toggle.active { background: var(--hydro-flag-soft); color: var(--hydro-flag); border-color: var(--hydro-flag); }
+
+    /* ── Layout ───────────────────────────────────────────────────── */
+    #main {
+      display: grid;
+      grid-template-columns: minmax(560px, 1fr) minmax(420px, 1.1fr);
+      gap: 16px;
+      padding: 16px 24px 24px 24px;
+      height: calc(100vh - 62px);
+    }
+    @media (max-width: 1100px) {
+      #main { grid-template-columns: 1fr; height: auto; }
+      #calendar-panel { height: 640px; }
+      #list-panel { height: auto; max-height: none; }
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    /* ── Calendar panel ───────────────────────────────────────────── */
+    #calendar { flex: 1; min-height: 0; }
+    .fc { font-size: 0.85em; }
+    .fc-daygrid-event {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 2px 4px;
+      border-radius: 3px;
+      border: none !important;
+    }
+    /* Green outline for hydro-relevant meetings */
+    .fc-daygrid-event.hydro-meeting {
+      box-shadow: inset 0 0 0 2px var(--hydro-flag);
+    }
+    /* Stronger indicator when docs are hydro-relevant */
+    .fc-daygrid-event.hydro-docs::after {
+      content: "▲";
+      font-size: 0.7em;
+      margin-left: 3px;
+      color: #fff;
+    }
+    .fc-daygrid-day.selected-day {
+      background: var(--selected) !important;
+    }
+    .fc-button-primary {
+      background: #fff !important;
+      color: var(--text) !important;
+      border: 1px solid var(--border-strong) !important;
+      font-size: 0.85em !important;
+      text-transform: none !important;
+    }
+    .fc-button-primary:hover { background: var(--bg) !important; }
+    .fc-button-primary.fc-button-active {
+      background: var(--text) !important;
+      color: #fff !important;
+    }
+    .fc-toolbar-title { font-size: 1.1em !important; font-weight: 600 !important; }
+
+    /* ── List panel ───────────────────────────────────────────────── */
+    #list-panel { overflow: hidden; }
+    #list-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    #list-header h2 {
+      margin: 0;
+      font-size: 1em;
+      font-weight: 600;
+    }
+    #list-header .list-count {
+      font-size: 0.85em;
+      color: var(--text-muted);
+    }
+    #events-list {
+      overflow-y: auto;
+      flex: 1;
+      margin: 0 -8px;
+      padding: 0 8px;
+    }
+    .event-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      margin-bottom: 10px;
+      background: #fff;
+      scroll-margin-top: 8px;
+      transition: box-shadow 0.15s, border-color 0.15s;
+    }
+    .event-card:hover {
+      border-color: var(--border-strong);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+    .event-card.hydro-relevant { border-left: 4px solid var(--hydro-flag); }
+    .event-card.highlighted {
+      border-color: var(--warn);
+      box-shadow: 0 0 0 2px rgba(245, 166, 35, 0.25);
+    }
+
+    .event-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 4px;
+    }
+    .event-date-block {
+      flex-shrink: 0;
+      text-align: center;
+      border-right: 1px solid var(--border);
+      padding-right: 10px;
+      margin-right: 4px;
+      min-width: 48px;
+    }
+    .event-date-month {
+      font-size: 0.68em;
+      color: var(--text-muted);
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .event-date-day {
+      font-size: 1.4em;
+      font-weight: 600;
+      line-height: 1.1;
+    }
+    .event-date-weekday {
+      font-size: 0.7em;
+      color: var(--text-soft);
+    }
+    .event-main {
+      display: flex;
+      gap: 10px;
+      flex: 1;
+      min-width: 0;
+    }
+    .event-body { flex: 1; min-width: 0; }
+    .event-title-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 2px;
+    }
+    .rto-badge {
+      display: inline-block;
+      padding: 1px 7px;
+      font-size: 0.7em;
+      font-weight: 700;
+      color: #fff;
+      border-radius: 4px;
+      letter-spacing: 0.03em;
+    }
+    .event-title {
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.35;
+    }
+    .event-meta {
+      font-size: 0.83em;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+    .event-meta .committee { color: #a5741e; font-weight: 500; }
+    .event-meta .time { color: var(--text-muted); }
+    .meeting-reason {
+      font-size: 0.82em;
+      color: #2a6a2a;
+      background: var(--hydro-flag-soft);
+      padding: 5px 8px;
+      border-radius: 4px;
+      margin-top: 6px;
+      line-height: 1.4;
+    }
+
+    .event-links {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 6px;
+      font-size: 0.82em;
+    }
+    .event-links a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .event-links a:hover { text-decoration: underline; }
+    .event-links a::before {
+      content: "↗";
+      margin-right: 3px;
+      font-size: 0.9em;
+    }
+
+    /* Documents */
+    .docs-block { margin-top: 10px; }
+    .docs-toggle {
+      font-size: 0.82em;
+      color: var(--text-muted);
+      cursor: pointer;
+      user-select: none;
+      padding: 4px 0;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .docs-toggle:hover { color: var(--text); }
+    .docs-toggle .arrow {
+      display: inline-block;
+      transition: transform 0.15s;
+      font-size: 0.8em;
+    }
+    .docs-toggle.open .arrow { transform: rotate(90deg); }
+    .docs-toggle .pill {
+      display: inline-block;
+      font-size: 0.88em;
+      padding: 1px 7px;
+      border-radius: 10px;
+      background: #eef1f5;
+      color: var(--text-muted);
+    }
+    .docs-toggle .pill.hydro {
+      background: var(--hydro-flag-soft);
+      color: #1a6a1a;
+      font-weight: 600;
+    }
+
+    .doc-list { margin-top: 6px; }
+    .doc-item {
+      border-left: 3px solid var(--border);
+      padding: 6px 10px;
+      margin-bottom: 6px;
+      background: #fafbfc;
+      border-radius: 0 4px 4px 0;
+      font-size: 0.86em;
+    }
+    .doc-item.hydro {
+      border-left-color: var(--hydro-flag);
+      background: var(--hydro-flag-soft);
+    }
+    .doc-item-head {
+      display: flex;
+      gap: 8px;
+      align-items: baseline;
+      flex-wrap: wrap;
+    }
+    .doc-item-head a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .doc-item-head a:hover { text-decoration: underline; }
+    .doc-type {
+      font-size: 0.75em;
+      padding: 1px 6px;
+      border-radius: 3px;
+      background: #e0e4e8;
+      color: #555;
+      text-transform: capitalize;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+    .doc-badge {
+      font-size: 0.72em;
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+    .doc-badge.hydro {
+      background: var(--hydro-flag);
+      color: #fff;
+    }
+    .doc-badge.unscreened {
+      background: #e0e4e8;
+      color: #7a7f87;
+    }
+    .doc-summary {
+      margin: 4px 0 0 0;
+      color: #2e3a2e;
+      line-height: 1.45;
+    }
+    .doc-reason {
+      margin: 3px 0 0 0;
+      color: #57705a;
+      font-size: 0.92em;
+      font-style: italic;
+    }
+    .no-docs {
+      color: var(--text-soft);
+      font-size: 0.85em;
+      font-style: italic;
+      padding: 6px 0;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--text-muted);
+    }
+
+    /* Scrollbar styling */
+    #events-list::-webkit-scrollbar { width: 8px; }
+    #events-list::-webkit-scrollbar-track { background: transparent; }
+    #events-list::-webkit-scrollbar-thumb {
+      background: var(--border-strong);
+      border-radius: 4px;
+    }
+    #events-list::-webkit-scrollbar-thumb:hover { background: #a0a6b0; }
+  </style>
+</head>
+<body>
+
+  <div id="topbar">
+    <h1>NHA RTO/ISO Meeting Tracker</h1>
+    <span class="counts" id="counts"></span>
+    <div class="filters">
+      <div>
+        <label for="rtoFilter">RTO</label>
+        <select id="rtoFilter"><option value="all">All</option></select>
+      </div>
+      <div>
+        <label for="committeeFilter">Committee</label>
+        <select id="committeeFilter"><option value="all">All</option></select>
+      </div>
+      <input type="text" id="searchInput" placeholder="Search titles..." />
+      <label class="toggle" id="hydroToggleLabel">
+        <input type="checkbox" id="hydroOnly" />
+        ▲ Hydro-relevant only
+      </label>
+    </div>
+  </div>
+
+  <div id="main">
+    <div class="panel" id="calendar-panel">
+      <div id="calendar"></div>
+    </div>
+
+    <div class="panel" id="list-panel">
+      <div id="list-header">
+        <h2>Meetings</h2>
+        <span class="list-count" id="listCount"></span>
+      </div>
+      <div id="events-list"></div>
+    </div>
+  </div>
+
+  <script>
+    const RTO_COLORS = {
+      "PJM":    "#1f77b4",
+      "CAISO":  "#ff7f0e",
+      "MISO":   "#2ca02c",
+      "NYISO":  "#d62728",
+      "ERCOT":  "#9467bd",
+      "ISO-NE": "#17becf",
+      "SPP":    "#8c564b",
+      "NEPOOL": "#17becf",
+      "NERC":   "#e377c2",
+      "FERC":   "#7f7f7f",
+      "Other":  "#999999"
+    };
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      // State
+      let rawEvents = [];
+      let calendar;
+      let selectedEventId = null;
+
+      // Elements
+      const rtoSelect = document.getElementById('rtoFilter');
+      const committeeSelect = document.getElementById('committeeFilter');
+      const searchInput = document.getElementById('searchInput');
+      const hydroOnly = document.getElementById('hydroOnly');
+      const hydroToggleLabel = document.getElementById('hydroToggleLabel');
+      const listEl = document.getElementById('events-list');
+      const listCountEl = document.getElementById('listCount');
+      const countsEl = document.getElementById('counts');
+
+      // Load data
+      try {
+        const r = await fetch('./rto-docs/rto_events_with_docs.json?t=' + Date.now());
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        rawEvents = await r.json();
+      } catch (err) {
+        listEl.innerHTML = `<p style="color:#c00;padding:20px;">Failed to load events: ${err.message}</p>`;
+        return;
+      }
+
+      // Assign stable IDs and derived flags
+      rawEvents.forEach((e, i) => {
+        e._id = String(i);
+        const docs = e.documents || [];
+        e._hydroDocCount = docs.filter(d => d.hydro_relevant === true).length;
+        e._hasHydroDocs = e._hydroDocCount > 0;
+        e._isRelevant = e.meeting_hydro_relevant === true || e._hasHydroDocs;
+      });
+
+      // Header counts
+      const totalHydro = rawEvents.filter(e => e._isRelevant).length;
+      countsEl.innerHTML = `<strong>${totalHydro}</strong> hydro-relevant of ${rawEvents.length} meetings`;
+
+      // Populate filter dropdowns
+      [...new Set(rawEvents.map(e => e.rto || 'Other'))]
+        .sort()
+        .forEach(rto => {
+          const o = document.createElement('option');
+          o.value = rto; o.textContent = rto;
+          rtoSelect.appendChild(o);
+        });
+
+      const committees = [...new Set(rawEvents.map(e => (e.committee || '').trim()).filter(Boolean))].sort();
+      committees.forEach(c => {
+        const o = document.createElement('option');
+        o.value = c; o.textContent = c;
+        committeeSelect.appendChild(o);
+      });
+
+      // ── Filter function ─────────────────────────────────────────
+      function getFiltered() {
+        const rto = rtoSelect.value;
+        const committee = committeeSelect.value;
+        const q = searchInput.value.toLowerCase().trim();
+        const hydro = hydroOnly.checked;
+
+        return rawEvents.filter(e => {
+          if (rto !== 'all' && (e.rto || 'Other') !== rto) return false;
+          if (committee !== 'all' && (e.committee || '') !== committee) return false;
+          if (q) {
+            const hay = ((e.title || '') + ' ' + (e.committee || '')).toLowerCase();
+            if (!hay.includes(q)) return false;
+          }
+          if (hydro && !e._isRelevant) return false;
+          return true;
+        });
+      }
+
+      // ── Calendar ────────────────────────────────────────────────
+      function buildCalendarEvents(filtered) {
+        return filtered.map(e => {
+          const rto = e.rto || 'Other';
+          const classes = [];
+          if (e.meeting_hydro_relevant === true) classes.push('hydro-meeting');
+          if (e._hasHydroDocs) classes.push('hydro-docs');
+          return {
+            id: e._id,
+            title: `${rto}: ${e.title}`,
+            start: e.date,
+            backgroundColor: RTO_COLORS[rto] || RTO_COLORS.Other,
+            borderColor: RTO_COLORS[rto] || RTO_COLORS.Other,
+            textColor: '#fff',
+            classNames: classes
+          };
+        }).filter(e => e.start);
+      }
+
+      calendar = new FullCalendar.Calendar(document.getElementById('calendar'), {
+        initialView: 'dayGridMonth',
+        height: '100%',
+        dayMaxEvents: 3,
+        headerToolbar: {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'dayGridMonth,listMonth'
+        },
+        events: buildCalendarEvents(rawEvents),
+        eventDidMount: info => {
+          const ev = rawEvents.find(x => x._id === info.event.id);
+          if (!ev) return;
+          const docsCount = (ev.documents || []).length;
+          let tip = info.event.title;
+          if (ev._hydroDocCount > 0) tip += `\n▲ ${ev._hydroDocCount} hydro-relevant doc${ev._hydroDocCount > 1 ? 's' : ''}`;
+          else if (docsCount > 0) tip += `\n${docsCount} doc${docsCount > 1 ? 's' : ''}`;
+          info.el.setAttribute('title', tip);
+        },
+        eventClick: info => {
+          selectEvent(info.event.id, { scroll: true });
+        },
+        dateClick: info => {
+          // Highlight the day column
+          highlightDay(info.dateStr);
+        }
+      });
+      calendar.render();
+
+      // ── List rendering ──────────────────────────────────────────
+      function renderList(events) {
+        listEl.innerHTML = '';
+        listCountEl.textContent = `${events.length} shown`;
+
+        if (events.length === 0) {
+          listEl.innerHTML = '<div class="empty-state">No meetings match these filters.</div>';
+          return;
+        }
+
+        // Sort by date ascending (upcoming first)
+        const sorted = [...events].sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+
+        for (const e of sorted) {
+          listEl.appendChild(renderEventCard(e));
+        }
+      }
+
+      function renderEventCard(e) {
+        const rto = e.rto || 'Other';
+        const color = RTO_COLORS[rto] || RTO_COLORS.Other;
+        const card = document.createElement('div');
+        card.className = 'event-card' + (e._isRelevant ? ' hydro-relevant' : '');
+        card.dataset.id = e._id;
+        card.dataset.date = e.date || '';
+
+        const dt = e.date ? new Date(e.date + 'T12:00:00') : null;
+        const monthShort = dt ? dt.toLocaleDateString('en-US', { month: 'short' }) : '';
+        const dayNum = dt ? dt.getDate() : '';
+        const weekday = dt ? dt.toLocaleDateString('en-US', { weekday: 'short' }) : '';
+
+        const docs = e.documents || [];
+        const hydroDocs = docs.filter(d => d.hydro_relevant === true);
+        const otherDocs = docs.filter(d => d.hydro_relevant !== true);
+
+        let html = `
+          <div class="event-main">
+            <div class="event-date-block">
+              <div class="event-date-month">${monthShort}</div>
+              <div class="event-date-day">${dayNum}</div>
+              <div class="event-date-weekday">${weekday}</div>
+            </div>
+            <div class="event-body">
+              <div class="event-title-row">
+                <span class="rto-badge" style="background:${color}">${rto}</span>
+                <span class="event-title">${escapeHtml(e.title || '')}</span>
+              </div>
+              <div class="event-meta">
+                ${e.committee ? `<span class="committee">${escapeHtml(e.committee)}</span>` : ''}
+                ${e.committee && e.time ? ' · ' : ''}
+                ${e.time ? `<span class="time">${escapeHtml(e.time)}</span>` : ''}
+              </div>
+        `;
+
+        if (e.meeting_hydro_relevant === true && e.meeting_hydro_reason) {
+          html += `<div class="meeting-reason">▲ ${escapeHtml(e.meeting_hydro_reason)}</div>`;
+        }
+
+        // Links
+        const links = [];
+        if (e.detail_url) links.push(`<a href="${e.detail_url}" target="_blank" rel="noopener">Meeting details</a>`);
+        if (e.materials_url) links.push(`<a href="${e.materials_url}" target="_blank" rel="noopener">Materials page</a>`);
+        if (e.source_url) links.push(`<a href="${e.source_url}" target="_blank" rel="noopener">${rto} calendar</a>`);
+        if (links.length > 0) {
+          html += `<div class="event-links">${links.join('')}</div>`;
+        }
+
+        // Documents
+        if (docs.length > 0) {
+          html += `<div class="docs-block">`;
+
+          // Always-expanded relevant docs
+          if (hydroDocs.length > 0) {
+            html += `<div class="doc-list">`;
+            html += hydroDocs.map(renderDoc).join('');
+            html += `</div>`;
+          }
+
+          // Collapsed non-relevant docs
+          if (otherDocs.length > 0) {
+            const pillClass = hydroDocs.length > 0 ? 'pill' : 'pill';
+            html += `
+              <div class="docs-toggle" data-action="toggle-docs">
+                <span class="arrow">▶</span>
+                Show ${otherDocs.length} other document${otherDocs.length > 1 ? 's' : ''}
+                <span class="${pillClass}">${otherDocs.length}</span>
+              </div>
+              <div class="doc-list hidden-docs" style="display:none;">
+                ${otherDocs.map(renderDoc).join('')}
+              </div>
+            `;
+          }
+
+          html += `</div>`;
+        } else {
+          html += `<div class="no-docs">No documents attached.</div>`;
+        }
+
+        html += `</div></div>`;
+        card.innerHTML = html;
+
+        // Wire up expand/collapse
+        const toggle = card.querySelector('[data-action="toggle-docs"]');
+        if (toggle) {
+          const hidden = card.querySelector('.hidden-docs');
+          toggle.addEventListener('click', () => {
+            const isOpen = toggle.classList.toggle('open');
+            hidden.style.display = isOpen ? 'block' : 'none';
+            toggle.firstElementChild.textContent = '▶';
+            toggle.childNodes[2].textContent = isOpen
+              ? ` Hide ${otherDocs.length} other document${otherDocs.length > 1 ? 's' : ''} `
+              : ` Show ${otherDocs.length} other document${otherDocs.length > 1 ? 's' : ''} `;
+          });
+        }
+
+        // Click anywhere on card (except links) to select
+        card.addEventListener('click', ev => {
+          if (ev.target.closest('a') || ev.target.closest('[data-action]')) return;
+          selectEvent(e._id, { jumpCalendar: true });
+        });
+
+        return card;
+      }
+
+      function renderDoc(d) {
+        const isHydro = d.hydro_relevant === true;
+        const isScreened = d.hydro_relevant === true || d.hydro_relevant === false;
+        const linkTitle = escapeHtml(d.title || d.filename || 'Document');
+
+        let badge = '';
+        if (isHydro) {
+          badge = `<span class="doc-badge hydro">▲ hydro</span>`;
+        } else if (!isScreened) {
+          badge = `<span class="doc-badge unscreened">not screened</span>`;
+        }
+
+        let html = `<div class="doc-item ${isHydro ? 'hydro' : ''}">`;
+        html += `<div class="doc-item-head">`;
+        if (d.type) html += `<span class="doc-type">${escapeHtml(d.type)}</span>`;
+        html += badge;
+        if (d.url) {
+          html += `<a href="${d.url}" target="_blank" rel="noopener">${linkTitle}</a>`;
+        } else {
+          html += `<span>${linkTitle}</span>`;
+        }
+        html += `</div>`;
+
+        if (isHydro && d.ai_summary) {
+          html += `<div class="doc-summary">${escapeHtml(d.ai_summary)}</div>`;
+        }
+        if (isHydro && d.hydro_relevance_reason) {
+          html += `<div class="doc-reason">Why: ${escapeHtml(d.hydro_relevance_reason)}</div>`;
+        }
+
+        html += `</div>`;
+        return html;
+      }
+
+      // ── Selection & cross-highlighting ──────────────────────────
+      function selectEvent(id, opts = {}) {
+        selectedEventId = id;
+
+        // Highlight card
+        document.querySelectorAll('.event-card.highlighted').forEach(el => el.classList.remove('highlighted'));
+        const card = listEl.querySelector(`[data-id="${id}"]`);
+        if (card) {
+          card.classList.add('highlighted');
+          if (opts.scroll) card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // Move calendar to the event's date
+        if (opts.jumpCalendar) {
+          const ev = rawEvents.find(x => x._id === id);
+          if (ev && ev.date) {
+            calendar.gotoDate(ev.date);
+            highlightDay(ev.date);
+          }
+        } else {
+          const ev = rawEvents.find(x => x._id === id);
+          if (ev && ev.date) highlightDay(ev.date);
+        }
+      }
+
+      function highlightDay(dateStr) {
+        document.querySelectorAll('.fc-daygrid-day.selected-day').forEach(el => el.classList.remove('selected-day'));
+        const cell = document.querySelector(`.fc-daygrid-day[data-date="${dateStr}"]`);
+        if (cell) cell.classList.add('selected-day');
+      }
+
+      // ── Apply filters ────────────────────────────────────────────
+      function applyFilters() {
+        const filtered = getFiltered();
+        calendar.removeAllEvents();
+        calendar.addEventSource(buildCalendarEvents(filtered));
+        renderList(filtered);
+
+        // Toggle label styling
+        if (hydroOnly.checked) hydroToggleLabel.classList.add('active');
+        else hydroToggleLabel.classList.remove('active');
+      }
+
+      // Utility
+      function escapeHtml(s) {
+        return String(s)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#039;');
+      }
+
+      // Wire up filters
+      rtoSelect.addEventListener('change', applyFilters);
+      committeeSelect.addEventListener('change', applyFilters);
+      searchInput.addEventListener('input', applyFilters);
+      hydroOnly.addEventListener('change', applyFilters);
+
+      // Initial render
+      renderList(rawEvents);
+    });
+  </script>
+</body>
+</html>

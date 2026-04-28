@@ -1,0 +1,37 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/
+
+# Project: ephemeral artifacts
+# Downloaded PDFs (regenerated each run)
+rto-docs/docs/
+# Local run logs
+rto-docs/logs/
+*.log
+
+# SQLite WAL / shared-memory files
+*.db-shm
+*.db-wal
+
+# Stray helper directory created by older code
+rto-docs/{db,scrapers,docs}/
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
