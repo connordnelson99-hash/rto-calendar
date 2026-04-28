@@ -311,7 +311,6 @@ def export_calendar_json(conn, output_path=None):
                         "title": doc["title"],
                         "filename": doc["filename"],
                         "url": doc["download_url"],
-                        "local_path": doc["local_path"],
                         "posted_date": doc["posted_date"],
                         "hydro_relevant": bool(doc["hydro_relevant"]) if doc["hydro_relevant"] is not None else None,
                         "hydro_relevance_reason": doc["hydro_relevance_reason"],
