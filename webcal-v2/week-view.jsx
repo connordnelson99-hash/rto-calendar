@@ -184,14 +184,12 @@ const WeekView = ({ events, today, onSelectEvent, anchor, setAnchor }) => {
                          }}
                          onClick={() => onSelectEvent(e.id)}
                          title={`${e.rtoMeta.label}: ${e.title}`}>
-                      <div className="week-event-time" style={{ color: e.rtoMeta.color }}>
-                        {e.timeFmt ? e.timeFmt.replace(" ET", "") : ""}
-                        {e.isRelevant && <span className="hydro-tri" style={{ marginLeft: 4 }}/>}
-                      </div>
                       <div className="week-event-title">
                         <span className="rto-tag" style={{ background: e.rtoMeta.color, color: "#fff", border: "none", fontSize: 9, padding: "0 4px" }}>
                           {e.rtoMeta.label}
-                        </span>{" "}
+                        </span>
+                        {e.isRelevant && <span className="hydro-tri" style={{ marginLeft: 4 }}/>}
+                        {" "}
                         {e.title.replace(new RegExp(`^${e.rtoMeta.label}\\s+`, "i"), "").replace(/\s+Meeting$/, "")}
                       </div>
                     </div>

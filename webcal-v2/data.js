@@ -39,16 +39,25 @@
     return d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
   }
 
-  // Live JSON gives "1:30 PM" / "10:30 AM"; calendar/week views need "HH:MM" 24h.
+  // Live JSON gives many formats:
+  //   ISO-NE: "1:30 PM"
+  //   CAISO:  "9:00 AM - 12:00 PM"
+  //   PJM:    "1:00 p.m. - 4:00 p.m."
+  //   FERC:   null
+  // Calendar/week views need a "HH:MM" 24h start time. We parse the leading
+  // time of a range and accept both "PM" and "p.m." am/pm markers.
   function parseTimeTo24(t) {
     if (!t) return null;
-    const m = String(t).match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/i);
+    const s = String(t).trim();
+    if (!s) return null;
+    const startStr = s.split(/\s*[-–]\s*/)[0].trim();
+    const m = startStr.match(/^(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m\.?$/i);
     if (!m) return null;
     let h = parseInt(m[1], 10);
-    const min = m[2];
-    const ap = m[3].toUpperCase();
-    if (ap === "PM" && h !== 12) h += 12;
-    if (ap === "AM" && h === 12) h = 0;
+    const min = m[2] || "00";
+    const ap = m[3].toLowerCase();
+    if (ap === "p" && h !== 12) h += 12;
+    if (ap === "a" && h === 12) h = 0;
     return `${String(h).padStart(2, "0")}:${min}`;
   }
 
