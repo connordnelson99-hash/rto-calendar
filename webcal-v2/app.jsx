@@ -32,6 +32,7 @@ function App() {
   const [readerDoc, setReaderDoc] = useState(null);
   const [readerEvent, setReaderEvent] = useState(null);
   const [digestOpen, setDigestOpen] = useState(false);
+  const [listCollapsed, setListCollapsed] = useState(false);
 
   // Load events on mount
   useEffect(() => {
@@ -160,11 +161,16 @@ function App() {
               {" "}·{" "}
               {filteredEvents.length} of {data.events.length} meetings
             </span>
+            {calView === "month" && listCollapsed && (
+              <button className="toolbar-btn" title="Show meetings list" onClick={() => setListCollapsed(false)}>
+                <Icon name="list" size={12}/> Show list
+              </button>
+            )}
             <button className="icon-btn" title="Refresh" onClick={() => window.location.reload()}><Icon name="refresh" size={14}/></button>
           </div>
 
           {calView === "month" && (
-            <div className="split">
+            <div className={"split" + (listCollapsed ? " list-collapsed" : "")}>
               <CalendarPane
                 events={filteredEvents}
                 selectedDate={selectedDate}
@@ -173,13 +179,16 @@ function App() {
                 today={data.today}
                 monthCursor={monthCursor}
                 setMonthCursor={setMonthCursor}/>
-              <ListPane
-                events={filteredEvents}
-                selectedId={selectedId}
-                onSelect={onSelectEvent}
-                today={data.today}
-                selectedDate={selectedDate}
-                onOpenDigest={() => setDigestOpen(true)}/>
+              {!listCollapsed && (
+                <ListPane
+                  events={filteredEvents}
+                  selectedId={selectedId}
+                  onSelect={onSelectEvent}
+                  today={data.today}
+                  selectedDate={selectedDate}
+                  onOpenDigest={() => setDigestOpen(true)}
+                  onCollapse={() => setListCollapsed(true)}/>
+              )}
             </div>
           )}
           {calView === "week" && (

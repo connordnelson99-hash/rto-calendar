@@ -96,7 +96,15 @@ const DigestBanner = ({ items, today, onClick }) => {
   );
 };
 
-const ListPane = ({ events, selectedId, onSelect, today, selectedDate, onOpenDigest }) => {
+// Container-scoped scroll: scrolls only within the list-pane element,
+// never the parent page or iframe. Avoids the "page snaps on load" effect.
+function scrollWithin(container, el) {
+  if (!container || !el) return;
+  const top = el.offsetTop - container.offsetTop;
+  container.scrollTo({ top, behavior: "smooth" });
+}
+
+const ListPane = ({ events, selectedId, onSelect, today, selectedDate, onOpenDigest, onCollapse }) => {
   const grouped = React.useMemo(() => {
     const m = {};
     for (const e of events) {
@@ -114,17 +122,24 @@ const ListPane = ({ events, selectedId, onSelect, today, selectedDate, onOpenDig
   }, [events]);
 
   const scrollRef = React.useRef(null);
+  // Skip the very first selectedDate effect so the list doesn't auto-scroll
+  // (and force the surrounding page/iframe to snap) on initial load.
+  const skipFirstDateScroll = React.useRef(true);
   React.useEffect(() => {
+    if (skipFirstDateScroll.current) {
+      skipFirstDateScroll.current = false;
+      return;
+    }
     if (selectedDate && scrollRef.current) {
       const el = scrollRef.current.querySelector(`[data-date="${selectedDate}"]`);
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      scrollWithin(scrollRef.current, el);
     }
   }, [selectedDate]);
 
   React.useEffect(() => {
     if (selectedId && scrollRef.current) {
       const el = scrollRef.current.querySelector(`[data-event="${selectedId}"]`);
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      scrollWithin(scrollRef.current, el);
     }
   }, [selectedId]);
 
@@ -140,6 +155,11 @@ const ListPane = ({ events, selectedId, onSelect, today, selectedDate, onOpenDig
           {" "}hydro-relevant · {events.length} total
         </div>
         <div style={{flex: 1}}/>
+        {onCollapse && (
+          <button className="icon-btn" title="Hide meetings list" onClick={onCollapse}>
+            <Icon name="chevronRight" size={14}/>
+          </button>
+        )}
       </div>
       <DigestBanner items={digestItems} today={today} onClick={onOpenDigest}/>
       <div className="list-scroll" ref={scrollRef}>

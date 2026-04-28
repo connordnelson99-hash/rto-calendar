@@ -567,6 +567,12 @@ input, select, textarea { font-family: inherit; color: inherit; }
   min-height: 0;
   overflow: hidden;
 }
+.split.list-collapsed {
+  grid-template-columns: minmax(0, 1fr);
+}
+.split.list-collapsed .calendar-pane {
+  border-right: none;
+}
 
 .calendar-pane {
   border-right: 1px solid var(--border);
