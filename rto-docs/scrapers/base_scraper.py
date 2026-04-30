@@ -316,10 +316,22 @@ class BaseRTOScraper(ABC):
         return None
 
     def _head_check(self, url):
-        """Check if a URL exists via HEAD request. Returns True/False."""
+        """
+        Check if a URL points to a real document via HEAD request.
+
+        PJM serves a 200 OK HTML soft-error page on non-existent /-/media
+        paths, so a status check alone falsely accepts every probed URL.
+        Reject any text/html response — real documents come back as
+        application/pdf, application/vnd.ms-excel, etc.
+        """
         try:
             self._polite_delay()
             resp = self.session.head(url, timeout=10, allow_redirects=True)
-            return resp.status_code == 200
+            if resp.status_code != 200:
+                return False
+            ctype = (resp.headers.get("Content-Type") or "").lower()
+            if ctype.startswith("text/html"):
+                return False
+            return True
         except Exception:
             return False
