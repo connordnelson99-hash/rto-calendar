@@ -159,11 +159,12 @@ class PJMScraper(BaseRTOScraper):
         Strategy:
           1. Load the calendar (defaults to current month view)
           2. Use JS to spatially map each .fc-event to a td.fc-day[data-date]
-             by comparing horizontal bounding-rect positions — events are
-             absolutely positioned inside the grid, not DOM-children of the td.
-          3. Only click events whose mapped date falls in [start_date, end_date]
-          4. After each click, read the expanded <li class="event expanded">
-             for committee name, time, and materials URL.
+             by 2-axis bounding-rect containment — events are absolutely
+             positioned divs, not DOM-children of the td.
+          3. Iterate (date, abbrev) targets; clicking expands a sidebar
+             which reflows the .fc-event list, so we re-map the DOM and
+             locate the next unseen target by (date, abbrev) on every
+             iteration rather than trusting cached indices.
         """
         from playwright.sync_api import sync_playwright
 
@@ -193,23 +194,34 @@ class PJMScraper(BaseRTOScraper):
                 for month_offset in months_to_check:
                     self._navigate_calendar(page, month_offset)
 
-                    # Spatially map events to dates using bounding rects
-                    event_date_map = self._map_events_to_dates(page)
-                    in_range = [
-                        (idx, date) for idx, date in event_date_map
+                    # Initial map captures every (date, abbrev) target on
+                    # this month's grid, before any click reflow.
+                    initial_map = self._map_events_to_dates(page)
+                    targets = [
+                        (date, abbrev)
+                        for _idx, date, abbrev in initial_map
                         if start_date <= date <= end_date
                     ]
-                    print(f"    {len(event_date_map)} events mapped; "
-                          f"{len(in_range)} in range")
+                    # Dedup identical (date, abbrev) pairs — same meeting
+                    # rendered twice would collide on the same row anyway.
+                    targets = list(dict.fromkeys(targets))
+                    print(f"    {len(initial_map)} events mapped; "
+                          f"{len(targets)} in range")
 
-                    for event_idx, event_date in in_range:
+                    seen = set()
+                    for target_date, target_abbrev in targets:
+                        key = (target_date, target_abbrev)
+                        if key in seen:
+                            continue
+                        seen.add(key)
+
                         meeting = self._click_and_parse(
-                            page, event_idx, event_date
+                            page, target_date, target_abbrev
                         )
                         if meeting:
-                            key = (meeting["title"], meeting["meeting_date"])
+                            mkey = (meeting["title"], meeting["meeting_date"])
                             if not any(
-                                (m["title"], m["meeting_date"]) == key
+                                (m["title"], m["meeting_date"]) == mkey
                                 for m in meetings
                             ):
                                 meetings.append(meeting)
@@ -274,11 +286,12 @@ class PJMScraper(BaseRTOScraper):
 
     def _map_events_to_dates(self, page):
         """
-        Use JS bounding-rect comparison to map each .fc-event to a date.
+        Use JS bounding-rect containment to map each .fc-event to a date.
 
-        Returns list of (event_index, date_string) for non-multi-day events.
-        The calendar renders events as absolutely positioned divs inside the
-        grid; their horizontal center falls within a td.fc-day[data-date] column.
+        Returns list of (event_index, date_string, abbrev) for non-multi-day
+        events. The calendar renders events as absolutely positioned divs;
+        the event's center must fall inside the day cell on BOTH axes —
+        column-only matching collapses every week's events onto the first row.
         """
         result = page.evaluate("""
             () => {
@@ -286,7 +299,11 @@ class PJMScraper(BaseRTOScraper):
                     document.querySelectorAll('td.fc-day[data-date]')
                 ).map(td => {
                     const r = td.getBoundingClientRect();
-                    return { date: td.getAttribute('data-date'), left: r.left, right: r.right };
+                    return {
+                        date: td.getAttribute('data-date'),
+                        left: r.left, right: r.right,
+                        top: r.top, bottom: r.bottom
+                    };
                 });
 
                 const events = Array.from(document.querySelectorAll('.fc-event'));
@@ -297,25 +314,43 @@ class PJMScraper(BaseRTOScraper):
                     const r = ev.getBoundingClientRect();
                     if (r.width === 0 && r.height === 0) return;
                     const cx = (r.left + r.right) / 2;
-                    const match = tdCells.find(td => cx >= td.left && cx < td.right);
-                    if (match) mapped.push([idx, match.date]);
+                    const cy = (r.top + r.bottom) / 2;
+                    const match = tdCells.find(td =>
+                        cx >= td.left && cx < td.right &&
+                        cy >= td.top  && cy < td.bottom
+                    );
+                    if (match) mapped.push([idx, match.date, ev.innerText.trim()]);
                 });
                 return mapped;
             }
         """)
-        return [(int(idx), date) for idx, date in result]
+        return [(int(idx), date, abbrev) for idx, date, abbrev in result]
 
-    def _click_and_parse(self, page, event_idx, event_date):
+    def _click_and_parse(self, page, event_date, abbrev):
         """
-        Click the event at event_idx in .fc-event NodeList and parse the
-        expanded sidebar entry for committee name, time, and materials URL.
+        Find the .fc-event matching (event_date, abbrev) on a fresh DOM
+        spatial map, click it, and parse the expanded sidebar entry for
+        committee name, time, and materials URL.
+
+        Re-mapping per call is required because the prior click expanded a
+        sidebar that reflows the .fc-event NodeList — cached indices drift.
         """
         try:
+            fresh = self._map_events_to_dates(page)
+            event_idx = None
+            for idx, date, ev_abbrev in fresh:
+                if date == event_date and ev_abbrev == abbrev:
+                    event_idx = idx
+                    break
+
+            if event_idx is None:
+                print(f"      Could not relocate event {abbrev!r} on {event_date}")
+                return None
+
             current_events = page.query_selector_all(".fc-event")
             if event_idx >= len(current_events):
                 return None
             ev = current_events[event_idx]
-            abbrev = ev.inner_text().strip()
 
             ev.click()
             page.wait_for_timeout(800)
@@ -363,7 +398,7 @@ class PJMScraper(BaseRTOScraper):
             }
 
         except Exception as e:
-            print(f"      Error clicking event {event_idx}: {e}")
+            print(f"      Error clicking event {abbrev!r} on {event_date}: {e}")
             return None
 
     def _construct_meeting_list(self, start_date, end_date):
