@@ -22,8 +22,19 @@ Usage:
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
+
+# Load .env for local runs. override=True so a pre-set-but-empty
+# ANTHROPIC_API_KEY in the parent shell can't shadow the .env value.
+# CI sets the key directly via repo secret, so the missing-file branch
+# is fine — load_dotenv() is a no-op when no file is present.
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).parent / ".env", override=True)
+except ImportError:
+    pass
 
 sys.path.insert(0, str(Path(__file__).parent))
 from db.database import (
@@ -317,6 +328,16 @@ def main():
 
     # Initialise Anthropic client
     if not args.dry_run:
+        # Fail loudly if the key is missing — the SDK happily constructs a
+        # client with no key and only errors on first request, which gets
+        # caught by per-row exception handlers and exits 0 (green CI, no
+        # screening done). Don't let that happen again.
+        api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+        if not api_key.strip():
+            print("ERROR: ANTHROPIC_API_KEY is missing or empty.")
+            print("Set it in rto-docs/.env (local) or as a repo secret (CI).")
+            sys.exit(1)
+
         try:
             import anthropic
             client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
@@ -326,7 +347,6 @@ def main():
             sys.exit(1)
         except Exception as e:
             print(f"ERROR initialising Anthropic client: {e}")
-            print("Make sure ANTHROPIC_API_KEY is set in your environment.")
             sys.exit(1)
     else:
         client = None
