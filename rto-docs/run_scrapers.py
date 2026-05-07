@@ -13,13 +13,19 @@ from pathlib import Path
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from db.database import init_db, get_connection, get_stats, export_calendar_json
+from db.database import (
+    init_db, get_connection, get_stats,
+    export_calendar_json, export_issues_json,
+    resolve_issue_references,
+)
 
 # Import scrapers
 from scrapers.pjm_scraper import PJMScraper
 from scrapers.caiso_scraper import CAISOScraper
 from scrapers.ferc_scraper import FERCScraper
 from scrapers.isone_scraper import ISONEScraper
+from scrapers.pjm_issues_scraper import PJMIssuesScraper
+from scrapers.caiso_issues_scraper import CAISOIssuesScraper
 
 SCRAPER_REGISTRY = {
     "PJM": PJMScraper,
@@ -28,7 +34,13 @@ SCRAPER_REGISTRY = {
     "ISO-NE": ISONEScraper,
 }
 
+ISSUES_SCRAPER_REGISTRY = {
+    "PJM": PJMIssuesScraper,
+    "CAISO": CAISOIssuesScraper,
+}
+
 OUTPUT_JSON = Path(__file__).parent / "rto_events_with_docs.json"
+OUTPUT_ISSUES_JSON = Path(__file__).parent / "rto_issues.json"
 
 
 def main():
@@ -65,6 +77,18 @@ def main():
         "--output", type=str, default=str(OUTPUT_JSON),
         help=f"Output JSON path (default: {OUTPUT_JSON})",
     )
+    parser.add_argument(
+        "--no-issues", action="store_true",
+        help="Skip issue-tracking scrapers (PJM Issue Tracking, etc.)",
+    )
+    parser.add_argument(
+        "--issues-only", action="store_true",
+        help="Run only issue-tracking scrapers, skip meeting/document scraping",
+    )
+    parser.add_argument(
+        "--refresh-closed-issues", action="store_true",
+        help="Re-fetch detail pages for closed issues too (default: active only)",
+    )
 
     args = parser.parse_args()
 
@@ -91,7 +115,10 @@ def main():
 
     if args.export_only:
         conn = get_connection()
+        # Re-resolve in case docs landed after the last issues scrape
+        resolve_issue_references(conn)
         export_calendar_json(conn, args.output)
+        export_issues_json(conn, str(OUTPUT_ISSUES_JSON))
         conn.close()
         return
 
@@ -101,21 +128,32 @@ def main():
         else [args.rto]
     )
 
-    for rto_name in rtos_to_scrape:
-        scraper_class = SCRAPER_REGISTRY[rto_name]
-        scraper = scraper_class()
-        scraper.run(
-            lookback_days=args.lookback,
-            lookahead_days=args.lookahead,
-            download=not args.no_download,
-        )
+    if not args.issues_only:
+        for rto_name in rtos_to_scrape:
+            scraper_class = SCRAPER_REGISTRY[rto_name]
+            scraper = scraper_class()
+            scraper.run(
+                lookback_days=args.lookback,
+                lookahead_days=args.lookahead,
+                download=not args.no_download,
+            )
+
+    if not args.no_issues:
+        for rto_name in rtos_to_scrape:
+            issues_class = ISSUES_SCRAPER_REGISTRY.get(rto_name)
+            if issues_class is None:
+                continue
+            issues_class().run(refresh_closed=args.refresh_closed_issues)
 
     # Export JSON
     conn = get_connection()
+    resolve_issue_references(conn)
     export_calendar_json(conn, args.output)
+    export_issues_json(conn, str(OUTPUT_ISSUES_JSON))
     conn.close()
 
     print(f"\nCalendar JSON exported to: {args.output}")
+    print(f"Issues JSON exported to: {OUTPUT_ISSUES_JSON}")
 
 
 if __name__ == "__main__":

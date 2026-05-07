@@ -61,21 +61,50 @@
     return `${String(h).padStart(2, "0")}:${min}`;
   }
 
-  function buildEvent(raw, idx) {
+  // Take raw {rto, native_id, ...} stub from a doc's `issues` array and
+  // merge with the full record from rto_issues.json (which has timeline
+  // dates, etc.). If we don't have the full record, fall back to the stub.
+  function resolveIssue(stub, byKey) {
+    const key = `${stub.rto}:${stub.native_id}`;
+    return byKey.get(key) || stub;
+  }
+
+  function buildEvent(raw, idx, issuesByKey) {
     const rto = raw.rto || "Other";
     const rtoMeta = RTO_META[rto] || RTO_META.Other;
 
-    const documents = (raw.documents || []).map((d, i) => ({
-      id: `${idx}-${i}`,
-      type: d.type || "document",
-      title: d.title,
-      filename: d.filename,
-      url: d.url,
-      posted_date: d.posted_date,
-      hydro_relevant: d.hydro_relevant === true,
-      hydro_relevance_reason: d.hydro_relevance_reason || null,
-      ai_summary: d.ai_summary || null,
-    }));
+    const documents = (raw.documents || []).map((d, i) => {
+      const issues = (d.issues || []).map(s => resolveIssue(s, issuesByKey));
+      return {
+        id: `${idx}-${i}`,
+        type: d.type || "document",
+        title: d.title,
+        filename: d.filename,
+        url: d.url,
+        posted_date: d.posted_date,
+        hydro_relevant: d.hydro_relevant === true,
+        hydro_relevance_reason: d.hydro_relevance_reason || null,
+        ai_summary: d.ai_summary || null,
+        issues,
+      };
+    });
+
+    // Deduplicate issues across all sources (meeting-level + doc-level) by
+    // native_id. PJM cites individual document URLs so its issues come in
+    // through `documents[].issues`; CAISO cites per-meeting calendar URLs
+    // so its issues come in through `raw.issues` on the meeting itself.
+    const seenIssues = new Map();
+    for (const stub of (raw.issues || [])) {
+      const key = `${stub.rto}:${stub.native_id}`;
+      if (!seenIssues.has(key)) seenIssues.set(key, resolveIssue(stub, issuesByKey));
+    }
+    for (const d of documents) {
+      for (const iss of d.issues) {
+        const key = `${iss.rto}:${iss.native_id}`;
+        if (!seenIssues.has(key)) seenIssues.set(key, iss);
+      }
+    }
+    const issues = [...seenIssues.values()];
 
     const meetingHydro = raw.meeting_hydro_relevant === true;
     const hasHydroDocs = documents.some(d => d.hydro_relevant);
@@ -100,12 +129,19 @@
       documents,
       hydroDocCount: documents.filter(d => d.hydro_relevant).length,
       isRelevant: meetingHydro || hasHydroDocs,
+      issues,
+      hasIssues: issues.length > 0,
     };
   }
 
-  function buildMarketsData(rawEvents) {
+  function buildMarketsData(rawEvents, rawIssues) {
+    const issuesByKey = new Map();
+    for (const i of (rawIssues || [])) {
+      issuesByKey.set(`${i.rto}:${i.native_id}`, i);
+    }
+
     const events = rawEvents
-      .map(buildEvent)
+      .map((e, idx) => buildEvent(e, idx, issuesByKey))
       .filter(e => e.date);
 
     const today = todayIso();
@@ -130,11 +166,19 @@
   window.RTO_META = RTO_META;
 
   window.loadMarketsData = async function () {
-    const url = `../rto-docs/rto_events_with_docs.json?t=${Date.now()}`;
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`Failed to load events: ${res.status} ${res.statusText}`);
-    const raw = await res.json();
-    window.MARKETS_DATA = buildMarketsData(raw);
+    const t = Date.now();
+    const eventsUrl = `../rto-docs/rto_events_with_docs.json?t=${t}`;
+    const issuesUrl = `../rto-docs/rto_issues.json?t=${t}`;
+
+    const [eventsRes, issuesRes] = await Promise.all([
+      fetch(eventsUrl),
+      fetch(issuesUrl).catch(() => null), // optional: older deployments may lack this file
+    ]);
+    if (!eventsRes.ok) throw new Error(`Failed to load events: ${eventsRes.status} ${eventsRes.statusText}`);
+    const rawEvents = await eventsRes.json();
+    const rawIssues = (issuesRes && issuesRes.ok) ? await issuesRes.json() : [];
+
+    window.MARKETS_DATA = buildMarketsData(rawEvents, rawIssues);
     return window.MARKETS_DATA;
   };
 })();

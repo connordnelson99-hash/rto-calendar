@@ -90,6 +90,9 @@ def init_db(db_path=None):
         CREATE INDEX IF NOT EXISTS idx_scrape_log_rto
             ON scrape_log(rto, scraped_at);
     """)
+    # The issues + issue_references + caiso_event_cache tables and their
+    # indexes are created in migrate_db() so the column-add migrations and
+    # index creation happen in the right order on legacy DBs.
 
     conn.commit()
     migrate_db(conn)
@@ -210,6 +213,94 @@ def migrate_db(conn):
         if col not in mtg_existing:
             conn.execute(f"ALTER TABLE meetings ADD COLUMN {col} {col_type}")
 
+    # Tables added later — create on existing DBs that pre-date them.
+    # Schema is the *current* shape; if a DB pre-dates a column added later,
+    # the ALTER block below adds it before any index that depends on it.
+    conn.executescript("""
+        CREATE TABLE IF NOT EXISTS issues (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            rto TEXT NOT NULL,
+            native_id TEXT NOT NULL,
+            url TEXT,
+            canonical_name TEXT,
+            status TEXT,
+            stakeholder_phase TEXT,
+            committee_owner TEXT,
+            committee_owner_label TEXT,
+            is_open INTEGER,
+            annual_plan_year INTEGER,
+            initiated_date TEXT,
+            work_begins_date TEXT,
+            target_completion_date TEXT,
+            actual_completion_date TEXT,
+            facilitator TEXT,
+            sme TEXT,
+            short_title TEXT,
+            phase INTEGER,
+            eim_categories TEXT,
+            stage_a TEXT,
+            stage_b TEXT,
+            stage_c TEXT,
+            stage_d TEXT,
+            first_seen_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            last_seen_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            UNIQUE(rto, native_id)
+        );
+        CREATE TABLE IF NOT EXISTS issue_references (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            issue_id INTEGER NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+            ref_url TEXT NOT NULL,
+            ref_title TEXT,
+            matched_document_id INTEGER REFERENCES documents(id) ON DELETE SET NULL,
+            matched_meeting_id INTEGER REFERENCES meetings(id) ON DELETE SET NULL,
+            first_seen_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            last_seen_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            UNIQUE(issue_id, ref_url)
+        );
+        CREATE TABLE IF NOT EXISTS caiso_event_cache (
+            event_id TEXT PRIMARY KEY,
+            url TEXT,
+            title TEXT,
+            start_date TEXT,
+            fetched_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+    """)
+
+    # Add columns that may be missing on a pre-existing DB. Must happen
+    # BEFORE we create indexes that reference them.
+    issue_existing = {
+        row[1] for row in conn.execute("PRAGMA table_info(issues)").fetchall()
+    }
+    issue_additions = [
+        ("short_title",     "TEXT"),
+        ("phase",           "INTEGER"),
+        ("eim_categories",  "TEXT"),
+        ("stage_a",         "TEXT"),
+        ("stage_b",         "TEXT"),
+        ("stage_c",         "TEXT"),
+        ("stage_d",         "TEXT"),
+    ]
+    for col, col_type in issue_additions:
+        if col not in issue_existing:
+            conn.execute(f"ALTER TABLE issues ADD COLUMN {col} {col_type}")
+
+    ref_existing = {
+        row[1] for row in conn.execute("PRAGMA table_info(issue_references)").fetchall()
+    }
+    if "matched_meeting_id" not in ref_existing:
+        conn.execute("ALTER TABLE issue_references ADD COLUMN matched_meeting_id INTEGER")
+
+    conn.executescript("""
+        CREATE INDEX IF NOT EXISTS idx_issues_rto_status
+            ON issues(rto, status);
+        CREATE INDEX IF NOT EXISTS idx_issue_refs_url
+            ON issue_references(ref_url);
+        CREATE INDEX IF NOT EXISTS idx_issue_refs_doc
+            ON issue_references(matched_document_id);
+        CREATE INDEX IF NOT EXISTS idx_issue_refs_meeting
+            ON issue_references(matched_meeting_id);
+    """)
+
     conn.commit()
 
 
@@ -246,6 +337,134 @@ def save_ai_screening(conn, doc_id, hydro_relevant, reason, summary=None):
         WHERE id = ?
     """, (1 if hydro_relevant else 0, reason, summary, doc_id))
     conn.commit()
+
+
+def upsert_issue(conn, rto, native_id, **fields):
+    """
+    Insert or update an issue. Returns the issue ID.
+
+    `fields` may contain any column from the issues table other than
+    rto, native_id, id, first_seen_at. None values are coalesced so a
+    partial update doesn't blank out previously-stored data.
+    """
+    allowed = {
+        "url", "canonical_name", "status", "stakeholder_phase",
+        "committee_owner", "committee_owner_label",
+        "is_open", "annual_plan_year",
+        "initiated_date", "work_begins_date",
+        "target_completion_date", "actual_completion_date",
+        "facilitator", "sme",
+        "short_title", "phase", "eim_categories",
+        "stage_a", "stage_b", "stage_c", "stage_d",
+    }
+    cols, vals = [], []
+    for k, v in fields.items():
+        if k in allowed:
+            cols.append(k)
+            vals.append(v)
+
+    insert_cols = ["rto", "native_id"] + cols
+    placeholders = ",".join("?" * len(insert_cols))
+    update_set = ",\n            ".join(
+        f"{c} = COALESCE(excluded.{c}, {c})" for c in cols
+    )
+    sql = f"""
+        INSERT INTO issues ({",".join(insert_cols)})
+        VALUES ({placeholders})
+        ON CONFLICT(rto, native_id) DO UPDATE SET
+            {update_set + ',' if update_set else ''}
+            last_seen_at = CURRENT_TIMESTAMP
+    """
+    conn.execute(sql, [rto, native_id] + vals)
+    conn.commit()
+
+    row = conn.execute(
+        "SELECT id FROM issues WHERE rto=? AND native_id=?",
+        (rto, native_id),
+    ).fetchone()
+    return row["id"]
+
+
+def upsert_issue_reference(conn, issue_id, ref_url, ref_title=None):
+    """Insert or update an issue→URL reference. Returns the row ID."""
+    conn.execute("""
+        INSERT INTO issue_references (issue_id, ref_url, ref_title)
+        VALUES (?, ?, ?)
+        ON CONFLICT(issue_id, ref_url) DO UPDATE SET
+            ref_title = COALESCE(excluded.ref_title, ref_title),
+            last_seen_at = CURRENT_TIMESTAMP
+    """, (issue_id, ref_url, ref_title))
+    conn.commit()
+    row = conn.execute(
+        "SELECT id FROM issue_references WHERE issue_id=? AND ref_url=?",
+        (issue_id, ref_url),
+    ).fetchone()
+    return row["id"]
+
+
+def resolve_issue_references(conn):
+    """
+    Match issue_references.ref_url against both documents.download_url and
+    meetings.detail_url, populating matched_document_id and matched_meeting_id
+    respectively. Returns dict with counts.
+
+    PJM cites individual document URLs, so its references resolve via the
+    documents path. CAISO cites per-meeting calendar URLs, so its references
+    resolve via the meetings path. The same reference table handles both.
+
+    Idempotent: re-running picks up newly-arrived rows on either side.
+    """
+    conn.execute("""
+        UPDATE issue_references
+        SET matched_document_id = (
+            SELECT d.id FROM documents d
+            WHERE d.download_url = issue_references.ref_url
+            LIMIT 1
+        )
+        WHERE matched_document_id IS NULL
+    """)
+    conn.execute("""
+        UPDATE issue_references
+        SET matched_meeting_id = (
+            SELECT m.id FROM meetings m
+            WHERE m.detail_url = issue_references.ref_url
+            LIMIT 1
+        )
+        WHERE matched_meeting_id IS NULL
+    """)
+    conn.commit()
+    doc_matched = conn.execute(
+        "SELECT COUNT(*) c FROM issue_references WHERE matched_document_id IS NOT NULL"
+    ).fetchone()["c"]
+    mtg_matched = conn.execute(
+        "SELECT COUNT(*) c FROM issue_references WHERE matched_meeting_id IS NOT NULL"
+    ).fetchone()["c"]
+    unmatched = conn.execute(
+        "SELECT COUNT(*) c FROM issue_references "
+        "WHERE matched_document_id IS NULL AND matched_meeting_id IS NULL"
+    ).fetchone()["c"]
+    return {"doc_matched": doc_matched, "meeting_matched": mtg_matched, "unmatched": unmatched}
+
+
+def cache_caiso_event(conn, event_id, url, title=None, start_date=None):
+    """Stash a resolved CAISO event-id → url mapping so we don't re-fetch."""
+    conn.execute("""
+        INSERT INTO caiso_event_cache (event_id, url, title, start_date)
+        VALUES (?, ?, ?, ?)
+        ON CONFLICT(event_id) DO UPDATE SET
+            url = excluded.url,
+            title = COALESCE(excluded.title, title),
+            start_date = COALESCE(excluded.start_date, start_date)
+    """, (event_id, url, title, start_date))
+    conn.commit()
+
+
+def get_cached_caiso_event(conn, event_id):
+    """Return cached row for an event id, or None."""
+    return conn.execute(
+        "SELECT url, title, start_date FROM caiso_event_cache WHERE event_id = ?",
+        (event_id,),
+    ).fetchone()
 
 
 def get_stats(conn):
@@ -285,6 +504,17 @@ def export_calendar_json(conn, output_path=None):
 
     events = []
     for row in rows:
+        # Initiatives linked at the meeting level (CAISO uses this path).
+        meeting_issues = conn.execute("""
+            SELECT i.rto, i.native_id, i.canonical_name,
+                   i.status, i.stakeholder_phase,
+                   i.committee_owner, i.is_open, i.url
+            FROM issue_references ir
+            JOIN issues i ON i.id = ir.issue_id
+            WHERE ir.matched_meeting_id = ?
+            ORDER BY i.canonical_name
+        """, (row["id"],)).fetchall()
+
         event = {
             "title": row["title"],
             "date": row["meeting_date"],
@@ -296,6 +526,7 @@ def export_calendar_json(conn, output_path=None):
             "materials_url": row["materials_url"],
             "meeting_hydro_relevant": bool(row["hydro_relevant"]) if row["hydro_relevant"] is not None else None,
             "meeting_hydro_reason": row["hydro_relevance_reason"],
+            "issues": [dict(r) for r in meeting_issues],
             "documents": [],
         }
 
@@ -306,6 +537,15 @@ def export_calendar_json(conn, output_path=None):
                     "SELECT * FROM documents WHERE id=?", (did,)
                 ).fetchone()
                 if doc:
+                    issue_rows = conn.execute("""
+                        SELECT i.rto, i.native_id, i.canonical_name,
+                               i.status, i.stakeholder_phase,
+                               i.committee_owner, i.is_open, i.url
+                        FROM issue_references ir
+                        JOIN issues i ON i.id = ir.issue_id
+                        WHERE ir.matched_document_id = ?
+                        ORDER BY i.canonical_name
+                    """, (doc["id"],)).fetchall()
                     event["documents"].append({
                         "type": doc["doc_type"],
                         "title": doc["title"],
@@ -315,6 +555,7 @@ def export_calendar_json(conn, output_path=None):
                         "hydro_relevant": bool(doc["hydro_relevant"]) if doc["hydro_relevant"] is not None else None,
                         "hydro_relevance_reason": doc["hydro_relevance_reason"],
                         "ai_summary": doc["ai_summary"],
+                        "issues": [dict(r) for r in issue_rows],
                     })
 
         events.append(event)
@@ -325,6 +566,31 @@ def export_calendar_json(conn, output_path=None):
         print(f"Exported {len(events)} events to {output_path}")
 
     return events
+
+
+def export_issues_json(conn, output_path=None):
+    """Export issues with reference counts as JSON for the web UI."""
+    rows = conn.execute("""
+        SELECT i.*,
+               (SELECT COUNT(*) FROM issue_references ir
+                WHERE ir.issue_id = i.id) AS total_refs,
+               (SELECT COUNT(*) FROM issue_references ir
+                WHERE ir.issue_id = i.id
+                  AND ir.matched_document_id IS NOT NULL) AS matched_refs
+        FROM issues i
+        ORDER BY i.is_open DESC, i.rto, i.canonical_name
+    """).fetchall()
+
+    issues = [dict(r) for r in rows]
+    for issue in issues:
+        issue["is_open"] = bool(issue["is_open"]) if issue["is_open"] is not None else None
+
+    if output_path:
+        with open(output_path, "w") as f:
+            json.dump(issues, f, indent=2)
+        print(f"Exported {len(issues)} issues to {output_path}")
+
+    return issues
 
 
 if __name__ == "__main__":

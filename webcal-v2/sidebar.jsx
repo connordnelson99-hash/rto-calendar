@@ -24,6 +24,7 @@ const Sidebar = ({ filters, setFilters, events, today, weekEnd, digestCount }) =
   const navItems = [
     { id: "all", label: "All meetings", icon: "calendar", count: events.length },
     { id: "hydro", label: "Hydro-relevant", icon: "drop", count: events.filter(e => e.isRelevant).length },
+    { id: "initiative", label: "Initiative-linked", icon: "target", count: events.filter(e => e.hasIssues).length },
     { id: "today", label: "This week", icon: "clock", count: thisWeekCount },
     { id: "digest", label: "Morning digest", icon: "inbox", count: digestCount },
   ];

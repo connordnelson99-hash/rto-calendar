@@ -53,6 +53,7 @@ function App() {
     if (!data) return [];
     return data.events.filter(e => {
       if (filters.view === "hydro" && !e.isRelevant) return false;
+      if (filters.view === "initiative" && !e.hasIssues) return false;
       if (filters.view === "today" && (e.date < data.today || e.date > data.weekEnd)) return false;
       if (filters.rto !== "all" && e.rto !== filters.rto) return false;
       if (filters.q) {
@@ -147,6 +148,13 @@ function App() {
                 <span className="x">×</span>
               </span>
             )}
+            {filters.view === "initiative" && (
+              <span className="filter-chip active initiative" onClick={() => setFilters({...filters, view: "all"})}>
+                <Icon name="target" size={11}/>
+                Initiative-linked only
+                <span className="x">×</span>
+              </span>
+            )}
             {filters.q && (
               <span className="filter-chip active" onClick={() => setFilters({...filters, q: ""})}>
                 "{filters.q}"
@@ -158,6 +166,8 @@ function App() {
             <div className="toolbar-spacer"/>
             <span className="toolbar-meta">
               <strong>{filteredEvents.filter(e=>e.isRelevant).length}</strong> hydro-relevant
+              {" "}·{" "}
+              <strong className="initiative-count">{filteredEvents.filter(e=>e.hasIssues).length}</strong> initiative-linked
               {" "}·{" "}
               {filteredEvents.length} of {data.events.length} meetings
             </span>
