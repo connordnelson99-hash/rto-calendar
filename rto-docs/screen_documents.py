@@ -40,6 +40,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from db.database import (
     get_connection, init_db,
     save_meeting_screening, save_ai_screening,
+    save_document_stakeholders,
 )
 
 # ── Shared system prompt ────────────────────────────────────────────────────
@@ -88,7 +89,8 @@ Answer in exactly this JSON format (no other text):
 
 DOCUMENT_PROMPT = """\
 Evaluate whether this RTO/ISO document contains content relevant to the
-hydropower and pumped-storage industry.
+hydropower and pumped-storage industry, and identify the named stakeholders
+who authored or are listed as contacts on it.
 
 Document metadata:
   RTO: {rto}
@@ -106,8 +108,25 @@ Answer in exactly this JSON format (no other text):
 {{
   "relevant": true or false,
   "reason": "one sentence explaining why or why not",
-  "summary": "if relevant, 2-3 sentence summary of what matters for hydro; otherwise null"
+  "summary": "if relevant, 2-3 sentence summary of what matters for hydro; otherwise null",
+  "stakeholders": [
+    {{
+      "name": "<full name as it appears>",
+      "entity": "<company/org/agency they represent, e.g. Constellation, NRG, PJM>",
+      "role": "<author | co-author | contact | presenter | signatory | sponsor>",
+      "email": "<email address ONLY if it appears verbatim in the text; otherwise null>"
+    }}
+  ]
 }}
+
+Stakeholder extraction rules:
+- Include named individuals from cover pages, "submitted by" lines, "contact:" blocks,
+  signature blocks, author lists, and presenter credits.
+- Prefer external stakeholders (utilities, advocacy groups, trade associations,
+  consultancies) over RTO/ISO staff, but include both.
+- Do NOT invent or guess email addresses. If an address isn't shown, set email to null.
+- Do NOT include people merely mentioned in passing (e.g. names cited in a footnote).
+- Return an empty array [] if no contributors are identifiable.
 """
 
 MAX_DOC_CHARS = 8000  # larger window to get past boilerplate cover pages
@@ -162,7 +181,7 @@ def screen_meeting(client, meeting_row, dry_run=False):
 def screen_document(client, doc_row, dry_run=False):
     """
     Stage 2: Screen a document by title + text excerpt.
-    Returns (relevant: bool, reason: str, summary: str|None).
+    Returns (relevant: bool, reason: str, summary: str|None, stakeholders: list).
     """
     text = doc_row["extracted_text"] or ""
     excerpt = text[:MAX_DOC_CHARS].strip()
@@ -180,17 +199,23 @@ def screen_document(client, doc_row, dry_run=False):
     if dry_run:
         print(f"\n--- DRY RUN (doc {doc_row['id']}) ---")
         print(prompt[:600], "...")
-        return True, "dry-run", None
+        return True, "dry-run", None, []
 
     try:
-        result = _call_claude(client, prompt, max_tokens=384)
+        # Larger budget than the old 384 to fit the new stakeholders array.
+        # Most docs have 0-3 stakeholders; a few PJM matrices list 10+.
+        result = _call_claude(client, prompt, max_tokens=900)
+        stakeholders = result.get("stakeholders") or []
+        if not isinstance(stakeholders, list):
+            stakeholders = []
         return (
             bool(result.get("relevant", False)),
             result.get("reason", ""),
             result.get("summary"),
+            stakeholders,
         )
     except json.JSONDecodeError as e:
-        return False, f"parse error: {e}", None
+        return False, f"parse error: {e}", None, []
 
 
 # ── Stage runners ────────────────────────────────────────────────────────────
@@ -248,7 +273,10 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200, dry_run
     params = []
 
     if not rescreen:
-        where.append("d.ai_processed_at IS NULL")
+        # Re-run if either gate is unset. Existing pre-stakeholder docs
+        # have ai_processed_at set but stakeholders_extracted_at IS NULL,
+        # so this naturally backfills the stakeholder column on next run.
+        where.append("(d.ai_processed_at IS NULL OR d.stakeholders_extracted_at IS NULL)")
     if rto_filter:
         where.append("d.rto = ?")
         params.append(rto_filter.upper())
@@ -276,6 +304,7 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200, dry_run
 
     relevant_count = 0
     error_count = 0
+    stakeholder_count = 0
 
     for i, doc in enumerate(docs, 1):
         label = (doc["title"] or doc["filename"] or "untitled")[:60]
@@ -284,17 +313,23 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200, dry_run
         print(f"  [{i}/{len(docs)}] {doc['rto']} | {label} ({text_note})", end=" ... ", flush=True)
 
         try:
-            relevant, reason, summary = screen_document(client, doc, dry_run)
+            relevant, reason, summary, stakeholders = screen_document(client, doc, dry_run)
             save_ai_screening(conn, doc["id"], relevant, reason, summary)
+            save_document_stakeholders(
+                conn, doc["id"], stakeholders, source_text=doc["extracted_text"]
+            )
+            stakeholder_count += len(stakeholders)
             flag = "YES" if relevant else "no"
-            print(f"{flag} — {reason[:80]}")
+            extras = f", {len(stakeholders)} stakeholders" if stakeholders else ""
+            print(f"{flag}{extras} — {reason[:80]}")
             if relevant:
                 relevant_count += 1
         except Exception as e:
             print(f"ERROR: {e}")
             error_count += 1
 
-    print(f"\n  Stage 2 complete: {relevant_count}/{len(docs)} documents flagged as relevant")
+    print(f"\n  Stage 2 complete: {relevant_count}/{len(docs)} documents flagged as relevant; "
+          f"{stakeholder_count} stakeholders extracted")
     return relevant_count, error_count
 
 

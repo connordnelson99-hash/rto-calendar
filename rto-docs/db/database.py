@@ -189,12 +189,13 @@ def migrate_db(conn):
         row[1] for row in conn.execute("PRAGMA table_info(documents)").fetchall()
     }
     doc_additions = [
-        ("extracted_text",        "TEXT"),
-        ("extracted_at",          "TIMESTAMP"),
-        ("hydro_relevant",        "INTEGER"),
-        ("hydro_relevance_reason","TEXT"),
-        ("ai_summary",            "TEXT"),
-        ("ai_processed_at",       "TIMESTAMP"),
+        ("extracted_text",            "TEXT"),
+        ("extracted_at",              "TIMESTAMP"),
+        ("hydro_relevant",            "INTEGER"),
+        ("hydro_relevance_reason",    "TEXT"),
+        ("ai_summary",                "TEXT"),
+        ("ai_processed_at",           "TIMESTAMP"),
+        ("stakeholders_extracted_at", "TIMESTAMP"),
     ]
     for col, col_type in doc_additions:
         if col not in doc_existing:
@@ -264,6 +265,20 @@ def migrate_db(conn):
             start_date TEXT,
             fetched_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
+        CREATE TABLE IF NOT EXISTS document_stakeholders (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            document_id INTEGER NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
+            name TEXT NOT NULL,
+            entity TEXT,
+            role TEXT,
+            email TEXT,
+            first_seen_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            UNIQUE(document_id, name, entity)
+        );
+        CREATE INDEX IF NOT EXISTS idx_doc_stakeholders_doc
+            ON document_stakeholders(document_id);
+        CREATE INDEX IF NOT EXISTS idx_doc_stakeholders_entity
+            ON document_stakeholders(entity);
     """)
 
     # Add columns that may be missing on a pre-existing DB. Must happen
@@ -446,6 +461,55 @@ def resolve_issue_references(conn):
     return {"doc_matched": doc_matched, "meeting_matched": mtg_matched, "unmatched": unmatched}
 
 
+def save_document_stakeholders(conn, doc_id, stakeholders, source_text=None):
+    """
+    Replace the stakeholder rows for a document with the provided list.
+
+    `stakeholders` is a list of dicts with name/entity/role/email keys.
+    Each `email` is verified against `source_text` (case-insensitive
+    substring) before being stored — Haiku occasionally fabricates a
+    plausible-looking address when given a name + employer, so we drop
+    any email that isn't actually present in the document.
+
+    Always sets `documents.stakeholders_extracted_at` so the gate logic
+    in screen_documents.py knows we've processed this doc, even if no
+    stakeholders were found.
+    """
+    cursor = conn.cursor()
+    cursor.execute(
+        "DELETE FROM document_stakeholders WHERE document_id = ?",
+        (doc_id,),
+    )
+
+    haystack = (source_text or "").lower()
+    for s in (stakeholders or []):
+        name = (s.get("name") or "").strip()
+        if not name:
+            continue
+        entity = (s.get("entity") or "").strip() or None
+        role = (s.get("role") or "").strip().lower() or None
+        email = (s.get("email") or "").strip() or None
+        # Verify the email substring actually appears in the doc text;
+        # otherwise treat it as a hallucination and drop just the email.
+        if email and (not haystack or email.lower() not in haystack):
+            email = None
+        try:
+            cursor.execute("""
+                INSERT INTO document_stakeholders (document_id, name, entity, role, email)
+                VALUES (?, ?, ?, ?, ?)
+            """, (doc_id, name, entity, role, email))
+        except sqlite3.IntegrityError:
+            # Same (doc, name, entity) combo from a duplicated record;
+            # silently skip rather than crash the screening pass.
+            pass
+
+    cursor.execute(
+        "UPDATE documents SET stakeholders_extracted_at = CURRENT_TIMESTAMP WHERE id = ?",
+        (doc_id,),
+    )
+    conn.commit()
+
+
 def cache_caiso_event(conn, event_id, url, title=None, start_date=None):
     """Stash a resolved CAISO event-id → url mapping so we don't re-fetch."""
     conn.execute("""
@@ -546,6 +610,12 @@ def export_calendar_json(conn, output_path=None):
                         WHERE ir.matched_document_id = ?
                         ORDER BY i.canonical_name
                     """, (doc["id"],)).fetchall()
+                    stakeholder_rows = conn.execute("""
+                        SELECT name, entity, role, email
+                        FROM document_stakeholders
+                        WHERE document_id = ?
+                        ORDER BY entity, name
+                    """, (doc["id"],)).fetchall()
                     event["documents"].append({
                         "type": doc["doc_type"],
                         "title": doc["title"],
@@ -556,6 +626,7 @@ def export_calendar_json(conn, output_path=None):
                         "hydro_relevance_reason": doc["hydro_relevance_reason"],
                         "ai_summary": doc["ai_summary"],
                         "issues": [dict(r) for r in issue_rows],
+                        "stakeholders": [dict(r) for r in stakeholder_rows],
                     })
 
         events.append(event)

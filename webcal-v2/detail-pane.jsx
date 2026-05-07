@@ -188,8 +188,60 @@ const InitiativeCard = ({ issue }) => {
   );
 };
 
+// Different cover pages reference the same company under slightly different
+// names (e.g. "Constellation" vs "Constellation Energy Generation, LLC";
+// "PJM" vs "PJM Interconnection"). Normalize to one canonical display name
+// so they collapse into a single group.
+const ENTITY_ALIASES = {
+  "pjm interconnection":               "PJM",
+  "pjm interconnection l.l.c":         "PJM",
+  "pjm interconnection llc":           "PJM",
+  "constellation energy":              "Constellation",
+  "constellation energy generation":   "Constellation",
+  "constellation power":               "Constellation",
+  "exelon generation":                 "Exelon",
+  "duke energy ohio":                  "Duke Energy",
+  "duke energy ohio & kentucky":       "Duke Energy",
+  "duke energy carolinas":             "Duke Energy",
+  "first energy":                      "FirstEnergy",
+  "ferc":                              "FERC",
+};
+const ENTITY_SUFFIX_RE =
+  /[,.]?\s+(?:l\.?l\.?c\.?|llc|inc\.?|incorporated|corp\.?|corporation|co\.?|company|ltd\.?|limited|l\.?p\.?|llp|holdings?|group)\s*$/i;
+function normalizeEntity(name) {
+  if (!name) return null;
+  // Strip trailing parenthetical abbreviation: "Foo Bar (FB)" -> "Foo Bar"
+  let n = String(name).trim().replace(/\s*\([^)]+\)\s*$/g, "").trim();
+  // Strip a single trailing corporate suffix
+  n = n.replace(ENTITY_SUFFIX_RE, "").trim();
+  // Apply alias map (lowercased lookup)
+  const aliased = ENTITY_ALIASES[n.toLowerCase()];
+  return aliased || n || null;
+}
+
+// Group a document's stakeholders by entity for compact display.
+// Returns [{entity, people: [{name, role, email}, ...]}]
+function groupStakeholdersByEntity(stakeholders) {
+  const byEntity = new Map();
+  for (const s of (stakeholders || [])) {
+    const key = normalizeEntity(s.entity) || "Unaffiliated";
+    if (!byEntity.has(key)) byEntity.set(key, []);
+    byEntity.get(key).push(s);
+  }
+  return [...byEntity.entries()]
+    .map(([entity, people]) => ({ entity, people }))
+    .sort((a, b) => a.entity.localeCompare(b.entity));
+}
+
 const DocCard = ({ d, event, onOpenDoc }) => {
   const isHydro = d.hydro_relevant;
+  const stakeholderEntities = [
+    ...new Set(
+      (d.stakeholders || [])
+        .map(s => normalizeEntity(s.entity))
+        .filter(Boolean)
+    )
+  ];
   return (
     <div className={"doc-card" + (isHydro ? " hydro" : "")} onClick={() => onOpenDoc(d, event)}>
       <div className={"doc-icon" + (isHydro ? " hydro" : "")}>PDF</div>
@@ -206,6 +258,13 @@ const DocCard = ({ d, event, onOpenDoc }) => {
           <span style={{ textTransform: "capitalize" }}>{d.type}</span>
           {d.filename && <><span>·</span><span>{d.filename}</span></>}
         </div>
+        {stakeholderEntities.length > 0 && (
+          <div className="doc-sponsors">
+            <Icon name="users" size={11}/>
+            {stakeholderEntities.slice(0, 3).join(" · ")}
+            {stakeholderEntities.length > 3 && ` +${stakeholderEntities.length - 3} more`}
+          </div>
+        )}
         {d.ai_summary && (
           <div className="doc-summary" style={isHydro ? null : { color: "var(--text-muted)" }}>
             {d.ai_summary}
@@ -225,6 +284,56 @@ const DocCard = ({ d, event, onOpenDoc }) => {
     </div>
   );
 };
+
+// Aggregate a meeting's stakeholders across all its docs.
+// Dedup by normalized (entity, name); collapse the email if any doc has one;
+// remember which doc(s) each person appeared on. Skip rows where the
+// "name" is just the entity name itself (Haiku occasionally does this on
+// docs that have an org seal but no individual signatory).
+function aggregateMeetingStakeholders(documents) {
+  const map = new Map();
+  for (const d of (documents || [])) {
+    for (const s of (d.stakeholders || [])) {
+      const name = (s.name || "").trim();
+      if (!name) continue;
+      const normEntity = normalizeEntity(s.entity);
+      // Drop name-as-entity artifacts.
+      if (normEntity && name.toLowerCase() === normEntity.toLowerCase()) continue;
+      // Also catch cases where the raw entity == name (un-normalized).
+      if (s.entity && name.toLowerCase() === String(s.entity).toLowerCase()) continue;
+
+      const key = `${(normEntity || "").toLowerCase()}::${name.toLowerCase()}`;
+      const existing = map.get(key);
+      if (existing) {
+        if (s.email && !existing.email) existing.email = s.email;
+        if (s.role && !existing.roles.includes(s.role)) existing.roles.push(s.role);
+        if (!existing.docs.find(x => x.id === d.id)) {
+          existing.docs.push({ id: d.id, title: d.title });
+        }
+      } else {
+        map.set(key, {
+          name, entity: normEntity || null,
+          email: s.email || null,
+          roles: s.role ? [s.role] : [],
+          docs: [{ id: d.id, title: d.title }],
+        });
+      }
+    }
+  }
+  // Group by entity, sort entities by person count desc.
+  const byEntity = new Map();
+  for (const p of map.values()) {
+    const key = p.entity || "Unaffiliated";
+    if (!byEntity.has(key)) byEntity.set(key, []);
+    byEntity.get(key).push(p);
+  }
+  return [...byEntity.entries()]
+    .map(([entity, people]) => ({
+      entity,
+      people: people.sort((a, b) => a.name.localeCompare(b.name)),
+    }))
+    .sort((a, b) => b.people.length - a.people.length || a.entity.localeCompare(b.entity));
+}
 
 const DetailPane = ({ event, onClose, onOpenDoc }) => {
   // Hooks must run in the same order on every render — declare before the
@@ -246,12 +355,18 @@ const DetailPane = ({ event, onClose, onOpenDoc }) => {
     if (url) window.open(url, "_blank", "noopener");
   };
 
+  const stakeholderGroups = aggregateMeetingStakeholders(e.documents);
+  const stakeholderCount = stakeholderGroups.reduce((n, g) => n + g.people.length, 0);
+
   const tabs = [];
   if (e.issues && e.issues.length > 0) {
     tabs.push({ id: "initiatives", label: "Initiatives", icon: "target", count: e.issues.length });
   }
   if (e.documents.length > 0) {
     tabs.push({ id: "docs", label: "Documents", icon: "folder", count: e.documents.length });
+  }
+  if (stakeholderCount > 0) {
+    tabs.push({ id: "stakeholders", label: "Stakeholders", icon: "users", count: stakeholderCount });
   }
   // If the previously-selected tab is invalid for this event (e.g. user
   // opened an event without initiatives after viewing one with them), fall
@@ -367,6 +482,40 @@ const DetailPane = ({ event, onClose, onOpenDoc }) => {
                   {otherDocs.map(d => <DocCard key={d.id} d={d} event={e} onOpenDoc={onOpenDoc}/>)}
                 </>
               )}
+            </div>
+          )}
+
+          {activeTab === "stakeholders" && (
+            <div className="tab-panel">
+              <div className="stakeholders-hint">
+                Authors and contacts named on this meeting's documents.
+                {" "}Emails are extracted only when they appear verbatim on the doc.
+              </div>
+              {stakeholderGroups.map(group => (
+                <div key={group.entity} className="stakeholder-group">
+                  <div className="stakeholder-entity">
+                    {group.entity}
+                    <span className="stakeholder-entity-count">{group.people.length}</span>
+                  </div>
+                  {group.people.map(p => (
+                    <div key={`${p.entity || ""}::${p.name}`} className="stakeholder-person">
+                      <div className="stakeholder-name">{p.name}</div>
+                      {p.roles.length > 0 && (
+                        <div className="stakeholder-roles">
+                          {p.roles.map(r => (
+                            <span key={r} className="stakeholder-role">{r}</span>
+                          ))}
+                        </div>
+                      )}
+                      {p.email && (
+                        <a className="stakeholder-email" href={`mailto:${p.email}`}>
+                          <Icon name="external" size={10}/>{p.email}
+                        </a>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              ))}
             </div>
           )}
 

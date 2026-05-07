@@ -1438,6 +1438,97 @@ input, select, textarea { font-family: inherit; color: inherit; }
   font-weight: 600;
 }
 
+/* ── Stakeholders (doc card line + tab panel) ─────────────── */
+
+.doc-sponsors {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  margin-top: 4px;
+  font-weight: 500;
+}
+.doc-sponsors svg { color: var(--text-soft); flex-shrink: 0; }
+
+.stakeholders-hint {
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  margin-bottom: var(--sp-4);
+  line-height: 1.5;
+}
+.stakeholder-group {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--sp-3) var(--sp-4);
+  margin-bottom: var(--sp-3);
+  background: var(--bg);
+}
+.stakeholder-group:last-child { margin-bottom: 0; }
+.stakeholder-entity {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: var(--fs-base);
+  margin-bottom: var(--sp-3);
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text);
+}
+.stakeholder-entity-count {
+  font-size: var(--fs-xs);
+  background: var(--bg-sunken);
+  color: var(--text-muted);
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+
+.stakeholder-person {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  padding: 5px 0;
+  font-size: var(--fs-sm);
+}
+.stakeholder-person + .stakeholder-person {
+  border-top: 1px dashed var(--border-subtle);
+}
+.stakeholder-name {
+  font-weight: 500;
+  color: var(--text);
+}
+.stakeholder-roles {
+  display: inline-flex;
+  gap: 4px;
+}
+.stakeholder-role {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  background: var(--bg-sunken);
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.stakeholder-email {
+  margin-left: auto;
+  font-size: var(--fs-xs);
+  color: var(--accent);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-family: var(--font-mono, monospace);
+  word-break: break-all;
+}
+.stakeholder-email:hover { text-decoration: underline; }
+.stakeholder-email svg { flex-shrink: 0; }
+
 .doc-card {
   display: grid;
   grid-template-columns: 32px 1fr auto;

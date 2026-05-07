@@ -86,6 +86,7 @@
         hydro_relevance_reason: d.hydro_relevance_reason || null,
         ai_summary: d.ai_summary || null,
         issues,
+        stakeholders: d.stakeholders || [],
       };
     });
 
