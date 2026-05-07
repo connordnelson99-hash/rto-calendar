@@ -2,11 +2,13 @@ name: Scrape RTO docs
 
 on:
   schedule:
-    # Main scrape: 1st and 15th at 11:00 UTC (~6 AM ET standard / 7 AM ET DST)
-    - cron: '0 11 1,15 * *'
-    # Revisit: 8th and 22nd — narrower window to pick up materials that
-    # PJM (and others) post after the main run captured an empty meeting.
-    - cron: '0 11 8,22 * *'
+    # Daily scrape: 11:00 UTC (~6 AM ET standard / 7 AM ET DST). Daily
+    # cadence catches late-added meetings (especially CAISO) within a day,
+    # which matters now that meetings can fire "Initiative-linked" tags
+    # via the cross-reference scraper. Screening is gated on
+    # meeting_screened_at IS NULL / ai_processed_at IS NULL so we only
+    # spend Claude API on newly-discovered items.
+    - cron: '0 11 * * *'
   workflow_dispatch:        # manual run from the Actions tab
 
 permissions:
@@ -41,12 +43,7 @@ jobs:
 
       - name: Scrape (download PDFs + extract text into DB)
         working-directory: rto-docs
-        run: |
-          if [ "${{ github.event.schedule }}" = "0 11 8,22 * *" ]; then
-            python run_scrapers.py --lookback 7 --lookahead 7
-          else
-            python run_scrapers.py --lookback 16 --lookahead 16
-          fi
+        run: python run_scrapers.py --lookback 16 --lookahead 16
 
       - name: Screen meetings + documents (Claude)
         working-directory: rto-docs
@@ -60,7 +57,7 @@ jobs:
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add rto-docs/db/rto_documents.db rto-docs/rto_events_with_docs.json
+          git add rto-docs/db/rto_documents.db rto-docs/rto_events_with_docs.json rto-docs/rto_issues.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
