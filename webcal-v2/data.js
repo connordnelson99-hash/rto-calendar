@@ -148,11 +148,12 @@
     const today = todayIso();
     const weekEnd = addDaysIso(today, 6);
 
-    // Morning digest: hydro-relevant items in the next 7 days
+    // Morning digest: every hydro-relevant item in the next 7 days. The
+    // popup uses the count for its headline/stat boxes and shows a Top-N
+    // preview list; the export button serializes the full set.
     const digestItems = events
       .filter(e => e.isRelevant && e.date >= today && e.date <= weekEnd)
-      .sort((a, b) => a.date.localeCompare(b.date))
-      .slice(0, 6);
+      .sort((a, b) => a.date.localeCompare(b.date));
 
     return {
       events,
@@ -163,6 +164,130 @@
       digestItems,
     };
   }
+
+  // Markdown export of the morning digest. Same hydro+next-7-days filter
+  // as the popup, but uncapped and with full ai_summary/stakeholder/issue
+  // detail. Designed to be pasted into a desktop Claude session that
+  // already knows how to turn it into an email digest.
+  function buildDigestMarkdown(data) {
+    const items = (data && data.digestItems) || [];
+    const today = data && data.today;
+    const weekStart = data && data.weekStart;
+    const weekEnd = data && data.weekEnd;
+
+    const todayLong = formatDateLong(today);
+    const weekStartLong = formatDateLong(weekStart);
+    const weekEndLong = formatDateLong(weekEnd);
+
+    const out = [];
+    out.push(`# RTO Hydro Digest — Week of ${weekStartLong}`);
+    out.push("");
+    out.push(`_Generated ${todayLong}. Window: ${weekStartLong} – ${weekEndLong}._`);
+    out.push("");
+
+    if (items.length === 0) {
+      out.push("No hydro-relevant meetings flagged in this window.");
+      return out.join("\n");
+    }
+
+    const totalDocs = items.reduce((s, e) => s + e.documents.length, 0);
+    const totalHydroDocs = items.reduce((s, e) => s + e.hydroDocCount, 0);
+    const rtos = Array.from(new Set(items.map(e => e.rtoMeta.label))).sort();
+
+    out.push(
+      `**${items.length} hydro-relevant meeting${items.length === 1 ? "" : "s"}** ` +
+      `across ${rtos.join(", ")}. ` +
+      `${totalHydroDocs} hydro-flagged document${totalHydroDocs === 1 ? "" : "s"} ` +
+      `of ${totalDocs} total.`
+    );
+    out.push("");
+
+    items.forEach((e, i) => {
+      out.push("---");
+      out.push("");
+      out.push(`## ${i + 1}. ${e.rtoMeta.label} — ${e.title}`);
+      out.push("");
+      const dateLine = e.timeFmt ? `${e.dateRaw} · ${e.timeFmt}` : e.dateRaw;
+      out.push(`- **Date:** ${dateLine}`);
+      if (e.committee) out.push(`- **Committee:** ${e.committee}`);
+      if (e.sourceUrl) out.push(`- **Source:** ${e.sourceUrl}`);
+      if (e.detailUrl) out.push(`- **Detail page:** ${e.detailUrl}`);
+      if (e.materialsUrl) out.push(`- **Materials:** ${e.materialsUrl}`);
+      out.push("");
+
+      if (e.meetingHydroReason) {
+        out.push(`**Why hydro-relevant:** ${e.meetingHydroReason}`);
+        out.push("");
+      }
+
+      if (e.issues && e.issues.length) {
+        out.push(`### Initiatives (${e.issues.length})`);
+        out.push("");
+        for (const iss of e.issues) {
+          const name = iss.canonical_name || iss.title || iss.name || iss.short_title || iss.native_id || "(unnamed)";
+          const tag = iss.short_title && iss.short_title !== name ? ` (${iss.short_title})` : "";
+          const status = iss.status ? ` — _${iss.status}_` : "";
+          out.push(`- **${name}**${tag}${status}`);
+          if (iss.stakeholder_phase) out.push(`  - Stakeholder phase: ${iss.stakeholder_phase}`);
+          if (iss.committee_owner_label) out.push(`  - Owner: ${iss.committee_owner_label}`);
+          if (iss.url) out.push(`  - ${iss.url}`);
+        }
+        out.push("");
+      }
+
+      const docs = (e.documents || []).slice().sort(
+        (a, b) => Number(b.hydro_relevant) - Number(a.hydro_relevant)
+      );
+      const docHeader = e.hydroDocCount > 0
+        ? `${docs.length} total, ${e.hydroDocCount} hydro-relevant`
+        : `${docs.length} total`;
+      out.push(`### Documents (${docHeader})`);
+      out.push("");
+
+      if (docs.length === 0) {
+        out.push("_No documents attached._");
+        out.push("");
+      } else {
+        for (const d of docs) {
+          const tag = d.hydro_relevant ? "[HYDRO] " : "";
+          out.push(`#### ${tag}${d.title || d.filename || "(untitled)"}`);
+          const meta = [];
+          if (d.type) meta.push(`**Type:** ${d.type}`);
+          if (d.posted_date) meta.push(`**Posted:** ${d.posted_date}`);
+          if (meta.length) out.push(`- ${meta.join(" · ")}`);
+          if (d.hydro_relevant && d.hydro_relevance_reason) {
+            out.push(`- **Why flagged:** ${d.hydro_relevance_reason}`);
+          }
+          if (d.stakeholders && d.stakeholders.length) {
+            const names = d.stakeholders
+              .map(s => (s.entity ? `${s.name} (${s.entity})` : s.name))
+              .filter(Boolean)
+              .join("; ");
+            if (names) out.push(`- **Stakeholders:** ${names}`);
+          }
+          if (d.issues && d.issues.length) {
+            const iNames = d.issues
+              .map(i => i.short_title || i.canonical_name || i.native_id)
+              .filter(Boolean)
+              .join("; ");
+            if (iNames) out.push(`- **Initiatives touched:** ${iNames}`);
+          }
+          if (d.url) out.push(`- **URL:** ${d.url}`);
+          out.push("");
+          if (d.ai_summary) {
+            out.push("**AI summary:**");
+            out.push("");
+            out.push(d.ai_summary);
+            out.push("");
+          }
+        }
+      }
+    });
+
+    return out.join("\n");
+  }
+
+  window.buildDigestMarkdown = buildDigestMarkdown;
 
   window.RTO_META = RTO_META;
 

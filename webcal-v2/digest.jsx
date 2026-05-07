@@ -1,11 +1,11 @@
 // digest.jsx — morning digest modal. All counts and copy derive from the live feed.
 
 const DigestModal = ({ open, onClose, onOpenEvent }) => {
+  const [copyState, setCopyState] = React.useState("idle");
   if (!open) return null;
   const data = window.MARKETS_DATA;
   const items = data.digestItems;
   const today = data.today;
-  const hydroItems = items.filter(e => e.isRelevant);
   const totalDocs = items.reduce((sum, e) => sum + e.documents.length, 0);
   const totalHydroDocs = items.reduce((sum, e) => sum + e.hydroDocCount, 0);
   const rtosCovered = Array.from(new Set(items.map(e => e.rtoMeta.label)));
@@ -14,6 +14,45 @@ const DigestModal = ({ open, onClose, onOpenEvent }) => {
   const headerDate = todayD.toLocaleDateString("en-US", {
     weekday: "long", month: "long", day: "numeric", year: "numeric"
   });
+
+  const exportDisabled = items.length === 0;
+  const onCopy = async () => {
+    if (exportDisabled) return;
+    const md = window.buildDigestMarkdown(data);
+    try {
+      await navigator.clipboard.writeText(md);
+      setCopyState("copied");
+      setTimeout(() => setCopyState("idle"), 1800);
+    } catch (err) {
+      console.error("Clipboard copy failed:", err);
+      setCopyState("error");
+      setTimeout(() => setCopyState("idle"), 1800);
+    }
+  };
+  const onDownload = () => {
+    if (exportDisabled) return;
+    const md = window.buildDigestMarkdown(data);
+    const blob = new Blob([md], { type: "text/markdown;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `rto-digest-${data.today}.md`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+  const exportBtnStyle = {
+    display: "flex", alignItems: "center", gap: 6,
+    padding: "6px 10px",
+    background: "transparent",
+    color: exportDisabled ? "var(--text-soft)" : "var(--text-secondary)",
+    border: "1px solid var(--border)",
+    borderRadius: 6,
+    cursor: exportDisabled ? "not-allowed" : "pointer",
+    fontSize: 12, fontWeight: 500,
+    opacity: exportDisabled ? 0.5 : 1,
+  };
 
   return (
     <>
@@ -30,6 +69,18 @@ const DigestModal = ({ open, onClose, onOpenEvent }) => {
             </div>
           </div>
           <div style={{ flex: 1 }}/>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginRight: 8 }}>
+            <button onClick={onCopy} disabled={exportDisabled} style={exportBtnStyle}
+              title={exportDisabled ? "Nothing to export this week" : "Copy digest as markdown to clipboard"}>
+              <Icon name={copyState === "copied" ? "check" : "copy"} size={13}/>
+              {copyState === "copied" ? "Copied" : copyState === "error" ? "Copy failed" : "Copy markdown"}
+            </button>
+            <button onClick={onDownload} disabled={exportDisabled} style={exportBtnStyle}
+              title={exportDisabled ? "Nothing to export this week" : "Download digest as .md file"}>
+              <Icon name="download" size={13}/>
+              Download
+            </button>
+          </div>
           <button className="close-btn" onClick={onClose}><Icon name="x" size={16}/></button>
         </div>
         <div style={{ overflowY: "auto", padding: "32px 48px", background: "var(--bg)" }}>
@@ -38,9 +89,9 @@ const DigestModal = ({ open, onClose, onOpenEvent }) => {
               Daily brief · National Hydropower Association
             </div>
             <h1 style={{ fontSize: 32, fontWeight: 600, margin: "0 0 8px", letterSpacing: "-0.02em", lineHeight: 1.15 }}>
-              {hydroItems.length === 0
+              {items.length === 0
                 ? "No hydro-relevant meetings flagged this week"
-                : `${hydroItems.length} hydro-relevant meeting${hydroItems.length === 1 ? "" : "s"} this week`}
+                : `${items.length} hydro-relevant meeting${items.length === 1 ? "" : "s"} this week`}
             </h1>
             {rtosCovered.length > 0 && (
               <div style={{ fontSize: 15, color: "var(--text-secondary)", lineHeight: 1.5, marginBottom: 24 }}>
@@ -52,7 +103,7 @@ const DigestModal = ({ open, onClose, onOpenEvent }) => {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 12, marginBottom: 32 }}>
               <div style={{ padding: 14, background: "var(--bg-elev)", border: "1px solid var(--border)", borderRadius: 8 }}>
                 <div style={{ fontSize: 11, color: "var(--text-muted)", textTransform: "uppercase", fontWeight: 600, letterSpacing: "0.04em", marginBottom: 4 }}>This week</div>
-                <div style={{ fontSize: 24, fontWeight: 600, fontVariantNumeric: "tabular-nums" }}>{hydroItems.length}</div>
+                <div style={{ fontSize: 24, fontWeight: 600, fontVariantNumeric: "tabular-nums" }}>{items.length}</div>
                 <div style={{ fontSize: 12, color: "var(--text-muted)" }}>hydro-relevant meetings</div>
               </div>
               <div style={{ padding: 14, background: "var(--bg-elev)", border: "1px solid var(--border)", borderRadius: 8 }}>
@@ -67,13 +118,13 @@ const DigestModal = ({ open, onClose, onOpenEvent }) => {
               </div>
             </div>
 
-            {hydroItems.length > 0 && (
+            {items.length > 0 && (
               <>
                 <h3 style={{ fontSize: 11, textTransform: "uppercase", color: "var(--text-muted)", letterSpacing: "0.06em", fontWeight: 600, marginBottom: 12 }}>
                   Top items to read
                 </h3>
                 <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                  {hydroItems.slice(0, 5).map(e => (
+                  {items.slice(0, 5).map(e => (
                     <div key={e.id} onClick={() => { onOpenEvent(e.id); onClose(); }}
                       style={{ display: "grid", gridTemplateColumns: "60px 1fr auto", gap: 14, padding: 14,
                                background: "var(--bg-elev)", border: "1px solid var(--border)", borderRadius: 8, cursor: "pointer" }}>
