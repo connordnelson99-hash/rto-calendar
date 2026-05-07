@@ -601,15 +601,33 @@ def export_calendar_json(conn, output_path=None):
                     "SELECT * FROM documents WHERE id=?", (did,)
                 ).fetchone()
                 if doc:
+                    # A doc inherits an initiative tag from two sources:
+                    #   1. A direct doc-URL match (PJM, ISO-NE).
+                    #   2. A meeting-URL match against the meeting that
+                    #      contains it (CAISO), but only when no other doc
+                    #      on that meeting has a direct match for the same
+                    #      issue. This skips ISO-NE's per-doc events_o
+                    #      tags from over-spreading: if D1 on meeting M
+                    #      directly matches initiative I, sibling docs
+                    #      D2/D3 on M shouldn't inherit I via the meeting.
                     issue_rows = conn.execute("""
-                        SELECT i.rto, i.native_id, i.canonical_name,
+                        SELECT DISTINCT i.rto, i.native_id, i.canonical_name,
                                i.status, i.stakeholder_phase,
                                i.committee_owner, i.is_open, i.url
                         FROM issue_references ir
                         JOIN issues i ON i.id = ir.issue_id
                         WHERE ir.matched_document_id = ?
+                           OR (
+                                ir.matched_meeting_id = ?
+                                AND NOT EXISTS (
+                                    SELECT 1 FROM issue_references ir2
+                                    JOIN documents d2 ON d2.id = ir2.matched_document_id
+                                    WHERE ir2.issue_id = i.id
+                                      AND d2.meeting_id = ?
+                                )
+                           )
                         ORDER BY i.canonical_name
-                    """, (doc["id"],)).fetchall()
+                    """, (doc["id"], doc["meeting_id"], doc["meeting_id"])).fetchall()
                     stakeholder_rows = conn.execute("""
                         SELECT name, entity, role, email
                         FROM document_stakeholders
