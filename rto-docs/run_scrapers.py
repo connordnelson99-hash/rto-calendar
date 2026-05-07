@@ -26,6 +26,7 @@ from scrapers.ferc_scraper import FERCScraper
 from scrapers.isone_scraper import ISONEScraper
 from scrapers.pjm_issues_scraper import PJMIssuesScraper
 from scrapers.caiso_issues_scraper import CAISOIssuesScraper
+from scrapers.isone_issues_scraper import ISONEIssuesScraper
 
 SCRAPER_REGISTRY = {
     "PJM": PJMScraper,
@@ -37,6 +38,7 @@ SCRAPER_REGISTRY = {
 ISSUES_SCRAPER_REGISTRY = {
     "PJM": PJMIssuesScraper,
     "CAISO": CAISOIssuesScraper,
+    "ISO-NE": ISONEIssuesScraper,
 }
 
 OUTPUT_JSON = Path(__file__).parent / "rto_events_with_docs.json"

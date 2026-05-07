@@ -5848,7 +5848,18 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Reliability Committee addresses resource adequacy, capacity accreditation, and operational rules that directly affect hydropower's role in meeting ISO-NE's reliability requirements and market participation.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
     "documents": [
       {
         "type": "minutes",
@@ -6014,7 +6025,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document directly addresses capacity accreditation reforms and seasonal capacity auction design that will affect how hydropower and energy storage resources are modeled and valued in ISO-NE's resource adequacy framework.",
         "ai_summary": "CAR-SA introduces seasonal auctions and accreditation reforms to better capture resource adequacy contributions. Critically, the methodology is being revised to move from FCM's qualified capacity (QC) thermal modeling to hourly profiles for intermittent resources and energy-constrained resources (including energy storage), which directly impacts how pumped-storage hydropower and run-of-river hydro will be accredited and compensated in capacity markets.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Fei Zeng",
@@ -7048,7 +7070,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document addresses capacity accreditation reforms and seasonal capacity auction design that directly affect how hydropower and other resources are valued and accredited in ISO-NE's capacity market.",
         "ai_summary": "ISO-NE is implementing Capacity Auction Reforms with Seasonal/Accreditation (CAR-SA) that introduce Maximum Capability (MCap) and Dependable Capability (DCap) metrics to replace existing accreditation methodology. MCap represents physical supply capability irrespective of seasonality (including a Global MCap for intermittent resources), while DCap represents expected availability during seasonal peak load hours. These changes will materially affect how hydroelectric and pumped-storage resources are accredited and compensated in ISO-NE's capacity market starting Q2 2027.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Chad Nelson",
@@ -7073,7 +7106,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "This memo addresses capacity accreditation reforms including seasonal maximum and dependable capability calculations that directly affect how hydropower and other dispatchable resources are valued in ISO-NE's resource adequacy and capacity auction processes.",
         "ai_summary": "ISO-NE is implementing new seasonal and global capability (MCap/DCap) metrics for capacity accreditation under CAR-SA reforms. The framework establishes temperature-normalized seasonal performance standards and removes certain audit requirements, which will impact how hydropower resources demonstrate their seasonal capabilities and are accredited in the capacity market. Hydropower operators will need to ensure compliance with summer (\u226580\u00b0F) and winter (\u226432\u00b0F) audit requirements.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "ISO New England, Inc.",
@@ -9226,7 +9270,28 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Transmission Committee meetings address transmission planning and interconnection issues that directly affect hydropower and pumped-storage facilities' ability to deliver energy and participate in ISO-NE markets.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "asset-condition-reviewer",
+        "canonical_name": "Asset Condition Reviewer",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+      },
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
     "documents": [
       {
         "type": "other",
@@ -9237,7 +9302,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document addresses capacity market deactivation processes and seasonal accreditation reforms that directly affect how hydropower and other capacity resources participate in ISO-NE's markets.",
         "ai_summary": "ISO-NE is implementing seasonal deactivation notification deadlines (May and November) aligned with its capacity auction reforms, which provides hydropower operators with increased flexibility and two annual decision points for market exit. The proposal also includes IMM review for accelerated deactivations to address market power concerns, affecting how hydropower resources can time their market participation changes.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -9261,7 +9337,18 @@
         "hydro_relevant": false,
         "hydro_relevance_reason": "The document concerns Asset Condition Reviewer and TOA (Transmission Owner Agreement) redlines, which are administrative transmission governance matters unrelated to hydropower market participation, capacity accreditation, resource adequacy, or hydro-specific operational rules.",
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -9273,7 +9360,18 @@
         "hydro_relevant": false,
         "hydro_relevance_reason": "The document appears to be a technical asset condition review attachment with no extracted text indicating content related to hydropower, storage, market rules, or operational requirements affecting the hydro industry.",
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -9285,7 +9383,18 @@
         "hydro_relevant": false,
         "hydro_relevance_reason": "The document addresses transmission asset condition review procedures and oversight mechanisms for Participating Transmission Owners, which is administrative/governance-focused and does not directly address hydropower market participation, capacity accreditation, resource adequacy, energy storage rules, ancillary services, or other hydropower-specific operational or market issues.",
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -10046,7 +10155,18 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The NEPOOL Markets Committee oversees market rules and tariff changes at ISO-NE that directly affect hydropower participation, including capacity accreditation, ancillary services pricing, and energy market design.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
     "documents": []
   },
   {
@@ -10222,7 +10342,18 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The NEPOOL Markets Committee directly addresses RTO tariff changes and market rules that govern resource participation, including capacity accreditation, ancillary services, and energy market mechanisms that substantially affect hydropower and pumped-storage operations in ISO-NE.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
     "documents": []
   },
   {
@@ -10726,7 +10857,18 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The NEPOOL Markets Committee directly addresses ISO-NE market rules and structures that govern hydropower participation, including capacity markets, ancillary services, and dispatch mechanisms relevant to the hydropower and pumped-storage industry.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
     "documents": [
       {
         "type": "other",
@@ -10761,7 +10903,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document discusses capacity accreditation methodology for energy-limited resources and energy storage resources, including hydropower modeling with 15 years of profiles, and hybrid resource participation rules that directly affect how hydropower and pumped-storage facilities are accredited and participate in ISO-NE's capacity market.",
         "ai_summary": "ISO-NE's Capacity Auction Reforms (CAR-SA) include updated accreditation methodology for intermittent power resources and hybrid configurations. The proposal allows hybrid resources (including storage co-located with hydro) to participate as separate capacity market resources with MRIC allocation rules, and incorporates 15 years of hydro profiles into IPR accreditation modeling. The design also addresses how energy-limited resources like hydro are dispatched during resource adequacy conditions.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -10773,7 +10926,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "This document describes capacity market design changes affecting resource accreditation and market clearing mechanisms that directly impact how all resources, including hydropower, compete in ISO-NE's capacity auction.",
         "ai_summary": "ISO-NE's Capacity Auction Reforms (CAR-SA) introduce a gas capacity demand curve to account for regional gas supply constraints in winter capacity procurement. While focused on gas, this reform affects the overall capacity market framework and clearing prices that determine compensation for all resources, including hydropower and pumped-storage facilities, which must compete against gas resources with adjusted accreditation reflecting seasonal availability limitations.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -10785,7 +10949,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document discusses capacity accreditation modeling and resource-specific accreditation values under the CAR-SA proposal, which directly affects how hydropower and energy storage resources are credited in ISO-NE's capacity market.",
         "ai_summary": "ISO-NE is presenting an impact analysis of its Capacity Auction Reforms: Seasonal/Accreditation (CAR-SA) proposal, which changes how capacity is accredited and valued across seasons. The analysis includes modeling enhancements for limited energy resources and storage, and discusses how resource-level accreditation values will differ from current rules\u2014a critical factor determining how much capacity hydropower and pumped-storage facilities can sell in the market.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -10797,7 +10972,18 @@
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document specifies fuel supply and transportation requirements exclusively for natural gas-only resources in ISO-NE's Capacity Auction Reform process and does not address hydropower, pumped-storage, or any technology that would affect hydro market participation.",
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -10809,7 +10995,18 @@
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document focuses exclusively on gas-only resource contracting requirements for firm capacity designation in ISO-NE's capacity market and does not address hydropower, pumped-storage, energy storage, or any technology or market mechanisms that directly affect hydropower participation.",
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -10821,7 +11018,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "This document addresses capacity accreditation and resource adequacy assessment methodologies that directly affect how hydropower and other resources qualify for ISO-NE's capacity market, including the calculation of Marginal Reliability Impact Capacity (MRIC) and capacity transfer limits.",
         "ai_summary": "ISO-NE is reforming its capacity market accreditation approach under CAR-SA, establishing new MRIC-based parameters for interface capability, tie benefits, and capacity transfer limits. These changes affect how hydropower resources and imports are modeled in resource adequacy assessments and qualify for seasonal capacity auctions, with implementation targeted for Q2 2027. Hydropower resources, particularly those with tie benefits or operating in external control areas, should monitor these accreditation parameter estimates and qualification data requirements.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -10857,7 +11065,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document addresses capacity auction reforms, seasonal capacity market design, and offer formulation principles that directly affect how all dispatchable resources including hydropower participate in ISO-NE's capacity market.",
         "ai_summary": "CAR-SA introduces seasonal capacity auctions (replacing annual) with a capped Balancing Ratio, requiring resources to reformulate offers based on incremental costs, capacity performance expectations, and seasonal cost allocation. Hydropower operators must adapt their offer strategies to the seasonal framework, properly allocate annual costs across seasons, and account for performance payment expectations under the new BR cap\u2014all of which significantly impact hydropower competitiveness and revenue in ISO-NE's capacity market.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -10977,7 +11196,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "This document describes ISO-NE's resource qualification process for the seasonal capacity market (CAR-SA), which directly affects how hydropower and pumped-storage resources are accredited, qualified, and participate in capacity auctions.",
         "ai_summary": "The CAR-SA resource qualification process establishes continuous flows for resource creation, maintenance, and auction participation, including capacity accreditation calculations (rMRI/MRIC), deliverability reviews, and commercial operation confirmation. Hydropower and PSH resources must follow these qualification pathways to participate in ISO-NE's seasonal and monthly capacity auctions, with specific requirements around capability demonstration, interconnection completion, and asset-to-resource mapping that directly impact market participation.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -11001,7 +11231,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document directly addresses capacity accreditation modeling for run-of-river hydropower under ISO-NE's Capacity Auction Reform project, which affects how hydro resources are valued and compensated in the capacity market.",
         "ai_summary": "ISO-NE is implementing a new accreditation framework for run-of-river hydro IPRs using hourly performance profiles based on 15 years of historical output data, with accreditation (MRIC) determined by the resource's Maximum Capability and relative performance during system MRI hours. The proposal treats individual RoR hydro resources separately when feasible and uses random profile sampling with 5% outage derating, affecting how New England hydro resources receive capacity market compensation and are valued for resource adequacy.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -11037,7 +11278,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document directly addresses capacity market cost allocation changes under CAR that affect hydropower resources, including removal of IPR seasonal variance adjustments and modifications to seasonal capacity auction charges relevant to hydro accreditation and market participation.",
         "ai_summary": "ISO-NE is transitioning from annual to seasonal capacity markets under CAR, which removes the IPR seasonal variance adjustment charge since seasonal capacity markets align with IPR seasonal accreditation. The document details how seasonal coincident peak loads will replace annual peak loads for cost allocation, affecting how hydropower and other resources are accredited and charged for capacity obligations under the new framework.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -11133,7 +11385,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "This document details ISO-NE's Capacity Auction Reforms (CAR-SA) methodology for market clearing and capacity accreditation, which directly affects how hydropower resources will be accredited and valued in the capacity market.",
         "ai_summary": "The CAR-SA reform will change how capacity is accredited on a seasonal basis and how resources' next-best-alternatives are valued, with implications for hydropower's competitive offers based on energy and ancillary service (EAS) revenues, going-forward costs, and scarcity pricing components (PPR*BR*H). Hydropower operators need to understand how seasonal capacity accreditation, EAS market participation assumptions, and risk premiums will affect their capacity market revenues under the Q2 2027 effective date.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -11145,7 +11408,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document discusses conforming changes to ISO-NE's capacity market cost allocation framework under the CAR-SA design, which directly affects how hydropower and other resources are accredited and charged in the seasonal capacity market.",
         "ai_summary": "ISO-NE is transitioning to a seasonal capacity market (CAR) with corresponding changes to cost allocation methods. Key changes include removal of the IPR seasonal variance adjustment charge (since seasonal markets align with hydro's seasonal accreditation), elimination of annual reconfiguration auctions, and shift to seasonal coincident peak load-based cost allocation. These changes affect how hydropower resources are valued and charged under the new prompt-seasonal capacity framework.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       }
     ]
