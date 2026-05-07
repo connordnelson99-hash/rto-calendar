@@ -1,6 +1,6 @@
 // sidebar.jsx — left navigation: nav items + RTO list (sorted by count).
 
-const Sidebar = ({ filters, setFilters, events, today, weekEnd, digestCount }) => {
+const Sidebar = ({ filters, setFilters, events, today, weekEnd, digestCount, theme, onToggleTheme }) => {
   const rtoCounts = React.useMemo(() => {
     const m = {};
     for (const e of events) {
@@ -16,17 +16,10 @@ const Sidebar = ({ filters, setFilters, events, today, weekEnd, digestCount }) =
 
   const rtoMeta = window.MARKETS_DATA.rtoMeta;
 
-  const thisWeekCount = React.useMemo(
-    () => events.filter(e => e.date >= today && e.date <= weekEnd).length,
-    [events, today, weekEnd]
-  );
-
   const navItems = [
     { id: "all", label: "All meetings", icon: "calendar", count: events.length },
     { id: "hydro", label: "Hydro-relevant", icon: "drop", count: events.filter(e => e.isRelevant).length },
     { id: "initiative", label: "Initiative-linked", icon: "target", count: events.filter(e => e.hasIssues).length },
-    { id: "today", label: "This week", icon: "clock", count: thisWeekCount },
-    { id: "digest", label: "Morning digest", icon: "inbox", count: digestCount },
   ];
 
   const setRto = (rto) => setFilters({ ...filters, rto: filters.rto === rto ? "all" : rto });
@@ -66,6 +59,14 @@ const Sidebar = ({ filters, setFilters, events, today, weekEnd, digestCount }) =
       </div>
 
       <div style={{flex: 1}}/>
+
+      <div className="sidebar-footer">
+        <button className="theme-toggle" onClick={onToggleTheme}
+                title={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}>
+          <Icon name={theme === "dark" ? "sun" : "moon"} size={14}/>
+          <span>{theme === "dark" ? "Light mode" : "Dark mode"}</span>
+        </button>
+      </div>
     </aside>
   );
 };

@@ -271,6 +271,157 @@ input, select, textarea { font-family: inherit; color: inherit; }
   letter-spacing: 0;
 }
 
+.brand-logo-img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  display: block;
+}
+
+.sidebar-footer {
+  padding: var(--sp-3);
+  border-top: 1px solid var(--border);
+}
+.theme-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: 8px 10px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: var(--fs-sm);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.theme-toggle:hover {
+  background: var(--bg-sunken);
+  color: var(--text);
+  border-color: var(--border-strong, var(--border));
+}
+
+/* ─── About / Settings modal ─────────────────────────────────── */
+.settings-overlay {
+  position: fixed; inset: 0;
+  background: rgba(15, 18, 22, 0.55);
+  backdrop-filter: blur(2px);
+  display: grid; place-items: center;
+  z-index: 1000;
+  animation: fadein 0.15s ease-out;
+}
+.settings-modal {
+  position: relative;
+  width: 360px;
+  max-width: calc(100vw - 32px);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px 28px 24px;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+}
+.settings-close {
+  position: absolute; top: 10px; right: 10px;
+  width: 28px; height: 28px;
+  background: transparent;
+  border: none; border-radius: 6px;
+  color: var(--text-muted);
+  cursor: pointer;
+  display: grid; place-items: center;
+}
+.settings-close:hover { background: var(--bg-sunken); color: var(--text); }
+.settings-headshot {
+  width: 120px; height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 4px auto 18px;
+  display: block;
+  border: 3px solid var(--bg-elev);
+  box-shadow: 0 0 0 1px var(--border), 0 6px 18px rgba(0,0,0,0.10);
+}
+.settings-credit-eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.settings-credit-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+.settings-credit-meta {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+@keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+
+/* Document type tag — PJM prominent header on doc-card */
+.doc-type-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  padding: 3px 7px;
+  border-radius: 3px;
+  margin-bottom: 6px;
+}
+.doc-card.hydro .doc-type-tag {
+  color: var(--hydro);
+  background: color-mix(in oklab, var(--hydro) 10%, var(--bg-elev));
+  border-color: color-mix(in oklab, var(--hydro) 30%, var(--border));
+}
+/* Three modes change how loudly hydro-relevant items pop:
+   - quiet:    desaturated flag, no row tint, slimmer triangle marker
+   - standard: current behaviour (no overrides)
+   - loud:     tinted hydro-relevant rows + cards, accent left-stripe */
+
+[data-hydro-signal="quiet"] .hydro-flag {
+  background: var(--bg-sunken);
+  color: var(--text-muted);
+  border-color: var(--border);
+}
+[data-hydro-signal="quiet"] .hydro-tri {
+  opacity: 0.55;
+}
+[data-hydro-signal="quiet"] .meeting-row .hydro-flag,
+[data-hydro-signal="quiet"] .day-section-today {
+  filter: grayscale(0.45);
+}
+
+[data-hydro-signal="loud"] .meeting-row:has(.hydro-flag) {
+  background: linear-gradient(90deg, color-mix(in oklab, var(--hydro) 14%, transparent) 0%, transparent 60%);
+  box-shadow: inset 3px 0 0 var(--hydro);
+}
+[data-hydro-signal="loud"] .doc-card.hydro {
+  background: color-mix(in oklab, var(--hydro) 10%, var(--bg-elev));
+  box-shadow: inset 3px 0 0 var(--hydro), 0 1px 2px rgba(0,0,0,0.04);
+}
+[data-hydro-signal="loud"] .hydro-flag {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  background: color-mix(in oklab, var(--hydro) 18%, var(--bg-elev));
+  border-color: color-mix(in oklab, var(--hydro) 50%, transparent);
+}
+[data-hydro-signal="loud"] .hydro-tri {
+  transform: scale(1.25);
+}
+[data-hydro-signal="loud"] .cal-event.hydro,
+[data-hydro-signal="loud"] .week-event.hydro {
+  outline: 1.5px solid var(--hydro);
+  outline-offset: -1.5px;
+}
+
 .topbar-search {
   position: relative;
   flex: 1;
@@ -593,6 +744,7 @@ input, select, textarea { font-family: inherit; color: inherit; }
 }
 
 .list-pane {
+  flex: 1;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -1531,7 +1683,7 @@ input, select, textarea { font-family: inherit; color: inherit; }
 
 .doc-card {
   display: grid;
-  grid-template-columns: 32px 1fr auto;
+  grid-template-columns: 1fr auto;
   gap: var(--sp-3);
   padding: var(--sp-3);
   background: var(--bg-elev);

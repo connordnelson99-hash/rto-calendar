@@ -3,6 +3,12 @@
 
 const { useState, useEffect, useMemo, useCallback } = React;
 
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "theme": "light",
+  "density": "comfortable",
+  "hydroSignal": "standard"
+}/*EDITMODE-END*/;
+
 function LoadingScreen({ error }) {
   return (
     <div style={{
@@ -32,7 +38,17 @@ function App() {
   const [readerDoc, setReaderDoc] = useState(null);
   const [readerEvent, setReaderEvent] = useState(null);
   const [digestOpen, setDigestOpen] = useState(false);
-  const [listCollapsed, setListCollapsed] = useState(false);
+  const [settingsOpen, setSettingsOpen] = useState(false);
+  const [tweaks, setTweak] = useTweaks(TWEAK_DEFAULTS);
+  const theme = tweaks.theme;
+  const setTheme = (next) => setTweak("theme",
+    typeof next === "function" ? next(tweaks.theme) : next);
+
+  useEffect(() => {
+    document.body.dataset.theme = tweaks.theme;
+    document.body.dataset.density = tweaks.density;
+    document.body.dataset.hydroSignal = tweaks.hydroSignal;
+  }, [tweaks.theme, tweaks.density, tweaks.hydroSignal]);
 
   // Load events on mount
   useEffect(() => {
@@ -58,7 +74,15 @@ function App() {
       if (filters.rto !== "all" && e.rto !== filters.rto) return false;
       if (filters.q) {
         const q = filters.q.toLowerCase();
-        const hay = (e.title + " " + (e.committee || "") + " " + e.rto).toLowerCase();
+        const issueText = (e.issues || []).map(i => `${i.title || ""} ${i.name || ""} ${i.native_id || ""}`).join(" ");
+        const stakeholderText = (e.documents || [])
+          .flatMap(d => d.stakeholders || [])
+          .map(s => `${s.name || ""} ${s.entity || ""}`).join(" ");
+        const docText = (e.documents || []).map(d => d.title || "").join(" ");
+        const hay = (
+          e.title + " " + (e.committee || "") + " " + e.rto +
+          " " + issueText + " " + stakeholderText + " " + docText
+        ).toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
@@ -80,6 +104,7 @@ function App() {
       if (ev.target.tagName === "INPUT" || ev.target.tagName === "TEXTAREA") return;
       if (ev.key === "Escape") {
         if (readerDoc) setReaderDoc(null);
+        else if (settingsOpen) setSettingsOpen(false);
         else if (digestOpen) setDigestOpen(false);
         else if (selectedId) setSelectedId(null);
       } else if (ev.key === "ArrowLeft") {
@@ -100,15 +125,14 @@ function App() {
     <div className="app">
       <div className="topbar">
         <div className="brand">
-          <div className="brand-logo">M</div>
-          <span>Markets Calendar</span>
-          <span style={{ fontSize: 11, color: "var(--text-soft)", fontWeight: 400, marginLeft: 4, padding: "2px 6px", border: "1px solid var(--border)", borderRadius: 3 }}>NHA</span>
+          <img src="assets/NHA-Logo.png" alt="NHA" className="brand-logo-img"/>
+          <span>RTO/ISO Calendar</span>
         </div>
         <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
           <div className="topbar-search">
             <Icon name="search" size={14} className="search-icon"/>
             <input
-              placeholder="Search meetings, committees, documents…"
+              placeholder="Search meetings, committees, initiatives, stakeholders…"
               value={filters.q}
               onChange={e => setFilters({...filters, q: e.target.value})}/>
             <span className="kbd">⌘K</span>
@@ -118,21 +142,22 @@ function App() {
           <button className="icon-btn has-badge" title="Morning digest" onClick={() => setDigestOpen(true)}>
             <Icon name="bell" size={16}/>
           </button>
-          <button className="icon-btn" title="Settings"><Icon name="settings" size={16}/></button>
-          <div className="avatar">CN</div>
+          <button className="icon-btn" title="About" onClick={() => setSettingsOpen(true)}><Icon name="settings" size={16}/></button>
         </div>
       </div>
 
       <div className="app-body">
         <Sidebar filters={filters} setFilters={setFilters} events={data.events}
                  today={data.today} weekEnd={data.weekEnd}
-                 digestCount={data.digestItems.length}/>
+                 digestCount={data.digestItems.length}
+                 theme={theme}
+                 onToggleTheme={() => setTheme(t => t === "dark" ? "light" : "dark")}/>
         <div className="main">
           <div className="toolbar">
             <div className="toolbar-group">
               <button className={"toolbar-btn" + (calView==="month"?" active":"")} onClick={()=>setCalView("month")}><Icon name="grid" size={12}/> Month</button>
               <button className={"toolbar-btn" + (calView==="week"?" active":"")} onClick={()=>setCalView("week")}><Icon name="calendar" size={12}/> Week</button>
-              <button className={"toolbar-btn" + (calView==="agenda"?" active":"")} onClick={()=>setCalView("agenda")}><Icon name="list" size={12}/> Agenda</button>
+              <button className={"toolbar-btn" + (calView==="list"?" active":"")} onClick={()=>setCalView("list")}><Icon name="list" size={12}/> List</button>
             </div>
             {filters.rto !== "all" && (
               <span className="filter-chip active" onClick={() => setFilters({...filters, rto: "all"})}>
@@ -161,8 +186,6 @@ function App() {
                 <span className="x">×</span>
               </span>
             )}
-            <span className="filter-chip"><Icon name="filter" size={11}/> Add filter</span>
-
             <div className="toolbar-spacer"/>
             <span className="toolbar-meta">
               <strong>{filteredEvents.filter(e=>e.isRelevant).length}</strong> hydro-relevant
@@ -171,46 +194,30 @@ function App() {
               {" "}·{" "}
               {filteredEvents.length} of {data.events.length} meetings
             </span>
-            {calView === "month" && listCollapsed && (
-              <button className="toolbar-btn" title="Show meetings list" onClick={() => setListCollapsed(false)}>
-                <Icon name="list" size={12}/> Show list
-              </button>
-            )}
             <button className="icon-btn" title="Refresh" onClick={() => window.location.reload()}><Icon name="refresh" size={14}/></button>
           </div>
 
           {calView === "month" && (
-            <div className={"split" + (listCollapsed ? " list-collapsed" : "")}>
-              <CalendarPane
-                events={filteredEvents}
-                selectedDate={selectedDate}
-                onSelectDate={setSelectedDate}
-                onSelectEvent={onSelectEvent}
-                today={data.today}
-                monthCursor={monthCursor}
-                setMonthCursor={setMonthCursor}/>
-              {!listCollapsed && (
-                <ListPane
-                  events={filteredEvents}
-                  selectedId={selectedId}
-                  onSelect={onSelectEvent}
-                  today={data.today}
-                  selectedDate={selectedDate}
-                  onOpenDigest={() => setDigestOpen(true)}
-                  onCollapse={() => setListCollapsed(true)}/>
-              )}
-            </div>
+            <CalendarPane
+              events={filteredEvents}
+              selectedDate={selectedDate}
+              onSelectDate={setSelectedDate}
+              onSelectEvent={onSelectEvent}
+              today={data.today}
+              monthCursor={monthCursor}
+              setMonthCursor={setMonthCursor}/>
+          )}
+          {calView === "list" && (
+            <ListPane
+              events={filteredEvents}
+              selectedId={selectedId}
+              onSelect={onSelectEvent}
+              today={data.today}
+              selectedDate={selectedDate}
+              onOpenDigest={() => setDigestOpen(true)}/>
           )}
           {calView === "week" && (
             <WeekView
-              events={filteredEvents}
-              today={data.today}
-              onSelectEvent={onSelectEvent}
-              anchor={weekAnchor}
-              setAnchor={setWeekAnchor}/>
-          )}
-          {calView === "agenda" && (
-            <AgendaView
               events={filteredEvents}
               today={data.today}
               onSelectEvent={onSelectEvent}
@@ -222,9 +229,50 @@ function App() {
 
       <DetailPane event={selectedEvent}
         onClose={() => setSelectedId(null)}
-        onOpenDoc={(d, e) => { setReaderDoc(d); setReaderEvent(e); }}/>
-      {readerDoc && <DocReader doc={readerDoc} event={readerEvent} onClose={() => setReaderDoc(null)}/>}
+        onOpenDoc={() => {}}/>
       <DigestModal open={digestOpen} onClose={() => setDigestOpen(false)} onOpenEvent={onSelectEvent}/>
+
+      {settingsOpen && (
+        <div className="settings-overlay" onClick={() => setSettingsOpen(false)}>
+          <div className="settings-modal" onClick={(e) => e.stopPropagation()}>
+            <button className="settings-close" onClick={() => setSettingsOpen(false)} aria-label="Close">
+              <Icon name="x" size={16}/>
+            </button>
+            <img className="settings-headshot" src="assets/connor-headshot.png" alt="Connor Nelson"/>
+            <div className="settings-credit-eyebrow">Developed by</div>
+            <div className="settings-credit-name">Connor Nelson</div>
+            <div className="settings-credit-meta">RTO/ISO Calendar &middot; National Hydropower Association</div>
+          </div>
+        </div>
+      )}
+
+      <TweaksPanel title="Tweaks">
+        <TweakSection title="Palette">
+          <TweakRadio label="Theme" value={tweaks.theme} onChange={(v) => setTweak("theme", v)}
+            options={[
+              { value: "light", label: "Light" },
+              { value: "dark", label: "Dark" },
+              { value: "hydro", label: "Hydro" },
+              { value: "terminal", label: "Terminal" }
+            ]}/>
+        </TweakSection>
+        <TweakSection title="Rhythm">
+          <TweakRadio label="Density" value={tweaks.density} onChange={(v) => setTweak("density", v)}
+            options={[
+              { value: "comfortable", label: "Comfort" },
+              { value: "compact", label: "Compact" },
+              { value: "ultra", label: "Ultra" }
+            ]}/>
+        </TweakSection>
+        <TweakSection title="Hydro signal" subtitle="How loudly relevant items announce themselves">
+          <TweakRadio label="Intensity" value={tweaks.hydroSignal} onChange={(v) => setTweak("hydroSignal", v)}
+            options={[
+              { value: "quiet", label: "Quiet" },
+              { value: "standard", label: "Standard" },
+              { value: "loud", label: "Loud" }
+            ]}/>
+        </TweakSection>
+      </TweaksPanel>
     </div>
   );
 }

@@ -167,6 +167,9 @@
   window.RTO_META = RTO_META;
 
   window.loadMarketsData = async function () {
+    // Data files live at <repo-root>/rto-docs/ — one level up from
+    // webcal-v2/. Cache-bust each load so stale GitHub Pages caches don't
+    // hide freshly-scraped JSON.
     const t = Date.now();
     const eventsUrl = `../rto-docs/rto_events_with_docs.json?t=${t}`;
     const issuesUrl = `../rto-docs/rto_issues.json?t=${t}`;

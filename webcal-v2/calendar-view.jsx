@@ -60,11 +60,6 @@ const CalendarMonth = ({ year, month, events, selectedDate, onSelectDate, onSele
                  onClick={() => onSelectDate(d.iso)}>
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                 <span className="day-num">{d.date.getDate()}</span>
-                {hydroCount > 0 && !d.isOtherMonth && (
-                  <span className="day-meta" style={{ color: "var(--hydro)", position: "static" }}>
-                    {hydroCount}<span className="hydro-tri" style={{ marginLeft: 3 }}/>
-                  </span>
-                )}
               </div>
               {visible.map(e => (
                 <div key={e.id}
@@ -78,7 +73,6 @@ const CalendarMonth = ({ year, month, events, selectedDate, onSelectDate, onSele
                   <span className="ev-title" style={{ color: "var(--text)" }}>
                     {e.rtoMeta.label} · {e.title.replace(/^(PJM|CAISO|MISO|NYISO|ERCOT|SPP|NEPOOL|ISO-NE|NERC|FERC)\s+/, "").replace(/Meeting$/, "").trim()}
                   </span>
-                  {e.isRelevant && <span className="ev-hydro">▲</span>}
                 </div>
               ))}
               {more > 0 && (

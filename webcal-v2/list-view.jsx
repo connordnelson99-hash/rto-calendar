@@ -122,9 +122,25 @@ const ListPane = ({ events, selectedId, onSelect, today, selectedDate, onOpenDig
   }, [events]);
 
   const scrollRef = React.useRef(null);
-  // Skip the very first selectedDate effect so the list doesn't auto-scroll
-  // (and force the surrounding page/iframe to snap) on initial load.
+  // On first mount, jump (no smooth) to today's date section if present —
+  // otherwise to the first upcoming date — so opening the list lands the
+  // user on what's relevant now.
   const skipFirstDateScroll = React.useRef(true);
+  React.useEffect(() => {
+    if (!scrollRef.current) return;
+    const container = scrollRef.current;
+    let target = container.querySelector(`[data-date="${today}"]`);
+    if (!target) {
+      // Find first date >= today
+      const upcoming = grouped.find(g => g.date >= today);
+      if (upcoming) target = container.querySelector(`[data-date="${upcoming.date}"]`);
+    }
+    if (target) {
+      container.scrollTo({ top: target.offsetTop - container.offsetTop, behavior: "auto" });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   React.useEffect(() => {
     if (skipFirstDateScroll.current) {
       skipFirstDateScroll.current = false;

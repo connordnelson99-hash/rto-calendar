@@ -118,18 +118,10 @@ const WeekView = ({ events, today, onSelectEvent, anchor, setAnchor }) => {
           {days.map((d, i) => {
             const iso = dayIsos[i];
             const isToday = iso === today;
-            const dayEvents = eventsByDay[iso];
-            const hydroN = dayEvents.filter(e => e.isRelevant).length;
             return (
               <div key={iso} className={"week-day-head" + (isToday ? " today" : "")}>
                 <div className="week-day-name">{WEEKDAYS_FULL[i]}</div>
                 <div className="week-day-num">{d.getDate()}</div>
-                {dayEvents.length > 0 && (
-                  <div className="week-day-meta">
-                    {hydroN > 0 && <span style={{ color: "var(--hydro)" }}><span className="hydro-tri"/> {hydroN}</span>}
-                    <span>{dayEvents.length} mtg</span>
-                  </div>
-                )}
               </div>
             );
           })}
@@ -188,7 +180,6 @@ const WeekView = ({ events, today, onSelectEvent, anchor, setAnchor }) => {
                         <span className="rto-tag" style={{ background: e.rtoMeta.color, color: "#fff", border: "none", fontSize: 9, padding: "0 4px" }}>
                           {e.rtoMeta.label}
                         </span>
-                        {e.isRelevant && <span className="hydro-tri" style={{ marginLeft: 4 }}/>}
                         {" "}
                         {e.title.replace(new RegExp(`^${e.rtoMeta.label}\\s+`, "i"), "").replace(/\s+Meeting$/, "")}
                       </div>

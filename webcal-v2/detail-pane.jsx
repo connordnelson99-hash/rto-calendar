@@ -235,6 +235,8 @@ function groupStakeholdersByEntity(stakeholders) {
 
 const DocCard = ({ d, event, onOpenDoc }) => {
   const isHydro = d.hydro_relevant;
+  const isPjm = event.rto === "PJM";
+  const docTypeLabel = (d.type || "document").replace(/_/g, " ");
   const stakeholderEntities = [
     ...new Set(
       (d.stakeholders || [])
@@ -242,21 +244,23 @@ const DocCard = ({ d, event, onOpenDoc }) => {
         .filter(Boolean)
     )
   ];
+  const onClick = () => {
+    const url = d.url || event.sourceUrl;
+    if (url) window.open(url, "_blank", "noopener");
+  };
   return (
-    <div className={"doc-card" + (isHydro ? " hydro" : "")} onClick={() => onOpenDoc(d, event)}>
-      <div className={"doc-icon" + (isHydro ? " hydro" : "")}>PDF</div>
+    <div className={"doc-card" + (isHydro ? " hydro" : "")}>
       <div className="doc-body">
+        {isPjm && (
+          <div className="doc-type-tag">{docTypeLabel}</div>
+        )}
         <div className="doc-title">
           {d.title}
-          {isHydro && (
-            <span className="hydro-flag" style={{ fontSize: 9 }}>
-              <span className="hydro-tri"/> hydro
-            </span>
-          )}
         </div>
         <div className="doc-meta">
-          <span style={{ textTransform: "capitalize" }}>{d.type}</span>
-          {d.filename && <><span>·</span><span>{d.filename}</span></>}
+          {!isPjm && <span style={{ textTransform: "capitalize" }}>{docTypeLabel}</span>}
+          {!isPjm && d.filename && <span>·</span>}
+          {d.filename && <span>{d.filename}</span>}
         </div>
         {stakeholderEntities.length > 0 && (
           <div className="doc-sponsors">
@@ -270,17 +274,12 @@ const DocCard = ({ d, event, onOpenDoc }) => {
             {d.ai_summary}
           </div>
         )}
-        {isHydro && d.hydro_relevance_reason && (
-          <div className="doc-why"><span className="label">Why</span>{d.hydro_relevance_reason}</div>
-        )}
       </div>
-      {isHydro && (
-        <div className="doc-actions">
-          <button className="btn" style={{ height: 26, fontSize: 11 }}>
-            <Icon name="eye" size={12}/> Read
-          </button>
-        </div>
-      )}
+      <div className="doc-actions">
+        <button className="btn" style={{ height: 26, fontSize: 11 }} onClick={onClick}>
+          <Icon name="external" size={12}/> Open PDF
+        </button>
+      </div>
     </div>
   );
 };
