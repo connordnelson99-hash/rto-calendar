@@ -14,6 +14,34 @@
     "documents": []
   },
   {
+    "title": "May 25, 2026 \u2013 PJM Holiday Meeting",
+    "date": "2026-05-25",
+    "time": null,
+    "rto": "PJM",
+    "committee": "May 25, 2026 \u2013 PJM Holiday",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "This is a holiday closure notice, not a substantive regulatory or stakeholder meeting where market rules or operational policies affecting hydropower would be discussed.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "CAMSTF Meeting",
+    "date": "2026-05-22",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "CAMSTF",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "CAMSTF (Capacity and Market Settlements Task Force) directly addresses capacity market design and accreditation rules that significantly impact hydropower and pumped-storage resource participation in PJM.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Reliability Committee Meeting",
     "date": "2026-05-21",
     "time": "1:30 PM",
@@ -24,6 +52,159 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Reliability Committee addresses resource adequacy, capacity accreditation, and operational standards that directly impact how hydropower and pumped-storage resources participate in ISO-NE markets and meet reliability requirements.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "RCSTF Meeting",
+    "date": "2026-05-21",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "RCSTF",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "RCSTF (Rules Committee Steering Task Force) is a general governance and procedural committee without specific focus on hydropower, storage, or market design issues affecting dispatchable resources.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Markets and Reliability Committee Meeting",
+    "date": "2026-05-20",
+    "time": "9:00 a.m. - 12:30 p.m.",
+    "rto": "PJM",
+    "committee": "Markets and Reliability Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Markets and Reliability Committee typically addresses capacity markets, resource adequacy, ancillary services, and market rule changes that directly affect hydropower and pumped-storage participation in PJM.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "DESTF Meeting",
+    "date": "2026-05-19",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "DESTF",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "DESTF (Demand Side Resources and Energy Efficiency Task Force) meetings may address demand flexibility, storage integration, and market rules that affect how hydropower and pumped-storage resources compete and participate in PJM markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "DTS Meeting",
+    "date": "2026-05-19",
+    "time": "9:00 a.m. - 10:00 a.m.",
+    "rto": "PJM",
+    "committee": "DTS",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "DTS (Domestic Transmission Services) meetings typically address routine transmission operations and administrative matters rather than market design rules, capacity accreditation, or resource adequacy issues affecting hydropower and pumped-storage operations.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Risk Management Committee Meeting",
+    "date": "2026-05-19",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Risk Management Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Risk Management Committee meetings typically address operational risk, credit risk, and financial risk management rather than market design or participation rules that directly affect hydropower and pumped-storage operations.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "SPF Meeting",
+    "date": "2026-05-18",
+    "time": "10:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "SPF",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "SPF (Stakeholder Participation Forum) is a general governance and procedural committee without specific focus on market design, resource adequacy, or operational rules that directly affect hydropower and pumped-storage participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "MSS Meeting",
+    "date": "2026-05-18",
+    "time": "1:00 p.m. - 2:30 p.m.",
+    "rto": "PJM",
+    "committee": "MSS",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={6473C990-E7FC-41DD-855C-542F6ED073D5}",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "MSS (Member Services & Stakeholder Committee) meetings typically address administrative and governance matters rather than specific technical market rules that directly affect hydropower operations or participation.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260518-draft-minutes---mss---292026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/mss/2026/20260518/20260518-draft-minutes---mss---292026.pdf",
+        "posted_date": "2026-02-25",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "GDECS Meeting",
+    "date": "2026-05-18",
+    "time": "2:30 p.m. - 4:30 p.m.",
+    "rto": "PJM",
+    "committee": "GDECS",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "GDECS (General Dynamics and Engineering Committee Services) is a routine operations and governance committee without specific focus on market rules, resource adequacy, capacity mechanisms, or generation technologies that would directly affect hydropower participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Tech Change Forum Meeting",
+    "date": "2026-05-18",
+    "time": "2:30 p.m. - 4:30 p.m.",
+    "rto": "PJM",
+    "committee": "Tech Change Forum",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Tech Change Forum is a general operational technology committee focused on IT systems and infrastructure updates, which typically does not address hydropower-specific market rules, capacity accreditation, resource adequacy, or ancillary services.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "ISAC Meeting",
+    "date": "2026-05-18",
+    "time": "3:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "ISAC",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "ISAC (Independent System Admin Committee) is a governance and oversight body focused on general RTO administration and stakeholder engagement rather than specific market design, operational rules, or technical issues affecting hydropower participation.",
     "issues": [],
     "documents": []
   },
@@ -77,11 +258,96 @@
     "committee": "SRRTEP-W",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={F6DADD29-0953-4D70-B2ED-605BD313614E}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-W (State Review and Reliability Test Evaluation Process - Working Group) focuses on state reliability coordination and testing procedures rather than market rules, capacity accreditation, or operational issues directly affecting hydropower participation.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260515-item-01---aep-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-item-01---aep-supplemental-projects.pdf",
+        "posted_date": "2026-05-07",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260515-item-02---ampt-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-item-02---ampt-supplemental-projects.pdf",
+        "posted_date": "2026-05-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260515-item-03---aps-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-item-03---aps-supplemental-projects.pdf",
+        "posted_date": "2026-05-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260515-item-04---atsi-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-item-04---atsi-supplemental-projects.pdf",
+        "posted_date": "2026-05-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260515-item-05---dlco-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-item-05---dlco-supplemental-projects.pdf",
+        "posted_date": "2026-05-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260515-item-06---deok-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-item-06---deok-supplemental-projects.pdf",
+        "posted_date": "2026-05-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260515-item-07---comed-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-item-07---comed-supplemental-projects.pdf",
+        "posted_date": "2026-05-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Comments due - 2026 Infrastructure Policy Roadmap Meeting",
@@ -133,11 +399,96 @@
     "committee": "SRRTEP-MA",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={251A689D-1901-490F-A9F9-8CC3A30BCC19}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-MA (State Reliability Region Technical Executive Panel - Midwest Area) focuses on regional coordination and state policy alignment rather than market-specific rules affecting hydropower operations, capacity accreditation, or storage participation.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260514-item-01---bge-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260514/20260514-item-01---bge-supplemental-projects.pdf",
+        "posted_date": "2026-05-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260514-item-02---dpl-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260514/20260514-item-02---dpl-supplemental-projects.pdf",
+        "posted_date": "2026-05-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260514-item-03---peco-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260514/20260514-item-03---peco-supplemental-projects.pdf",
+        "posted_date": "2026-05-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260514-item-05---jcpl-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260514/20260514-item-05---jcpl-supplemental-projects.pdf",
+        "posted_date": "2026-05-07",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260514-item-06---meted-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260514/20260514-item-06---meted-supplemental-projects.pdf",
+        "posted_date": "2026-05-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260514-item-07---penelec-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260514/20260514-item-07---penelec-supplemental-projects.pdf",
+        "posted_date": "2026-05-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260514-item-08---ppl-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260514/20260514-item-08---ppl-supplemental-projects.pdf",
+        "posted_date": "2026-05-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "SRRTEP-S Meeting",
@@ -147,16 +498,29 @@
     "committee": "SRRTEP-S",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7B353637-24B6-4DBE-BC49-F7929D13DA2C}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-S (State Review and Reliability Technical Expertise Panel - Stakeholder) is a governance and coordination body focused on state relations and general reliability matters, not market design or operational rules specific to hydropower or storage participation.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260514-item-04---dom-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-s/2026/20260514/20260514-item-04---dom-supplemental-projects.pdf",
+        "posted_date": "2026-05-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Market Update",
     "date": "2026-05-14",
-    "time": "10:00 AM - 10:30 AM",
+    "time": "10:00 AM - 12:00 PM",
     "rto": "CAISO",
     "committee": "Market update",
     "source_url": "https://www.caiso.com/meetings-events/meetings",
@@ -164,7 +528,18 @@
     "materials_url": "https://www.caiso.com/meetings-events/topics/market-update",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A generic 'Market Update' meeting title provides insufficient detail to confirm relevance; such meetings typically cover routine operational and administrative items rather than specific policy changes affecting hydropower or storage assets.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+        "canonical_name": "Extended day-ahead market",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+      }
+    ],
     "documents": [
       {
         "type": "report",
@@ -175,7 +550,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -187,7 +573,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -199,7 +596,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -211,7 +619,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -223,7 +642,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -235,7 +665,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -247,7 +688,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -259,7 +711,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -271,7 +734,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -283,7 +757,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -295,7 +780,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -307,7 +803,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -319,7 +826,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -331,7 +849,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -343,7 +872,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -355,7 +895,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -367,7 +918,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -379,7 +941,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -391,7 +964,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -403,7 +987,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -415,7 +1010,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -427,7 +1033,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -439,7 +1056,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -451,7 +1079,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -463,7 +1102,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -475,7 +1125,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -487,7 +1148,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -499,7 +1171,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -511,7 +1194,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -523,7 +1217,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -535,7 +1240,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -547,7 +1263,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -559,7 +1286,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -571,7 +1309,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -583,7 +1332,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -595,7 +1355,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -607,7 +1378,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -619,7 +1401,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -631,7 +1424,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -643,7 +1447,18 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -655,10 +1470,35 @@
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+            "canonical_name": "Extended day-ahead market",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+          }
+        ],
         "stakeholders": []
       }
     ]
+  },
+  {
+    "title": "Co-Located Load Order Workshop Meeting",
+    "date": "2026-05-14",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "Co-Located Load Order Workshop",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Co-located load rules directly affect pumped-storage hydropower facilities that pair generation with pumping load, making this workshop relevant to how PSH participates in PJM's market.",
+    "issues": [],
+    "documents": []
   },
   {
     "title": "NEPOOL Markets Committee Meeting",
@@ -790,7 +1630,7 @@
         "title": "2026-05-12-14 MC A00 - Meeting Materials Zip",
         "filename": "a00_mc_2026_5_12-14_meeting_materials_zip.zip",
         "url": "https://www.iso-ne.com/static-assets/documents/100035/a00_mc_2026_5_12-14_meeting_materials_zip.zip",
-        "posted_date": "2026-05-07",
+        "posted_date": "2026-05-08",
         "hydro_relevant": false,
         "hydro_relevance_reason": "Document is a materials zip file with no extracted text content, making relevance assessment and stakeholder identification impossible.",
         "ai_summary": null,
@@ -1351,6 +2191,188 @@
         "ai_summary": "FlatIron Energy challenges ISO-NE's proposed accreditation base case for determining resource adequacy, arguing that modeling assumptions\u2014particularly the use of 'at-criteria' conditions with artificially high load additions (+5-6.6 GW)\u2014misalign with expected system conditions and systematically under-accredit energy-limited resources like pumped-storage hydropower. This misaccreditation artificially increases capacity prices and creates poor investment signals for flexible, dispatchable resources that provide multi-hour energy support during stressed system conditions.",
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "2026-05-12-14 MC/RC A07g - CAR-SA - Impact Analysis: Market Clearing - Presentation",
+        "filename": "a07g_2026_05_12-14_mc-rc_carsa_market_clearing_ia_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a07g_2026_05_12-14_mc-rc_carsa_market_clearing_ia_presentation.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses capacity market accreditation reforms (CAR-SA) including seasonal capacity payments, demand curves, and reliability criteria that fundamentally affect how hydropower and storage resources participate in ISO-NE's capacity market.",
+        "ai_summary": "CAR-SA proposes seasonal capacity payment rates ($7.26/kW-month summer, $15.65/kW-month winter) derived from seasonal reliability metrics and Net CONE, which will significantly impact hydropower and pumped-storage revenues and participation incentives. The analysis includes gas constraint demand curves that may provide differential accreditation for non-firm resources, directly relevant to hydro dispatchability valuation.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jake Fabian",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Steph Kang",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "decision",
+        "title": "2026-05-12-14 MC/RC A07g - CAR-SA - Seasonal Payment Rate Calculation - Memo",
+        "filename": "a07g_2026_05_12-14_mc-rc_carsa_seasonal_payment_rate_calculation_memo.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a07g_2026_05_12-14_mc-rc_carsa_seasonal_payment_rate_calculation_memo.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses seasonal capacity market design and payment rate methodology under CAR-SA, which directly affects how hydropower and storage resources participate in ISO-NE's capacity market and recover costs.",
+        "ai_summary": "ISO-NE proposes a new methodology for calculating seasonal payment rates to replace Net CONE in the Capacity Auction Redesign with Seasonal Auctions (CAR-SA) framework. The seasonal payment rates will anchor demand curves for summer and winter capacity markets, with rates derived from assumptions about annual cost equivalence and uniform cost of unserved energy across seasons. This impacts how dispatchable hydropower and pumped-storage resources receive seasonal capacity payments and investment signals in New England's capacity market.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "ISO New England, Inc.",
+            "entity": "ISO-NE",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-05-12-14 MC/RC A07k - CAR-SA - Capacity Market Cost Allocation Follow Up Presentation",
+        "filename": "a07k_2026_05_12-14_mc-rc_carsa_capacity_market_cost_allocation_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a07k_2026_05_12-14_mc-rc_carsa_capacity_market_cost_allocation_presentation.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses capacity market cost allocation under CAR-SA, which directly affects how hydropower and other dispatchable resources are accredited and charged in ISO-NE's capacity market.",
+        "ai_summary": "ISO-NE is implementing seasonal capacity accreditation and cost allocation (CAR-SA) with a proposed effective date of Q2 2027. The presentation details how non-firm gas capacity credits will reduce winter capacity auction costs, and importantly, lists seven capacity market charges including 'Hydro-Quebec interconnection capability credits (HQICC) capacity charge,' indicating that interconnected hydropower resources face specific treatment in the revised capacity market structure.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ernesto Guzman",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": "lguzman@iso-ne.com"
+          }
+        ]
+      },
+      {
+        "type": "decision",
+        "title": "2026-05-12-14 MC/RC A07k - CAR-SA - Cost Allocation Design Detail for Non-firm Gas Capacity Costs Memo",
+        "filename": "a07k_2026_05_12-14_mc_rc_cost_allocation_design_detail_for_non_firm_gas_capacity_costs.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a07k_2026_05_12-14_mc_rc_cost_allocation_design_detail_for_non_firm_gas_capacity_costs.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document details Capacity Auction Reforms (CAR) affecting capacity market cost allocation in ISO-NE, including explicit provisions for hydro resources (Hydro-Quebec Interconnection Capability Credits) and their treatment under the new seasonal capacity auction structure.",
+        "ai_summary": "ISO-NE's CAR redesigns capacity cost allocation from forward-annual to prompt-seasonal auctions. The memo explicitly addresses how Hydro-Quebec Interconnection Capability Credits (HQICC) will be calculated under the new Seasonal Capacity Auction (SCA) charge rate framework, directly affecting hydropower resources' cost recovery and capacity market participation in New England.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Honey Skuell",
+            "entity": "ISO New England, Inc.",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Luis Guzman",
+            "entity": "ISO New England, Inc.",
+            "role": "contact",
+            "email": "lguzman@iso-ne.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-05-12-14 MC/RC A07f - CAR-SA - FirstLight - Presentation",
+        "filename": "a07f_2026_05_12-14_mc-rc_carsa_firstlight_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a07f_2026_05_12-14_mc-rc_carsa_firstlight_presentation.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FirstLight's presentation directly addresses winter weather year selection and weighting in ISO-NE's Capacity Accreditation Resource (CAR) methodology, which materially affects how energy storage resources like pumped-storage hydropower are accredited in the capacity market.",
+        "ai_summary": "FirstLight argues that ISO-NE's current winter weather sampling methodology overweights extreme cold events (e.g., January 2004), causing miscalibration that understates the value of energy storage resources in typical capacity shortage conditions. FirstLight proposes an alternative weighting approach using 5-day weather blocks and synthetic winter sampling to better reflect tail-event probabilities, potentially improving accreditation for storage resources and reducing system costs.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Cal Brooks",
+            "entity": "FirstLight",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-05-12-14 MC/RC A07h - CAR-SA - Impact Analysis: Resource Accreditation Modeling (Additional Results & Analysis) - Presentation",
+        "filename": "a07h_2026_05_12-14_mc-rc_carsa_ia_ram_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a07h_2026_05_12-14_mc-rc_carsa_ia_ram_presentation.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document directly addresses capacity accreditation modeling and resource adequacy impacts under the CAR-SA proposal, which affects how hydropower and storage resources are accredited and valued in ISO-NE's capacity market.",
+        "ai_summary": "The CAR-SA (Capacity Auction Reforms: Seasonal/Accreditation) proposal modifies how resources\u2014including energy-limited and storage resources\u2014are accredited for capacity. The document analyzes resource adequacy risk under different LOLE splits (80/20 vs. 50/50) and discusses implications for energy storage treatment during charging-constrained hours, directly affecting pumped-storage hydropower participation and revenue.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Chris Geissler",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Fei Zeng",
+            "entity": "ISO-NE",
+            "role": "co-presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "decision",
+        "title": "2026-05-12-14 MC A04 - PFP PPR - MA AGO Memo",
+        "filename": "a04_mc_2026_05_12-14_ma_ago_comments_ppr.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a04_mc_2026_05_12-14_ma_ago_comments_ppr.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses Pay-for-Performance (PfP) capacity market rules, Performance Payment Rate (PPR) revisions, and capacity supply offers\u2014all of which directly affect how dispatchable resources including hydropower and pumped-storage compete in ISO-NE's capacity market.",
+        "ai_summary": "ISO-NE proposes reducing the Performance Payment Rate from $9,337/MWh to $3,500/MWh, which affects the Common Value Component of capacity supply offers and capacity clearing prices. The Massachusetts Attorney General's Office supports this reduction as it should lower capacity costs while maintaining adequate performance incentives during Capacity Scarcity Conditions\u2014a policy outcome that impacts all dispatchable resources including hydro competitors.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Emily Laine",
+            "entity": "ISO New England",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Massachusetts Office of the Attorney General",
+            "entity": "Massachusetts Office of the Attorney General",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-05-12-14 MC/RC A07i - CAR-SA - Imports Modeling and Accreditation Follow Up - Presentation",
+        "filename": "a07i_2026_05_12-14_mc-rc_carsa_imports_modeling_and_accreditation_followup_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a07i_2026_05_12-14_mc-rc_carsa_imports_modeling_and_accreditation_followup_presentation.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document directly addresses capacity accreditation rules for imports under CAR-SA, including exclusions of energy storage technologies and intermittent generation\u2014critical to hydro and pumped-storage resource qualification and market participation in ISO-NE.",
+        "ai_summary": "ISO-NE proposes to exclude energy storage technologies requiring grid-charging and hybrid facilities with storage components from resource-backed import accreditation under CAR-SA, while establishing MRIC (Minimum Rated Installed Capacity) calculation methods for eligible external resources. This affects how pumped-storage hydropower and other storage-backed imports qualify for seasonal capacity auctions and their accreditation values relative to internal resources.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jasleen Singh",
+            "entity": "ISO-NE",
+            "role": "contact",
+            "email": "jsingh@iso-ne.com"
+          },
+          {
+            "name": "Matt Brewster",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -1362,11 +2384,36 @@
     "committee": "GS\nAnnual Meeting",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0D3803F1-5D9D-48B0-A744-D3A6674A2587}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The GS (General Session) Annual Meeting is a broad corporate governance event focused on annual business matters rather than specific market rule or technical discussions affecting hydropower operations.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260512-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/general-session/2026/20260512/20260512-agenda.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260512-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/general-session/2026/20260512/20260512-agenda-doc.docx",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Interconnection Customer User Group",
@@ -1467,8 +2514,156 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "EDAM congestion revenue allocation directly affects how hydropower and storage resources recover revenues from market participation and transmission constraints, which is critical to their economic viability and bidding strategies.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+        "canonical_name": "Extended day-ahead market",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+      }
+    ],
     "documents": []
+  },
+  {
+    "title": "LC Annual Meeting Materials - No Registration\nAnnual Meeting Meeting",
+    "date": "2026-05-11",
+    "time": "10:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "LC Annual Meeting Materials - No Registration\nAnnual Meeting",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={F4E7E39D-83CF-4DC2-9D65-B75A1E3C4C13}",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "An LC (Liaisons Committee) Annual Meeting with generic materials distribution is unlikely to address specific hydropower or pumped-storage market rules, capacity mechanisms, or operational policies.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260511-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/lc/2026/20260511-materials/20260511-agenda.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260511-lc-membership.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/lc/2026/20260511-materials/20260511-lc-membership.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Members Committee Meeting",
+    "date": "2026-05-11",
+    "time": "1:00 p.m. - 5:30 p.m.",
+    "rto": "PJM",
+    "committee": "Members Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={F4D8B6FD-5496-426A-ACFC-50261E741805}",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Members Committee meetings are typically administrative and governance-focused rather than addressing specific market rules, tariff changes, or technical issues that directly affect hydropower operations.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260511-administration-1a---mc-new-member-announcement.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260511/20260511-administration-1a---mc-new-member-announcement.pdf",
+        "posted_date": "2026-05-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260511-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260511/20260511-agenda.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260511-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260511/20260511-agenda-doc.docx",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260511-consent-agenda-4a---draft-mc-minutes---4222026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260511/20260511-consent-agenda-4a---draft-mc-minutes---4222026.pdf",
+        "posted_date": "2026-05-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "6d847654-2c07-479a-8242-bcaf95bdc6c2",
+            "canonical_name": "Load Management and Price Responsive Demand Event Performance",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=6d847654-2c07-479a-8242-bcaf95bdc6c2"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260511-item-05---2026-nc-announcement-regarding-board-candidates-with-cvs.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260511/20260511-item-05---2026-nc-announcement-regarding-board-candidates-with-cvs.pdf",
+        "posted_date": "2026-05-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260511-item-08---2026-pjm-strategy-development-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260511/20260511-item-08---2026-pjm-strategy-development-update---presentation.pdf",
+        "posted_date": "2026-05-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "NEPOOL Budget and Finance Subcommittee",
@@ -2153,7 +3348,7 @@
         "title": "PDF",
         "filename": "20260508-item-13---nj-saa-update---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260508/20260508-item-13---nj-saa-update---presentation.pdf",
-        "posted_date": "2026-05-01",
+        "posted_date": "2026-05-08",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document concerns offshore wind transmission and state subsidy agreement termination, with no direct impact on hydropower, pumped-storage, capacity accreditation, ancillary services, or other mechanisms material to the hydropower/PSH industry.",
         "ai_summary": null,
@@ -2196,7 +3391,7 @@
     "committee": "Transmission Expansion Advisory Committee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={DFBBCD6B-3E5E-4294-8EA4-24308F87E0F8}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={40FE2A36-2514-42C3-9AB7-4FCC5DCAB479}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Transmission Expansion Advisory Committee meetings address transmission planning that directly affects hydropower and pumped-storage hydropower interconnection capability and deliverability in PJM markets.",
     "issues": [],
@@ -2256,7 +3451,7 @@
         "title": "PDF",
         "filename": "20260508-item-04---aep-supplemental-projects.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-item-04---aep-supplemental-projects.pdf",
-        "posted_date": "2026-04-28",
+        "posted_date": "2026-05-08",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document describes a generic transmission expansion planning process for a 1200 MW customer service request in West Virginia with no hydropower, storage, or market rule implications identified.",
         "ai_summary": "This document presents PJM's M-3 transmission expansion process for AEP supplemental projects, specifically a 1200 MW customer service request in West Virginia. While the current posting focuses on procedural timelines, the transmission expansion evaluation process is relevant because transmission constraints and expansion decisions can materially affect hydropower and pumped-storage project viability, interconnection timelines, and ability to deliver power to load centers.",
@@ -2304,7 +3499,7 @@
         "title": "PDF",
         "filename": "20260508-item-08---comed-supplemental-projects.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-item-08---comed-supplemental-projects.pdf",
-        "posted_date": "2026-04-28",
+        "posted_date": "2026-05-04",
         "hydro_relevant": false,
         "hydro_relevance_reason": "The document addresses routine transmission equipment replacement and asset management for ComEd in PJM, with no discussion of hydropower, pumped-storage, capacity markets, ancillary services, or other topics affecting the hydro industry.",
         "ai_summary": null,
@@ -2351,6 +3546,333 @@
             "name": "Dominion Energy",
             "entity": "Dominion Energy",
             "role": "sponsor",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260508-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-agenda.pdf",
+        "posted_date": "2026-05-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission expansion planning and RTEP updates directly affect hydropower interconnection, deliverability, and market participation, particularly through interregional planning and reliability analysis that shape grid conditions for hydro resources.",
+        "ai_summary": "This TEAC agenda covers 2026 RTEP capacity expansion scenarios, interregional planning, and reliability analysis that determine transmission constraints affecting hydropower and pumped-storage resource deliverability and economic viability across PJM and neighboring regions. Supplemental projects from major utilities and state agreement approaches (notably New Jersey) may impose constraints or create opportunities relevant to hydro operations.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Emmanuele Bobbio",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jeffrey Goldberg",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Josh Stephenson",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Mojgan Hedayati",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Niraj Kshatriya",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stanley Sliwa",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Susan McGill",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260508-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-agenda-doc.docx",
+        "posted_date": "2026-05-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document text was not extracted; only title metadata available, insufficient to assess hydropower relevance.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260508-informational-only---2026-rtep-assumptions-feedback.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-informational-only---2026-rtep-assumptions-feedback.pdf",
+        "posted_date": "2026-05-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document discusses capacity expansion modeling assumptions for RTEP transmission planning, including explicit treatment of energy storage technologies (4-, 6-, 8-, and 10-hour battery systems) and their role in generation mix forecasting, which directly affects hydropower and storage resource planning and transmission interconnection.",
+        "ai_summary": "PJM is implementing capacity expansion modeling for the 2026 RTEP to improve transmission planning. The document includes stakeholder feedback on storage technology assumptions, including recommendations to expand modeling of multiple battery storage durations (6-, 8-, 10-hour systems) to align with ELCC technology sets. These modeling decisions will influence how storage competes with and complements hydropower in regional transmission needs assessment through 2046.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Bryn Baker",
+            "entity": "CEBA (Clean Energy Buyers Association)",
+            "role": "author",
+            "email": "bbaker@ceba.org"
+          },
+          {
+            "name": "John Miller",
+            "entity": "CEBA (Clean Energy Buyers Association)",
+            "role": "author",
+            "email": "jmiller@ceba.org"
+          },
+          {
+            "name": "FirstEnergy",
+            "entity": "FirstEnergy",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Emmanuele Bobbio",
+            "entity": "PJM Interconnection",
+            "role": "contact",
+            "email": "Emmanuele.Bobbio@pjm.com"
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM Interconnection",
+            "role": "contact",
+            "email": "Wenzheng.Qiu@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "XLS",
+        "filename": "20260508-informational-only---m-3-process-needs-status.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-informational-only---m-3-process-needs-status.xlsx",
+        "posted_date": "2026-05-05",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document contains no extractable text content\u2014only metadata indicating it is an Excel file from a Transmission Expansion Advisory Committee meeting, insufficient to assess hydropower relevance.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260508-item-01---new-jersey-saa-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-item-01---new-jersey-saa-update.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses termination of New Jersey's State Agreement Approach for offshore wind transmission projects and does not discuss hydropower, pumped-storage, capacity markets, ancillary services, or other topics material to the hydropower and pumped-storage industry.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Susan McGill",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260508-item-02---interregional-planning-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-item-02---interregional-planning-update.pdf",
+        "posted_date": "2026-05-05",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine transmission planning administrative update with no substantive content addressing hydropower, energy storage, capacity markets, ancillary services, or market rules affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Eric Hsia",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Eric.Hsia@pjm.com"
+          },
+          {
+            "name": "Jeffrey Goldberg",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Jeffrey.Goldberg@pjm.com"
+          },
+          {
+            "name": "Joshua Stephenson",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Joshua.Stephenson@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260508-item-09---dom-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-item-09---dom-supplemental-projects.pdf",
+        "posted_date": "2026-05-04",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document focuses on routine transmission line replacement and data center interconnection projects with no discussion of hydropower, pumped-storage, capacity markets, energy storage, ancillary services, or market rules affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "DEV Distribution",
+            "entity": "DEV Distribution",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "Dominion Energy",
+            "entity": "Dominion Energy",
+            "role": "sponsor",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260508-item-10---reliability-analysis-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-item-10---reliability-analysis-update.pdf",
+        "posted_date": "2026-05-05",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission expansion planning directly affects hydropower interconnection, deliverability, and access to markets, particularly through projects like the North Anna\u2013Thornburg\u2013Bristers 500kV line and zonal upgrades that influence regional resource adequacy and hydro dispatch economics.",
+        "ai_summary": "PJM's 2026 RTEP transmission planning update identifies preliminary 2031 generation delivery overloads and 8-year system needs. Major scope changes include a $661.63M 500kV transmission line project in the Dominion zone designed to address data center load growth and enable 230kV underbuilt capability, which could affect hydropower deliverability and transmission congestion patterns relevant to pumped-storage and run-of-river facilities in the region.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Augustine Caven",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Stan Sliwa",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260508-item-11---2026-rtep-assumption-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-item-11---2026-rtep-assumption-update.pdf",
+        "posted_date": "2026-05-05",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document contains transmission planning assumptions for RTEP that directly affect hydropower and energy storage interconnection, dispatch modeling, and resource adequacy analysis, particularly the battery dispatch rules and generation modeling procedures.",
+        "ai_summary": "This 2026 RTEP assumptions document is relevant because it establishes how PJM will model energy storage (including batteries and pumped-storage) dispatch in transmission planning base cases, defines generation interconnection criteria affecting hydro/storage projects with signed agreements, and sets the modeling framework for resource adequacy studies that influence capacity and transmission requirements for flexible resources like hydropower.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Emmanuele Bobbio",
+            "entity": "PJM Planning",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM Planning",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260508-item-12---2026-rtep---capacity-expansion-scenarios-for-8-year-case-(2034).pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-item-12---2026-rtep---capacity-expansion-scenarios-for-8-year-case-(2034).pdf",
+        "posted_date": "2026-05-05",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses capacity expansion modeling for 2034 planning that will inform resource adequacy and generation mix assumptions, which directly affects hydropower market participation, ELCC treatment of storage/batteries, and transmission planning that impacts hydro deliverability.",
+        "ai_summary": "PJM is using Capacity Expansion (CapEx) modeling for its 2034 planning horizon to identify needed generation resources. The document clarifies that ELCC is endogenous and applied to all resources including batteries and gas, and acknowledges that new generation will likely develop in western PJM requiring west-to-east transfers. This affects how pumped-storage and hydropower resources are valued in capacity markets and transmission planning. Co-optimization of transmission and generation is only partially adopted and deferred to FERC Order 1920 implementation discussions.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Emmanuele Bobbio",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Mojgan Hedayati",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Niraj Kshatriya",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260508-minutes.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-minutes.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document covers routine transmission expansion planning updates and supplemental projects by transmission owners, with no discussion of hydropower capacity accreditation, storage, ancillary services, flexible ramping, or other hydropower-specific market rules.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jeffrey Goldberg",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Saravana Kumar Rajendran",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stan Sliwa",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -6442,6 +7964,18 @@
         "filename": "20260430-item-09---pre-summer-reactive-capability-review-announcement.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260430/20260430-item-09---pre-summer-reactive-capability-review-announcement.pdf",
         "posted_date": "2026-04-28",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260430-minutes.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260430/20260430-minutes.pdf",
+        "posted_date": "2026-05-08",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
