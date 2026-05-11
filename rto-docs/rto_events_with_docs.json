@@ -14,6 +14,34 @@
     "documents": []
   },
   {
+    "title": "Critical Issue Fast Path - Reliability Backstop Procurement Meeting",
+    "date": "2026-05-27",
+    "time": "9:00 a.m. - 2:00 p.m.",
+    "rto": "PJM",
+    "committee": "Critical Issue Fast Path - Reliability Backstop Procurement",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Reliability backstop procurement mechanisms directly affect capacity adequacy rules and resource qualification, which have significant implications for hydropower and pumped-storage participation in PJM's markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Special MC Meeting",
+    "date": "2026-05-27",
+    "time": "2:00 p.m. - 5:00 p.m.",
+    "rto": "PJM",
+    "committee": "Special MC",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A generic 'Special MC Meeting' title provides insufficient information to assess relevance; however, the Markets and Reliability Committee typically addresses market design issues that could affect hydropower, but this title alone does not indicate specific hydropower-related content.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Interconnection Process Subcommittee Meeting",
     "date": "2026-05-26",
     "time": "9:00 a.m. - 12:00 p.m.",
@@ -24,6 +52,20 @@
     "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Interconnection Process Subcommittee oversees rules and procedures for connecting generation resources to the grid, which directly affects hydropower and pumped-storage hydropower projects seeking PJM interconnection.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "EGCS Meeting",
+    "date": "2026-05-26",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "EGCS",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "EGCS (External Government and Customer Service) is a general stakeholder communications committee not focused on market design or operational issues affecting hydropower participation.",
     "issues": [],
     "documents": []
   },
