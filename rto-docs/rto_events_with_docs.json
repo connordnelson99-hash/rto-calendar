@@ -1,5 +1,19 @@
 [
   {
+    "title": "NEPOOL Transmission Committee Meeting",
+    "date": "2026-05-28",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Transmission Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=162636",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Transmission Committee meetings address transmission planning and interconnection issues that directly affect hydropower deliverability and market participation in ISO-NE.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Planning Advisory Committee Meeting",
     "date": "2026-05-27",
     "time": "1:00 PM",
@@ -432,6 +446,55 @@
     "meeting_hydro_reason": "The 2026 Market Policy Catalog and Roadmap Process is a comprehensive policy planning exercise where CAISO evaluates and prioritizes market rule changes that could significantly affect hydropower and pumped-storage participation, ancillary services, resource adequacy, and transmission rules.",
     "issues": [],
     "documents": []
+  },
+  {
+    "title": "Resource Adequacy Modeling and Program Design (RAMPD) - Track 2",
+    "date": "2026-05-15",
+    "time": "9:00 AM - 12:00 PM",
+    "rto": "CAISO",
+    "committee": "Resource Adequacy Modeling and Program Design",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/resource-adequacy-modeling-and-program-design-rampd-track-2-may-15-2026-0900-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Resource-adequacy-modeling-and-program-design",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Resource adequacy modeling and program design directly impacts how hydropower and pumped-storage resources are accredited and valued in CAISO's capacity market and adequacy framework.",
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "fcb6d694-ee20-45e8-b7de-954e83c9c013",
+        "canonical_name": "Resource adequacy modeling and program design ",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Resource-adequacy-modeling-and-program-design"
+      }
+    ],
+    "documents": [
+      {
+        "type": "proposal",
+        "title": "Straw Proposal - Resource Adequacy Modeling and Program Design - Track 2 - May 11, 2026",
+        "filename": "Straw-Proposal-Resource-Adequacy-Modeling-and-Program-Design-Track-2-May-11-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Straw-Proposal-Resource-Adequacy-Modeling-and-Program-Design-Track-2-May-11-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This proposal directly addresses resource adequacy availability mechanisms, UCAP accreditation, must-offer obligations, and outage substitution rules that significantly affect hydropower and pumped-storage participation in CAISO markets.",
+        "ai_summary": "CAISO proposes major reforms to RAAIM (Resource Adequacy Availability Incentive Mechanism) and must-offer obligations, shifting from static assessment hours to dynamic triggers based on system conditions and scarcity. These changes affect how hydro resources are valued in capacity accreditation, when they must bid into markets, and how outage substitution works\u2014all critical for PSH and seasonal hydro participation in California's RA framework.",
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "fcb6d694-ee20-45e8-b7de-954e83c9c013",
+            "canonical_name": "Resource adequacy modeling and program design ",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Resource-adequacy-modeling-and-program-design"
+          }
+        ],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "NEPOOL Markets Committee Meeting",
@@ -2429,6 +2492,55 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "decision",
+        "title": "2026-05-12-14 MC A06 - Day-Ahead Ancillary Services Post-Implementation Adjustments - FirstLight Memo",
+        "filename": "a06_mc_2026_05_12-14_firstlight_daas_memo.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a06_mc_2026_05_12-14_firstlight_daas_memo.pdf",
+        "posted_date": "2026-05-11",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FirstLight's memo directly addresses ancillary services market design changes affecting fast-start hydropower resources' compensation and incentive structure in ISO-NE's Day-Ahead Ancillary Services market.",
+        "ai_summary": "FirstLight Power Management challenges ISO-NE's proposed strike price floor for DAAS, arguing it would materially reduce performance incentives for first-in-dispatch fast-start resources (including hydropower) by 41-47% in lower-load hours while only reducing costs by 2%, thereby undermining the cost-incentive balance critical to resource adequacy. The proposal would set strike prices well above actual Real-Time LMPs in 94% of hours annually, potentially removing DAAS compensation for the very hydro resources ISO-NE Operations relies on first to address contingencies.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "FirstLight Power Management, LLC",
+            "entity": "FirstLight Power Management, LLC",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "Ben Ewing",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Tom Kaslow",
+            "entity": "ISO New England",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Vamsi Chadalavada",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "David Naughton",
+            "entity": "ISO New England Internal Market Monitor",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Matthew White",
+            "entity": "Unknown",
+            "role": "contact",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -3978,6 +4090,18 @@
         "filename": "npc-2026-05-07-composite4.pdf",
         "url": "https://www.iso-ne.com/static-assets/documents/100035/npc-2026-05-07-composite4.pdf",
         "posted_date": "2026-05-07",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-07 PC Notice of Actions",
+        "filename": "npc-noa-20260507.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/npc-noa-20260507.pdf",
+        "posted_date": "2026-05-11",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
