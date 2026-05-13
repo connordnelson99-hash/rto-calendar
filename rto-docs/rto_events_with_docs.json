@@ -1,5 +1,74 @@
 [
   {
+    "title": "IPSAC - NY/NE Meeting",
+    "date": "2026-05-29",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "IPSAC - NY/NE",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "IPSAC - NY/NE (Interconnection Process Subcommittee - New York/Northeast) typically addresses interconnection queue management and administrative procedures rather than market rules, capacity accreditation, ancillary services, or operational policies that directly affect hydropower participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "SOS Meeting",
+    "date": "2026-05-29",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "SOS",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={88837879-7788-4F73-B914-EB15FE3F9508}",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "SOS (System Operations & Planning Subcommittee) meetings typically address routine operational and administrative matters rather than market design, resource adequacy, or capacity accreditation issues directly affecting hydropower participation.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260529-item-01---draft-minutes---04302026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260529/20260529-item-01---draft-minutes---04302026.pdf",
+        "posted_date": "2026-05-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Co-Located Load Order Workshop Meeting",
+    "date": "2026-05-29",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Co-Located Load Order Workshop",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Co-located load order workshops typically address operational and administrative procedures for load participation rather than generation resources, storage participation, or market rules affecting hydropower and pumped-storage facilities.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "IPSAC Meeting",
+    "date": "2026-05-29",
+    "time": "1:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Interregional Planning Stakeholder Advisory Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Interregional transmission planning meetings can address interconnection, deliverability, and resource adequacy issues that directly affect hydropower and pumped-storage facility participation and market access across regions.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Transmission Committee Meeting",
     "date": "2026-05-28",
     "time": "1:30 PM",
@@ -279,6 +348,31 @@
     "documents": []
   },
   {
+    "title": "Storage Design and Modeling",
+    "date": "2026-05-18",
+    "time": "9:00 AM - 12:00 PM",
+    "rto": "CAISO",
+    "committee": "Storage design and modeling",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/storage-design-and-modeling-may-18-2026-0900-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Storage-design-modeling",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Storage design and modeling directly addresses pumped-storage hydropower (PSH) and energy storage technology integration, which are core topics for the hydropower and storage industry's participation in CAISO markets.",
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "1f4b4e3b-17e8-46fa-869e-902129573142",
+        "canonical_name": "Storage design and modeling",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Storage-design-modeling"
+      }
+    ],
+    "documents": []
+  },
+  {
     "title": "CAMSTF Meeting",
     "date": "2026-05-15",
     "time": "9:00 a.m. - 12:00 p.m.",
@@ -286,7 +380,7 @@
     "committee": "CAMSTF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={79A5F602-3167-4772-893B-F8137379B184}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "CAMSTF (Capacity Markets and Senior Task Force) directly addresses capacity market rules and accreditation that govern how hydropower and pumped-storage resources participate in PJM's capacity markets.",
     "issues": [],
@@ -300,7 +394,7 @@
     "committee": "RSCS",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0084EFC6-F4C8-4C74-8CEC-A39F2E3F28DB}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "RSCS (Reliability and Security Committee Subcommittee) meetings typically focus on operational reliability and cybersecurity matters rather than market design or resource participation rules affecting hydropower.",
     "issues": [],
@@ -416,6 +510,42 @@
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260515-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-agenda.pdf",
+        "posted_date": "2026-05-12",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260515-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-agenda-doc.docx",
+        "posted_date": "2026-05-12",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "XLS",
+        "filename": "20260515-informational-only---m-3-process-needs-status.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-informational-only---m-3-process-needs-status.xlsx",
+        "posted_date": "2026-05-12",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -445,7 +575,305 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The 2026 Market Policy Catalog and Roadmap Process is a comprehensive policy planning exercise where CAISO evaluates and prioritizes market rule changes that could significantly affect hydropower and pumped-storage participation, ancillary services, resource adequacy, and transmission rules.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - Market Policy Catalog and Roadmap - Stakeholder Prioritization Workshop - Apr 08, 2026",
+        "filename": "Presentation-Market-Policy-Catalog-and-Roadmap-Stakeholder-Prioritization-Workshop-Apr-8-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Presentation-Market-Policy-Catalog-and-Roadmap-Stakeholder-Prioritization-Workshop-Apr-8-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document covers CAISO market policy priorities including resource adequacy, energy storage design and modeling, ancillary services, and EDAM enhancements\u2014all directly affecting hydropower and pumped-storage participation and valuation.",
+        "ai_summary": "CAISO's 2026-2028 Market Policy Roadmap includes multiple tracks relevant to hydro: Resource Adequacy modeling and design (affecting hydro accreditation), Storage Design and Modeling (outage management, state-of-charge, uplift bids), EDAM enhancements affecting dispatch and market seams, and ancillary services optimization. The roadmap prioritizes storage-specific policy work and resource visibility improvements critical to pumped-storage and flexible hydro operations.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Appian Way",
+            "entity": "Appian Way",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Bonneville Power Administration",
+            "entity": "Bonneville Power Administration",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Alyssa Krag-Arnold",
+            "entity": "CAISO",
+            "role": "author | contact",
+            "email": "akragarnold@caiso.com"
+          },
+          {
+            "name": "Amelia Blanke",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "CDWR State Water Project",
+            "entity": "California Department of Water Resources",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "CPUC Energy Division",
+            "entity": "California Public Utilities Commission",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "PG&E",
+            "entity": "PG&E",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "PacifiCorp",
+            "entity": "PacifiCorp",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "The Energy Authority",
+            "entity": "The Energy Authority",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "The Joint Parties",
+            "entity": "The Joint Parties",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Vitol, Inc.",
+            "entity": "Vitol, Inc.",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Western Power Trading Forum",
+            "entity": "Western Power Trading Forum",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Western Resource Advocates",
+            "entity": "Western Resource Advocates",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "BOSR Comments on 2026 Market Policy Initiative and Catalog and Roadmap Process - May 11, 2026",
+        "filename": "BOSR-Comments-on-2026-Market-Policy-Initiative-Catalog-and-Roadmap-Process-May11-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/BOSR-Comments-on-2026-Market-Policy-Initiative-Catalog-and-Roadmap-Process-May11-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses energy storage design and modeling, bilateral market liquidity affecting hydro operations, EDAM performance, and congestion revenue allocation\u2014all directly relevant to hydropower and pumped-storage market participation.",
+        "ai_summary": "The BOSR supports ongoing work in the Storage Design and Modeling policy initiative, emphasizing that storage resources must accurately participate in markets and that uplift payments should not insulate them from real-time prices. The document also addresses bilateral market hub indices (Mid-Columbia, Palo Verde) used for price caps and default energy bids, and EDAM enhancements affecting storage discharge optimization during peak demand periods.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Western Energy Markets Body of State Regulators",
+            "entity": "BOSR (representing state utility regulatory commissions from AZ, CA, ID, MT, NV, NM, OR, SD, TX, UT, WA, WY, plus consumer-owned utilities and federal power marketing administrations)",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Appian Way Presentation - Western Market Seams Coordination - Apr 08, 2026",
+        "filename": "Appian-Way-Presentation-Western-Market-Seams-Coordination-Apr-8-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Appian-Way-Presentation-Western-Market-Seams-Coordination-Apr-8-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses western market seams coordination, transmission congestion allocation, and parallel flow impacts on CAISO constraints\u2014issues directly affecting hydropower deliverability, transmission access rights, and market participation across interconnected balancing authorities.",
+        "ai_summary": "The presentation highlights how rapid solar and battery deployment in the desert southwest is driving increased south-to-north flows and congestion on CAISO internal paths, and argues for fair allocation mechanisms between CAISO and external entities (EDAM and Markets+ participants) to prevent transmission rate-payer subsidization of non-CAISO market flows. Hydropower operators and pumped-storage facilities relying on transmission access for energy delivery and ancillary service provision are materially affected by seams coordination rules and congestion allocation methodologies.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Mohammed Al-Karawi",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "California Department of Water Resources Presentation - Adjustment to LSE Flexible RA - Apr 08, 2026",
+        "filename": "California-Department-of-Water-Resources-Presentation-Adjustment-to-LSE-Flexible-RA-Allocations-Due-to-COD-Delays-Apr-8-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/California-Department-of-Water-Resources-Presentation-Adjustment-to-LSE-Flexible-RA-Allocations-Due-to-COD-Delays-Apr-8-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses flexible resource adequacy (RA) allocations and Commercial Operation Date (COD) delays affecting variable energy resources, which directly impacts how hydropower and pumped-storage resources are treated in CAISO's capacity procurement and compliance frameworks.",
+        "ai_summary": "California Department of Water Resources presents a proposal to adjust LSE flexible RA obligations when solar/wind projects experience COD delays, arguing the current tariff creates 'phantom' obligations that impose unnecessary costs without reliability benefit. While focused on solar/wind, this establishes precedent for how RTO tariffs handle delayed resource availability and cost causation\u2014principles directly applicable to hydropower and pumped-storage resources, which also face COD uncertainties and should have comparable flexibility in RA obligation adjustments.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Mohan Niroula",
+            "entity": "California Department of Water Resources (CDWR)",
+            "role": "presenter",
+            "email": "mohan.niroula@water.ca.gov"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "California Department of Water Resources Presentation - Adjustment to LSEs with RTCO Changes - Apr 08, 2026",
+        "filename": "California-Department-of-Water-Resources-Presentation-Rising-Costs-to-LSEs-with-RTCO-Changes-Apr-8-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/California-Department-of-Water-Resources-Presentation-Rising-Costs-to-LSEs-with-RTCO-Changes-Apr-8-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "RTCO (Real-Time Congestion Offset) rate increases directly affect California's hydropower operators, particularly the California Department of Water Resources, by increasing their real-time congestion costs and potentially impacting the economics of hydropower dispatch and participation in CAISO markets.",
+        "ai_summary": "CDWR presents analysis of steady RTCO rate increases since 2011, attributing some to convergence bidding and transmission constraints in Southern California. The presentation requests CAISO investigation into root causes and stakeholder process to lower RTCO charges, which are material operational and financial concerns for hydropower operators managing large water resources portfolios in CAISO.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Alexander Katrechko",
+            "entity": "California Department of Water Resources (CDWR)",
+            "role": "contact",
+            "email": "alexander.katrechko@water.ca.gov"
+          },
+          {
+            "name": "Daniel Cretu",
+            "entity": "California Department of Water Resources (CDWR)",
+            "role": "presenter",
+            "email": "daniel.cretu@water.ca.gov"
+          },
+          {
+            "name": "Daniel Slobodyanyuk",
+            "entity": "California Department of Water Resources (CDWR)",
+            "role": "contact",
+            "email": "daniel.slobodyanyuk@water.ca.gov"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "California Public Utilities Commission Presentation - Energy Division Staff Annual Policy Catalog Proposals - Apr 08, 2026",
+        "filename": "California-Public-Utilities-Commission-Presentation-Energy-Division-Staff-Annual-Policy-Catalog-Proposals-Apr-8-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/California-Public-Utilities-Commission-Presentation-Energy-Division-Staff-Annual-Policy-Catalog-Proposals-Apr-8-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses CAISO market design changes (EDAM/DAME) and ancillary service products (Imbalance Reserves, Reliability Capacity) that directly affect how flexible resources like hydropower and pumped-storage can participate and be compensated in the market.",
+        "ai_summary": "The CPUC Energy Division Staff proposal reviews new EDAM and DAME market products launching May 1, 2026, including imbalance reserves and reliability capacity products that are critical for dispatchable hydropower. The staff recommends assessing qualification requirements (15-minute start-up, 30-minute dispatchability), adequacy of reserve levels, and market design parameters\u2014all of which directly impact hydro resource participation, valuation, and dispatch.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "May Kabiri",
+            "entity": "California Public Utilities Commission, Energy Division",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Michele Kito",
+            "entity": "California Public Utilities Commission, Energy Division",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "PacifiCorp Presentation - Imbalance Reserve Enhancements - Apr 08, 2026",
+        "filename": "PacifiCorp-Presentation-Imbalance-Reserve-Enhancements-Apr-8-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/PacifiCorp-Presentation-Imbalance-Reserve-Enhancements-Apr-8-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Imbalance reserves are a key ancillary service product that affects hydropower and storage resource dispatch, pricing, and market participation, particularly as EDAM expands reserve procurement across multiple balancing authorities.",
+        "ai_summary": "PacifiCorp proposes evaluating imbalance reserve performance under EDAM operations to assess alignment between day-ahead procurement and real-time system needs. Results could affect how hydropower and pumped-storage resources are awarded, priced, and dispatched for reserve products, with potential implications for cost allocation and operational flexibility.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Pacific Gas and Electric Presentation - 2028 EDAM Review - Ancillary Services Real-Time Re-Optimization - Apr 08, 2026",
+        "filename": "PGandE-Presentation-2028-EDAM-Review-Ancillary-Services-Real-Time-Re-Optimization-Apr-8-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/PGandE-Presentation-2028-EDAM-Review-Ancillary-Services-Real-Time-Re-Optimization-Apr-8-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document proposes real-time ancillary service re-optimization and discusses flexibility value for storage and hybrid resources, which directly affects hydropower and pumped-storage market participation and dispatch efficiency.",
+        "ai_summary": "PG&E proposes a stakeholder initiative to re-optimize ancillary services in CAISO real-time markets, including re-bidding, elimination of dispatch constraints (ASSOC), and simplified service definitions. This initiative explicitly targets unlocking flexibility value for storage, hybrids, and variable renewable resources, with direct implications for how pumped-storage hydropower and run-of-river hydro can participate in and benefit from western market integration.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Pacific Gas and Electric",
+            "entity": "Pacific Gas and Electric (PG&E)",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "The Energy Authority Presentation - EDAM BAA Transactional Seams - Apr 08, 2026",
+        "filename": "The-Energy-Authority-Presentation-EDAM-BAA-Transactional-Seams-Apr-8-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/The-Energy-Authority-Presentation-EDAM-BAA-Transactional-Seams-Apr-8-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses EDAM market design changes affecting inter-regional energy trading, transmission scheduling, and resource access that could impact hydropower generators' and storage operators' ability to participate in day-ahead and hour-ahead markets across multiple BAAs.",
+        "ai_summary": "This proposal to enhance EDAM BAA transactional seams would enable hourly-block energy trading at external interties for both firm contracts and economy energy, potentially expanding market access for hydropower and pumped-storage resources. The changes affect transmission service provision, congestion revenue allocation, and scheduling models (SP-Tie vs. GAP-Tie) that influence how dispatchable hydro resources compete and deliver across regional boundaries.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Dan Williams",
+            "entity": "The Energy Authority",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "The Joint Parties Presentation - Maximum Import Capability Enhancements - Apr 08, 2026",
+        "filename": "The-Joint-Parties-Presentation-Maximum-Import-Capability-Enhancements-Apr-8-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/The-Joint-Parties-Presentation-Maximum-Import-Capability-Enhancements-Apr-8-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Maximum Import Capability enhancements directly affect how out-of-state hydropower and other resources can be counted toward resource adequacy requirements and long-term contracting, which is critical for hydropower imports and deliverability.",
+        "ai_summary": "The document addresses MIC allocation challenges that constrain long-term power purchase agreements for out-of-state resources, including hydropower. Hydropower operators and LSEs relying on OOS hydro imports need improved MIC methodologies and multi-year certainty to support contracting with future commercial operation dates, particularly relevant to the 19 GW of OOS resources planned by 2045.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Western Power Trading Forum Presentation - Resource Adequacy Reliability - Seams - EDAM Enhancements - Apr 08, 2026",
+        "filename": "Western-Power-Trading-Forum-Presentation-RA-Reliability-Seams-EDAM-Enhancements-Apr-8-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Western-Power-Trading-Forum-Presentation-RA-Reliability-Seams-EDAM-Enhancements-Apr-8-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses resource adequacy reliability, EDAM market enhancements, and market seams that directly affect hydropower and storage participation in CAISO markets, including discussion of RA products, dispatch rules, and market integration.",
+        "ai_summary": "WPTF proposes eliminating the Flexible RA product and updating CPM backstop mechanisms to align with 1-in-10 LOLE standards, which affect how hydropower resources qualify and are compensated for flexibility services. The document also advocates for formal policy processes to address EDAM implementation issues including bidding rules and intertie participation that are critical to hydropower and storage deliverability.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Carrie Bentley",
+            "entity": "Gridwell Consulting",
+            "role": "contact",
+            "email": "Cbentley@gridwell.com"
+          },
+          {
+            "name": "Kallie Wells",
+            "entity": "Gridwell Consulting",
+            "role": "presenter",
+            "email": "Kwells@gridwell.com"
+          },
+          {
+            "name": "Western Power Trading Forum",
+            "entity": "WPTF",
+            "role": "sponsor",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Resource Adequacy Modeling and Program Design (RAMPD) - Track 2",
@@ -480,6 +908,29 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "This proposal directly addresses resource adequacy availability mechanisms, UCAP accreditation, must-offer obligations, and outage substitution rules that significantly affect hydropower and pumped-storage participation in CAISO markets.",
         "ai_summary": "CAISO proposes major reforms to RAAIM (Resource Adequacy Availability Incentive Mechanism) and must-offer obligations, shifting from static assessment hours to dynamic triggers based on system conditions and scarcity. These changes affect how hydro resources are valued in capacity accreditation, when they must bid into markets, and how outage substitution works\u2014all critical for PSH and seasonal hydro participation in California's RA framework.",
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "fcb6d694-ee20-45e8-b7de-954e83c9c013",
+            "canonical_name": "Resource adequacy modeling and program design ",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Resource-adequacy-modeling-and-program-design"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "proposal",
+        "title": "Straw Proposal - Resource Adequacy Modeling and Program Design - Track 2 - May 12, 2026",
+        "filename": "Straw-Proposal-Resource-Adequacy-Modeling-and-Program-Design-Track-2-May-12-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Straw-Proposal-Resource-Adequacy-Modeling-and-Program-Design-Track-2-May-12-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document directly addresses resource adequacy rules, RAAIM incentive mechanisms, outage substitution, and must-offer obligations that significantly affect how hydropower and storage resources participate in CAISO markets and are credited for capacity.",
+        "ai_summary": "The proposal reforms California's Resource Adequacy Availability Incentive Mechanism (RAAIM) to better target critical periods and improve generator availability, while also discussing UCAP (unforced capacity) accreditation methodologies that reflect resource-specific outage rates\u2014both of which directly impact how hydro and pumped-storage resources are valued, incented, and must be offered in the market. Outage substitution enhancements and clarified must-offer obligations also affect operational flexibility that hydro resources typically provide.",
         "issues": [
           {
             "rto": "CAISO",
@@ -600,7 +1051,43 @@
         "title": "PDF",
         "filename": "20260514-item-08---ppl-supplemental-projects.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260514/20260514-item-08---ppl-supplemental-projects.pdf",
-        "posted_date": "2026-05-04",
+        "posted_date": "2026-05-11",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260514-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260514/20260514-agenda.pdf",
+        "posted_date": "2026-05-11",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260514-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260514/20260514-agenda-doc.docx",
+        "posted_date": "2026-05-11",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "XLS",
+        "filename": "20260514-informational-only---m-3-process-needs-status.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260514/20260514-informational-only---m-3-process-needs-status.xlsx",
+        "posted_date": "2026-05-11",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -627,7 +1114,43 @@
         "title": "PDF",
         "filename": "20260514-item-04---dom-supplemental-projects.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-s/2026/20260514/20260514-item-04---dom-supplemental-projects.pdf",
-        "posted_date": "2026-05-04",
+        "posted_date": "2026-05-11",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260514-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-s/2026/20260514/20260514-agenda.pdf",
+        "posted_date": "2026-05-11",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260514-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-s/2026/20260514/20260514-agenda-doc.docx",
+        "posted_date": "2026-05-11",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "XLS",
+        "filename": "20260514-informational-only---m-3-process-needs-status.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-s/2026/20260514/20260514-informational-only---m-3-process-needs-status.xlsx",
+        "posted_date": "2026-05-11",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -1613,7 +2136,7 @@
     "committee": "Co-Located Load Order Workshop",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={5F6D5FDD-F57A-4776-AA01-845C1C82CE2C}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Co-located load rules directly affect pumped-storage hydropower facilities that pair generation with pumping load, making this workshop relevant to how PSH participates in PJM's market.",
     "issues": [],
@@ -1641,9 +2164,23 @@
     "committee": "PIEOUG\nAnnual Meeting",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={46BE436F-0722-4280-935C-2A52AE6A9E9A}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "PIEOUG (PJM Industrial Energy Consumers User Group) is a stakeholder group focused on industrial customer interests and electricity costs, not on hydropower, storage, or generation market rules.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "TOA-AC - Public Materials Only (No Registration)\nAnnual Meeting Meeting",
+    "date": "2026-05-13",
+    "time": "8:30 a.m. - 10:00 a.m.",
+    "rto": "PJM",
+    "committee": "TOA-AC - Public Materials Only (No Registration)\nAnnual Meeting",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={648CDD13-762C-405E-B54B-AB541C929902}",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "TOA-AC (Transmission Operations & Alternatives Advisory Committee) annual meetings typically cover transmission operational procedures and infrastructure planning rather than market rules, capacity mechanisms, or resource-specific participation rules that directly affect hydropower operations.",
     "issues": [],
     "documents": []
   },
@@ -2626,6 +3163,45 @@
             "email": null
           }
         ]
+      }
+    ]
+  },
+  {
+    "title": "FERC Announces Commission-Led Technical Conference on PJM Governance and Stakeholder Reforms",
+    "date": "2026-05-12",
+    "time": null,
+    "rto": "FERC",
+    "committee": "HEADLINES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/PJM-Gov-Stakeholder-Reforms",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "FERC Announces Commission-Led Technical Conference on PJM Governance and Stakeholder Reforms",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/PJM-Gov-Stakeholder-Reforms",
+        "posted_date": "2026-05-12",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a press release announcing a technical conference on PJM governance and stakeholder reforms, with no substantive content addressing hydropower, storage, capacity markets, ancillary services, or market rules affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "elibrary",
+        "title": "20260512-3049_AD26-7-000 Tech Conf.pdf",
+        "filename": null,
+        "url": "https://www.ferc.gov/sites/default/files/2026-05/20260512-3049_AD26-7-000%20Tech%20Conf.pdf",
+        "posted_date": "2026-05-12",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a technical conference announcement on PJM governance and stakeholder reforms with no extracted text; governance reform is outside scope unless it specifically addresses hydro market participation, capacity accreditation, or resource adequacy rules affecting hydropower/storage.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -3720,7 +4296,7 @@
       },
       {
         "type": "agenda",
-        "title": "PDF",
+        "title": "Transmission Expansion Advisory Committee Agenda",
         "filename": "20260508-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-agenda.pdf",
         "posted_date": "2026-05-06",
@@ -4044,6 +4620,18 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "minutes",
+        "title": "Transmission Expansion Advisory Committee Minutes",
+        "filename": "20260508-minutes.ashx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260508/20260508-minutes.ashx",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission Expansion Advisory Committee meetings directly address transmission planning that affects hydropower interconnection, deliverability, and resource adequacy\u2014core concerns for the hydro industry.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
