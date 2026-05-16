@@ -1,5 +1,33 @@
 [
   {
+    "title": "Cost Development Subcommittee Meeting",
+    "date": "2026-06-01",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "Cost Development Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Cost Development Subcommittee meetings typically focus on administrative cost allocation and billing processes rather than market rules, resource participation, or operational policies that affect hydropower and storage assets.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Distributed Resources Subcommittee Meeting",
+    "date": "2026-06-01",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Distributed Resources Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Distributed Resources Subcommittee typically addresses rooftop solar, microgrids, and small DER rather than utility-scale hydropower and pumped-storage facilities that are the primary focus of hydropower industry analysis.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "IPSAC - NY/NE Meeting",
     "date": "2026-05-29",
     "time": "9:00 a.m. - 12:00 p.m.",
@@ -59,7 +87,7 @@
     "date": "2026-05-29",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Interregional Planning Stakeholder Advisory Committee",
+    "committee": "Planning Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
     "materials_url": null,
@@ -113,7 +141,7 @@
   {
     "title": "Critical Issue Fast Path - Reliability Backstop Procurement Meeting",
     "date": "2026-05-27",
-    "time": "3:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 2:00 p.m.",
     "rto": "PJM",
     "committee": "Critical Issue Fast Path - Reliability Backstop Procurement",
     "source_url": "https://www.pjm.com/calendar",
@@ -141,7 +169,7 @@
   {
     "title": "Interconnection Process Subcommittee Meeting",
     "date": "2026-05-26",
-    "time": "3:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "Interconnection Process Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
@@ -205,8 +233,559 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Reliability Committee addresses resource adequacy, capacity accreditation, and operational standards that directly impact how hydropower and pumped-storage resources participate in ISO-NE markets and meet reliability requirements.",
-    "issues": [],
-    "documents": []
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "2026-05-21 RC A05.a Capacity Auction Reforms - Seasonal/Accreditation - DECR Modeling & Accreditation - Presentation",
+        "filename": "a05_a_decr_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a05_a_decr_presentation.pdf",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document addresses capacity accreditation framework and seasonal auction reforms that directly affect how distributed energy resources\u2014including storage facilities (CSF, BSF)\u2014are modeled and accredited for resource adequacy, which impacts market participation rules for hydropower and pumped-storage resources.",
+        "ai_summary": "ISO-NE is implementing accreditation reforms for Distributed Energy Capacity Resources (DECRs) under FERC Order 2222 compliance, including Continuous Storage Facilities (CSF) and Binary Storage Facilities (BSF). The framework uses performance-based profiling and Marginal Reliability Impact (MRI) Hours modeling to determine capacity accreditation; storage resources aggregated as DECRs must use DERA-level profiles and may be subject to T&D loss adjustments. These rules affect how pumped-storage and battery storage participate in ISO-NE's seasonal capacity auctions effective Q2 2027.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Ben Chenault",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "decision",
+        "title": "2026-05-21 RC A05.a Capacity Auction Reforms - Seasonal/Accreditation - DECR Modeling & Accreditation - Memo",
+        "filename": "a05_a_decr_memo.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a05_a_decr_memo.pdf",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses capacity accreditation frameworks under FERC Order 2222 that will affect how distributed energy resources including storage are modeled and compensated in ISO-NE's capacity market, which has direct implications for pumped-storage hydropower and energy storage participation.",
+        "ai_summary": "ISO-NE is implementing a new MRI (performance-based) accreditation framework for Distributed Energy Capacity Resources (DECRs) that replaces the previous sum-of-individual-facilities approach. This framework will impact how storage resources and other DERs are credited for capacity contributions, affecting their market revenues and participation incentives\u2014relevant to PSH and battery storage operators.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "ISO New England, Inc.",
+            "entity": "ISO New England",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A05.b Capacity Auction Reforms - Seasonal/Accreditation - Tie Benefits Follow-Ups",
+        "filename": "a05_b_tie_benefits_follow_ups.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a05_b_tie_benefits_follow_ups.pdf",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document details ISO-NE's capacity auction reforms including seasonal accreditation and tie benefits methodology that directly affect how hydropower and other dispatchable resources are valued and accredited in the capacity market.",
+        "ai_summary": "ISO-NE is implementing triennial seasonal tie benefits (STB) studies to inform seasonal capacity auction reforms, with sensitivity studies triggered by changes in external Capacity Import Capability (CIC). This affects how hydropower's capacity contributions are valued seasonally (summer vs. winter) and how storage and flexible hydro resources participate in the reformed capacity accreditation framework beginning Q2 2027.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Dan Patnaude",
+            "entity": "ISO-NE",
+            "role": "contact",
+            "email": "dpatnaude@iso-ne.com"
+          },
+          {
+            "name": "Manasa Kotha",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A05.c Capacity Auction Reforms - Seasonal/Accreditation - Capacity Zone Formation",
+        "filename": "a05_c_capacity_zone_formation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a05_c_capacity_zone_formation.pdf",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document directly addresses capacity accreditation reforms (CAR-SA) and capacity zone formation, which are critical for how hydropower and pumped-storage resources are accredited and valued in ISO-NE's capacity market.",
+        "ai_summary": "The CAR-SA initiative redesigns capacity accreditation measures and introduces seasonal (summer/winter) capacity auctions with revised zone development processes. Hydropower and pumped-storage operators need to understand how Dependable Capability (DCap) values will replace Qualified Capacity (QC) in import-constrained zone testing, and how seasonal system conditions will affect zonal accreditation and market signals for resource location.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Manasa Kotha",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A03.02 Eversource Energy, Greater Dorchester Area Initiative PPAs \u2013 Level III \u2013 ES-26-T45, ES-26-T46, ES-26-T48, ES-26-T49, ES-26-T50",
+        "filename": "a03_02_gdai_es_26_t45_es_26_t46_es_26_t48_es_26_t49_es_26_t50.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/ceii/operations-services/ceii/rc/2026/05/a03_02_gdai_es_26_t45_es_26_t46_es_26_t48_es_26_t49_es_26_t50.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document title and metadata indicate this concerns Eversource Energy PPAs in the Greater Dorchester Area, which appears to be a procurement or contract matter unrelated to hydropower/pumped-storage market rules, capacity accreditation, ancillary services, or transmission planning affecting hydro.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A03.03 New England Renewable Power, Tamworth Power Station AVR Upgrade PPA \u2013 Level III \u2013 NERP-26-X01",
+        "filename": "a03_03_nerp_tamworth_avr_replacement.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/ceii/operations-services/ceii/rc/2026/05/a03_03_nerp_tamworth_avr_replacement.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document title references an AVR (automatic voltage regulator) upgrade PPA for a specific power station, which is a equipment/technical specification matter unrelated to hydropower market rules, capacity accreditation, energy storage, ancillary services, transmission planning, market design, or regulatory frameworks affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A04.1 \u2013 New England Clean Energy Connect (NECEC) Tie Line Qualified Reactive Resource (QRR) Request",
+        "filename": "a04_1_necec_qrr.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/ceii/operations-services/ceii/rc/2026/05/a04_1_necec_qrr.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Qualified Reactive Resource (QRR) requests for major transmission projects directly affect resource adequacy, voltage support, and market participation rules that impact hydropower and storage resources in the region.",
+        "ai_summary": "This document addresses a QRR request related to the New England Clean Energy Connect tie line, which involves reactive resource qualification and transmission infrastructure. Reactive resource rules and transmission planning decisions affect how hydropower and storage resources participate in ISO-NE's markets and provide grid support services.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "2026-05-21 RC A00 Agenda",
+        "filename": "a00_052126_rc_agenda.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a00_052126_rc_agenda.docx",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is an agenda with no extracted text; cannot assess substantive content relevant to hydropower or storage market rules.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "2026-05-21 RC A00 Consent Agenda",
+        "filename": "a02_00_052126_rc_consent_agenda.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02_00_052126_rc_consent_agenda.docx",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "A consent agenda document with no extracted text cannot be evaluated for substantive hydropower or pumped-storage content.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "2026-05-21 RC A01.1 MC/RC April 22, 2026 Meeting Minutes",
+        "filename": "a01_1_042226_draft_mc_rc_meeting_minutes.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a01_1_042226_draft_mc_rc_meeting_minutes.docx",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a meeting minutes cover sheet with no extracted text content to assess substantive relevance to hydropower or pumped-storage topics.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "2026-05-21 RC A01.1 MC/RC April 14-16, 2026 Meeting Minutes",
+        "filename": "a01_1_2026_04_14_16_mc_rc_meeting_minutes.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a01_1_2026_04_14_16_mc_rc_meeting_minutes.docx",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is meeting minutes with no text extracted; without content, hydro relevance cannot be assessed.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "2026-05-21 RC A01.1 MC/RC/TC April 21, 2026 Meeting Minutes",
+        "filename": "a01_1_2026_04_21_tc_mc_rc_meeting_minutes.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a01_1_2026_04_21_tc_mc_rc_meeting_minutes.docx",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is meeting minutes with no extracted text content; without the actual minutes text, relevance to hydropower cannot be determined.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A02.01 Kearsarge, 0 Windsor Terrace Solar \u2013 Level 0 \u2013 ES-26-G07",
+        "filename": "a02_01_es_26_g07.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/ceii/operations-services/ceii/rc/2026/05/a02_01_es_26_g07.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns a solar facility interconnection study (Kearsarge/Windsor Terrace Solar) and does not address hydropower, pumped-storage, storage capabilities, or market rules affecting hydroelectric resources.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A02.02 Kearsarge Solar, LLC, 6 Wilder Drive Solar \u2013 Level 0 \u2013 UES-26-G01",
+        "filename": "a02_02_ues_26_g01.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/ceii/operations-services/ceii/rc/2026/05/a02_02_ues_26_g01.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns a solar generation interconnection study (Kearsarge Solar, LLC) and does not address hydropower, pumped-storage hydropower, energy storage market rules, capacity accreditation, ancillary services, or any other topic material to the hydropower and pumped-storage industry.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A02.03 Rebuild of Line 250-516/517 Cables \u2013 Level 0 \u2013 ES-26-T37",
+        "filename": "a02_03_es_26_t37.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/ceii/operations-services/ceii/rc/2026/05/a02_03_es_26_t37.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document concerns transmission cable infrastructure rebuild with no extracted text available to assess hydropower or energy storage market relevance.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A03.01 Eversource Energy, UConn Storrs Area Upgrade PPAs \u2013 Level III \u2013 ES-26-T19 - ES-26-T30",
+        "filename": "a03_01_es_26_t19_t30.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/ceii/operations-services/ceii/rc/2026/05/a03_01_es_26_t19_t30.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document title references Eversource Energy PPAs and UConn facility upgrades with no extracted text content; metadata alone does not indicate hydropower, pumped-storage, capacity accreditation, resource adequacy, energy storage market rules, or other core hydro-relevant topics.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A06.1 VELCO PV20 SmartValve Project TCA \u2013 VELCO-26-TCA-01",
+        "filename": "a06_1_pv20_smartvalve_tca_final_submittal.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a06_1_pv20_smartvalve_tca_final_submittal.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document title and metadata indicate this is a VELCO transmission project (PV20 SmartValve) with no text extracted, and the title does not suggest relevance to hydropower generation, pumped-storage, energy storage, capacity markets, or RTO market rules affecting hydro.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A06.2 Versant Power Chester SVC Control and Valve Upgrade Project TCA \u2013 VP-26-TCA-01",
+        "filename": "a06_2_vp_26_tca_01_chester_svc_260408.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a06_2_vp_26_tca_01_chester_svc_260408.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns a static VAR compensator (SVC) and valve upgrade project for a specific transmission asset owned by Versant Power, which does not involve hydropower capacity, storage, market participation, or related regulatory rules.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A06.3 Central Maine Power & MEPCO Structure Replacement Project TCAs \u2013 CMP-26-TCA-01, CMP-26-TCA-02, CMP-26-TCA-03, CMP-26-TCA-04, CMP-26-TCA-05, CMP-26-TCA-06, MEPCO-26-TCA-01",
+        "filename": "a06_3_cmp_mepco_structure_replacements.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a06_3_cmp_mepco_structure_replacements.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns Central Maine Power and MEPCO transmission infrastructure replacement projects (TCAs), which are transmission planning matters unrelated to hydropower resource adequacy, capacity markets, energy storage dispatch, ancillary services, or market rules affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A06.4 Eversource 389 345 kV Line Structure Replacements (West Walpope - West Medway) Project TCA \u2013 ES-23-TCA-28",
+        "filename": "a06_4_es_23_tca_28.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a06_4_es_23_tca_28.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns a specific transmission line structure replacement project (345 kV line between West Walpole and West Medway) and does not address hydropower capacity, resource adequacy, energy storage, ancillary services, market rules, or other topics material to hydropower and pumped-storage industry operations.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A06.5 Eversource 1208 345 kV Line Structure Replacements (Southington - Cook Hill Junction) Project TCA \u2013 ES-23-TCA-46",
+        "filename": "a06_5_es_23_tca_46.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a06_5_es_23_tca_46.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document describes a routine transmission line structure replacement project (Eversource 345 kV line in Connecticut) with no extracted text indicating content related to hydropower operations, capacity markets, energy storage, ancillary services, or market participation rules.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A07.1 SATOA Operating Procedure Conforming Changes",
+        "filename": "a07_01_satoa_conforming_changes.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a07_01_satoa_conforming_changes.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted; title alone does not provide sufficient content to assess relevance to hydropower and pumped-storage operations, markets, or compliance.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A07.2 OP-16 and Appendices A, B, C, D, E,G H, and I",
+        "filename": "a07_02_op_16_and_appendices.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a07_02_op_16_and_appendices.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document text was not extracted, only metadata and title are available; no substantive content can be reviewed to assess relevance to hydropower or pumped-storage operations, market rules, or participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A07.3 OP-17 Appendix B",
+        "filename": "a07_03_op_17_b.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a07_03_op_17_b.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted, making it impossible to assess content relevance to hydropower and pumped-storage operations or markets.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A08.1 PP5-3, PP5-5, PP7 - Order No. 881 Conforming Changes",
+        "filename": "a08_01_881_conforming_changes.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a08_01_881_conforming_changes.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FERC Order No. 881 conforming changes to ISO-NE tariffs likely affect resource qualification, capacity accreditation, or market rules applicable to hydropower and pumped-storage resources.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A08.2 Planning Procedure 10",
+        "filename": "a08_02_pp_10.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a08_02_pp_10.zip",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted; title alone does not confirm hydropower-specific content, and 'Planning Procedure 10' is insufficiently descriptive to assess relevance without full content.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A09 Transition to PSSE Version 36",
+        "filename": "a09_transition_to_psse_v36_final.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a09_transition_to_psse_v36_final.pdf",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses PSS/E software migration and model conversion requirements for stability analysis tools, which is a technical IT/operations matter not directly related to hydropower market participation, capacity accreditation, resource adequacy, ancillary services, transmission planning affecting hydro, or market rule changes.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Shounak Abhyankar",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": "sabhyankar@iso-ne.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A02.04 Greenville CSG LLC, 166 Moosehead Lake Road Solar \u2013 Withdrawal \u2013 CMP-23-G56",
+        "filename": "a02_04_cmp_23_g56.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02_04_cmp_23_g56.pdf",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns withdrawal of a solar generation interconnection application and does not address hydropower, pumped-storage, energy storage, market rules, or other topics relevant to the hydropower and pumped-storage industry.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Bayleigh Logan",
+            "entity": "Central Maine Power Company",
+            "role": "author",
+            "email": "bayleigh.logan@cmpco.com"
+          },
+          {
+            "name": "Bruce Jagolinzer",
+            "entity": "Central Maine Power Company",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Dariya Evans",
+            "entity": "Central Maine Power Company",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Jacob Farmer",
+            "entity": "Central Maine Power Company",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Sue Clary",
+            "entity": "Central Maine Power Company",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Nicholas Gangi",
+            "entity": "ISO New England",
+            "role": "recipient",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A02.05 120 Derry Rd Solar, 120 Derry Road Solar \u2013 Withdrawal \u2013 ES-26-G02",
+        "filename": "a02_05_es_26_g02.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02_05_es_26_g02.pdf",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a withdrawal notice for a solar project with no content related to hydropower, pumped-storage, energy storage dispatch, capacity accreditation, ancillary services, or market rules affecting hydro operations.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Matthew Preston",
+            "entity": "Eversource Energy Service Company",
+            "role": "author",
+            "email": "matthew.t.preston@eversource.com"
+          },
+          {
+            "name": "Nick Gangi",
+            "entity": "ISO New England, Inc.",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A02.06 Encore Renewable Energy, 205 Meetinghouse Road Solar \u2013 Withdrawal \u2013 ES-25-G49",
+        "filename": "a02_06_es_25_g49.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02_06_es_25_g49.pdf",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a straightforward project withdrawal notice for a solar facility and contains no content related to hydropower, pumped-storage, capacity markets, resource adequacy, ancillary services, or market rules affecting hydro operations.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Matthew Preston",
+            "entity": "Eversource Energy Service Company",
+            "role": "author",
+            "email": "matthew.t.preston@eversource.com"
+          },
+          {
+            "name": "Nick Gangi",
+            "entity": "ISO New England, Inc.",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC A02.07 OnSite Renewables LLC, 99 Development Road Battery \u2013 Withdrawal \u2013 FGE-23-G02",
+        "filename": "a02_07_fge_23_g02.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02_07_fge_23_g02.pdf",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document concerns withdrawal of a battery energy storage facility interconnection application, which directly affects energy storage market participation and RTO resource adequacy planning.",
+        "ai_summary": "Unitil Corporation is withdrawing its I.3.9 notification for a 4,999.2 kW stand-alone battery energy storage facility in Fitchburg, MA (FGE-23-G02). While this specific project is being cancelled, the withdrawal process and interconnection framework are relevant to how storage resources interact with ISO-NE's reliability and interconnection procedures, which affect both storage and hydropower resources.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "John J. Bonazoli",
+            "entity": "Unitil Corporation",
+            "role": "author",
+            "email": "Bonazoli@unitil.com"
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "2026-05-21 RC A01.1 RC April 22, 2026 Meeting Minutes",
+        "filename": "a01_1_042226_rc_meeting_minutes.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a01_1_042226_rc_meeting_minutes.docx",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is meeting minutes with no text extracted; cannot assess relevance to hydropower/storage topics without actual content.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "RCSTF Meeting",
@@ -225,7 +804,7 @@
   {
     "title": "Markets and Reliability Committee Meeting",
     "date": "2026-05-20",
-    "time": "9:00 a.m. - 12:30 p.m.",
+    "time": "9:00 a.m. - 1:00 p.m.",
     "rto": "PJM",
     "committee": "Markets and Reliability Committee",
     "source_url": "https://www.pjm.com/calendar",
@@ -1321,21 +1900,58 @@
     "committee": "DTS",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C1A564EE-B06A-4EF8-B856-0DA0BF6355F0}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "DTS (Domestic Transmission Services) meetings typically address routine transmission operations and administrative matters rather than market design rules, capacity accreditation, or resource adequacy issues affecting hydropower and pumped-storage operations.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260519-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/dts/2026/20260519/20260519-agenda.pdf",
+        "posted_date": "2026-05-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260519-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/dts/2026/20260519/20260519-agenda-doc.docx",
+        "posted_date": "2026-05-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260519-minutes---dts--04142026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/dts/2026/20260519/20260519-minutes---dts--04142026.pdf",
+        "posted_date": "2026-05-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Risk Management Committee Meeting",
     "date": "2026-05-19",
-    "time": "1:00 p.m. - 2:30 p.m.",
+    "time": "9:00 a.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "Risk Management Committee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={6473C990-E7FC-41DD-855C-542F6ED073D5}",
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Risk Management Committee meetings typically address operational risk, credit risk, and financial risk management rather than market design or participation rules that directly affect hydropower and pumped-storage operations.",
     "issues": [],
@@ -1662,6 +2278,20 @@
     ]
   },
   {
+    "title": "Technical User Group",
+    "date": "2026-05-19",
+    "time": "10:00 AM - 11:00 AM",
+    "rto": "CAISO",
+    "committee": "Technical User Group (TUG)",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/technical-user-group-may-19-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/technical-user-group-tug",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "CAISO's Technical User Group discusses operational and market technical issues that routinely affect hydropower and storage participation, including dispatch protocols, bidding requirements, and interconnection standards.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "SPF Meeting",
     "date": "2026-05-18",
     "time": "10:00 a.m. - 12:00 p.m.",
@@ -1710,11 +2340,84 @@
     "committee": "GDECS",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={CD92F2E6-89EF-4045-9DBE-1A779258092A}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "GDECS (General Dynamics and Engineering Committee Services) is a routine operations and governance committee without specific focus on market rules, resource adequacy, capacity mechanisms, or generation technologies that would directly affect hydropower participation.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260518-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/gdecs/2026/20260518/20260518-agenda.pdf",
+        "posted_date": "2026-05-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260518-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/gdecs/2026/20260518/20260518-agenda-doc.docx",
+        "posted_date": "2026-05-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260518-item-01---gdecs-draft-minutes---4242026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/gdecs/2026/20260518/20260518-item-01---gdecs-draft-minutes---4242026.pdf",
+        "posted_date": "2026-05-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260518-item-02---gdecs-timeline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/gdecs/2026/20260518/20260518-item-02---gdecs-timeline.pdf",
+        "posted_date": "2026-05-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260518-item-03---gdecs-chart-april-2026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/gdecs/2026/20260518/20260518-item-03---gdecs-chart-april-2026.pdf",
+        "posted_date": "2026-05-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260518-item-04---iprtf-gdecs-iii-chart.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/gdecs/2026/20260518/20260518-item-04---iprtf-gdecs-iii-chart.pdf",
+        "posted_date": "2026-05-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Tech Change Forum Meeting",
@@ -1734,7 +2437,7 @@
         "title": "PDF",
         "filename": "20260518-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20260518/20260518-agenda.pdf",
-        "posted_date": "2026-05-13",
+        "posted_date": "2026-05-14",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -1746,7 +2449,7 @@
         "title": "DOC",
         "filename": "20260518-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20260518/20260518-agenda-doc.docx",
-        "posted_date": "2026-05-13",
+        "posted_date": "2026-05-14",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -1984,7 +2687,50 @@
         "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Storage-design-modeling"
       }
     ],
-    "documents": []
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - Storage Design and Modeling - May 18, 2026",
+        "filename": "Presentation-Storage-Design-Modeling-May-18-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Presentation-Storage-Design-Modeling-May-18-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document addresses storage default energy bid (DEB) enhancements and bidding modifications that directly affect how storage resources, including pumped-storage hydropower, participate in CAISO markets.",
+        "ai_summary": "CAISO is proposing modifications to storage default energy bid calculations to better reflect real-time opportunity costs and enable all storage resources (including PSH) to access DEB options regardless of location or EDAM participation status. The proposal includes time-of-day concepts and addresses charging-side mitigation risks relevant to storage dispatchability.",
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "1f4b4e3b-17e8-46fa-869e-902129573142",
+            "canonical_name": "Storage design and modeling",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Storage-design-modeling"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Brenda Marquez",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dinesh Das Gupta",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sergio Due\u00f1as Mel\u00e9ndez",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Interconnection Service Capacity and Deliverability Retention for Non-Operating Generating Facilities - Draft Final Proposal",
@@ -2297,6 +3043,59 @@
           }
         ],
         "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260515-item-03d---state-policies-in-connect-and-manage---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/camstf/2026/20260515/20260515-item-03d---state-policies-in-connect-and-manage---presentation.pdf",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document addresses state policy integration into PJM's Connect-and-Manage capacity procurement framework, which is a retail rate design and state regulatory matter that does not directly affect hydropower or pumped-storage market participation, capacity accreditation, ancillary services, or transmission planning for hydro resources.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "T. Rutigliano",
+            "entity": "NRDC",
+            "role": "presenter",
+            "email": "trutigliano@nrdc.org"
+          }
+        ]
+      },
+      {
+        "type": "matrix",
+        "title": "XLS",
+        "filename": "20260515-items-03--04---connect-and-manage-senior-task-force-options--packages-matrix---post-meeting.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/camstf/2026/20260515/20260515-items-03--04---connect-and-manage-senior-task-force-options--packages-matrix---post-meeting.xls",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No text content was extracted from the document, making it impossible to assess relevance to hydropower or pumped-storage industry topics.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": []
       }
     ]
   },
@@ -2450,7 +3249,31 @@
         "title": "PDF",
         "filename": "20260515-item-04---reliability-compliance-rscs-update-may-15-2026.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/rscs/2026/20260515/20260515-item-04---reliability-compliance-rscs-update-may-15-2026.pdf",
-        "posted_date": "2026-05-13",
+        "posted_date": "2026-05-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260515-item-03a---1---tpl-007-4-transmission-system-planned-performance-for-geomagnetic-disturbance-events-data-request.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/rscs/2026/20260515/20260515-item-03a---1---tpl-007-4-transmission-system-planned-performance-for-geomagnetic-disturbance-events-data-request.pdf",
+        "posted_date": "2026-05-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260515-item-03a---2---tpl-007-4-transmission-system-planned-performance-for-geomagnetic-disturbance-events-data-request-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/rscs/2026/20260515/20260515-item-03a---2---tpl-007-4-transmission-system-planned-performance-for-geomagnetic-disturbance-events-data-request-update.pdf",
+        "posted_date": "2026-05-14",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2491,7 +3314,7 @@
         "title": "PDF",
         "filename": "20260515-item-01---aep-supplemental-projects.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-item-01---aep-supplemental-projects.pdf",
-        "posted_date": "2026-05-07",
+        "posted_date": "2026-05-15",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2575,7 +3398,7 @@
         "title": "PDF",
         "filename": "20260515-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-agenda.pdf",
-        "posted_date": "2026-05-12",
+        "posted_date": "2026-05-15",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2587,7 +3410,7 @@
         "title": "DOC",
         "filename": "20260515-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-agenda-doc.docx",
-        "posted_date": "2026-05-12",
+        "posted_date": "2026-05-15",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -5191,7 +6014,7 @@
         "title": "2026-05-12-14 MC/RC A07g - CAR-SA - Seasonal Payment Rate Calculation - Memo",
         "filename": "a07g_2026_05_12-14_mc-rc_carsa_seasonal_payment_rate_calculation_memo.pdf",
         "url": "https://www.iso-ne.com/static-assets/documents/100035/a07g_2026_05_12-14_mc-rc_carsa_seasonal_payment_rate_calculation_memo.pdf",
-        "posted_date": "2026-05-08",
+        "posted_date": "2026-05-15",
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document addresses seasonal capacity market design and payment rate methodology under CAR-SA, which directly affects how hydropower and storage resources participate in ISO-NE's capacity market and recover costs.",
         "ai_summary": "ISO-NE proposes a new methodology for calculating seasonal payment rates to replace Net CONE in the Capacity Auction Redesign with Seasonal Auctions (CAR-SA) framework. The seasonal payment rates will anchor demand curves for summer and winter capacity markets, with rates derived from assumptions about annual cost equivalence and uniform cost of unserved energy across seasons. This impacts how dispatchable hydropower and pumped-storage resources receive seasonal capacity payments and investment signals in New England's capacity market.",
@@ -5388,6 +6211,37 @@
             "name": "Matthew White",
             "entity": "Unknown",
             "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-12-14 MC A00 - Actions Letter",
+        "filename": "a00_mc_2026_05_15_actions_letter.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a00_mc_2026_05_15_actions_letter.pdf",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses Pay-For-Performance capacity market revisions that directly affect how capacity resources including hydropower and pumped-storage are accredited, paid, and settled in ISO-NE's capacity market.",
+        "ai_summary": "ISO-NE's Markets Committee approved downward adjustments to the Performance Payment Rate and related tariff changes affecting capacity settlement and external transactions during Capacity Scarcity Conditions. FirstLight Power (a hydropower operator) proposed amendments to align effective dates with the 19th Capacity Commitment Period, and JERA Americas requested evaluation of alternative PPR structures\u2014both motions failed but signal hydropower stakeholder engagement with capacity market design.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "FirstLight Power",
+            "entity": "FirstLight Power",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "Jasleen Singh",
+            "entity": "ISO-NE",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "JERA Americas",
+            "entity": "JERA Americas",
+            "role": "sponsor",
             "email": null
           }
         ]
@@ -9980,7 +10834,7 @@
   {
     "title": "Cost Development Subcommittee Meeting",
     "date": "2026-05-04",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 11:00 a.m.",
     "rto": "PJM",
     "committee": "Cost Development Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
@@ -9999,7 +10853,7 @@
     "committee": "Critical Issue Fast Path - Reliability Backstop Procurement",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={23577ED6-A236-47B6-95DB-0625B2054080}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0CB1D0D0-2785-4DE3-97D7-AECFC07192A1}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Reliability Backstop Procurement may address capacity accreditation, resource adequacy, or emergency reserve mechanisms that directly affect hydropower and pumped-storage participation in PJM's markets.",
     "issues": [],
@@ -10850,12 +11704,12 @@
   {
     "title": "RCSTF Meeting",
     "date": "2026-05-01",
-    "time": "9:00 a.m. - 11:00 a.m.",
+    "time": "9:00 a.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "RCSTF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={2D8B9F8B-D127-425B-9824-E3540A9CDC9B}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0CB1D0D0-2785-4DE3-97D7-AECFC07192A1}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "RCSTF (Renewable Certificate and Sustainability Task Force) focuses on renewable energy credits and sustainability tracking rather than market operations, capacity accreditation, or grid services directly relevant to hydropower participation.",
     "issues": [],
