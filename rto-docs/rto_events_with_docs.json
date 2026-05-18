@@ -1,5 +1,166 @@
 [
   {
+    "title": "Market Implementation Committee Meeting",
+    "date": "2026-06-03",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Market Implementation Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={6CE8228B-CB97-4D27-B378-BE9644CDD949}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Market Implementation Committee typically addresses tariff changes, market rule modifications, and operational procedures that could affect hydropower and storage resource participation in PJM's energy and capacity markets.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260603-draft-minutes---mic---05062026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-draft-minutes---mic---05062026.pdf",
+        "posted_date": "2026-05-15",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses ancillary services (regulation redesign), flexible resources, ELCC classes, and dual fuel scheduling\u2014all directly relevant to hydropower and storage market participation.",
+        "ai_summary": "PJM's Market Implementation Committee endorsed Manual 15 revisions for Regulation Redesign Phase 2, discussed Flexible Resource Lost Opportunity Cost Eligibility (which affects dispatchable resources like hydro), and reviewed Dual Fuel ELCC Classes. These changes affect how hydropower and storage resources are compensated and accredited in capacity and ancillary service markets.",
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
+            "canonical_name": "Dual Fuel Schedule Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "approved",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "f513fcda-a819-4a1d-92ba-b11f06c776f6",
+            "canonical_name": "External Resource Capacity Clearing",
+            "status": "on-hold",
+            "stakeholder_phase": "on hold",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=f513fcda-a819-4a1d-92ba-b11f06c776f6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "d3fc15a8-6735-4808-b83e-a5002724476b",
+            "canonical_name": "Flexible Resource Lost Opportunity Costs Eligibility",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=d3fc15a8-6735-4808-b83e-a5002724476b"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
+            "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
+            "canonical_name": "Schedule 2 Penalty Calculations",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "approved",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Todd Ament",
+            "entity": "Cube Hydro Partners, LLC; Eagle Creek Hydro Holdings, LLC; Great Falls Hydroelectric Company Limited Partnership; Mahoning Creek Hydroelectric Company, LLC; York Haven Power Company, LLC",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Aaron Baizman",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ilyana Dropkin",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joey Tutino",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joseph Ciabattoni",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joshua Bruno",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nicolae Dumitriu",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Phil D'Antonio",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ross Kelly",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Susan Kenney",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Planning Committee Meeting",
     "date": "2026-06-02",
     "time": "9:00 a.m. - 12:00 p.m.",
@@ -129,7 +290,7 @@
     "date": "2026-05-29",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Planning Advisory Committee",
+    "committee": "Interregional Planning Stakeholder Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
     "materials_url": null,
@@ -2755,12 +2916,12 @@
   {
     "title": "ISAC Meeting",
     "date": "2026-05-18",
-    "time": "3:00 p.m. - 4:00 p.m.",
+    "time": "2:30 p.m. - 4:30 p.m.",
     "rto": "PJM",
     "committee": "ISAC",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={6C1129E6-80E1-4A75-A1C5-0D77A9FA3574}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "ISAC (Independent System Admin Committee) is a governance and oversight body focused on general RTO administration and stakeholder engagement rather than specific market design, operational rules, or technical issues affecting hydropower participation.",
     "issues": [],
