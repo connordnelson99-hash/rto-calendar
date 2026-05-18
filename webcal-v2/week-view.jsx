@@ -142,8 +142,8 @@ const WeekView = ({ events, today, onSelectEvent, anchor, setAnchor }) => {
             const { items, cols } = layoutDay(dayEvents);
             const isToday = iso === today;
 
-            // current-time line position (only for today)
-            const now = new Date(today + "T10:30:00");
+            // current-time line position (only for today, viewer's local clock)
+            const now = new Date();
             const nowMins = now.getHours()*60 + now.getMinutes();
             const nowOffset = ((nowMins - HOUR_START*60) / 60) * HOUR_PX;
 
@@ -175,7 +175,11 @@ const WeekView = ({ events, today, onSelectEvent, anchor, setAnchor }) => {
                            background: e.isRelevant ? undefined : e.rtoMeta.bg
                          }}
                          onClick={() => onSelectEvent(e.id)}
-                         title={`${e.rtoMeta.label}: ${e.title}`}>
+                         title={
+                           `${e.rtoMeta.label}: ${e.title}` +
+                           (e.timeFmt ? `\n${e.timeFmt}` : "") +
+                           (e.sourceTimeFmt ? `\n(originally ${e.sourceTimeFmt})` : "")
+                         }>
                       <div className="week-event-title">
                         <span className="rto-tag" style={{ background: e.rtoMeta.color, color: "#fff", border: "none", fontSize: 9, padding: "0 4px" }}>
                           {e.rtoMeta.label}
@@ -345,8 +349,9 @@ const AgendaView = ({ events, today, onSelectEvent, anchor, setAnchor }) => {
                 {g.events.map(e => (
                   <div key={e.id} className={"agenda-row" + (e.isRelevant ? " hydro" : "")}
                        onClick={() => onSelectEvent(e.id)}>
-                    <div className="agenda-row-time">
-                      {e.timeFmt ? e.timeFmt.replace(" ET","") : "—"}
+                    <div className="agenda-row-time"
+                         title={e.sourceTimeFmt ? `Originally ${e.sourceTimeFmt}` : null}>
+                      {e.timeFmt || "—"}
                     </div>
                     <span className="rto-tag" style={{ background: e.rtoMeta.bg, color: e.rtoMeta.color, border: `1px solid ${e.rtoMeta.color}33` }}>
                       <span style={{ width: 5, height: 5, borderRadius: 1, background: e.rtoMeta.color, display: "inline-block" }}/>

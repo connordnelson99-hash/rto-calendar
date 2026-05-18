@@ -139,8 +139,9 @@ function App() {
           </div>
         </div>
         <div className="topbar-actions">
-          <button className="icon-btn has-badge" title="Morning digest" onClick={() => setDigestOpen(true)}>
-            <Icon name="bell" size={16}/>
+          <button className="btn" title="Open weekly digest" onClick={() => setDigestOpen(true)}>
+            <Icon name="sparkle" size={14}/>
+            Weekly digest
           </button>
           <button className="icon-btn" title="About" onClick={() => setSettingsOpen(true)}><Icon name="settings" size={16}/></button>
         </div>

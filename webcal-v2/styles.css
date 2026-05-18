@@ -1501,6 +1501,27 @@ input, select, textarea { font-family: inherit; color: inherit; }
   font-size: 9.5px;
   font-weight: 600;
 }
+.initiative-tl-dot.mid {
+  width: 8px;
+  height: 8px;
+  border-width: 1.5px;
+  opacity: 0.75;
+}
+.initiative-tl-labels.descriptive > span {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 50%;
+}
+.initiative-tl-labels.descriptive .initiative-tl-meta {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 10.5px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text-secondary);
+}
 
 .initiative-timeline-text {
   margin-top: var(--sp-2);

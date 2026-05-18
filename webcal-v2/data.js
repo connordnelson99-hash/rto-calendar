@@ -39,26 +39,107 @@
     return d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
   }
 
-  // Live JSON gives many formats:
-  //   ISO-NE: "1:30 PM"
-  //   CAISO:  "9:00 AM - 12:00 PM"
-  //   PJM:    "1:00 p.m. - 4:00 p.m."
-  //   FERC:   null
-  // Calendar/week views need a "HH:MM" 24h start time. We parse the leading
-  // time of a range and accept both "PM" and "p.m." am/pm markers.
-  function parseTimeTo24(t) {
+  // ISO Monday of the week containing iso (yyyy-mm-dd in).
+  function isoWeekStart(iso) {
+    const d = new Date(iso + "T12:00:00");
+    const dow = d.getDay(); // 0=Sun..6=Sat
+    const shift = dow === 0 ? 6 : dow - 1;
+    d.setDate(d.getDate() - shift);
+    return d.toISOString().slice(0, 10);
+  }
+
+  // Each RTO publishes meeting times in its own local zone (CAISO=PT,
+  // PJM/NYISO/ISO-NE/FERC=ET, MISO/SPP/ERCOT=CT). The scraped `time`
+  // string carries no zone, so we tag the source zone here and convert
+  // to the viewer's local zone at render time.
+  const RTO_SOURCE_TZ = {
+    PJM:             "America/New_York",
+    NYISO:           "America/New_York",
+    "ISO-NE":        "America/New_York",
+    NEPOOL:          "America/New_York",
+    FERC:            "America/New_York",
+    NERC:            "America/New_York",
+    CAISO:           "America/Los_Angeles",
+    MISO:            "America/Chicago",
+    SPP:             "America/Chicago",
+    "SPP Markets +": "America/Chicago",
+    ERCOT:           "America/Chicago",
+    // Other: unknown — leave display as scraped.
+  };
+
+  const USER_TZ = (() => {
+    try { return Intl.DateTimeFormat().resolvedOptions().timeZone; }
+    catch (_) { return "America/New_York"; }
+  })();
+
+  // Parse "9:00 AM - 12:00 PM" / "1:00 p.m. - 4:00 p.m." / "4:00 PM" / null.
+  // Returns { startH, startM, endH?, endM? } or null.
+  function parseTimeRange(t) {
     if (!t) return null;
     const s = String(t).trim();
     if (!s) return null;
-    const startStr = s.split(/\s*[-–]\s*/)[0].trim();
-    const m = startStr.match(/^(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m\.?$/i);
-    if (!m) return null;
-    let h = parseInt(m[1], 10);
-    const min = m[2] || "00";
-    const ap = m[3].toLowerCase();
-    if (ap === "p" && h !== 12) h += 12;
-    if (ap === "a" && h === 12) h = 0;
-    return `${String(h).padStart(2, "0")}:${min}`;
+    const halves = s.split(/\s*[-–]\s*/);
+    const one = (str) => {
+      const m = str.trim().match(/^(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m\.?$/i);
+      if (!m) return null;
+      let h = parseInt(m[1], 10);
+      const min = parseInt(m[2] || "0", 10);
+      const ap = m[3].toLowerCase();
+      if (ap === "p" && h !== 12) h += 12;
+      if (ap === "a" && h === 12) h = 0;
+      return { h, m: min };
+    };
+    const a = one(halves[0]);
+    if (!a) return null;
+    const b = halves.length > 1 ? one(halves[1]) : null;
+    return { startH: a.h, startM: a.m, endH: b ? b.h : null, endM: b ? b.m : null };
+  }
+
+  // Wall-clock (yyyy-mm-dd, hh, mm) in `tz` → UTC Date. DST-correct: we
+  // construct a "naive UTC" instant for the wall time, ask Intl what zone
+  // sees that instant as, and subtract the resulting offset.
+  function wallToUtc(dateIso, hh, mm, tz) {
+    const naive = Date.UTC(
+      +dateIso.slice(0, 4), +dateIso.slice(5, 7) - 1, +dateIso.slice(8, 10),
+      hh, mm, 0
+    );
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: tz, hour12: false,
+      year: "numeric", month: "2-digit", day: "2-digit",
+      hour: "2-digit", minute: "2-digit", second: "2-digit",
+    }).formatToParts(new Date(naive));
+    const o = Object.fromEntries(parts.filter(p => p.type !== "literal").map(p => [p.type, p.value]));
+    const tzAsIfUtc = Date.UTC(
+      +o.year, +o.month - 1, +o.day,
+      (+o.hour === 24 ? 0 : +o.hour), +o.minute, +o.second
+    );
+    const offsetMs = tzAsIfUtc - naive;
+    return new Date(naive - offsetMs);
+  }
+
+  function fmtClock12(date, tz) {
+    return new Intl.DateTimeFormat("en-US", {
+      timeZone: tz, hour: "numeric", minute: "2-digit", hour12: true,
+    }).format(date);
+  }
+  function fmtClock24(date, tz) {
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: tz, hour: "2-digit", minute: "2-digit", hour12: false,
+    }).formatToParts(date);
+    const o = Object.fromEntries(parts.filter(p => p.type !== "literal").map(p => [p.type, p.value]));
+    const h = +o.hour === 24 ? "00" : o.hour;
+    return `${h}:${o.minute}`;
+  }
+  function fmtZoneShort(date, tz) {
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: tz, timeZoneName: "short",
+    }).formatToParts(date);
+    return parts.find(p => p.type === "timeZoneName")?.value || "";
+  }
+  function fmtRange(startDate, endDate, tz) {
+    const z = fmtZoneShort(startDate, tz);
+    if (!endDate) return `${fmtClock12(startDate, tz)} ${z}`.trim();
+    return `${fmtClock12(startDate, tz)} – ${fmtClock12(endDate, tz)} ${z}`.trim();
   }
 
   // Take raw {rto, native_id, ...} stub from a doc's `issues` array and
@@ -109,7 +190,33 @@
 
     const meetingHydro = raw.meeting_hydro_relevant === true;
     const hasHydroDocs = documents.some(d => d.hydro_relevant);
-    const time24 = parseTimeTo24(raw.time);
+
+    // Resolve display time in the viewer's zone. If we know the RTO's
+    // source zone we convert; otherwise (Other) we fall back to the raw
+    // string so the viewer still sees something sensible.
+    const sourceTz = RTO_SOURCE_TZ[rto] || null;
+    const parsed = parseTimeRange(raw.time);
+    let time24 = null;
+    let timeFmt = null;
+    let timeZoneShort = null;
+    let sourceTimeFmt = null;
+    if (parsed && sourceTz && raw.date) {
+      const utcStart = wallToUtc(raw.date, parsed.startH, parsed.startM, sourceTz);
+      const utcEnd = parsed.endH != null
+        ? wallToUtc(raw.date, parsed.endH, parsed.endM, sourceTz)
+        : null;
+      time24 = fmtClock24(utcStart, USER_TZ);
+      timeFmt = fmtRange(utcStart, utcEnd, USER_TZ);
+      timeZoneShort = fmtZoneShort(utcStart, USER_TZ);
+      if (sourceTz !== USER_TZ) {
+        sourceTimeFmt = fmtRange(utcStart, utcEnd, sourceTz);
+      }
+    } else if (parsed) {
+      const hh = String(parsed.startH).padStart(2, "0");
+      const mm = String(parsed.startM).padStart(2, "0");
+      time24 = `${hh}:${mm}`;
+      timeFmt = raw.time;
+    }
 
     return {
       id: String(idx),
@@ -117,7 +224,10 @@
       date: raw.date,
       dateRaw: formatDateLong(raw.date),
       time: time24,
-      timeFmt: raw.time ? `${raw.time} ET` : null,
+      timeFmt,
+      timeZoneShort,
+      sourceTimeFmt,
+      sourceTz,
       timeRaw: raw.time,
       rto,
       rtoMeta,
@@ -146,34 +256,71 @@
       .filter(e => e.date);
 
     const today = todayIso();
-    const weekEnd = addDaysIso(today, 6);
+    const currentWeekStart = isoWeekStart(today);
 
-    // Morning digest: every hydro-relevant item in the next 7 days. The
-    // popup uses the count for its headline/stat boxes and shows a Top-N
-    // preview list; the export button serializes the full set.
-    const digestItems = events
-      .filter(e => e.isRelevant && e.date >= today && e.date <= weekEnd)
-      .sort((a, b) => a.date.localeCompare(b.date));
+    // Weekly digest: one bucket per ISO week (Mon–Sun) that the dataset
+    // touches, plus the current week even if empty. Past weeks pull richer
+    // signal (`isRelevant = meetingHydro || hasHydroDocs`) because scraped
+    // documents have arrived; the current week is mostly title-driven.
+    const eventDates = events.map(e => e.date).filter(Boolean);
+    const minDate = eventDates.length
+      ? eventDates.reduce((a, b) => (a < b ? a : b))
+      : today;
+    const maxDate = eventDates.length
+      ? eventDates.reduce((a, b) => (a > b ? a : b))
+      : today;
+    const firstWeekStart = isoWeekStart(minDate);
+    const lastWeekStart = isoWeekStart(maxDate > today ? maxDate : today);
+
+    const weeks = [];
+    for (let ws = firstWeekStart; ws <= lastWeekStart; ws = addDaysIso(ws, 7)) {
+      const we = addDaysIso(ws, 6);
+      const items = events
+        .filter(e => e.isRelevant && e.date >= ws && e.date <= we)
+        .sort((a, b) => a.date.localeCompare(b.date));
+      weeks.push({ key: ws, weekStart: ws, weekEnd: we, items });
+    }
+
+    const currentWeek =
+      weeks.find(w => w.key === currentWeekStart) || {
+        key: currentWeekStart,
+        weekStart: currentWeekStart,
+        weekEnd: addDaysIso(currentWeekStart, 6),
+        items: [],
+      };
 
     return {
       events,
       rtoMeta: RTO_META,
       today,
-      weekStart: today,
-      weekEnd,
-      digestItems,
+      weekStart: currentWeek.weekStart,
+      weekEnd: currentWeek.weekEnd,
+      // Backwards-compat shortcut for the list-view banner and badge,
+      // which want a glance at the current ISO week.
+      digestItems: currentWeek.items,
+      weeks,
+      currentWeekKey: currentWeekStart,
     };
   }
 
-  // Markdown export of the morning digest. Same hydro+next-7-days filter
-  // as the popup, but uncapped and with full ai_summary/stakeholder/issue
-  // detail. Designed to be pasted into a desktop Claude session that
-  // already knows how to turn it into an email digest.
-  function buildDigestMarkdown(data) {
-    const items = (data && data.digestItems) || [];
+  // Markdown export of the weekly digest. Same hydro filter as the popup,
+  // but uncapped and with full ai_summary/stakeholder/issue detail.
+  // Designed to be pasted into a desktop Claude session that already knows
+  // how to turn it into an email digest. `weekKey` selects which ISO week
+  // to serialize; defaults to the current week.
+  function buildDigestMarkdown(data, weekKey) {
+    const weeks = (data && data.weeks) || [];
+    const key = weekKey || (data && data.currentWeekKey);
+    const wk =
+      weeks.find(w => w.key === key) || {
+        weekStart: data && data.weekStart,
+        weekEnd: data && data.weekEnd,
+        items: (data && data.digestItems) || [],
+      };
+    const items = wk.items;
     const today = data && data.today;
-    const weekStart = data && data.weekStart;
-    const weekEnd = data && data.weekEnd;
+    const weekStart = wk.weekStart;
+    const weekEnd = wk.weekEnd;
 
     const todayLong = formatDateLong(today);
     const weekStartLong = formatDateLong(weekStart);

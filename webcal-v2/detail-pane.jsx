@@ -47,8 +47,128 @@ function parseCaisoStage(raw) {
   return out;
 }
 
-// CAISO timeline: vertical list of Stage A-D, each holding 0-N dated events.
-const CaisoTimeline = ({ issue }) => {
+// "April 16, 2026" / "Sep 26, 2023*" → ISO "yyyy-mm-dd". Asterisks mark
+// tentative dates in CAISO's text — we treat tentative the same as known
+// for visual placement.
+function caisoDateToIso(raw) {
+  if (!raw) return null;
+  const cleaned = String(raw).replace(/\*/g, "").trim();
+  const ms = Date.parse(cleaned);
+  if (isNaN(ms)) return null;
+  const d = new Date(ms);
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+// Walk all four CAISO stages and return one entry per distinct date
+// (sorted), folding duplicate dates' labels together with " · ".
+function collectCaisoEvents(issue) {
+  const byDate = new Map();
+  for (const key of ["stage_a", "stage_b", "stage_c", "stage_d"]) {
+    for (const ev of parseCaisoStage(issue[key])) {
+      const iso = caisoDateToIso(ev.date);
+      if (!iso) continue;
+      const labels = byDate.get(iso) || [];
+      if (ev.label) labels.push(ev.label);
+      byDate.set(iso, labels);
+    }
+  }
+  return Array.from(byDate.entries())
+    .map(([date, labels]) => ({ date, label: labels.join(" · ") }))
+    .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+// Horizontal milestone strip used by both PJM and CAISO. Endpoints carry
+// descriptive labels (`startLabel`/`endLabel`); intermediate `midpoints`
+// (array of `{date, label}`) render as inner dots. The today marker only
+// renders when the issue is open and today falls within range.
+// `allowOverdue=false` (CAISO) keeps the bar neutral when today is past
+// `endDate`, since for CAISO the end is just the latest known event,
+// not a target the issue can blow past. `labelStyle="descriptive"` uses
+// readable case + ellipsis truncation suited to long milestone names;
+// the default "tag" matches PJM's terse uppercase chips.
+const MilestoneBar = ({
+  startDate, endDate,
+  startLabel, endLabel,
+  overdueLabel,
+  completeLabel = "Completed",
+  midpoints = [],
+  isComplete = false,
+  allowOverdue = true,
+  labelStyle = "tag",
+}) => {
+  if (!startDate || !endDate) {
+    const fallback = [];
+    if (startDate) fallback.push({ label: startLabel, date: startDate });
+    for (const mp of midpoints) fallback.push({ label: mp.label, date: mp.date });
+    if (endDate) fallback.push({ label: endLabel, date: endDate });
+    if (!fallback.length) return null;
+    return (
+      <div className="initiative-timeline-text">
+        {fallback.map((f, i) => (
+          <span key={i}>
+            <span className="initiative-tl-meta">{f.label}</span>{" "}
+            <span className="initiative-tl-date">{formatShortDate(f.date)}</span>
+          </span>
+        ))}
+      </div>
+    );
+  }
+
+  const startMs = Date.parse(startDate + "T12:00:00");
+  const endMs   = Date.parse(endDate   + "T12:00:00");
+  const todayMs = Date.now();
+
+  const range = Math.max(1, endMs - startMs);
+  const clamp = (pct) => Math.max(0, Math.min(100, pct));
+  const todayPct = clamp(((todayMs - startMs) / range) * 100);
+
+  const isOverdue = allowOverdue && !isComplete && todayMs > endMs;
+  const fillPct   = isComplete ? 100 : todayPct;
+  const resolvedEndLabel = isComplete ? completeLabel : (isOverdue ? (overdueLabel || endLabel) : endLabel);
+
+  const labelsClass = "initiative-tl-labels" + (labelStyle === "descriptive" ? " descriptive" : "");
+
+  return (
+    <div className="initiative-timeline">
+      <div className={"initiative-tl-track" + (isOverdue ? " overdue" : "") + (isComplete ? " complete" : "")}>
+        <div className="initiative-tl-fill" style={{ width: `${fillPct}%` }}/>
+        <span className="initiative-tl-dot start" title={`${startLabel} · ${formatShortDate(startDate)}`}/>
+        {midpoints.map((mp, i) => {
+          const ms = Date.parse(mp.date + "T12:00:00");
+          if (isNaN(ms)) return null;
+          const pct = clamp(((ms - startMs) / range) * 100);
+          if (pct <= 3 || pct >= 97) return null;
+          return (
+            <span key={i} className="initiative-tl-dot mid"
+                  style={{ left: `${pct}%` }}
+                  title={`${mp.label} · ${formatShortDate(mp.date)}`}/>
+          );
+        })}
+        <span className="initiative-tl-dot end" title={`${resolvedEndLabel} · ${formatShortDate(endDate)}`}/>
+        {!isComplete && todayPct > 0 && todayPct < 100 && (
+          <span className="initiative-tl-today" style={{ left: `${todayPct}%` }} title="Today"/>
+        )}
+      </div>
+      <div className={labelsClass}>
+        <span title={startLabel}>
+          <span className="initiative-tl-date">{formatShortDate(startDate)}</span>
+          <span className="initiative-tl-meta">{startLabel}</span>
+        </span>
+        <span style={{ textAlign: "right" }} title={resolvedEndLabel}>
+          <span className="initiative-tl-date">{formatShortDate(endDate)}</span>
+          <span className="initiative-tl-meta">{resolvedEndLabel}</span>
+        </span>
+      </div>
+    </div>
+  );
+};
+
+// Fallback for CAISO issues with no parseable dates anywhere — the
+// vertical Stage A–D list rendering we used before MilestoneBar existed.
+const CaisoStageList = ({ issue }) => {
   const stages = [
     { key: "A", events: parseCaisoStage(issue.stage_a) },
     { key: "B", events: parseCaisoStage(issue.stage_b) },
@@ -58,7 +178,6 @@ const CaisoTimeline = ({ issue }) => {
   const isCompleted = issue.stage_d === "Completed" || issue.status === "Completed";
   const populated = stages.filter(s => s.events.length > 0);
   if (!populated.length && !isCompleted) return null;
-
   return (
     <div className="caiso-timeline">
       {populated.map(s => (
@@ -84,82 +203,45 @@ const CaisoTimeline = ({ issue }) => {
   );
 };
 
-// Horizontal milestone strip: Initiated → (Work begins) → Target/Actual.
-// Today marker overlays at its proportional position when the issue is open.
-// Used by PJM; CAISO uses CaisoTimeline instead (different data shape).
 const PjmTimeline = ({ issue }) => {
-  const init   = issue.initiated_date;
-  const work   = issue.work_begins_date;
-  const target = issue.target_completion_date;
-  const actual = issue.actual_completion_date;
+  const isComplete = !!issue.actual_completion_date;
+  const midpoints = issue.work_begins_date
+    ? [{ date: issue.work_begins_date, label: "Work begins" }]
+    : [];
+  return <MilestoneBar
+    startDate={issue.initiated_date}
+    endDate={isComplete ? issue.actual_completion_date : issue.target_completion_date}
+    startLabel="Initiated"
+    endLabel="Target"
+    overdueLabel="Past target"
+    completeLabel="Completed"
+    midpoints={midpoints}
+    isComplete={isComplete}
+    allowOverdue={true}
+    labelStyle="tag"
+  />;
+};
 
-  // We need at least a start and an end to draw a proportional bar.
-  if (!init || !target) {
-    const fallback = [];
-    if (init)   fallback.push({ label: "Initiated",  date: init });
-    if (work)   fallback.push({ label: "Work begins", date: work });
-    if (target) fallback.push({ label: "Target",     date: target });
-    if (actual) fallback.push({ label: "Completed",  date: actual });
-    if (!fallback.length) return null;
-    return (
-      <div className="initiative-timeline-text">
-        {fallback.map(f => (
-          <span key={f.label}>
-            <span className="initiative-tl-meta">{f.label}</span>{" "}
-            <span className="initiative-tl-date">{formatShortDate(f.date)}</span>
-          </span>
-        ))}
-      </div>
-    );
-  }
-
-  const startMs = Date.parse(init   + "T12:00:00");
-  const endMs   = Date.parse(target + "T12:00:00");
-  const workMs  = work   ? Date.parse(work   + "T12:00:00") : null;
-  const actMs   = actual ? Date.parse(actual + "T12:00:00") : null;
-  const todayMs = Date.now();
-
-  const range = Math.max(1, endMs - startMs);
-  const clamp = (pct) => Math.max(0, Math.min(100, pct));
-  const todayPct = clamp(((todayMs - startMs) / range) * 100);
-  const workPct  = workMs ? clamp(((workMs  - startMs) / range) * 100) : null;
-
-  const isComplete = !!actMs;
-  const isOverdue  = !isComplete && todayMs > endMs;
-  const fillPct    = isComplete ? 100 : todayPct;
-  const showWorkDot = workPct != null && workPct > 4 && workPct < 96;
-
-  const endLabel =
-    isComplete ? "Completed" :
-    isOverdue  ? "Past target" : "Target";
-  const endDate = isComplete ? actual : target;
-
-  return (
-    <div className="initiative-timeline">
-      <div className={"initiative-tl-track" + (isOverdue ? " overdue" : "") + (isComplete ? " complete" : "")}>
-        <div className="initiative-tl-fill" style={{ width: `${fillPct}%` }}/>
-        <span className="initiative-tl-dot start" title={`Initiated ${formatShortDate(init)}`}/>
-        {showWorkDot && (
-          <span className="initiative-tl-dot work" style={{ left: `${workPct}%` }}
-                title={`Work begins ${formatShortDate(work)}`}/>
-        )}
-        <span className="initiative-tl-dot end" title={`${endLabel} ${formatShortDate(endDate)}`}/>
-        {!isComplete && todayPct > 0 && todayPct < 100 && (
-          <span className="initiative-tl-today" style={{ left: `${todayPct}%` }} title="Today"/>
-        )}
-      </div>
-      <div className="initiative-tl-labels">
-        <span>
-          <span className="initiative-tl-date">{formatShortDate(init)}</span>
-          <span className="initiative-tl-meta">Initiated</span>
-        </span>
-        <span style={{ textAlign: "right" }}>
-          <span className="initiative-tl-date">{formatShortDate(endDate)}</span>
-          <span className="initiative-tl-meta">{endLabel}</span>
-        </span>
-      </div>
-    </div>
-  );
+const CaisoTimeline = ({ issue }) => {
+  const events = collectCaisoEvents(issue);
+  const isComplete = issue.stage_d === "Completed" || issue.status === "Completed";
+  // Need at least two distinct dates to draw a meaningful bar; otherwise
+  // fall back to the vertical stage list so the user still sees something.
+  if (events.length < 2) return <CaisoStageList issue={issue}/>;
+  const first = events[0];
+  const last = events[events.length - 1];
+  const midpoints = events.slice(1, -1);
+  return <MilestoneBar
+    startDate={first.date}
+    endDate={last.date}
+    startLabel={first.label || "First milestone"}
+    endLabel={last.label || "Latest milestone"}
+    completeLabel="Completed"
+    midpoints={midpoints}
+    isComplete={isComplete}
+    allowOverdue={false}
+    labelStyle="descriptive"
+  />;
 };
 
 const IssueTimeline = ({ issue }) => {

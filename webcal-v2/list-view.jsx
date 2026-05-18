@@ -1,4 +1,4 @@
-// list-view.jsx — meeting list grouped by day, with morning digest banner.
+// list-view.jsx — meeting list grouped by day, with weekly digest banner.
 
 const fmtDateHeader = (iso) => {
   const d = new Date(iso + "T12:00:00");
@@ -31,7 +31,10 @@ const MeetingRow = ({ event, selected, onSelect }) => {
             <div style={{ fontWeight: 600, color: "var(--text)" }}>
               {e.time.split(":")[0]}:{e.time.split(":")[1] || "00"}
             </div>
-            <div style={{ fontSize: 10, opacity: 0.8 }}>ET</div>
+            <div style={{ fontSize: 10, opacity: 0.8 }}
+                 title={e.sourceTimeFmt ? `Originally ${e.sourceTimeFmt}` : null}>
+              {e.timeZoneShort || ""}
+            </div>
           </>
         ) : <span style={{ color: "var(--text-soft)" }}>—</span>}
       </div>
@@ -81,7 +84,7 @@ const DigestBanner = ({ items, today, onClick }) => {
       <div className="digest-icon"><Icon name="sparkle" size={16}/></div>
       <div className="digest-body">
         <div className="digest-title">
-          Morning digest · {fmtBanner(today)}
+          Weekly digest · {fmtBanner(today)}
         </div>
         <div className="digest-text">
           <strong>{hydroCount} hydro-relevant</strong> meeting{hydroCount === 1 ? "" : "s"} this week
