@@ -1,5 +1,107 @@
 [
   {
+    "title": "Operating Committee Meeting",
+    "date": "2026-06-04",
+    "time": "9:00 a.m. - 2:00 p.m.",
+    "rto": "PJM",
+    "committee": "Operating Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={E7B665DD-2EE5-4B76-A729-62E7A4ED76F2}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM's Operating Committee addresses real-time operations, dispatch, and system reliability matters that directly affect how hydropower and storage resources are operated and compensated in the market.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260604-draft-minutes---5726.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-draft-minutes---5726.pdf",
+        "posted_date": "2026-05-12",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses Storage as a Transmission Asset (SATA) Phase II, a key initiative directly affecting hydropower and pumped-storage participation in PJM markets, and includes multiple hydropower generation owners in attendance.",
+        "ai_summary": "PJM and Constellation presented a joint SATA Phase II solution proposal, with Monitoring Analytics also providing an alternative proposal. These initiatives address how energy storage (including pumped-storage hydropower) can be valued and operated as transmission assets. Multiple hydroelectric generators (Cube Hydro Partners, Eagle Creek Hydro Holdings, Great Falls Hydroelectric, Mahoning Creek Hydroelectric, York Haven Power Company) attended, indicating industry interest in storage market rules.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Todd Ament",
+            "entity": "Cube Hydro Partners, LLC / Eagle Creek Hydro Holdings, LLC / Great Falls Hydroelectric Company Limited Partnership / Mahoning Creek Hydroelectric Company, LLC / York Haven Power Company, LLC",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Joe Bowring",
+            "entity": "Monitoring Analytics, LLC",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Akash Patel",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "David Mroz",
+            "entity": "PJM Interconnection",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jeff Schmitt",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mark Stanisz",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Steve Barczyk",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Steve Campbell",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Troy Cawley",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "TEAC Special Session - Order 1920 Meeting",
+    "date": "2026-06-04",
+    "time": "1:30 p.m. - 4:30 p.m.",
+    "rto": "PJM",
+    "committee": "TEAC Special Session - Order 1920",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "FERC Order 1920 addresses energy storage participation in capacity markets and RTO/ISO operations, which directly affects pumped-storage hydropower accreditation, resource adequacy, and market rules.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Market Implementation Committee Meeting",
     "date": "2026-06-03",
     "time": "9:00 a.m. - 4:00 p.m.",
@@ -219,7 +321,7 @@
   {
     "title": "Distributed Resources Subcommittee Meeting",
     "date": "2026-06-01",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "1:00 p.m. - 2:30 p.m.",
     "rto": "PJM",
     "committee": "Distributed Resources Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
@@ -290,7 +392,7 @@
     "date": "2026-05-29",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Interregional Planning Stakeholder Advisory Committee",
+    "committee": "Planning Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
     "materials_url": null,
@@ -998,11 +1100,265 @@
     "committee": "RCSTF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={A5045E15-147C-4DF2-91BE-7348BDB02929}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "RCSTF (Rules Committee Steering Task Force) is a general governance and procedural committee without specific focus on hydropower, storage, or market design issues affecting dispatchable resources.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260521-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260521/20260521-agenda.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260521-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260521/20260521-agenda-doc.docx",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260521-draft-minutes---rcstf---05012026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260521/20260521-draft-minutes---rcstf---05012026.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "proposal",
+        "title": "XLS",
+        "filename": "20260521-info-only---pjm-proposal---reserve-market-uplift-calculation-examples.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260521/20260521-info-only---pjm-proposal---reserve-market-uplift-calculation-examples.xlsx",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260521-info-only---pjm-response-to-imm-rcstf-presentation-on-may-1.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260521/20260521-info-only---pjm-response-to-imm-rcstf-presentation-on-may-1.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "vote",
+        "title": "XLS",
+        "filename": "20260521-item-02a---may-2026-rcstf-poll-results.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260521/20260521-item-02a---may-2026-rcstf-poll-results.xlsx",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260521-item-02b---pjm-rcstf-survey-mpc-response.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260521/20260521-item-02b---pjm-rcstf-survey-mpc-response.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "proposal",
+        "title": "PDF",
+        "filename": "20260521-item-03---imm-reserve-performance-proposal.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260521/20260521-item-03---imm-reserve-performance-proposal.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260521-item-04---rcstf-implementation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260521/20260521-item-04---rcstf-implementation.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260521-item-05---rt-pricing-impacts.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260521/20260521-item-05---rt-pricing-impacts.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "XLS",
+        "filename": "20260521-item-06---options-and-packages-matrix.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260521/20260521-item-06---options-and-packages-matrix.xls",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Markets and Reliability Committee Meeting",
@@ -2078,6 +2434,78 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260520-item-03---2026-pjm-strategy-development-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20260520/20260520-item-03---2026-pjm-strategy-development-update---presentation.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses PJM's strategic priorities including resource adequacy, capacity market design, energy storage integration, transmission planning, and flexible interconnection\u2014all of which directly affect hydropower and pumped-storage participation in PJM markets.",
+        "ai_summary": "PJM's 2026 strategy development includes specific topics relevant to hydro: capacity construct redesign, resource performance and flexibility/flexible interconnection, Order 2222 DER integration, advanced grid technology and storage, demand flexibility, and proactive transmission planning. The strategy's four objectives\u2014reliable grid operation, market incentives alignment for resource adequacy, forward-looking planning, and decision-making efficiency\u2014will shape the regulatory environment in which hydropower and pumped-storage resources operate.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Aftab Khan",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kevin Hatch",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "kevin.hatch@pjm.com"
+          },
+          {
+            "name": "Tim Burdis",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "timothy.burdis@pjm.com"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "RC West Summer Readiness Public Session",
+    "date": "2026-05-20",
+    "time": "8:30 AM - 11:00 AM",
+    "rto": "CAISO",
+    "committee": null,
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/rc-west-summer-readiness-public-session-may-20-2026-0830-am",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Summer readiness assessments typically address resource adequacy, capacity constraints, and dispatch strategies that directly impact hydropower's role in meeting peak demand and maintaining grid reliability during high-demand periods.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Settlement User Group",
+    "date": "2026-05-20",
+    "time": "10:00 AM - 11:00 AM",
+    "rto": "CAISO",
+    "committee": "Settlement User Group",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/settlement-user-group-may-20-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/settlement-user-group",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Settlement User Group meetings focus on billing, invoicing, and settlement administration procedures rather than market rules or operational policies affecting hydropower participation.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda - Settlement User Group - May 06, 2026",
+        "filename": "agenda-settlement-user-group-may-06-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-settlement-user-group-may-06-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -2089,11 +2517,271 @@
     "committee": "DESTF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={874EA45F-9477-4385-89F1-91116B3E90F3}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "DESTF (Demand Side Resources and Energy Efficiency Task Force) meetings may address demand flexibility, storage integration, and market rules that affect how hydropower and pumped-storage resources compete and participate in PJM markets.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260519-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260519/20260519-agenda.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a procedural agenda for a deactivation rules task force with no substantive discussion of topics affecting hydropower or pumped-storage market participation, capacity accreditation, energy storage rules, or transmission planning.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Claire Lang-Ree",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Claire Summers",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dave Anders",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jonathan Ruffin",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Michael Herman",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260519-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260519/20260519-agenda-doc.docx",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted; only metadata and title are available, making substantive relevance assessment impossible.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260519-draft-minutes.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260519/20260519-draft-minutes.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses deactivation rules and transmission solution alternatives affecting generator participation, which directly impacts hydropower and pumped-storage facilities seeking to exit or modify market arrangements.",
+        "ai_summary": "DESTF is developing enhancements to PJM's deactivation rules, including accelerated completion of long-term transmission solutions and alternatives to Part V arrangements with deactivating generators. These rule changes affect how hydropower and pumped-storage facilities can deactivate or transition out of the market, as well as transmission planning implications for resource exit.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Dave Anders",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jonathan Ruffin",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Michael Herman",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260519-item-03---destf-work-plan.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260519/20260519-item-03---destf-work-plan.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a procedural work plan timeline for the DESTF committee with no substantive content addressing hydropower, storage, capacity markets, ancillary services, or other market rules relevant to the hydropower industry.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260519-item-04---voting-results.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260519/20260519-item-04---voting-results.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a voting results summary with no substantive content describing market rules, tariff changes, or policy decisions affecting hydropower or energy storage participation.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
+            "canonical_name": "Enhancements to Deactivation Rules",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "David Anders",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "David.Anders@pjm.com"
+          },
+          {
+            "name": "Jonathan Ruffin",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jonathan.Ruffin@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260519-item-05---pjm-destf-package---april-2026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260519/20260519-item-05---pjm-destf-package---april-2026.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses Reliability Must-Run (RMR) elimination and reserve margin adequacy through transmission and generation solutions, which directly affects how dispatchable hydropower and pumped-storage resources participate in capacity and resource adequacy frameworks in PJM.",
+        "ai_summary": "PJM is redesigning its RMR process under DESTF Phase 2 to shorten or eliminate mandatory RMR assignments by creating competitive windows for transmission alternatives and optional state-led generation solicitations. For hydropower and PSH operators, this means potential expedited interconnection pathways for new capacity solutions and modified rules governing how existing generation is held in service during deactivation transitions\u2014both relevant to resource participation in capacity and reserve markets.",
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
+            "canonical_name": "Enhancements to Deactivation Rules",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "David Anders",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "David.Anders@pjm.com"
+          },
+          {
+            "name": "Jonathan Ruffin",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jonathan.Ruffin@pjm.com"
+          },
+          {
+            "name": "Michael Herman",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "Michael.Herman@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "proposal",
+        "title": "PDF",
+        "filename": "20260519-item-06---coalition-destf-proposal.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260519/20260519-item-06---coalition-destf-proposal.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document proposes alternatives to Reliability Must-Run (RMR) contracts in PJM that explicitly include energy storage and pumped-storage hydropower as eligible competing solutions for resolving transmission security violations caused by generator retirements.",
+        "ai_summary": "This coalition proposal creates a framework for PJM to solicit cost-effective alternatives to RMRs when generators retire, with energy storage and pumped-storage explicitly listed as eligible technologies that can compete alongside generation and demand response. The package includes expedited interconnection procedures for qualifying alternatives, which directly affects PSH/storage project development timelines and market participation opportunities in PJM.",
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
+            "canonical_name": "Enhancements to Deactivation Rules",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Clara Summers",
+            "entity": "Citizens Utility Board of Illinois",
+            "role": "contact",
+            "email": "csummers@citizensutilityboard.org"
+          },
+          {
+            "name": "Illinois CUB",
+            "entity": "Citizens Utility Board of Illinois",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Maryland OPC",
+            "entity": "Maryland Office of the People's Counsel",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "NRDC",
+            "entity": "Natural Resources Defense Council",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Roselle LLP",
+            "entity": "Roselle LLP",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Sierra Club",
+            "entity": "Sierra Club",
+            "role": "co-author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "matrix",
+        "title": "XLS",
+        "filename": "20260519-items-05-and-06---destf-options-and-packages-matrix.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260519/20260519-items-05-and-06---destf-options-and-packages-matrix.xls",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted; only a title and metadata are available, making substantive evaluation impossible.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
+            "canonical_name": "Enhancements to Deactivation Rules",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
+          }
+        ],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "DTS Meeting",
@@ -2495,6 +3183,20 @@
     "documents": []
   },
   {
+    "title": "ISO Board of Governors General Session",
+    "date": "2026-05-19",
+    "time": "2:00 PM - 4:00 PM",
+    "rto": "CAISO",
+    "committee": "Board of Governors - Governance and committees",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/iso-board-of-governors-general-session-may-19-2026-0200-pm",
+    "materials_url": "/about/governance-committees",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A Board of Governors General Session focused on governance and committee structure is unlikely to contain substantive discussion of hydropower or pumped-storage market rules, capacity accreditation, or operational matters affecting the hydro industry.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "SPF Meeting",
     "date": "2026-05-18",
     "time": "10:00 a.m. - 12:00 p.m.",
@@ -2574,7 +3276,7 @@
         "title": "PDF",
         "filename": "20260518-item-03---tracking-ramp-limited-desired-overview.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/mss/2026/20260518/20260518-item-03---tracking-ramp-limited-desired-overview.pdf",
-        "posted_date": "2026-05-15",
+        "posted_date": "2026-05-19",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2587,6 +3289,30 @@
         "filename": "20260518-non-synchronized-and-secondary-reserve-loc-forfeiture-reports.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/mss/2026/20260518/20260518-non-synchronized-and-secondary-reserve-loc-forfeiture-reports.pdf",
         "posted_date": "2026-05-15",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260518-item-03a---energy-uplift-generator-tracking-ramp-limited-desired.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/mss/2026/20260518/20260518-item-03a---energy-uplift-generator-tracking-ramp-limited-desired.pdf",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260518-item-03b---unit-tracking-ramp-details.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/mss/2026/20260518/20260518-item-03b---unit-tracking-ramp-details.pdf",
+        "posted_date": "2026-05-18",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2700,7 +3426,7 @@
         "title": "PDF",
         "filename": "20260518-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20260518/20260518-agenda.pdf",
-        "posted_date": "2026-05-14",
+        "posted_date": "2026-05-18",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2712,7 +3438,7 @@
         "title": "DOC",
         "filename": "20260518-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20260518/20260518-agenda-doc.docx",
-        "posted_date": "2026-05-14",
+        "posted_date": "2026-05-18",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2868,7 +3594,7 @@
         "title": "PDF",
         "filename": "20260518-item-04h---product-roadmap---dr-hub-power-meter-inschedule-and-billing-line-item-transfer.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20260518/20260518-item-04h---product-roadmap---dr-hub-power-meter-inschedule-and-billing-line-item-transfer.pdf",
-        "posted_date": "2026-05-13",
+        "posted_date": "2026-05-18",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2916,7 +3642,7 @@
   {
     "title": "ISAC Meeting",
     "date": "2026-05-18",
-    "time": "2:30 p.m. - 4:30 p.m.",
+    "time": "3:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "ISAC",
     "source_url": "https://www.pjm.com/calendar",
@@ -3057,6 +3783,46 @@
             "name": "Yelena Kopylov-Alford",
             "entity": "CAISO",
             "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "FERC Commissioner David LaCerte Confirmed for Second Term",
+    "date": "2026-05-18",
+    "time": null,
+    "rto": "FERC",
+    "committee": "NEWS RELEASES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/ferc-commissioner-david-lacerte-confirmed-second-term",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "FERC Commissioner David LaCerte Confirmed for Second Term",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/ferc-commissioner-david-lacerte-confirmed-second-term",
+        "posted_date": "2026-05-18",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a personnel announcement about a FERC Commissioner's confirmation and contains no substantive content about hydropower, pumped-storage, capacity markets, energy storage, ancillary services, transmission planning, market rules, or any hydropower-specific regulatory matters.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David LaCerte",
+            "entity": "Federal Energy Regulatory Commission (FERC)",
+            "role": "subject",
+            "email": null
+          },
+          {
+            "name": "Laura V. Swett",
+            "entity": "Federal Energy Regulatory Commission (FERC)",
+            "role": "contact",
             "email": null
           }
         ]
@@ -3365,12 +4131,12 @@
   {
     "title": "RSCS Meeting",
     "date": "2026-05-15",
-    "time": "9:00 a.m. - 10:00 a.m.",
+    "time": "1:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "RSCS",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0084EFC6-F4C8-4C74-8CEC-A39F2E3F28DB}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7B353637-24B6-4DBE-BC49-F7929D13DA2C}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "RSCS (Reliability and Security Committee Subcommittee) meetings typically focus on operational reliability and cybersecurity matters rather than market design or resource participation rules affecting hydropower.",
     "issues": [],
@@ -3562,12 +4328,12 @@
   {
     "title": "SRRTEP-W Meeting",
     "date": "2026-05-15",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 10:00 a.m.",
     "rto": "PJM",
     "committee": "SRRTEP-W",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={F6DADD29-0953-4D70-B2ED-605BD313614E}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0084EFC6-F4C8-4C74-8CEC-A39F2E3F28DB}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-W (State Review and Reliability Test Evaluation Process - Working Group) focuses on state reliability coordination and testing procedures rather than market rules, capacity accreditation, or operational issues directly affecting hydropower participation.",
     "issues": [],
@@ -4198,7 +4964,7 @@
     "committee": "SRRTEP-MA",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={251A689D-1901-490F-A9F9-8CC3A30BCC19}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7B353637-24B6-4DBE-BC49-F7929D13DA2C}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-MA (State Reliability Region Technical Executive Panel - Midwest Area) focuses on regional coordination and state policy alignment rather than market-specific rules affecting hydropower operations, capacity accreditation, or storage participation.",
     "issues": [],
