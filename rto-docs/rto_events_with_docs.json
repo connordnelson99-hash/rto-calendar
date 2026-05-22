@@ -429,7 +429,7 @@
   {
     "title": "Cost Development Subcommittee Meeting",
     "date": "2026-06-01",
-    "time": "9:00 a.m. - 11:00 a.m.",
+    "time": "1:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "Cost Development Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
@@ -540,12 +540,12 @@
   {
     "title": "ARRCUG Meeting",
     "date": "2026-05-29",
-    "time": "4:00 p.m. - 5:00 p.m.",
+    "time": "1:00 p.m. - 3:00 p.m.",
     "rto": "PJM",
     "committee": "ARRCUG",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={A7DEC613-63F1-41ED-834E-9C98D57FE31F}",
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "ARRCUG (Aggregation and Retail Rate Committee User Group) focuses on retail rate design and aggregation issues that do not directly address hydropower capacity, resource adequacy, storage operations, or market participation rules.",
     "issues": [],
@@ -599,8 +599,222 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Transmission Committee meetings address transmission planning and interconnection issues that directly affect hydropower deliverability and market participation in ISO-NE.",
-    "issues": [],
-    "documents": []
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "asset-condition-reviewer",
+        "canonical_name": "Asset Condition Reviewer",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+      }
+    ],
+    "documents": [
+      {
+        "type": "vote",
+        "title": "2026-05-28 TC A00 Motions Letter",
+        "filename": "a00_2026_05_28_tc_motions_letter.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a00_2026_05_28_tc_motions_letter.docx",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document metadata indicates this is a motions/voting letter from a Transmission Committee meeting, but no substantive text was extracted, making it impossible to determine whether it addresses hydropower-relevant topics such as capacity accreditation, resource adequacy, storage, ancillary services, or transmission planning affecting hydro.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "2026-05-28 TC A00 Agenda",
+        "filename": "a00_2026_05_28_tc_agenda.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a00_2026_05_28_tc_agenda.docx",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted; only the meeting agenda title is available, which is insufficient to assess relevance to hydropower and pumped-storage market rules or participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "2026-05-28 TC A01.1 April 21, 2026 Joint TC/MC/RC Meeting Minutes",
+        "filename": "a01.1_2026_04_21_tc_mc_rc_meeting_minutes.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a01.1_2026_04_21_tc_mc_rc_meeting_minutes.docx",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted; only metadata is available, making it impossible to assess relevance or identify stakeholders.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "2026-05-28 TC A01.1 April 21, 2026 TC Meeting Minutes",
+        "filename": "a01.1_2026_04_21_tc_meeting_minutes.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a01.1_2026_04_21_tc_meeting_minutes.docx",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted; only metadata (title and meeting date) is available, which is insufficient to determine relevance to hydropower/storage market rules or identify substantive stakeholder content.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "2026-05-28 TC A02.2(B) Maine Office of the Public Advocate (ME OPA) Amendments",
+        "filename": "a02.2b_tc_acr_amendment_me_opa.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02.2b_tc_acr_amendment_me_opa.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document addresses Asset Condition Project (ACP) definitions and review processes in transmission planning that could affect how hydroelectric and pumped-storage facilities are classified for cost allocation and regional planning oversight.",
+        "ai_summary": "The Maine OPA proposes amendments to narrow ACP scope to damaged/destroyed facilities only, requiring substantial upgrades to undergo regional transmission planning and cost allocation review. This affects how hydro and PSH transmission infrastructure projects are categorized, reviewed, and funded\u2014distinguishing between routine replacement and major upgrades that should be subject to broader stakeholder evaluation.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Maine Office of the Public Advocate",
+            "entity": "Maine OPA",
+            "role": "author | sponsor",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-28 TC A02.1 Asset Condition Reviewer - Attachment R Redlines",
+        "filename": "a02.1_tc_acr_attachment_r_redlines.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02.1_tc_acr_attachment_r_redlines.docx",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document contains no extracted text; title alone (Asset Condition Reviewer redlines) does not indicate hydropower or pumped-storage relevance, and appears to concern transmission infrastructure maintenance procedures rather than market rules or hydro-specific operations.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-28 TC A02.1 Asset Condition Reviewer - TOA Redlines",
+        "filename": "a02.1_tc_acr_toa_redlines.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02.1_tc_acr_toa_redlines.docx",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document concerns asset condition review and transmission operations procedures (TOA redlines), which are not related to hydropower capacity, ancillary services, market rules, or storage participation.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "2026-05-28 TC A02.2(A) Connecticut Office of Consumer Counsel (CT OCC) & New Hampshire Office of the Consumer Advocate (NH OCA) Amendments",
+        "filename": "a02.2a_tc_acr_amendments_ct_occ_nh_oca.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02.2a_tc_acr_amendments_ct_occ_nh_oca.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns transmission asset condition review governance and reporting structures, which do not directly affect hydropower or pumped-storage market participation, capacity accreditation, resource adequacy rules, ancillary services, or other hydropower-specific market mechanisms.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Claire E. Coleman",
+            "entity": "Connecticut Office of Consumer Counsel (CT OCC)",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "James M. Talbert-Slagle",
+            "entity": "Connecticut Office of Consumer Counsel (CT OCC)",
+            "role": "author",
+            "email": "james.talbert-slagle@ct.gov"
+          },
+          {
+            "name": "Matthew J. Fossum",
+            "entity": "New Hampshire Office of the Consumer Advocate (NH OCA)",
+            "role": "co-author",
+            "email": "Matthew.J.Fossum@oca.nh.gov"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-05-28 TC A02.1 Asset Condition Reviewer - Presentation",
+        "filename": "a02.1_tc_iso_acr_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02.1_tc_iso_acr_presentation.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses transmission asset condition review procedures and NERC CIP-014 compliance processes that do not directly impact hydropower or pumped-storage participation in markets, capacity accreditation, ancillary services, or resource adequacy frameworks.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Fatou Dieng",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Monica Gonzalez",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "TOA-AC - Public Materials Only (No Registration) Meeting",
@@ -627,6 +841,20 @@
     "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "TOA-AC (Transmission Operations & Assessments Advisory Committee) special sessions typically address transmission operational and reliability matters rather than hydropower-specific market rules, capacity mechanisms, or resource participation requirements.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Comments due - Interconnection Process Enhancements 5.0 - Draft Tariff Language",
+    "date": "2026-05-28",
+    "time": "",
+    "rto": "CAISO",
+    "committee": "Interconnection process enhancements 5.0",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/comments-due-interconnection-process-enhancements-5-0-draft-tariff-language-may-28-2026-1200-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Interconnection-process-enhancements-5-0",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Interconnection process enhancements directly affect how hydropower and pumped-storage projects can connect to the grid, impacting their ability to participate in markets and deliver power.",
     "issues": [],
     "documents": []
   },
@@ -675,12 +903,12 @@
   {
     "title": "Special MC - RMR Resources Meeting",
     "date": "2026-05-27",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "4:00 p.m. - 5:00 p.m.",
     "rto": "PJM",
     "committee": "Special MC - RMR Resources",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={EB1C0B38-B6C7-4F1C-B507-2E6A3BE9ECBA}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={A7DEC613-63F1-41ED-834E-9C98D57FE31F}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "RMR (Reliability Must-Run) resources discussions often involve capacity accreditation, resource adequacy, and market rules affecting dispatchable resources like pumped-storage hydropower that may be designated for reliability purposes.",
     "issues": [],
@@ -694,11 +922,288 @@
     "committee": "CIFP \u2013 RBP / Connect and Manage - Stage 3",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0E100FC9-F111-4D8A-B8AE-B61946C2F3F2}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "CIFP-RBP/Connect and Manage Stage 3 appears to be an operational or IT infrastructure initiative unrelated to market rules, capacity accreditation, resource adequacy, or ancillary services that affect hydropower participation.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260527-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-agenda.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260527-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-agenda-doc.docx",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260527-informational-only---reliability-backstop-rfi-summary---charles-river-associates.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-informational-only---reliability-backstop-rfi-summary---charles-river-associates.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260527-item-01a---draft-minutes---cifp---rbp---may-4-2026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-item-01a---draft-minutes---cifp---rbp---may-4-2026.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260527-item-01b---draft-minutes---cifp---rbp---may-5-2026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-item-01b---draft-minutes---cifp---rbp---may-5-2026.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260527-item-03---cifp---rbp-cam-work-plan.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-item-03---cifp---rbp-cam-work-plan.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "XLS",
+        "filename": "20260527-item-04---connect-and-manage-options-and-packages-matrix.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-item-04---connect-and-manage-options-and-packages-matrix.xls",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260527-item-04---connect-and-manage-pjm-package---pjm-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-item-04---connect-and-manage-pjm-package---pjm-presentation.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "XLS",
+        "filename": "20260527-item-05---cifp---rbp-options-and-packages-matrix.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-item-05---cifp---rbp-options-and-packages-matrix.xls",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260527-item-05---reliability-backstop-procurement-design---pjm-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-item-05---reliability-backstop-procurement-design---pjm-presentation.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260527-item-06---bilateral-matchmaking-process-overview---charles-river-associates-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-item-06---bilateral-matchmaking-process-overview---charles-river-associates-presentation.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260527-updated-cifp---rbp-issue-charge.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-updated-cifp---rbp-issue-charge.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Comments due - Extended Day-Ahead Market (EDAM) Market Update",
@@ -911,6 +1416,25 @@
             "email": "Nora.Embert@PJM.com"
           }
         ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260526-system-impact-study-phase-ii-reports-ips-may-2026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/ips/2026/20260526/20260526-system-impact-study-phase-ii-reports-ips-may-2026.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document describes PJM's System Impact Study (SIS) process for interconnection requests, which directly affects how hydropower and pumped-storage projects navigate transmission interconnection and cost allocation.",
+        "ai_summary": "The document outlines PJM's interconnection study methodology including transmission reinforcement identification, cost allocation, and readiness deposit requirements. These procedures are critical for hydropower and pumped-storage projects seeking to interconnect to the PJM transmission system, particularly regarding how network upgrade costs are allocated and dependencies between projects are evaluated.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Joshua Shelley",
+            "entity": "PJM",
+            "role": "presenter | author",
+            "email": "Joshua.Shelley@pjm.com"
+          }
+        ]
       }
     ]
   },
@@ -969,6 +1493,18 @@
         "filename": "20260526-item-02---2025-national-petroleum-council-electric-gas-coordination-report---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/egcs/2026/20260526/20260526-item-02---2025-national-petroleum-council-electric-gas-coordination-report---presentation.pdf",
         "posted_date": "2026-05-20",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260526-item-03---pjm-electric-gas-coordination-general-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/egcs/2026/20260526/20260526-item-03---pjm-electric-gas-coordination-general-update---presentation.pdf",
+        "posted_date": "2026-05-21",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -1648,6 +2184,161 @@
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-21 RC Actions Letter",
+        "filename": "052126_rc_actions_letter.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/052126_rc_actions_letter.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a routine Reliability Committee actions letter approving transmission planning applications and cost recovery requests; it does not address hydropower or pumped-storage markets, capacity accreditation, ancillary services, or market rules affecting hydro operations.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Daniel Patnaude",
+            "entity": "ISO-NE",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "2026-04-14-16 MC/RC Meeting Minutes - Final",
+        "filename": "2026_04_14_16_mc_rc_meeting_minutes.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/2026_04_14_16_mc_rc_meeting_minutes.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses capacity auction reforms and seasonal accreditation, including import modeling and accreditation frameworks that directly affect how hydropower and other dispatchable resources are valued in ISO-NE's resource adequacy and capacity markets.",
+        "ai_summary": "ISO-NE is developing proposals for seasonal accreditation and import modeling that will affect how external resources (including potential hydropower imports) are accredited and valued in the capacity market through the MRIC framework. The discussion addresses resource adequacy assessment methodologies and interface capability representation that could impact hydropower project participation and pricing in ISO-NE markets.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Firstlight Power Management LLC",
+            "entity": "Firstlight Power Management LLC",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Tom Kaslow",
+            "entity": "Firstlight Power Management LLC",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Matt Brewster",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "2026-04-21 MC/RC/TC Meeting Minutes - Final",
+        "filename": "2026_04_21_tc_mc_rc_meeting_minutes.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/2026_04_21_tc_mc_rc_meeting_minutes.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses Capacity Auction Reforms with seasonal accreditation (CAR-SA) and deactivation processes that directly affect how dispatchable resources including hydropower participate in ISO-NE's capacity market.",
+        "ai_summary": "ISO-NE is implementing a seasonal framework for capacity accreditation and resource deactivation with two annual notification deadlines. This affects how hydropower and other dispatchable resources manage their participation in the capacity market, including potential reliability-based retention mechanisms that could impact hydro dispatch flexibility and market compensation.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Tom Kaslow",
+            "entity": "Firstlight Power Management LLC",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Kevin Coopey",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jillian Macura",
+            "entity": "NEPOOL Transmission Committee",
+            "role": "signatory",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "2026-04-22 RC Meeting Minutes - Final",
+        "filename": "042226_rc_meeting_minutes.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/042226_rc_meeting_minutes.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document discusses capacity accreditation reforms (CAR) and Variable Energy Resource (VER) datasets that directly affect how ISO-NE evaluates resource adequacy for dispatchable resources including hydropower, and includes Firstlight Power (a major pumped-storage hydropower operator) as a participating stakeholder.",
+        "ai_summary": "The Reliability Committee meeting includes discussion of the Emerging Technologies Working Group's work on DNV's ORCA tool for capacity accreditation inputs, which will be used in Capacity Auction Reforms (CAR) affecting how variable and dispatchable resources (including hydropower) are evaluated for resource adequacy. Firstlight Power LLC, a significant pumped-storage hydropower generator in New England, participates as a Generation sector member.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Tom Kaslow",
+            "entity": "Firstlight Power Management LLC",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Jasleen Singh",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nick Gangi",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "2026-04-22 MC/RC Meeting Minutes - Final",
+        "filename": "042226_mc_rc_meeting_minutes.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/042226_mc_rc_meeting_minutes.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses capacity market mechanisms (Installed Capacity Requirement, zonal demand curves, DCap/MCap values) and resource accreditation that directly affect how hydropower and energy storage resources participate in ISO-NE's capacity market.",
+        "ai_summary": "ISO-NE presented updates on Installed Capacity Requirement (ICR) changes, zonal demand curves, and capacity accreditation values (DCap/MCap) that will be used in seasonal auctions. The discussion of how the Gas Maximum Capacity Limit (GMCL) is calculated and applied to resource accreditation is relevant to understanding how dispatchable hydro and storage resources are credited in the capacity market. Zonal MRI (Minimum Rated Installed capacity) inputs will be incorporated into the seasonal auction process.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Tom Kaslow",
+            "entity": "Firstlight Power Management LLC",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Chad Nelson",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Fei Zeng",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Marianne Perben",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Bruce Anderson",
+            "entity": "New England Power Generators Association, Inc. (NEPGA)",
+            "role": "contact",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -1916,6 +2607,189 @@
           }
         ],
         "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Summaries | May 2026 Commission Meeting",
+    "date": "2026-05-21",
+    "time": null,
+    "rto": "FERC",
+    "committee": "HEADLINES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/summaries-may-2026-commission-meeting",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "Summaries | May 2026 Commission Meeting",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/summaries-may-2026-commission-meeting",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document H-1 addresses FERC relicensing proceedings for Sacramento Municipal Utility District's hydroelectric project, which directly intersects with environmental compliance and market operations for hydropower facilities.",
+        "ai_summary": "FERC order H-1 concerns Sacramento Municipal Utility District's Upper American River Hydroelectric Project (Slab Creek), setting aside prior staff approval of the whitewater boating recreation management plan and modifying the capacity threshold for flow release days. This represents a licensing/relicensing decision that affects operational constraints on a multi-dam hydroelectric facility in California.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "MediaDL",
+            "entity": "FERC",
+            "role": "contact",
+            "email": "MediaDL@ferc.gov"
+          },
+          {
+            "name": "Sacramento Municipal Utility District",
+            "entity": "Sacramento Municipal Utility District (SMUD)",
+            "role": "subject of order",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "FERC Unleashes Natural Gas Permit Reforms, Accelerating Infrastructure Upgrades for Affordable, Reliable Energy Nationwide",
+    "date": "2026-05-21",
+    "time": null,
+    "rto": "FERC",
+    "committee": "NEWS RELEASES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/ferc-unleashes-natural-gas-permit-reforms-accelerating-infrastructure-upgrades",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "FERC Unleashes Natural Gas Permit Reforms, Accelerating Infrastructure Upgrades for Affordable, Reliable Energy Nationwide",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/ferc-unleashes-natural-gas-permit-reforms-accelerating-infrastructure-upgrades",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FERC explicitly announces consideration of establishing blanket authorization procedures for hydroelectric projects to streamline maintenance, repairs, and upgrades, directly affecting hydro permitting and operations.",
+        "ai_summary": "FERC is exploring blanket authorization procedures for targeted activities at hydroelectric projects to make maintenance, repairs, and upgrades more efficient and less burdensome. This permitting reform aims to reduce case-specific approval delays for essential hydroelectric facility operations while maintaining safety and reliability standards.",
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Presentation & Report | The 2026 Summer Energy Market and Electric Reliability Assessment",
+    "date": "2026-05-21",
+    "time": null,
+    "rto": "FERC",
+    "committee": "HEADLINES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/presentation-report-2026-summer-energy-market-and-electric-reliability-assessment",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "Presentation & Report | The 2026 Summer Energy Market and Electric Reliability Assessment",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/presentation-report-2026-summer-energy-market-and-electric-reliability-assessment",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a press release and presentation cover page for FERC's 2026 Summer Energy Market and Electric Reliability Assessment with no substantive content provided to evaluate hydropower or storage relevance.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Unknown",
+            "entity": "FERC",
+            "role": "contact",
+            "email": "MediaDL@ferc.gov"
+          }
+        ]
+      },
+      {
+        "type": "elibrary",
+        "title": "Summer Assessment 2026 Open Meeting_0520_1315.pdf",
+        "filename": null,
+        "url": "https://www.ferc.gov/sites/default/files/2026-05/Summer%20Assessment%202026%20Open%20Meeting_0520_1315.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FERC's summer energy market and reliability assessment typically evaluates resource adequacy, capacity availability, and operational preparedness across regions\u2014all of which directly affect hydropower's role in meeting peak demand and maintaining system reliability.",
+        "ai_summary": "This FERC summer assessment likely discusses resource adequacy, capacity contributions, and operational reliability across regions during peak demand periods. Hydropower and pumped-storage assets are critical to summer reliability, and the assessment may inform regulatory treatment of hydro ELCC values, must-offer obligations, or dispatch requirements.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "elibrary",
+        "title": "26_Summer Assessment_0521.pdf",
+        "filename": null,
+        "url": "https://www.ferc.gov/sites/default/files/2026-05/26_Summer%20Assessment_0521.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Summer energy market and reliability assessments typically analyze resource adequacy, dispatchability, and operational constraints that directly affect hydropower and pumped-storage participation in RTO/ISO markets.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Presentation | C-1: Revisions to the Blanket Certificate Program",
+    "date": "2026-05-21",
+    "time": null,
+    "rto": "FERC",
+    "committee": "HEADLINES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/presentation-c-1-revisions-blanket-certificate-program",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "Presentation | C-1: Revisions to the Blanket Certificate Program",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/presentation-c-1-revisions-blanket-certificate-program",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns FERC's blanket certificate program for natural gas infrastructure under the Natural Gas Act, which does not directly address hydropower, pumped-storage hydropower, or market rules affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kent Mottice",
+            "entity": "FERC Office of Energy Market Regulation",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kevin Bowman",
+            "entity": "FERC Office of Energy Projects",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nicole Huang",
+            "entity": "FERC Office of Energy Projects",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Adrian Thomson",
+            "entity": "FERC Office of Technical Reporting and Economics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Danielle Elefritz",
+            "entity": "FERC Office of the General Counsel",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -3416,6 +4290,18 @@
         "filename": "20260519-minutes---dts--04142026.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/dts/2026/20260519/20260519-minutes---dts--04142026.pdf",
         "posted_date": "2026-05-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260519-minutes.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/dts/2026/20260519/20260519-minutes.pdf",
+        "posted_date": "2026-05-21",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -4981,7 +5867,7 @@
         "title": "PDF",
         "filename": "20260515-item-05---dlco-supplemental-projects.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260515/20260515-item-05---dlco-supplemental-projects.pdf",
-        "posted_date": "2026-05-05",
+        "posted_date": "2026-05-21",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -10406,12 +11292,12 @@
   {
     "title": "Market Implementation Committee Meeting",
     "date": "2026-05-06",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 2:00 p.m.",
     "rto": "PJM",
     "committee": "Market Implementation Committee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={CF4D8C56-DC61-4906-93D7-206C40CD7A14}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7F84A134-DCDC-4C37-8B38-4D5FE5C80184}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Market Implementation Committee addresses tariff changes and market rule updates that directly affect how all generation resources, including hydropower and pumped-storage facilities, participate in PJM's markets.",
     "issues": [],
