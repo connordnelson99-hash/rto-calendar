@@ -395,6 +395,85 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260602-draft-minutes---pc---582026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-draft-minutes---pc---582026.pdf",
+        "posted_date": "2026-05-21",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses Manual 20A (Resource Adequacy Analysis), Manual 21B (Generating Capability), Manual 22 (Generator Resource Performance Indices), and capacity market modeling (RPM) that directly affect hydropower participation and accreditation in PJM.",
+        "ai_summary": "PJM Planning Committee reviewed updates to resource adequacy analysis, generator capability determination, and generator performance indices\u2014all critical to hydropower capacity accreditation and market participation. The periodic reviews of Manuals 20A, 21B, and 22 will be endorsed at the next meeting and may affect how hydropower resources are evaluated for capacity market qualification.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Justin Radl",
+            "entity": "Invenergy",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Andrew Gledhill",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Awais Ghayas",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dylan Seeley",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jessica Lynch",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Megan Heater",
+            "entity": "PJM Interconnection",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Michelle Farhat",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nicole Bugay",
+            "entity": "PJM Interconnection",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Patricio Rocha Garrido",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Susan McGill",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -406,11 +485,325 @@
     "committee": "Transmission Expansion Advisory Committee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={92E41E78-9CB1-4B7E-A8FE-29B833C9DC55}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Transmission expansion planning directly affects hydropower and pumped-storage interconnection capabilities, deliverability, and market participation in PJM.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260602-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-agenda.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission expansion planning directly affects hydropower interconnection, deliverability, and market participation, and this agenda includes interregional planning, capacity expansion scenarios, and reliability analysis relevant to hydro resource integration.",
+        "ai_summary": "The TEAC meeting covers 2026 RTEP updates including interregional planning, capacity expansion scenarios for 2034, reliability analysis, and transmission supplemental projects from major utilities. These transmission plans affect hydropower deliverability, resource adequacy modeling, and interconnection infrastructure critical to hydro participation in PJM markets.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Emmanuele Bobbio",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jeffrey Goldberg",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Josh Stephenson",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Mojgan Hedayati",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nicolae Dumitriu",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Niraj Kshatriya",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Saravana Kumar Rajendran",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stanley Sliwa",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260602-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-agenda-doc.docx",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted; only the agenda title is available, providing insufficient information to assess relevance to hydropower and pumped-storage operations.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260602-informational-only---5034-500-kv-line-cut-in-immediate-need-assessment---need-statement.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-informational-only---5034-500-kv-line-cut-in-immediate-need-assessment---need-statement.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses a specific transmission line cut-in project driven by NJ SAA agreement wind-down and Brandon Shores deactivation, with no content addressing hydropower capacity accreditation, resource adequacy, energy storage markets, ancillary services, flexible ramping, or market participation rules that affect the hydropower industry.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "FERC",
+            "entity": "Federal Energy Regulatory Commission",
+            "role": "regulatory authority",
+            "email": null
+          },
+          {
+            "name": "New Jersey Board of Public Utilities",
+            "entity": "NJBPU",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "PECO",
+            "entity": "PECO",
+            "role": "sponsor",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260602-item-01---interregional-planning-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-01---interregional-planning-update.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine interregional transmission planning coordination update with no specific discussion of hydropower capacity accreditation, storage market rules, or hydro-relevant tariff changes.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Eric Hsia",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Eric.Hsia@pjm.com"
+          },
+          {
+            "name": "Jeffrey Goldberg",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "Jeffrey.Goldberg@pjm.com"
+          },
+          {
+            "name": "Joshua Stephenson",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Joshua.Stephenson@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260602-item-02---generation-deactivation-notification-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-02---generation-deactivation-notification-update.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document lists multiple energy storage deactivations (including battery and pumped-storage facilities) and discusses PJM's reliability assessment process and cost-recovery mechanisms that directly affect storage resource participation and market rules.",
+        "ai_summary": "PJM announced Q1 2026 deactivation requests from seven energy storage facilities (Beech Ridge, Grand Ridge, Mantua Creek Battery, and Green Mountain Energy Storage) with April 1, 2027 deactivation dates. The document explains PJM's reliability review process and the CSRR/DACC mechanisms available to storage owners seeking to extend operations during network upgrades, which is relevant to understanding how storage resources navigate market and operational rules.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Eric Hsia",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Eric.Hsia@pjm.com"
+          },
+          {
+            "name": "Joshua Stephenson",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Joshua.Stephenson@pjm.com"
+          },
+          {
+            "name": "Saravana Kumar Rajendran",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Saravanakumar.Rajendran@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260602-item-04---ugi-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-04---ugi-supplemental-projects.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses a routine transmission expansion need for a specific customer load in the UGI Transmission Zone and does not discuss hydropower, pumped-storage, capacity accreditation, energy storage, ancillary services, or other hydropower-relevant market rules or grid operations.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260602-item-05---jcpl-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-05---jcpl-supplemental-projects.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses routine transmission system reliability and equipment replacement in a specific utility service area with no mention of hydropower, pumped-storage, energy storage, or market mechanisms that would affect hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "FirstEnergy",
+            "entity": "FirstEnergy (JCPL - Jersey Central Power & Light)",
+            "role": "sponsor",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260602-item-06---aep-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-06---aep-supplemental-projects.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses routine transmission equipment condition and replacement needs (circuit breakers at a specific substation) unrelated to hydropower operations, capacity markets, energy storage, ancillary services, or market participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "American Electric Power",
+            "entity": "AEP",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260602-item-07---ppl-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-07---ppl-supplemental-projects.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses a routine customer service transmission interconnection request for a 900 MW industrial load facility and does not discuss hydropower, pumped-storage, capacity markets, resource adequacy, ancillary services, or market rules affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260602-item-08---peco-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-08---peco-supplemental-projects.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document addresses routine transmission infrastructure replacement (circuit breakers, transformers, relays) in the PECO zone with no content related to hydropower, pumped-storage, capacity markets, energy storage, ancillary services, or market rules affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260602-item-09---5034-500-kv-line-cut-in-immediate-need-assessment---first-read.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-09---5034-500-kv-line-cut-in-immediate-need-assessment---first-read.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses transmission planning for a specific 500 kV line cut-in project in New Jersey but contains no content directly relevant to hydropower, pumped-storage, capacity markets, resource adequacy, ancillary services, or other market mechanisms that affect hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "New Jersey Board of Public Utilities",
+            "entity": "NJBPU",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Augustine Caven",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Augustine.Caven@pjm.com"
+          },
+          {
+            "name": "Eric Hsia",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Eric.Hsia@pjm.com"
+          },
+          {
+            "name": "Joshua Stephenson",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Joshua.Stephenson@pjm.com"
+          },
+          {
+            "name": "Michael Herman",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Michael.Herman@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260602-item-10---comed-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-10---comed-supplemental-projects.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses routine transmission infrastructure replacement (aging transformer and circuit breaker condition) in the ComEd zone, with no connection to hydropower capacity, storage, ancillary services, market rules, or hydro-relevant transmission planning.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260602-item-11---dom-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-11---dom-supplemental-projects.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document concerns transmission planning for data center and general load interconnection requests in Dominion's service territory, with no mention of hydropower, pumped-storage, energy storage, capacity markets, ancillary services, or other topics relevant to the hydropower industry.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Consumer Liaison Group Meeting",
@@ -429,7 +822,7 @@
   {
     "title": "Cost Development Subcommittee Meeting",
     "date": "2026-06-01",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 11:00 a.m.",
     "rto": "PJM",
     "committee": "Cost Development Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
@@ -870,7 +1263,263 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Planning Advisory Committee typically addresses transmission planning, resource adequacy, and generation interconnection issues that directly affect hydropower and pumped-storage deliverability and market participation.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "2026-05-27 PAC A02.1 UI Low-Pressure Fluid Filled (LPFF) Cable Replacements",
+        "filename": "a2.1_ui_avangrid_lpff_cable_needs_assessment_pac.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a2.1_ui_avangrid_lpff_cable_needs_assessment_pac.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns underground transmission cable replacement for a local utility and contains no discussion of hydropower, pumped-storage, capacity markets, resource adequacy, ancillary services, flexible ramping, energy storage markets, or any market rules affecting hydroelectric generation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Joshua Cefaratti",
+            "entity": "United Illuminating",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Draft Transmission Planning Technical Guide Rev 8.5 (redline)",
+        "filename": "transmission_planning_technical_guide_rev8_5_draft_redline.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/transmission_planning_technical_guide_rev8_5_draft_redline.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document provides transmission planning technical guidance that directly addresses modeling of conventional hydropower generation (section 2.3.7) and energy storage systems (section 2.3.8), both critical to how hydro and pumped-storage resources are studied and integrated into ISO-NE's transmission planning process.",
+        "ai_summary": "This technical guide establishes ISO-NE's standards for modeling hydropower and energy storage in system planning studies, including base case topology, generator ratings, reactive power capabilities, and dynamic characteristics. These specifications directly affect how pumped-storage hydropower and conventional hydro facilities are represented in resource adequacy, transmission impact, and interconnection studies.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Draft Transmission Planning Technical Guide Appendix G (clean)",
+        "filename": "transmission_planning_technical_guide_app_g_pst_modeling_rev6_draft_clean.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/transmission_planning_technical_guide_app_g_pst_modeling_rev6_draft_clean.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a technical modeling guide for phase shifting transformers (PSTs) used in transmission planning studies, which does not directly address hydropower-specific topics such as capacity markets, resource adequacy rules, energy storage, ancillary services, or market rules affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Draft Transmission Planning Technical Guide Appendix G (redline)",
+        "filename": "transmission_planning_technical_guide_app_g_pst_modeling_rev6_draft_redline.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/transmission_planning_technical_guide_app_g_pst_modeling_rev6_draft_redline.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a technical modeling guide for phase shifting transformers (PSTs) used in transmission planning, which does not directly address hydropower capacity, storage, ancillary services, or market participation rules.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-05-27 PAC A02.2 NGRID 301 345 kV Line Replacement",
+        "filename": "a2.2_301_acr_pac_presentation_2026.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a2.2_301_acr_pac_presentation_2026.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document describes routine transmission line asset replacement and maintenance (wood pole deterioration, conductor splicing, insulation repair) with no discussion of market rules, capacity accreditation, resource adequacy, ancillary services, or any hydropower/storage-specific impacts.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Rafael Panos",
+            "entity": "National Grid",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-27 PAC A02.3 NGRID E-157/E-157E/E-157W 115 kV Line Replacements",
+        "filename": "a2.3_e-157_acr_pac_presentation_2026.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a2.3_e-157_acr_pac_presentation_2026.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document describes routine transmission asset replacement and infrastructure maintenance for a 115 kV line, with no connection to hydropower operations, capacity markets, energy storage, ancillary services, or other hydropower-relevant market rules.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Rafael Panos",
+            "entity": "National Grid",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-27 PAC A02.5 RIE 332 345 kV Line Rebuild West Farnum to Kent County",
+        "filename": "a2.5_332_345_kv_rie_pac_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a2.5_332_345_kv_rie_pac_presentation.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns routine transmission line infrastructure maintenance and rebuild, with no connection to hydropower operations, capacity markets, energy storage, ancillary services, or market participation rules.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "George Nemeh",
+            "entity": "Rhode Island Energy",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-27 PAC A05.0 2025 LTTP RFP \u2013 RFP Objective Follow-up",
+        "filename": "a5.0_2025_lttp_rfp-rfp_objective_follow-up_pac_2026-05-27.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a5.0_2025_lttp_rfp-rfp_objective_follow-up_pac_2026-05-27.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Long-term transmission planning RFPs directly affect hydropower and storage resource interconnection, deliverability, and market participation by determining transmission expansion and stability requirements that impact resource siting and dispatch.",
+        "ai_summary": "ISO-NE's 2025 LTTP RFP evaluated six transmission proposals against thermal, voltage, and transient stability criteria for two key transfer limits (Maine-New Hampshire and Surowiec-South). Only proposals A1 and A2 advanced to benefits calculation and adverse impact screening phases. Transient stability and dynamic reactive support deficiencies eliminated four proposals\u2014relevant because transmission stability requirements directly affect how hydropower and pumped-storage resources can be reliably dispatched and accredited for capacity and ancillary services.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Steven Judd",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Draft Transmission Planning Technical Guide Rev 8.5 (clean)",
+        "filename": "transmission_planning_technical_guide_rev8_5_draft_clean.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/transmission_planning_technical_guide_rev8_5_draft_clean.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document contains specific sections on modeling conventional hydroelectric generation (2.3.7) and energy storage systems (2.3.8) within transmission planning studies, directly affecting how hydropower and pumped-storage resources are evaluated in ISO-NE's system planning processes.",
+        "ai_summary": "This Transmission Planning Technical Guide establishes methodology for modeling hydroelectric and energy storage resources in ISO-NE's base cases, load flow studies, and reliability assessments. Sections 2.3.7 and 2.3.8 specify how conventional hydro and storage systems are represented in power flow and dynamic models, which directly impacts transmission planning outcomes and interconnection studies affecting hydro developers.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "2026-05-27 PAC A00 Agenda",
+        "filename": "a00_2026_05_27_pac_agenda.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a00_2026_05_27_pac_agenda.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission planning studies and assumptions directly affect hydropower interconnection, deliverability, and market participation in ISO-NE.",
+        "ai_summary": "The PAC meeting includes transmission planning study assumption updates and 2026 economic study benchmark scenarios that establish foundational parameters for evaluating generation resources including hydropower. Transmission owner asset management reviews may also affect transmission access for hydro facilities.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Devin Carrier",
+            "entity": "Central Maine Power Company",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Andrew Kniska",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kim Quach",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Steven Judd",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Rafael Panos",
+            "entity": "National Grid",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "George Nemeh",
+            "entity": "Rhode Island Energy",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joshua Cefaratti",
+            "entity": "United Illuminating",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-27 PAC A02.4 CMP Section 226 Structure Replacements",
+        "filename": "a2.4_cmp_section_226_structure_replacements_iso-ne_pac_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a2.4_cmp_section_226_structure_replacements_iso-ne_pac_presentation.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses routine transmission infrastructure asset management (wood pole replacement) and contains no content related to hydropower capacity, dispatch, energy storage, ancillary services, market participation, or hydro-specific regulatory issues.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Devin Carrier",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-27 PAC A04.0 2026 Economic Study - Benchmark Scenario Assumptions",
+        "filename": "a4.0_2026_economic_study-benchmark_assumptions.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a4.0_2026_economic_study-benchmark_assumptions.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document includes detailed modeling assumptions for hydropower and pumped-storage hydropower in ISO-NE's 2026 Economic Study, including specific efficiency assumptions, capacity data, and operational parameters that directly affect how these resources are represented in resource adequacy and transmission planning analyses.",
+        "ai_summary": "ISO-NE's 2026 Economic Study Benchmark Scenario models hydro operations using 2025 historical data integrated into PLEXOS to determine monthly max/min capacity and energy availability. Pumped-storage units are modeled with 74% efficiency and $3/MWh VOM cost, while the region has 1,954 MW of hydro and 1,832 MW of pumped-storage capacity in the base case. This affects resource adequacy assessments and system efficiency analyses relevant to hydropower market participation.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kim Quach",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-05-27 PAC A03.0 2026 TPTG Update Presentation",
+        "filename": "a03_tptg_update_05_27_2026.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a03_tptg_update_05_27_2026.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses Storage as a Transmission Only Asset (SATOA) planning criteria and transmission planning updates that directly affect how energy storage and pumped-storage hydropower are treated in ISO-NE's transmission planning and reliability studies.",
+        "ai_summary": "ISO-NE is formalizing transmission planning criteria for Storage as a Transmission Only Assets (SATOAs), including pumped-storage hydropower, by adding Section 2.3.8.1 to the Transmission Planning Technical Guide. SATOAs connected at 115 kV or higher can be used to address transmission reliability needs, with discharge limited to post-N-1-1 contingencies and reactive power capability requirements. This establishes the regulatory framework distinguishing transmission-only storage from market-facing energy storage systems.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Andrew Kniska",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": "akniska@iso-ne.com"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Critical Issue Fast Path - Reliability Backstop Procurement Meeting",
@@ -912,7 +1561,45 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "RMR (Reliability Must-Run) resources discussions often involve capacity accreditation, resource adequacy, and market rules affecting dispatchable resources like pumped-storage hydropower that may be designated for reliability purposes.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "tariff",
+        "title": "PDF",
+        "filename": "item-01---1-rmr-resources---tariff-revisions---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260527-special-rmr/item-01---1-rmr-resources---tariff-revisions---redline.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This tariff section governs capacity market rules for generation resources retained for transmission reliability, including accreditation, auction participation, and revenue treatment\u2014directly applicable to hydropower and pumped-storage resources in PJM's capacity market.",
+        "ai_summary": "The document establishes that retained generation resources (including hydro and PSH) meeting reliability criteria are deemed $0/MW-Day sell offers in the Base Residual Auction based on their Accredited UCAP. It addresses capacity accreditation adjustments, Unforced Capacity obligations, and revenue crediting to load zones\u2014all critical for understanding how hydro resources are valued and compensated in PJM's RPM capacity market.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "item-01---2-brandon-shores-12-and-wagner-34-deactivation-and-rmr---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260527-special-rmr/item-01---2-brandon-shores-12-and-wagner-34-deactivation-and-rmr---presentation.pdf",
+        "posted_date": "2026-05-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document concerns thermal generation (coal) deactivation and transmission planning; no content related to hydropower, pumped-storage, energy storage, or markets affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Mark Sims",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Mark.Sims@pjm.com"
+          },
+          {
+            "name": "Thomas DeVita",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Thomas.DeVita@pjm.com"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "CIFP \u2013 RBP / Connect and Manage - Stage 3 Meeting",
@@ -1185,7 +1872,7 @@
         "title": "PDF",
         "filename": "20260527-updated-cifp---rbp-issue-charge.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-updated-cifp---rbp-issue-charge.pdf",
-        "posted_date": "2026-05-21",
+        "posted_date": "2026-05-22",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -1403,7 +2090,7 @@
         "title": "PDF",
         "filename": "20260526-item-04---construction-metrics.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/ips/2026/20260526/20260526-item-04---construction-metrics.pdf",
-        "posted_date": "2026-05-20",
+        "posted_date": "2026-05-22",
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document tracks PJM interconnection construction metrics including explicit hydro project data, storage resources, and future project pipelines\u2014all directly relevant to hydropower and pumped-storage industry participation in the RTO market.",
         "ai_summary": "This construction metrics report shows hydro and storage projects in PJM's interconnection queue across multiple development stages (engineering, procurement, under construction, in service). The document tracks 2026 generation additions by fuel type including hydro, storage capacity placed in service, and project status timelines through 2030, providing visibility into hydropower and PSH deployment in the region.",
