@@ -1,6 +1,20 @@
 [
   {
     "title": "NEPOOL Markets Committee Meeting",
+    "date": "2026-06-10",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Markets Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160097",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The NEPOOL Markets Committee addresses tariff changes and market rules at ISO-NE that directly affect hydropower and storage participation in capacity, energy, and ancillary service markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "NEPOOL Markets Committee Meeting",
     "date": "2026-06-09",
     "time": "1:30 PM",
     "rto": "ISO-NE",
@@ -52,6 +66,20 @@
     "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The DESTF (Distributed Energy Storage Task Force) directly addresses energy storage policy and market integration, which is core to pumped-storage hydropower participation and battery storage co-location strategies in PJM markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Transmission Expansion Advisory Committee Meeting",
+    "date": "2026-06-05",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Transmission Expansion Advisory Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={92E41E78-9CB1-4B7E-A8FE-29B833C9DC55}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Transmission expansion planning directly affects hydropower and pumped-storage interconnection capacity, deliverability, and the economic viability of hydro projects in PJM.",
     "issues": [],
     "documents": []
   },
@@ -154,6 +182,20 @@
     "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "FERC Order 1920 addresses energy storage participation in capacity markets and RTO/ISO operations, which directly affects pumped-storage hydropower accreditation, resource adequacy, and market rules.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Transmission Expansion Advisory Committee Meeting",
+    "date": "2026-06-04",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Transmission Expansion Advisory Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={92E41E78-9CB1-4B7E-A8FE-29B833C9DC55}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Transmission expansion planning directly affects hydropower and pumped-storage interconnection capability, deliverability of output, and the economic viability of hydro projects in the PJM region.",
     "issues": [],
     "documents": []
   },
@@ -935,7 +977,7 @@
     "date": "2026-05-29",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Planning Advisory Committee",
+    "committee": "Interregional Planning Stakeholder Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
     "materials_url": null,
@@ -1262,6 +1304,20 @@
     "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Interconnection-process-enhancements-5-0",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Interconnection process enhancements directly affect how hydropower and pumped-storage projects can connect to the grid, impacting their ability to participate in markets and deliver power.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Market Update",
+    "date": "2026-05-28",
+    "time": "10:00 AM - 12:00 PM",
+    "rto": "CAISO",
+    "committee": "Market update",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/market-update-may-28-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/market-update",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A generic 'Market Update' meeting with no specified agenda topics is unlikely to focus on hydropower-specific issues unless the update happens to address capacity markets, ancillary services, or storage-related rule changes.",
     "issues": [],
     "documents": []
   },
