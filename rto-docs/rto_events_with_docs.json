@@ -405,7 +405,7 @@
   {
     "title": "Planning Committee Meeting",
     "date": "2026-06-02",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "9:00 a.m. - 11:00 a.m.",
     "rto": "PJM",
     "committee": "Planning Committee",
     "source_url": "https://www.pjm.com/calendar",
@@ -572,6 +572,278 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260602-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-agenda.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The agenda includes discussion of Manual 20A (Resource Adequacy Analysis) and Manual 22 (Generator Resource Performance Indices), both of which directly affect hydropower capacity accreditation and resource adequacy in PJM markets.",
+        "ai_summary": "Manual 20A revisions are central to how PJM evaluates resource adequacy and hydro capacity contributions. Manual 22 governs performance indices that affect generator participation in capacity markets. Both are periodic reviews with endorsement sought, making this meeting relevant to hydro market participation and accreditation frameworks.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Awais Ghayas",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "David Sadowski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joshua Bruno",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nicole Bugay",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Shashikant Patel",
+            "entity": "PSEG",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260602-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-agenda-doc.docx",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is an agenda title only with no extracted text; cannot assess content relevance to hydropower/storage without substantive meeting materials.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260602-item-03---1-manual-14h-revisions-ieee-2800---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-03---1-manual-14h-revisions-ieee-2800---presentation.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses inverter-based resource (IBR) interconnection requirements and IEEE 2800 technical standards for voltage/frequency ride-through, which are primarily applicable to solar, wind, and battery resources, not hydropower or pumped-storage hydropower.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Awais Ghayas",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Awais.Ghayas@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260602-item-03---2-manual-14h-revisions-ieee-2800---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-03---2-manual-14h-revisions-ieee-2800---executive-summary.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses inverter-based resource (IBR) interconnection standards and IEEE 2800 compliance, which primarily affects solar and wind technologies, not hydropower or pumped-storage systems.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "PDF",
+        "filename": "20260602-item-03---3-manual-14h-revisions-ieee-2800---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-03---3-manual-14h-revisions-ieee-2800---redline.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM Manual 14H governs the interconnection process for new generation and transmission service requests, which directly affects how hydropower and pumped-storage facilities enter the PJM market and transmission system.",
+        "ai_summary": "This manual establishes the procedures for generation interconnection applications, system impact studies, and interconnection agreements in PJM. Hydropower and pumped-storage projects must follow these phases and meet the requirements outlined, including capacity resource vs. energy resource election (Section 9.4), which is critical for hydro participation in PJM's capacity market.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260602-item-04---1-m20a-m22-periodic-review---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-04---1-m20a-m22-periodic-review---presentation.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses PJM Manual 20A revisions on resource adequacy analysis and ELCC rating calculations, which directly affect how hydropower and other resources are accredited in PJM's capacity market.",
+        "ai_summary": "PJM Manual 20A Revision 3 includes updates to ELCC Class Rating and Resource Specific ELCC Rating calculation methodologies, presented now as formulas rather than plain text. These changes are material to how hydropower resources are evaluated for capacity accreditation in PJM's resource adequacy framework and capacity market participation.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Josh Bruno",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "Joshua.Bruno@pjm.com"
+          },
+          {
+            "name": "Patricio Rocha-Garrido",
+            "entity": "PJM",
+            "role": "presenter | sme",
+            "email": "Patricio.Rocha-Garrido@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260602-item-04---2-m20a-m22-periodic-review---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-04---2-m20a-m22-periodic-review---executive-summary.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Changes to PJM Manual 20A (Resource Adequacy Analysis) directly affect how hydropower and storage resources are evaluated for capacity accreditation and resource adequacy, which is a core concern for the hydropower industry.",
+        "ai_summary": "PJM is updating Manual 20A (Resource Adequacy Analysis) and Manual 22 (Generator Resource Performance Indices) effective 06/24/2026. These manuals govern how PJM evaluates generator performance and resource adequacy, which determines how hydropower and pumped-storage resources are accredited for capacity markets and rated for participation in reliability assessments.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260602-item-04---3-manual-20a-periodic-review---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-04---3-manual-20a-periodic-review---redline.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM Manual 20A governs resource adequacy analysis, ELCC calculations, and capacity accreditation\u2014all critical mechanisms that determine how hydropower and pumped-storage hydropower are valued and compensated in PJM's capacity market.",
+        "ai_summary": "This manual establishes PJM's framework for calculating Effective Load Carrying Capability (ELCC) ratings by resource class and individual resources, which directly affects how hydropower plants are accredited for capacity. The manual covers Reserve Requirement Studies (RRS), ELCC methodology, and capacity emergency transfer objectives (CETO) that determine reliability requirements and resource adequacy\u2014mechanisms that influence hydro participation and valuation in PJM's markets.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Andrew Gledhill",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260602-item-04---4-manual-22-periodic-review---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-04---4-manual-22-periodic-review---redline.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 22 establishes generator resource performance indices and accreditation factors (UCAP, f-factors, outage rates) that directly determine hydropower and pumped-storage unit capacity accreditation and participation in PJM's capacity market and resource adequacy planning.",
+        "ai_summary": "This manual defines the methodologies for calculating forced outage rates, capacity variance, and accredited UCAP factors for all generator types, including hydropower and pumped-storage facilities. Changes to these performance indices affect how hydro resources are credited in PJM's capacity market and resource adequacy analyses, which are critical to hydro revenue and market participation rules.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Andrew Gledhill",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260602-item-05---1-manual-14h-revisions-eit---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-05---1-manual-14h-revisions-eit---presentation.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document describes PJM's Expedited Interconnection Track (EIT) process, which affects resource eligibility and accreditation criteria (250 MW Accredited UCAP requirement) and interconnection timelines relevant to hydropower and pumped-storage projects seeking grid connection.",
+        "ai_summary": "PJM has created a temporary expedited interconnection process for generators meeting specific criteria including 250 MW Accredited UCAP and 36-month commercial operation timeline. The EIT operates parallel to the standard interconnection queue and is designed to accelerate shovel-ready generation projects to address resource adequacy needs. Hydropower and pumped-storage projects that meet the UCAP accreditation and timeline requirements could be eligible for this expedited track, which shortens the overall interconnection timeline from the standard process.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Sadowski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "David.Sadowski@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260602-item-05---2-manual-14h-revisions-eit---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-05---2-manual-14h-revisions-eit---executive-summary.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document describes changes to PJM's interconnection process, including a new Expedited Interconnection Track that directly affects how generation and storage resources (including hydropower and pumped-storage) interconnect to the grid.",
+        "ai_summary": "PJM is adding a new Expedited Interconnection Track to Manual 14H, conforming to pending FERC Order ER26-1563-000. This process change affects the interconnection pathway for new generation and storage resources, which is material for pumped-storage hydropower and other hydroelectric projects seeking grid connection.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "PDF",
+        "filename": "20260602-item-05---3-manual-14h-revisions-eit---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-05---3-manual-14h-revisions-eit---redline.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This manual governs the interconnection process for new generation and transmission facilities, which directly affects how hydropower and pumped-storage projects enter the PJM market and access transmission infrastructure.",
+        "ai_summary": "PJM Manual 14H defines the New Service Requests cycle process, including application requirements, system impact studies, and interconnection agreements for generation facilities. For hydropower and pumped-storage developers, this manual is critical as it establishes the procedural requirements, timelines, deposit obligations, and technical standards they must meet to interconnect new or expanded facilities to the PJM transmission system.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260602-item-06---tss-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-06---tss-update---presentation.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document covers routine transmission and substation design guidelines and technical standards updates with no direct connection to hydropower, pumped-storage, capacity markets, resource adequacy, energy storage, ancillary services, or market rules affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jeff Falciani",
+            "entity": "PJM",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Shashi Patel",
+            "entity": "Public Service Electric & Gas (PSE&G)",
+            "role": "presenter",
+            "email": "shashikant.patel@pseg.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260602-item-07---reliability-compliance-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-07---reliability-compliance-update---presentation.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a NERC reliability compliance briefing focused on computational load risks, standards modernization procedures, and inverter-based resource ride-through\u2014none of which directly address hydropower or pumped-storage market participation, capacity accreditation, ancillary services, or transmission planning affecting hydro.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Elizabeth Davis",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Elizabeth.Davis@pjm.com"
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Gizella.Mali@pjm.com"
+          }
+        ]
       }
     ]
   },
@@ -593,7 +865,7 @@
         "title": "PDF",
         "filename": "20260602-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-agenda.pdf",
-        "posted_date": "2026-05-22",
+        "posted_date": "2026-05-26",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Transmission expansion planning directly affects hydropower interconnection, deliverability, and market participation, and this agenda includes interregional planning, capacity expansion scenarios, and reliability analysis relevant to hydro resource integration.",
         "ai_summary": "The TEAC meeting covers 2026 RTEP updates including interregional planning, capacity expansion scenarios for 2034, reliability analysis, and transmission supplemental projects from major utilities. These transmission plans affect hydropower deliverability, resource adequacy modeling, and interconnection infrastructure critical to hydro participation in PJM markets.",
@@ -660,7 +932,7 @@
         "title": "DOC",
         "filename": "20260602-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-agenda-doc.docx",
-        "posted_date": "2026-05-22",
+        "posted_date": "2026-05-26",
         "hydro_relevant": false,
         "hydro_relevance_reason": "No document text was extracted; only the agenda title is available, providing insufficient information to assess relevance to hydropower and pumped-storage operations.",
         "ai_summary": null,
@@ -796,7 +1068,7 @@
         "title": "PDF",
         "filename": "20260602-item-06---aep-supplemental-projects.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-06---aep-supplemental-projects.pdf",
-        "posted_date": "2026-05-22",
+        "posted_date": "2026-05-26",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document addresses routine transmission equipment condition and replacement needs (circuit breakers at a specific substation) unrelated to hydropower operations, capacity markets, energy storage, ancillary services, or market participation.",
         "ai_summary": null,
@@ -900,6 +1172,80 @@
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260602-informational-only---2026-rtep-assumption-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-informational-only---2026-rtep-assumption-update.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document contains explicit provisions for energy storage and battery dispatch modeling in transmission planning, and addresses generation assumptions that directly affect how hydropower and storage resources are represented in RTEP base cases.",
+        "ai_summary": "PJM's 2026 RTEP assumptions include specific rules for battery energy storage system (BESS) dispatch in base cases using seasonal dispatch formulas, and general modeling provisions for 'energy storage including BESS' that will be 'modeled and dispatched in base case as needed.' These assumptions affect how pumped-storage hydropower and other storage technologies compete in transmission planning studies and resource adequacy assessments.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM Planning",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260602-minutes.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-minutes.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document contains only routine transmission planning updates and supplemental project reports with no content directly addressing hydropower capacity accreditation, energy storage market participation, ancillary services, or other hydropower-specific market rules.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Emmanuele Bobbio",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jeffrey Goldberg",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mojgan Hedayati",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Niraj Kshatriya",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stanley Sliwa",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Susan McGill",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -960,6 +1306,54 @@
     "documents": []
   },
   {
+    "title": "Comments due -  Interconnection Service Capacity and Deliverability Retention for Non-Operating Generating Facilities - Draft Final Proposal",
+    "date": "2026-06-01",
+    "time": "",
+    "rto": "CAISO",
+    "committee": "Interconnection Service Capacity and Deliverability Retention for Non-Operating Generating Facilities",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/comments-due-interconnection-service-capacity-and-deliverability-retention-for-non-operating-generating-facilities-draft-final-proposal-jun-01-2026-1200-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Interconnection-Service-Capacity-Deliverability-Retention-for-Non-Operating-Generating-Facilities",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Interconnection service capacity and deliverability retention rules directly affect hydropower and pumped-storage facilities seeking grid access, particularly projects under development or temporarily non-operating.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Comments due - Storage Design and Modeling",
+    "date": "2026-06-01",
+    "time": "",
+    "rto": "CAISO",
+    "committee": null,
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/comments-due-storage-design-and-modeling-jun-01-2026-1200-am",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Storage design and modeling directly impacts pumped-storage hydropower (PSH) and battery storage participation in CAISO markets, including capacity accreditation, dispatch rules, and operational requirements.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "proposal",
+        "title": "second revised straw proposal for the Storage Design and Modeling \u2013 Outage Management Topic Group",
+        "filename": "Second-Straw-Proposal-Outage-Management-Topic-Storage-Design-Modeling-May07-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Second-Straw-Proposal-Outage-Management-Topic-Storage-Design-Modeling-May07-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This CAISO proposal directly addresses outage management and modeling of battery storage resources, including nonlinearity (foldback) representation in market dispatch\u2014critical issues for pumped-storage hydropower and energy storage market participation.",
+        "ai_summary": "CAISO is enhancing its Outage Management System and market modeling to better represent nonlinear charging/discharging behavior of lithium-ion batteries near state-of-charge limits, with implementation expected spring 2027. These modeling improvements and outage reporting enhancements affect how all storage resources (including PSH) communicate operational capabilities and unavailability to grid operators, directly impacting dispatch feasibility and market participation.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "D. Das Gupta",
+            "entity": "CAISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "IPSAC - NY/NE Meeting",
     "date": "2026-05-29",
     "time": "9:00 a.m. - 12:00 p.m.",
@@ -967,11 +1361,96 @@
     "committee": "IPSAC - NY/NE",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={105D07BA-2A9D-45F2-BA8F-F983D9D883E3}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "IPSAC - NY/NE (Interconnection Process Subcommittee - New York/Northeast) typically addresses interconnection queue management and administrative procedures rather than market rules, capacity accreditation, ancillary services, or operational policies that directly affect hydropower participation.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/ipsac/2026/20260529-ny-ne/agenda.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "item-021---planning-and-market-efficiency-updates.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/ipsac/2026/20260529-ny-ne/item-021---planning-and-market-efficiency-updates.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "item-022---regional-planning-needs-and-solutions.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/ipsac/2026/20260529-ny-ne/item-022---regional-planning-needs-and-solutions.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "item-023---updates-on-comprehensive-system-planning-process.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/ipsac/2026/20260529-ny-ne/item-023---updates-on-comprehensive-system-planning-process.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "item-03---queue-interconnection-studies.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/ipsac/2026/20260529-ny-ne/item-03---queue-interconnection-studies.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "item-04---order-1920-compliance-filing-dates.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/ipsac/2026/20260529-ny-ne/item-04---order-1920-compliance-filing-dates.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "item-05---draft-2025-northeast-coordinated-system-plan-final.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/ipsac/2026/20260529-ny-ne/item-05---draft-2025-northeast-coordinated-system-plan-final.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "SOS Meeting",
@@ -1019,7 +1498,7 @@
     "date": "2026-05-29",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Planning Advisory Committee",
+    "committee": "Interregional Planning Stakeholder Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
     "materials_url": null,
@@ -1347,7 +1826,32 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Interconnection process enhancements directly affect how hydropower and pumped-storage projects can connect to the grid, impacting their ability to participate in markets and deliver power.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "Resource Interconnection Standards Clarification Matrix - Interconnection Process Enhancements 5.0 - May 18, 2026",
+        "filename": "Resource-Interconnection-Standards-Clarification-Matrix-Interconnection-Process-Enhancements-5-0-May-18-2026.xlsx",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Resource-Interconnection-Standards-Clarification-Matrix-Interconnection-Process-Enhancements-5-0-May-18-2026.xlsx",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Interconnection process enhancements directly affect how hydropower and pumped-storage projects access the CAISO transmission system and participate in markets.",
+        "ai_summary": "This document clarifies resource interconnection standards and technical requirements in CAISO's interconnection process, which impacts how hydro and PSH facilities can connect to the grid, qualify for capacity, and participate in energy markets. Changes to interconnection timelines, technical studies, and cost allocation can materially affect project economics and market eligibility for these resources.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "Draft Tariff Language Redline - Interconnection Process Enhancements 5.0 - May 18, 2026",
+        "filename": "Draft-Tariff-Language-Redline-Interconnection-Process-Enhancements-5-0-May-18-2026.docx",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Draft-Tariff-Language-Redline-Interconnection-Process-Enhancements-5-0-May-18-2026.docx",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Interconnection process enhancements directly affect how hydropower and pumped-storage projects connect to the grid and participate in CAISO markets.",
+        "ai_summary": "Draft tariff language for CAISO's Interconnection Process Enhancements 5.0 will establish or modify technical and procedural requirements for new resource interconnection, including energy storage and hydropower facilities. Changes to interconnection timelines, study requirements, and queue management rules have material implications for hydro/PSH project development and cost recovery.",
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Market Update",
@@ -1360,6 +1864,20 @@
     "materials_url": "https://www.caiso.com/meetings-events/topics/market-update",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A generic 'Market Update' meeting with no specified agenda topics is unlikely to focus on hydropower-specific issues unless the update happens to address capacity markets, ancillary services, or storage-related rule changes.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Congestion Revenue Rights Enhancements",
+    "date": "2026-05-28",
+    "time": "1:00 PM - 4:00 PM",
+    "rto": "CAISO",
+    "committee": "Congestion revenue rights enhancements",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/congestion-revenue-rights-enhancements-may-28-2026-0100-pm",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Congestion-revenue-rights-enhancements",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Congestion revenue rights enhancements are a financial instrument for transmission congestion hedging that do not directly impact hydropower resource adequacy, capacity accreditation, ancillary service provision, or market dispatch rules specific to hydropower and pumped-storage operations.",
     "issues": [],
     "documents": []
   },
@@ -1628,6 +2146,43 @@
             "entity": "ISO New England",
             "role": "presenter",
             "email": "akniska@iso-ne.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Joint Letter on LTTP Solicitation to the PAC",
+        "filename": "letter_to_iso-ne_pac_on_lttp_solicitation_5.26.2026.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/letter_to_iso-ne_pac_on_lttp_solicitation_5.26.2026.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns transmission planning RFP procedures and tariff interpretation for a general solicitation; it does not address hydropower or pumped-storage capacity, resource adequacy, ancillary services, market rules, or other topics specific to hydro industry participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Cavanaugh",
+            "entity": "ENE Transmission",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Matthew Ide",
+            "entity": "Massachusetts Municipal Wholesale Electric Company",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Will Hazelip",
+            "entity": "National Grid Ventures US",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Bryan Sanderson",
+            "entity": "PowerBridge LLC",
+            "role": "signatory",
+            "email": null
           }
         ]
       }
@@ -1915,7 +2470,7 @@
         "title": "XLS",
         "filename": "20260527-item-05---cifp---rbp-options-and-packages-matrix.xls",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-item-05---cifp---rbp-options-and-packages-matrix.xls",
-        "posted_date": "2026-05-21",
+        "posted_date": "2026-05-26",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -1985,6 +2540,29 @@
         "filename": "20260527-updated-cifp---rbp-issue-charge.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-updated-cifp---rbp-issue-charge.pdf",
         "posted_date": "2026-05-22",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "proposal",
+        "title": "PDF",
+        "filename": "20260527-item-05---cifp--reliability-backstop-procurement-pjm-proposal---paper.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-item-05---cifp--reliability-backstop-procurement-pjm-proposal---paper.pdf",
+        "posted_date": "2026-05-26",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -4775,7 +5353,7 @@
   {
     "title": "DESTF Meeting",
     "date": "2026-05-19",
-    "time": "10:00 a.m. - 12:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "DESTF",
     "source_url": "https://www.pjm.com/calendar",
@@ -5474,7 +6052,7 @@
   {
     "title": "SPF Meeting",
     "date": "2026-05-18",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "10:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "SPF",
     "source_url": "https://www.pjm.com/calendar",
@@ -8401,12 +8979,12 @@
   {
     "title": "Co-Located Load Order Workshop Meeting",
     "date": "2026-05-14",
-    "time": "8:30 a.m. - 10:00 a.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "Co-Located Load Order Workshop",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={648CDD13-762C-405E-B54B-AB541C929902}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={5F6D5FDD-F57A-4776-AA01-845C1C82CE2C}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Co-located load rules directly affect pumped-storage hydropower facilities that pair generation with pumping load, making this workshop relevant to how PSH participates in PJM's market.",
     "issues": [],
@@ -8600,12 +9178,12 @@
   {
     "title": "TOA-AC - Public Materials Only (No Registration)\nAnnual Meeting Meeting",
     "date": "2026-05-13",
-    "time": "8:15 a.m. - 11:30 a.m.",
+    "time": "8:30 a.m. - 10:00 a.m.",
     "rto": "PJM",
     "committee": "TOA-AC - Public Materials Only (No Registration)\nAnnual Meeting",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0D3803F1-5D9D-48B0-A744-D3A6674A2587}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={648CDD13-762C-405E-B54B-AB541C929902}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "TOA-AC (Transmission Operations & Alternatives Advisory Committee) annual meetings typically cover transmission operational procedures and infrastructure planning rather than market rules, capacity mechanisms, or resource-specific participation rules that directly affect hydropower operations.",
     "issues": [],
