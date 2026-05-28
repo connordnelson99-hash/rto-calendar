@@ -269,7 +269,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "education",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -278,18 +278,18 @@
             "rto": "PJM",
             "native_id": "f513fcda-a819-4a1d-92ba-b11f06c776f6",
             "canonical_name": "External Resource Capacity Clearing",
-            "status": "on-hold",
-            "stakeholder_phase": "on hold",
+            "status": "canceled",
+            "stakeholder_phase": "completed",
             "committee_owner": "mic",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=f513fcda-a819-4a1d-92ba-b11f06c776f6"
           },
           {
             "rto": "PJM",
             "native_id": "d3fc15a8-6735-4808-b83e-a5002724476b",
             "canonical_name": "Flexible Resource Lost Opportunity Costs Eligibility",
-            "status": "solution alternatives proposed",
-            "stakeholder_phase": "packages",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=d3fc15a8-6735-4808-b83e-a5002724476b"
@@ -309,7 +309,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -319,7 +319,7 @@
             "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
             "canonical_name": "Schedule 2 Penalty Calculations",
             "status": "awaiting senior committee approval",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
@@ -399,6 +399,452 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260603-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-agenda.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The agenda addresses Manual 11 and Manual 18 updates covering energy & ancillary services market operations and capacity market rules that directly affect hydropower and storage resource participation, scheduling, and accreditation.",
+        "ai_summary": "PJM's Market Implementation Committee is reviewing conforming changes to Manual 11 (Energy & Ancillary Services Market Operations) including Phase 1 and Phase 2 of Resource Scheduling Prior to the Day-Ahead Energy Market, and Manual 18 (Capacity Market) periodic review. These manuals govern how dispatchable resources like hydropower and pumped-storage participate in day-ahead scheduling, ancillary services procurement, and capacity accreditation\u2014all core to hydro operations in PJM.",
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
+            "canonical_name": "Dual Fuel Schedule Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "education",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
+            "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kevin Hatch",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Pete Langbein",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Phil D'Antonio",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Scott Baker",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260603-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-agenda-doc.docx",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted; only the metadata and title are available, making it impossible to determine whether the agenda contains hydropower-relevant content.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
+            "canonical_name": "Dual Fuel Schedule Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "education",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
+            "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "PDF",
+        "filename": "20260603-item-01-1---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-1---manual-11-revisions---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-01-1---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-1---manual-11-revisions---redline.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This manual governs PJM's energy and ancillary services markets, including regulation and reserve markets that are critical operational domains for hydropower and pumped-storage facilities.",
+        "ai_summary": "PJM Manual 11 establishes the operational rules for day-ahead and real-time energy markets, regulation market participation (Section 3), and reserve markets (Section 4)\u2014all of which directly govern how hydropower and pumped-storage resources are dispatched, compensated, and evaluated for ancillary service capabilities in PJM.",
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Day-Ahead and Real-Time Market Operations",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260603-item-01-2---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-1---manual-11-revisions---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-01-2---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-1---manual-11-revisions---presentation.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document describes PJM's advance scheduling rules for resources with >24-hour start-up times, which directly affects how hydropower and pumped-storage facilities with extended commitment windows participate in energy markets and dispatch.",
+        "ai_summary": "PJM Manual 11 revisions establish binding cost-based offer commitments for generation resources with notification/start-up times exceeding 24 hours, scheduled in advance of the Day-ahead Market. These rules lock offer prices and prevent price-based bidding for such resources, which may constrain hydropower operators' ability to adjust bids dynamically and could affect economic participation of long-lead-time hydro and PSH units in emergency pre-scheduling scenarios.",
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Phil D'Antonio",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Philip.DAntonio@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260603-item-01-3---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-1---manual-11-revisions---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-01-3---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-1---manual-11-revisions---executive-summary.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses manual changes to PJM's Energy & Ancillary Services Market Operations affecting dispatch and cost-basing of resources called prior to the day-ahead market, which directly impacts how hydropower and pumped-storage resources are scheduled and compensated.",
+        "ai_summary": "PJM Manual 11 changes clarify cost-capping and cost-based offer placement for resources with extended start-up/notification times (>24 hours) that are called in advance of the day-ahead market, and address 'switch to cost' flag application in both day-ahead and real-time operations. These revisions affect how hydro and pumped-storage units optimize bids and respond to out-of-market pre-DAM dispatch.",
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260603-item-02-1---manual-18-periodic-review---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-02-1---manual-18-periodic-review---redline.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM Manual 18 governs the Capacity Market and Reliability Pricing Model, which directly affects how hydropower and pumped-storage resources participate in capacity auctions, resource adequacy requirements, and ancillary service provisions.",
+        "ai_summary": "This manual defines capacity market rules, resource eligibility, ELCC/accreditation mechanisms, load obligations, and auction procedures that hydropower and pumped-storage facilities must follow to participate in PJM's capacity market. Sections on Generation Resources (4.2), Seasonal Capacity Performance Resources (4.10), and Resource Adequacy (Section 2) are particularly relevant to hydro participation and performance requirements.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260603-item-02-2---manual-18-periodic-review---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-02-2---manual-18-periodic-review---presentation.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document updates Manual 18 (Capacity Market Operations) including changes to Variable Resource Requirement curves, accredited capacity factors, unforced capacity obligations, and resource participation rules\u2014all directly affecting hydropower and energy storage capacity accreditation and market participation in PJM's capacity market.",
+        "ai_summary": "PJM's periodic review of Manual 18 includes conforming changes to VRR curve parameters, AUCAP accreditation factor penalties for derates, bilateral transaction rules, and resource definition clarifications (existing vs. planned, internal vs. external). These rules govern how hydropower and pumped-storage resources qualify for and participate in the RPM capacity auction and set their must-offer obligations.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Pete Langbein",
+            "entity": "PJM",
+            "role": "presenter | author",
+            "email": "Peter.Langbein@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "manual",
+        "title": "PDF",
+        "filename": "20260603-item-03-1---economic-load-response-regulation-only---manual-11---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-03-1---economic-load-response-regulation-only---manual-11---redline.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses demand resource registration requirements for curtailment service providers and economic load response, which does not directly implicate hydropower or pumped-storage operations, capacity accreditation, ancillary services provision, or other core hydro market participation mechanisms.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260603-item-03-2---economic-load-response-regulation-only---manual-11---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-03-2---economic-load-response-regulation-only---manual-11---presentation.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses Economic Load Response Regulation-only participation with net energy metering injection rights, which affects demand-side resources but does not directly impact hydropower or pumped-storage hydropower market participation, capacity accreditation, ancillary services, or transmission planning for hydro.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Scott Baker",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Scott.Baker@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260603-item-04---periodic-review-of-default-gross-cone-and-gross-acr-values---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-04---periodic-review-of-default-gross-cone-and-gross-acr-values---presentation.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses periodic review of CONE and ACR values used in PJM's Minimum Offer Price Rule and Market Seller Offer Cap, which directly affect how energy storage (including pumped-storage hydropower) and all capacity resources are valued and can bid into PJM's capacity market.",
+        "ai_summary": "PJM is updating default Gross CONE and Gross ACR values for the 30/31 delivery year, which establish offer floors and revenue offsets for capacity market participation. Battery energy storage is explicitly included in the current CONE table; PSH would similarly be affected by these valuation methodologies. The update involves external consultants (Brattle Group, Sargent & Lundy) and will proceed through stakeholder process with Advisory Vote at MRC/MC before FERC filing.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Pete Langbein",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Peter.Langbein@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260603-item-05---dual-fuel-operations---education.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-05---dual-fuel-operations---education.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document addresses dual fuel operations and natural gas system performance during extreme weather, with no discussion of hydropower, pumped-storage, energy storage, capacity accreditation, ancillary services, or other topics directly relevant to the hydropower and pumped-storage industry.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
+            "canonical_name": "Dual Fuel Schedule Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "education",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Kevin Hatch",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "Kevin.Hatch@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "matrix",
+        "title": "XLS",
+        "filename": "20260603-item-06-1---options--packages-matrix---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-2.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-06-1---options--packages-matrix---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-2.xls",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No text was extracted from the document, making it impossible to assess relevance to hydropower and pumped-storage industry topics.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260603-item-06-2---resource-scheduling-prior-to-the-day-ahead-energy-market---work-plan.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-06-2---resource-scheduling-prior-to-the-day-ahead-energy-market---work-plan.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document outlines PJM's Market Implementation Committee work plan for Resource Scheduling Prior to the DA Energy Market Phase 2, which directly affects market participation rules and design for all generation resources including hydropower and pumped storage.",
+        "ai_summary": "This work plan governs the development of resource scheduling design components and market rules for Phase 2 of PJM's DA Energy Market redesign. The iterative process of identifying component importance, developing options, and narrowing packages will shape how hydropower and pumped-storage resources can participate in PJM's energy market going forward.",
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "XLS",
+        "filename": "20260603-item-07---options--packages-matrix---fuel-cost-policy-clarifications-for-affiliated-fuel-suppliers.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-07---options--packages-matrix---fuel-cost-policy-clarifications-for-affiliated-fuel-suppliers.xlsx",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document contains no extracted text; a matrix title alone is insufficient to determine relevance to hydropower and pumped-storage industry topics.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
+            "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
+          }
+        ],
+        "stakeholders": []
       }
     ]
   },
@@ -1246,6 +1692,37 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260602-item-03---market-efficiency-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-03---market-efficiency-update.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses PJM's 2026/27 Market Efficiency cycle which uses ELCC (Effective Load Carrying Capability) class ratings for generation resources\u2014directly relevant to hydropower capacity accreditation and resource adequacy modeling.",
+        "ai_summary": "PJM is updating its market simulation base case using preliminary ELCC class ratings to model generation resources through 2041, which affects how hydropower and other dispatchable resources are valued in capacity planning and reserve requirement forecasts. The Market Efficiency cycle will identify congestion drivers and evaluate transmission solutions, impacting hydro's grid contribution and economic viability.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Eric Hsia",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Eric.Hsia@pjm.com"
+          },
+          {
+            "name": "Joshua Stephenson",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Joshua.Stephenson@pjm.com"
+          },
+          {
+            "name": "Nicolae Dumitriu",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Nicolae.Dumitriu@pjm.com"
+          }
+        ]
       }
     ]
   },
@@ -1260,6 +1737,45 @@
     "materials_url": null,
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The Consumer Liaison Group focuses on consumer/retail stakeholder engagement rather than market rules, resource adequacy, or operational issues affecting hydropower and pumped-storage participation.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "other",
+        "title": "2026-06-02 CLG Meeting Speaker Bios",
+        "filename": "clg_06_02_2026_speaker_bios.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/clg_06_02_2026_speaker_bios.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "2026-06-02 CLG Meeting Agenda",
+        "filename": "clg_meeting_agenda_06_02_2026.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/clg_meeting_agenda_06_02_2026.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Extended Day-Ahead Market (EDAM) Congestion Revenue Allocation",
+    "date": "2026-06-02",
+    "time": "9:00 AM - 12:00 PM",
+    "rto": "CAISO",
+    "committee": null,
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-edam-congestion-revenue-allocation-jun-02-2026-0900-am",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "EDAM congestion revenue allocation directly affects how hydropower and storage resources are compensated for transmission service provision and dispatch, which is material to their market participation and economic viability.",
     "issues": [],
     "documents": []
   },
@@ -1285,11 +1801,96 @@
     "committee": "Distributed Resources Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={A1291998-920D-4442-B627-5C2A6CE6ED36}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Distributed Resources Subcommittee typically addresses rooftop solar, microgrids, and small DER rather than utility-scale hydropower and pumped-storage facilities that are the primary focus of hydropower industry analysis.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260601-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/disrs/2026/20260601/20260601-agenda.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260601-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/disrs/2026/20260601/20260601-agenda-doc.docx",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260601-item-02---draft-minutes---disrs---4062026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/disrs/2026/20260601/20260601-item-02---draft-minutes---disrs---4062026.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260601-item-03---der-aggregator-participation-model---jurisdiction-and-interconnection---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/disrs/2026/20260601/20260601-item-03---der-aggregator-participation-model---jurisdiction-and-interconnection---presentation.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260601-item-04---conforming-manual-11-updates---economic-load-response-regulation-only---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/disrs/2026/20260601/20260601-item-04---conforming-manual-11-updates---economic-load-response-regulation-only---presentation.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260601-item-05---load-management-test-submission-process-for-delivery-year-2025-2026---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/disrs/2026/20260601/20260601-item-05---load-management-test-submission-process-for-delivery-year-2025-2026---presentation.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260601-item-06---summer-2026-2027-load-management-readiness---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/disrs/2026/20260601/20260601-item-06---summer-2026-2027-load-management-readiness---presentation.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "OC Special Session - Manual 13 Revisions Meeting",
@@ -1352,6 +1953,31 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Interconnection Process Enhancements 5.0 - Draft Tariff Language",
+    "date": "2026-06-01",
+    "time": "10:00 AM - 12:00 PM",
+    "rto": "CAISO",
+    "committee": "Interconnection process enhancements 5.0",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/interconnection-process-enhancements-5-0-draft-tariff-language-jun-01-2026-1000-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Interconnection-process-enhancements-5-0",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Interconnection process enhancements directly affect how hydropower and pumped-storage projects can connect to the grid, impacting their ability to participate in markets and deliver power.",
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "05f78b6a-2934-4fd6-a9c1-aa9ce5e75012",
+        "canonical_name": "Interconnection process enhancements 5.0",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Interconnection-process-enhancements-5-0"
+      }
+    ],
+    "documents": []
   },
   {
     "title": "IPSAC - NY/NE Meeting",
@@ -1471,6 +2097,90 @@
         "filename": "20260529-item-01---draft-minutes---04302026.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260529/20260529-item-01---draft-minutes---04302026.pdf",
         "posted_date": "2026-05-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260529-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260529/20260529-agenda.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260529-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260529/20260529-agenda-doc.docx",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260529-item-02---may-2026-operations-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260529/20260529-item-02---may-2026-operations-summary.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260529-item-03---edart-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260529/20260529-item-03---edart-update---presentation.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260529-item-04---dts-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260529/20260529-item-04---dts-update---presentation.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260529-item-05---compliance-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260529/20260529-item-05---compliance-update---presentation.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260529-item-08---pre-summer-reactive-capability-review-announcement.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260529/20260529-item-08---pre-summer-reactive-capability-review-announcement.pdf",
+        "posted_date": "2026-05-27",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -1780,6 +2490,42 @@
             "name": "Monica Gonzalez",
             "entity": "ISO-NE",
             "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "tariff",
+        "title": "2026-05-28 TC A02.2(C) Office of Massachusetts Attorney General (MA AGO) Amendment",
+        "filename": "a02.2c_tc_acr_amendment_ma_ago.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02.2c_tc_acr_amendment_ma_ago.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a Massachusetts Attorney General presentation on Asset Condition Project (ACP) review governance and transmission cost oversight, with no substantive discussion of hydropower capacity markets, resource adequacy rules, energy storage participation, ancillary services, or market mechanisms that directly affect hydro operations.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Andrea Joy Campbell",
+            "entity": "Office of Massachusetts Attorney General",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Jacquelyn Bihrle",
+            "entity": "Office of Massachusetts Attorney General",
+            "role": "author",
             "email": null
           }
         ]
@@ -2433,8 +3179,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -2456,8 +3202,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -2563,6 +3309,29 @@
         "filename": "20260527-item-05---cifp--reliability-backstop-procurement-pjm-proposal---paper.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-item-05---cifp--reliability-backstop-procurement-pjm-proposal---paper.pdf",
         "posted_date": "2026-05-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260527-transmission-owner-separation-risk---pjm-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260527/20260527-transmission-owner-separation-risk---pjm-presentation.pdf",
+        "posted_date": "2026-05-27",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2926,6 +3695,45 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The agenda addresses interconnection queue management, transmission planning assumptions, and merchant zone designation processes that directly affect hydropower and storage project development and market participation in CAISO.",
         "ai_summary": "This meeting covers Cluster 16 interconnection queue issues including point-of-interconnection mapping, transmission planning dependency impacts on queued projects, merchant zone status, and intra-cluster prioritization\u2014all critical to how hydro and storage developers navigate CAISO's interconnection process and achieve commercial operation.",
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "May 2026 Highlights | FERC insight | Volume 5",
+    "date": "2026-05-26",
+    "time": null,
+    "rto": "FERC",
+    "committee": "HEADLINES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/may-2026-highlights-ferc-insight-volume-5",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "May 2026 Highlights | FERC insight | Volume 5",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/may-2026-highlights-ferc-insight-volume-5",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a FERC press release index/highlights document with no substantive content on hydropower, storage, capacity markets, ancillary services, or market rules affecting hydro operations.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "elibrary",
+        "title": "FERC Unleashes Natural Gas Permit Reforms.pdf",
+        "filename": null,
+        "url": "https://www.ferc.gov/sites/default/files/2026-05/FERC%20Unleashes%20Natural%20Gas%20Permit%20Reforms.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document focuses on natural gas permitting reforms and does not address hydropower, pumped-storage, capacity markets, resource adequacy, energy storage, ancillary services, transmission planning, or market rules relevant to the hydropower industry.",
+        "ai_summary": null,
         "issues": [],
         "stakeholders": []
       }
@@ -3746,8 +4554,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -3769,8 +4577,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -3792,8 +4600,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -3815,8 +4623,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -3838,8 +4646,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -3861,8 +4669,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -3884,8 +4692,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -3907,8 +4715,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -3930,8 +4738,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -3953,8 +4761,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -3976,8 +4784,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -4198,7 +5006,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -4208,7 +5016,7 @@
             "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
             "canonical_name": "Schedule 2 Penalty Calculations",
             "status": "awaiting senior committee approval",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
@@ -4290,7 +5098,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -4300,7 +5108,7 @@
             "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
             "canonical_name": "Schedule 2 Penalty Calculations",
             "status": "awaiting senior committee approval",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
@@ -4342,8 +5150,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -4972,7 +5780,7 @@
             "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
             "canonical_name": "Schedule 2 Penalty Calculations",
             "status": "awaiting senior committee approval",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
@@ -5002,7 +5810,7 @@
             "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
             "canonical_name": "Schedule 2 Penalty Calculations",
             "status": "awaiting senior committee approval",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
@@ -5025,7 +5833,7 @@
             "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
             "canonical_name": "Schedule 2 Penalty Calculations",
             "status": "awaiting senior committee approval",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
@@ -5048,7 +5856,7 @@
             "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
             "canonical_name": "Schedule 2 Penalty Calculations",
             "status": "awaiting senior committee approval",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
@@ -5071,7 +5879,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -5113,7 +5921,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -5136,7 +5944,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -5476,7 +6284,7 @@
             "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
             "canonical_name": "Enhancements to Deactivation Rules",
             "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
+            "stakeholder_phase": "consensus",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
@@ -5512,7 +6320,7 @@
             "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
             "canonical_name": "Enhancements to Deactivation Rules",
             "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
+            "stakeholder_phase": "consensus",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
@@ -5554,7 +6362,7 @@
             "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
             "canonical_name": "Enhancements to Deactivation Rules",
             "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
+            "stakeholder_phase": "consensus",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
@@ -5614,7 +6422,7 @@
             "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
             "canonical_name": "Enhancements to Deactivation Rules",
             "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
+            "stakeholder_phase": "consensus",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
@@ -6709,8 +7517,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -6769,8 +7577,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -6792,8 +7600,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -6864,8 +7672,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -6887,8 +7695,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -6917,8 +7725,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -6940,8 +7748,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -6970,8 +7778,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -12451,8 +13259,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -12511,8 +13319,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -12534,8 +13342,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -12576,8 +13384,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -12599,8 +13407,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -12635,8 +13443,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -12658,8 +13466,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -12681,8 +13489,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -12747,7 +13555,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "education",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -12756,18 +13564,18 @@
             "rto": "PJM",
             "native_id": "f513fcda-a819-4a1d-92ba-b11f06c776f6",
             "canonical_name": "External Resource Capacity Clearing",
-            "status": "on-hold",
-            "stakeholder_phase": "on hold",
+            "status": "canceled",
+            "stakeholder_phase": "completed",
             "committee_owner": "mic",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=f513fcda-a819-4a1d-92ba-b11f06c776f6"
           },
           {
             "rto": "PJM",
             "native_id": "d3fc15a8-6735-4808-b83e-a5002724476b",
             "canonical_name": "Flexible Resource Lost Opportunity Costs Eligibility",
-            "status": "solution alternatives proposed",
-            "stakeholder_phase": "packages",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=d3fc15a8-6735-4808-b83e-a5002724476b"
@@ -12787,7 +13595,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -12877,7 +13685,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "education",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -12886,18 +13694,18 @@
             "rto": "PJM",
             "native_id": "f513fcda-a819-4a1d-92ba-b11f06c776f6",
             "canonical_name": "External Resource Capacity Clearing",
-            "status": "on-hold",
-            "stakeholder_phase": "on hold",
+            "status": "canceled",
+            "stakeholder_phase": "completed",
             "committee_owner": "mic",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=f513fcda-a819-4a1d-92ba-b11f06c776f6"
           },
           {
             "rto": "PJM",
             "native_id": "d3fc15a8-6735-4808-b83e-a5002724476b",
             "canonical_name": "Flexible Resource Lost Opportunity Costs Eligibility",
-            "status": "solution alternatives proposed",
-            "stakeholder_phase": "packages",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=d3fc15a8-6735-4808-b83e-a5002724476b"
@@ -12917,7 +13725,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -12940,7 +13748,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "education",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -12949,8 +13757,8 @@
             "rto": "PJM",
             "native_id": "d3fc15a8-6735-4808-b83e-a5002724476b",
             "canonical_name": "Flexible Resource Lost Opportunity Costs Eligibility",
-            "status": "solution alternatives proposed",
-            "stakeholder_phase": "packages",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=d3fc15a8-6735-4808-b83e-a5002724476b"
@@ -12970,7 +13778,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -13256,8 +14064,8 @@
             "rto": "PJM",
             "native_id": "d3fc15a8-6735-4808-b83e-a5002724476b",
             "canonical_name": "Flexible Resource Lost Opportunity Costs Eligibility",
-            "status": "solution alternatives proposed",
-            "stakeholder_phase": "packages",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=d3fc15a8-6735-4808-b83e-a5002724476b"
@@ -13298,8 +14106,8 @@
             "rto": "PJM",
             "native_id": "d3fc15a8-6735-4808-b83e-a5002724476b",
             "canonical_name": "Flexible Resource Lost Opportunity Costs Eligibility",
-            "status": "solution alternatives proposed",
-            "stakeholder_phase": "packages",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=d3fc15a8-6735-4808-b83e-a5002724476b"
@@ -13322,7 +14130,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -13352,7 +14160,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -13424,10 +14232,10 @@
             "rto": "PJM",
             "native_id": "f513fcda-a819-4a1d-92ba-b11f06c776f6",
             "canonical_name": "External Resource Capacity Clearing",
-            "status": "on-hold",
-            "stakeholder_phase": "on hold",
+            "status": "canceled",
+            "stakeholder_phase": "completed",
             "committee_owner": "mic",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=f513fcda-a819-4a1d-92ba-b11f06c776f6"
           }
         ],
@@ -13491,7 +14299,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "education",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -13533,7 +14341,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "education",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -13575,7 +14383,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "education",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -13617,7 +14425,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -13640,7 +14448,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -15677,8 +16485,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -15700,8 +16508,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -15723,8 +16531,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -15746,8 +16554,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -15769,8 +16577,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -15792,8 +16600,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -15815,8 +16623,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -15838,8 +16646,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -15861,8 +16669,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -15884,8 +16692,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -15907,8 +16715,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -17411,8 +18219,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -17453,8 +18261,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -17476,8 +18284,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -17487,7 +18295,7 @@
             "native_id": "470a5f36-2ce2-4c82-8639-7d4bb9d0cafc",
             "canonical_name": "Large Load Customer Flexibility",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "education",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=470a5f36-2ce2-4c82-8639-7d4bb9d0cafc"
@@ -17564,8 +18372,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -17587,8 +18395,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -17617,8 +18425,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -17653,8 +18461,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -17676,8 +18484,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -17711,8 +18519,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -19554,8 +20362,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -19704,8 +20512,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -19757,8 +20565,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -19768,7 +20576,7 @@
             "native_id": "470a5f36-2ce2-4c82-8639-7d4bb9d0cafc",
             "canonical_name": "Large Load Customer Flexibility",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "education",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=470a5f36-2ce2-4c82-8639-7d4bb9d0cafc"
@@ -20306,8 +21114,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -20348,8 +21156,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -20390,8 +21198,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -20961,8 +21769,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -21012,7 +21820,7 @@
             "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
             "canonical_name": "Enhancements to Deactivation Rules",
             "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
+            "stakeholder_phase": "consensus",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
@@ -21031,8 +21839,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -21042,7 +21850,7 @@
             "native_id": "470a5f36-2ce2-4c82-8639-7d4bb9d0cafc",
             "canonical_name": "Large Load Customer Flexibility",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "education",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=470a5f36-2ce2-4c82-8639-7d4bb9d0cafc"
@@ -21061,8 +21869,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -21072,7 +21880,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -21105,7 +21913,7 @@
             "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
             "canonical_name": "Enhancements to Deactivation Rules",
             "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
+            "stakeholder_phase": "consensus",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
@@ -21124,8 +21932,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -21135,7 +21943,7 @@
             "native_id": "470a5f36-2ce2-4c82-8639-7d4bb9d0cafc",
             "canonical_name": "Large Load Customer Flexibility",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "education",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=470a5f36-2ce2-4c82-8639-7d4bb9d0cafc"
@@ -21154,8 +21962,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -21165,7 +21973,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -21419,8 +22227,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -21452,8 +22260,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -21463,7 +22271,7 @@
             "native_id": "470a5f36-2ce2-4c82-8639-7d4bb9d0cafc",
             "canonical_name": "Large Load Customer Flexibility",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "education",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=470a5f36-2ce2-4c82-8639-7d4bb9d0cafc"
@@ -21496,7 +22304,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "education",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -21505,8 +22313,8 @@
             "rto": "PJM",
             "native_id": "d3fc15a8-6735-4808-b83e-a5002724476b",
             "canonical_name": "Flexible Resource Lost Opportunity Costs Eligibility",
-            "status": "solution alternatives proposed",
-            "stakeholder_phase": "packages",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=d3fc15a8-6735-4808-b83e-a5002724476b"
@@ -21526,7 +22334,7 @@
             "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
             "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "options",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
@@ -21607,8 +22415,8 @@
             "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
@@ -21631,7 +22439,7 @@
             "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
             "canonical_name": "Enhancements to Deactivation Rules",
             "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
+            "stakeholder_phase": "consensus",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
@@ -21676,8 +22484,8 @@
             "rto": "PJM",
             "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
             "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
@@ -24644,7 +25452,7 @@
             "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
             "canonical_name": "Enhancements to Deactivation Rules",
             "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
+            "stakeholder_phase": "consensus",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
@@ -24686,7 +25494,7 @@
             "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
             "canonical_name": "Enhancements to Deactivation Rules",
             "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
+            "stakeholder_phase": "consensus",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
@@ -24782,7 +25590,7 @@
             "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
             "canonical_name": "Enhancements to Deactivation Rules",
             "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
+            "stakeholder_phase": "consensus",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
@@ -24824,7 +25632,7 @@
             "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
             "canonical_name": "Enhancements to Deactivation Rules",
             "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
+            "stakeholder_phase": "consensus",
             "committee_owner": "mrc",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
