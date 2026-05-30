@@ -1,5 +1,19 @@
 [
   {
+    "title": "NEPOOL Membership Subcommittee Meeting",
+    "date": "2026-06-15",
+    "time": "2:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Membership Subcommittee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160351",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Membership Subcommittee focuses on administrative membership matters and governance rather than market rules, capacity accreditation, resource adequacy, or operational policies that affect hydropower and pumped-storage participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Markets Committee Meeting",
     "date": "2026-06-11",
     "time": "1:30 PM",
@@ -66,8 +80,150 @@
     "materials_url": null,
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Budget and Finance Subcommittee meetings focus on administrative and financial management rather than market rules, resource adequacy, or operational policies that directly affect hydropower and pumped-storage participation.",
-    "issues": [],
-    "documents": []
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "asset-condition-reviewer",
+        "canonical_name": "Asset Condition Reviewer",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+      }
+    ],
+    "documents": [
+      {
+        "type": "tariff",
+        "title": "2026-06-05 BFS A02 Asset Condition (AC) Reviewer Addition to ISO Tariff Section IV.A, Schedule 1",
+        "filename": "a02_bfs_2026_06_05_asset_condition_reviewer_section_iv.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02_bfs_2026_06_05_asset_condition_reviewer_section_iv.pdf",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "2026-06-05 BFS A02 Asset Condition (AC) Reviewer Addition to ISO Tariff Section IV.A, Schedule 1 - Redlines",
+        "filename": "a02_bfs_2026_06_05_asset_condition_reviewer_section_iv_redlines.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a02_bfs_2026_06_05_asset_condition_reviewer_section_iv_redlines.docx",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-05 BFS A03 PFP Revisions: Billing Policy Conforming Change for External Transactions",
+        "filename": "a03_bfs_2026_06_05_pfp_billing_policy_revision.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a03_bfs_2026_06_05_pfp_billing_policy_revision.pdf",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-05 BFS A03 PFP Revisions: Billing Policy Conforming Change for External Transactions - Redlines (Billing Policy)",
+        "filename": "a03_bfs_2026_06_05_pfp_billing_policy_revision_redlines.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a03_bfs_2026_06_05_pfp_billing_policy_revision_redlines.docx",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-05 BFS A04 Continuation of Section IV Rates Absent FERC Order - Revised Redlines (Section IV.A)",
+        "filename": "a04_bfs_2026_06_05_rates_continuation_section_iv_a_revised_redlines.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a04_bfs_2026_06_05_rates_continuation_section_iv_a_revised_redlines.docx",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-05 BFS A04 Continuation of Section IV Rates Absent FERC Order - Redlines Comparison (Section IV.A)",
+        "filename": "a04_bfs_2026_06_05_rates_continuation_section_iv_a_redlines_comparison.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a04_bfs_2026_06_05_rates_continuation_section_iv_a_redlines_comparison.docx",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-05 BFS A04 Continuation of Section IV Rates Absent FERC Order - Revised Redlines (Section IV.B)",
+        "filename": "a04_bfs_2026_06_05_rates_continuation_section_iv_b_revised_redlines.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a04_bfs_2026_06_05_rates_continuation_section_iv_b_revised_redlines.docx",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-05 BFS A04 Continuation of Section IV Rates Absent FERC Order - Redlines Comparison (Section IV.B)",
+        "filename": "a04_bfs_2026_06_05_rates_continuation_section_iv_b_redlines_comparison.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a04_bfs_2026_06_05_rates_continuation_section_iv_b_redlines_comparison.docx",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "2026-06-05 BFS A00 Meeting Agenda",
+        "filename": "a00_bfs_2026_06_05_agenda.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/a00_bfs_2026_06_05_agenda.docx",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "DESTF Meeting",
@@ -77,11 +233,48 @@
     "committee": "DESTF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8A99A4EF-9863-4346-945D-D0FC3CB556E6}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The DESTF (Distributed Energy Storage Task Force) directly addresses energy storage policy and market integration, which is core to pumped-storage hydropower participation and battery storage co-location strategies in PJM markets.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260605-5.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260605/20260605-5.pdf",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document contains only voting results on unspecified 'Scope Area 4/5' packages with no substantive details about market rules, hydropower, storage, or any policy content relevant to the hydropower and pumped-storage industry.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
+            "canonical_name": "Enhancements to Deactivation Rules",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "consensus",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "David Anders",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "David.Anders@pjm.com"
+          },
+          {
+            "name": "Jonathan Ruffin",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jonathan.Ruffin@pjm.com"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Transmission Expansion Advisory Committee Meeting",
@@ -194,6 +387,350 @@
             "entity": "PJM Interconnection",
             "role": "presenter",
             "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260604-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-agenda.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document includes agenda items on Storage as a Transmission Asset (SATA) Phase II, regulation market design, and ancillary services (primary frequency response, regulation performance, synchronous reserve) that directly affect hydropower and pumped-storage participation in PJM markets.",
+        "ai_summary": "SATA Phase II proposals from PJM and Constellation will be presented for endorsement, addressing how energy storage assets (including PSH) are valued and operated as transmission resources. Updates on regulation market bifurcation, frequency response, and synchronous reserve performance are relevant to hydro's ancillary service participation.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Joe Bowring",
+            "entity": "Monitoring Analytics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "David Kimmel",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "David Mroz",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ilyana Dropkin",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jeff Schmitt",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jim Gluck",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joe Rushing",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Marcus Smith",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Paul Dajewski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Roger Cao",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ross Kelly",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ryan Nice",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Shubhrajit Bhattacharjee",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260604-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-agenda-doc.docx",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted; only metadata (title and meeting date) are available, insufficient to assess hydropower relevance.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "XLS",
+        "filename": "20260604-item-02---options--packages-matrix---storage-as-a-transmission-asset---sata---phase-2.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-02---options--packages-matrix---storage-as-a-transmission-asset---sata---phase-2.xls",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document contains only metadata and no extractable text content; cannot assess relevance to hydropower/pumped-storage topics without substantive document body.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "47c1f237-ad69-4695-8ba3-ff6cbaf9a037",
+            "canonical_name": "Storage as a Transmission Asset - Phase II",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "oc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=47c1f237-ad69-4695-8ba3-ff6cbaf9a037"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260604-item-04---1-manual-14d---revision-71---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-04---1-manual-14d---revision-71---presentation.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses PJM Manual M14D requirements for voltage and reactive power control, which directly affects how hydroelectric generators and other dispatchable resources must operate and provide ancillary services in the PJM market.",
+        "ai_summary": "PJM is clarifying Manual M14D requirements for automatic voltage regulation (AVR) modes and reactive power (VAR) output boundaries for all generators, including hydropower. The rules mandate operation in automatic voltage control mode by default, define acceptable volt-VAR control ranges, and establish an investigative process for reactive control performance\u2014all of which impact how hydro facilities must be configured and dispatched to meet reliability and fairness standards.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ryan Nice",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260604-item-04---2-manual-14d---revision-71---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-04---2-manual-14d---revision-71---executive-summary.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses reactive power control requirements (AVR mode, VAR behavior) that directly affect how all dispatchable generators, including hydropower, must operate within PJM's system to maintain grid stability and voltage control.",
+        "ai_summary": "PJM is updating Manual 14D generator operational requirements to include NERC Category 2 GO standards and clarify reactive power (VAR) performance expectations for all generating resources. Hydropower facilities must comply with these updated AVR and VAR control requirements, including specified volt-var and watt-var operating ranges, which are essential operational parameters for hydro participation in PJM markets.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "PDF",
+        "filename": "20260604-item-04---3-manual-14d---revision-71---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-04---3-manual-14d---revision-71---redline.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 14D establishes operational requirements for all generator types including hydropower, covering dispatch, market participation, ancillary services, and mixed-technology facilities (which includes pumped-storage).",
+        "ai_summary": "This manual defines operational standards, data exchange requirements, and market participation rules applicable to hydropower and pumped-storage facilities in PJM, including sections on ancillary services provision, dispatch coordination, black start capability, and mixed-technology facility classification that directly affect hydro operations.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260604-item-06----security-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-06----security-update.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine cybersecurity alert and IT operations update with no content addressing hydropower, pumped-storage, capacity markets, resource adequacy, energy storage market rules, ancillary services, transmission planning, or any other hydropower-relevant regulatory or market topic.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jim Gluck",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "jim.gluck@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260604-item-08---regulation-performance-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-08---regulation-performance-update.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses regulation market performance and qualification metrics for hydropower resources in PJM's ancillary services market.",
+        "ai_summary": "Hydropower resources in PJM averaged 89\u201391% performance scores in regulation service provision across multiple months (10/2025\u20135/2026), with 967 MW of hydro qualified to provide regulation as of May 2026. The document also reports on changes to regulation market metrics (RMMCP implementation on 10/1/2025) and updated regulation requirements, which directly affect hydro's participation in PJM's ancillary services markets.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ilyana Dropkin",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "Ilyana.Dropkin@pjm.com"
+          },
+          {
+            "name": "Performance Compliance Department",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "PerfCompDept@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260604-item-09---synchronous-reserve-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-09---synchronous-reserve-update.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Synchronized reserve performance directly affects hydropower and demand-side resources' ancillary service participation and penalty exposure in PJM markets.",
+        "ai_summary": "This report tracks synchronized reserve response performance across generation and demand-side resources (DSR) in PJM's first quarter 2026, including response times, compliance percentages, and financial penalties. Hydroelectric facilities typically provide synchronized reserve services and are subject to the performance standards and penalty structure detailed here, making reserve market rules operationally and financially material to hydro operators.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Kimmel",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "David.Kimmel@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260604-item-10---reliability-compliance-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-10---reliability-compliance-update.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a NERC reliability compliance update focused on computational load modeling, inverter-based resource standards, and procedural governance matters, with no content addressing hydropower capacity, storage markets, ancillary services, or hydro-specific market participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Elizabeth Davis",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Elizabeth.Davis@pjm.com"
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "Gizella.Mali@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260604-item-11---mtopoc-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-11---mtopoc-update.pdf",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses transmission outage coordination and RTEP upgrades but contains no content directly relevant to hydropower capacity accreditation, resource adequacy rules, ancillary services, or market participation rules that affect the hydropower and pumped-storage industry.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Mroz",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "David.Mroz@pjm.com"
+          },
+          {
+            "name": "Emanuel Bernabeu",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Emanuel.Bernabeu@pjm.com"
+          },
+          {
+            "name": "Joe Rushing",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Joseph.Rushing@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260604-item-12---regulation-market-phase-ii-simulation-results.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-12---regulation-market-phase-ii-simulation-results.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses regulation product design changes affecting how all dispatchable resources, including hydropower, participate in PJM's ancillary services market.",
+        "ai_summary": "PJM is simulating a transition from a single bidirectional regulation product to two separate regulation up/down products (Phase 2, pending FERC approval for October 2026 implementation). The analysis examines how this bifurcation affects resource deployment, controller saturation, and system reliability metrics\u2014outcomes that will materially impact hydropower's regulation service participation, pricing, and opportunity cost calculations in PJM.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Shubhrajit Bhattacharjee",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "shubhrajit.bhattacharjee@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260604-item-13---generation-operational-testing-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-13---generation-operational-testing-update.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Generation operational testing rules apply to all capacity resources including hydropower and pumped-storage units committed in RPM or FRR plans, affecting their compliance obligations and financial exposure.",
+        "ai_summary": "PJM's Generation Operational Testing program requires all generation capacity resources (except variable resources) to pass operational tests demonstrating they can start and operate within committed parameters. Hydropower and pumped-storage resources committed to PJM's capacity market must meet time-to-start and minimum run-time criteria or face retesting and potential financial penalties; the 2025 winter data shows high failure rates (40%) that underscore compliance risks.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Mroz",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "David.Mroz@pjm.com"
+          },
+          {
+            "name": "Emanuel Bernabeu",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Emanuel.Bernabeu@pjm.com"
+          },
+          {
+            "name": "Roger Cao",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Roger.Cao@pjm.com"
           }
         ]
       }
@@ -623,7 +1160,7 @@
         "title": "PDF",
         "filename": "20260603-item-02-1---manual-18-periodic-review---redline.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-02-1---manual-18-periodic-review---redline.pdf",
-        "posted_date": "2026-05-27",
+        "posted_date": "2026-05-28",
         "hydro_relevant": true,
         "hydro_relevance_reason": "PJM Manual 18 governs the Capacity Market and Reliability Pricing Model, which directly affects how hydropower and pumped-storage resources participate in capacity auctions, resource adequacy requirements, and ancillary service provisions.",
         "ai_summary": "This manual defines capacity market rules, resource eligibility, ELCC/accreditation mechanisms, load obligations, and auction procedures that hydropower and pumped-storage facilities must follow to participate in PJM's capacity market. Sections on Generation Resources (4.2), Seasonal Capacity Performance Resources (4.10), and Resource Adequacy (Section 2) are particularly relevant to hydro participation and performance requirements.",
@@ -1600,7 +2137,7 @@
         "title": "PDF",
         "filename": "20260602-item-10---comed-supplemental-projects.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-10---comed-supplemental-projects.pdf",
-        "posted_date": "2026-05-22",
+        "posted_date": "2026-05-29",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document addresses routine transmission infrastructure replacement (aging transformer and circuit breaker condition) in the ComEd zone, with no connection to hydropower capacity, storage, ancillary services, market rules, or hydro-relevant transmission planning.",
         "ai_summary": null,
@@ -1723,6 +2260,80 @@
             "email": "Nicolae.Dumitriu@pjm.com"
           }
         ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260602-item-12---reliability-analysis-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-12---reliability-analysis-update.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses PJM's 2026 Regional Transmission Expansion Plan (RTEP) analysis and modeling, which directly affects transmission planning that impacts hydropower interconnection, deliverability, and resource adequacy across the PJM footprint.",
+        "ai_summary": "This RTEP update outlines PJM's transmission planning scope for 2026, including 5-year and 8-year analyses that will inform infrastructure needs and policy impacts on regional generation resources. The analysis may identify transmission constraints or upgrades relevant to hydropower and pumped-storage facility deliverability and resource adequacy within PJM's footprint.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Eric Hsia",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Eric.Hsia@pjm.com"
+          },
+          {
+            "name": "Joshua Stephenson",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Joshua.Stephenson@pjm.com"
+          },
+          {
+            "name": "Stan Sliwa",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "Stanley.Sliwa@pjm.com"
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "Wenzheng.Qiu@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260602-item-14---2026-capacity-expansion-for-rtep-feedback-assumptions-results.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-14---2026-capacity-expansion-for-rtep-feedback-assumptions-results.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses capacity expansion modeling, ELCC-based resource adequacy constraints, and transmission planning that directly affect how hydropower and energy storage resources are valued and selected in PJM's long-term planning.",
+        "ai_summary": "PJM is using Capacity Expansion (CapEx) modeling for 2034 planning with ELCC curves that adjust based on resource mix penetration levels, including treatment of batteries and other flexible resources. The document addresses resource adequacy modeling methodology and transmission co-expansion features planned for FERC Order 1920 implementation, which are relevant to how hydropower and pumped-storage compete in capacity selection and transmission planning.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Emmanuele Bobbio",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Mojgan Hedayati",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Niraj Kshatriya",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -1762,6 +2373,30 @@
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-02 \u2013 Panel Presentation",
+        "filename": "clg_meeting_rojo_iso_large_loads_06_02_2026.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/clg_meeting_rojo_iso_large_loads_06_02_2026.pdf",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "2026-06-02 \u2013 ISO New England Update",
+        "filename": "clg_meeting_johnson_iso_new_england_update_presentation_06_02_2026.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/clg_meeting_johnson_iso_new_england_update_presentation_06_02_2026.pdf",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -1790,8 +2425,43 @@
     "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Congestion-revenue-rights-enhancements",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Congestion revenue rights enhancements are a financial hedging mechanism for transmission congestion that apply broadly to all generators and do not specifically address hydropower operational, market participation, or resource adequacy issues.",
-    "issues": [],
-    "documents": []
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "3f32bb03-769c-43e7-8b50-c98fb905f12c",
+        "canonical_name": "Congestion revenue rights enhancements",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Congestion-revenue-rights-enhancements"
+      }
+    ],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda - Congestion Revenue Rights Enhancements - Jun 02, 2026",
+        "filename": "Agenda-Congestion-Revenue-Rights-Enhancements-June-2-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Agenda-Congestion-Revenue-Rights-Enhancements-June-2-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "3f32bb03-769c-43e7-8b50-c98fb905f12c",
+            "canonical_name": "Congestion revenue rights enhancements",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Congestion-revenue-rights-enhancements"
+          }
+        ],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "CanceledExtended Day-Ahead Market (EDAM) Congestion Revenue Allocation",
@@ -2259,6 +2929,18 @@
         "filename": "20260529-item-07--2-manual-13--revision-98--redline.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260529/20260529-item-07--2-manual-13--revision-98--redline.pdf",
         "posted_date": "2026-05-28",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260529-item-07--3-manual-13--revision-98--executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260529/20260529-item-07--3-manual-13--revision-98--executive-summary.pdf",
+        "posted_date": "2026-05-29",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -8734,7 +9416,18 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The NEPOOL Markets Committee addresses ISO-NE tariff and market rule changes that directly affect hydropower participation, capacity accreditation, energy pricing, and ancillary services procurement.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
     "documents": []
   },
   {
@@ -10037,7 +10730,18 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The NEPOOL Markets Committee addresses wholesale market rules and tariff changes that directly affect hydropower and pumped-storage participation, including capacity accreditation, ancillary services, and resource adequacy mechanisms.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
     "documents": []
   },
   {
@@ -10141,7 +10845,18 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The NEPOOL Markets Committee discusses tariff changes, market rules, and operational policies that directly affect all generation resources including hydropower and pumped-storage hydropower participation in ISO-NE's energy and capacity markets.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
     "documents": [
       {
         "type": "other",
@@ -10476,7 +11191,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The CAR-SA (Capacity Auction Redesign\u2013Seasonal Auction) directly affects how hydropower and other resources participate in ISO-NE's capacity market, including resource qualification, auction mechanics, and seasonal timing that impact hydro's capacity accreditation and market participation.",
         "ai_summary": "ISO-NE is transitioning to a seasonal capacity auction model (effective Q2 2027) with significant changes to resource qualification, market power review timelines, and auction windows. Hydropower operators must understand new deadlines for lane assignments, deactivations (one year advance notice), seller-side cost submissions, and monthly reconfiguration processes that differ from the current Forward Capacity Market structure.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Jeff Mislak",
@@ -10495,7 +11221,18 @@
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document focuses exclusively on natural gas capacity market mechanics and firm gas contract requirements, with no substantive content regarding hydropower, pumped-storage hydropower, energy storage, or how these market adjustments affect hydro resources or participation.",
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Todd Schatzki",
@@ -10619,7 +11356,18 @@
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document focuses on non-firm gas capacity design and firm gas contract requirements under ISO-NE's Capacity Auction Reforms, with no discussion of hydropower, pumped-storage hydropower, energy storage, or how these gas market changes affect hydro market participation.",
         "ai_summary": null,
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Steven Otto",
@@ -10698,7 +11446,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document directly addresses capacity market rules for seasonal auctions (CAR-SA) that will affect how hydropower and energy storage resources construct offers, must-offer obligations, and participate in ISO-NE's capacity market.",
         "ai_summary": "CAR-SA introduces seasonal capacity offer construction rules affecting cost justification, seller-side mitigation, and energy must-offer obligations for storage resources and hybrids. Hydropower and pumped-storage operators will need to submit cost workbooks to justify offers above the Capacity Offer Price Threshold (COPT), with explicit provisions addressing physical availability and output characteristics relevant to storage resources.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Andrew Copland",
@@ -10723,7 +11482,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document addresses capacity market accreditation and deactivation rules under ISO-NE's Capacity Auction Reforms, which directly affect how hydropower and other dispatchable resources are evaluated for market power and participation in forward capacity markets.",
         "ai_summary": "ISO-NE is implementing seasonal capacity accreditation (CAR-SA) with modified market power assessment procedures for resource deactivations. Hydropower facilities subject to these rules will need to submit seasonally disaggregated cost workbooks and will be evaluated under separate seasonal conduct tests and Portfolio Benefits Tests, which is relevant to how hydro resources manage their capacity commitments and strategic decisions around seasonal operations and capital investments.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Zeky Murra-Anton",
@@ -10766,7 +11536,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document describes capacity accreditation and resource qualification rules under CAR-SA that directly affect how hydropower and variable resources participate in ISO-NE's capacity market, including MRIC calculations, seasonal auction mechanics, and forced outage provisions.",
         "ai_summary": "CAR-SA eliminates minimum size exceptions for intermittent power resources (IPRs, which include variable hydropower), discontinues the Estimated Qualified Capacity process for newly-commercial resources, and introduces an Unexpected Full Forced Outage provision allowing resources with season-long outages to withdraw from seasonal auctions. These changes materially affect hydropower resource qualification, accreditation methodology, and capacity market participation in New England.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Jasleen Singh",
@@ -10791,7 +11572,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The presentation directly addresses resource accreditation modeling assumptions that affect how energy storage and hydropower resources are valued in ISO-NE's capacity market, with specific focus on Type 2 and Type 3 MRI hours that heavily impact storage resource accreditation.",
         "ai_summary": "FlatIron Energy challenges ISO-NE's proposed accreditation base case for determining resource adequacy, arguing that modeling assumptions\u2014particularly the use of 'at-criteria' conditions with artificially high load additions (+5-6.6 GW)\u2014misalign with expected system conditions and systematically under-accredit energy-limited resources like pumped-storage hydropower. This misaccreditation artificially increases capacity prices and creates poor investment signals for flexible, dispatchable resources that provide multi-hour energy support during stressed system conditions.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -10803,7 +11595,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document directly addresses capacity market accreditation reforms (CAR-SA) including seasonal capacity payments, demand curves, and reliability criteria that fundamentally affect how hydropower and storage resources participate in ISO-NE's capacity market.",
         "ai_summary": "CAR-SA proposes seasonal capacity payment rates ($7.26/kW-month summer, $15.65/kW-month winter) derived from seasonal reliability metrics and Net CONE, which will significantly impact hydropower and pumped-storage revenues and participation incentives. The analysis includes gas constraint demand curves that may provide differential accreditation for non-firm resources, directly relevant to hydro dispatchability valuation.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Jake Fabian",
@@ -10828,7 +11631,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document addresses seasonal capacity market design and payment rate methodology under CAR-SA, which directly affects how hydropower and storage resources participate in ISO-NE's capacity market and recover costs.",
         "ai_summary": "ISO-NE proposes a new methodology for calculating seasonal payment rates to replace Net CONE in the Capacity Auction Redesign with Seasonal Auctions (CAR-SA) framework. The seasonal payment rates will anchor demand curves for summer and winter capacity markets, with rates derived from assumptions about annual cost equivalence and uniform cost of unserved energy across seasons. This impacts how dispatchable hydropower and pumped-storage resources receive seasonal capacity payments and investment signals in New England's capacity market.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "ISO New England, Inc.",
@@ -10847,7 +11661,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document addresses capacity market cost allocation under CAR-SA, which directly affects how hydropower and other dispatchable resources are accredited and charged in ISO-NE's capacity market.",
         "ai_summary": "ISO-NE is implementing seasonal capacity accreditation and cost allocation (CAR-SA) with a proposed effective date of Q2 2027. The presentation details how non-firm gas capacity credits will reduce winter capacity auction costs, and importantly, lists seven capacity market charges including 'Hydro-Quebec interconnection capability credits (HQICC) capacity charge,' indicating that interconnected hydropower resources face specific treatment in the revised capacity market structure.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Ernesto Guzman",
@@ -10891,7 +11716,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "FirstLight's presentation directly addresses winter weather year selection and weighting in ISO-NE's Capacity Accreditation Resource (CAR) methodology, which materially affects how energy storage resources like pumped-storage hydropower are accredited in the capacity market.",
         "ai_summary": "FirstLight argues that ISO-NE's current winter weather sampling methodology overweights extreme cold events (e.g., January 2004), causing miscalibration that understates the value of energy storage resources in typical capacity shortage conditions. FirstLight proposes an alternative weighting approach using 5-day weather blocks and synthetic winter sampling to better reflect tail-event probabilities, potentially improving accreditation for storage resources and reducing system costs.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Cal Brooks",
@@ -10910,7 +11746,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "This document directly addresses capacity accreditation modeling and resource adequacy impacts under the CAR-SA proposal, which affects how hydropower and storage resources are accredited and valued in ISO-NE's capacity market.",
         "ai_summary": "The CAR-SA (Capacity Auction Reforms: Seasonal/Accreditation) proposal modifies how resources\u2014including energy-limited and storage resources\u2014are accredited for capacity. The document analyzes resource adequacy risk under different LOLE splits (80/20 vs. 50/50) and discusses implications for energy storage treatment during charging-constrained hours, directly affecting pumped-storage hydropower participation and revenue.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Chris Geissler",
@@ -10960,7 +11807,18 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "Document directly addresses capacity accreditation rules for imports under CAR-SA, including exclusions of energy storage technologies and intermittent generation\u2014critical to hydro and pumped-storage resource qualification and market participation in ISO-NE.",
         "ai_summary": "ISO-NE proposes to exclude energy storage technologies requiring grid-charging and hybrid facilities with storage components from resource-backed import accreditation under CAR-SA, while establishing MRIC (Minimum Rated Installed Capacity) calculation methods for eligible external resources. This affects how pumped-storage hydropower and other storage-backed imports qualify for seasonal capacity auctions and their accreditation values relative to internal resources.",
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Jasleen Singh",
