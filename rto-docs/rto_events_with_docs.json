@@ -1,5 +1,19 @@
 [
   {
+    "title": "NEPOOL Participants Committee Summer Meeting",
+    "date": "2026-06-16",
+    "time": "2:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Participants Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160078",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Participants Committee Summer Meeting is a general governance and stakeholder forum that typically addresses broad organizational matters rather than specific technical or market rule changes directly affecting hydropower operations.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Membership Subcommittee Meeting",
     "date": "2026-06-15",
     "time": "2:00 PM",
@@ -2968,14 +2982,190 @@
     "date": "2026-05-29",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Interregional Planning Stakeholder Advisory Committee",
+    "committee": "Planning Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Interregional transmission planning meetings can address interconnection, deliverability, and resource adequacy issues that directly affect hydropower and pumped-storage facility participation and market access across regions.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "2026-05-29 IPSAC A02.2 ISO-NE Regional Planning Needs and Solutions",
+        "filename": "2026-05-29_ipsac_a02.2_iso-ne_regional_planning_needs_and_solutions.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/2026-05-29_ipsac_a02.2_iso-ne_regional_planning_needs_and_solutions.pdf",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document focuses on ISO-NE regional transmission planning processes, tariff compliance filings, and area studies with no specific discussion of hydropower, pumped-storage hydropower, energy storage capacity accreditation, or market rules directly affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Participant Support and Solutions",
+            "entity": "ISO-NE",
+            "role": "contact",
+            "email": "AskISO@iso-ne.com"
+          },
+          {
+            "name": "Peter Bernard",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-29 IPSAC A02.1 PJM Regional Transmission Expansion Planning Process",
+        "filename": "2026-05-29_ipsac_a02.1_pjm_planning_and_market_efficiency_updates.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/2026-05-29_ipsac_a02.1_pjm_planning_and_market_efficiency_updates.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission expansion planning directly affects hydropower interconnection, deliverability, and participation in PJM markets, particularly regarding backbone transmission that enables hydro resource utilization and regional transfers.",
+        "ai_summary": "PJM's 2026 RTEP process identifies regional transmission constraints and solutions across Mid-Atlantic, Dominion/South, and PJM West regions, including major 765 kV and 500 kV backbone projects. These expansion decisions affect transmission access and market efficiency for hydropower and pumped-storage resources participating in PJM's markets.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Schoon",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Michael Herman",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nebiat Tesfa",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nicolae Dumitriu",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "2026-05-29 IPSAC A02.3 NYISO Updates on Comprehensive System Planning Process",
+        "filename": "2026-05-29_ipsac_a02.3_nyiso_updates_on_comprehensive_system_planning_process.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/2026-05-29_ipsac_a02.3_nyiso_updates_on_comprehensive_system_planning_process.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document focuses on NYISO's general transmission reliability planning processes (RPP, STRP, RNA, CRP) and specific near-term generator deactivation/deficiency issues in New York City and Long Island, with no mention of hydropower, pumped-storage, energy storage, or market rules that would directly affect hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Laura Popa",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Supriya Tawde",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "2026-05-29 IPSAC A03 Queue Interconnection Studies Update",
+        "filename": "2026-05-29_ipsac_a03_ipsac_queue_interconnection_studies.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/2026-05-29_ipsac_a03_ipsac_queue_interconnection_studies.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document discusses interregional interconnection queue coordination that includes energy storage projects (battery and pumped-storage hydropower candidates) and transmission projects affecting neighboring ISO/RTO systems, directly relevant to hydro/storage market participation and transmission planning.",
+        "ai_summary": "The document reviews ISO-NE, NYISO, and PJM interconnection queues coordinated across ISO/RTO borders. Multiple energy storage projects are listed in NYISO and PJM queues with interregional impacts, and ISO-NE projects include battery storage facilities. Transmission projects affecting system performance and interconnection points are evaluated through joint ISO/RTO planning coordination, relevant to hydro/storage project deliverability and market participation.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Stojan Nikolov",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Supriya Tawde",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mojtaba Hoshmand",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-29 IPSAC A04 FERC Order 1920 Compliance Filing Dates",
+        "filename": "2026-05-29_ipsac_a04_ipsac_order1920_compliance_filing_dates.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/2026-05-29_ipsac_a04_ipsac_order1920_compliance_filing_dates.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FERC Order 1920 compliance requirements affect transmission coordination and market rules that impact hydropower interconnection, deliverability, and participation across ISO-NE and other RTOs.",
+        "ai_summary": "This document presents expected filing dates for FERC Order 1920 compliance across multiple RTOs (ISO-NE, NYISO, PJM, MISO, SERTP). Order 1920 addresses interregional transmission coordination and planning, which directly affects hydropower resources' ability to access markets and transmit power across regional boundaries. Hydropower facilities depend on these coordination frameworks for reliable interconnection and market access.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Stojan Nikolov",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-05-29 IPSAC A05 IPSAC NCSP25",
+        "filename": "2026-05-29_ipsac_a05_ipsac_draft_2025_northeast_coordinated_system_plan_ncsp25_final.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/2026-05-29_ipsac_a05_ipsac_draft_2025_northeast_coordinated_system_plan_ncsp25_final.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document covers interregional transmission planning coordination under FERC Order 1000, which directly affects hydropower interconnection, deliverability, and cost allocation for transmission projects that may impact hydro resources across ISO-NE, NYISO, and PJM regions.",
+        "ai_summary": "NCSP25 documents the Northeast ISO/RTO coordinated transmission planning process for 2024\u20132025, including needs assessments and interregional transmission project evaluation. The framework affects how hydropower and pumped-storage projects are interconnected, evaluated for regional vs. interregional solutions, and how transmission costs are allocated\u2014all material to hydro stakeholder participation in capacity and energy markets.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Stojan Nikolov",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "2026-05-29 IPSAC A01 Agenda & Admin",
+        "filename": "2026-05-29_ipsac_a01_agenda_admin.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100035/2026-05-29_ipsac_a01_agenda_admin.pdf",
+        "posted_date": "2026-05-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document addresses interregional transmission planning coordination (FERC Order 1000) and interconnection queue management across ISO-NE, PJM, and NYISO, which directly affects hydropower and pumped-storage project interconnection and deliverability.",
+        "ai_summary": "The IPSAC (Interregional Planning Steering Committee) coordinates transmission planning and interconnection processes across three major RTOs/ISOs in the Northeast. The agenda includes discussion of interconnection queue coordination, long-term firm transmission requests, and FERC Order 1920 compliance\u2014all relevant to hydro developer participation in interconnection and transmission access.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Stojan Nikolov",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "ARRCUG Meeting",
