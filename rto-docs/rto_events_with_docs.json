@@ -28,6 +28,20 @@
     "documents": []
   },
   {
+    "title": "SRRTEP-W Meeting",
+    "date": "2026-06-17",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "SRRTEP-W",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "SRRTEP-W (System Resource and Resilience Task Force) meetings typically focus on long-term resource adequacy and system resilience planning; without specific agenda details mentioning hydropower, storage, or capacity accreditation, the generic title provides insufficient indication of hydropower-relevant content.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Participants Committee Summer Meeting",
     "date": "2026-06-16",
     "time": "2:00 PM",
@@ -38,6 +52,61 @@
     "materials_url": null,
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The Participants Committee Summer Meeting is a general governance and stakeholder forum that typically addresses broad organizational matters rather than specific technical or market rule changes directly affecting hydropower operations.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "other",
+        "title": "2026-06-16-18 PC Initial Notice",
+        "filename": "npc-2026-06-16-18-initial.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/npc-2026-06-16-18-initial.pdf",
+        "posted_date": "2026-06-03",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Special MIC - Gross CONE and Gross ACR Updates Meeting",
+    "date": "2026-06-16",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "Special MIC - Gross CONE and Gross ACR Updates",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Gross CONE (Cost of New Entry) and Gross ACR (Annual Charge Rate) updates directly affect capacity market accreditation and payment mechanisms that determine hydropower and pumped-storage project economics in PJM's capacity auction.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "SRRTEP-S Meeting",
+    "date": "2026-06-16",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "SRRTEP-S",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "SRRTEP-S (State Relations and Regulatory Transmission Expansion Planning - Stakeholder) is focused on state regulatory coordination and transmission expansion planning procedures, which are not directly related to hydropower market participation, capacity accreditation, energy storage rules, or ancillary services.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "SRRTEP-MA Meeting",
+    "date": "2026-06-16",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "SRRTEP-MA",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "SRRTEP-MA (System Reliability, Regional Transmission, Engineering, and Planning - Mid-Atlantic) is a technical planning committee focused on transmission infrastructure and system reliability rather than market design, capacity accreditation, or operational rules that directly affect hydropower participation.",
     "issues": [],
     "documents": []
   },
@@ -56,6 +125,61 @@
     "documents": []
   },
   {
+    "title": "RSCS Meeting",
+    "date": "2026-06-15",
+    "time": "9:00 a.m. - 10:00 a.m.",
+    "rto": "PJM",
+    "committee": "RSCS",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={366234EE-2262-45C4-85CE-FAE2CC563180}",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "RSCS (Reliability Subcommittee of the Members Committee) typically addresses reliability and operational metrics without focus on specific generation technology market participation or dispatch rules affecting hydropower.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260515-rscs-draft-meeting-minutes.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/rscs/2026/20260615/20260515-rscs-draft-meeting-minutes.pdf",
+        "posted_date": "2026-05-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Tech Change Forum Meeting",
+    "date": "2026-06-15",
+    "time": "1:00 p.m. - 3:00 p.m.",
+    "rto": "PJM",
+    "committee": "Tech Change Forum",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Tech Change Forum is a general technology discussion committee without specific focus on market rules, resource adequacy, or operational changes that directly affect hydropower participation in PJM's markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "PRTMDW Meeting",
+    "date": "2026-06-12",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "PRTMDW",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "PRTMDW (Planning & Reliability Technical Marketing & Development Working Group) typically addresses general market development and planning issues not specifically focused on hydropower/storage market rules, capacity accreditation, or storage-related policy.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Markets Committee Meeting",
     "date": "2026-06-11",
     "time": "1:30 PM",
@@ -66,6 +190,48 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The NEPOOL Markets Committee addresses market design and tariff changes that directly affect hydropower and storage resources' participation in ISO-NE's capacity, energy, and ancillary services markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "CIFP\u2013RBP / Connect and Manage - Stage 3 Meeting",
+    "date": "2026-06-11",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "CIFP\u2013RBP / Connect and Manage - Stage 3",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The CIFP-RBP/Connect and Manage Stage 3 meeting appears to focus on interconnection queue management and procedural processes rather than market rules, resource adequacy, or operational matters directly affecting hydropower participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Co-Located Load Order Workshop Meeting",
+    "date": "2026-06-11",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "Co-Located Load Order Workshop",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Co-located load rules directly affect pumped-storage hydropower facilities that pair generation with pump load, which is a key operational and market participation model for PSH in PJM.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "SACMSTF Meeting",
+    "date": "2026-06-11",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "SACMSTF",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "SACMSTF (Strategic Advisory Committee on Monitoring, Standards and Training Framework) focuses on organizational standards and training rather than market rules, resource adequacy, or operational policies affecting hydropower participation.",
     "issues": [],
     "documents": []
   },
@@ -84,6 +250,20 @@
     "documents": []
   },
   {
+    "title": "CIFP\u2013RBP / Connect and Manage - Stage 3 Meeting",
+    "date": "2026-06-10",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "CIFP\u2013RBP / Connect and Manage - Stage 3",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "CIFP\u2013RBP / Connect and Manage - Stage 3 appears to be a project management or interconnection queue processing meeting focused on administrative coordination rather than market rules, resource adequacy, or operational policies affecting hydropower participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Markets Committee Meeting",
     "date": "2026-06-09",
     "time": "1:30 PM",
@@ -98,6 +278,90 @@
     "documents": []
   },
   {
+    "title": "RCSTF Meeting",
+    "date": "2026-06-09",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "RCSTF",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "RCSTF (Reserve Compliance Subcommittee Task Force) typically addresses reserve compliance and technical standards but the generic meeting title provides insufficient information to confirm hydropower-specific content, and this committee's focus on compliance metrics is unlikely to directly address hydro market participation issues.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "CAMSTF Meeting",
+    "date": "2026-06-09",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "CAMSTF",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "CAMSTF (Capacity, Ancillary Services, and Markets Subcommittee Task Force) addresses capacity market rules, ancillary services, and market design issues that directly affect hydropower and pumped-storage participation and compensation.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "DTS Meeting",
+    "date": "2026-06-09",
+    "time": "9:00 a.m. - 10:00 a.m.",
+    "rto": "PJM",
+    "committee": "DTS",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "DTS (Distribution Training and Safety) meetings typically focus on operational training, safety procedures, and distribution system management rather than market design, resource adequacy, or participation rules relevant to hydropower and pumped-storage generators.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "PJM/MISO IPSAC Meeting",
+    "date": "2026-06-08",
+    "time": "10:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "PJM/MISO IPSAC",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "IPSAC (Interregional Planning Stakeholder Advisory Committee) typically focuses on coordination and planning between PJM and MISO regions rather than hydropower-specific market rules, capacity accreditation, or storage mechanisms.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "TOA-AC Special Session - Public Materials Only (No Registration) Meeting",
+    "date": "2026-06-08",
+    "time": "1:00 p.m. - 2:00 p.m.",
+    "rto": "PJM",
+    "committee": "TOA-AC Special Session - Public Materials Only (No Registration)",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "TOA-AC (Transmission Owners Agreement \u2013 Advisory Committee) focuses on transmission owner coordination and operational issues rather than market design, resource adequacy, or generation participation rules that would directly affect hydropower and pumped-storage operations.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "ISAC Meeting",
+    "date": "2026-06-08",
+    "time": "3:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "ISAC",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "ISAC (Independent System Administrator Committee) typically addresses general stakeholder communications and administrative matters rather than specific market rule, tariff, or resource-specific operational issues relevant to hydropower and storage.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Load Analysis Subcommittee Meeting",
     "date": "2026-06-05",
     "time": "9:00 a.m. - 12:00 p.m.",
@@ -105,11 +369,120 @@
     "committee": "Load Analysis Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={A8BC7957-1AA1-466E-9AA7-91263CC5536B}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Load Analysis Subcommittee meetings focus on forecasting and analyzing electricity demand rather than on generation resource markets, capacity accreditation, or operational rules that would directly affect hydropower and pumped-storage participation.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260605-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-agenda.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260605-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-agenda-doc.docx",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260605-item-02---draft-minutes---las---01232026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-item-02---draft-minutes---las---01232026.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260605-item-03---third-party-review-of-large-load-adjustments.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-item-03---third-party-review-of-large-load-adjustments.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260605-item-04---load-adjustment-accuracy-report.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-item-04---load-adjustment-accuracy-report.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "PDF",
+        "filename": "20260605-item-05a---1-manual-19--attachment-b.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-item-05a---1-manual-19--attachment-b.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "PDF",
+        "filename": "20260605-item-05a---2-manual-19---attachment-b-redlines.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-item-05a---2-manual-19---attachment-b-redlines.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260605-item-05b---1-updated-large-load-adjustment-request---template.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-item-05b---1-updated-large-load-adjustment-request---template.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "XLS",
+        "filename": "20260605-item-05b---2-large-load-adjustment-request-template-update.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-item-05b---2-large-load-adjustment-request-template-update.xlsx",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "NEPOOL Budget and Finance Subcommittee",
@@ -285,7 +658,7 @@
         "title": "PDF",
         "filename": "20260605-5.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260605/20260605-5.pdf",
-        "posted_date": "2026-05-29",
+        "posted_date": "2026-06-01",
         "hydro_relevant": false,
         "hydro_relevance_reason": "The document contains only voting results on unspecified 'Scope Area 4/5' packages with no substantive details about market rules, hydropower, storage, or any policy content relevant to the hydropower and pumped-storage industry.",
         "ai_summary": null,
@@ -315,6 +688,98 @@
             "email": "Jonathan.Ruffin@pjm.com"
           }
         ]
+      },
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260605-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260605/20260605-agenda.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a procedural agenda for a deactivation rules task force meeting with no substantive content on hydropower, storage, capacity markets, resource adequacy, ancillary services, or market rules affecting hydro operations.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Dave Anders",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jonathan Ruffin",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260605-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260605/20260605-agenda-doc.docx",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted, making it impossible to assess content relevance to hydropower and pumped-storage topics.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260605-draft-minutes.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260605/20260605-draft-minutes.pdf",
+        "posted_date": "2026-06-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses generator deactivation rules and transmission solution alternatives but contains no specific discussion of hydropower, pumped-storage, capacity accreditation, ancillary services, energy storage, or other topics directly relevant to the hydropower industry.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Claire Lang-Ree",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Clara Summers",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dave Anders",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jonathan Ruffin",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Michael Herman",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260605-item-03---destf-work-plan.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/destf/2026/20260605/20260605-item-03---destf-work-plan.pdf",
+        "posted_date": "2026-06-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a procedural work plan timeline for the DESTF committee with no substantive content regarding hydropower, storage, market rules, or grid operations that would affect the hydropower industry.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -343,6 +808,20 @@
     "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={E7B665DD-2EE5-4B76-A729-62E7A4ED76F2}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Operating Committee oversees real-time grid operations, market rules, and dispatch procedures that directly affect how hydropower and pumped-storage resources participate in PJM's markets and provide ancillary services.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Comments due - Storage Design and Modeling",
+    "date": "2026-06-05",
+    "time": "",
+    "rto": "CAISO",
+    "committee": "Storage design and modeling",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/comments-due-storage-design-and-modeling-jun-05-2026-1200-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Storage-design-modeling",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Storage design and modeling directly addresses pumped-storage hydropower operational characteristics, performance parameters, and market integration rules that are core to PSH participation in CAISO markets.",
     "issues": [],
     "documents": []
   },
@@ -437,7 +916,7 @@
         "title": "PDF",
         "filename": "20260604-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-agenda.pdf",
-        "posted_date": "2026-05-28",
+        "posted_date": "2026-06-02",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Document includes agenda items on Storage as a Transmission Asset (SATA) Phase II, regulation market design, and ancillary services (primary frequency response, regulation performance, synchronous reserve) that directly affect hydropower and pumped-storage participation in PJM markets.",
         "ai_summary": "SATA Phase II proposals from PJM and Constellation will be presented for endorsement, addressing how energy storage assets (including PSH) are valued and operated as transmission resources. Updates on regulation market bifurcation, frequency response, and synchronous reserve performance are relevant to hydro's ancillary service participation.",
@@ -534,7 +1013,7 @@
         "title": "DOC",
         "filename": "20260604-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-agenda-doc.docx",
-        "posted_date": "2026-05-28",
+        "posted_date": "2026-06-02",
         "hydro_relevant": false,
         "hydro_relevance_reason": "No document text was extracted; only metadata (title and meeting date) are available, insufficient to assess hydropower relevance.",
         "ai_summary": null,
@@ -569,7 +1048,7 @@
         "title": "PDF",
         "filename": "20260604-item-04---1-manual-14d---revision-71---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-04---1-manual-14d---revision-71---presentation.pdf",
-        "posted_date": "2026-05-28",
+        "posted_date": "2026-06-01",
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document addresses PJM Manual M14D requirements for voltage and reactive power control, which directly affects how hydroelectric generators and other dispatchable resources must operate and provide ancillary services in the PJM market.",
         "ai_summary": "PJM is clarifying Manual M14D requirements for automatic voltage regulation (AVR) modes and reactive power (VAR) output boundaries for all generators, including hydropower. The rules mandate operation in automatic voltage control mode by default, define acceptable volt-VAR control ranges, and establish an investigative process for reactive control performance\u2014all of which impact how hydro facilities must be configured and dispatched to meet reliability and fairness standards.",
@@ -750,7 +1229,7 @@
         "title": "PDF",
         "filename": "20260604-item-13---generation-operational-testing-update.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-13---generation-operational-testing-update.pdf",
-        "posted_date": "2026-05-28",
+        "posted_date": "2026-05-31",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Generation operational testing rules apply to all capacity resources including hydropower and pumped-storage units committed in RPM or FRR plans, affecting their compliance obligations and financial exposure.",
         "ai_summary": "PJM's Generation Operational Testing program requires all generation capacity resources (except variable resources) to pass operational tests demonstrating they can start and operate within committed parameters. Hydropower and pumped-storage resources committed to PJM's capacity market must meet time-to-start and minimum run-time criteria or face retesting and potential financial penalties; the 2025 winter data shows high failure rates (40%) that underscore compliance risks.",
@@ -775,6 +1254,128 @@
             "email": "Roger.Cao@pjm.com"
           }
         ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260604-item-02---storage-as-a-transmission-asset---sata---phase-2---package-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-02---storage-as-a-transmission-asset---sata---phase-2---package-summary.pdf",
+        "posted_date": "2026-06-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document directly addresses energy storage as a transmission asset in PJM markets, including operational frameworks, dispatch rules, market participation restrictions, and settlement mechanisms that affect how storage (including potential pumped-storage hydropower) can be deployed and compensated in the RTO.",
+        "ai_summary": "PJM's SATA Phase 2 framework establishes rules for operating energy storage as regulated transmission-only assets to address localized reliability needs. Key provisions include: automatic dispatch by PJM for identified RTEP violations, explicit exclusion from capacity markets and market participation, cost recovery via transmission rates, and state-of-charge management by asset owners. This framework defines whether and how hydropower or pumped-storage resources could qualify as transmission assets rather than market resources, affecting their valuation, dispatch control, and revenue mechanisms.",
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "47c1f237-ad69-4695-8ba3-ff6cbaf9a037",
+            "canonical_name": "Storage as a Transmission Asset - Phase II",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "oc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=47c1f237-ad69-4695-8ba3-ff6cbaf9a037"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "David Mroz",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "David.Mroz@pjm.com"
+          },
+          {
+            "name": "Emanuel Bernabeu",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Emanuel.Bernabeu@pjm.com"
+          },
+          {
+            "name": "Jeffrey Schmitt",
+            "entity": "PJM",
+            "role": "presenter | author",
+            "email": "Jeffrey.Schmitt@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260604-item-03---1-manual-13---revision-98---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-03---1-manual-13---revision-98---presentation.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document describes updates to PJM Manual 13 (Emergency Operations) including new capacity advisory procedures and emergency dispatch rules that directly affect how all generation resources, including hydropower and pumped-storage facilities, must respond to emergency conditions.",
+        "ai_summary": "Manual 13 Rev. 98 introduces a new Capacity Advisory procedure for forecasted capacity shortages and clarifies distinctions between transmission security and capacity-based emergency procedures. Hydropower and pumped-storage operators must understand these revised emergency dispatch protocols, including requirements for Advanced Scheduled Resources during Cold/Hot Weather Alerts and the conditions under which emergency procedures trigger resource dispatch actions.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Emmanuel Bernabeu",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Emmanuel.Bernabeu@pjm.com"
+          },
+          {
+            "name": "Kevin Hatch",
+            "entity": "PJM",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mike Handlin",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Michael.Handlin@pjm.com"
+          },
+          {
+            "name": "Paul Dajewski",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "Paul.Dajewski@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260604-item-03---2-manual-13---revision-98---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-03---2-manual-13---revision-98---executive-summary.pdf",
+        "posted_date": "2026-05-31",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses emergency operations procedures for backup generation at data centers/large loads during capacity emergencies, which does not directly impact hydropower or pumped-storage hydropower market participation, capacity accreditation, ancillary services, or resource adequacy rules.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "PDF",
+        "filename": "20260604-item-03---3-manual-13---revision-98---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-03---3-manual-13---revision-98---redline.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual addresses emergency operations procedures including capacity emergencies, reserve requirements, and resource limitation reporting that directly affect how hydropower and pumped-storage resources are dispatched and utilized during system stress events.",
+        "ai_summary": "PJM Manual 13 covers emergency procedures for capacity shortages, reserve requirements, and resource limitations that apply to all generation resources including hydropower. Section 2 on capacity emergencies and Section 6 on reporting resource limitations are particularly relevant to how hydro units are called upon and tracked during grid emergencies.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260604-item-xx---may-hot-weather-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-xx---may-hot-weather-update.pdf",
+        "posted_date": "2026-05-31",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is an operations update on hot weather event management and does not address hydropower or pumped-storage capacity, dispatch rules, market participation, resource adequacy, or energy storage provisions.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Paul Dajewski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Paul.Dajewski@pjm.com"
+          }
+        ]
       }
     ]
   },
@@ -786,11 +1387,113 @@
     "committee": "TEAC Special Session - Order 1920",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C57C2261-7050-4B99-B313-791A9F200A33}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "FERC Order 1920 addresses energy storage participation in capacity markets and RTO/ISO operations, which directly affects pumped-storage hydropower accreditation, resource adequacy, and market rules.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260604-special/agenda.pdf",
+        "posted_date": "2026-06-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FERC Order 1920 addresses transmission cost allocation for generator interconnection, which directly affects hydropower and pumped-storage project interconnection economics and feasibility.",
+        "ai_summary": "This TEAC special session focuses on PJM's response to FERC Order 1920 through proposed revisions to the Long-Term Revision Request to Plan (LTRTP) Protocol and cost allocation approaches. The meeting will discuss how transmission owner and PARSEC cost allocation proposals will accommodate interconnection requests, which is critical for hydropower and pumped-storage projects seeking grid access.",
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "fea17f0e-dbb2-4bdb-b1c5-59174fb86a88",
+            "canonical_name": "FERC Order 1920",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "",
+            "committee_owner": "pjm",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details-non-stakeholder.aspx?Issue=fea17f0e-dbb2-4bdb-b1c5-59174fb86a88"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Michele Greening",
+            "entity": "PJM",
+            "role": "presenter | contact",
+            "email": null
+          },
+          {
+            "name": "Samantha Rozecki",
+            "entity": "PJM",
+            "role": "author | presenter | contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260604-special/agenda-doc.docx",
+        "posted_date": "2026-06-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FERC Order 1920 addresses energy storage participation in capacity markets and operational rules, directly affecting pumped-storage hydropower accreditation and market participation.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "fea17f0e-dbb2-4bdb-b1c5-59174fb86a88",
+            "canonical_name": "FERC Order 1920",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "",
+            "committee_owner": "pjm",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details-non-stakeholder.aspx?Issue=fea17f0e-dbb2-4bdb-b1c5-59174fb86a88"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "minutes.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260604-special/minutes.pdf",
+        "posted_date": "2026-06-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FERC Order 1920 addresses energy storage participation in RTO markets, directly affecting pumped-storage hydropower eligibility and market rules.",
+        "ai_summary": "This meeting discusses PJM's implementation of FERC Order 1920, which establishes rules for energy storage resources (including pumped-storage hydropower) to participate in capacity and energy markets. The filing and stakeholder feedback on Order 1920 implementation are central topics affecting how PSH competes and is compensated in PJM's markets.",
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "fea17f0e-dbb2-4bdb-b1c5-59174fb86a88",
+            "canonical_name": "FERC Order 1920",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "",
+            "committee_owner": "pjm",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details-non-stakeholder.aspx?Issue=fea17f0e-dbb2-4bdb-b1c5-59174fb86a88"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Brookfield Renewable Trading and Marketing LP",
+            "entity": "Brookfield Renewable Trading and Marketing LP",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Michele Greening",
+            "entity": "PJM Interconnection",
+            "role": "presenter | contact",
+            "email": null
+          },
+          {
+            "name": "Samantha Rozecki",
+            "entity": "PJM Interconnection",
+            "role": "presenter | contact",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Transmission Expansion Advisory Committee Meeting",
@@ -821,9 +1524,50 @@
     "documents": []
   },
   {
+    "title": "Comments due - Resource Adequacy Modeling and Program Design (RAMPD) - Track 2",
+    "date": "2026-06-04",
+    "time": "",
+    "rto": "CAISO",
+    "committee": "Resource Adequacy Modeling and Program Design",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/comments-due-resource-adequacy-modeling-and-program-design-rampd-track-2-jun-04-2026-1200-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Resource-adequacy-modeling-and-program-design",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Resource adequacy modeling and program design directly affects how hydropower and pumped-storage resources are accredited and compensated in CAISO's capacity market.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "2026 Variable Operations and Maintenance (VOM) Cost Review",
+    "date": "2026-06-04",
+    "time": "11:00 AM - 12:00 PM",
+    "rto": "CAISO",
+    "committee": "2026 Variable operations and maintenance cost review",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/2026-variable-operations-and-maintenance-vom-cost-review-jun-04-2026-1100-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/2026-Variable-operations-maintenance-cost-review",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Variable operations and maintenance cost reviews are routine administrative and accounting procedures that do not directly address market rules, capacity mechanisms, or operational policies affecting hydropower and pumped-storage participation.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "proposal",
+        "title": "Issue Paper - 2026 Variable Operations and Maintenance Cost Review - May 29, 2026",
+        "filename": "Issue-Paper-2026-Variable-Operations-and-Maintenance-Cost-Review-May-29-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Issue-Paper-2026-Variable-Operations-and-Maintenance-Cost-Review-May-29-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
     "title": "Market Implementation Committee Meeting",
     "date": "2026-06-03",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 1:00 p.m.",
     "rto": "PJM",
     "committee": "Market Implementation Committee",
     "source_url": "https://www.pjm.com/calendar",
@@ -1424,6 +2168,30 @@
           }
         ],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260603-informational-only---pjm-esr-model-enhancements-position-paper.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-informational-only---pjm-esr-model-enhancements-position-paper.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses energy storage resource market design, participation models, and cost-offer rules in PJM that affect both battery storage and potentially pumped-storage hydropower (PSH) resources participating in the ESR model.",
+        "ai_summary": "PJM is enhancing its Energy Storage Resource (ESR) participation model to accommodate anticipated battery growth (~5,000 MW by 2030). The document proposes changes to opportunity cost representation in cost offers, state-of-charge management, and inter-day offer rules that could affect how PSH and other storage resources bid and compete in PJM markets. Pumped-storage hydropower operators should monitor these rule changes as they directly impact storage resource participation, dispatch economics, and capacity accreditation.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "XLS",
+        "filename": "20260603-informational-only---stability-limit-report---may-2026.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-informational-only---stability-limit-report---may-2026.xlsx",
+        "posted_date": "2026-06-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No document text was extracted for analysis, making it impossible to assess relevance to hydropower or pumped-storage topics.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -1823,7 +2591,7 @@
         "title": "PDF",
         "filename": "20260602-item-05---1-manual-14h-revisions-eit---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-item-05---1-manual-14h-revisions-eit---presentation.pdf",
-        "posted_date": "2026-05-26",
+        "posted_date": "2026-06-02",
         "hydro_relevant": true,
         "hydro_relevance_reason": "The document describes PJM's Expedited Interconnection Track (EIT) process, which affects resource eligibility and accreditation criteria (250 MW Accredited UCAP requirement) and interconnection timelines relevant to hydropower and pumped-storage projects seeking grid connection.",
         "ai_summary": "PJM has created a temporary expedited interconnection process for generators meeting specific criteria including 250 MW Accredited UCAP and 36-month commercial operation timeline. The EIT operates parallel to the standard interconnection queue and is designed to accelerate shovel-ready generation projects to address resource adequacy needs. Hydropower and pumped-storage projects that meet the UCAP accreditation and timeline requirements could be eligible for this expedited track, which shortens the overall interconnection timeline from the standard process.",
@@ -2010,7 +2778,7 @@
         "title": "PDF",
         "filename": "20260602-informational-only---5034-500-kv-line-cut-in-immediate-need-assessment---need-statement.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-informational-only---5034-500-kv-line-cut-in-immediate-need-assessment---need-statement.pdf",
-        "posted_date": "2026-05-22",
+        "posted_date": "2026-06-02",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document addresses a specific transmission line cut-in project driven by NJ SAA agreement wind-down and Brandon Shores deactivation, with no content addressing hydropower capacity accreditation, resource adequacy, energy storage markets, ancillary services, flexible ramping, or market participation rules that affect the hydropower industry.",
         "ai_summary": null,
@@ -2177,7 +2945,7 @@
         "title": "PDF",
         "filename": "20260602-item-09---5034-500-kv-line-cut-in-immediate-need-assessment---first-read.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-09---5034-500-kv-line-cut-in-immediate-need-assessment---first-read.pdf",
-        "posted_date": "2026-05-22",
+        "posted_date": "2026-06-02",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document addresses transmission planning for a specific 500 kV line cut-in project in New Jersey but contains no content directly relevant to hydropower, pumped-storage, capacity markets, resource adequacy, ancillary services, or other market mechanisms that affect hydro participation.",
         "ai_summary": null,
@@ -2417,6 +3185,49 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260602-informational-only---2026-rtep-assumptions-feedback.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-informational-only---2026-rtep-assumptions-feedback.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document discusses PJM's capacity expansion modeling for RTEP transmission planning, including specific technical assumptions about energy storage technologies (4-hour, 6-hour, 8-hour, and 10-hour battery systems) and their inclusion in ELCC and learning curve analysis, directly affecting how storage resources are valued and planned in the transmission system.",
+        "ai_summary": "CEBA and FirstEnergy provide detailed feedback on PJM's 2026 RTEP capacity expansion modeling assumptions. Key relevance to hydro/storage: CEBA recommends expanding storage technology durations modeled beyond 4- and 10-hour systems to include 6- and 8-hour battery storage, and extending learning curves to longer-duration storage technologies. FirstEnergy seeks clarification on which interconnection queue resources will be modeled. These assumptions directly influence how pumped-storage hydropower and energy storage resources are economically valued in transmission expansion planning.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Bryn Baker",
+            "entity": "CEBA",
+            "role": "author",
+            "email": "bbaker@ceba.org"
+          },
+          {
+            "name": "John Miller",
+            "entity": "CEBA",
+            "role": "author",
+            "email": "jmiller@ceba.org"
+          },
+          {
+            "name": "FirstEnergy",
+            "entity": "FirstEnergy",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Emmanuele Bobbio",
+            "entity": "PJM Interconnection",
+            "role": "contact",
+            "email": "Emmanuele.Bobbio@pjm.com"
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM Interconnection",
+            "role": "contact",
+            "email": "Wenzheng.Qiu@pjm.com"
+          }
+        ]
       }
     ]
   },
@@ -2613,7 +3424,7 @@
   {
     "title": "Cost Development Subcommittee Meeting",
     "date": "2026-06-01",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 11:00 a.m.",
     "rto": "PJM",
     "committee": "Cost Development Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
@@ -2731,11 +3542,80 @@
     "committee": "OC Special Session - Manual 13 Revisions",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={03142569-81EB-45FF-9DA7-73A6824EC572}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Manual 13 covers energy and ancillary services market operations including dispatch and settlement rules that directly affect how hydropower resources participate in PJM markets.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260601-special/agenda.pdf",
+        "posted_date": "2026-05-31",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a procedural agenda for a Manual 13 Attachment O education session with no substantive discussion of hydropower, storage, or market rules affecting hydro operations.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Mroz",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": null
+          },
+          {
+            "name": "Paul Dajewski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260601-special/agenda-doc.docx",
+        "posted_date": "2026-05-31",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 13 revisions at PJM may contain changes to operational procedures, dispatch rules, or reserve requirements that directly affect hydropower and pumped-storage participation and market rules.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "item-02---1-manual-13---revision-98---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260601-special/item-02---1-manual-13---revision-98---presentation.pdf",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 13 revisions establish emergency operating procedures and capacity advisory frameworks that directly affect how all generation resources, including hydropower and pumped-storage facilities, respond to capacity emergencies and transmission emergencies in PJM.",
+        "ai_summary": "Revision 98 introduces a Capacity Advisory procedure to provide advance notice of capacity-deficient conditions and Attachment O detailing emergency procedures for backup generator activation during EEA Level 3 events. These procedural changes affect the emergency dispatch and operational requirements for all dispatchable resources, including hydroelectric generators and pumped-storage hydropower plants, which are typically called upon during capacity emergencies.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Paul Dajewski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "manual",
+        "title": "PDF",
+        "filename": "item-02---2-manual-13---revision-98---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260601-special/item-02---2-manual-13---revision-98---redline.pdf",
+        "posted_date": "2026-05-31",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 13 covers emergency operations procedures including capacity emergencies, reserve requirements, and transmission security that directly affect how hydropower and pumped-storage resources are dispatched and compensated during system stress events.",
+        "ai_summary": "This manual establishes PJM's emergency procedures for capacity shortages (Section 2), including reserve requirements and light load procedures that determine when dispatchable hydro resources are called upon. Section 5 covers transmission security emergencies and load relief procedures that may involve emergency dispatch of flexible resources like pumped-storage. Attachment M addresses temporary environmental variances, which is relevant to hydro licensing and water operations during emergencies.",
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Comments due -  Interconnection Service Capacity and Deliverability Retention for Non-Operating Generating Facilities - Draft Final Proposal",
@@ -2813,7 +3693,7 @@
   {
     "title": "IPSAC - NY/NE Meeting",
     "date": "2026-05-29",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "9:00 a.m. - 10:00 a.m.",
     "rto": "PJM",
     "committee": "IPSAC - NY/NE",
     "source_url": "https://www.pjm.com/calendar",
@@ -4091,7 +4971,7 @@
   {
     "title": "CIFP \u2013 RBP / Connect and Manage - Stage 3 Meeting",
     "date": "2026-05-27",
-    "time": "8:30 a.m. - 3:30 p.m.",
+    "time": "3:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "CIFP \u2013 RBP / Connect and Manage - Stage 3",
     "source_url": "https://www.pjm.com/calendar",
@@ -4684,7 +5564,7 @@
   {
     "title": "EGCS Meeting",
     "date": "2026-05-26",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 10:00 a.m.",
     "rto": "PJM",
     "committee": "EGCS",
     "source_url": "https://www.pjm.com/calendar",
@@ -4839,12 +5719,12 @@
   {
     "title": "May 25, 2026 \u2013 PJM Holiday Meeting",
     "date": "2026-05-25",
-    "time": "3:00 p.m. - 4:00 p.m.",
+    "time": "2:30 p.m. - 4:30 p.m.",
     "rto": "PJM",
     "committee": "May 25, 2026 \u2013 PJM Holiday",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={CD92F2E6-89EF-4045-9DBE-1A779258092A}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "This is a holiday closure notice, not a substantive regulatory or stakeholder meeting where market rules or operational policies affecting hydropower would be discussed.",
     "issues": [],
@@ -8412,12 +9292,12 @@
   {
     "title": "ISAC Meeting",
     "date": "2026-05-18",
-    "time": "3:00 p.m. - 4:00 p.m.",
+    "time": "2:30 p.m. - 4:30 p.m.",
     "rto": "PJM",
     "committee": "ISAC",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={6C1129E6-80E1-4A75-A1C5-0D77A9FA3574}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={CD92F2E6-89EF-4045-9DBE-1A779258092A}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "ISAC (Independent System Admin Committee) is a governance and oversight body focused on general RTO administration and stakeholder engagement rather than specific market design, operational rules, or technical issues affecting hydropower participation.",
     "issues": [],
