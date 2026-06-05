@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from db.database import (
     init_db, get_connection, get_stats,
     export_calendar_json, export_issues_json,
-    resolve_issue_references,
+    export_hydro_corpus, resolve_issue_references,
 )
 
 # Import scrapers
@@ -45,6 +45,8 @@ ISSUES_SCRAPER_REGISTRY = {
 
 OUTPUT_JSON = Path(__file__).parent / "rto_events_with_docs.json"
 OUTPUT_ISSUES_JSON = Path(__file__).parent / "rto_issues.json"
+OUTPUT_CORPUS_JSON = Path(__file__).parent / "rto_hydro_corpus.json"
+OUTPUT_CORPUS_CSV = Path(__file__).parent / "rto_hydro_corpus.csv"
 
 
 def main():
@@ -123,6 +125,7 @@ def main():
         resolve_issue_references(conn)
         export_calendar_json(conn, args.output)
         export_issues_json(conn, str(OUTPUT_ISSUES_JSON))
+        export_hydro_corpus(conn, str(OUTPUT_CORPUS_JSON), str(OUTPUT_CORPUS_CSV))
         conn.close()
         return
 
@@ -154,10 +157,12 @@ def main():
     resolve_issue_references(conn)
     export_calendar_json(conn, args.output)
     export_issues_json(conn, str(OUTPUT_ISSUES_JSON))
+    export_hydro_corpus(conn, str(OUTPUT_CORPUS_JSON), str(OUTPUT_CORPUS_CSV))
     conn.close()
 
     print(f"\nCalendar JSON exported to: {args.output}")
     print(f"Issues JSON exported to: {OUTPUT_ISSUES_JSON}")
+    print(f"Hydro corpus exported to: {OUTPUT_CORPUS_JSON} + .csv")
 
 
 if __name__ == "__main__":

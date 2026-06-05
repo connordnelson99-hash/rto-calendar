@@ -682,5 +682,99 @@ def export_issues_json(conn, output_path=None):
     return issues
 
 
+def export_hydro_corpus(conn, json_path=None, csv_path=None):
+    """Export every hydro-flagged document across ALL RTOs and ALL time as a
+    flat, self-contained corpus for cross-cutting thematic analysis.
+
+    Unlike the weekly digest (one ISO week, narrative prose), this is the
+    whole relevant corpus in a structure you can filter, count, and pivot —
+    so a single file answers questions like "which RTOs are running
+    storage-as-transmission discussions right now?" Each record carries its
+    meeting context, AI summary, relevance reason, linked initiatives, and
+    stakeholders, so no row needs outside lookup.
+
+    Writes JSON (lists preserved, best for an LLM to read summaries) and/or
+    CSV (lists joined with '; ', best for spreadsheet pivots). Returns the
+    list of record dicts.
+    """
+    rows = conn.execute("""
+        SELECT d.id, d.rto, d.doc_type, d.title, d.filename, d.download_url,
+               d.posted_date, d.ai_summary, d.hydro_relevance_reason,
+               m.id AS meeting_id, m.committee, m.meeting_date,
+               m.title AS meeting_title
+        FROM documents d
+        JOIN meetings m ON m.id = d.meeting_id
+        WHERE d.hydro_relevant = 1
+        ORDER BY d.rto, m.meeting_date DESC, d.title
+    """).fetchall()
+
+    records = []
+    for r in rows:
+        # Initiatives tied to this doc directly, or to its meeting.
+        iss = conn.execute("""
+            SELECT DISTINCT i.canonical_name, i.short_title, i.native_id, i.status
+            FROM issue_references ir
+            JOIN issues i ON i.id = ir.issue_id
+            WHERE ir.matched_document_id = ? OR ir.matched_meeting_id = ?
+            ORDER BY i.canonical_name
+        """, (r["id"], r["meeting_id"])).fetchall()
+        initiatives = []
+        for x in iss:
+            name = x["canonical_name"] or x["short_title"] or x["native_id"]
+            if not name:
+                continue
+            initiatives.append(
+                f"{name} [{x['status']}]" if x["status"] else name)
+
+        stk = conn.execute("""
+            SELECT name, entity FROM document_stakeholders
+            WHERE document_id = ? ORDER BY entity, name
+        """, (r["id"],)).fetchall()
+        stakeholders = [
+            f"{s['name']} ({s['entity']})" if s["entity"] else s["name"]
+            for s in stk if s["name"]
+        ]
+
+        records.append({
+            "rto": r["rto"],
+            "meeting_date": r["meeting_date"],
+            "committee": r["committee"],
+            "meeting_title": r["meeting_title"],
+            "doc_type": r["doc_type"],
+            "title": r["title"] or r["filename"],
+            "posted_date": r["posted_date"],
+            "relevance_reason": r["hydro_relevance_reason"],
+            "initiatives": initiatives,
+            "stakeholders": stakeholders,
+            "ai_summary": r["ai_summary"],
+            "url": r["download_url"],
+        })
+
+    if json_path:
+        # Compact (no indent) — the corpus is machine-read by an LLM, and
+        # whitespace would push the file past a single context window.
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(records, f, separators=(",", ":"), ensure_ascii=False)
+        print(f"Exported {len(records)} hydro docs to {json_path}")
+
+    if csv_path:
+        import csv
+        cols = ["rto", "meeting_date", "committee", "meeting_title",
+                "doc_type", "title", "posted_date", "relevance_reason",
+                "initiatives", "stakeholders", "ai_summary", "url"]
+        # utf-8-sig so Excel renders en-dashes etc. in summaries cleanly.
+        with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
+            writer = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+            writer.writeheader()
+            for rec in records:
+                row = dict(rec)
+                row["initiatives"] = "; ".join(rec["initiatives"])
+                row["stakeholders"] = "; ".join(rec["stakeholders"])
+                writer.writerow(row)
+        print(f"Exported {len(records)} hydro docs to {csv_path}")
+
+    return records
+
+
 if __name__ == "__main__":
     init_db()
