@@ -214,7 +214,7 @@
   {
     "title": "Special MIC - Gross CONE and Gross ACR Updates Meeting",
     "date": "2026-06-16",
-    "time": "3:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "Special MIC - Gross CONE and Gross ACR Updates",
     "source_url": "https://www.pjm.com/calendar",
@@ -270,7 +270,7 @@
   {
     "title": "RSCS Meeting",
     "date": "2026-06-15",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "9:00 a.m. - 10:00 a.m.",
     "rto": "PJM",
     "committee": "RSCS",
     "source_url": "https://www.pjm.com/calendar",
@@ -1084,7 +1084,7 @@
   {
     "title": "Operating Committee",
     "date": "2026-06-11",
-    "time": null,
+    "time": "10:00 AM - 4:00 PM",
     "rto": "NYISO",
     "committee": "Operating Committee",
     "source_url": "https://www.nyiso.com/committees",
@@ -1494,6 +1494,34 @@
     ]
   },
   {
+    "title": "Market Surveillance Committee General Session",
+    "date": "2026-06-11",
+    "time": "1:00 PM - 5:00 PM",
+    "rto": "CAISO",
+    "committee": "Market Surveillance Committee",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/market-surveillance-committee-general-session-jun-11-2026-0100-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/market-surveillance-committee",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Market Surveillance Committee meetings typically address market monitoring, compliance, and general surveillance activities rather than specific policy changes, tariff modifications, or operational rules that directly affect hydropower participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "On-Peak Deliverability Assessment Methodology Refinements",
+    "date": "2026-06-11",
+    "time": "3:30 PM - 4:30 PM",
+    "rto": "CAISO",
+    "committee": "On-peak deliverability assessment methodology refinements",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/on-peak-deliverability-assessment-methodology-refinements-jun-11-2026-0330-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/on-peak-deliverability-assessment-methodology-refinements",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "On-peak deliverability assessment methodology directly affects how hydropower and pumped-storage resources are credited for their capacity contribution and transmission-constrained delivery capability in CAISO's resource adequacy framework.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Markets Committee Meeting",
     "date": "2026-06-10",
     "time": "1:30 PM",
@@ -1583,7 +1611,7 @@
   {
     "title": "Business Issues Committee",
     "date": "2026-06-10",
-    "time": null,
+    "time": "10:00 AM - 12:30 PM",
     "rto": "NYISO",
     "committee": "Business Issues Committee",
     "source_url": "https://www.nyiso.com/committees",
@@ -1599,11 +1627,18 @@
         "filename": "06102026%20BIC%20-%20External%20Transactions%20-%20New%20Proxy%20Bus%20-%20Final.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/06102026%20BIC%20-%20External%20Transactions%20-%20New%20Proxy%20Bus%20-%20Final.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses external transaction credit calculations and tariff mechanics for a new transmission facility (CHPE), which does not directly affect hydropower or pumped-storage market participation, capacity accreditation, ancillary services, or resource adequacy rules.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Sheri Prevratil",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "vote",
@@ -1611,8 +1646,8 @@
         "filename": "06102026%20BIC%20Motion%20-%20Update%20to%20External%20Transaction%20Credit%20Calculation%20-%20New%20Proxy%20Generator%20Bus.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/06102026%20BIC%20Motion%20-%20Update%20to%20External%20Transaction%20Credit%20Calculation%20-%20New%20Proxy%20Generator%20Bus.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "External transaction credit calculation and proxy generator bus revisions do not directly affect hydropower or pumped-storage market participation, capacity accreditation, ancillary services, or resource adequacy rules.",
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
@@ -1623,11 +1658,90 @@
         "filename": "1%2006102026%20BIC%20Agenda.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/1%2006102026%20BIC%20Agenda.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The agenda includes discussion of ICAP (Installed Capacity) manual changes, resource adequacy outlook, and transmission planning that directly affect hydropower capacity accreditation and market participation in NYISO.",
+        "ai_summary": "Item 7 addresses proposed changes to Attachment N of the ICAP Manual, which governs capacity accreditation rules; Item 8 covers the 2025-2044 System & Resource Outlook affecting resource adequacy; and Item 9 addresses Order No. 1920 long-term regional transmission planning, all of which have direct implications for hydropower and storage asset eligibility, valuation, and deliverability in NYISO markets.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Afreen Vahora",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Alex Novicki",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Bryan Irrgang",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ekene Umeike",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jason Frasier",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Julia Popova",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Matt Schwall",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sarah Carkner",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sarah Rodgers",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Shaun Johnson",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sheri Prevratil",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Shushant Varghese",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Yannick Vennes",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "other",
@@ -1635,9 +1749,9 @@
         "filename": "2025-2044_System_Resource_Outlook_Draft_Appendices_June2026_BIC.zip",
         "url": "https://www.nyiso.com/documents/20142/58183290/2025-2044_System_Resource_Outlook_Draft_Appendices_June2026_BIC.zip",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "A 2025-2044 System Resource Outlook directly addresses long-term resource adequacy, capacity planning, and generation mix forecasting that affects hydropower and storage participation in NYISO markets.",
+        "ai_summary": "Multi-decade resource outlook documents typically include capacity accreditation, ELCC analysis, and resource adequacy frameworks that determine how hydropower and pumped-storage resources are valued and must participate in NYISO capacity markets and planning.",
         "issues": [],
         "stakeholders": []
       },
@@ -1647,9 +1761,9 @@
         "filename": "2025-2044_System_Resource_Outlook_Draft_Report_June2026_BIC.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/2025-2044_System_Resource_Outlook_Draft_Report_June2026_BIC.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This long-term resource outlook discusses capacity mix, generation adequacy, transmission congestion, and resource location decisions that directly affect hydropower dispatchability, market participation, and system planning in New York.",
+        "ai_summary": "The outlook analyzes resource adequacy, capacity additions by zone, and transmission constraints through 2044 under multiple policy scenarios. Hydropower's role in meeting capacity requirements, providing flexibility, and mitigating transmission congestion in specific zones (particularly upstate) is material to NYISO planning and directly affects market design decisions affecting dispatchable hydro resources.",
         "issues": [],
         "stakeholders": []
       },
@@ -1659,11 +1773,18 @@
         "filename": "2025-2044_System_Resource_Outlook_June2026_BIC%20presentation.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/2025-2044_System_Resource_Outlook_June2026_BIC%20presentation.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The System & Resource Outlook assesses future resource mixes, dispatchable capacity needs, transmission planning, and renewable integration challenges that directly affect hydropower and pumped-storage deployment and market participation in New York.",
+        "ai_summary": "The outlook identifies firm, dispatchable capacity as essential across all decarbonization scenarios, emphasizing the need for resources capable of flexible energy provision and grid services (reserves, ramping, regulation) during low renewable output\u2014roles hydropower excels at. Transmission planning for renewable pockets and upstate-to-downstate delivery, plus voltage support requirements on Central East interface, are critical for hydropower interconnection and deliverability.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Sarah Carkner",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "manual",
@@ -1671,11 +1792,24 @@
         "filename": "A&B%20Manual%20-%20Incremental%20Highlight.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/A&B%20Manual%20-%20Incremental%20Highlight.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine administrative billing and accounting manual covering settlement processes, invoicing schedules, and dispute procedures with no content specific to hydropower, pumped-storage, capacity markets, resource adequacy, ancillary services, or market rules affecting hydro participation.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "NYISO Customer Settlements",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Randy A. Bowers",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          }
+        ]
       },
       {
         "type": "manual",
@@ -1683,11 +1817,24 @@
         "filename": "Accounting%20and%20Billing%20Manual%20-%20Redline.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/Accounting%20and%20Billing%20Manual%20-%20Redline.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine accounting and billing manual covering settlement processes, invoicing procedures, and dispute resolution with no content specific to hydropower, pumped-storage, capacity markets, ancillary services, or other hydro-relevant market rules.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "NYISO Customer Settlements",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Randy A. Bowers",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          }
+        ]
       },
       {
         "type": "minutes",
@@ -1695,11 +1842,66 @@
         "filename": "Draft%20BIC%20Minutes%2004152026%20for%20posting.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/Draft%20BIC%20Minutes%2004152026%20for%20posting.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document discusses ICAP capacity market parameters, winter reliability capacity design, and hydropower participation via CHPE/Hydro Quebec UDRs in NYISO's capacity market.",
+        "ai_summary": "The BIC approved FERC Order 904 and CHPE integration manual changes affecting ancillary services and dispatch operations. Discussion centered on winter ICAP demand curves and potential capacity supply from CHPE/Hydro Quebec through UDRs in NYC market, raising concerns about how seasonal hydropower availability assumptions affect capacity pricing signals and resource adequacy.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Mike Cadwalader",
+            "entity": "Atlantic Economics",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Howard Fromer",
+            "entity": "Bayonne Energy Center",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Doreen Saia",
+            "entity": "Greenberg Traurig",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mike DeSocio",
+            "entity": "Luminary Energy",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Adam Fam",
+            "entity": "NYDOS UIU",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Alexis Drake",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Amanda Myott",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Zach T. Smith",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Alex Novicki",
+            "entity": "NYSEG/RG&E",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "minutes",
@@ -1707,11 +1909,60 @@
         "filename": "Draft%20BIC%20Minutes%2005132026%20for%20posting.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/Draft%20BIC%20Minutes%2005132026%20for%20posting.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses capacity market rules, ELCC/deliverability impacts from new transmission (CHPE), and automatic surplus capacity offerings\u2014all directly affecting hydropower and storage resource participation in NYISO markets.",
+        "ai_summary": "NYISO implemented new Unforced Capacity Deliverability Rights (UDRs) for the Champlain Hudson Power Express transmission line, which changes capacity market parameters and may affect capacity availability ratings for existing resources including hydropower. The document also covers proposed automatic offering of surplus capacity in spot auctions and references FERC Order No. 1920 compliance, both relevant to hydro market participation.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Howard Fromer",
+            "entity": "Bayonne Energy Center",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Kevin Lang",
+            "entity": "Couch White",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mike DeSocio",
+            "entity": "Luminary Energy",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Afreen Vahora",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Robb Pike",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Zach T. Smith",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Alex Novicki",
+            "entity": "NYSEG/RG&E",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Matt Cinadr",
+            "entity": "e Cubed Company",
+            "role": "contact",
+            "email": null
+          }
+        ]
       },
       {
         "type": "manual",
@@ -1719,11 +1970,18 @@
         "filename": "ICAP%20Manual%20Attachment%20N%20Revisions%20-%2006102026%20BIC%20v3.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/ICAP%20Manual%20Attachment%20N%20Revisions%20-%2006102026%20BIC%20v3.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document proposes revisions to NYISO's ICAP Manual Attachment N, which directly addresses capacity accreditation and translation factors for Limited Control Run-of-River Hydro Resources, a core hydropower industry concern.",
+        "ai_summary": "NYISO is revising Attachment N to establish season-specific (summer and winter) translation factors for converting Installed Capacity to Unforced Capacity for Limited Control Run-of-River Hydro Resources. This affects how hydropower availability is measured in NYISO's resource adequacy studies (IRM, LCR, and deliverability studies) and aligns with the Winter Reliability Capacity Enhancements proposal filed with FERC.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Sushant Varghese",
+            "entity": "NYISO",
+            "role": "author | presenter",
+            "email": "svarghese@nyiso.com"
+          }
+        ]
       },
       {
         "type": "manual",
@@ -1731,9 +1989,9 @@
         "filename": "M-04-ICAP-Appendix-v2026MMDD-DRAFT.Att%20N.%206.10.26%20BIC.Clean.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/M-04-ICAP-Appendix-v2026MMDD-DRAFT.Att%20N.%206.10.26%20BIC.Clean.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Attachment N directly addresses translation factor calculations for intermittent power resources and limited control run-of-river hydroelectric resources, which is core to hydropower capacity accreditation in NYISO's ICAP market.",
+        "ai_summary": "This ICAP Manual update includes Attachment N\u2014a procedure for calculating translation factors for intermittent and run-of-river hydro resources seeking capacity accreditation. This directly affects how hydropower generators participate in NYISO's capacity market and how their unforced capacity is determined, a critical market rule for hydro operators.",
         "issues": [],
         "stakeholders": []
       },
@@ -1743,9 +2001,9 @@
         "filename": "M-04-ICAP-Appendix-v2026MMDD-DRAFT.Att%20N.%206.10.26%20BIC.Redline.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/M-04-ICAP-Appendix-v2026MMDD-DRAFT.Att%20N.%206.10.26%20BIC.Redline.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Attachment N specifically addresses capacity calculation procedures for run-of-river hydroelectric resources, which directly affects hydro participation in NYISO's installed capacity market.",
+        "ai_summary": "This ICAP Manual redline includes Attachment N, which establishes the procedure to calculate translation factors for intermittent power resources and limited control run-of-river hydro resources. The document also addresses external capacity imports and deliverability constraints that affect resource participation, including hydro resources from neighboring control areas (PJM, ISO-NE, Quebec, Ontario).",
         "issues": [],
         "stakeholders": []
       },
@@ -1755,9 +2013,9 @@
         "filename": "M-04-ICAP-Appendix-v2026MMDD-DRAFT.Att%20N.%206.10.26%20BIC.Redline%20(with%20incremental%20hightlights%20from%20ICAPWG).pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/M-04-ICAP-Appendix-v2026MMDD-DRAFT.Att%20N.%206.10.26%20BIC.Redline%20(with%20incremental%20hightlights%20from%20ICAPWG).pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Attachment N specifically addresses capacity accreditation procedures for run-of-river hydropower resources, which is directly relevant to hydro participation in NYISO's capacity market.",
+        "ai_summary": "This ICAP Manual revision includes Attachment N, which establishes the procedure to calculate translation factors for intermittent power resources and limited control run-of-river hydro resources in NYISO's capacity market. This directly affects how hydropower facilities are accredited for installed capacity (ICAP) purposes and their unforced capacity ratings.",
         "issues": [],
         "stakeholders": []
       },
@@ -1767,9 +2025,9 @@
         "filename": "Motion%202025-2044_System_Resource_Outlook_061026%20bic.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/Motion%202025-2044_System_Resource_Outlook_061026%20bic.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The 2025-2044 System & Resource Outlook typically addresses resource adequacy, capacity planning, and generation fleet composition including hydropower and storage resources that are critical to NYISO's long-term market and operational planning.",
+        "ai_summary": "This motion approves NYISO's 20-year System & Resource Outlook, which likely includes analysis of hydropower, pumped-storage hydropower, and other dispatchable resources' roles in meeting resource adequacy requirements and supporting grid reliability. The outlook informs capacity market design, transmission planning, and resource procurement strategies that directly affect hydro participation and viability.",
         "issues": [],
         "stakeholders": []
       },
@@ -1779,9 +2037,9 @@
         "filename": "MST%2026.4%20FID5396%20Redline.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/MST%2026.4%20FID5396%20Redline.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document details credit and collateral requirements for market participation in NYISO, including specific treatment of energy, ancillary services, and capacity market bidding that directly affect hydropower and storage operators' ability to participate in ISO-administered markets.",
+        "ai_summary": "Section 26.4 establishes Operating and Bidding Requirements that govern credit obligations for all market participants, including those in energy, ancillary services, and capacity markets. The formulas and methodologies for calculating credit exposure are material to hydropower and pumped-storage operators' operational costs and market access, particularly regarding UCAP (ICAP) component, TCC transactions, and ancillary services bidding.",
         "issues": [],
         "stakeholders": []
       },
@@ -1791,8 +2049,8 @@
         "filename": "Order%201920%20Proposed%20Revisions%20-%20OATT%20Sections.zip",
         "url": "https://www.nyiso.com/documents/20142/58183290/Order%201920%20Proposed%20Revisions%20-%20OATT%20Sections.zip",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "OATT (Open Access Transmission Tariff) proposed revisions may contain changes to transmission access rules, pricing, or operational procedures that directly affect hydropower interconnection, deliverability, or market participation.",
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
@@ -1803,11 +2061,18 @@
         "filename": "Order_1920_Update_06_10_2026_BIC.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/Order_1920_Update_06_10_2026_BIC.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FERC Order No. 1920 establishes long-term regional transmission planning processes and cost allocation methodologies that directly affect hydropower interconnection, deliverability, and market participation through transmission expansion planning and consideration of grid-enhancing technologies.",
+        "ai_summary": "NYISO's compliance proposal for Order No. 1920 introduces a 20-year Long-Term Transmission Planning Process that will identify bulk transmission needs and solicit solutions including non-traditional approaches. This is relevant to hydropower and pumped-storage operators seeking interconnection or improved transmission deliverability, and to resource adequacy assessments that depend on transmission availability.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Jason L. Frasier",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "vote",
@@ -1815,9 +2080,9 @@
         "filename": "Storm%20Watch%20BIC%20Motion_6102026_app.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/Storm%20Watch%20BIC%20Motion_6102026_app.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Storm Watch Redispatch procedures directly affect dispatch operations and cost allocation for all generation resources including hydropower.",
+        "ai_summary": "NYISO is modifying tariff and operational manual provisions governing Storm Watch Redispatch\u2014a procedure that redispatches generation during severe weather events. Changes to redispatch costs and dispatch protocols could materially affect how hydropower resources are called upon during emergency conditions and how those costs are allocated across the market.",
         "issues": [],
         "stakeholders": []
       },
@@ -1827,11 +2092,18 @@
         "filename": "Storm%20Watch%20Redispatch_06102026BIC_app.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/Storm%20Watch%20Redispatch_06102026BIC_app.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses settlement calculation methodology for transmission constraint violations during storm events, which does not directly affect hydropower or pumped-storage market participation, capacity accreditation, ancillary services, or dispatch rules.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Afreen Vahora",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          }
+        ]
       },
       {
         "type": "manual",
@@ -1839,9 +2111,9 @@
         "filename": "Transmission%20&%20Dispatch%20Manual%20-Storm%20Watch%20Redline.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/Transmission%20&%20Dispatch%20Manual%20-Storm%20Watch%20Redline.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This NYISO Transmission and Dispatch Operations Manual contains sections on operating policy, regulation requirements, reserve calculations, and generator/aggregator responsibilities that directly affect how hydropower and pumped-storage facilities participate in dispatch and ancillary service markets.",
+        "ai_summary": "The manual establishes NYISO operating states, reliability rules, regulation requirements, and the responsibilities of generator owners and aggregators in dispatch operations. Sections on regulation requirement (3.1.4), reserve calculation (3.1.3), and generator owner responsibilities (2.2.7) are relevant to how hydropower and pumped-storage resources are dispatched and compensated for flexibility services.",
         "issues": [],
         "stakeholders": []
       },
@@ -1851,8 +2123,8 @@
         "filename": "TSA%20BIC%20Motion_06102026_ap.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/TSA%20BIC%20Motion_06102026_ap.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses Accounting and Billing Manual changes for thunderstorm alert settlements automation, which is administrative billing procedural content unrelated to hydropower/storage market participation, capacity accreditation, resource adequacy, ancillary services, or market rules affecting hydro operations.",
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
@@ -1863,11 +2135,18 @@
         "filename": "TSA%20Settlements%20Automation%20-%20Manual%20Revisions_06102026BIC_app.pdf",
         "url": "https://www.nyiso.com/documents/20142/58183290/TSA%20Settlements%20Automation%20-%20Manual%20Revisions_06102026BIC_app.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns internal billing and settlements system automation for thunderstorm alert reallocation procedures and has no bearing on hydropower capacity accreditation, resource adequacy, ancillary services, transmission planning, market design, or other hydropower-relevant regulatory matters.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Afreen Vahora",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -2234,7 +2513,7 @@
         "title": "2026-06-09-11 MC A00 - Agenda",
         "filename": "a00_mc_2026_6_9-11_agenda.docx",
         "url": "https://www.iso-ne.com/static-assets/documents/100036/a00_mc_2026_6_9-11_agenda.docx",
-        "posted_date": "2026-06-03",
+        "posted_date": "2026-06-05",
         "hydro_relevant": false,
         "hydro_relevance_reason": "The document is an agenda title only with no extracted text content, making it impossible to assess substantive relevance to hydropower or storage market rules.",
         "ai_summary": null,
@@ -3013,7 +3292,7 @@
   {
     "title": "Installed Capacity Working Group",
     "date": "2026-06-09",
-    "time": null,
+    "time": "10:00 AM - 12:10 PM",
     "rto": "NYISO",
     "committee": "Installed Capacity Working Group",
     "source_url": "https://www.nyiso.com/committees",
@@ -3122,6 +3401,20 @@
         "stakeholders": []
       }
     ]
+  },
+  {
+    "title": "Interconnection Customer User Group",
+    "date": "2026-06-09",
+    "time": "1:00 PM - 2:00 PM",
+    "rto": "CAISO",
+    "committee": "Interconnection Customer User Group",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-jun-09-2026-0100-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/interconnection-customer-user-group",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Interconnection Customer User Group meetings address transmission interconnection processes and queue management that directly affect hydropower and pumped-storage projects seeking grid connection.",
+    "issues": [],
+    "documents": []
   },
   {
     "title": "PJM/MISO IPSAC Meeting",
@@ -3240,21 +3533,70 @@
   {
     "title": "ISAC Meeting",
     "date": "2026-06-08",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "3:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "ISAC",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8A30A5B6-2801-4A4F-B106-532214D43205}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "ISAC (Independent System Administrator Committee) typically addresses general stakeholder communications and administrative matters rather than specific market rule, tariff, or resource-specific operational issues relevant to hydropower and storage.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260608-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/state-commissions/isac/2026/20260608/20260608-agenda.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260608-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/state-commissions/isac/2026/20260608/20260608-agenda-doc.docx",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260608-draft-minutes---isac---4202026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/state-commissions/isac/2026/20260608/20260608-draft-minutes---isac---4202026.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260608-item-01---planning-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/state-commissions/isac/2026/20260608/20260608-item-01---planning-update.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Budget & Priorities Working Group",
     "date": "2026-06-08",
-    "time": null,
+    "time": "10:00 AM - 11:05 AM",
     "rto": "NYISO",
     "committee": "Budget & Priorities Working Group",
     "source_url": "https://www.nyiso.com/committees",
@@ -3270,11 +3612,30 @@
         "filename": "060826%20bpwg%20agenda.pdf",
         "url": "https://www.nyiso.com/documents/20142/58184529/060826%20bpwg%20agenda.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine internal budget and project prioritization meeting agenda with no discussion of hydropower, storage, market rules, or grid operations topics relevant to the hydropower industry.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Alan Ackerman",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Anna Dziekan",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jennifer Richards",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "other",
@@ -3282,8 +3643,8 @@
         "filename": "2027%20Enterprise%20Project%20Descriptions.pdf",
         "url": "https://www.nyiso.com/documents/20142/58184529/2027%20Enterprise%20Project%20Descriptions.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine internal IT and infrastructure project planning list with no market rules, capacity accreditation, resource adequacy, storage participation rules, or operational changes affecting hydropower or pumped-storage resources.",
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
@@ -3294,11 +3655,48 @@
         "filename": "2027%20Market%20Project%20Descriptions.pdf",
         "url": "https://www.nyiso.com/documents/20142/58184529/2027%20Market%20Project%20Descriptions.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document describes 2027 NYISO market projects including multiple items directly affecting hydropower and storage: capacity accreditation/resource adequacy modeling, storage as transmission, ancillary services, reserves design, and operating reserve scheduling.",
+        "ai_summary": "This portfolio review identifies 56 potential market projects for 2027, including several with direct hydropower relevance: Project 19 (capacity accreditation and resource adequacy modeling), Project 36 (storage as transmission), Project 6 (duration in reserves for intermittency), and Projects 10, 21, 28, 33 addressing operating reserves and ancillary service scheduling that affect hydro dispatch and compensation.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "CPV",
+            "entity": "CPV",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "H.Q. ENERGY SERVICES (U.S.) INC.",
+            "entity": "H.Q. ENERGY SERVICES (U.S.) INC.",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "JERA AMERICAS",
+            "entity": "JERA AMERICAS",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "LIPA",
+            "entity": "LIPA",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "NATIONAL GRID",
+            "entity": "NATIONAL GRID",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "NYS UIU",
+            "entity": "NYS UIU",
+            "role": "sponsor",
+            "email": null
+          }
+        ]
       },
       {
         "type": "other",
@@ -3306,11 +3704,18 @@
         "filename": "2027%20Proposed%20Enterprise%20Projects.pdf",
         "url": "https://www.nyiso.com/documents/20142/58184529/2027%20Proposed%20Enterprise%20Projects.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document includes a Capacity Market project (ICAP Efficiencies Effort) and an Advanced Storage Tool project that directly affect hydropower market participation and resource adequacy.",
+        "ai_summary": "This 2027 enterprise project plan includes two potentially relevant initiatives: Item 26 (ICAP Efficiencies Effort) under Capacity Market with external impacts, and Item 5 (Advanced Storage Tool) under Operations & Reliability that could affect pumped-storage hydropower scheduling and market integration. Both merit monitoring for hydropower industry implications.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Jennifer Richards",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "other",
@@ -3318,11 +3723,24 @@
         "filename": "2027%20Proposed%20Market%20Projects.pdf",
         "url": "https://www.nyiso.com/documents/20142/58184529/2027%20Proposed%20Market%20Projects.pdf",
         "posted_date": "2026-06-03",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a budget and project prioritization planning meeting agenda that discusses NYISO's 2027 market project candidates in general administrative terms, without specific content addressing hydropower, pumped-storage, capacity accreditation, energy storage, ancillary services, or market rules affecting hydro participation.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Anna Dziekan",
+            "entity": "NYISO",
+            "role": "author | presenter",
+            "email": "adziekan@nyiso.com"
+          },
+          {
+            "name": "Kevin Pytel",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": "kpytel@nyiso.com"
+          }
+        ]
       },
       {
         "type": "other",
@@ -3330,11 +3748,30 @@
         "filename": "BPWG%20Report%202027%20-%20Project%20Prioritization%20MP%20List.pdf",
         "url": "https://www.nyiso.com/documents/20142/58184529/BPWG%20Report%202027%20-%20Project%20Prioritization%20MP%20List.pdf",
         "posted_date": "2026-06-04",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a stakeholder roster/participant list for a NYISO Budget & Priorities Working Group meeting with no substantive discussion of hydropower, pumped-storage, capacity accreditation, resource adequacy, ancillary services, transmission planning, market rules, or other hydro-relevant regulatory topics.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Christopher LaRoe",
+            "entity": "Brookfield Renewable Trading and Marketing LP",
+            "role": "contact",
+            "email": "chris.laroe@brookfieldrenewable.com"
+          },
+          {
+            "name": "Yannick Vennes",
+            "entity": "H.Q. Energy Services (U.S.) Inc.",
+            "role": "contact",
+            "email": "vennes.yannick@hydroquebec.com"
+          },
+          {
+            "name": "Agnieszka Kubik",
+            "entity": "Hydro-Quebec TransEnergie",
+            "role": "contact",
+            "email": "kubik.agnieszka@hydroquebec.com"
+          }
+        ]
       }
     ]
   },
@@ -6527,7 +6964,7 @@
   {
     "title": "Installed Capacity Working Group",
     "date": "2026-06-02",
-    "time": null,
+    "time": "10:00 AM - 4:00 PM",
     "rto": "NYISO",
     "committee": "Installed Capacity Working Group",
     "source_url": "https://www.nyiso.com/committees",
@@ -6874,12 +7311,12 @@
   {
     "title": "OC Special Session - Manual 13 Revisions Meeting",
     "date": "2026-06-01",
-    "time": "1:30 p.m. - 4:30 p.m.",
+    "time": "2:30 p.m. - 4:30 p.m.",
     "rto": "PJM",
     "committee": "OC Special Session - Manual 13 Revisions",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C57C2261-7050-4B99-B313-791A9F200A33}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={03142569-81EB-45FF-9DA7-73A6824EC572}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Manual 13 covers energy and ancillary services market operations including dispatch and settlement rules that directly affect how hydropower resources participate in PJM markets.",
     "issues": [],
@@ -7304,7 +7741,7 @@
     "date": "2026-05-29",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Planning Advisory Committee",
+    "committee": "Interregional Planning Stakeholder Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
     "materials_url": null,
@@ -8695,7 +9132,7 @@
   {
     "title": "Management Committee",
     "date": "2026-05-27",
-    "time": null,
+    "time": "10:00 AM - 11:30 AM",
     "rto": "NYISO",
     "committee": "Management Committee",
     "source_url": "https://www.nyiso.com/committees",
@@ -8711,8 +9148,8 @@
         "filename": "052726%20MC%20final%20motion.pdf",
         "url": "https://www.nyiso.com/documents/20142/58042386/052726%20MC%20final%20motion.pdf",
         "posted_date": "2026-06-01",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "parse error: Unterminated string starting at: line 109 column 15 (char 2988)",
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
@@ -8723,11 +9160,42 @@
         "filename": "1%20052726%20mc%20agenda.pdf",
         "url": "https://www.nyiso.com/documents/20142/58042386/1%20052726%20mc%20agenda.pdf",
         "posted_date": "2026-05-19",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The agenda includes discussion of Automatic ICAP Surplus Offers, which directly relates to capacity market rules and ICAP accreditation mechanisms that affect hydropower participation in NYISO markets.",
+        "ai_summary": "The Management Committee will discuss and vote on Automatic ICAP Surplus Offers, a capacity market mechanism relevant to how hydropower resources are accredited and compensated in NYISO's capacity market. The 2025 State of the Market Report may also contain analysis pertinent to hydropower market performance and resource adequacy.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Afreen Vahora",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Emilie Nelson",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Matt Antonio",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Rich Dewey",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Potomac Economics",
+            "entity": "Potomac Economics",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "report",
@@ -8735,9 +9203,9 @@
         "filename": "April%20Operations_Report_202604_v1.pdf",
         "url": "https://www.nyiso.com/documents/20142/58042386/April%20Operations_Report_202604_v1.pdf",
         "posted_date": "2026-05-19",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document tracks hydropower generation performance (6,324 MW nameplate capacity including pumped storage) as part of NYCA generation mix and provides operational metrics relevant to hydro participation in NYISO markets.",
+        "ai_summary": "The report shows hydropower (including pumped-storage) represents 12% of NYCA's installed generation nameplate capacity and tracks it alongside other resources in monthly generation performance. It provides operational context on system conditions (reserve activations, IROL exceedances, load ramps) that affect hydro dispatch and market participation, and documents transmission infrastructure updates (CHPE integration, Smart Path Connect facilities) that may affect hydro deliverability.",
         "issues": [],
         "stakeholders": []
       },
@@ -8747,9 +9215,9 @@
         "filename": "Automatic%20ICAP%20MC%20Motion%2005272026.v2_ap.pdf",
         "url": "https://www.nyiso.com/documents/20142/58042386/Automatic%20ICAP%20MC%20Motion%2005272026.v2_ap.pdf",
         "posted_date": "2026-05-19",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Automatic ICAP Surplus Offers directly affect capacity market participation and accreditation rules that determine how hydropower and storage resources are compensated in NYISO's capacity market.",
+        "ai_summary": "This motion approves tariff revisions governing automatic ICAP (Installed Capacity) surplus offers, which is relevant to how hydropower and pumped-storage resources participate in NYISO's capacity market. Changes to ICAP surplus offer rules could affect pricing, bidding strategies, and revenue certainty for these dispatchable resources.",
         "issues": [],
         "stakeholders": []
       },
@@ -8759,11 +9227,18 @@
         "filename": "Automatic%20ICAP%20Surplus%20Offers%2005272026_MC.v6_ap.pdf",
         "url": "https://www.nyiso.com/documents/20142/58042386/Automatic%20ICAP%20Surplus%20Offers%2005272026_MC.v6_ap.pdf",
         "posted_date": "2026-05-19",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document addresses automatic UCAP surplus offers in NYISO's ICAP capacity market, which directly affects how all dispatchable resources including hydropower and pumped-storage facilities manage their capacity obligations and revenue.",
+        "ai_summary": "NYISO proposes automatic zero-dollar resale of unforced capacity (UCAP) surplus in ICAP Spot Market Auctions starting May 1, 2027. This change ensures surplus capacity is offered to the market rather than remaining unoffered, which affects hydro and PSH operators' ability to monetize excess capacity and influences market-clearing prices. The proposal requires tariff revisions and eliminates opt-out provisions to prevent withholding.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Afreen Vahora",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "other",
@@ -8771,9 +9246,9 @@
         "filename": "MST%205.14%20-%20Automatic%20ICAP%20Surplus%20Offers%20Unified%20Redline%2005272026_MC.pdf",
         "url": "https://www.nyiso.com/documents/20142/58042386/MST%205.14%20-%20Automatic%20ICAP%20Surplus%20Offers%20Unified%20Redline%2005272026_MC.pdf",
         "posted_date": "2026-05-19",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document addresses ICAP capacity market rules, demand curves, and unforced capacity obligations that directly affect hydropower and storage resources' participation in NYISO's capacity market.",
+        "ai_summary": "This tariff section governs the ICAP Spot Market Auction mechanism for procuring unforced capacity in NYISO, including demand curve methodology and LSE obligations. Hydropower and pumped-storage resources are capacity suppliers subject to these auction rules and pricing, and the document's treatment of interim service providers, bilateral contracts, and capacity derating factors affects how hydro participates in and is compensated through NYISO's capacity market.",
         "issues": [],
         "stakeholders": []
       },
@@ -8783,11 +9258,36 @@
         "filename": "NYISO%202025%20SOM%20Report__5-19-2026-final.pdf",
         "url": "https://www.nyiso.com/documents/20142/58042386/NYISO%202025%20SOM%20Report__5-19-2026-final.pdf",
         "posted_date": "2026-05-19",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The State of the Market Report contains extensive analysis of capacity markets, ancillary services, transmission planning, and generator performance metrics directly affecting hydropower and storage resource participation in NYISO markets.",
+        "ai_summary": "The report analyzes capacity market performance and locational pricing, non-fossil fuel generator performance during peak conditions, ancillary services market dynamics, transmission congestion and TCC impacts, and investment signals for new generation\u2014all of which directly affect hydropower and pumped-storage hydropower economics and market participation in NYISO.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "David B. Patton",
+            "entity": "Potomac Economics / NYISO Market Monitoring Unit",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Jie Chen",
+            "entity": "Potomac Economics / NYISO Market Monitoring Unit",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Joseph Coscia",
+            "entity": "Potomac Economics / NYISO Market Monitoring Unit",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Pallas LeeVanSchaick",
+            "entity": "Potomac Economics / NYISO Market Monitoring Unit",
+            "role": "author",
+            "email": null
+          }
+        ]
       },
       {
         "type": "other",
@@ -8795,11 +9295,18 @@
         "filename": "NYISO%202025%20SOM%20Slides%20for%20MC.pdf",
         "url": "https://www.nyiso.com/documents/20142/58042386/NYISO%202025%20SOM%20Slides%20for%20MC.pdf",
         "posted_date": "2026-05-26",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses hydropower availability impacts on NYISO energy prices, capacity market performance affecting generation investment incentives, and ancillary services market design\u2014all critical to hydro operations and revenue.",
+        "ai_summary": "The 2025 State of the Market Report identifies reduced hydropower generation availability as a driver of 2025 energy price increases (66\u201379%), and highlights planning-market gaps and low net revenues for flexible generation types that affect hydro investment incentives. The report recommends capacity market reforms and improved energy/ancillary services price formation to enhance incentives for flexible and available units, which are essential for hydro profitability and retention.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Pallas LeeVanSchaick, Ph.D.",
+            "entity": "Potomac Economics (NYISO Market Monitoring Unit)",
+            "role": "presenter | author",
+            "email": null
+          }
+        ]
       },
       {
         "type": "report",
@@ -8807,18 +9314,31 @@
         "filename": "NYISO%20CEO%20COO%20MC%20Report%20-%20May%2027.pdf",
         "url": "https://www.nyiso.com/documents/20142/58042386/NYISO%20CEO%20COO%20MC%20Report%20-%20May%2027.pdf",
         "posted_date": "2026-05-19",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document contains only routine market performance metrics, financial data, and operational statistics with no discussion of hydropower, pumped-storage, capacity accreditation, ancillary services procurement, market rules, or any policy changes affecting hydro participation.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Emilie Nelson",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Rich Dewey",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          }
+        ]
       }
     ]
   },
   {
     "title": "Installed Capacity Working Group",
     "date": "2026-05-27",
-    "time": null,
+    "time": "12:00 PM - 1:30 PM",
     "rto": "NYISO",
     "committee": "Installed Capacity Working Group",
     "source_url": "https://www.nyiso.com/committees",
@@ -10581,7 +11101,7 @@
   {
     "title": "Installed Capacity Working Group",
     "date": "2026-05-21",
-    "time": null,
+    "time": "10:00 AM - 4:00 PM",
     "rto": "NYISO",
     "committee": "Installed Capacity Working Group",
     "source_url": "https://www.nyiso.com/committees",
@@ -10658,7 +11178,7 @@
   {
     "title": "Billing, Accounting & Credit Policy Working Group",
     "date": "2026-05-21",
-    "time": null,
+    "time": "9:00 AM - 10:00 AM",
     "rto": "NYISO",
     "committee": "Billing, Accounting & Credit Policy Working Group",
     "source_url": "https://www.nyiso.com/committees",
@@ -10674,11 +11194,36 @@
         "filename": "05_2026%20BACWG%20Matrix.pdf",
         "url": "https://www.nyiso.com/documents/20142/58032011/05_2026%20BACWG%20Matrix.pdf",
         "posted_date": "2026-05-18",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine billing and accounting settlement matrix tracking invoice adjustments, penalties, and market cost corrections with no content related to hydropower participation, capacity markets, ancillary services, transmission planning, or market rules affecting hydro operations.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Con Ed",
+            "entity": "Consolidated Edison",
+            "role": "stakeholder mentioned in challenge",
+            "email": null
+          },
+          {
+            "name": "NYPA",
+            "entity": "New York Power Authority",
+            "role": "stakeholder mentioned in challenge",
+            "email": null
+          },
+          {
+            "name": "NG",
+            "entity": "Unknown entity",
+            "role": "stakeholder referenced",
+            "email": null
+          },
+          {
+            "name": "ORU",
+            "entity": "Unknown entity",
+            "role": "stakeholder referenced",
+            "email": null
+          }
+        ]
       },
       {
         "type": "other",
@@ -10686,11 +11231,18 @@
         "filename": "05212026%20BACWG%20-%20Energy%20and%20Ancillary%20Services%20Credit%20Requirement%20Potential%20Enhancement%20-%20FINAL.pdf",
         "url": "https://www.nyiso.com/documents/20142/58032011/05212026%20BACWG%20-%20Energy%20and%20Ancillary%20Services%20Credit%20Requirement%20Potential%20Enhancement%20-%20FINAL.pdf",
         "posted_date": "2026-05-18",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Credit requirement methodologies affect market participation costs for all generators including hydropower and pumped-storage facilities, which are price-sensitive to collateral demands during high-volatility periods.",
+        "ai_summary": "NYISO is reviewing Energy and Ancillary Services credit requirements, which can spike during extreme price events (e.g., January 2026) and remain elevated for six-month periods even when actual exposure declines. Hydropower and pumped-storage operators subject to these requirements should monitor proposed changes to the basis month methodology and average run-rate calculations, as refinements could reduce unnecessary collateral burdens.",
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Sheri Prevratil",
+            "entity": "NYISO",
+            "role": "author | presenter",
+            "email": "sprevratil@nyiso.com"
+          }
+        ]
       },
       {
         "type": "report",
@@ -10698,11 +11250,18 @@
         "filename": "05212026%20BACWG%20-%20Update%20to%20External%20Transactions%20Credit%20Calculation%20-%20New%20Proxy%20Generator%20Bus%20-%20FINAL.pdf",
         "url": "https://www.nyiso.com/documents/20142/58032011/05212026%20BACWG%20-%20Update%20to%20External%20Transactions%20Credit%20Calculation%20-%20New%20Proxy%20Generator%20Bus%20-%20FINAL.pdf",
         "posted_date": "2026-05-18",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses billing and credit policy mechanics for external transactions unrelated to hydropower market participation, capacity, ancillary services, or resource adequacy rules.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Sheri Prevratil",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          }
+        ]
       },
       {
         "type": "manual",
@@ -10710,11 +11269,18 @@
         "filename": "Accounting%20and%20Billing%20Manual%20-%20TSA%20Settlements_5212026.pdf",
         "url": "https://www.nyiso.com/documents/20142/58032011/Accounting%20and%20Billing%20Manual%20-%20TSA%20Settlements_5212026.pdf",
         "posted_date": "2026-05-18",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine billing and accounting manual covering invoice processing, settlement procedures, and administrative controls\u2014none of which directly address hydropower capacity markets, resource adequacy, energy storage, ancillary services, transmission planning, or other market rules affecting hydro participation.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Randy A. Bowers",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          }
+        ]
       },
       {
         "type": "agenda",
@@ -10722,11 +11288,36 @@
         "filename": "BACWG_Agenda_052126.pdf",
         "url": "https://www.nyiso.com/documents/20142/58032011/BACWG_Agenda_052126.pdf",
         "posted_date": "2026-05-18",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine billing and accounting working group agenda focused on invoicing, credit calculations, and settlements administration with no content directly addressing hydropower or pumped-storage market participation, capacity accreditation, resource adequacy, ancillary services market rules, or transmission planning.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Afreen Vahora",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Khalil Choukeir",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sheri Prevratil",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Yannick Vennes",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "other",
@@ -10734,8 +11325,8 @@
         "filename": "BACWG%20Report%202026-05%20Billing%20Issues%20List.pdf",
         "url": "https://www.nyiso.com/documents/20142/58032011/BACWG%20Report%202026-05%20Billing%20Issues%20List.pdf",
         "posted_date": "2026-05-18",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses billing system errors, rate calculations, and administrative corrections unrelated to hydropower market participation, capacity accreditation, resource adequacy, ancillary services, or transmission planning.",
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
@@ -10746,8 +11337,8 @@
         "filename": "Settlement%20Adjustment_2025_12_4mo-SA.pdf",
         "url": "https://www.nyiso.com/documents/20142/58032011/Settlement%20Adjustment_2025_12_4mo-SA.pdf",
         "posted_date": "2026-05-18",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document contains only routine settlement accounting data (market supply, withdrawals, residuals, and costs) with no discussion of market rules, capacity accreditation, resource adequacy, ancillary services, transmission planning, or other substantive policy matters affecting hydropower participation.",
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
@@ -10758,8 +11349,8 @@
         "filename": "Settlement_Analysis_2025.07_FBC-Closeout.pdf",
         "url": "https://www.nyiso.com/documents/20142/58032011/Settlement_Analysis_2025.07_FBC-Closeout.pdf",
         "posted_date": "2026-05-20",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine billing and settlements reconciliation report with only administrative financial data; it contains no discussion of market rules, resource adequacy, capacity mechanisms, ancillary services, transmission planning, or any other hydropower-relevant policy content.",
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
@@ -10770,8 +11361,8 @@
         "filename": "Settlement_Analysis_2025.08_FBC-Closeout.pdf",
         "url": "https://www.nyiso.com/documents/20142/58032011/Settlement_Analysis_2025.08_FBC-Closeout.pdf",
         "posted_date": "2026-05-18",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine billing and settlement closeout report with financial reconciliation data, containing no content related to hydropower market participation, capacity accreditation, resource adequacy, ancillary services, transmission planning, or any other hydropower-relevant market rules.",
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
@@ -10782,8 +11373,8 @@
         "filename": "Settlement_Analysis_20256.04_Weekly%20to%20Initial.pdf",
         "url": "https://www.nyiso.com/documents/20142/58032011/Settlement_Analysis_20256.04_Weekly%20to%20Initial.pdf",
         "posted_date": "2026-05-18",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine monthly settlement analysis report containing only financial data tables and adjustments with no market rules, policy changes, or hydropower-specific content.",
         "ai_summary": null,
         "issues": [],
         "stakeholders": []
@@ -10794,11 +11385,18 @@
         "filename": "TSA%20Settlements%20Automation%20-%20Manual%20Revisions_05212026_ap.pdf",
         "url": "https://www.nyiso.com/documents/20142/58032011/TSA%20Settlements%20Automation%20-%20Manual%20Revisions_05212026_ap.pdf",
         "posted_date": "2026-05-18",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses only billing system automation for thunderstorm alert settlements and manual accounting procedures, with no content affecting hydropower market rules, resource adequacy, capacity accreditation, ancillary services, transmission planning, or hydro-specific market participation.",
         "ai_summary": null,
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Afreen Vahora",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -11985,7 +12583,7 @@
   {
     "title": "Electric System Planning Working Group",
     "date": "2026-05-20",
-    "time": null,
+    "time": "10:00 AM - 2:30 PM",
     "rto": "NYISO",
     "committee": "Electric System Planning Working Group",
     "source_url": "https://www.nyiso.com/committees",
