@@ -543,7 +543,7 @@ and uses Claude to flag content relevant to the hydropower and pumped-storage
 industry.
 
 Exported ${meta.dateStr}. Contains ${meta.total} hydro-flagged documents${breakdown ? ` across: ${breakdown}` : ""}.
-Every record has already been screened as hydro-relevant by the calendar's
+${meta.filterNote ? meta.filterNote + "\n" : ""}Every record has already been screened as hydro-relevant by the calendar's
 pipeline — this is the filtered corpus, not the raw firehose.
 
 ## What's in this archive
@@ -648,4 +648,45 @@ In the CSV, the \`initiatives\` and \`stakeholders\` lists are joined with "; ".
   };
 
   window.buildZipBlob = buildZipBlob;
+  window.buildCorpusReadme = buildCorpusReadme;
+
+  // ── Corpus helpers for the Export modal (client-side filtering) ───────────
+
+  const CORPUS_CSV_COLUMNS = [
+    "rto", "meeting_date", "committee", "meeting_title", "doc_type", "title",
+    "posted_date", "relevance_reason", "initiatives", "stakeholders",
+    "ai_summary", "url",
+  ];
+  function _csvCell(v) {
+    const s = v == null ? "" : String(v);
+    return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  }
+  function corpusRowToCsv(rec) {
+    return CORPUS_CSV_COLUMNS.map((c) => {
+      let v = rec[c];
+      if (c === "initiatives" || c === "stakeholders") {
+        v = Array.isArray(v) ? v.join("; ") : (v || "");
+      }
+      return _csvCell(v);
+    }).join(",");
+  }
+  // BOM + CRLF rows, matching the server-side utf-8-sig CSV for Excel parity.
+  function corpusToCsv(records) {
+    const out = [CORPUS_CSV_COLUMNS.join(",")];
+    for (const r of records) out.push(corpusRowToCsv(r));
+    return "﻿" + out.join("\r\n") + "\r\n";
+  }
+
+  // Fetch + cache the full corpus records once (the modal filters in memory).
+  window.loadHydroCorpus = async function () {
+    if (window.HYDRO_CORPUS) return window.HYDRO_CORPUS;
+    const res = await fetch(`../rto-docs/rto_hydro_corpus.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error("Corpus files not found on server.");
+    window.HYDRO_CORPUS = await res.json();
+    return window.HYDRO_CORPUS;
+  };
+
+  window.CORPUS_CSV_HEADER = CORPUS_CSV_COLUMNS.join(",");
+  window.corpusRowToCsv = corpusRowToCsv;
+  window.corpusToCsv = corpusToCsv;
 })();

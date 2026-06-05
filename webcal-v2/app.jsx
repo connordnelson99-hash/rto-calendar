@@ -39,19 +39,7 @@ function App() {
   const [readerEvent, setReaderEvent] = useState(null);
   const [digestOpen, setDigestOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
-  const [exportState, setExportState] = useState("idle"); // idle | working | error
-  const onExportData = async () => {
-    if (exportState === "working") return;
-    setExportState("working");
-    try {
-      await window.downloadCorpusZip();
-      setExportState("idle");
-    } catch (err) {
-      console.error("Data export failed:", err);
-      setExportState("error");
-      setTimeout(() => setExportState("idle"), 2400);
-    }
-  };
+  const [exportOpen, setExportOpen] = useState(false);
   const [tweaks, setTweak] = useTweaks(TWEAK_DEFAULTS);
   const theme = tweaks.theme;
   const setTheme = (next) => setTweak("theme",
@@ -118,6 +106,7 @@ function App() {
       if (ev.key === "Escape") {
         if (readerDoc) setReaderDoc(null);
         else if (settingsOpen) setSettingsOpen(false);
+        else if (exportOpen) setExportOpen(false);
         else if (digestOpen) setDigestOpen(false);
         else if (selectedId) setSelectedId(null);
       } else if (ev.key === "ArrowLeft") {
@@ -130,7 +119,7 @@ function App() {
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [monthCursor, selectedId, readerDoc, digestOpen]);
+  }, [monthCursor, selectedId, readerDoc, digestOpen, exportOpen, settingsOpen]);
 
   if (!data) return <LoadingScreen error={loadError}/>;
 
@@ -156,10 +145,10 @@ function App() {
             <Icon name="sparkle" size={14}/>
             Weekly digest
           </button>
-          <button className="btn" onClick={onExportData} disabled={exportState === "working"}
-            title="Download the full hydro-document corpus (JSON + CSV + CLAUDE.md) as a zip for cross-cutting analysis in Claude">
+          <button className="btn" onClick={() => setExportOpen(true)}
+            title="Choose a date range and markets, then download the hydro corpus (JSON + CSV + CLAUDE.md) as a zip for analysis in Claude">
             <Icon name="download" size={14}/>
-            {exportState === "working" ? "Preparing…" : exportState === "error" ? "Export failed" : "Export data"}
+            Export data
           </button>
           <button className="icon-btn" title="About" onClick={() => setSettingsOpen(true)}><Icon name="settings" size={16}/></button>
         </div>
@@ -250,6 +239,7 @@ function App() {
         onClose={() => setSelectedId(null)}
         onOpenDoc={() => {}}/>
       <DigestModal open={digestOpen} onClose={() => setDigestOpen(false)} onOpenEvent={onSelectEvent}/>
+      <ExportModal open={exportOpen} onClose={() => setExportOpen(false)}/>
 
       {settingsOpen && (
         <div className="settings-overlay" onClick={() => setSettingsOpen(false)}>
