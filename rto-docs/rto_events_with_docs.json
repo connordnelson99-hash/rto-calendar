@@ -400,6 +400,688 @@
     "documents": []
   },
   {
+    "title": "Market Update",
+    "date": "2026-06-11",
+    "time": "10:00 AM - 10:30 AM",
+    "rto": "CAISO",
+    "committee": "Market update",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/market-update-jun-11-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/market-update",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A generic 'Market Update' meeting title provides insufficient detail to confirm relevance to hydropower/storage-specific topics; such meetings typically cover broad operational and market issues across all technologies rather than sector-specific regulations.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - Market Update - May 28, 2026",
+        "filename": "presentation-market-update-may-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-market-update-may-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Tentative:Market Surveillance Committee General Session",
+    "date": "2026-06-11",
+    "time": "1:00 PM - 5:00 PM",
+    "rto": "CAISO",
+    "committee": "Market Surveillance Committee",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/market-surveillance-committee-general-session-jun-11-2026-0100-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/market-surveillance-committee",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Market Surveillance Committee meetings regularly examine market behavior, pricing anomalies, and operational issues that directly affect hydropower and storage participation in CAISO markets, including capacity accreditation, ancillary services pricing, and resource adequacy impacts.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "other",
+        "title": "Final Market Surveillance Committee Opinion on Gas Resource Management - Dec 15, 2025",
+        "filename": "final-market-surveillance-committee-opinion-on-gas-resource-management-dec-15-2025.pdf",
+        "url": "https://www.caiso.com/documents/final-market-surveillance-committee-opinion-on-gas-resource-management-dec-15-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses gas resource management and gas-electricity market coordination, which do not directly affect hydropower or pumped-storage operations, capacity accreditation, ancillary services provision, or market participation rules specific to hydro resources.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Benjamin F. Hobbs",
+            "entity": "Market Surveillance Committee of the California ISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "James Bushnell",
+            "entity": "Market Surveillance Committee of the California ISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Scott M. Harvey",
+            "entity": "Market Surveillance Committee of the California ISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Final Market Surveillance Committee Opinion - Extended Day-Ahead Market Congestion Revenue Allocation - Jun 16, 2025",
+        "filename": "market-surveillance-committee-opinion-extended-day-ahead-market-congestion-revenue-allocation-jun-13-2025.pdf",
+        "url": "https://www.caiso.com/documents/market-surveillance-committee-opinion-extended-day-ahead-market-congestion-revenue-allocation-jun-13-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses EDAM congestion revenue allocation mechanisms that directly affect how hydropower and other resources monetize transmission rights and manage congestion cost exposure in the extended day-ahead market.",
+        "ai_summary": "CAISO's proposal reallocates parallel-flow congestion revenues in EDAM to BAAs that have sold long-term firm OATT transmission rights (PTP and NITS), enabling hedging of congestion costs. Year 1 applies only to pre-registered resources with self-scheduled operation; future years may expand to economically-scheduled transactions. This affects how hydropower operators with firm transmission rights recover congestion-related revenues and costs.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Benjamin F. Hobbs",
+            "entity": "Market Surveillance Committee of the California ISO",
+            "role": "author, chair",
+            "email": null
+          },
+          {
+            "name": "James Bushnell",
+            "entity": "Market Surveillance Committee of the California ISO",
+            "role": "author, member",
+            "email": null
+          },
+          {
+            "name": "Scott M. Harvey",
+            "entity": "Market Surveillance Committee of the California ISO",
+            "role": "author, member",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Market Surveillance Committee Final Opinion - Storage Bid Cost Recovery - Nov 01, 2024",
+        "filename": "market-surveillance-committee-final-opinion-storage-bid-cost-recovery-nov-01-2024.pdf",
+        "url": "https://www.caiso.com/documents/market-surveillance-committee-final-opinion-storage-bid-cost-recovery-nov-01-2024.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses storage bid cost recovery and real-time market design for battery storage resources, which affects how pumped-storage hydropower and other storage compete in CAISO markets.",
+        "ai_summary": "This MSC opinion evaluates CAISO's proposal to revise real-time bid cost recovery (BCR) procedures for storage resources. The analysis identifies incentive problems in current BCR calculations that could inflate payments and distort storage operational incentives\u2014issues directly applicable to pumped-storage hydropower participating in CAISO markets. The opinion recommends eliminating 'BCR on phantom losses' and ensuring BCR design does not interfere with efficient state-of-charge management driven by real-time price signals.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Benjamin F. Hobbs",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "James Bushnell",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Scott M. Harvey",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "MSC Final Opinion - Rules for Bidding Above the Soft Offer Cap - Price Formation Enhancements - May 2024",
+        "filename": "mscfinalopinion-rulesforbiddingabovethesoftoffercap-priceformationenhancements-may2024.pdf",
+        "url": "https://www.caiso.com/documents/mscfinalopinion-rulesforbiddingabovethesoftoffercap-priceformationenhancements-may2024.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This MSC opinion directly addresses FERC Order 831 implementation for hydropower and battery storage bidding rules, offer caps, and energy-limited resource management in CAISO markets.",
+        "ai_summary": "The MSC evaluates CAISO's proposed revisions to soft offer cap rules for hydropower and battery storage under Order 831, discussing pricing inefficiencies, opportunity cost reflections, premature discharge issues, and the interaction between energy-limited resource bidding and local market power mitigation\u2014all critical to hydro participation in summer 2024.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Benjamin F. Hobbs",
+            "entity": "Market Surveillance Committee of California ISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "James Bushnell",
+            "entity": "Market Surveillance Committee of California ISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Scott M. Harvey",
+            "entity": "Market Surveillance Committee of California ISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Market Surveillance Committee Addendum to Final Opinion on Day-Ahead Market Enhancements",
+        "filename": "marketsurveillancecommitteeaddendumtofinalopinionday-aheadmarketenhancements.pdf",
+        "url": "https://www.caiso.com/documents/marketsurveillancecommitteeaddendumtofinalopinionday-aheadmarketenhancements.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses Day-Ahead Market Enhancements (DAME) including imbalance reserves cost allocation mechanisms that affect how all resources, including hydropower and storage, participate in and are charged under CAISO market rules.",
+        "ai_summary": "This addendum clarifies CAISO's cost allocation methodology for Imbalance Reserves (IR) based on nodal prices and quantities by Balancing Area Authority. Since hydropower and pumped-storage facilities are subject to these IR procurement costs and charges, the allocation mechanism and resulting nodal prices directly impact their market economics and dispatch incentives.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Benjamin F. Hobbs",
+            "entity": "Market Surveillance Committee of CAISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "James Bushnell",
+            "entity": "Market Surveillance Committee of CAISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Scott M. Harvey",
+            "entity": "Market Surveillance Committee of CAISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "decision",
+        "title": "Market Surveillance Committee Final Opinion on Day-Ahead Market Enhancements - Attachment 2 to Memo - May 3, 2023",
+        "filename": "marketsurveillancecommitteefinalopiniononday-aheadmarketenhancements-may3-2023.pdf",
+        "url": "https://www.caiso.com/documents/marketsurveillancecommitteefinalopiniononday-aheadmarketenhancements-may3-2023.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses Day-Ahead Market Enhancements (DAME) including imbalance reserves, flexible ramping, storage state-of-charge modeling, and residual unit commitment\u2014all of which directly affect how hydropower and pumped-storage resources participate in CAISO markets.",
+        "ai_summary": "The Market Surveillance Committee opinion evaluates CAISO's DAME proposal, including constraints on storage provision of imbalance reserves (Section 3.6), co-optimization of imbalance reserve and flexible ramp products, and improved modeling of storage state of charge. These design elements significantly affect how pumped-storage hydropower and run-of-river hydro resources are valued and dispatched in the day-ahead and real-time markets.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Benjamin F. Hobbs",
+            "entity": "Market Surveillance Committee of the California ISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "James Bushnell",
+            "entity": "Market Surveillance Committee of the California ISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Scott M. Harvey",
+            "entity": "Market Surveillance Committee of the California ISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Market Surveillance Committee Update - May 2023",
+        "filename": "marketsurveillancecommitteeupdate-may2023.pdf",
+        "url": "https://www.caiso.com/documents/marketsurveillancecommitteeupdate-may2023.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses CAISO's Day-Ahead Market Enhancements (DAME) initiative, which directly addresses storage state-of-charge modeling, imbalance reserves, and resource adequacy mechanisms that significantly affect hydropower and pumped-storage hydropower participation in CAISO markets.",
+        "ai_summary": "The MSC Opinion identifies key DAME design elements relevant to hydro/storage: improved modeling of storage state of charge in the integrated forward market, co-optimized imbalance reserve products with 30-minute ramp constraints, and the interaction between imbalance reserve requirements and resource sufficiency tests. These changes aim to shift from ad-hoc operator interventions to formal market optimization, which will affect how dispatchable hydro and PSH resources are valued and deployed.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Benjamin F. Hobbs",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "James Bushnell",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Scott M. Harvey",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "co-author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Market Surveillance Committee Final Opinion on Day-Ahead Market Enhancements",
+        "filename": "marketsurveillancecommitteefinalopiniononday-aheadmarketenhancements.pdf",
+        "url": "https://www.caiso.com/documents/marketsurveillancecommitteefinalopiniononday-aheadmarketenhancements.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses Day-Ahead Market Enhancements including imbalance reserves, storage state-of-charge modeling, and flexibility products that directly affect hydropower and pumped-storage participation in CAISO markets.",
+        "ai_summary": "The MSC opinion evaluates DAME's imbalance reserve (IR) product design, including nodal deliverability constraints, storage provision constraints (Section 3.6), and co-optimization with flexible ramp products\u2014all critical for how PSH and hydro resources are compensated and dispatched in CAISO's day-ahead market.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Benjamin F. Hobbs",
+            "entity": "Market Surveillance Committee of the California ISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "James Bushnell",
+            "entity": "Market Surveillance Committee of the California ISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Scott M. Harvey",
+            "entity": "Market Surveillance Committee of the California ISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "MSC Final Opinion on Extended Day-Ahead Market",
+        "filename": "mscfinalopiniononextendedday-aheadmarket.pdf",
+        "url": "https://www.caiso.com/documents/mscfinalopiniononextendedday-aheadmarket.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "EDAM design directly affects hydropower participation in day-ahead markets, resource sufficiency evaluation criteria, and transmission management across balancing areas where hydro resources operate.",
+        "ai_summary": "The MSC opinion evaluates the Extended Day-Ahead Market (EDAM) proposal, which establishes voluntary day-ahead energy market coordination across multiple balancing authorities. Key implications for hydropower include: Resource Sufficiency Evaluation (RSE) design that determines how hydro can count toward resource adequacy; transmission charging and management affecting hydro deliverability; and GHG accounting rules that may constrain hydro dispatch. The opinion highlights unresolved design details critical to hydro market participation and recommends detailed simulation before full implementation.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Benjamin F. Hobbs",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "James Bushnell",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Scott M. Harvey",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda - Market Surveillance Committee Meeting - Mar 06, 2026",
+        "filename": "agenda-market-surveillance-committee-meeting-mar-06-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-market-surveillance-committee-meeting-mar-06-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a bare agenda notice listing only meeting logistics and generic agenda items (public comment, congestion revenue allocation discussion, future items) with no specific content details that address hydropower, pumped-storage, capacity markets, resource adequacy, energy storage, ancillary services, transmission planning, or market rules affecting hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Congestion Cost Analysis from Historical WEIM Performance - Mar 06, 2026",
+        "filename": "presentation-congestion-cost-analysis-from-historical-weim-performance-mar-06-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-congestion-cost-analysis-from-historical-weim-performance-mar-06-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document analyzes congestion revenue allocation (CRA) methodology impacts on transmission constraints and market incentives affecting PacifiCorp's internal transfers and generation scheduling, which directly influences how hydropower resources in PACE/PACW areas interact with CAISO markets under EDAM.",
+        "ai_summary": "This analysis examines how PacifiCorp's east-to-west transfers and self-scheduled generation create parallel flows on CAISO constraints, quantifying potential congestion rents ($1.6\u2013$2.5 million/month) under revised CRA methodology. For the hydropower industry, this is relevant because PacifiCorp operates significant hydroelectric generation and storage; changes to congestion revenue allocation and transmission incentives directly affect economic dispatch decisions and market participation strategies for hydro resources in the EDAM footprint.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Guillermo Bautista Alderete",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Extended Day-Ahead Market (EDAM) Congestion Revenue Allocation - Mar 06, 2026",
+        "filename": "presentation-extended-day-ahead-market-edam-congestion-revenue-allocation-mar-06-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-extended-day-ahead-market-edam-congestion-revenue-allocation-mar-06-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "EDAM congestion revenue allocation directly affects how hydropower and storage resources are compensated for their role in managing transmission constraints and parallel flows, with implications for economic bidding incentives and operational arrangements.",
+        "ai_summary": "EDAM Phase 2 is redesigning congestion revenue allocation mechanisms that currently incentivize self-scheduling over economic bidding. For hydropower and pumped-storage operators, these design changes will affect how they recover congestion revenues and optimize dispatch decisions across CAISO and interconnected balancing areas, particularly regarding parallel flow management and negotiated entitlements between regions.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Milos Bosanac",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Extended Day-Ahead Market (EDAM) Congestion Charge Allocation Impacts - Mar 06, 2026",
+        "filename": "presentation-extended-day-ahead-market-edam-congestion-charge-allocation-impacts-mar-06-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-extended-day-ahead-market-edam-congestion-charge-allocation-impacts-mar-06-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document analyzes EDAM congestion charge allocation design impacts on PacifiCorp, which affects hydropower transmission scheduling and revenue settlement mechanics under new market rules.",
+        "ai_summary": "This presentation examines how the Extended Day-Ahead Market (EDAM) go-live design changes congestion charge settlements for PacifiCorp East-to-West transactions compared to Western EIM and original EDAM designs. The analysis directly impacts how hydropower resources on the PacifiCorp system recover congestion revenues and settle self-scheduled transmission service, with settlement differences varying significantly by month depending on prevailing versus counterflow charge directions.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Scott Harvey",
+            "entity": "California ISO / Western EIM Market Surveillance Committee",
+            "role": "author | presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Future Extended Day-Ahead Market (EDAM) Congestion Revenue Allocation - Mar 06, 2026",
+        "filename": "presentation-future-extended-day-ahead-market-edam-congestion-revenue-allocation-mar-06-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-future-extended-day-ahead-market-edam-congestion-revenue-allocation-mar-06-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses congestion revenue allocation mechanisms in EDAM that directly affect how hydropower and other dispatchable resources are incentivized to self-schedule and participate in day-ahead markets, with implications for market efficiency and cost allocation.",
+        "ai_summary": "This presentation analyzes loopflow pricing and congestion rent allocation design in EDAM, highlighting how self-scheduling requirements tied to congestion charge rebates create inefficient incentives that could disadvantage hydropower and other resources unable to readily self-schedule. The discussion of transmission entitlements, counterflow provision, and balancing area allocation mechanisms is relevant to how pumped-storage and hydropower resources compete and recover costs in the expanded day-ahead market.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Scott Harvey",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda - Market Surveillance Committee Meeting - Feb 06, 2026",
+        "filename": "agenda-market-surveillance-committee-meeting-feb-06-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-market-surveillance-committee-meeting-feb-06-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The agenda item on 'Extended day-ahead market configurable parameters discussion' is potentially relevant to hydropower dispatch flexibility and market participation, though the document provides insufficient detail to confirm hydro-specific implications.",
+        "ai_summary": "The MSC will discuss extended day-ahead market configurable parameters, which could affect how hydroelectric and pumped-storage resources are dispatched and bid into CAISO markets. Without access to the detailed discussion materials, the specific hydro relevance cannot be fully assessed.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Extended Day-Ahead Market (EDAM) Configurable Parameters - Feb 06, 2026",
+        "filename": "presentation-extended-day-ahead-market-edam-configurable-parameters-feb-06-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-extended-day-ahead-market-edam-configurable-parameters-feb-06-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses Extended Day-Ahead Market (EDAM) parameters affecting energy storage resources, including battery envelope constraints, imbalance reserve (IR) pricing, and transmission constraint enforcement\u2014all critical to pumped-storage hydropower market participation and revenue.",
+        "ai_summary": "CAISO is conducting sensitivity analyses on five EDAM configurable parameters that materially impact energy storage (including PSH) procurement and pricing. Key findings show that envelope constraint multipliers, IR bid caps, and transmission constraint enforcement significantly affect storage resource competitiveness, IR awards, and congestion pricing\u2014directly relevant to how PSH participates in the day-ahead and imbalance reserve markets.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Scott Lehman",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Extended Day-Ahead Market (EDAM) Imbalance Reserve Costs Market Surveillance Committee - Feb 06, 2026",
+        "filename": "presentation-extended-day-ahead-market-edam-imbalance-reserve-costs-market-surveillance-committee-feb-06-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-extended-day-ahead-market-edam-imbalance-reserve-costs-market-surveillance-committee-feb-06-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The presentation directly addresses EDAM imbalance reserve market design and modeling choices that materially affect how storage resources (including pumped-storage hydropower) are committed, scheduled, and compensated for reserve provision.",
+        "ai_summary": "Scott Harvey analyzes whether high simulated imbalance reserve prices in EDAM reflect true market design flaws or modeling artifacts. Key concerns for storage/hydro include: the 15-minute start time and 30-minute ramp constraints for imbalance reserves; the 0.85 attenuation factor applied to storage energy usage; tying storage energy dispatch to reserve schedules rather than real-time need; and the level of reserve procurement. These design choices may inflate the opportunity costs of using storage for reserves and could significantly impact hydropower/PSH dispatch economics and profitability in the EDAM market.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Scott Harvey",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "author | presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda - Market Surveillance Committee General Session - Jan 16, 2026",
+        "filename": "agenda-market-surveillance-committee-general-session-jan-16-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-market-surveillance-committee-general-session-jan-16-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Price formation enhancements and market power mitigation rules directly affect hydropower participation in CAISO markets, particularly regarding scarcity pricing and balancing authority-level market dynamics.",
+        "ai_summary": "The MSC will discuss price formation enhancements, BAA-level market power mitigation, and scarcity pricing\u2014all of which impact how hydropower resources are compensated during peak demand periods and how they interact with CAISO's market mechanisms. Changes to these rules could affect hydro's ability to capture value from flexible ramping and ancillary services provision.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Scarcity Pricing - Market Surveillance Committee - Jan 16, 2026",
+        "filename": "presentation-scarcity-pricing-market-surveillance-committee-jan-16-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-scarcity-pricing-market-surveillance-committee-jan-16-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Scarcity pricing mechanisms, penalty values, and reserve products directly affect hydropower and storage dispatch incentives, energy retention decisions, and participation in EDAM/EIM markets.",
+        "ai_summary": "The presentation examines penalty price levels (power balance constraint penalties at $1000\u2013$2000/MWh) and their impact on storage resource behavior, particularly incentives for energy retention during scarcity and delivery of imports. Higher scarcity penalties would strengthen incentives for pumped-storage hydropower to hold energy for tight conditions and improve EDAM's competitiveness for scarce resources in the western market.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "James Bushnell",
+            "entity": "California ISO / Western EIM Market Surveillance Committee",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Market Power Mitigation Issues - Market Surveillance Committee - Jan 16, 2026",
+        "filename": "presentation-market-power-mitigation-issues-market-surveillance-committee-jan-16-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-market-power-mitigation-issues-market-surveillance-committee-jan-16-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The presentation directly addresses market power mitigation issues affecting hydropower and battery storage resources, including discussion of default energy bids for pondage hydro and energy-limited resources in CAISO real-time market operations.",
+        "ai_summary": "Scott Harvey analyzes CAISO's proposed system-level market power mitigation testing, with specific relevance to how counterfactual simulations account for pondage hydropower and battery dispatch decisions. The presentation emphasizes that counterfactual analyses must properly account for energy-limited resource constraints and day-ahead market schedules to avoid incorrectly attributing normal operational decisions (managing intraday energy depletion risk) to market power abuse.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Scott Harvey",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Updated Analysis on Price Formation Enhancements - Market Surveillance Committee - Jan 16, 2026",
+        "filename": "presentation-updated-analysis-on-price-formation-enhancements-market-surveillance-committee-jan-16-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-updated-analysis-on-price-formation-enhancements-market-surveillance-committee-jan-16-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document analyzes BAA market power mitigation (MPM) algorithms and competitive LMP pricing mechanisms that directly affect how hydropower resources in various Balancing Authority Areas participate in CAISO markets and price formation.",
+        "ai_summary": "This analysis evaluates price formation enhancements to CAISO's BAA-level market power mitigation tests, including impacts on competitive LMP calculations across multiple BAAs where hydropower resources operate. The findings on pass rates, grouping algorithms, and load-serving obligation components are relevant to understanding how dispatch and pricing rules affect dispatchable hydro resources across the Western interconnection.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kun Zhao",
+            "entity": "CAISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Scott Lehman",
+            "entity": "CAISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Price Formation Enhancements - Market Surveillance Committee - Jan 16, 2026",
+        "filename": "presentation-price-formation-enhancements-market-surveillance-committee-jan-16-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-price-formation-enhancements-market-surveillance-committee-jan-16-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses BAA-level market power mitigation and scarcity pricing enhancements in CAISO's EDAM/WEIM markets, which directly affect how hydropower and pumped-storage resources are evaluated for pivotal supplier status and compensated during scarcity conditions.",
+        "ai_summary": "The Price Formation Enhancements initiative redesigns how CAISO tests for market power across BAAs by incorporating load-serving obligations (LSO) to identify 'net pivotal' suppliers with both ability and incentive to withhold capacity\u2014a critical change for hydropower operators who provide flexible, dispatchable capacity. Additionally, proposed scarcity pricing improvements aim to enhance price signals during tight supply conditions, affecting revenue incentives for hydropower resources that can ramp quickly to meet reserve and energy needs.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Price Formation Issues - Market Surveillance Committee - Jan 16, 2026",
+        "filename": "presentation-price-formation-issues-market-surveillance-committee-jan-16-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-price-formation-issues-market-surveillance-committee-jan-16-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The presentation discusses reserve products, price formation, and market design changes at CAISO that directly affect how hydropower and storage resources participate in ancillary services and energy markets.",
+        "ai_summary": "CAISO Market Surveillance Committee member Scott Harvey presents analysis of price signals during scarcity conditions and proposes introducing explicit 30-60 minute reserve products to replace load conformance procurement. These changes are highly relevant to hydropower and pumped-storage operators, as hydro's flexible ramping and reserve capabilities would likely be called upon differently under new reserve product structures, and the reserve product design (with demand curves, co-optimization with energy, and settlement mechanisms) directly impacts how storage and dispatchable hydro are compensated.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Scott Harvey",
+            "entity": "California ISO/Western EIM Market Surveillance Committee",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda - Market Surveillance Committee Meeting - Dec 12, 2025",
+        "filename": "agenda-market-surveillance-committee-meeting-dec-12-2025.pdf",
+        "url": "https://www.caiso.com/documents/agenda-market-surveillance-committee-meeting-dec-12-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a procedural agenda notice for a Market Surveillance Committee meeting with no substantive discussion of hydropower, energy storage, capacity markets, ancillary services, or related topics that would affect the hydro industry.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Market Surveillance Committee Draft Opinion - Gas Resource Management - Dec 12, 2025",
+        "filename": "market-surveillance-committee-draft-opinion-gas-resource-management-dec-12-2025.pdf",
+        "url": "https://www.caiso.com/documents/market-surveillance-committee-draft-opinion-gas-resource-management-dec-12-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses gas resource management and gas-electricity market coordination in CAISO/EDAM, which does not directly concern hydropower or pumped-storage-specific market rules, capacity accreditation, ancillary services for hydro, or resource adequacy mechanisms affecting dispatchable hydro.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Sylvie Spewak",
+            "entity": "California ISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Benjamin F. Hobbs",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "author | co-author | chair",
+            "email": null
+          },
+          {
+            "name": "James Bushnell",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "author | co-author",
+            "email": null
+          },
+          {
+            "name": "Scott M. Harvey",
+            "entity": "California ISO Market Surveillance Committee",
+            "role": "author | co-author | presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda - Market Surveillance Committee Meeting - Sep 19, 2025",
+        "filename": "agenda-market-surveillance-committee-meeting-sep-19-2025.pdf",
+        "url": "https://www.caiso.com/documents/agenda-market-surveillance-committee-meeting-sep-19-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a meeting notice with minimal substantive content; the agenda lists only public comment, gas resource management discussion, and future agenda items, with no specific hydropower or storage topics identified.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Gas Resource Management - Sep 19, 2025",
+        "filename": "presentation-gas-resource-management-sep-19-2025.pdf",
+        "url": "https://www.caiso.com/documents/presentation-gas-resource-management-sep-19-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This presentation focuses exclusively on gas resource management, fuel cost parameters, and gas procurement mechanisms for thermal generators, with no discussion of hydropower, pumped-storage, energy storage, capacity accreditation, ancillary services, or other hydro-relevant market topics.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Sylvie Spewak",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Gas Market - Sep 19, 2025",
+        "filename": "presentation-gas-market-sep-19-2025.pdf",
+        "url": "https://www.caiso.com/documents/presentation-gas-market-sep-19-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document focuses exclusively on natural gas market forecasting, gas price indices, and commitment cost mitigation in CAISO/EDAM markets, with no discussion of hydropower, pumped-storage hydropower, energy storage, or how gas market rules affect hydro participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Sylvie Spewak",
+            "entity": "California ISO",
+            "role": "cited source",
+            "email": null
+          },
+          {
+            "name": "Scott Harvey",
+            "entity": "California ISO/Western EIM Market Surveillance Committee",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda - Market Surveillance Committee Meeting - Jun 16, 2025",
+        "filename": "agenda-market-surveillance-committee-meeting-jun-16-2025.pdf",
+        "url": "https://www.caiso.com/documents/agenda-market-surveillance-committee-meeting-jun-16-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine Market Surveillance Committee agenda with no substantive discussion of hydropower, energy storage, capacity markets, ancillary services, transmission planning, or other topics affecting hydro/PSH market participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
     "title": "NEPOOL Markets Committee Meeting",
     "date": "2026-06-10",
     "time": "1:30 PM",
@@ -445,6 +1127,20 @@
     "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "CIFP\u2013RBP / Connect and Manage - Stage 3 appears to be a project management or interconnection queue processing meeting focused on administrative coordination rather than market rules, resource adequacy, or operational policies affecting hydropower participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Tentative:Extended Day-Ahead Market (EDAM) Intertie Modeling and Scheduling",
+    "date": "2026-06-10",
+    "time": "9:00 AM - 12:00 PM",
+    "rto": "CAISO",
+    "committee": null,
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-edam-intertie-modeling-and-scheduling-jun-10-2026-0900-am",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "EDAM intertie modeling and scheduling directly affects hydropower dispatch, deliverability, and market participation across western ISO boundaries, particularly for resources in adjacent balancing authorities.",
     "issues": [],
     "documents": []
   },
@@ -823,7 +1519,7 @@
         "title": "2026-06-09-11 MC A00 - Meeting Materials Zip",
         "filename": "a00_meeting_materials.zip",
         "url": "https://www.iso-ne.com/static-assets/documents/100036/a00_meeting_materials.zip",
-        "posted_date": "2026-06-03",
+        "posted_date": "2026-06-04",
         "hydro_relevant": false,
         "hydro_relevance_reason": "Document is a meeting materials zip file with no extracted text content, making it impossible to assess relevance to hydropower and pumped-storage topics or identify stakeholders.",
         "ai_summary": null,
@@ -1003,6 +1699,348 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A04j - CAR-SA: Gas-Only Resource Firm Contract Requirements - Presentation",
+        "filename": "a04j_2026_06_9-11_mc_rc_gas_only_resource_firm_contract_requirements_followup_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04j_2026_06_9-11_mc_rc_gas_only_resource_firm_contract_requirements_followup_presentation.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document focuses exclusively on natural gas firm capacity contracting requirements for gas-only resources and does not address hydropower, pumped-storage hydropower, energy storage, or any market mechanisms that directly affect hydro participation.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Todd Schatzki, Ph.D.",
+            "entity": "Analysis Group",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "2026-06-09-11 MC A04j - CAR-SA: Updated Specifications and Requirements for Gas-Only Resources Designating as Firm Capacity - Memo",
+        "filename": "a04j_2026_06_09-11_mc_rc_carsa_specifications_firm_capacity_specs_requirements_memo_ag.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04j_2026_06_09-11_mc_rc_carsa_specifications_firm_capacity_specs_requirements_memo_ag.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses firm capacity specifications exclusively for gas-only resources and does not discuss hydropower, pumped-storage hydropower, energy storage, or any market mechanisms that directly affect hydro participation.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Analysis Group",
+            "entity": "Analysis Group, Inc.",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A04i - CAR-SA: Non-Firm Gas Capacity Demand Curve Follow Up - Presentation",
+        "filename": "a04i_2026_06_09-11_mc_rc_carsa_non-firm_gas_capacity_demand_curve_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04i_2026_06_09-11_mc_rc_carsa_non-firm_gas_capacity_demand_curve_presentation.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document focuses exclusively on natural gas capacity market design and firm gas contract treatment, with no discussion of hydropower, pumped-storage, energy storage, or any market mechanisms that directly affect hydro participation.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Steven Otto",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A03b- DA/AS Post-Implementation Adjustments - FirstLight Presentation",
+        "filename": "a03b_2026_06_09-11_mc_daas_firstlight_amendment_strike_price_floor_removal_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a03b_2026_06_09-11_mc_daas_firstlight_amendment_strike_price_floor_removal_presentation.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FirstLight's presentation directly addresses Day-Ahead Ancillary Services (DAAS) market design changes that affect reserve procurement incentives and pricing mechanisms, which are critical to hydropower and pumped-storage participation in ISO-NE's ancillary services markets.",
+        "ai_summary": "FirstLight opposes ISO-NE's proposed Strike Price Floor for DAAS, arguing it would reduce financial incentives for 41-47% of reserve resources during 50% of operating hours while delivering only 2% cost savings. The amendment proposal is particularly relevant to hydroelectric resources that provide regulation and spinning reserve services, as the vague tariff language and price floor calculation could materially alter their compensation and dispatch incentives.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "FirstLight",
+            "entity": "FirstLight Power (hydropower/pumped-storage operator)",
+            "role": "presenter | author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A04a - CAR-SA: Transition Mechanism Introduction - Presentation",
+        "filename": "a04a_2026_06_9-11_mc_rc_car-sa_transition_mechanism_introduction_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04a_2026_06_9-11_mc_rc_car-sa_transition_mechanism_introduction_presentation.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses capacity accreditation reforms (CAR-SA) that will fundamentally change how hydropower and other resources are valued and compensated in ISO-NE's capacity market, including seasonal MRIC-based accreditation that affects dispatchable hydro resources.",
+        "ai_summary": "ISO-NE is proposing a transition mechanism for its Capacity Auction Reforms\u2013Seasonal Accreditation (CAR-SA) that will shift resource accreditation from Qualified Capacity (QC) to seasonal Marginal Reliability Impact Cost (MRIC) values over two transition years beginning Q2 2027. This directly impacts how hydropower resources will be accredited and compensated in capacity auctions, with different values for summer and winter seasons based on their reliability contributions during modeled peak periods.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Chris Geissler",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A04n - CAR-SA: Seasonal Offer Construction and Mitigation - Presentation",
+        "filename": "a04n_2026_06_9-11_mc_rc_seasonal_offer_construction_and_mitigation_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04n_2026_06_9-11_mc_rc_seasonal_offer_construction_and_mitigation_presentation.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses capacity accreditation, seasonal offer construction, and mitigation rules under CAR-SA that directly affect how hydropower and pumped-storage resources participate in ISO-NE's capacity market and must-offer obligations.",
+        "ai_summary": "CAR-SA introduces seasonal capacity auctions with seller-side market power mitigation (COPT and pivotal supplier tests) and establishes energy must-offer rules for intermittent/dispatchable resources with capacity obligations. The seasonal construct with gas constraints and offer formulation guidance affects how hydro and storage resources value their capacity bids and manage their next-best-alternative calculations, particularly regarding energy market revenues and opportunity costs.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Andrew Copland",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Tami Ren",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A04b - CAR-SA: Resource Accreditation Modeling cont. - Presentation",
+        "filename": "a04b_2026_06_9-11_mc_rc_car-sa_ram_modeling_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04b_2026_06_9-11_mc_rc_car-sa_ram_modeling_presentation.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses resource accreditation modeling (RAA) and capacity auction reforms that determine how hydropower and energy storage resources are credited in ISO-NE's capacity market, with specific accreditation results for daily/weekly hydro, energy storage, and hybrid PV+hydro resources.",
+        "ai_summary": "ISO-NE is modeling resource accreditation under its Capacity Auction Reforms\u2013Seasonal/Accreditation (CAR-SA) proposal, with results showing how different hydro classes (Daily/Weekly Hydro at ~96% rMRI, IPR-Hydro at ~59\u201361% rMRI, and Hybrid PV+Hydro at ~25% rMRI) and energy storage resources (20\u201322% rMRI depending on duration) will be credited in the capacity market. The load modeling framework using 70 years of weather data will determine peak and energy-limited accreditation factors affecting how much capacity hydro resources can sell.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Chris Geissler",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Fei Zeng",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "tariff",
+        "title": "2026-06-09-11 MC A04m - CAR-SA: Initial Tariff Redlines - Section III.A",
+        "filename": "a04m_2026_06_9-11_mc_rc_initial_tariff_redlines_section_iii.a.24_redlines_clean.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04m_2026_06_9-11_mc_rc_initial_tariff_redlines_section_iii.a.24_redlines_clean.docx",
+        "posted_date": "2026-06-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAR-SA (Centralized Accumulation Ramp \u2013 Storage Assets) tariff redlines in Section III.A likely address capacity accreditation, resource adequacy, or dispatch rules for energy storage and pumped-storage hydropower participants.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A04m - CAR-SA: Initial Tariff Redlines - Presentation",
+        "filename": "a04m_2026_06_9-11_mc_rc_initial_tariff_redlines_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04m_2026_06_9-11_mc_rc_initial_tariff_redlines_presentation.pdf",
+        "posted_date": "2026-06-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses Capacity Auction Reforms including seasonal capacity accreditation, deactivation rules, and tariff changes that directly affect how hydropower and energy storage resources participate in ISO-NE's capacity market framework.",
+        "ai_summary": "ISO-NE is implementing Capacity Auction Reforms with Seasonal Accreditation (CAR-SA) that fundamentally restructure deactivation processes, conduct tests, and proxy capacity offers from annual to seasonal frameworks. These changes affect how dispatchable hydropower and pumped-storage facilities must demonstrate reliability contributions and manage their portfolio participation in the forward capacity market.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Brian D. Buckley",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": "bbuckley@iso-ne.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A04l - CAR-SA: Capacity Bilaterals - Presentation",
+        "filename": "a04l_2026_06_9-11_mc_rc_car-sa_bilaterals.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04l_2026_06_9-11_mc_rc_car-sa_bilaterals.pdf",
+        "posted_date": "2026-06-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses capacity market reforms affecting how hydropower and storage resources can participate in ISO-NE's seasonal capacity auctions and hedge capacity price risk through new bilateral mechanisms.",
+        "ai_summary": "ISO-NE is proposing Capacity Internal Bilateral Transactions (IBTs) to allow participants\u2014including hydropower and storage operators\u2014to hedge capacity price risk in the new prompt seasonal market. The proposal enables flexible pricing location selection and use of clearing prices, which affects how dispatchable hydro and pumped-storage resources manage capacity obligations and revenues across different capacity zones.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Dennis Cakert",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kirk Merriam",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A04k - CAR-SA: Interactions with PFP - Presentation",
+        "filename": "a04k_2026_06_09-11_mc_rc_carsa_interactions_pfp_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04k_2026_06_09-11_mc_rc_carsa_interactions_pfp_presentation.pdf",
+        "posted_date": "2026-06-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses capacity accreditation frameworks (CAR-SA and MRI-based accreditation) and Pay-for-Performance market design changes that significantly affect how hydropower and other dispatchable resources are credited and compensated in ISO-NE's capacity market.",
+        "ai_summary": "ISO-NE is proposing changes to the Balancing Ratio (BR) cap under its new Capacity Auction Reforms\u2013Seasonal/Accreditation (CAR-SA) framework, which shifts from Qualified Capacity to Marginal Reliability Impact (MRI) accreditation. This transition will lower total capacity accreditation system-wide, potentially increasing BR values and capping frequency, which affects overperformance payment rates for capacity resources including hydropower. The ISO is evaluating three approaches to BR capping that have materially different implications for performance incentives and settlement outcomes.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Chris Geissler",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jasleen Singh",
+            "entity": "ISO-NE",
+            "role": "contact",
+            "email": "jsingh@iso-ne.com"
+          },
+          {
+            "name": "Megan Sweitzer",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -1014,11 +2052,196 @@
     "committee": "RCSTF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7599B5CD-ECEB-4DAA-A2A1-553D825EB05C}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "RCSTF (Reserve Compliance Subcommittee Task Force) typically addresses reserve compliance and technical standards but the generic meeting title provides insufficient information to confirm hydropower-specific content, and this committee's focus on compliance metrics is unlikely to directly address hydro market participation issues.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDF",
+        "filename": "20260609-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260609/20260609-agenda.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "DOC",
+        "filename": "20260609-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260609/20260609-agenda-doc.docx",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "PDF",
+        "filename": "20260609-draft-minutes---rcstf---05212026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260609/20260609-draft-minutes---rcstf---05212026.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260609-informational---rt-pricing-impacts-multistep-ordc-05212026-updated.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260609/20260609-informational---rt-pricing-impacts-multistep-ordc-05212026-updated.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260609-item-03a---rt-market-pricing-impact-multi-step-ordcs-with-extended-requirements.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260609/20260609-item-03a---rt-market-pricing-impact-multi-step-ordcs-with-extended-requirements.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "XLS",
+        "filename": "20260609-item-03b---2025-rt-price-comparison-impact-of-multistep-ordcs.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260609/20260609-item-03b---2025-rt-price-comparison-impact-of-multistep-ordcs.xlsx",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "PDF",
+        "filename": "20260609-item-04---imm-rcstf-perspective.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260609/20260609-item-04---imm-rcstf-perspective.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "XLS",
+        "filename": "20260609-item-05---options-and-packages-matrix.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260609/20260609-item-05---options-and-packages-matrix.xls",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "CAMSTF Meeting",
@@ -1100,6 +2323,18 @@
         "title": "PDF",
         "filename": "20260609-minutes-dts---05192026.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/dts/2026/20260609/20260609-minutes-dts---05192026.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PDF",
+        "filename": "20260609-item-06---proposed-task-list-changes---pjm-m13-rev98---dts-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/dts/2026/20260609/20260609-item-06---proposed-task-list-changes---pjm-m13-rev98---dts-presentation.pdf",
         "posted_date": "2026-06-04",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
@@ -1393,6 +2628,18 @@
         "filename": "20260605-item-05b---2-large-load-adjustment-request-template-update.xlsx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-item-05b---2-large-load-adjustment-request-template-update.xlsx",
         "posted_date": "2026-06-02",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260605-md-opc---comments-regarding-data-center-accuracy-report.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-md-opc---comments-regarding-data-center-accuracy-report.pdf",
+        "posted_date": "2026-06-04",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2395,6 +3642,18 @@
             "email": "Ross.Kelly@pjm.com"
           }
         ]
+      },
+      {
+        "type": "report",
+        "title": "PDF",
+        "filename": "20260604-item-14---dlr-updates.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260604/20260604-item-14---dlr-updates.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine transmission operations update listing Dynamic Line Rating (DLR) facility implementation schedules with no direct impact on hydropower or pumped-storage market participation, capacity accreditation, ancillary services, or dispatch rules.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -3252,6 +4511,20 @@
     "materials_url": "https://www.caiso.com/meetings-events/topics/market-and-operations-training",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "This is a routine training/refresher session on resource performance expectations that applies broadly across all resource types and is not focused on hydropower-specific market rules, capacity accreditation, storage, or operational issues.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Cost Development Subcommittee Meeting",
+    "date": "2026-06-03",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "Cost Development Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Cost Development Subcommittee meetings typically focus on administrative cost allocation and budgeting procedures rather than market rules, resource participation, or operational requirements affecting hydropower and storage resources.",
     "issues": [],
     "documents": []
   },
@@ -4441,6 +5714,34 @@
     "documents": []
   },
   {
+    "title": "Operating Committee Meeting",
+    "date": "2026-06-02",
+    "time": "9:00 a.m. - 2:00 p.m.",
+    "rto": "PJM",
+    "committee": "Operating Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={E7B665DD-2EE5-4B76-A729-62E7A4ED76F2}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM Operating Committee meetings regularly address real-time operations, dispatch procedures, and market rule implementations that directly affect hydropower and pumped-storage resource participation and performance.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Distributed Resources Subcommittee Meeting",
+    "date": "2026-06-02",
+    "time": "1:00 p.m. - 2:30 p.m.",
+    "rto": "PJM",
+    "committee": "Distributed Resources Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={A1291998-920D-4442-B627-5C2A6CE6ED36}",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Distributed Resources Subcommittee meetings typically focus on small-scale DER (rooftop solar, smart inverters, EV charging) rather than utility-scale hydropower and pumped-storage projects that are governed by generation and capacity market rules.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Cost Development Subcommittee Meeting",
     "date": "2026-06-01",
     "time": "9:00 a.m. - 11:00 a.m.",
@@ -4710,6 +6011,20 @@
     "documents": []
   },
   {
+    "title": "Operating Committee Meeting",
+    "date": "2026-06-01",
+    "time": "9:00 a.m. - 2:00 p.m.",
+    "rto": "PJM",
+    "committee": "Operating Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={E7B665DD-2EE5-4B76-A729-62E7A4ED76F2}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM Operating Committee meetings typically address operational rules, dispatch procedures, and real-time market issues that directly affect how hydropower and pumped-storage resources participate in and are compensated by the market.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "IPSAC - NY/NE Meeting",
     "date": "2026-05-29",
     "time": "9:00 a.m. - 12:00 p.m.",
@@ -4862,7 +6177,7 @@
         "title": "PDF",
         "filename": "20260529-item-02---may-2026-operations-summary.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260529/20260529-item-02---may-2026-operations-summary.pdf",
-        "posted_date": "2026-05-27",
+        "posted_date": "2026-06-04",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -4986,7 +6301,7 @@
     "date": "2026-05-29",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Interregional Planning Stakeholder Advisory Committee",
+    "committee": "Planning Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
     "materials_url": null,
