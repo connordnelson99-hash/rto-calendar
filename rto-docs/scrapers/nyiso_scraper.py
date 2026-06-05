@@ -104,6 +104,50 @@ class NYISOScraper(BaseRTOScraper):
         ("Customer Support Focus Group", "customer-support-focus-group"),
     ]
 
+    # Public iCal feeds (Liferay OASIS calendar export). A "parent" feed
+    # carries all its subcommittee/WG events too, so these four cover every
+    # committee. Used only to enrich meeting start/end times — the
+    # committeefile API exposes a date but no time.
+    ICAL_FEEDS = {
+        "Management Committee": 44327,
+        "Business Issues Committee": 44334,
+        "Operating Committee": 2167912,
+        "General Meetings": 3842422,
+    }
+    ICAL_BASE = "https://www.nyiso.com/o/oasis-rest/calendar/export"
+
+    # committee name → tokens that identify it inside an iCal SUMMARY.
+    # SUMMARYs use abbreviations and combine co-scheduled groups with "/"
+    # (e.g. "ICAP/MIWG/PRLWG", "ESPWG/TPAS"); we tokenize on non-alnum and
+    # match whole tokens, so a combined event still matches each member.
+    ICAL_TOKENS = {
+        "Business Issues Committee": ["BIC"],
+        "Management Committee": ["MC"],
+        "Operating Committee": ["OC"],
+        "Installed Capacity Working Group": ["ICAP"],
+        "Market Issues Working Group": ["MIWG"],
+        "Price-Responsive Load Working Group": ["PRLWG"],
+        "Electric System Planning Working Group": ["ESPWG"],
+        "Transmission Planning Advisory Subcommittee": ["TPAS"],
+        "Load Forecasting Task Force": ["LFTF"],
+        "Billing, Accounting & Credit Policy Working Group": ["BACWG"],
+        "Electric Gas Coordination Working Group": ["EGCWG"],
+        "Budget & Priorities Working Group": ["BPWG"],
+        "Business Intelligence Task Force": ["BITF"],
+        "Interconnection Issues Task Force": ["IITF"],
+        "Interconnection Project Facilities Study Working Group": ["IPFSWG", "IPFS"],
+        "Inter-area Planning Stakeholder Advisory Committee": ["IPSAC"],
+        "Communication & Data Advisory Subcommittee": ["CDAS"],
+        "System Operations Advisory Subcommittee": ["SOAS"],
+        "System Protection Advisory Subcommittee": ["SPAS"],
+        "Market Participant Audit Advisory Subcommittee": ["MPAAS"],
+        "Liaison Subcommittee": ["LIAISON"],
+        "By-Laws Subcommittee": ["BY-LAWS", "BYLAWS"],
+        "Appeals to the Board": ["APPEALS"],
+        "Environmental Advisory Council": ["EAC"],
+        "Customer Support Focus Group": ["CSFG"],
+    }
+
     _AUTH_TOKEN_RE = re.compile(r"authToken\s*=\s*'([^']+)'")
     _PLID_RE = re.compile(r"plid=([0-9]+)")
     _PORTLET_RE = re.compile(
@@ -116,6 +160,9 @@ class NYISOScraper(BaseRTOScraper):
         # Shared between scrape_meetings (phase 1) and the per-meeting
         # scrape_meeting_documents (phase 2) calls within a single run.
         self._handshake = {}
+        # date (YYYY-MM-DD) -> [(summary, time_str), ...], built once from
+        # the iCal feeds. None until first use; {} if feeds were unreachable.
+        self._ical_index = None
 
     # ── Phase 1: meetings ────────────────────────────────────────
 
@@ -175,7 +222,7 @@ class NYISOScraper(BaseRTOScraper):
                 meetings.append({
                     "title": name,
                     "meeting_date": date,
-                    "meeting_time": None,
+                    "meeting_time": self._ical_time(name, date),
                     "committee": name,
                     "source_url": self.CALENDAR_URL,
                     "detail_url": page_url,
@@ -235,6 +282,63 @@ class NYISOScraper(BaseRTOScraper):
                 "posted_date": self._norm_date(f.get("date")),
             })
         return documents
+
+    # ── iCal time enrichment ─────────────────────────────────────
+
+    def _ical_time(self, committee, date):
+        """Return a 'H:MM AM - H:MM PM' (ET) string for this committee+date
+        from the iCal feeds, or None if there's no confident match."""
+        if self._ical_index is None:
+            self._ical_index = self._build_ical_index()
+        tokens = self.ICAL_TOKENS.get(committee)
+        if not tokens:
+            return None
+        for summary, time_str in self._ical_index.get(date, []):
+            parts = set(re.split(r"[^A-Z0-9]+", summary.upper()))
+            if any(tok in parts for tok in tokens):
+                return time_str
+        return None
+
+    def _build_ical_index(self):
+        """Fetch the iCal feeds once and index events by date.
+
+        Returns {date: [(summary, time_str), ...]} with each date's events
+        sorted by start time. Best-effort — unreachable feeds are skipped.
+        """
+        index = {}
+        for fid in dict.fromkeys(self.ICAL_FEEDS.values()):
+            url = f"{self.ICAL_BASE}/{fid}.ics"
+            try:
+                self._polite_delay()
+                text = self.session.get(url, timeout=30).text
+            except Exception as e:
+                print(f"    iCal feed {fid} fetch failed: {e}")
+                continue
+            for block in text.split("BEGIN:VEVENT")[1:]:
+                block = block.split("END:VEVENT")[0]
+                sm = re.search(r"\nSUMMARY:(.*)", block)
+                ds = re.search(r"\nDTSTART[^:\n]*:(\d{8}T\d{6})", block)
+                if not (sm and ds):
+                    continue  # all-day (VALUE=DATE) events have no time
+                de = re.search(r"\nDTEND[^:\n]*:(\d{8}T\d{6})", block)
+                raw = ds.group(1)
+                date = f"{raw[:4]}-{raw[4:6]}-{raw[6:8]}"
+                time_str = self._fmt_clock(raw)
+                if de:
+                    time_str += " - " + self._fmt_clock(de.group(1))
+                index.setdefault(date, []).append(
+                    (sm.group(1).strip(), time_str))
+        for date in index:
+            index[date].sort(key=lambda x: x[1])
+        return index
+
+    @staticmethod
+    def _fmt_clock(stamp):
+        """'20260610T100000' → '10:00 AM' (wall-clock; feeds are ET)."""
+        h = int(stamp[9:11])
+        minute = stamp[11:13]
+        ap = "AM" if h < 12 else "PM"
+        return f"{h % 12 or 12}:{minute} {ap}"
 
     # ── Helpers ──────────────────────────────────────────────────
 
