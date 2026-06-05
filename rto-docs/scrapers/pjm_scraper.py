@@ -113,6 +113,25 @@ class PJMScraper(BaseRTOScraper):
         "issue-charge": r"issue.?charge|problem.?statement",
     }
 
+    # On PJM materials pages the <a> text is the file-format label, not the
+    # document name — so link.get_text() yields "PDF"/"XLSX"/etc. When that
+    # happens we derive the title from the (very descriptive) filename.
+    JUNK_LINK_TEXT = {
+        "", "pdf", "xls", "xlsx", "ppt", "pptx", "doc", "docx",
+        "ashx", "csv", "zip", "download", "link",
+    }
+
+    # Tokens to keep upper-cased when prettifying a filename into a title.
+    TITLE_ACRONYMS = {
+        "PJM", "FERC", "CIFP", "RBP", "DR", "ELCC", "ELCCSTF", "RPM", "BRA",
+        "FTR", "ARR", "IRM", "FRR", "LMP", "OATT", "RTEP", "DASR", "ICAP",
+        "EKPC", "NITS", "CONE", "VRR", "RA", "IT", "EV", "DER", "BESS",
+        "MC", "MRC", "MIC", "PC", "OC", "RMC", "TEAC", "FC", "AAC", "LC",
+        "NC", "CDS", "DISRS", "IPS", "LAS", "RAAS", "RASTF", "RMDSTF",
+        "DTS", "ISAC", "EDART", "PSEG", "PPL", "EDC", "DOM", "COMED",
+        "NUG", "GIA", "ISA", "WMPA", "TO", "TOs", "EDCs",
+    }
+
     @property
     def rto_name(self):
         return "PJM"
@@ -526,6 +545,11 @@ class PJMScraper(BaseRTOScraper):
                 title = link.get_text(strip=True)
                 filename = unquote(full_url.split("/")[-1])
 
+                # PJM links read "PDF"/"XLSX" etc.; fall back to the filename,
+                # which encodes the real document name.
+                if title.lower() in self.JUNK_LINK_TEXT:
+                    title = self.title_from_filename(filename) or title
+
                 # Try to get the posted date from the sibling <td>
                 posted_date = None
                 parent_row = link.find_parent("tr")
@@ -631,6 +655,65 @@ class PJMScraper(BaseRTOScraper):
             if re.search(pattern, text):
                 return doc_type
         return self._classify_doc(f"{filename} {title}")
+
+    @classmethod
+    def title_from_filename(cls, filename):
+        """Derive a readable document title from a PJM filename.
+
+        '20260416-item-05---pjm-reliability-backstop-procurement-design.pdf'
+          -> 'Item 05 – PJM Reliability Backstop Procurement Design'
+
+        Strips the extension and leading YYYYMMDD-, treats '---' as a dash
+        separator and '-'/'_' as spaces, and upper-cases known acronyms.
+        Returns None if nothing usable remains.
+        """
+        if not filename:
+            return None
+        base = filename.rsplit(".", 1)[0]
+        base = re.sub(r"^\d{6,8}[-_]?", "", base)        # drop leading date
+        base = base.replace("---", " – ").replace("--", " – ")
+        base = base.replace("_", " ").replace("-", " ")
+        base = re.sub(r"\s+", " ", base).strip()
+        if not base:
+            return None
+        words = []
+        for w in base.split(" "):
+            if w == "–":
+                words.append(w)
+            elif w.upper() in cls.TITLE_ACRONYMS:
+                words.append(w.upper())
+            elif w.isdigit():
+                words.append(w)
+            else:
+                words.append(w[:1].upper() + w[1:])
+        return " ".join(words)
+
+    @classmethod
+    def backfill_titles(cls, conn):
+        """One-time fix for existing PJM docs whose stored title is the
+        file-format label ("PDF"/"XLSX"/…) rather than the document name.
+
+        Re-derives the title from the filename. Idempotent and safe to re-run.
+        Returns the number of rows updated.
+        """
+        cur = conn.cursor()
+        rows = cur.execute(
+            "SELECT id, filename, title FROM documents WHERE rto = 'PJM'"
+        ).fetchall()
+        updated = 0
+        for row in rows:
+            current = (row["title"] or "").strip().lower()
+            if current not in cls.JUNK_LINK_TEXT:
+                continue
+            new_title = cls.title_from_filename(row["filename"])
+            if new_title and new_title.strip().lower() not in cls.JUNK_LINK_TEXT:
+                cur.execute(
+                    "UPDATE documents SET title = ? WHERE id = ?",
+                    (new_title, row["id"]),
+                )
+                updated += 1
+        conn.commit()
+        return updated
 
     def _identify_committee_from_text(self, text):
         """Match a full committee name from free text."""
