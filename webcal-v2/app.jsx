@@ -39,6 +39,19 @@ function App() {
   const [readerEvent, setReaderEvent] = useState(null);
   const [digestOpen, setDigestOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [exportState, setExportState] = useState("idle"); // idle | working | error
+  const onExportData = async () => {
+    if (exportState === "working") return;
+    setExportState("working");
+    try {
+      await window.downloadCorpusZip();
+      setExportState("idle");
+    } catch (err) {
+      console.error("Data export failed:", err);
+      setExportState("error");
+      setTimeout(() => setExportState("idle"), 2400);
+    }
+  };
   const [tweaks, setTweak] = useTweaks(TWEAK_DEFAULTS);
   const theme = tweaks.theme;
   const setTheme = (next) => setTweak("theme",
@@ -142,6 +155,11 @@ function App() {
           <button className="btn" title="Open weekly digest" onClick={() => setDigestOpen(true)}>
             <Icon name="sparkle" size={14}/>
             Weekly digest
+          </button>
+          <button className="btn" onClick={onExportData} disabled={exportState === "working"}
+            title="Download the full hydro-document corpus (JSON + CSV + CLAUDE.md) as a zip for cross-cutting analysis in Claude">
+            <Icon name="download" size={14}/>
+            {exportState === "working" ? "Preparing…" : exportState === "error" ? "Export failed" : "Export data"}
           </button>
           <button className="icon-btn" title="About" onClick={() => setSettingsOpen(true)}><Icon name="settings" size={16}/></button>
         </div>

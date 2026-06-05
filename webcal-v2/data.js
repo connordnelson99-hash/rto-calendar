@@ -457,4 +457,195 @@
     window.MARKETS_DATA = buildMarketsData(rawEvents, rawIssues);
     return window.MARKETS_DATA;
   };
+
+  // ── "Export data" — zip the full hydro corpus for analysis in Claude ──────
+  // No external zip library (the app pins React/Babel with SRI and we don't
+  // want an unpinned CDN dependency), so we write a minimal store-only ZIP.
+
+  function _crc32(bytes) {
+    let table = _crc32.table;
+    if (!table) {
+      table = _crc32.table = new Uint32Array(256);
+      for (let n = 0; n < 256; n++) {
+        let c = n;
+        for (let k = 0; k < 8; k++) c = (c & 1) ? (0xEDB88320 ^ (c >>> 1)) : (c >>> 1);
+        table[n] = c >>> 0;
+      }
+    }
+    let crc = 0xFFFFFFFF;
+    for (let i = 0; i < bytes.length; i++) crc = (crc >>> 8) ^ table[(crc ^ bytes[i]) & 0xFF];
+    return (crc ^ 0xFFFFFFFF) >>> 0;
+  }
+
+  const _u16 = (v) => new Uint8Array([v & 0xff, (v >>> 8) & 0xff]);
+  const _u32 = (v) => new Uint8Array([v & 0xff, (v >>> 8) & 0xff, (v >>> 16) & 0xff, (v >>> 24) & 0xff]);
+  function _concat(parts) {
+    let len = 0;
+    for (const p of parts) len += p.length;
+    const out = new Uint8Array(len);
+    let off = 0;
+    for (const p of parts) { out.set(p, off); off += p.length; }
+    return out;
+  }
+
+  // files: [{ name, content }] (content = string). Returns a Blob (store-only).
+  function buildZipBlob(files) {
+    const enc = new TextEncoder();
+    const DOS_TIME = 0;
+    const DOS_DATE = ((2026 - 1980) << 9) | (6 << 5) | 5;  // fixed 2026-06-05
+    const out = [];
+    const central = [];
+    let offset = 0;
+
+    for (const f of files) {
+      const nameBytes = enc.encode(f.name);
+      const dataBytes = enc.encode(f.content);
+      const crc = _crc32(dataBytes);
+      const local = _concat([
+        _u32(0x04034b50), _u16(20), _u16(0x0800), _u16(0),
+        _u16(DOS_TIME), _u16(DOS_DATE),
+        _u32(crc), _u32(dataBytes.length), _u32(dataBytes.length),
+        _u16(nameBytes.length), _u16(0), nameBytes, dataBytes,
+      ]);
+      out.push(local);
+      central.push(_concat([
+        _u32(0x02014b50), _u16(20), _u16(20), _u16(0x0800), _u16(0),
+        _u16(DOS_TIME), _u16(DOS_DATE),
+        _u32(crc), _u32(dataBytes.length), _u32(dataBytes.length),
+        _u16(nameBytes.length), _u16(0), _u16(0), _u16(0), _u16(0),
+        _u32(0), _u32(offset), nameBytes,
+      ]));
+      offset += local.length;
+    }
+
+    const centralStart = offset;
+    let centralSize = 0;
+    for (const c of central) { out.push(c); centralSize += c.length; }
+    out.push(_concat([
+      _u32(0x06054b50), _u16(0), _u16(0),
+      _u16(central.length), _u16(central.length),
+      _u32(centralSize), _u32(centralStart), _u16(0),
+    ]));
+    return new Blob(out, { type: "application/zip" });
+  }
+
+  function buildCorpusReadme(meta) {
+    const breakdown = Object.entries(meta.byRto || {})
+      .sort((a, b) => b[1] - a[1])
+      .map(([k, v]) => `${k} (${v})`)
+      .join(", ");
+    return `# NHA RTO/ISO Markets Calendar — Hydro Document Corpus
+
+This archive is an export from the National Hydropower Association (NHA) RTO/ISO
+Markets Calendar — a member tool that tracks regulatory meetings and documents
+across the U.S. wholesale electricity markets (PJM, CAISO, ISO-NE, NYISO, FERC)
+and uses Claude to flag content relevant to the hydropower and pumped-storage
+industry.
+
+Exported ${meta.dateStr}. Contains ${meta.total} hydro-flagged documents${breakdown ? ` across: ${breakdown}` : ""}.
+Every record has already been screened as hydro-relevant by the calendar's
+pipeline — this is the filtered corpus, not the raw firehose.
+
+## What's in this archive
+
+- \`rto_hydro_corpus.json\` — every hydro-relevant document, as full structured records.
+- \`rto_hydro_corpus.csv\`  — the same data as a flat table (one row per document)
+  for spreadsheet pivots and quick counts.
+- \`CLAUDE.md\` — this file.
+
+## Purpose
+
+The calendar's weekly digest answers "what's happening this week." This export
+answers the broader, cross-cutting questions — themes that span many RTOs and
+many months. For example: "How many different RTOs/ISOs are currently running
+storage-as-transmission-asset discussions?" or "Which markets are advancing
+capacity accreditation relevant to hydro, and who are the stakeholders driving
+it?" Because every record carries an AI summary, you (Claude) can answer
+thematic questions directly by reading across the corpus — you are not limited
+to a fixed set of predefined topics.
+
+## Field dictionary
+
+Each JSON record / CSV row has:
+
+- \`rto\` — market / system operator (PJM, CAISO, ISO-NE, NYISO, FERC).
+- \`meeting_date\` — date of the meeting the document belongs to (YYYY-MM-DD).
+- \`committee\` — committee or working group.
+- \`meeting_title\` — title of the meeting.
+- \`doc_type\` — agenda, minutes, presentation, report, vote, manual, etc.
+- \`title\` — document title.
+- \`posted_date\` — when the document was posted, if known.
+- \`relevance_reason\` — why the screener flagged it as hydro-relevant.
+- \`initiatives\` — linked market initiatives/issues (with status), where available.
+- \`stakeholders\` — named authors/contacts and their organizations, where extracted.
+- \`ai_summary\` — an AI-generated summary of the document's contents.
+- \`url\` — link to the source document.
+
+In the CSV, the \`initiatives\` and \`stakeholders\` lists are joined with "; ".
+
+## How to use this
+
+1. Upload \`rto_hydro_corpus.json\` (richer) or \`rto_hydro_corpus.csv\` (lighter)
+   to a Claude conversation along with this file.
+2. Ask a cross-cutting question. Good starting prompts:
+   - "Across all RTOs, which are discussing storage as a transmission asset?
+     Group by RTO, summarize each one's angle, and cite document titles + dates."
+   - "Build a table of capacity-accreditation activity by RTO over the last few months."
+   - "What pumped-storage-specific items appeared, and in which committees?"
+   - "Which stakeholder organizations are most active on energy storage, by RTO?"
+
+## Important caveats
+
+- \`ai_summary\` and \`relevance_reason\` are AI-generated (Claude screening) and may
+  contain errors. Treat them as a research aid, not an official record — verify
+  against the source \`url\` before relying on anything.
+- This is the hydro-relevant subset only; non-hydro market activity is excluded
+  by design.
+- The corpus refreshes automatically as the calendar's pipeline runs, so a newer
+  export may include more recent documents.
+`;
+  }
+
+  // Fetch the two corpus files, bundle them with a generated CLAUDE.md, and
+  // trigger a single .zip download. Returns a promise; throws on fetch failure.
+  window.downloadCorpusZip = async function () {
+    const t = Date.now();
+    const base = "../rto-docs/";
+    const [jsonRes, csvRes] = await Promise.all([
+      fetch(`${base}rto_hydro_corpus.json?t=${t}`),
+      fetch(`${base}rto_hydro_corpus.csv?t=${t}`),
+    ]);
+    if (!jsonRes.ok || !csvRes.ok) {
+      throw new Error("Corpus files not found on server.");
+    }
+    const [jsonText, csvText] = await Promise.all([jsonRes.text(), csvRes.text()]);
+
+    let total = 0;
+    const byRto = {};
+    try {
+      const recs = JSON.parse(jsonText);
+      total = recs.length;
+      for (const r of recs) byRto[r.rto] = (byRto[r.rto] || 0) + 1;
+    } catch (_) { /* readme still works without counts */ }
+
+    const dateStr = new Date().toISOString().slice(0, 10);
+    const readme = buildCorpusReadme({ dateStr, total, byRto });
+
+    const blob = buildZipBlob([
+      { name: "CLAUDE.md", content: readme },
+      { name: "rto_hydro_corpus.json", content: jsonText },
+      { name: "rto_hydro_corpus.csv", content: csvText },
+    ]);
+
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `nha-rto-hydro-corpus-${dateStr}.zip`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+
+  window.buildZipBlob = buildZipBlob;
 })();
