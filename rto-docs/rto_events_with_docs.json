@@ -1,5 +1,60 @@
 [
   {
+    "title": "PJM/MISO JCM Meeting",
+    "date": "2026-06-23",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "PJM/MISO JCM",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The PJM/MISO JCM (Joint and Common Meeting) is a governance and administrative coordination body between two RTOs that typically addresses procedural, operational, and administrative matters rather than substantive market rules or hydro-specific technical issues.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Risk Management Committee Meeting",
+    "date": "2026-06-23",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Risk Management Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={9C5FB60E-F1E8-4543-9C3F-8C94BB2966C1}",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Risk Management Committee meetings typically focus on financial risk, credit, and operational compliance matters rather than market design, resource participation rules, or hydropower-specific regulatory issues.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "Draft Minutes \u2013 RMC \u2013 04212026",
+        "filename": "20260623-draft-minutes---rmc---04212026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/rmc/2026/20260623/20260623-draft-minutes---rmc---04212026.pdf",
+        "posted_date": "2026-05-01",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Planning Advisory Committee Meeting",
+    "date": "2026-06-23",
+    "time": "1:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Planning Advisory Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160140",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Planning Advisory Committee typically addresses transmission planning, resource adequacy, and capacity market issues that directly affect hydropower interconnection, deliverability, and participation in ISO-NE markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "SPF Meeting",
     "date": "2026-06-22",
     "time": "10:00 a.m. - 12:00 p.m.",
@@ -9017,7 +9072,7 @@
     "date": "2026-05-29",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Planning Advisory Committee",
+    "committee": "Interregional Planning Stakeholder Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
     "materials_url": null,
