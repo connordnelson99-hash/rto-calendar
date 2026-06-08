@@ -1,5 +1,74 @@
 [
   {
+    "title": "PJM/MISO JCM Meeting",
+    "date": "2026-06-23",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "PJM/MISO JCM",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The PJM/MISO JCM (Joint and Common Meeting) is a governance and administrative coordination body between two RTOs that typically addresses procedural, operational, and administrative matters rather than substantive market rules or hydro-specific technical issues.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Risk Management Committee Meeting",
+    "date": "2026-06-23",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Risk Management Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={9C5FB60E-F1E8-4543-9C3F-8C94BB2966C1}",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Risk Management Committee meetings typically focus on financial risk, credit, and operational compliance matters rather than market design, resource participation rules, or hydropower-specific regulatory issues.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "Draft Minutes \u2013 RMC \u2013 04212026",
+        "filename": "20260623-draft-minutes---rmc---04212026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/rmc/2026/20260623/20260623-draft-minutes---rmc---04212026.pdf",
+        "posted_date": "2026-05-01",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Planning Advisory Committee Meeting",
+    "date": "2026-06-23",
+    "time": "1:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Planning Advisory Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160140",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Planning Advisory Committee typically addresses transmission planning, resource adequacy, and capacity market issues that directly affect hydropower interconnection, deliverability, and participation in ISO-NE markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "SPF Meeting",
+    "date": "2026-06-22",
+    "time": "10:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "SPF",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "SPF (State Point Forecast) is a routine operational/forecasting committee focused on weather and load prediction rather than market rules, resource adequacy, or dispatch mechanisms affecting hydropower.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Participants Committee Summer Meeting",
     "date": "2026-06-18",
     "time": "2:00 PM",
@@ -35,11 +104,72 @@
     "committee": "SRRTEP-W",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={12860F75-EDF0-4A27-A4DD-61B7C8D3DB5B}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-W (System Resource and Resilience Task Force) meetings typically focus on long-term resource adequacy and system resilience planning; without specific agenda details mentioning hydropower, storage, or capacity accreditation, the generic title provides insufficient indication of hydropower-relevant content.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "Item 01 \u2013 Ampt Supplemental Projects",
+        "filename": "20260617-item-01---ampt-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260617/20260617-item-01---ampt-supplemental-projects.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 02 \u2013 Atsi Supplemental Projects",
+        "filename": "20260617-item-02---atsi-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260617/20260617-item-02---atsi-supplemental-projects.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 03 \u2013 Aps Supplemental Projects",
+        "filename": "20260617-item-03---aps-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260617/20260617-item-03---aps-supplemental-projects.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 04 \u2013 Aep Supplemental Projects",
+        "filename": "20260617-item-04---aep-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260617/20260617-item-04---aep-supplemental-projects.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 05 \u2013 COMED Supplemental Projects",
+        "filename": "20260617-item-05---comed-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260617/20260617-item-05---comed-supplemental-projects.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "DESTF Meeting",
@@ -233,11 +363,24 @@
     "committee": "SRRTEP-S",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={BC5467A0-25AC-486A-AE20-BFAC49CB7E79}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-S (State Relations and Regulatory Transmission Expansion Planning - Stakeholder) is focused on state regulatory coordination and transmission expansion planning procedures, which are not directly related to hydropower market participation, capacity accreditation, energy storage rules, or ancillary services.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "Item 01 \u2013 DOM Supplemental Projects",
+        "filename": "20260616-item-01---dom-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-s/2026/20260616/20260616-item-01---dom-supplemental-projects.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "SRRTEP-MA Meeting",
@@ -247,11 +390,84 @@
     "committee": "SRRTEP-MA",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={D5A13C0D-3754-4653-9A5A-812E99396339}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-MA (System Reliability, Regional Transmission, Engineering, and Planning - Mid-Atlantic) is a technical planning committee focused on transmission infrastructure and system reliability rather than market design, capacity accreditation, or operational rules that directly affect hydropower participation.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "Item 01 \u2013 DOM Supplemental Projects",
+        "filename": "20260616-item-01---dom-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260616/20260616-item-01---dom-supplemental-projects.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 02 \u2013 Jcpl Supplemental Projects",
+        "filename": "20260616-item-02---jcpl-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260616/20260616-item-02---jcpl-supplemental-projects.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 03 \u2013 Meted Supplemental Projects",
+        "filename": "20260616-item-03---meted-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260616/20260616-item-03---meted-supplemental-projects.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 04 \u2013 Penelec Supplemental Projects",
+        "filename": "20260616-item-04---penelec-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260616/20260616-item-04---penelec-supplemental-projects.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 05 \u2013 PPL Supplemental Projects",
+        "filename": "20260616-item-05---ppl-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260616/20260616-item-05---ppl-supplemental-projects.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 06 \u2013 PSEG Supplemental Projects",
+        "filename": "20260616-item-06---pseg-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20260616/20260616-item-06---pseg-supplemental-projects.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "NEPOOL Membership Subcommittee Meeting",
@@ -365,11 +581,512 @@
     "committee": "CIFP\u2013RBP / Connect and Manage - Stage 3",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={EB3AB57B-5CE8-41EE-823F-079239D7CA1D}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The CIFP-RBP/Connect and Manage Stage 3 meeting appears to focus on interconnection queue management and procedural processes rather than market rules, resource adequacy, or operational matters directly affecting hydropower participation.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260611-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-agenda.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20260611-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-agenda-doc.docx",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "Item 01 \u2013 Draft Minutes \u2013 CIFP \u2013 RBP Cam \u2013 May 27 2026",
+        "filename": "20260611-item-01---draft-minutes---cifp---rbp-cam---may-27-2026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-01---draft-minutes---cifp---rbp-cam---may-27-2026.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "Item 02 \u2013 Connect And Manage Options And Packages Matrix",
+        "filename": "20260611-item-02---connect-and-manage-options-and-packages-matrix.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-02---connect-and-manage-options-and-packages-matrix.xls",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 02 \u2013 PJM Connect And Manage Package Updates",
+        "filename": "20260611-item-02---pjm-connect-and-manage-package-updates.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-02---pjm-connect-and-manage-package-updates.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03c \u2013 Silverman Glatz Presentation",
+        "filename": "20260611-item-03c---silverman-glatz-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-03c---silverman-glatz-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03d \u2013 Amp Presentation",
+        "filename": "20260611-item-03d---amp-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-03d---amp-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03e \u2013 Imm Backstop Presentation",
+        "filename": "20260611-item-03e---imm-backstop-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-03e---imm-backstop-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03e \u2013 Imm Connect And Manage Presentation",
+        "filename": "20260611-item-03e---imm-connect-and-manage-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-03e---imm-connect-and-manage-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03f \u2013 Joint Edcs Presentation",
+        "filename": "20260611-item-03f---joint-edcs-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-03f---joint-edcs-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03h \u2013 Smeco Presentation",
+        "filename": "20260611-item-03h---smeco-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-03h---smeco-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03i \u2013 Joint Consumer Advocates Presentation",
+        "filename": "20260611-item-03i---joint-consumer-advocates-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-03i---joint-consumer-advocates-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04a \u2013 PJM Reliability Backstop Procurement Design Presentation",
+        "filename": "20260611-item-04a---pjm-reliability-backstop-procurement-design-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-04a---pjm-reliability-backstop-procurement-design-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 04a \u2013 PJM Reliability Backstop Procurement Paper",
+        "filename": "20260611-item-04a---pjm-reliability-backstop-procurement-paper.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-04a---pjm-reliability-backstop-procurement-paper.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04b \u2013 Odec Presentation",
+        "filename": "20260611-item-04b---odec-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-04b---odec-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 04c \u2013 Shanker Backstop Proposal Executive Summary",
+        "filename": "20260611-item-04c---shanker-backstop-proposal-executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-04c---shanker-backstop-proposal-executive-summary.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04c \u2013 Shanker Presentation",
+        "filename": "20260611-item-04c---shanker-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-04c---shanker-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04e \u2013 Base Power Presentation",
+        "filename": "20260611-item-04e---base-power-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-04e---base-power-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04f \u2013 Rev Renewables \u2013 Ls Power \u2013 Middle River Power \u2013 Geronimo Power Presentation",
+        "filename": "20260611-item-04f---rev-renewables---ls-power---middle-river-power---geronimo-power-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-04f---rev-renewables---ls-power---middle-river-power---geronimo-power-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 05 \u2013 CIFP Work Plan And Stage 4 Requirements",
+        "filename": "20260611-item-05---cifp-work-plan-and-stage-4-requirements.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-05---cifp-work-plan-and-stage-4-requirements.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Co-Located Load Order Workshop Meeting",
@@ -1588,6 +2305,523 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260610-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-agenda.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20260610-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-agenda-doc.docx",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "Item 01 \u2013 Draft Minutes \u2013 CIFP \u2013 RBP Cam \u2013 May 27 2026",
+        "filename": "20260610-item-01---draft-minutes---cifp---rbp-cam---may-27-2026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-01---draft-minutes---cifp---rbp-cam---may-27-2026.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "Item 02 \u2013 Connect And Manage Options \u2013 Packages Matrix",
+        "filename": "20260610-item-02---connect-and-manage-options--packages-matrix.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-02---connect-and-manage-options--packages-matrix.xls",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03c \u2013 Silverman Glatz Presentation",
+        "filename": "20260610-item-03c---silverman-glatz-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-03c---silverman-glatz-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03d \u2013 Amp Presentation",
+        "filename": "20260610-item-03d---amp-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-03d---amp-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03e \u2013 Imm Backstop Presentation",
+        "filename": "20260610-item-03e---imm-backstop-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-03e---imm-backstop-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03e \u2013 Imm Connect And Manage Presentation",
+        "filename": "20260610-item-03e---imm-connect-and-manage-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-03e---imm-connect-and-manage-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03f \u2013 Joint Edcs Presentation",
+        "filename": "20260610-item-03f---joint-edcs-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-03f---joint-edcs-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03h \u2013 Smeco Presentation",
+        "filename": "20260610-item-03h---smeco-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-03h---smeco-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03i \u2013 Joint Consumer Advocates Presentation",
+        "filename": "20260610-item-03i---joint-consumer-advocates-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-03i---joint-consumer-advocates-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04a \u2013 PJM Reliability Backstop Procurement Design Presentation",
+        "filename": "20260610-item-04a---pjm-reliability-backstop-procurement-design-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-04a---pjm-reliability-backstop-procurement-design-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 04a \u2013 PJM Reliability Backstop Procurement Paper",
+        "filename": "20260610-item-04a---pjm-reliability-backstop-procurement-paper.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-04a---pjm-reliability-backstop-procurement-paper.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04b \u2013 Odec Presentation",
+        "filename": "20260610-item-04b---odec-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-04b---odec-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 04c \u2013 Shanker Backstop Proposal Executive Summary",
+        "filename": "20260610-item-04c---shanker-backstop-proposal-executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-04c---shanker-backstop-proposal-executive-summary.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04c \u2013 Shanker Presentation",
+        "filename": "20260610-item-04c---shanker-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-04c---shanker-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04e \u2013 Base Power Presentation",
+        "filename": "20260610-item-04e---base-power-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-04e---base-power-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04f \u2013 Rev Renewables \u2013 Ls Power \u2013 Middle River Power \u2013 Geronimo Power Presentation",
+        "filename": "20260610-item-04f---rev-renewables---ls-power---middle-river-power---geronimo-power-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-04f---rev-renewables---ls-power---middle-river-power---geronimo-power-presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 05 \u2013 CIFP Work Plan And Stage 4 Requirements",
+        "filename": "20260610-item-05---cifp-work-plan-and-stage-4-requirements.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-05---cifp-work-plan-and-stage-4-requirements.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -2945,6 +4179,103 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A04d - CAR-SA: FirstLight Power Alternative Load Weighting cont. - Presentation",
+        "filename": "a04d_2026_06_09-11_mc_rc_carsa_firstlight_alternative_load_weight_cont_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04d_2026_06_09-11_mc_rc_carsa_firstlight_alternative_load_weight_cont_presentation.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses capacity accreditation methodology for energy storage resources (particularly pumped-storage hydropower) in ISO-NE's winter resource adequacy modeling, which is a core hydro/storage industry concern.",
+        "ai_summary": "FirstLight Power proposes a revised Capacity Accreditation Rule (CAR) methodology for winter load shape and weather year selection that better accounts for multi-day consecutive cold weather events when modeling energy storage resources. The approach targets 5-day blocks rather than individual days and optimizes across the full distribution curve rather than just the extreme tail, which could materially affect storage accreditation outcomes in ISO-NE's capacity market.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Cal Brooks",
+            "entity": "FirstLight Power",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A04f - CAR-SA: Impact Analysis, Market Clearing Preliminary Results - Presentation",
+        "filename": "a04f_2026_06_06-11_car-sa_market_clearing_preliminary_outcomes.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04f_2026_06_06-11_car-sa_market_clearing_preliminary_outcomes.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document analyzes capacity market clearing outcomes under CAR-SA (Capacity Auction Reforms: Seasonal/Accreditation), which directly affects how hydropower and energy storage resources are accredited and compensated in ISO-NE's capacity market.",
+        "ai_summary": "This impact analysis presents preliminary market clearing simulation results for CAR-SA, including how seasonal accreditation and a gas constraint affect capacity prices, revenues, and resource mix. The document explicitly notes 2 GW of energy storage resources in the modeling, and examines how seasonal payment rates and winter/summer accreditation changes impact different resource types\u2014directly relevant to pumped-storage hydropower and seasonal hydropower operations.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Chris Geissler",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jake Fabian",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Steph Kang",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "2026-06-09-11 MC A03 - DAAS Post-Implementation Adjustments - MA AGO Comments in Support",
+        "filename": "a03_mc_2026_06-09-11_daas_ma-ago_comments_support.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a03_mc_2026_06-09-11_daas_ma-ago_comments_support.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses Day-Ahead Ancillary Services market design adjustments affecting reserve requirements and pricing\u2014ancillary services that hydropower typically provides and that directly impact hydro market participation and revenues.",
+        "ai_summary": "Massachusetts AGO supports ISO-NE's post-implementation adjustments to the DA A/S market, including reduction of the Non-Performance Factor for Total Ten-Minute Reserves from 120% to 115%. These changes affect reserve procurement quantities and pricing, which directly impact hydropower and pumped-storage resources that provide spinning and non-spinning reserves in ISO-NE.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Massachusetts Office of the Attorney General",
+            "entity": "Commonwealth of Massachusetts",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Emily Laine",
+            "entity": "ISO New England",
+            "role": "contact",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -3901,7 +5232,7 @@
         "title": "Md Opc \u2013 Comments Regarding Data Center Accuracy Report",
         "filename": "20260605-md-opc---comments-regarding-data-center-accuracy-report.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-md-opc---comments-regarding-data-center-accuracy-report.pdf",
-        "posted_date": "2026-06-04",
+        "posted_date": "2026-06-05",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
