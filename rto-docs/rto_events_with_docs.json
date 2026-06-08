@@ -1,5 +1,61 @@
 [
   {
+    "title": "Markets and Reliability Committee Meeting",
+    "date": "2026-06-24",
+    "time": "9:00 a.m. - 12:30 p.m.",
+    "rto": "PJM",
+    "committee": "Markets and Reliability Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Markets and Reliability Committee is the primary forum where PJM addresses capacity markets, resource adequacy, ancillary services, and market rule changes that directly affect hydropower and pumped-storage participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Members Committee Meeting",
+    "date": "2026-06-24",
+    "time": "1:15 p.m. - 5:00 p.m.",
+    "rto": "PJM",
+    "committee": "Members Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Members Committee meetings are typically governance and administrative forums rather than technical/market policy discussions where hydropower-specific rules and market design changes are debated.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "NEPOOL Transmission Committee Meeting",
+    "date": "2026-06-24",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Transmission Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160129",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Transmission Committee meetings regularly address transmission planning, interconnection, and deliverability issues that directly affect hydropower and pumped-storage facilities' ability to participate in markets and deliver power.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "ISO-NE System Forecasting Public Webinar",
+    "date": "2026-06-24",
+    "time": "4:00 PM",
+    "rto": "ISO-NE",
+    "committee": "External Affairs",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=163741",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "External Affairs public webinars on system forecasting are typically informational sessions for stakeholders about ISO-NE's forecasting methodology and do not address specific market rules, tariff changes, or regulatory decisions affecting hydropower or storage participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "PJM/MISO JCM Meeting",
     "date": "2026-06-23",
     "time": "9:00 a.m. - 11:00 a.m.",
@@ -7549,6 +7605,18 @@
             "email": "Gizella.Mali@pjm.com"
           }
         ]
+      },
+      {
+        "type": "agenda",
+        "title": "Planning Committee Agenda",
+        "filename": "20260602-agenda.ashx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260602/20260602-agenda.ashx",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is an agenda title only with no extracted text content, making it impossible to determine whether specific hydropower or storage topics are discussed.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -9072,7 +9140,7 @@
     "date": "2026-05-29",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Interregional Planning Stakeholder Advisory Committee",
+    "committee": "Planning Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
     "materials_url": null,
@@ -9987,6 +10055,37 @@
             "name": "Bryan Sanderson",
             "entity": "PowerBridge LLC",
             "role": "signatory",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "May 27, 2026 PAC Meeting Minutes - Final",
+        "filename": "2026_05_27_pac_meeting_minute.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/2026_05_27_pac_meeting_minute.pdf",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a meeting attendance roster and minutes focused on transmission asset management (cable replacement), with no discussion of hydropower, pumped-storage, capacity markets, resource adequacy, energy storage integration, ancillary services, or other hydro-relevant topics.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Joshua Cefaratti",
+            "entity": "Central Maine Power Company",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "R. Kornitsky",
+            "entity": "ISO New England",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "S. Abhyankar",
+            "entity": "ISO New England",
+            "role": "author",
             "email": null
           }
         ]
