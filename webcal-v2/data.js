@@ -579,7 +579,8 @@ Each JSON record / CSV row has:
 - \`initiatives\` — linked market initiatives/issues (with status), where available.
 - \`stakeholders\` — named authors/contacts and their organizations, where extracted.
 - \`ai_summary\` — an AI-generated summary of the document's contents.
-- \`url\` — link to the source document.
+- \`url\` — direct link to the ORIGINAL source document on the RTO/ISO website.
+  Fetch this to go beyond the summary (see "Pulling original source material").
 
 In the CSV, the \`initiatives\` and \`stakeholders\` lists are joined with "; ".
 
@@ -593,6 +594,26 @@ In the CSV, the \`initiatives\` and \`stakeholders\` lists are joined with "; ".
    - "Build a table of capacity-accreditation activity by RTO over the last few months."
    - "What pumped-storage-specific items appeared, and in which committees?"
    - "Which stakeholder organizations are most active on energy storage, by RTO?"
+
+## Pulling original source material
+
+Every record includes a \`url\` pointing to the ORIGINAL document on the RTO/ISO's
+own website (agenda PDFs, presentations, reports, etc.). These links are part of
+this package — the source material is already referenced here, so you do NOT need
+to search the web to locate it.
+
+When a question can't be fully answered from \`ai_summary\` / \`relevance_reason\`,
+or when the user wants more depth, exact figures, direct quotes, or detail beyond
+the summary:
+
+1. Find the relevant record(s) and take the \`url\` field.
+2. Open / fetch that \`url\` directly to read the original document.
+3. Answer from the source and cite the \`url\`.
+
+Do NOT tell the user to "go find the source material" on their own, and do NOT
+start a fresh web search for a document — the authoritative link is already in
+the data you were given. Treat \`ai_summary\` as a starting point, not a ceiling:
+the linked source document is the ground truth, and you can always go get it.
 
 ## Important caveats
 
