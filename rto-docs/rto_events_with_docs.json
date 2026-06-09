@@ -1,5 +1,33 @@
 [
   {
+    "title": "RCSTF Meeting",
+    "date": "2026-06-25",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "RCSTF",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "RCSTF (Resource Adequacy Steering Committee Task Force) addresses resource adequacy rules and capacity market design that directly affect hydropower and pumped-storage accreditation, ELCC methodology, and market participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "NEPOOL Reliability Committee Meeting",
+    "date": "2026-06-25",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Reliability Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160116",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Reliability Committee addresses resource adequacy, capacity accreditation, and operational standards that directly affect hydropower and pumped-storage participation in ISO-NE markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Markets and Reliability Committee Meeting",
     "date": "2026-06-24",
     "time": "9:00 a.m. - 12:30 p.m.",
@@ -1129,6 +1157,98 @@
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
           },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03a \u2013 Data Center Coalition Presentation",
+        "filename": "20260611-item-03a---data-center-coalition-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-03a---data-center-coalition-presentation.pdf",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03b \u2013 Joint Stakeholders \u2013 Constellation \u2013 Vistra \u2013 Earthrise Presentation",
+        "filename": "20260611-item-03b---joint-stakeholders---constellation---vistra---earthrise-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-03b---joint-stakeholders---constellation---vistra---earthrise-presentation.pdf",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03f \u2013 Joint Edcs Presentation \u2013 Updated",
+        "filename": "20260611-item-03f---joint-edcs-presentation---updated.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-03f---joint-edcs-presentation---updated.pdf",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04b \u2013 Odec Presentation \u2013 Updated",
+        "filename": "20260611-item-04b---odec-presentation---updated.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-04b---odec-presentation---updated.pdf",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
@@ -2295,6 +2415,20 @@
     "documents": []
   },
   {
+    "title": "On-peak Deliverability Assessment Methodology Refinements",
+    "date": "2026-06-11",
+    "time": "3:30 PM - 4:30 PM",
+    "rto": "CAISO",
+    "committee": "On-peak deliverability assessment methodology refinements",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/on-peak-deliverability-assessment-methodology-refinements-jun-11-2026-0330-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/on-peak-deliverability-assessment-methodology-refinements",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "On-peak deliverability assessment methodology directly affects how hydropower resources are credited and valued in CAISO's capacity market, influencing ELCC calculations and resource adequacy requirements for hydro participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Markets Committee Meeting",
     "date": "2026-06-10",
     "time": "1:30 PM",
@@ -2869,6 +3003,128 @@
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
           },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03a \u2013 Data Center Coalition Presentation",
+        "filename": "20260610-item-03a---data-center-coalition-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-03a---data-center-coalition-presentation.pdf",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03b \u2013 Joint Stakeholders \u2013 Constellation \u2013 Vistra \u2013 Earthrise Presentation",
+        "filename": "20260610-item-03b---joint-stakeholders---constellation---vistra---earthrise-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-03b---joint-stakeholders---constellation---vistra---earthrise-presentation.pdf",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03f \u2013 Joint Edcs Presentation \u2013 Updated",
+        "filename": "20260610-item-03f---joint-edcs-presentation---updated.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-03f---joint-edcs-presentation---updated.pdf",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04b \u2013 Odec Presentation \u2013 Updated",
+        "filename": "20260610-item-04b---odec-presentation---updated.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-04b---odec-presentation---updated.pdf",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
@@ -3772,7 +4028,7 @@
         "title": "2026-06-09-11 MC A01.a.i - Draft May 12-14, 2026 Markets Committee Meeting Minutes",
         "filename": "a01a.i_draft_2026_05_12_14_mc_meeting_minutes.docx",
         "url": "https://www.iso-ne.com/static-assets/documents/100036/a01a.i_draft_2026_05_12_14_mc_meeting_minutes.docx",
-        "posted_date": "2026-06-03",
+        "posted_date": "2026-06-09",
         "hydro_relevant": false,
         "hydro_relevance_reason": "Document contains no extracted text; only metadata title is available, which provides insufficient information to assess relevance to hydropower or storage topics.",
         "ai_summary": null,
@@ -3815,7 +4071,7 @@
         "title": "2026-06-09-11 MC A00 - Meeting Materials Zip",
         "filename": "a00_meeting_materials.zip",
         "url": "https://www.iso-ne.com/static-assets/documents/100036/a00_meeting_materials.zip",
-        "posted_date": "2026-06-05",
+        "posted_date": "2026-06-08",
         "hydro_relevant": false,
         "hydro_relevance_reason": "Document is a meeting materials zip file with no extracted text content, making it impossible to assess relevance to hydropower and pumped-storage topics or identify stakeholders.",
         "ai_summary": null,
@@ -4332,6 +4588,59 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A04e - CAR-SA: Flatiron RAM cont. - Presentation",
+        "filename": "a04e_2026_06_09-11_mc_rc_carsa_flatiron_ram_cont_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04e_2026_06_09-11_mc_rc_carsa_flatiron_ram_cont_presentation.pdf",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses resource adequacy accreditation methodologies and marginal reliability impact (MRI) values that affect how hydropower and other dispatchable resources are credited in ISO-NE's capacity market.",
+        "ai_summary": "Flatiron Consulting's presentation examines assumptions driving resource accreditation modeling under ISO-NE's proposed Capacity Accreditation Rules for the Seasonal Auction (CAR-SA). The analysis is critical for hydropower operators because accreditation values determine capacity market revenues; the presentation highlights risks that current modeling assumptions may misalign simulated risk with actual system conditions, potentially over- or under-crediting resources whose value depends on energy availability. Changes to accreditation methodology and marginal resource contribution calculations directly affect compensation signals for hydropower and pumped-storage resources.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Flatiron (consulting firm)",
+            "entity": "Flatiron",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-09-11 MC A04n - CAR-SA: AEU Conceptual Amendments - Presentation",
+        "filename": "a04n_2026_06_9-11_mc_rc_aeu_conceptual_amendments_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04n_2026_06_9-11_mc_rc_aeu_conceptual_amendments_presentation.pdf",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document directly addresses capacity accreditation methodology for energy storage resources in ISO-NE's seasonal accreditation reforms, including weather-year weighting and intertie modeling that critically affect how storage (including pumped-storage hydropower) is valued in the capacity market.",
+        "ai_summary": "Advanced Energy United proposes amendments to ISO-NE's seasonal capacity accreditation model that would better account for multi-day cold-snap duration (rather than peak-day weighting alone) and realistic hourly intertie import profiles for storage charging. These changes aim to prevent storage resources from being systematically undervalued in capacity accreditation and ensure efficient investment signals for flexible resources.",
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
       }
     ]
   },
@@ -4515,6 +4824,52 @@
         "filename": "20260609-item-05---options-and-packages-matrix.xls",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260609/20260609-item-05---options-and-packages-matrix.xls",
         "posted_date": "2026-06-04",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 02a \u2013 2026 Rcstf Work Plan",
+        "filename": "20260609-item-02a---2026-rcstf-work-plan.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260609/20260609-item-02a---2026-rcstf-work-plan.xlsx",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "vote",
+        "title": "Item 02b \u2013 Rcstf Vote Information And Overview",
+        "filename": "20260609-item-02b---rcstf-vote-information-and-overview.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260609/20260609-item-02b---rcstf-vote-information-and-overview.pdf",
+        "posted_date": "2026-06-08",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -4882,6 +5237,18 @@
         "filename": "20260608-item-03---interregional-transmission-planning-status-update---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/ipsac/2026/20260608/20260608-item-03---interregional-transmission-planning-status-update---presentation.pdf",
         "posted_date": "2026-06-03",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 02 \u2013 FERC Order 1920 Interregional Compliance \u2013 Updated Presentation",
+        "filename": "20260608-item-02--ferc-order-1920-interregional-compliance--updated-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/ipsac/2026/20260608/20260608-item-02--ferc-order-1920-interregional-compliance--updated-presentation.pdf",
+        "posted_date": "2026-06-08",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -7638,7 +8005,7 @@
         "title": "Agenda",
         "filename": "20260602-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-agenda.pdf",
-        "posted_date": "2026-05-26",
+        "posted_date": "2026-06-08",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Transmission expansion planning directly affects hydropower interconnection, deliverability, and market participation, and this agenda includes interregional planning, capacity expansion scenarios, and reliability analysis relevant to hydro resource integration.",
         "ai_summary": "The TEAC meeting covers 2026 RTEP updates including interregional planning, capacity expansion scenarios for 2034, reliability analysis, and transmission supplemental projects from major utilities. These transmission plans affect hydropower deliverability, resource adequacy modeling, and interconnection infrastructure critical to hydro participation in PJM markets.",
@@ -7705,7 +8072,7 @@
         "title": "Agenda Doc",
         "filename": "20260602-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-agenda-doc.docx",
-        "posted_date": "2026-05-26",
+        "posted_date": "2026-06-08",
         "hydro_relevant": false,
         "hydro_relevance_reason": "No document text was extracted; only the agenda title is available, providing insufficient information to assess relevance to hydropower and pumped-storage operations.",
         "ai_summary": null,
@@ -8165,6 +8532,43 @@
             "entity": "PJM Interconnection",
             "role": "contact",
             "email": "Wenzheng.Qiu@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Item 13 \u2013 2026 Capacity Expansion For RTEP Feedback Assumptions Results",
+        "filename": "20260602-item-13---2026-capacity-expansion-for-rtep-feedback-assumptions-results.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-item-13---2026-capacity-expansion-for-rtep-feedback-assumptions-results.pdf",
+        "posted_date": "2026-06-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses capacity expansion modeling, resource adequacy (ELCC), and generation assumptions for long-term transmission planning, which directly affect how hydro and storage resources are valued and dispatched in PJM's planning process.",
+        "ai_summary": "PJM is developing capacity expansion (CapEx) scenarios for 2034 that model ELCC values for different resource types, including how resource mix penetration affects capacity accreditation. The document discusses resource adequacy modeling and how PJM's CapEx tool will account for complementarity between technologies\u2014directly relevant to how pumped-storage and hydropower are credited in capacity markets and transmission planning.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Emmanuele Bobbio",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Mojgan Hedayati",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Niraj Kshatriya",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
           }
         ]
       }
@@ -9140,7 +9544,7 @@
     "date": "2026-05-29",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Planning Advisory Committee",
+    "committee": "Interregional Planning Stakeholder Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
     "materials_url": null,
