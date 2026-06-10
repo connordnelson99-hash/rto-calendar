@@ -1,5 +1,47 @@
 [
   {
+    "title": "CAMSTF Meeting",
+    "date": "2026-06-26",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "CAMSTF",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "CAMSTF (Capacity, Ancillary Services, and Markets Subcommittee Task Force) addresses capacity accreditation, ancillary services, and market rules that directly affect hydropower and pumped-storage participation and compensation.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Interconnection Process Subcommittee Meeting",
+    "date": "2026-06-26",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "Interconnection Process Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Interconnection process meetings directly affect hydropower and pumped-storage facilities seeking to connect to the grid, including review of queue management, technical standards, and interconnection agreements that impact hydro project viability.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Resource Adequacy Analysis Subcommittee Meeting",
+    "date": "2026-06-26",
+    "time": "1:00 p.m. - 3:00 p.m.",
+    "rto": "PJM",
+    "committee": "Resource Adequacy Analysis Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Resource Adequacy Analysis Subcommittee directly addresses capacity accreditation, ELCC methodology, and resource contribution rules that significantly affect hydropower and pumped-storage hydropower participation in PJM's capacity market.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "RCSTF Meeting",
     "date": "2026-06-25",
     "time": "9:00 a.m. - 12:00 p.m.",
@@ -263,7 +305,7 @@
     "committee": "DESTF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8A99A4EF-9863-4346-945D-D0FC3CB556E6}",
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "DESTF (Distributed Energy and Storage Task Force) directly addresses energy storage and distributed resources, which are core topics for pumped-storage hydropower participation in PJM markets.",
     "issues": [],
@@ -417,6 +459,18 @@
         "filename": "npc-2026-06-16-18-initial.pdf",
         "url": "https://www.iso-ne.com/static-assets/documents/100036/npc-2026-06-16-18-initial.pdf",
         "posted_date": "2026-06-03",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-16-18 PC Supplemental Notice",
+        "filename": "npc-2026-06-16-18-supplemental.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/npc-2026-06-16-18-supplemental.pdf",
+        "posted_date": "2026-06-10",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -597,15 +651,40 @@
   {
     "title": "Tech Change Forum Meeting",
     "date": "2026-06-15",
-    "time": "1:00 p.m. - 3:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "Tech Change Forum",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8A99A4EF-9863-4346-945D-D0FC3CB556E6}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The Tech Change Forum is a general technology discussion committee without specific focus on market rules, resource adequacy, or operational changes that directly affect hydropower participation in PJM's markets.",
     "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Extended Day-Ahead Market (EDAM) Intertie Modeling and Scheduling",
+    "date": "2026-06-15",
+    "time": "1:00 PM - 4:00 PM",
+    "rto": "CAISO",
+    "committee": "Intertie schedule modeling enhancements",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-edam-intertie-modeling-and-scheduling-jun-15-2026-0100-pm",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Intertie-Schedule-Modeling-Evolution",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Intertie modeling and scheduling in EDAM directly affects hydropower deliverability, transmission access, and market participation for hydro resources across interconnected balancing authorities.",
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "f0d1663c-df1a-44c3-bea5-d3d5b1a63fa1",
+        "canonical_name": "Intertie schedule modeling enhancements",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Intertie-Schedule-Modeling-Evolution"
+      }
+    ],
     "documents": []
   },
   {
@@ -616,11 +695,60 @@
     "committee": "PRTMDW",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8AA032CF-C6F9-4103-9E54-FBC1A13FF9E8}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "PRTMDW (Planning & Reliability Technical Marketing & Development Working Group) typically addresses general market development and planning issues not specifically focused on hydropower/storage market rules, capacity accreditation, or storage-related policy.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260612-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/prtmdw/2026/20260612/20260612-agenda.pdf",
+        "posted_date": "2026-06-09",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20260612-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/prtmdw/2026/20260612/20260612-agenda-doc.docx",
+        "posted_date": "2026-06-09",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 01 \u2013 Overview Of Prtmd Workshops",
+        "filename": "20260612-item-01---overview-of-prtmd-workshops.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/prtmdw/2026/20260612/20260612-item-01---overview-of-prtmd-workshops.pdf",
+        "posted_date": "2026-06-09",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 02 \u2013 Powering Reliability Through Market Design \u2013 PJM Presentation",
+        "filename": "20260612-item-02---powering-reliability-through-market-design---pjm-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/prtmdw/2026/20260612/20260612-item-02---powering-reliability-through-market-design---pjm-presentation.pdf",
+        "posted_date": "2026-06-09",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "NEPOOL Markets Committee Meeting",
@@ -675,7 +803,7 @@
         "title": "Agenda",
         "filename": "20260611-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-agenda.pdf",
-        "posted_date": "2026-06-05",
+        "posted_date": "2026-06-09",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -708,7 +836,7 @@
         "title": "Agenda Doc",
         "filename": "20260611-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-agenda-doc.docx",
-        "posted_date": "2026-06-05",
+        "posted_date": "2026-06-09",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -1221,7 +1349,7 @@
         "title": "Item 03f \u2013 Joint Edcs Presentation \u2013 Updated",
         "filename": "20260611-item-03f---joint-edcs-presentation---updated.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-03f---joint-edcs-presentation---updated.pdf",
-        "posted_date": "2026-06-08",
+        "posted_date": "2026-06-09",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -1245,6 +1373,75 @@
         "filename": "20260611-item-04b---odec-presentation---updated.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-04b---odec-presentation---updated.pdf",
         "posted_date": "2026-06-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "Item 02 \u2013 Connect And Manage Options \u2013 Packages Matrix",
+        "filename": "20260611-item-02---connect-and-manage-options--packages-matrix.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-02---connect-and-manage-options--packages-matrix.xls",
+        "posted_date": "2026-06-09",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "Item 04 \u2013 CIFP \u2013 RBP Options \u2013 Packages Matrix",
+        "filename": "20260611-item-04----cifp---rbp-options--packages-matrix.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-04----cifp---rbp-options--packages-matrix.xls",
+        "posted_date": "2026-06-09",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04d \u2013 Mn8 Energy Presentation",
+        "filename": "20260611-item-04d---mn8-energy-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260611/20260611-item-04d---mn8-energy-presentation.pdf",
+        "posted_date": "2026-06-09",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2504,7 +2701,7 @@
         "title": "Agenda",
         "filename": "20260610-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-agenda.pdf",
-        "posted_date": "2026-06-05",
+        "posted_date": "2026-06-09",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2537,7 +2734,7 @@
         "title": "Agenda Doc",
         "filename": "20260610-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-agenda-doc.docx",
-        "posted_date": "2026-06-05",
+        "posted_date": "2026-06-09",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2593,7 +2790,7 @@
         "title": "Item 02 \u2013 Connect And Manage Options \u2013 Packages Matrix",
         "filename": "20260610-item-02---connect-and-manage-options--packages-matrix.xls",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-02---connect-and-manage-options--packages-matrix.xls",
-        "posted_date": "2026-06-05",
+        "posted_date": "2026-06-09",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -3087,7 +3284,7 @@
         "title": "Item 03f \u2013 Joint Edcs Presentation \u2013 Updated",
         "filename": "20260610-item-03f---joint-edcs-presentation---updated.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-03f---joint-edcs-presentation---updated.pdf",
-        "posted_date": "2026-06-08",
+        "posted_date": "2026-06-09",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -3121,6 +3318,52 @@
         "filename": "20260610-item-04b---odec-presentation---updated.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-04b---odec-presentation---updated.pdf",
         "posted_date": "2026-06-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "Item 04 \u2013 CIFP \u2013 RBP Options \u2013 Packages Matrix",
+        "filename": "20260610-item-04----cifp---rbp-options--packages-matrix.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-04----cifp---rbp-options--packages-matrix.xls",
+        "posted_date": "2026-06-09",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Reliability Backstop Procurement",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04d \u2013 Mn8 Energy Presentation",
+        "filename": "20260610-item-04d---mn8-energy-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260610/20260610-item-04d---mn8-energy-presentation.pdf",
+        "posted_date": "2026-06-09",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -3693,6 +3936,33 @@
             "email": null
           }
         ]
+      }
+    ]
+  },
+  {
+    "title": "Settlement User Group",
+    "date": "2026-06-10",
+    "time": "10:00 AM - 11:00 AM",
+    "rto": "CAISO",
+    "committee": "Settlement User Group",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/settlement-user-group-jun-10-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/settlement-user-group",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Settlement User Group meetings focus on billing, invoicing, and financial settlement administration rather than market rules, resource adequacy, or operational participation affecting hydropower and pumped-storage facilities.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda - Settlement User Group - June 03, 2026",
+        "filename": "agenda-settlement-user-group-june-03-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-settlement-user-group-june-03-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -4641,6 +4911,31 @@
           }
         ],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-09-12 MC A00 - Actions Letter",
+        "filename": "a00_mc_2026_06_09_actions_letter.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a00_mc_2026_06_09_actions_letter.pdf",
+        "posted_date": "2026-06-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses Day-Ahead Ancillary Services market adjustments and includes a failed amendment by FirstLight Power (a major pumped-storage hydropower operator) regarding strike price floor removal in tariff Section III.1.8, which directly affects hydro market participation.",
+        "ai_summary": "ISO-NE's Markets Committee voted on proposed Day-Ahead Ancillary Services post-implementation adjustments affecting tariff sections governing ancillary service bidding and pricing. FirstLight Power, a significant PSH operator in the region, submitted an amendment to restore strike price floor language in Section III.1.8, which failed 20.83% in favor but indicates ongoing hydropower industry engagement with ancillary service market design.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "FirstLight Power",
+            "entity": "FirstLight Power",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "Jasleen Singh",
+            "entity": "ISO-NE",
+            "role": "author",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -5155,6 +5450,20 @@
     "materials_url": "https://www.caiso.com/meetings-events/topics/interconnection-customer-user-group",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Interconnection Customer User Group meetings address transmission interconnection processes and queue management that directly affect hydropower and pumped-storage projects seeking grid connection.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Transmission Expansion Advisory Committee Meeting",
+    "date": "2026-06-09",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Transmission Expansion Advisory Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={92E41E78-9CB1-4B7E-A8FE-29B833C9DC55}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Transmission expansion planning directly affects hydropower and pumped-storage interconnection capability, deliverability, and market participation in PJM.",
     "issues": [],
     "documents": []
   },
@@ -6058,6 +6367,84 @@
     ]
   },
   {
+    "title": "FERC Issues Notice on Commission-Led Technical Conference on PJM Governance and Stakeholder Reforms",
+    "date": "2026-06-05",
+    "time": null,
+    "rto": "FERC",
+    "committee": "HEADLINES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/ferc-issues-notice-commission-led-technical-conference-pjm-governance-and",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "FERC Issues Notice on Commission-Led Technical Conference on PJM Governance and Stakeholder Reforms",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/ferc-issues-notice-commission-led-technical-conference-pjm-governance-and",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a press release announcing a FERC technical conference on PJM governance and stakeholder reforms, which does not directly address hydropower, pumped-storage, capacity markets, energy storage, ancillary services, or market rules affecting hydro operations.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "elibrary",
+        "title": "AD26-7-000 Tech Conf.pdf",
+        "filename": null,
+        "url": "https://www.ferc.gov/sites/default/files/2026-06/AD26-7-000%20Tech%20Conf.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document text was not extracted; screening title alone indicates this is a FERC notice about PJM governance and stakeholder process reforms, which does not directly address hydropower market participation, capacity accreditation, resource adequacy rules, ancillary services, or other core hydro-relevant market mechanisms.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "FERC Issues Supplemental Notice for Technical Conference on Increasing Market and Planning Efficiency through Improved Software",
+    "date": "2026-06-05",
+    "time": null,
+    "rto": "FERC",
+    "committee": "HEADLINES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/ferc-issues-supplemental-notice-technical-conference-increasing-market-and",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "FERC Issues Supplemental Notice for Technical Conference on Increasing Market and Planning Efficiency through Improved Software",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/ferc-issues-supplemental-notice-technical-conference-increasing-market-and",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a press release announcing a technical conference on software efficiency and PJM governance; it contains no substantive discussion of hydropower, storage, capacity markets, resource adequacy, ancillary services, or market rules affecting hydro operations.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "elibrary",
+        "title": "AD10-12-017 Tech Conf.pdf",
+        "filename": null,
+        "url": "https://www.ferc.gov/sites/default/files/2026-06/AD10-12-017%20Tech%20Conf.pdf",
+        "posted_date": "2026-06-05",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "A technical conference on market and planning efficiency software improvements is too general and lacks specific mention of hydropower, pumped-storage, storage markets, ancillary services, or hydro-relevant market rules.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
     "title": "Operating Committee Meeting",
     "date": "2026-06-04",
     "time": "9:00 a.m. - 2:00 p.m.",
@@ -6859,6 +7246,20 @@
     ]
   },
   {
+    "title": "Distributed Resources Subcommittee Meeting",
+    "date": "2026-06-04",
+    "time": "1:00 p.m. - 2:30 p.m.",
+    "rto": "PJM",
+    "committee": "Distributed Resources Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={A1291998-920D-4442-B627-5C2A6CE6ED36}",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Distributed Resources Subcommittee meetings typically focus on small-scale, behind-the-meter distributed energy resources (DER) like rooftop solar and battery storage, which do not directly address utility-scale hydropower or pumped-storage hydropower market participation and operations.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Market Implementation Committee Meeting",
     "date": "2026-06-03",
     "time": "9:00 a.m. - 1:00 p.m.",
@@ -7485,6 +7886,71 @@
         "hydro_relevance_reason": "No document text was extracted for analysis, making it impossible to assess relevance to hydropower or pumped-storage topics.",
         "ai_summary": null,
         "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 05 1 \u2013 Dual Fuel Operations \u2013 Education",
+        "filename": "20260603-item-05-1---dual-fuel-operations---education.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-05-1---dual-fuel-operations---education.pdf",
+        "posted_date": "2026-06-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document focuses on dual fuel (natural gas and oil) combustion turbine operations during extreme weather events and fuel supply constraints, with no mention of hydropower, pumped-storage, energy storage markets, or dispatch rules that would affect the hydro industry.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
+            "canonical_name": "Dual Fuel Schedule Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "education",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Kevin Hatch",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "Kevin.Hatch@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "matrix",
+        "title": "Item 05 2 \u2013 Options \u2013 Packages Matrix \u2013 Dual Fuel Schedule Requirements \u2013 Post Meeting",
+        "filename": "20260603-item-05-2---options--packages-matrix---dual-fuel-schedule-requirements---post-meeting.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260603/20260603-item-05-2---options--packages-matrix---dual-fuel-schedule-requirements---post-meeting.xlsx",
+        "posted_date": "2026-06-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document title references 'Dual Fuel Schedule Requirements' which typically concerns natural gas and coal generation; no text was extracted to confirm hydropower or pumped-storage relevance.",
+        "ai_summary": null,
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
+            "canonical_name": "Dual Fuel Schedule Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "education",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
+          }
+        ],
         "stakeholders": []
       }
     ]
@@ -8997,6 +9463,20 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Distributed Resources Subcommittee Meeting",
+    "date": "2026-06-02",
+    "time": "1:00 p.m. - 2:30 p.m.",
+    "rto": "PJM",
+    "committee": "Distributed Resources Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={A1291998-920D-4442-B627-5C2A6CE6ED36}",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Distributed resources typically refer to small-scale, localized generation and storage (rooftop solar, home batteries, microgrids) rather than utility-scale hydropower or pumped-storage facilities that are the focus of hydropower industry analysis.",
+    "issues": [],
+    "documents": []
   },
   {
     "title": "Cost Development Subcommittee Meeting",
