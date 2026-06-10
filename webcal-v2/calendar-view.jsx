@@ -66,7 +66,9 @@ const CalendarMonth = ({ year, month, events, selectedDate, onSelectDate, onSele
                      className={"cal-event " + (e.isRelevant ? "hydro" : "")}
                      onClick={(ev) => { ev.stopPropagation(); onSelectEvent(e.id); }}
                      style={{ borderLeftColor: e.rtoMeta.color, color: e.rtoMeta.color }}
-                     title={`${e.rtoMeta.label}: ${e.title}`}>
+                     title={`${e.rtoMeta.label}: ${e.title}`
+                            + (e.committee && !e.title.includes(e.committee)
+                               ? `\n${e.committee}` : "")}>
                   <span className="ev-time" style={{ color: e.rtoMeta.color, opacity: 0.7 }}>
                     {e.time ? e.time.split(":")[0] + (e.time.endsWith("00") ? "" : ":" + e.time.split(":")[1]) : ""}
                   </span>
