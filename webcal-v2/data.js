@@ -11,8 +11,11 @@
     NYISO:    { color: "#EF4444", bg: "#FEF2F2", label: "NYISO" },
     ERCOT:    { color: "#A855F7", bg: "#FAF5FF", label: "ERCOT" },
     "ISO-NE": { color: "#06B6D4", bg: "#ECFEFF", label: "ISO-NE" },
-    "SPP Markets +": { color: "#D97706", bg: "#FEF3C7", label: "SPP" },
-    SPP:      { color: "#D97706", bg: "#FEF3C7", label: "SPP" },
+    // SPP is split into two tracks (see spp_scraper.py): the Markets+ market
+    // stakeholder process vs. the rest of SPP's Western footprint (WRAP,
+    // Western RC, ECCWG, …). Two filters, two colours in the same warm family.
+    "SPP Markets +": { color: "#D97706", bg: "#FEF3C7", label: "SPP Markets+" },
+    SPP:      { color: "#92400E", bg: "#FEF7ED", label: "SPP West" },
     NEPOOL:   { color: "#0891B2", bg: "#ECFEFF", label: "NEPOOL" },
     NERC:     { color: "#EC4899", bg: "#FDF2F8", label: "NERC" },
     FERC:     { color: "#64748B", bg: "#F1F5F9", label: "FERC" },

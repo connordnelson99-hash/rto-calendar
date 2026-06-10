@@ -25,6 +25,7 @@ from scrapers.caiso_scraper import CAISOScraper
 from scrapers.ferc_scraper import FERCScraper
 from scrapers.isone_scraper import ISONEScraper
 from scrapers.nyiso_scraper import NYISOScraper
+from scrapers.spp_scraper import SPPScraper
 from scrapers.pjm_issues_scraper import PJMIssuesScraper
 from scrapers.caiso_issues_scraper import CAISOIssuesScraper
 from scrapers.isone_issues_scraper import ISONEIssuesScraper
@@ -35,6 +36,7 @@ SCRAPER_REGISTRY = {
     "FERC": FERCScraper,
     "ISO-NE": ISONEScraper,
     "NYISO": NYISOScraper,
+    "SPP": SPPScraper,
 }
 
 ISSUES_SCRAPER_REGISTRY = {
