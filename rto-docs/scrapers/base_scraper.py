@@ -110,9 +110,13 @@ class BaseRTOScraper(ABC):
             print(f"\n  Found {total_events} meetings")
 
             for meeting in meetings:
+                # A scraper may tag a meeting with its own rto value (a
+                # sub-track within one source — e.g. SPP splits "SPP Markets +"
+                # from other "SPP" Western groups). Defaults to self.rto_name.
+                rto = meeting.get("rto") or self.rto_name
                 meeting_id = upsert_meeting(
                     conn,
-                    rto=self.rto_name,
+                    rto=rto,
                     committee=meeting.get("committee"),
                     title=meeting["title"],
                     meeting_date=meeting["meeting_date"],
@@ -134,7 +138,7 @@ class BaseRTOScraper(ABC):
                     doc_id = upsert_document(
                         conn,
                         meeting_id=meeting_id,
-                        rto=self.rto_name,
+                        rto=rto,
                         download_url=doc["download_url"],
                         doc_type=doc.get("doc_type"),
                         title=doc.get("title"),
