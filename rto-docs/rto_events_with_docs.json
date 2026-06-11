@@ -1535,11 +1535,49 @@
     "committee": "Special MIC - Gross CONE and Gross ACR Updates",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={F5F4E95F-7068-40C2-A9F3-C9338AC4382D}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Gross CONE (Cost of New Entry) and Gross ACR (Annual Charge Rate) updates directly affect capacity market accreditation and payment mechanisms that determine hydropower and pumped-storage project economics in PJM's capacity auction.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260616-special/agenda.pdf",
+        "posted_date": "2026-06-10",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Gross CONE and ACR updates directly affect capacity market accreditation and resource adequacy calculations that determine hydropower's capacity compensation and contribution to reliability.",
+        "ai_summary": "PJM is updating Gross CONE (Cost of New Entry) and Gross ACR (Avoidable Cost Rate) values, which are fundamental inputs to the capacity market and directly impact how hydropower resources are valued and compensated for capacity and ancillary services in PJM's markets.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Pete Langbein",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260616-special/agenda-doc.docx",
+        "posted_date": "2026-06-10",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CONE and ACR updates directly affect capacity accreditation and resource adequacy rules that determine how hydropower and pumped-storage resources are valued and compensated in PJM's capacity market.",
+        "ai_summary": "Gross CONE (Cost of New Entry) and Gross ACR (Avoidable Cost Rate) are fundamental parameters in PJM's capacity market that establish the floor and reference price for capacity accreditation. Changes to these metrics can significantly impact how hydropower and pumped-storage facilities are valued relative to other resources in the capacity auction.",
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "SRRTEP-S Meeting",
@@ -2783,6 +2821,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -2790,16 +2838,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -2816,6 +2854,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -2823,16 +2871,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -2849,6 +2887,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -2856,16 +2904,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -2906,8 +2944,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -2929,8 +2967,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -2952,8 +2990,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -2975,8 +3013,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -2998,8 +3036,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3021,8 +3059,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3044,8 +3082,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3067,8 +3105,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3090,8 +3128,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3113,8 +3151,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3136,8 +3174,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3159,8 +3197,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3182,8 +3220,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3205,8 +3243,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3228,8 +3266,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3250,6 +3288,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -3257,16 +3305,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -3284,8 +3322,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3307,8 +3345,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3330,8 +3368,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3353,8 +3391,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3399,8 +3437,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3422,8 +3460,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -3444,6 +3482,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -3451,16 +3499,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -4816,6 +4854,221 @@
         "ai_summary": "SPP is rolling out comprehensive Markets+ training for market participants with dedicated modules on Market Storage Resources (MSR), dispatchable and variable energy resources, transmission, congestion management, and settlements. Hydropower and pumped-storage operators will need to complete Level 1\u20133 training and register assets using the commercial model framework; key topics include resource asset registration, must-offer obligations, and RC services (congestion management, outages).",
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "04_MPSP_MITPSPS and NSI.pptx  [in MSWG Meeting Materials 20260611 (1).zip]",
+        "filename": "04_MPSP_MITPSPS and NSI.pptx",
+        "url": "https://www.spp.org/Documents/76862/MSWG%20Meeting%20Materials%2020260611%20%281%29.zip#z=04_MPSP_MITPSPS%20and%20NSI.pptx",
+        "posted_date": "2026-06-11",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document addresses Market Transfer constructs (MPSP, MITSPS, MTI), net schedule interchange calculations, and constraint logic that directly affect how energy resources including hydro participate in SPP Markets+ transmission-constrained dispatch and bilateral trading.",
+        "ai_summary": "This presentation explains how Market Point Scheduling Points (MPSP), Market Internal Transfer Schedules for Pumped-Storage (MITSPS), Market Transfer Interchanges (MTI), and bilateral transactions interact to determine Net Schedule Interchange (NSI) for participating Balancing Authority Areas. The mechanics of fixed vs. dynamic schedules, real-time dispatch integration, and constraint application (CISL) are material to how hydropower and pumped-storage resources will be scheduled and compensated in SPP's seams coordination framework.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "00-Markets+ Intro Slides 20260611.pptx  [in MSWG Meeting Materials 20260611 (1).zip]",
+        "filename": "00-Markets+ Intro Slides 20260611.pptx",
+        "url": "https://www.spp.org/Documents/76862/MSWG%20Meeting%20Materials%2020260611%20%281%29.zip#z=00-Markets%2B%20Intro%20Slides%2020260611.pptx",
+        "posted_date": "2026-06-11",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a generic introductory slide deck for a Markets+ Seams Working Group meeting that contains only procedural/administrative content (anti-trust notice, meeting engagement rules, accessibility information) with no substantive discussion of hydropower, pumped-storage, capacity markets, ancillary services, or any market rules affecting hydro operations.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Libby Kirby",
+            "entity": "BPA",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Todd Kochhesier",
+            "entity": "BPA",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Camille Christen",
+            "entity": "Idaho Power",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kathy Anderson",
+            "entity": "Idaho Power",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "01-MSWG Agenda 20260611.docx  [in MSWG Meeting Materials 20260611 (1).zip]",
+        "filename": "01-MSWG Agenda 20260611.docx",
+        "url": "https://www.spp.org/Documents/76862/MSWG%20Meeting%20Materials%2020260611%20%281%29.zip#z=01-MSWG%20Agenda%2020260611.docx",
+        "posted_date": "2026-06-11",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a procedural agenda for a seams working group meeting focused on administrative items, interchange transaction systems, and eTag coordination\u2014none of which directly address hydropower capacity, resource adequacy, storage, ancillary services, or hydro-specific market participation.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Libby Kirby",
+            "entity": "BPA",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Todd Kochheiser",
+            "entity": "BPA",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Camille Christen",
+            "entity": "Idaho Power",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Kathy Anderson",
+            "entity": "Idaho Power",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Casey Cadle",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dan Kheloussi",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jena Arnold",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jennifer Farley",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kelli Schermerhorn",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kerri Schlachter",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Marcie Martin",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Wayne Camp",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "04-MIR60-R Markets+ Interchange Transaction System Points Schedules (MITSPS) submission.docx  [in MSWG Meeting Materials 20260611 (1).zip]",
+        "filename": "04-MIR60-R Markets+ Interchange Transaction System Points Schedules (MITSPS) submission.docx",
+        "url": "https://www.spp.org/Documents/76862/MSWG%20Meeting%20Materials%2020260611%20%281%29.zip#z=04-MIR60-R%20Markets%2B%20Interchange%20Transaction%20System%20Points%20Schedules%20%28MITSPS%29%20submission.docx",
+        "posted_date": "2026-06-11",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This MIR establishes framework for Markets+ System Points (MPSP) and interchange transaction scheduling that directly affects how hydropower and other resources can participate in interchange transactions across RTO boundaries and internal market transfers.",
+        "ai_summary": "The MITSPS protocol creates generic scheduling points (MPSP) within Markets+ BAAs to facilitate import/export interchange transactions and internal market transfers. Hydropower resources will need to understand how these new generic points affect their ability to schedule energy exports/imports and participate in market-cleared transactions across the Markets+ footprint boundary.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kelli Schermerhorn",
+            "entity": "Southwest Power Pool (SPP)",
+            "role": "author",
+            "email": "kschermerhorn@spp.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "05_MIR83-R e-Tag Status.pptx  [in MSWG Meeting Materials 20260611 (1).zip]",
+        "filename": "05_MIR83-R e-Tag Status.pptx",
+        "url": "https://www.spp.org/Documents/76862/MSWG%20Meeting%20Materials%2020260611%20%281%29.zip#z=05_MIR83-R%20e-Tag%20Status.pptx",
+        "posted_date": "2026-06-11",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses e-Tag status eligibility and interchange transaction processing procedures with no specific discussion of hydropower, pumped-storage, capacity accreditation, ancillary services, energy storage market rules, or other hydropower-relevant topics.",
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "06_High Priority Exports Surplus Calculation Change BHE Presentation Final.pptx  [in MSWG Meeting Materials 20260611 (1).zip]",
+        "filename": "06_High Priority Exports Surplus Calculation Change BHE Presentation Final.pptx",
+        "url": "https://www.spp.org/Documents/76862/MSWG%20Meeting%20Materials%2020260611%20%281%29.zip#z=06_High%20Priority%20Exports%20Surplus%20Calculation%20Change%20BHE%20Presentation%20Final.pptx",
+        "posted_date": "2026-06-11",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses export market constructs, surplus calculations, and firmness rules that directly affect how dispatchable resources like hydropower and pumped-storage participate in firm bilateral trades and export markets within SPP Markets+.",
+        "ai_summary": "Black Hills Energy raises critical issues with SPP Markets+ surplus calculation methodology for High Priority Exports, arguing that static forward showing requirements misalign with operational realities and improperly restrict firm export capability. The proposed fix\u2014allowing near-term recalculation to reflect actual availability\u2014could materially affect how hydropower and storage resources qualify for firm export status and participate in bilateral markets.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kerri Schlachter",
+            "entity": "Black Hills Energy",
+            "role": "presenter",
+            "email": "Kerri.Schlachter@blackhillscorp.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "07_2026_Q2_JUNE_MSWG_StakeholderTrainingUpdate_1.0.pptx  [in MSWG Meeting Materials 20260611 (1).zip]",
+        "filename": "07_2026_Q2_JUNE_MSWG_StakeholderTrainingUpdate_1.0.pptx",
+        "url": "https://www.spp.org/Documents/76862/MSWG%20Meeting%20Materials%2020260611%20%281%29.zip#z=07_2026_Q2_JUNE_MSWG_StakeholderTrainingUpdate_1.0.pptx",
+        "posted_date": "2026-06-11",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Document covers Markets+ training curriculum including resource registration, storage resources (MSR), dispatchable demand response, and variable energy resources\u2014all directly applicable to hydropower and pumped-storage market participation in SPP.",
+        "ai_summary": "SPP's Markets+ training program includes dedicated modules on Market Storage Resources (MSR), dispatchable variable energy resources, congestion management, and transmission\u2014essential for hydro operators to understand capacity accreditation, dispatch rules, and market registration in the new SPP construct. Level 2 and 3 training addresses day-ahead market, real-time operations, and asset configuration that directly affect how hydropower and pumped-storage resources participate.",
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "comment",
+        "title": "03-MIR75-R SPP Comments-20260520 (1).docx  [in MSWG Meeting Materials 20260611 (1).zip]",
+        "filename": "03-MIR75-R SPP Comments-20260520 (1).docx",
+        "url": "https://www.spp.org/Documents/76862/MSWG%20Meeting%20Materials%2020260611%20%281%29.zip#z=03-MIR75-R%20SPP%20Comments-20260520%20%281%29.docx",
+        "posted_date": "2026-05-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document addresses e-Tag adjustment mechanics for high-priority exports with direct implications for hydropower and pumped-storage resources (MSRs) participating in SPP Markets+, including specific provisions for Variable Energy Resources (VERs) and Maximum Economic Limit/Discharge Limit constraints.",
+        "ai_summary": "MIR75-R establishes protocols for adjusting export transaction quantities when a resource's Maximum Economic Limit (ECOL) or Maximum Discharge Limit (for pumped-storage) falls below committed export amounts. The rule applies pro-rata adjustments across multiple e-Tags using the same source and separately governs Variable Energy Resources. This directly affects how hydropower and pumped-storage resources manage high-priority exports during transmission and output constraint situations.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kelli Schermerhorn",
+            "entity": "SPP",
+            "role": "author",
+            "email": "kschermerhorn@spp.org"
+          }
+        ]
       }
     ]
   },
@@ -5494,6 +5747,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -5501,16 +5764,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -5527,6 +5780,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -5534,16 +5797,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -5561,8 +5814,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -5606,6 +5859,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -5613,16 +5876,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -5639,6 +5892,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -5646,16 +5909,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -5673,8 +5926,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -5718,6 +5971,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -5725,16 +5988,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -5751,6 +6004,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -5758,16 +6021,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -5784,6 +6037,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -5791,16 +6054,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -5818,8 +6071,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -5841,8 +6094,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -5864,8 +6117,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -5887,8 +6140,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -5910,8 +6163,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -5933,8 +6186,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -5956,8 +6209,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -5978,6 +6231,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -5985,16 +6248,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -6011,6 +6264,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -6018,16 +6281,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -6044,6 +6297,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -6051,16 +6314,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -6077,6 +6330,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -6084,16 +6347,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -6111,8 +6364,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -6134,8 +6387,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -6157,8 +6410,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -6179,6 +6432,16 @@
         "issues": [
           {
             "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
             "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
             "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
             "status": "solution alternatives proposed",
@@ -6186,16 +6449,6 @@
             "committee_owner": "other",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
-          },
-          {
-            "rto": "PJM",
-            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
-            "stakeholder_phase": "packages",
-            "committee_owner": "other",
-            "is_open": 1,
-            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
           }
         ],
         "stakeholders": []
@@ -14204,6 +14457,25 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "Informational Only \u2013 PJM Statement On Public Policies Within The 2026 RTEP",
+        "filename": "20260602-informational-only---pjm-statement-on-public-policies-within-the-2026-rtep.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260602/20260602-informational-only---pjm-statement-on-public-policies-within-the-2026-rtep.pdf",
+        "posted_date": "2026-06-10",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document discusses capacity expansion modeling that includes battery storage and energy storage targets, which directly affect hydropower and pumped-storage market participation and transmission planning.",
+        "ai_summary": "PJM's 2026 RTEP planning document addresses energy storage targets (Sensitivity A.3) and battery storage modeling in capacity expansion scenarios. The document discusses how storage technologies, including potential pumped-storage resources, are considered alongside other resources in long-term transmission and resource adequacy planning through 2034. This affects how hydro and PSH compete in PJM's planning framework.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "ISAC",
+            "entity": "Independent State Agencies Committee",
+            "role": "sponsor",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -16659,8 +16931,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -16682,8 +16954,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -16705,8 +16977,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -16728,8 +17000,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -16751,8 +17023,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -16774,8 +17046,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -16843,8 +17115,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -16866,8 +17138,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -16889,8 +17161,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -16912,8 +17184,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -16935,8 +17207,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -16958,8 +17230,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -16981,8 +17253,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -30291,8 +30563,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -30440,8 +30712,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -30623,8 +30895,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -30646,8 +30918,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -30769,8 +31041,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -30792,8 +31064,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -31083,8 +31355,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -31239,8 +31511,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -31422,8 +31694,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -31445,8 +31717,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -31568,8 +31840,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
@@ -31598,8 +31870,8 @@
           {
             "rto": "PJM",
             "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
-            "canonical_name": "Reliability Backstop Procurement",
-            "status": "evaluation in progress",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
             "stakeholder_phase": "packages",
             "committee_owner": "other",
             "is_open": 1,
