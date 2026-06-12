@@ -46,24 +46,101 @@ from db.database import (
 # ── Shared system prompt ────────────────────────────────────────────────────
 
 SYSTEM_PROMPT = """\
-You are an analyst for the National Hydropower Association (NHA).
-Your job is to screen RTO/ISO regulatory meetings and documents to identify
-content relevant to the hydropower and pumped-storage industry.
+You are an analyst for the National Hydropower Association (NHA), screening
+RTO/ISO/FERC meeting materials for NHA's Market Design Committee — owners and
+operators of conventional hydropower and pumped-storage hydro (PSH). They read
+this feed to learn which market-design developments affect their revenue,
+their compliance obligations, or their strategic options. Screen for THEIR
+interests, not for generic energy-industry news.
 
-Relevant topics include (but are not limited to):
-- Capacity markets, capacity accreditation, or ELCC for hydropower/storage
-- Resource adequacy rules affecting dispatchable or variable hydro
-- Energy storage, pumped-storage hydropower (PSH), or battery co-location
-- Ancillary services (regulation, spinning reserve) that hydro typically provides
-- Transmission planning that affects hydro interconnection or deliverability
-- Market rules for flexible ramping, intraday bidding, or dispatch
-- Licensing, relicensing, or environmental compliance interactions with markets
-- FERC orders or RTO tariff changes that affect hydro participation
-- Dam safety, water rights, or river operations as they intersect with market rules
+A document is RELEVANT when a hydro or PSH owner reading it would learn
+something that touches one of these:
 
-NOT relevant: routine IT/operations updates, billing admin, general corporate
-governance unrelated to market rules, non-hydro generation technologies unless
-they directly affect hydro market participation.
+1. REVENUE — how hydro's products are priced, procured, or accredited:
+   - Energy price formation: scarcity pricing, uplift/make-whole, price
+     adders, locational signals, real-time co-optimization
+   - Ancillary services hydro typically supplies: regulation, spinning/
+     operating reserves, fast frequency response, inertia, reactive power/
+     voltage support, black start
+   - Ramping/uncertainty products (flexible ramping, ramp capability,
+     AS demand curves) — hydro is the classic supplier of flexibility
+   - Capacity markets and accreditation: ELCC/UCAP for hydro and storage,
+     seasonal accreditation, performance assessments and penalties,
+     auction parameters (CONE, demand-curve resets)
+   - Market power mitigation as applied to use-limited resources:
+     reference levels, default energy bids, opportunity-cost offer
+     development, mitigation of storage — hydro is the canonical
+     use-limited resource and chronically mis-fitted by these rules
+   - Storage participation models — pumped storage especially (charging
+     energy treatment, state-of-charge rules, AS stacking, long-duration
+     storage programs), plus battery rules that set precedent for PSH
+   - Hybrid / co-located resource rules; DER aggregation (Order 2222)
+     as a participation pathway for small hydro
+   - Treatment of run-of-river/variable hydro: intermittent-resource
+     programs, forecasting requirements, forecast-error settlement
+   - Energy attribute certificates, RECs, clean-energy program design,
+     and GHG attribution/accounting in market footprints (WEIM/EDAM GHG
+     attribution matters enormously to Northwest hydro exports)
+
+2. OBLIGATIONS — rules a hydro operator must comply with or respond to:
+   - Interconnection and deliverability rules (incl. FERC Order 2023-era
+     queue reform), surplus interconnection service and uprates at
+     existing plants, must-offer requirements, outage scheduling
+   - Operating standards reaching synchronous units: ride-through,
+     winterization/resource readiness, dam-adjacent reliability standards
+   - Metering, settlement, and dispatch-instruction changes
+
+3. STRATEGIC OPTIONS — developments that change what hydro owners can do:
+   - Load growth, large-load interconnection, data centers, and
+     co-located load — scarcity from load growth raises the value of
+     every existing hydro MW, and co-location rules may let hydro serve
+     load behind the meter; treat these as squarely relevant
+   - Resource adequacy constructs and reliability mechanisms; seasonal
+     energy-adequacy studies (incl. hydro-conditions outlooks)
+   - Transmission planning/expansion affecting hydro deliverability,
+     interregional transfer capability, storage-as-transmission and
+     other non-wires alternatives
+   - RMR/mothball/retirement processes (fleet decisions and scarcity)
+   - Water, drought, and river-operations issues as they intersect markets
+   - Licensing/relicensing or environmental compliance touching markets
+   - Market seams and governance: EDAM/WEIM, Markets+, RTO membership
+     choices — NHA members in the West are actively choosing between these
+   - FERC orders and tariff filings in active compliance phases
+
+NOT relevant: retail-market mechanics (customer switching, billing, data
+transport, MarkeTrak/Texas SET), routine IT and operations reports, training
+logistics, credit/settlement administration, corporate governance unrelated
+to market rules, and fuel-specific issues with no hydro analog (e.g. gas
+pipeline coordination specifics) UNLESS the rule's design would extend to
+dispatchable or storage resources generally.
+
+Calibration: prefer recall — this screen is the single gate for THREE
+downstream consumers with different bars, and a document you reject is
+permanently invisible to all of them:
+1. A weekly member digest (triages aggressively — false positives cost it
+   nothing).
+2. The calendar UI, where members browse per-meeting documents.
+3. An all-time analytical corpus used for ad-hoc cross-market analysis
+   ("which RTOs are rethinking frequency response?"). This consumer values
+   reference material the digest would skip: market-monitor reports,
+   white papers, long-run RA/transmission studies, post-event analyses —
+   keep these when they touch the axes above, even with no immediate
+   member action in them.
+Flag relevant if ANY of the three would plausibly want the document.
+Reserve relevant=false for documents you are confident carry nothing on
+the axes above. Write the summary to serve all three: self-contained
+(name the RTO, mechanism, and proceeding), substantive enough to be
+useful standing alone in a corpus search months later.
+
+Special case — ERCOT: Texas has essentially no hydropower, but NHA tracks
+ERCOT for cross-market comparison (e.g. how ERCOT handles frequency response
+or storage participation differently from hydro-rich markets like NYISO).
+Flag ERCOT content as relevant when it addresses market-design topics hydro
+cares about elsewhere — ancillary services and frequency response, energy
+storage participation, capacity/reliability mechanisms, price formation,
+flexibility products — even though no hydro fleet is directly affected, and
+frame its summary as a comparison point. ERCOT retail-market, IT, and admin
+content remains not relevant.
 """
 
 # ── Stage 1: Meeting screening prompt ──────────────────────────────────────
@@ -85,6 +162,33 @@ Answer in exactly this JSON format (no other text):
 }}
 """
 
+# ── Topic taxonomy ──────────────────────────────────────────────────────────
+# Controlled vocabulary for per-document topic tags. These drive the
+# calendar UI's topic filter and deterministic corpus pivots, so values
+# must come from THIS list exactly — never free-form. Keep in sync with
+# TOPIC_META in webcal-v2/data.js (labels live there).
+
+TOPIC_TAGS = {
+    "price-formation":    "energy pricing, scarcity pricing, uplift/make-whole, price adders, co-optimization",
+    "ancillary-services": "reserves, regulation, frequency response, inertia, black start, voltage support",
+    "ramping-flexibility": "ramping/uncertainty products, flexibility procurement, AS demand curves",
+    "capacity-ra":        "capacity markets, accreditation/ELCC, resource adequacy, adequacy studies, auction parameters",
+    "storage":            "storage participation, pumped storage, state-of-charge rules, LDES, storage-as-transmission",
+    "hybrids-der":        "hybrid/co-located generation, DER aggregation, Order 2222",
+    "mitigation-offers":  "market power mitigation, reference levels, opportunity-cost offers",
+    "interconnection":    "interconnection queues, queue reform, surplus interconnection, uprates, deliverability",
+    "transmission":       "transmission planning/expansion, interregional transfer, non-wires alternatives",
+    "load-growth":        "large loads, data centers, co-located load, demand forecasting",
+    "ops-compliance":     "ride-through, winterization, outage scheduling, must-offer, metering/settlement",
+    "seams-governance":   "EDAM/WEIM, Markets+, market seams, RTO membership and governance",
+    "water-hydrology":    "drought, river operations, hydro conditions, licensing/environmental",
+    "clean-energy":       "RECs/EACs, GHG attribution and accounting, clean-energy program design",
+    "ferc-policy":        "FERC orders, compliance filings, tariff changes",
+}
+
+_TOPIC_LIST_FOR_PROMPT = "\n".join(
+    f"  {tag} — {desc}" for tag, desc in TOPIC_TAGS.items())
+
 # ── Stage 2: Document screening prompt ─────────────────────────────────────
 
 DOCUMENT_PROMPT = """\
@@ -100,15 +204,33 @@ Document metadata:
   Document title: {doc_title}
   Document type: {doc_type}
 
-Document text (up to 8,000 characters):
+How to read the document text below — it is MACHINE-EXTRACTED, not the
+original layout:
+- Tables appear as pipe-delimited rows: | cell | cell | cell |. Within a
+  pipe row, position is meaningful — read it like a table row. In PDFs,
+  table content may appear twice: flattened in the prose flow AND as pipe
+  rows. The pipe rows are the authoritative reading for which value
+  belongs to which row/column; the flattened prose ordering is unreliable.
+- "[Page N]" / "[Slide N]" markers separate pages/slides. Content under
+  different markers belongs to different pages — don't merge across them.
+- Chart data appears as: Chart "series name": label=value; label=value.
+- Extraction is imperfect: stray numbers may appear without context
+  (chart annotations, footers), and prose order can scramble on dense
+  layouts. If you cannot tell with confidence which row, column, series,
+  or resource a number belongs to, DO NOT attribute it in your summary —
+  describe the finding qualitatively or omit the figure. A summary that
+  misattributes a number is worse than one with no number.
+
+Document text (excerpt):
 {text_excerpt}
 
 ---
 Answer in exactly this JSON format (no other text):
 {{
   "relevant": true or false,
-  "reason": "one sentence explaining why or why not",
-  "summary": "if relevant, 2-3 sentence summary of what matters for hydro; otherwise null",
+  "reason": "one sentence naming the MECHANISM: which hydro/PSH revenue stream, obligation, or strategic option this touches and how (or, if not relevant, why nothing applies)",
+  "summary": "if relevant, 2-4 sentences (see rules below); otherwise null",
+  "topics": ["1-3 tags from the topic list below; [] if not relevant"],
   "stakeholders": [
     {{
       "name": "<full name as it appears>",
@@ -118,6 +240,39 @@ Answer in exactly this JSON format (no other text):
     }}
   ]
 }}
+
+Summary rules (these summaries go directly to hydro asset owners):
+- Structure the summary as three moves:
+  1. WHAT: the proposal/decision/finding, plus its status and next step
+     when stated (e.g. "tabled at PRS", "board vote scheduled").
+  2. MECHANISM: the doc-specific causal chain to hydro or PSH — which
+     revenue stream, obligation, or option changes, and in which
+     direction. A category label is NOT a mechanism: never write
+     "relates to ancillary services hydro provides" or "a topic NHA
+     tracks". Write what would actually change for an owner.
+  3. WHO/WHEN: which segment is most affected (pumped storage vs
+     reservoir vs run-of-river; large vs small) when the doc supports
+     it, and any comment deadline or vote date quoted VERBATIM —
+     deadlines are the single most actionable thing in this feed.
+- Example of the expected quality (CAISO straw proposal, hypothetical):
+  "CAISO proposes capping storage RA accreditation at the first four
+  discharge hours, with comments due February 28, 2027. That would
+  erase the accreditation edge long-duration pumped storage currently
+  holds over 4-hour batteries — PSH counted toward RA showings beyond
+  hour four loses capacity value. Most exposed are owners using PSH in
+  CPE/RA portfolios; comments are due February 28, 2027."
+- Don't open with "This document..." — open with the thing itself.
+- State figures only when their attribution is unambiguous in the text
+  (see extraction notes above). Never reconstruct or estimate a value.
+- Name the position-takers when the doc states positions ("ERCOT opposes",
+  "LCRA's comments support...").
+- If the genuine value is contextual (market-monitor report, white paper,
+  cross-market comparison), say what an analyst would learn from it — but
+  still concretely, not "provides useful context".
+
+Topic tags — choose 1-3 that best describe what the document is ABOUT
+(not every topic it brushes past). Use ONLY these exact tags:
+{topic_list}
 
 Stakeholder extraction rules:
 - Include named individuals from cover pages, "submitted by" lines, "contact:" blocks,
@@ -129,7 +284,10 @@ Stakeholder extraction rules:
 - Return an empty array [] if no contributors are identifiable.
 """
 
-MAX_DOC_CHARS = 8000  # larger window to get past boilerplate cover pages
+# 12K chars ≈ 3K tokens of Haiku input (~$0.003/doc) — worth it: RTO docs
+# front-load boilerplate (NPRR forms, revision-history tables), and the
+# structured table/slide markers consume some of the budget.
+MAX_DOC_CHARS = 12000
 
 
 # ── API helpers ─────────────────────────────────────────────────────────────
@@ -181,7 +339,8 @@ def screen_meeting(client, meeting_row, dry_run=False):
 def screen_document(client, doc_row, dry_run=False):
     """
     Stage 2: Screen a document by title + text excerpt.
-    Returns (relevant: bool, reason: str, summary: str|None, stakeholders: list).
+    Returns (relevant: bool, reason: str, summary: str|None,
+             topics: list[str], stakeholders: list).
     """
     text = doc_row["extracted_text"] or ""
     excerpt = text[:MAX_DOC_CHARS].strip()
@@ -194,12 +353,13 @@ def screen_document(client, doc_row, dry_run=False):
         doc_title=doc_row["title"] or doc_row["filename"] or "",
         doc_type=doc_row["doc_type"] or "",
         text_excerpt=excerpt or "(no text extracted — screening title only)",
+        topic_list=_TOPIC_LIST_FOR_PROMPT,
     )
 
     if dry_run:
         print(f"\n--- DRY RUN (doc {doc_row['id']}) ---")
         print(prompt[:600], "...")
-        return True, "dry-run", None, []
+        return True, "dry-run", None, [], []
 
     try:
         # Larger budget than the old 384 to fit the new stakeholders array.
@@ -208,14 +368,21 @@ def screen_document(client, doc_row, dry_run=False):
         stakeholders = result.get("stakeholders") or []
         if not isinstance(stakeholders, list):
             stakeholders = []
+        # Topics are a controlled vocabulary — drop anything off-list so
+        # the UI filter and corpus pivots stay deterministic.
+        topics = result.get("topics") or []
+        if not isinstance(topics, list):
+            topics = []
+        topics = [t for t in topics if t in TOPIC_TAGS][:3]
         return (
             bool(result.get("relevant", False)),
             result.get("reason", ""),
             result.get("summary"),
+            topics,
             stakeholders,
         )
     except json.JSONDecodeError as e:
-        return False, f"parse error: {e}", None, []
+        return False, f"parse error: {e}", None, [], []
 
 
 # ── Stage runners ────────────────────────────────────────────────────────────
@@ -269,15 +436,15 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200, dry_run
     """Screen documents for meetings that passed Stage 1."""
     where = [
         # Stage-1 gate: only docs from meetings flagged relevant — EXCEPT
-        # NYISO, SPP, and MISO. Their meeting titles are just the committee
-        # name / acronym (the agenda lives only inside the agenda doc), so
-        # Stage 1 has too little signal and filters out broad-but-important
-        # venues like NYISO's Business Issues Committee, SPP's Markets+
-        # working groups, or MISO's Planning Advisory Committee. Screening
-        # every doc on its own extracted text recovers the relevant material
-        # those meetings carry.
+        # NYISO, SPP, MISO, and ERCOT. Their meeting titles are just the
+        # committee name / acronym (the agenda lives only inside the agenda
+        # doc), so Stage 1 has too little signal and filters out
+        # broad-but-important venues like NYISO's Business Issues Committee,
+        # SPP's Markets+ working groups, MISO's Planning Advisory Committee,
+        # or ERCOT's WMS/PRS. Screening every doc on its own extracted text
+        # recovers the relevant material those meetings carry.
         "(m.hydro_relevant = 1 OR d.rto IN "
-        "('NYISO', 'SPP', 'SPP Markets +', 'MISO'))",
+        "('NYISO', 'SPP', 'SPP Markets +', 'MISO', 'ERCOT'))",
     ]
     params = []
 
@@ -322,8 +489,9 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200, dry_run
         print(f"  [{i}/{len(docs)}] {doc['rto']} | {label} ({text_note})", end=" ... ", flush=True)
 
         try:
-            relevant, reason, summary, stakeholders = screen_document(client, doc, dry_run)
-            save_ai_screening(conn, doc["id"], relevant, reason, summary)
+            relevant, reason, summary, topics, stakeholders = screen_document(client, doc, dry_run)
+            save_ai_screening(conn, doc["id"], relevant, reason, summary,
+                              topics=topics)
             save_document_stakeholders(
                 conn, doc["id"], stakeholders, source_text=doc["extracted_text"]
             )

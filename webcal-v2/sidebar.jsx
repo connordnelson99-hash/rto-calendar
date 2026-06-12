@@ -15,6 +15,24 @@ const Sidebar = ({ filters, setFilters, events, today, weekEnd, digestCount, the
   }, [rtoCounts]);
 
   const rtoMeta = window.MARKETS_DATA.rtoMeta;
+  const topicMeta = window.MARKETS_DATA.topicMeta || {};
+
+  // Topic counts across all events (an event carries the union of its
+  // docs' tags). Only topics that actually occur are listed; the whole
+  // section hides on older exports that pre-date tagging.
+  const topicCounts = React.useMemo(() => {
+    const m = {};
+    for (const e of events) {
+      for (const t of (e.topics || [])) m[t] = (m[t] || 0) + 1;
+    }
+    return m;
+  }, [events]);
+  const topicOrder = React.useMemo(
+    () => Object.keys(topicCounts).sort((a, b) => topicCounts[b] - topicCounts[a]),
+    [topicCounts]);
+
+  const setTopic = (topic) =>
+    setFilters({ ...filters, topic: filters.topic === topic ? "all" : topic });
 
   const navItems = [
     { id: "all", label: "All meetings", icon: "calendar", count: events.length },
@@ -57,6 +75,26 @@ const Sidebar = ({ filters, setFilters, events, today, weekEnd, digestCount, the
           );
         })}
       </div>
+
+      {topicOrder.length > 0 && (
+        <div className="sidebar-section">
+          <div className="sidebar-label">Topics</div>
+          {topicOrder.map(topic => {
+            const active = filters.topic === topic;
+            return (
+              <div key={topic}
+                   className={"nav-item " + (active ? "active" : "")}
+                   onClick={() => setTopic(topic)}>
+                <span className="nav-icon">
+                  <Icon name="tag" size={12}/>
+                </span>
+                <span>{topicMeta[topic]?.label || topic}</span>
+                <span className="nav-count">{topicCounts[topic]}</span>
+              </div>
+            );
+          })}
+        </div>
+      )}
 
       <div style={{flex: 1}}/>
 

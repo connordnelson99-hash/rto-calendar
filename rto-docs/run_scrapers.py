@@ -27,9 +27,11 @@ from scrapers.isone_scraper import ISONEScraper
 from scrapers.nyiso_scraper import NYISOScraper
 from scrapers.spp_scraper import SPPScraper
 from scrapers.miso_scraper import MISOScraper
+from scrapers.ercot_scraper import ERCOTScraper
 from scrapers.pjm_issues_scraper import PJMIssuesScraper
 from scrapers.caiso_issues_scraper import CAISOIssuesScraper
 from scrapers.isone_issues_scraper import ISONEIssuesScraper
+from scrapers.ercot_issues_scraper import ERCOTIssuesScraper
 
 SCRAPER_REGISTRY = {
     "PJM": PJMScraper,
@@ -39,12 +41,14 @@ SCRAPER_REGISTRY = {
     "NYISO": NYISOScraper,
     "SPP": SPPScraper,
     "MISO": MISOScraper,
+    "ERCOT": ERCOTScraper,
 }
 
 ISSUES_SCRAPER_REGISTRY = {
     "PJM": PJMIssuesScraper,
     "CAISO": CAISOIssuesScraper,
     "ISO-NE": ISONEIssuesScraper,
+    "ERCOT": ERCOTIssuesScraper,
 }
 
 OUTPUT_JSON = Path(__file__).parent / "rto_events_with_docs.json"

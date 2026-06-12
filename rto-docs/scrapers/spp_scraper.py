@@ -110,13 +110,13 @@ import re
 import struct
 import time
 import zlib
-import zipfile
 from datetime import datetime
 from urllib.parse import quote, urlparse, unquote, parse_qs
 
 from bs4 import BeautifulSoup
 
 from .base_scraper import BaseRTOScraper
+from . import doctext
 
 _DATE8_RE = re.compile(r"(\d{8})(?:-(\d{2,4}))?")
 _MONTH_DATE_RE = re.compile(r"([A-Z][a-z]+)\s+(\d{1,2}),\s+(\d{4})")
@@ -598,11 +598,15 @@ class SPPScraper(BaseRTOScraper):
                     # Per-slide fallback: _entry_bytes already inflates.
                     raw = self._entry_bytes(zip_url, pstart, e)
                 xml = raw.decode("utf-8", "replace")
-                parts.append(" ".join(re.findall(r"<a:t>(.*?)</a:t>", xml)))
+                body = doctext.slide_xml_to_text(xml)
+                if body:
+                    parts.append(f"[Slide {self._slide_num(e['name'])}]\n{body}")
             except Exception:
                 continue
-        text = re.sub(r"\s+", " ", "\n".join(parts)).strip()
-        return text or None
+        # (Charts are NOT pulled here — they'd cost extra range reads per
+        # deck for rels + chart parts. Locally-downloaded decks get chart
+        # series via doctext.pptx_to_text; SPP's in-zip decks skip them.)
+        return "\n\n".join(parts).strip() or None
 
     @staticmethod
     def _slide_num(name):
@@ -610,36 +614,14 @@ class SPPScraper(BaseRTOScraper):
         return int(m.group(1)) if m else 0
 
     def _text_from_blob(self, name, blob):
-        """Extract plain text from an in-memory .docx or .pdf entry."""
+        """Extract plain text from an in-memory .docx or .pdf entry via
+        doctext (structure-preserving — tables come out as pipe rows)."""
         ext = name.rsplit(".", 1)[-1].lower()
         if ext == "docx":
-            try:
-                z = zipfile.ZipFile(io.BytesIO(blob))
-                xml = z.read("word/document.xml").decode("utf-8", "replace")
-            except Exception:
-                return None
-            xml = re.sub(r"</w:p>", "\n", xml)
-            xml = re.sub(r"<[^>]+>", "", xml)
-            return re.sub(r"\n{3,}", "\n\n", xml).strip() or None
+            return doctext.docx_to_text(io.BytesIO(blob))
         if ext == "pdf":
-            return self._extract_pdf_bytes(blob)
+            return doctext.pdf_to_text(io.BytesIO(blob), max_pages=30)
         return None
-
-    def _extract_pdf_bytes(self, blob):
-        try:
-            import pdfplumber
-        except ImportError:
-            return None
-        try:
-            pages = []
-            with pdfplumber.open(io.BytesIO(blob)) as pdf:
-                for page in pdf.pages[:30]:
-                    t = page.extract_text()
-                    if t:
-                        pages.append(t)
-            return "\n\n".join(pages) or None
-        except Exception:
-            return None
 
     # ── Small parsing helpers ─────────────────────────────────────
 

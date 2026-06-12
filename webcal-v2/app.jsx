@@ -26,7 +26,7 @@ function App() {
   const [data, setData] = useState(null);
   const [loadError, setLoadError] = useState(null);
 
-  const [filters, setFilters] = useState({ view: "all", rto: "all", q: "" });
+  const [filters, setFilters] = useState({ view: "all", rto: "all", topic: "all", q: "" });
   const [selectedId, setSelectedId] = useState(null);
   const [selectedDate, setSelectedDate] = useState(null);
   const [monthCursor, setMonthCursor] = useState(() => {
@@ -73,6 +73,7 @@ function App() {
       if (filters.view === "initiative" && !e.hasIssues) return false;
       if (filters.view === "today" && (e.date < data.today || e.date > data.weekEnd)) return false;
       if (filters.rto !== "all" && e.rto !== filters.rto) return false;
+      if (filters.topic !== "all" && !(e.topics || []).includes(filters.topic)) return false;
       if (filters.q) {
         const q = filters.q.toLowerCase();
         const issueText = (e.issues || []).map(i => `${i.title || ""} ${i.name || ""} ${i.native_id || ""}`).join(" ");
@@ -174,6 +175,13 @@ function App() {
                 <span className="x">×</span>
               </span>
             )}
+            {filters.topic !== "all" && (
+              <span className="filter-chip active" onClick={() => setFilters({...filters, topic: "all"})}>
+                <Icon name="tag" size={11}/>
+                {data.topicMeta?.[filters.topic]?.label || filters.topic}
+                <span className="x">×</span>
+              </span>
+            )}
             {filters.view === "hydro" && (
               <span className="filter-chip active" onClick={() => setFilters({...filters, view: "all"})}>
                 <span className="hydro-tri"/>
@@ -221,8 +229,7 @@ function App() {
               selectedId={selectedId}
               onSelect={onSelectEvent}
               today={data.today}
-              selectedDate={selectedDate}
-              onOpenDigest={() => setDigestOpen(true)}/>
+              selectedDate={selectedDate}/>
           )}
           {calView === "week" && (
             <WeekView

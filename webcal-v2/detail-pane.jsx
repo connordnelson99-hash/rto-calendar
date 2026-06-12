@@ -244,8 +244,11 @@ const CaisoTimeline = ({ issue }) => {
   />;
 };
 
+// ERCOT shares CAISO's rendering path: its Action-history milestones are
+// serialized into stage_a in the same "Month D, YYYY label" line format
+// (see ercot_issues_scraper.py), with stage_d="Completed" on approval.
 const IssueTimeline = ({ issue }) => {
-  if (issue.rto === "CAISO") return <CaisoTimeline issue={issue}/>;
+  if (issue.rto === "CAISO" || issue.rto === "ERCOT") return <CaisoTimeline issue={issue}/>;
   return <PjmTimeline issue={issue}/>;
 };
 
@@ -317,8 +320,10 @@ function groupStakeholdersByEntity(stakeholders) {
 
 const DocCard = ({ d, event, onOpenDoc }) => {
   const isHydro = d.hydro_relevant;
-  const isPjm = event.rto === "PJM";
   const docTypeLabel = (d.type || "document").replace(/_/g, " ");
+  // Every RTO gets the type badge; "other"/"document" carry no signal,
+  // so those render without one rather than shouting OTHER.
+  const showTypeTag = !["other", "document"].includes(docTypeLabel);
   const stakeholderEntities = [
     ...new Set(
       (d.stakeholders || [])
@@ -333,17 +338,23 @@ const DocCard = ({ d, event, onOpenDoc }) => {
   return (
     <div className={"doc-card" + (isHydro ? " hydro" : "")}>
       <div className="doc-body">
-        {isPjm && (
+        {showTypeTag && (
           <div className="doc-type-tag">{docTypeLabel}</div>
         )}
         <div className="doc-title">
           {d.title}
         </div>
-        <div className="doc-meta">
-          {!isPjm && <span style={{ textTransform: "capitalize" }}>{docTypeLabel}</span>}
-          {!isPjm && d.filename && <span>·</span>}
-          {d.filename && <span>{d.filename}</span>}
-        </div>
+        {d.filename && (
+          <div className="doc-meta">
+            <span>{d.filename}</span>
+          </div>
+        )}
+        {(d.topics || []).length > 0 && (
+          <div className="doc-sponsors">
+            <Icon name="tag" size={11}/>
+            {d.topics.map(t => window.TOPIC_META?.[t]?.label || t).join(" · ")}
+          </div>
+        )}
         {stakeholderEntities.length > 0 && (
           <div className="doc-sponsors">
             <Icon name="users" size={11}/>

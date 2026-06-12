@@ -63,6 +63,7 @@ def init_db(db_path=None):
             hydro_relevant INTEGER,
             hydro_relevance_reason TEXT,
             ai_summary TEXT,
+            topics TEXT,
             ai_processed_at TIMESTAMP,
             UNIQUE(download_url)
         );
@@ -194,6 +195,7 @@ def migrate_db(conn):
         ("hydro_relevant",            "INTEGER"),
         ("hydro_relevance_reason",    "TEXT"),
         ("ai_summary",                "TEXT"),
+        ("topics",                    "TEXT"),
         ("ai_processed_at",           "TIMESTAMP"),
         ("stakeholders_extracted_at", "TIMESTAMP"),
     ]
@@ -341,16 +343,21 @@ def save_meeting_screening(conn, meeting_id, hydro_relevant, reason):
     conn.commit()
 
 
-def save_ai_screening(conn, doc_id, hydro_relevant, reason, summary=None):
-    """Store Haiku screening result for a document."""
+def save_ai_screening(conn, doc_id, hydro_relevant, reason, summary=None,
+                      topics=None):
+    """Store Haiku screening result for a document. `topics` is a list of
+    controlled-vocabulary tags (see screen_documents.TOPIC_TAGS), stored
+    semicolon-joined; None/[] leaves any existing tags untouched."""
     conn.execute("""
         UPDATE documents
         SET hydro_relevant = ?,
             hydro_relevance_reason = ?,
             ai_summary = COALESCE(?, ai_summary),
+            topics = COALESCE(?, topics),
             ai_processed_at = CURRENT_TIMESTAMP
         WHERE id = ?
-    """, (1 if hydro_relevant else 0, reason, summary, doc_id))
+    """, (1 if hydro_relevant else 0, reason, summary,
+          ";".join(topics) if topics else None, doc_id))
     conn.commit()
 
 
@@ -643,6 +650,7 @@ def export_calendar_json(conn, output_path=None):
                         "hydro_relevant": bool(doc["hydro_relevant"]) if doc["hydro_relevant"] is not None else None,
                         "hydro_relevance_reason": doc["hydro_relevance_reason"],
                         "ai_summary": doc["ai_summary"],
+                        "topics": (doc["topics"] or "").split(";") if doc["topics"] else [],
                         "issues": [dict(r) for r in issue_rows],
                         "stakeholders": [dict(r) for r in stakeholder_rows],
                     })
@@ -700,6 +708,7 @@ def export_hydro_corpus(conn, json_path=None, csv_path=None):
     rows = conn.execute("""
         SELECT d.id, d.rto, d.doc_type, d.title, d.filename, d.download_url,
                d.posted_date, d.ai_summary, d.hydro_relevance_reason,
+               d.topics,
                m.id AS meeting_id, m.committee, m.meeting_date,
                m.title AS meeting_title
         FROM documents d
@@ -744,6 +753,7 @@ def export_hydro_corpus(conn, json_path=None, csv_path=None):
             "title": r["title"] or r["filename"],
             "posted_date": r["posted_date"],
             "relevance_reason": r["hydro_relevance_reason"],
+            "topics": (r["topics"] or "").split(";") if r["topics"] else [],
             "initiatives": initiatives,
             "stakeholders": stakeholders,
             "ai_summary": r["ai_summary"],
@@ -761,13 +771,14 @@ def export_hydro_corpus(conn, json_path=None, csv_path=None):
         import csv
         cols = ["rto", "meeting_date", "committee", "meeting_title",
                 "doc_type", "title", "posted_date", "relevance_reason",
-                "initiatives", "stakeholders", "ai_summary", "url"]
+                "topics", "initiatives", "stakeholders", "ai_summary", "url"]
         # utf-8-sig so Excel renders en-dashes etc. in summaries cleanly.
         with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
             writer = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
             writer.writeheader()
             for rec in records:
                 row = dict(rec)
+                row["topics"] = "; ".join(rec["topics"])
                 row["initiatives"] = "; ".join(rec["initiatives"])
                 row["stakeholders"] = "; ".join(rec["stakeholders"])
                 writer.writerow(row)
