@@ -347,6 +347,12 @@ const DocCard = ({ d, event, onOpenDoc }) => {
           {!isPjm && d.filename && <span>·</span>}
           {d.filename && <span>{d.filename}</span>}
         </div>
+        {(d.topics || []).length > 0 && (
+          <div className="doc-sponsors">
+            <Icon name="tag" size={11}/>
+            {d.topics.map(t => window.TOPIC_META?.[t]?.label || t).join(" · ")}
+          </div>
+        )}
         {stakeholderEntities.length > 0 && (
           <div className="doc-sponsors">
             <Icon name="users" size={11}/>

@@ -162,6 +162,33 @@ Answer in exactly this JSON format (no other text):
 }}
 """
 
+# ── Topic taxonomy ──────────────────────────────────────────────────────────
+# Controlled vocabulary for per-document topic tags. These drive the
+# calendar UI's topic filter and deterministic corpus pivots, so values
+# must come from THIS list exactly — never free-form. Keep in sync with
+# TOPIC_META in webcal-v2/data.js (labels live there).
+
+TOPIC_TAGS = {
+    "price-formation":    "energy pricing, scarcity pricing, uplift/make-whole, price adders, co-optimization",
+    "ancillary-services": "reserves, regulation, frequency response, inertia, black start, voltage support",
+    "ramping-flexibility": "ramping/uncertainty products, flexibility procurement, AS demand curves",
+    "capacity-ra":        "capacity markets, accreditation/ELCC, resource adequacy, adequacy studies, auction parameters",
+    "storage":            "storage participation, pumped storage, state-of-charge rules, LDES, storage-as-transmission",
+    "hybrids-der":        "hybrid/co-located generation, DER aggregation, Order 2222",
+    "mitigation-offers":  "market power mitigation, reference levels, opportunity-cost offers",
+    "interconnection":    "interconnection queues, queue reform, surplus interconnection, uprates, deliverability",
+    "transmission":       "transmission planning/expansion, interregional transfer, non-wires alternatives",
+    "load-growth":        "large loads, data centers, co-located load, demand forecasting",
+    "ops-compliance":     "ride-through, winterization, outage scheduling, must-offer, metering/settlement",
+    "seams-governance":   "EDAM/WEIM, Markets+, market seams, RTO membership and governance",
+    "water-hydrology":    "drought, river operations, hydro conditions, licensing/environmental",
+    "clean-energy":       "RECs/EACs, GHG attribution and accounting, clean-energy program design",
+    "ferc-policy":        "FERC orders, compliance filings, tariff changes",
+}
+
+_TOPIC_LIST_FOR_PROMPT = "\n".join(
+    f"  {tag} — {desc}" for tag, desc in TOPIC_TAGS.items())
+
 # ── Stage 2: Document screening prompt ─────────────────────────────────────
 
 DOCUMENT_PROMPT = """\
@@ -203,6 +230,7 @@ Answer in exactly this JSON format (no other text):
   "relevant": true or false,
   "reason": "one sentence naming the MECHANISM: which hydro/PSH revenue stream, obligation, or strategic option this touches and how (or, if not relevant, why nothing applies)",
   "summary": "if relevant, 2-4 sentences (see rules below); otherwise null",
+  "topics": ["1-3 tags from the topic list below; [] if not relevant"],
   "stakeholders": [
     {{
       "name": "<full name as it appears>",
@@ -241,6 +269,10 @@ Summary rules (these summaries go directly to hydro asset owners):
 - If the genuine value is contextual (market-monitor report, white paper,
   cross-market comparison), say what an analyst would learn from it — but
   still concretely, not "provides useful context".
+
+Topic tags — choose 1-3 that best describe what the document is ABOUT
+(not every topic it brushes past). Use ONLY these exact tags:
+{topic_list}
 
 Stakeholder extraction rules:
 - Include named individuals from cover pages, "submitted by" lines, "contact:" blocks,
@@ -307,7 +339,8 @@ def screen_meeting(client, meeting_row, dry_run=False):
 def screen_document(client, doc_row, dry_run=False):
     """
     Stage 2: Screen a document by title + text excerpt.
-    Returns (relevant: bool, reason: str, summary: str|None, stakeholders: list).
+    Returns (relevant: bool, reason: str, summary: str|None,
+             topics: list[str], stakeholders: list).
     """
     text = doc_row["extracted_text"] or ""
     excerpt = text[:MAX_DOC_CHARS].strip()
@@ -320,12 +353,13 @@ def screen_document(client, doc_row, dry_run=False):
         doc_title=doc_row["title"] or doc_row["filename"] or "",
         doc_type=doc_row["doc_type"] or "",
         text_excerpt=excerpt or "(no text extracted — screening title only)",
+        topic_list=_TOPIC_LIST_FOR_PROMPT,
     )
 
     if dry_run:
         print(f"\n--- DRY RUN (doc {doc_row['id']}) ---")
         print(prompt[:600], "...")
-        return True, "dry-run", None, []
+        return True, "dry-run", None, [], []
 
     try:
         # Larger budget than the old 384 to fit the new stakeholders array.
@@ -334,14 +368,21 @@ def screen_document(client, doc_row, dry_run=False):
         stakeholders = result.get("stakeholders") or []
         if not isinstance(stakeholders, list):
             stakeholders = []
+        # Topics are a controlled vocabulary — drop anything off-list so
+        # the UI filter and corpus pivots stay deterministic.
+        topics = result.get("topics") or []
+        if not isinstance(topics, list):
+            topics = []
+        topics = [t for t in topics if t in TOPIC_TAGS][:3]
         return (
             bool(result.get("relevant", False)),
             result.get("reason", ""),
             result.get("summary"),
+            topics,
             stakeholders,
         )
     except json.JSONDecodeError as e:
-        return False, f"parse error: {e}", None, []
+        return False, f"parse error: {e}", None, [], []
 
 
 # ── Stage runners ────────────────────────────────────────────────────────────
@@ -448,8 +489,9 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200, dry_run
         print(f"  [{i}/{len(docs)}] {doc['rto']} | {label} ({text_note})", end=" ... ", flush=True)
 
         try:
-            relevant, reason, summary, stakeholders = screen_document(client, doc, dry_run)
-            save_ai_screening(conn, doc["id"], relevant, reason, summary)
+            relevant, reason, summary, topics, stakeholders = screen_document(client, doc, dry_run)
+            save_ai_screening(conn, doc["id"], relevant, reason, summary,
+                              topics=topics)
             save_document_stakeholders(
                 conn, doc["id"], stakeholders, source_text=doc["extracted_text"]
             )

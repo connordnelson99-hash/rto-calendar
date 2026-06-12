@@ -75,6 +75,26 @@
     catch (_) { return "America/New_York"; }
   })();
 
+  // Display labels for the controlled topic vocabulary the screener tags
+  // docs with. Keys MUST match TOPIC_TAGS in rto-docs/screen_documents.py.
+  const TOPIC_META = {
+    "price-formation":    { label: "Price Formation" },
+    "ancillary-services": { label: "Ancillary Services" },
+    "ramping-flexibility": { label: "Ramping & Flexibility" },
+    "capacity-ra":        { label: "Capacity & RA" },
+    "storage":            { label: "Storage & PSH" },
+    "hybrids-der":        { label: "Hybrids & DER" },
+    "mitigation-offers":  { label: "Mitigation & Offers" },
+    "interconnection":    { label: "Interconnection" },
+    "transmission":       { label: "Transmission" },
+    "load-growth":        { label: "Load Growth" },
+    "ops-compliance":     { label: "Ops & Compliance" },
+    "seams-governance":   { label: "Seams & Governance" },
+    "water-hydrology":    { label: "Water & Hydrology" },
+    "clean-energy":       { label: "Clean Energy" },
+    "ferc-policy":        { label: "FERC Policy" },
+  };
+
   // Parse "9:00 AM - 12:00 PM" / "1:00 p.m. - 4:00 p.m." / "4:00 PM" / null.
   // Returns { startH, startM, endH?, endM? } or null.
   function parseTimeRange(t) {
@@ -169,10 +189,14 @@
         hydro_relevant: d.hydro_relevant === true,
         hydro_relevance_reason: d.hydro_relevance_reason || null,
         ai_summary: d.ai_summary || null,
+        topics: Array.isArray(d.topics) ? d.topics : [],
         issues,
         stakeholders: d.stakeholders || [],
       };
     });
+
+    // Event-level topic set: the union of its docs' tags, for filtering.
+    const topics = [...new Set(documents.flatMap(d => d.topics))];
 
     // Deduplicate issues across all sources (meeting-level + doc-level) by
     // native_id. PJM cites individual document URLs so its issues come in
@@ -243,6 +267,7 @@
       documents,
       hydroDocCount: documents.filter(d => d.hydro_relevant).length,
       isRelevant: meetingHydro || hasHydroDocs,
+      topics,
       issues,
       hasIssues: issues.length > 0,
     };
@@ -295,6 +320,7 @@
     return {
       events,
       rtoMeta: RTO_META,
+      topicMeta: TOPIC_META,
       today,
       weekStart: currentWeek.weekStart,
       weekEnd: currentWeek.weekEnd,
@@ -440,6 +466,7 @@
   window.buildDigestMarkdown = buildDigestMarkdown;
 
   window.RTO_META = RTO_META;
+  window.TOPIC_META = TOPIC_META;
 
   window.loadMarketsData = async function () {
     // Data files live at <repo-root>/rto-docs/ — one level up from
