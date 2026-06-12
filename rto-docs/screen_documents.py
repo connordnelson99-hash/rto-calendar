@@ -46,24 +46,58 @@ from db.database import (
 # ── Shared system prompt ────────────────────────────────────────────────────
 
 SYSTEM_PROMPT = """\
-You are an analyst for the National Hydropower Association (NHA).
-Your job is to screen RTO/ISO regulatory meetings and documents to identify
-content relevant to the hydropower and pumped-storage industry.
+You are an analyst for the National Hydropower Association (NHA), screening
+RTO/ISO/FERC meeting materials for NHA's Market Design Committee — owners and
+operators of conventional hydropower and pumped-storage hydro (PSH). They read
+this feed to learn which market-design developments affect their revenue,
+their compliance obligations, or their strategic options. Screen for THEIR
+interests, not for generic energy-industry news.
 
-Relevant topics include (but are not limited to):
-- Capacity markets, capacity accreditation, or ELCC for hydropower/storage
-- Resource adequacy rules affecting dispatchable or variable hydro
-- Energy storage, pumped-storage hydropower (PSH), or battery co-location
-- Ancillary services (regulation, spinning reserve) that hydro typically provides
-- Transmission planning that affects hydro interconnection or deliverability
-- Market rules for flexible ramping, intraday bidding, or dispatch
-- Licensing, relicensing, or environmental compliance interactions with markets
-- FERC orders or RTO tariff changes that affect hydro participation
-- Dam safety, water rights, or river operations as they intersect with market rules
+A document is RELEVANT when a hydro or PSH owner reading it would learn
+something that touches one of these:
 
-NOT relevant: routine IT/operations updates, billing admin, general corporate
-governance unrelated to market rules, non-hydro generation technologies unless
-they directly affect hydro market participation.
+1. REVENUE — how hydro's products are priced, procured, or accredited:
+   - Energy price formation: scarcity pricing, uplift/make-whole, price
+     adders, locational signals, real-time co-optimization
+   - Ancillary services hydro typically supplies: regulation, spinning/
+     operating reserves, fast frequency response, inertia, reactive power/
+     voltage support, black start
+   - Capacity markets and accreditation: ELCC/UCAP for hydro and storage,
+     seasonal accreditation, performance assessments and penalties
+   - Storage participation models — pumped storage especially (charging
+     energy treatment, state-of-charge rules, AS stacking, long-duration
+     storage programs), plus battery rules that set precedent for PSH
+   - Hybrid / co-located resource rules
+   - Energy attribute certificates, RECs, clean-energy program design
+
+2. OBLIGATIONS — rules a hydro operator must comply with or respond to:
+   - Interconnection and deliverability rules (incl. FERC Order 2023-era
+     queue reform), must-offer requirements, outage scheduling
+   - Operating standards reaching synchronous units: ride-through,
+     winterization/resource readiness, dam-adjacent reliability standards
+   - Metering, settlement, and dispatch-instruction changes
+
+3. STRATEGIC OPTIONS — developments that change what hydro owners can do:
+   - Resource adequacy constructs and reliability mechanisms
+   - Transmission planning/expansion affecting hydro deliverability
+   - Water, drought, and river-operations issues as they intersect markets
+   - Licensing/relicensing or environmental compliance touching markets
+   - Market seams and governance: EDAM/WEIM, Markets+, RTO membership
+     choices — NHA members in the West are actively choosing between these
+   - FERC orders and tariff filings in active compliance phases
+
+NOT relevant: retail-market mechanics (customer switching, billing, data
+transport, MarkeTrak/Texas SET), routine IT and operations reports, training
+logistics, credit/settlement administration, corporate governance unrelated
+to market rules, and fuel-specific issues with no hydro analog (e.g. gas
+pipeline coordination specifics) UNLESS the rule's design would extend to
+dispatchable or storage resources generally.
+
+Calibration: prefer recall. This screen feeds a weekly digest that triages
+aggressively, so a borderline-relevant document should be flagged relevant —
+a false positive costs a reader seconds, a false negative never reaches
+members. Reserve relevant=false for documents you are confident carry nothing
+on the axes above.
 
 Special case — ERCOT: Texas has essentially no hydropower, but NHA tracks
 ERCOT for cross-market comparison (e.g. how ERCOT handles frequency response
@@ -71,8 +105,9 @@ or storage participation differently from hydro-rich markets like NYISO).
 Flag ERCOT content as relevant when it addresses market-design topics hydro
 cares about elsewhere — ancillary services and frequency response, energy
 storage participation, capacity/reliability mechanisms, price formation,
-flexibility products — even though no hydro fleet is directly affected.
-ERCOT retail-market, IT, and admin content remains not relevant.
+flexibility products — even though no hydro fleet is directly affected, and
+frame its summary as a comparison point. ERCOT retail-market, IT, and admin
+content remains not relevant.
 """
 
 # ── Stage 1: Meeting screening prompt ──────────────────────────────────────
@@ -109,7 +144,24 @@ Document metadata:
   Document title: {doc_title}
   Document type: {doc_type}
 
-Document text (up to 8,000 characters):
+How to read the document text below — it is MACHINE-EXTRACTED, not the
+original layout:
+- Tables appear as pipe-delimited rows: | cell | cell | cell |. Within a
+  pipe row, position is meaningful — read it like a table row. In PDFs,
+  table content may appear twice: flattened in the prose flow AND as pipe
+  rows. The pipe rows are the authoritative reading for which value
+  belongs to which row/column; the flattened prose ordering is unreliable.
+- "[Page N]" / "[Slide N]" markers separate pages/slides. Content under
+  different markers belongs to different pages — don't merge across them.
+- Chart data appears as: Chart "series name": label=value; label=value.
+- Extraction is imperfect: stray numbers may appear without context
+  (chart annotations, footers), and prose order can scramble on dense
+  layouts. If you cannot tell with confidence which row, column, series,
+  or resource a number belongs to, DO NOT attribute it in your summary —
+  describe the finding qualitatively or omit the figure. A summary that
+  misattributes a number is worse than one with no number.
+
+Document text (excerpt):
 {text_excerpt}
 
 ---
@@ -117,7 +169,7 @@ Answer in exactly this JSON format (no other text):
 {{
   "relevant": true or false,
   "reason": "one sentence explaining why or why not",
-  "summary": "if relevant, 2-3 sentence summary of what matters for hydro; otherwise null",
+  "summary": "if relevant, 2-3 sentences (see rules below); otherwise null",
   "stakeholders": [
     {{
       "name": "<full name as it appears>",
@@ -127,6 +179,18 @@ Answer in exactly this JSON format (no other text):
     }}
   ]
 }}
+
+Summary rules (these summaries go directly to hydro asset owners):
+- Lead with the substance: what is proposed/decided/reported, and the hook
+  for hydro or pumped storage. Don't open with "This document..." — open
+  with the thing itself.
+- Include status and next step when stated (e.g. "tabled at PRS",
+  "board vote scheduled"), and quote any comment deadline or vote date
+  VERBATIM — deadlines are the single most actionable thing in this feed.
+- State figures only when their attribution is unambiguous in the text
+  (see extraction notes above). Never reconstruct or estimate a value.
+- Name the position-takers when the doc states positions ("ERCOT opposes",
+  "LCRA's comments support...").
 
 Stakeholder extraction rules:
 - Include named individuals from cover pages, "submitted by" lines, "contact:" blocks,
@@ -138,7 +202,10 @@ Stakeholder extraction rules:
 - Return an empty array [] if no contributors are identifiable.
 """
 
-MAX_DOC_CHARS = 8000  # larger window to get past boilerplate cover pages
+# 12K chars ≈ 3K tokens of Haiku input (~$0.003/doc) — worth it: RTO docs
+# front-load boilerplate (NPRR forms, revision-history tables), and the
+# structured table/slide markers consume some of the budget.
+MAX_DOC_CHARS = 12000
 
 
 # ── API helpers ─────────────────────────────────────────────────────────────

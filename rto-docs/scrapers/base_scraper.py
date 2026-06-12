@@ -19,10 +19,9 @@ from pathlib import Path
 from urllib.parse import urlparse, unquote
 
 try:
-    import pdfplumber
-    _PDFPLUMBER_AVAILABLE = True
-except ImportError:
-    _PDFPLUMBER_AVAILABLE = False
+    from . import doctext
+except ImportError:           # standalone import outside the package
+    import doctext
 
 
 class BaseRTOScraper(ABC):
@@ -290,25 +289,22 @@ class BaseRTOScraper(ABC):
 
     def _extract_text(self, local_path):
         """
-        Extract plain text from a downloaded file.
-        Supports PDF (via pdfplumber) and plain text files.
+        Extract plain text from a downloaded file via doctext (structure-
+        preserving: tables as pipe rows, [Page/Slide N] markers, chart
+        series). Covers pdf, docx, pptx/potx, legacy doc, txt, csv.
         Returns a string or None if extraction fails/unsupported.
         """
         local_path = Path(local_path)
         suffix = local_path.suffix.lower()
 
-        if suffix == ".pdf" and _PDFPLUMBER_AVAILABLE:
-            try:
-                pages = []
-                with pdfplumber.open(str(local_path)) as pdf:
-                    for page in pdf.pages[:50]:  # cap at 50 pages
-                        text = page.extract_text()
-                        if text:
-                            pages.append(text)
-                return "\n\n".join(pages) if pages else None
-            except Exception as e:
-                print(f"      PDF text extraction failed: {e}")
-                return None
+        if suffix == ".pdf":
+            return doctext.pdf_to_text(str(local_path), max_pages=50)
+        if suffix == ".docx":
+            return doctext.docx_to_text(str(local_path))
+        if suffix in (".pptx", ".potx"):
+            return doctext.pptx_to_text(str(local_path))
+        if suffix == ".doc":
+            return doctext.doc_to_text(str(local_path))
 
         if suffix in (".txt", ".csv"):
             try:
@@ -316,7 +312,7 @@ class BaseRTOScraper(ABC):
             except Exception:
                 return None
 
-        # xlsx/pptx/docx — skip for now, handle later
+        # xlsx — skip (ballots/logs; little prose value)
         return None
 
     def _head_check(self, url):
