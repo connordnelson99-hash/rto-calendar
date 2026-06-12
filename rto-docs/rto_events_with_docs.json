@@ -1545,7 +1545,7 @@
         "title": "Agenda",
         "filename": "agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260616-special/agenda.pdf",
-        "posted_date": "2026-06-10",
+        "posted_date": "2026-06-11",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Gross CONE and ACR updates directly affect capacity market accreditation and resource adequacy calculations that determine hydropower's capacity compensation and contribution to reliability.",
         "ai_summary": "PJM is updating Gross CONE (Cost of New Entry) and Gross ACR (Avoidable Cost Rate) values, which are fundamental inputs to the capacity market and directly impact how hydropower resources are valued and compensated for capacity and ancillary services in PJM's markets.",
@@ -1570,12 +1570,74 @@
         "title": "Agenda Doc",
         "filename": "agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260616-special/agenda-doc.docx",
-        "posted_date": "2026-06-10",
+        "posted_date": "2026-06-11",
         "hydro_relevant": true,
         "hydro_relevance_reason": "CONE and ACR updates directly affect capacity accreditation and resource adequacy rules that determine how hydropower and pumped-storage resources are valued and compensated in PJM's capacity market.",
         "ai_summary": "Gross CONE (Cost of New Entry) and Gross ACR (Avoidable Cost Rate) are fundamental parameters in PJM's capacity market that establish the floor and reference price for capacity accreditation. Changes to these metrics can significantly impact how hydropower and pumped-storage facilities are valued relative to other resources in the capacity auction.",
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 01 1 \u2013 Gross CONE And Gross Acr Updates \u2013 Preliminary Update Of Default CONE Values",
+        "filename": "item-01-1---gross-cone-and-gross-acr-updates---preliminary-update-of-default-cone-values.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260616-special/item-01-1---gross-cone-and-gross-acr-updates---preliminary-update-of-default-cone-values.pdf",
+        "posted_date": "2026-06-11",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document updates default Gross CONE and Gross ACR values used in PJM's capacity market MOPR and MSOC calculations, which directly affect how energy storage (including pumped-storage hydropower) is valued and priced in capacity auctions.",
+        "ai_summary": "PJM is updating default Cost of New Entry (CONE) and Avoidable Cost Rate (ACR) values for the 2030/2031 delivery year, including a new 200 MW Battery Energy Storage reference resource. These values are used to set offer floors and caps in the capacity market's Minimum Offer Price Rule (MOPR) and Market Seller Offer Cap (MSOC), affecting how dispatchable resources like pumped-storage hydropower and storage compete in PJM's capacity auctions.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Pete Langbein",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Peter.Langbein@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 01 2 \u2013 Gross CONE And Gross Acr Updates \u2013 Avoidable Cost Study Methodology",
+        "filename": "item-01-2---gross-cone-and-gross-acr-updates---avoidable-cost-study-methodology.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260616-special/item-01-2---gross-cone-and-gross-acr-updates---avoidable-cost-study-methodology.pdf",
+        "posted_date": "2026-06-11",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses Gross Avoidable Cost Rates (ACRs) used in PJM's capacity market mitigation, with explicit consideration of adding 4-hour battery energy storage (BESS) as a reference resource type, which directly affects how energy storage and potentially pumped-storage resources are treated in capacity accreditation and offer cap calculations.",
+        "ai_summary": "PJM is updating its default Avoidable Cost Rates (ACRs) for the 2030/31 delivery year, which determine offer caps and market power mitigation thresholds. The study explicitly proposes adding 4-hour BESS as a new resource type alongside existing categories (nuclear, coal, gas, wind, solar). The ACR methodology and resource type definitions affect how all dispatchable resources, including pumped-storage hydropower, are benchmarked for cost-based offers and capacity market participation.",
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Joshua Junge",
+            "entity": "Sargent & Lundy",
+            "role": "author",
+            "email": "joshua.c.junge@sargentlundy.com"
+          },
+          {
+            "name": "Andrew W. Thompson",
+            "entity": "The Brattle Group",
+            "role": "author",
+            "email": "Andrew.Thompson@brattle.com"
+          },
+          {
+            "name": "Samuel Newell",
+            "entity": "The Brattle Group",
+            "role": "author",
+            "email": "Sam.Newell@brattle.com"
+          }
+        ]
       }
     ]
   },
@@ -2240,6 +2302,20 @@
     ]
   },
   {
+    "title": "Technical User Group",
+    "date": "2026-06-16",
+    "time": "10:00 AM - 11:00 AM",
+    "rto": "CAISO",
+    "committee": "Technical User Group (TUG)",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/technical-user-group-jun-16-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/technical-user-group-tug",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Technical User Group typically discusses operational, technical, and market design issues that directly affect resource participation including hydropower and storage resources in CAISO markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Membership Subcommittee Meeting",
     "date": "2026-06-15",
     "time": "2:00 PM",
@@ -2550,7 +2626,7 @@
         "title": "Item 04e \u2013 Product Roadmap \u2013 Account Manager Annual User Certification 2026",
         "filename": "20260615-item-04e---product-roadmap---account-manager-annual-user-certification-2026.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20260615/20260615-item-04e---product-roadmap---account-manager-annual-user-certification-2026.pdf",
-        "posted_date": "2026-06-10",
+        "posted_date": "2026-06-11",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2610,7 +2686,7 @@
         "title": "Item 05a \u2013 General Updates",
         "filename": "20260615-item-05a---general-updates.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20260615/20260615-item-05a---general-updates.pdf",
-        "posted_date": "2026-06-10",
+        "posted_date": "2026-06-11",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2760,6 +2836,84 @@
     "meeting_hydro_reason": "FERC Order 881 addresses resource interconnection procedures and generator interconnection rules that directly impact hydropower and pumped-storage project interconnection timelines, queuing, and market participation eligibility.",
     "issues": [],
     "documents": []
+  },
+  {
+    "title": "TOA-AC Special Session - Public Materials Only (No Registration) Meeting",
+    "date": "2026-06-12",
+    "time": "8:30 a.m. - 9:30 a.m.",
+    "rto": "PJM",
+    "committee": "TOA-AC Special Session - Public Materials Only (No Registration)",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={FF6A8483-D6E7-4791-9A87-F74A93E862DC}",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "TOA-AC (Transmission Operations & Connections Advisory Committee) typically addresses transmission operations and interconnection procedures, which are generally not hydropower-specific; without additional context indicating discussion of hydro-related transmission planning, deliverability, or interconnection issues, this appears to be a routine advisory meeting unlikely to contain hydropower-relevant content.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/toa-ac/2026/20260612-special/agenda.pdf",
+        "posted_date": "2026-06-11",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Market Surveillance Committee Executive Session",
+    "date": "2026-06-12",
+    "time": "1:00 PM - 2:00 PM",
+    "rto": "CAISO",
+    "committee": "Market Surveillance Committee",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/market-surveillance-committee-executive-session-jun-12-2026-0100-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/market-surveillance-committee",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Executive sessions of market surveillance committees typically address confidential compliance investigations and internal governance matters rather than substantive market rule changes or tariff provisions affecting hydropower participation.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda - Market Surveillance Committee Meeting - Jun 11, 2026",
+        "filename": "agenda-market-surveillance-committee-meeting-jun-11-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-market-surveillance-committee-meeting-jun-11-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Congestion Revenue Rights Enhancements - Presentation - Jun 11, 2026",
+        "filename": "congestion-revenue-rights-enhancements-presentation-jun-11-2026.pdf",
+        "url": "https://www.caiso.com/documents/congestion-revenue-rights-enhancements-presentation-jun-11-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Congestion Revenue Rights - Market Surveillance Committee - June 11, 2026",
+        "filename": "presentation-congestion-revenue-rights-market-surveillance-committee-june-11-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-congestion-revenue-rights-market-surveillance-committee-june-11-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "NEPOOL Markets Committee Meeting",
@@ -7758,7 +7912,7 @@
         "title": "20260610 LLWG Item 07 Firm Service Step Up Study Process.pdf",
         "filename": "20260610 LLWG Item 07 Firm Service Step Up Study Process.pdf",
         "url": "https://cdn.misoenergy.org/20260610%20LLWG%20Item%2007%20Firm%20Service%20Step%20Up%20Study%20Process763098.pdf",
-        "posted_date": "2026-06-09",
+        "posted_date": "2026-06-11",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document concerns large industrial load interconnection procedures and does not address hydropower, pumped-storage, capacity markets, resource adequacy frameworks affecting hydro, ancillary services, or market rules that would impact hydropower or storage participation.",
         "ai_summary": null,
@@ -15873,7 +16027,7 @@
     "date": "2026-05-29",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Interregional Planning Stakeholder Advisory Committee",
+    "committee": "Planning Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=162825",
     "materials_url": null,
