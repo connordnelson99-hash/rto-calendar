@@ -276,15 +276,17 @@ class ERCOTScraper(BaseRTOScraper):
         return str(local_path), text
 
     def _extract_text(self, local_path):
-        """ERCOT posts almost no PDFs — add local .docx/.pptx extraction
-        on top of the base (pdf/txt/csv) support. Legacy .doc/.xls are
-        left unextracted (title-only screening)."""
+        """ERCOT posts almost no PDFs — add local .docx/.pptx/.doc
+        extraction on top of the base (pdf/txt/csv) support. Legacy .xls
+        ballots are left unextracted (title-only screening)."""
         from pathlib import Path
         suffix = Path(local_path).suffix.lower()
         if suffix == ".docx":
             return self._docx_text(local_path)
         if suffix in (".pptx", ".potx"):
             return self._pptx_text(local_path)
+        if suffix == ".doc":
+            return self._doc_text(local_path)
         return super()._extract_text(local_path)
 
     @staticmethod
@@ -297,6 +299,46 @@ class ERCOTScraper(BaseRTOScraper):
         xml = re.sub(r"</w:p>", "\n", xml)
         xml = re.sub(r"<[^>]+>", "", xml)
         return re.sub(r"\n{3,}", "\n\n", unescape(xml)).strip() or None
+
+    @staticmethod
+    def _doc_text(local_path):
+        """Best-effort text from legacy Word 97-2003 .doc (OLE2 binary,
+        not the zip-of-XML modern format). Rather than implement the full
+        FIB/piece-table spec, pull printable text runs from the
+        WordDocument stream: Word stores each text piece as either
+        UTF-16LE or 8-bit cp1252, so both run types are collected in
+        stream order. Noisier than real parsing (the deleted-text scratch
+        area can leak in) but plenty for relevance screening."""
+        try:
+            import olefile
+        except ImportError:
+            return None
+        try:
+            with olefile.OleFileIO(str(local_path)) as ole:
+                if not ole.exists("WordDocument"):
+                    return None
+                data = ole.openstream("WordDocument").read()
+        except Exception:
+            return None
+
+        runs = []  # (offset, text)
+        # UTF-16LE runs of basic-plane Latin chars (>= 12 chars).
+        for m in re.finditer(rb"(?:[\x20-\x7e\xa0-\xff]\x00){12,}", data):
+            runs.append((m.start(), m.group().decode("utf-16-le", "ignore")))
+        covered = [(s, s + len(t) * 2) for s, t in runs]
+        # 8-bit cp1252 runs (>= 24 chars) outside the UTF-16 spans.
+        for m in re.finditer(rb"[\x20-\x7e\xa0-\xff\r\t]{24,}", data):
+            if any(a <= m.start() < b for a, b in covered):
+                continue
+            runs.append((m.start(), m.group().decode("cp1252", "ignore")))
+
+        runs.sort()
+        text = "\n".join(t.replace("\r", "\n") for _, t in runs)
+        text = re.sub(r"[ \t]{2,}", " ", text)
+        text = re.sub(r"\n{3,}", "\n\n", text).strip()
+        # A real document yields paragraphs; a few stray runs means the
+        # file is mostly non-text structures — treat as no extraction.
+        return text if len(text) >= 200 else None
 
     @staticmethod
     def _pptx_text(local_path):

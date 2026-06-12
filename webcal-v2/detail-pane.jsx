@@ -244,8 +244,11 @@ const CaisoTimeline = ({ issue }) => {
   />;
 };
 
+// ERCOT shares CAISO's rendering path: its Action-history milestones are
+// serialized into stage_a in the same "Month D, YYYY label" line format
+// (see ercot_issues_scraper.py), with stage_d="Completed" on approval.
 const IssueTimeline = ({ issue }) => {
-  if (issue.rto === "CAISO") return <CaisoTimeline issue={issue}/>;
+  if (issue.rto === "CAISO" || issue.rto === "ERCOT") return <CaisoTimeline issue={issue}/>;
   return <PjmTimeline issue={issue}/>;
 };
 
