@@ -64,6 +64,15 @@ Relevant topics include (but are not limited to):
 NOT relevant: routine IT/operations updates, billing admin, general corporate
 governance unrelated to market rules, non-hydro generation technologies unless
 they directly affect hydro market participation.
+
+Special case — ERCOT: Texas has essentially no hydropower, but NHA tracks
+ERCOT for cross-market comparison (e.g. how ERCOT handles frequency response
+or storage participation differently from hydro-rich markets like NYISO).
+Flag ERCOT content as relevant when it addresses market-design topics hydro
+cares about elsewhere — ancillary services and frequency response, energy
+storage participation, capacity/reliability mechanisms, price formation,
+flexibility products — even though no hydro fleet is directly affected.
+ERCOT retail-market, IT, and admin content remains not relevant.
 """
 
 # ── Stage 1: Meeting screening prompt ──────────────────────────────────────
