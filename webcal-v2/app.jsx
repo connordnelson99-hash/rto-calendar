@@ -229,8 +229,7 @@ function App() {
               selectedId={selectedId}
               onSelect={onSelectEvent}
               today={data.today}
-              selectedDate={selectedDate}
-              onOpenDigest={() => setDigestOpen(true)}/>
+              selectedDate={selectedDate}/>
           )}
           {calView === "week" && (
             <WeekView

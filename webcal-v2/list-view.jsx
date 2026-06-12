@@ -1,4 +1,4 @@
-// list-view.jsx — meeting list grouped by day, with weekly digest banner.
+// list-view.jsx — meeting list grouped by day.
 
 const fmtDateHeader = (iso) => {
   const d = new Date(iso + "T12:00:00");
@@ -8,11 +8,6 @@ const fmtWeekday = (iso) => {
   const d = new Date(iso + "T12:00:00");
   return d.toLocaleDateString("en-US", { weekday: "long" });
 };
-const fmtBanner = (iso) => {
-  const d = new Date(iso + "T12:00:00");
-  return d.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
-};
-
 const RtoTag = ({ rto, meta }) => (
   <span className="rto-tag" style={{ background: meta.bg, color: meta.color, border: `1px solid ${meta.color}33` }}>
     <span style={{ width: 5, height: 5, borderRadius: 1, background: meta.color, display: "inline-block" }}/>
@@ -75,30 +70,6 @@ const MeetingRow = ({ event, selected, onSelect }) => {
   );
 };
 
-const DigestBanner = ({ items, today, onClick }) => {
-  const hydroCount = items.filter(e => e.isRelevant).length;
-  const newDocCount = items.reduce((sum, e) => sum + e.hydroDocCount, 0);
-  if (items.length === 0) return null;
-  return (
-    <div className="digest" onClick={onClick} style={{ cursor: "pointer" }}>
-      <div className="digest-icon"><Icon name="sparkle" size={16}/></div>
-      <div className="digest-body">
-        <div className="digest-title">
-          Weekly digest · {fmtBanner(today)}
-        </div>
-        <div className="digest-text">
-          <strong>{hydroCount} hydro-relevant</strong> meeting{hydroCount === 1 ? "" : "s"} this week
-          {newDocCount > 0 && <> · <strong>{newDocCount} hydro-relevant doc{newDocCount === 1 ? "" : "s"}</strong> attached</>}
-        </div>
-      </div>
-      <button className="btn">
-        <Icon name="arrowRight" size={14}/>
-        Open digest
-      </button>
-    </div>
-  );
-};
-
 // Container-scoped scroll: scrolls only within the list-pane element,
 // never the parent page or iframe. Avoids the "page snaps on load" effect.
 function scrollWithin(container, el) {
@@ -107,7 +78,7 @@ function scrollWithin(container, el) {
   container.scrollTo({ top, behavior: "smooth" });
 }
 
-const ListPane = ({ events, selectedId, onSelect, today, selectedDate, onOpenDigest, onCollapse }) => {
+const ListPane = ({ events, selectedId, onSelect, today, selectedDate, onCollapse }) => {
   const grouped = React.useMemo(() => {
     const m = {};
     for (const e of events) {
@@ -163,7 +134,6 @@ const ListPane = ({ events, selectedId, onSelect, today, selectedDate, onOpenDig
   }, [selectedId]);
 
   const totalHydro = events.filter(e => e.isRelevant).length;
-  const digestItems = window.MARKETS_DATA.digestItems;
 
   return (
     <div className="list-pane">
@@ -180,7 +150,6 @@ const ListPane = ({ events, selectedId, onSelect, today, selectedDate, onOpenDig
           </button>
         )}
       </div>
-      <DigestBanner items={digestItems} today={today} onClick={onOpenDigest}/>
       <div className="list-scroll" ref={scrollRef}>
         {grouped.length === 0 && (
           <div className="empty">
