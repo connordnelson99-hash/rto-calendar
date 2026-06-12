@@ -62,24 +62,45 @@ something that touches one of these:
    - Ancillary services hydro typically supplies: regulation, spinning/
      operating reserves, fast frequency response, inertia, reactive power/
      voltage support, black start
+   - Ramping/uncertainty products (flexible ramping, ramp capability,
+     AS demand curves) — hydro is the classic supplier of flexibility
    - Capacity markets and accreditation: ELCC/UCAP for hydro and storage,
-     seasonal accreditation, performance assessments and penalties
+     seasonal accreditation, performance assessments and penalties,
+     auction parameters (CONE, demand-curve resets)
+   - Market power mitigation as applied to use-limited resources:
+     reference levels, default energy bids, opportunity-cost offer
+     development, mitigation of storage — hydro is the canonical
+     use-limited resource and chronically mis-fitted by these rules
    - Storage participation models — pumped storage especially (charging
      energy treatment, state-of-charge rules, AS stacking, long-duration
      storage programs), plus battery rules that set precedent for PSH
-   - Hybrid / co-located resource rules
-   - Energy attribute certificates, RECs, clean-energy program design
+   - Hybrid / co-located resource rules; DER aggregation (Order 2222)
+     as a participation pathway for small hydro
+   - Treatment of run-of-river/variable hydro: intermittent-resource
+     programs, forecasting requirements, forecast-error settlement
+   - Energy attribute certificates, RECs, clean-energy program design,
+     and GHG attribution/accounting in market footprints (WEIM/EDAM GHG
+     attribution matters enormously to Northwest hydro exports)
 
 2. OBLIGATIONS — rules a hydro operator must comply with or respond to:
    - Interconnection and deliverability rules (incl. FERC Order 2023-era
-     queue reform), must-offer requirements, outage scheduling
+     queue reform), surplus interconnection service and uprates at
+     existing plants, must-offer requirements, outage scheduling
    - Operating standards reaching synchronous units: ride-through,
      winterization/resource readiness, dam-adjacent reliability standards
    - Metering, settlement, and dispatch-instruction changes
 
 3. STRATEGIC OPTIONS — developments that change what hydro owners can do:
-   - Resource adequacy constructs and reliability mechanisms
-   - Transmission planning/expansion affecting hydro deliverability
+   - Load growth, large-load interconnection, data centers, and
+     co-located load — scarcity from load growth raises the value of
+     every existing hydro MW, and co-location rules may let hydro serve
+     load behind the meter; treat these as squarely relevant
+   - Resource adequacy constructs and reliability mechanisms; seasonal
+     energy-adequacy studies (incl. hydro-conditions outlooks)
+   - Transmission planning/expansion affecting hydro deliverability,
+     interregional transfer capability, storage-as-transmission and
+     other non-wires alternatives
+   - RMR/mothball/retirement processes (fleet decisions and scarcity)
    - Water, drought, and river-operations issues as they intersect markets
    - Licensing/relicensing or environmental compliance touching markets
    - Market seams and governance: EDAM/WEIM, Markets+, RTO membership
@@ -180,8 +201,8 @@ Document text (excerpt):
 Answer in exactly this JSON format (no other text):
 {{
   "relevant": true or false,
-  "reason": "one sentence explaining why or why not",
-  "summary": "if relevant, 2-3 sentences (see rules below); otherwise null",
+  "reason": "one sentence naming the MECHANISM: which hydro/PSH revenue stream, obligation, or strategic option this touches and how (or, if not relevant, why nothing applies)",
+  "summary": "if relevant, 2-4 sentences (see rules below); otherwise null",
   "stakeholders": [
     {{
       "name": "<full name as it appears>",
@@ -193,16 +214,33 @@ Answer in exactly this JSON format (no other text):
 }}
 
 Summary rules (these summaries go directly to hydro asset owners):
-- Lead with the substance: what is proposed/decided/reported, and the hook
-  for hydro or pumped storage. Don't open with "This document..." — open
-  with the thing itself.
-- Include status and next step when stated (e.g. "tabled at PRS",
-  "board vote scheduled"), and quote any comment deadline or vote date
-  VERBATIM — deadlines are the single most actionable thing in this feed.
+- Structure the summary as three moves:
+  1. WHAT: the proposal/decision/finding, plus its status and next step
+     when stated (e.g. "tabled at PRS", "board vote scheduled").
+  2. MECHANISM: the doc-specific causal chain to hydro or PSH — which
+     revenue stream, obligation, or option changes, and in which
+     direction. A category label is NOT a mechanism: never write
+     "relates to ancillary services hydro provides" or "a topic NHA
+     tracks". Write what would actually change for an owner.
+  3. WHO/WHEN: which segment is most affected (pumped storage vs
+     reservoir vs run-of-river; large vs small) when the doc supports
+     it, and any comment deadline or vote date quoted VERBATIM —
+     deadlines are the single most actionable thing in this feed.
+- Example of the expected quality (CAISO straw proposal, hypothetical):
+  "CAISO proposes capping storage RA accreditation at the first four
+  discharge hours, with comments due February 28, 2027. That would
+  erase the accreditation edge long-duration pumped storage currently
+  holds over 4-hour batteries — PSH counted toward RA showings beyond
+  hour four loses capacity value. Most exposed are owners using PSH in
+  CPE/RA portfolios; comments are due February 28, 2027."
+- Don't open with "This document..." — open with the thing itself.
 - State figures only when their attribution is unambiguous in the text
   (see extraction notes above). Never reconstruct or estimate a value.
 - Name the position-takers when the doc states positions ("ERCOT opposes",
   "LCRA's comments support...").
+- If the genuine value is contextual (market-monitor report, white paper,
+  cross-market comparison), say what an analyst would learn from it — but
+  still concretely, not "provides useful context".
 
 Stakeholder extraction rules:
 - Include named individuals from cover pages, "submitted by" lines, "contact:" blocks,
