@@ -269,15 +269,15 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200, dry_run
     """Screen documents for meetings that passed Stage 1."""
     where = [
         # Stage-1 gate: only docs from meetings flagged relevant — EXCEPT
-        # NYISO, SPP, and MISO. Their meeting titles are just the committee
-        # name / acronym (the agenda lives only inside the agenda doc), so
-        # Stage 1 has too little signal and filters out broad-but-important
-        # venues like NYISO's Business Issues Committee, SPP's Markets+
-        # working groups, or MISO's Planning Advisory Committee. Screening
-        # every doc on its own extracted text recovers the relevant material
-        # those meetings carry.
+        # NYISO, SPP, MISO, and ERCOT. Their meeting titles are just the
+        # committee name / acronym (the agenda lives only inside the agenda
+        # doc), so Stage 1 has too little signal and filters out
+        # broad-but-important venues like NYISO's Business Issues Committee,
+        # SPP's Markets+ working groups, MISO's Planning Advisory Committee,
+        # or ERCOT's WMS/PRS. Screening every doc on its own extracted text
+        # recovers the relevant material those meetings carry.
         "(m.hydro_relevant = 1 OR d.rto IN "
-        "('NYISO', 'SPP', 'SPP Markets +', 'MISO'))",
+        "('NYISO', 'SPP', 'SPP Markets +', 'MISO', 'ERCOT'))",
     ]
     params = []
 
