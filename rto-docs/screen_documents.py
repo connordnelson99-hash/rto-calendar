@@ -93,11 +93,23 @@ to market rules, and fuel-specific issues with no hydro analog (e.g. gas
 pipeline coordination specifics) UNLESS the rule's design would extend to
 dispatchable or storage resources generally.
 
-Calibration: prefer recall. This screen feeds a weekly digest that triages
-aggressively, so a borderline-relevant document should be flagged relevant —
-a false positive costs a reader seconds, a false negative never reaches
-members. Reserve relevant=false for documents you are confident carry nothing
-on the axes above.
+Calibration: prefer recall — this screen is the single gate for THREE
+downstream consumers with different bars, and a document you reject is
+permanently invisible to all of them:
+1. A weekly member digest (triages aggressively — false positives cost it
+   nothing).
+2. The calendar UI, where members browse per-meeting documents.
+3. An all-time analytical corpus used for ad-hoc cross-market analysis
+   ("which RTOs are rethinking frequency response?"). This consumer values
+   reference material the digest would skip: market-monitor reports,
+   white papers, long-run RA/transmission studies, post-event analyses —
+   keep these when they touch the axes above, even with no immediate
+   member action in them.
+Flag relevant if ANY of the three would plausibly want the document.
+Reserve relevant=false for documents you are confident carry nothing on
+the axes above. Write the summary to serve all three: self-contained
+(name the RTO, mechanism, and proceeding), substantive enough to be
+useful standing alone in a corpus search months later.
 
 Special case — ERCOT: Texas has essentially no hydropower, but NHA tracks
 ERCOT for cross-market comparison (e.g. how ERCOT handles frequency response
