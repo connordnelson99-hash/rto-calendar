@@ -26,7 +26,7 @@ function App() {
   const [data, setData] = useState(null);
   const [loadError, setLoadError] = useState(null);
 
-  const [filters, setFilters] = useState({ view: "all", rto: "all", topic: "all", q: "" });
+  const [filters, setFilters] = useState({ view: "all", rto: "all", topic: "all", q: "", facet: null });
   const [selectedId, setSelectedId] = useState(null);
   const [selectedDate, setSelectedDate] = useState(null);
   const [monthCursor, setMonthCursor] = useState(() => {
@@ -74,6 +74,7 @@ function App() {
       if (filters.view === "today" && (e.date < data.today || e.date > data.weekEnd)) return false;
       if (filters.rto !== "all" && e.rto !== filters.rto) return false;
       if (filters.topic !== "all" && !(e.topics || []).includes(filters.topic)) return false;
+      if (filters.facet && !matchesFacet(e, filters.facet)) return false;
       if (filters.q) {
         const q = filters.q.toLowerCase();
         const issueText = (e.issues || []).map(i => `${i.title || ""} ${i.name || ""} ${i.native_id || ""}`).join(" ");
@@ -132,14 +133,8 @@ function App() {
           <span>RTO/ISO Calendar</span>
         </div>
         <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
-          <div className="topbar-search">
-            <Icon name="search" size={14} className="search-icon"/>
-            <input
-              placeholder="Search meetings, committees, initiatives, stakeholders…"
-              value={filters.q}
-              onChange={e => setFilters({...filters, q: e.target.value})}/>
-            <span className="kbd">⌘K</span>
-          </div>
+          <SearchBox data={data} filters={filters} setFilters={setFilters}
+                     onSelectEvent={onSelectEvent}/>
         </div>
         <div className="topbar-actions">
           <button className="btn" title="Open weekly digest" onClick={() => setDigestOpen(true)}>
@@ -193,6 +188,13 @@ function App() {
               <span className="filter-chip active initiative" onClick={() => setFilters({...filters, view: "all"})}>
                 <Icon name="target" size={11}/>
                 Initiative-linked only
+                <span className="x">×</span>
+              </span>
+            )}
+            {filters.facet && (
+              <span className="filter-chip active" onClick={() => setFilters({...filters, facet: null})}>
+                <Icon name={FACET_ICON[filters.facet.kind] || "filter"} size={11}/>
+                {filters.facet.label}
                 <span className="x">×</span>
               </span>
             )}

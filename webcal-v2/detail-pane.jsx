@@ -30,6 +30,73 @@ function formatShortDate(iso) {
   return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 }
 
+// Doc-type display + ranking. Lower weight = more newsworthy → sorts first.
+// Keys match the screener's `type` values; "other"/"document" carry no signal.
+const DOC_TYPE_ORDER = [
+  "report", "decision", "proposal", "vote", "issue-charge", "tariff",
+  "presentation", "matrix", "agenda", "comment", "minutes", "manual",
+  "press-release", "elibrary", "other", "document",
+];
+function docTypeWeight(t) {
+  const i = DOC_TYPE_ORDER.indexOf(t);
+  return i === -1 ? DOC_TYPE_ORDER.length : i;
+}
+function docTypeLabel(t) {
+  const s = String(t || "document").replace(/_/g, " ");
+  return ["other", "document"].includes(s) ? "Other" : s;
+}
+
+function daysBetweenIso(a, b) {
+  if (!a || !b) return Infinity;
+  return Math.abs(Date.parse(a + "T12:00:00") - Date.parse(b + "T12:00:00")) / 86400000;
+}
+
+// Cross-RTO comparison (free, no API): given a document, find summaries of
+// similar materials — same doc type and/or overlapping topic tags — from OTHER
+// RTOs within a ~10-day window, so members can eyeball how peers are treating
+// the same issue without leaving the calendar. Pure scan of the loaded feed.
+function findRelatedDocs(doc, event, { windowDays = 10, limit = 12 } = {}) {
+  const data = window.MARKETS_DATA;
+  if (!data || !doc) return [];
+  const topics = new Set(doc.topics || []);
+  const out = [];
+  for (const ev of (data.events || [])) {
+    if (ev.id === event.id || ev.rto === event.rto) continue;   // other RTOs only
+    if (daysBetweenIso(ev.date, event.date) > windowDays) continue;
+    for (const od of (ev.documents || [])) {
+      if (!od.ai_summary) continue;
+      const shared = (od.topics || []).filter(t => topics.has(t));
+      const sameType = od.type === doc.type;
+      if (!shared.length && !sameType) continue;                // share theme or type
+      out.push({
+        ev, doc: od, shared, sameType,
+        score: (sameType ? 4 : 0) + shared.length,
+        proximity: daysBetweenIso(ev.date, event.date),
+      });
+    }
+  }
+  // Prefer strong matches (shared theme AND same type); fall back to the
+  // broader set when strong matches are too few to be worth a column.
+  const strong = out.filter(r => r.sameType && r.shared.length);
+  const pool = strong.length >= 2 ? strong : out;
+  pool.sort((a, b) => b.score - a.score || a.proximity - b.proximity);
+  return pool.slice(0, limit);
+}
+
+// Group related docs into per-RTO columns (most-relevant RTO first).
+function groupRelatedByRto(related) {
+  const byRto = new Map();
+  for (const r of related) {
+    if (!byRto.has(r.ev.rto)) {
+      byRto.set(r.ev.rto, { rto: r.ev.rto, meta: r.ev.rtoMeta, items: [], best: 0 });
+    }
+    const g = byRto.get(r.ev.rto);
+    g.items.push(r);
+    g.best = Math.max(g.best, r.score);
+  }
+  return [...byRto.values()].sort((a, b) => b.best - a.best || b.items.length - a.items.length);
+}
+
 // CAISO bundles many dated events per stage as a single multi-line string
 // like "April 16, 2026 Configurable Parameters working group\nApril 30, 2026
 // Comments due". Split into [{date, label}] pairs for vertical rendering.
@@ -318,12 +385,12 @@ function groupStakeholdersByEntity(stakeholders) {
     .sort((a, b) => a.entity.localeCompare(b.entity));
 }
 
-const DocCard = ({ d, event, onOpenDoc }) => {
+const DocCard = ({ d, event, onOpenSummary }) => {
   const isHydro = d.hydro_relevant;
-  const docTypeLabel = (d.type || "document").replace(/_/g, " ");
+  const typeText = (d.type || "document").replace(/_/g, " ");
   // Every RTO gets the type badge; "other"/"document" carry no signal,
   // so those render without one rather than shouting OTHER.
-  const showTypeTag = !["other", "document"].includes(docTypeLabel);
+  const showTypeTag = !["other", "document"].includes(typeText);
   const stakeholderEntities = [
     ...new Set(
       (d.stakeholders || [])
@@ -331,15 +398,22 @@ const DocCard = ({ d, event, onOpenDoc }) => {
         .filter(Boolean)
     )
   ];
-  const onClick = () => {
+  // The card body opens the full-summary popup; the PDF button (below) stops
+  // propagation so it still goes straight to the source.
+  const openSummary = () => { if (d.ai_summary) onOpenSummary(d); };
+  const openPdf = (ev) => {
+    ev.stopPropagation();
     const url = d.url || event.sourceUrl;
     if (url) window.open(url, "_blank", "noopener");
   };
+  const clickable = !!d.ai_summary;
   return (
-    <div className={"doc-card" + (isHydro ? " hydro" : "")}>
+    <div className={"doc-card" + (isHydro ? " hydro" : "") + (clickable ? " clickable" : "")}
+         onClick={clickable ? openSummary : undefined}
+         title={clickable ? "Open full summary" : null}>
       <div className="doc-body">
         {showTypeTag && (
-          <div className="doc-type-tag">{docTypeLabel}</div>
+          <div className="doc-type-tag">{typeText}</div>
         )}
         <div className="doc-title">
           {d.title}
@@ -363,17 +437,136 @@ const DocCard = ({ d, event, onOpenDoc }) => {
           </div>
         )}
         {d.ai_summary && (
-          <div className="doc-summary" style={isHydro ? null : { color: "var(--text-muted)" }}>
+          <div className="doc-summary clamp" style={isHydro ? null : { color: "var(--text-muted)" }}>
             {d.ai_summary}
+          </div>
+        )}
+        {clickable && (
+          <div className="doc-readmore">
+            <Icon name="sparkle" size={11}/> Full summary &amp; cross-RTO compare
           </div>
         )}
       </div>
       <div className="doc-actions">
-        <button className="btn" style={{ height: 26, fontSize: 11 }} onClick={onClick}>
+        <button className="btn" style={{ height: 26, fontSize: 11 }} onClick={openPdf}>
           <Icon name="external" size={12}/> Open PDF
         </button>
       </div>
     </div>
+  );
+};
+
+// Full-summary popup with a cross-RTO comparison rail. Opened by clicking a
+// doc card. The comparison columns are built live from the loaded feed
+// (findRelatedDocs) — no API calls, no export round-trip.
+const RelatedDocCard = ({ r, anchorDate }) => {
+  const od = r.doc;
+  const openPdf = () => { if (od.url) window.open(od.url, "_blank", "noopener"); };
+  const dayGap = Math.round(daysBetweenIso(r.ev.date, anchorDate));
+  return (
+    <div className="cmp-card" onClick={openPdf} title="Open source PDF">
+      <div className="cmp-card-top">
+        {docTypeLabel(od.type) !== "Other" && (
+          <span className="cmp-card-type">{docTypeLabel(od.type)}</span>
+        )}
+        <span className="cmp-card-date">
+          {formatShortDate(r.ev.date)}{dayGap > 0 ? ` · ${dayGap}d` : ""}
+        </span>
+      </div>
+      <div className="cmp-card-title">{od.title}</div>
+      <div className="cmp-card-summary clamp">{od.ai_summary}</div>
+      {r.shared.length > 0 && (
+        <div className="cmp-card-topics">
+          {r.shared.map(t => (
+            <span key={t} className="cmp-topic-chip">{window.TOPIC_META?.[t]?.label || t}</span>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
+
+const DocSummaryModal = ({ doc, event, onClose }) => {
+  if (!doc) return null;
+  const related = findRelatedDocs(doc, event);
+  const columns = groupRelatedByRto(related);
+  const openPdf = () => {
+    const url = doc.url || event.sourceUrl;
+    if (url) window.open(url, "_blank", "noopener");
+  };
+  return (
+    <>
+      <div className="doc-modal-overlay open" onClick={onClose}/>
+      <div className="doc-modal" role="dialog" aria-modal="true">
+        <div className="doc-modal-head">
+          <div className="doc-modal-head-tags">
+            <RtoTag rto={event.rto} meta={event.rtoMeta}/>
+            {docTypeLabel(doc.type) !== "Other" && (
+              <span className="doc-type-tag" style={{ margin: 0 }}>{docTypeLabel(doc.type)}</span>
+            )}
+            {doc.hydro_relevant && (
+              <span className="hydro-flag"><span className="hydro-tri"/> hydro</span>
+            )}
+          </div>
+          <button className="close-btn" onClick={onClose}><Icon name="x" size={16}/></button>
+        </div>
+
+        <div className="doc-modal-body">
+          <div className="doc-modal-main">
+            <h2 className="doc-modal-title">{doc.title}</h2>
+            <div className="doc-modal-meta">
+              <span><strong>{event.rtoMeta.label}</strong></span>
+              {doc.posted_date && <><span>·</span><span>posted {doc.posted_date}</span></>}
+              {doc.filename && <><span>·</span><span className="mono">{doc.filename}</span></>}
+            </div>
+
+            {(doc.topics || []).length > 0 && (
+              <div className="doc-modal-topics">
+                {doc.topics.map(t => (
+                  <span key={t} className="cmp-topic-chip">{window.TOPIC_META?.[t]?.label || t}</span>
+                ))}
+              </div>
+            )}
+
+            <div className="doc-modal-summary-label">
+              <Icon name="sparkle" size={11}/> AI summary · screened by Claude
+            </div>
+            <p className="doc-modal-summary">{doc.ai_summary}</p>
+
+            <button className="btn primary" onClick={openPdf}>
+              <Icon name="external" size={13}/> Open source PDF
+            </button>
+          </div>
+
+          <div className="doc-modal-compare">
+            <div className="cmp-head">
+              <div className="cmp-head-title">Similar across RTOs</div>
+              <div className="cmp-head-sub">
+                Same type or topic, within ±10 days · {related.length} match{related.length === 1 ? "" : "es"}
+              </div>
+            </div>
+            {columns.length === 0 ? (
+              <div className="cmp-empty">
+                No comparable material from other RTOs in this window yet.
+              </div>
+            ) : (
+              <div className="cmp-columns">
+                {columns.map(col => (
+                  <div key={col.rto} className="cmp-column">
+                    <div className="cmp-column-head">
+                      <RtoTag rto={col.rto} meta={col.meta}/>
+                    </div>
+                    {col.items.map((r, i) => (
+                      <RelatedDocCard key={`${r.ev.id}-${i}`} r={r} anchorDate={event.date}/>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
@@ -431,6 +624,8 @@ const DetailPane = ({ event, onClose, onOpenDoc }) => {
   // Hooks must run in the same order on every render — declare before the
   // null-event early return.
   const [activeTabState, setActiveTab] = React.useState(null);
+  const [docTypeFilter, setDocTypeFilter] = React.useState(null);
+  const [summaryDoc, setSummaryDoc] = React.useState(null);
 
   if (!event) return (
     <>
@@ -439,8 +634,22 @@ const DetailPane = ({ event, onClose, onOpenDoc }) => {
     </>
   );
   const e = event;
-  const hydroDocs = e.documents.filter(d => d.hydro_relevant);
-  const otherDocs = e.documents.filter(d => !d.hydro_relevant);
+
+  // Doc-type filter chips: tally types present on this meeting, ranked by
+  // newsworthiness. A stale filter (type absent from this event) reads as "All".
+  const typeCounts = new Map();
+  for (const d of e.documents) {
+    const t = d.type || "document";
+    typeCounts.set(t, (typeCounts.get(t) || 0) + 1);
+  }
+  const docTypes = [...typeCounts.entries()]
+    .map(([type, count]) => ({ type, count, label: docTypeLabel(type) }))
+    .sort((a, b) => docTypeWeight(a.type) - docTypeWeight(b.type));
+  const activeType = typeCounts.has(docTypeFilter) ? docTypeFilter : null;
+  const matchesType = (d) => !activeType || (d.type || "document") === activeType;
+
+  const hydroDocs = e.documents.filter(d => d.hydro_relevant && matchesType(d));
+  const otherDocs = e.documents.filter(d => !d.hydro_relevant && matchesType(d));
 
   const openSource = () => {
     const url = e.detailUrl || e.sourceUrl || e.materialsUrl;
@@ -520,16 +729,6 @@ const DetailPane = ({ event, onClose, onOpenDoc }) => {
               </div>
             </div>
 
-            {e.meetingHydroRelevant && e.meetingHydroReason && (
-              <div className="hydro-banner">
-                <div className="hydro-banner-icon">▲</div>
-                <div className="hydro-banner-body">
-                  <div className="hydro-banner-label">Why this matters for hydro</div>
-                  <div>{e.meetingHydroReason}</div>
-                </div>
-              </div>
-            )}
-
             <div className="detail-hero-actions">
               <button className="btn primary" onClick={openSource} disabled={!e.detailUrl && !e.sourceUrl}>
                 <Icon name="external" size={14}/> Open on {e.rtoMeta.label}
@@ -562,16 +761,38 @@ const DetailPane = ({ event, onClose, onOpenDoc }) => {
 
           {activeTab === "docs" && (
             <div className="tab-panel">
+              {docTypes.length > 1 && (
+                <div className="doc-type-filter">
+                  <button
+                    className={"doc-type-chip" + (activeType === null ? " active" : "")}
+                    onClick={() => setDocTypeFilter(null)}>
+                    All <span className="doc-type-chip-count">{e.documents.length}</span>
+                  </button>
+                  {docTypes.map(t => (
+                    <button
+                      key={t.type}
+                      className={"doc-type-chip" + (activeType === t.type ? " active" : "")}
+                      onClick={() => setDocTypeFilter(activeType === t.type ? null : t.type)}>
+                      {t.label} <span className="doc-type-chip-count">{t.count}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+              {hydroDocs.length === 0 && otherDocs.length === 0 && (
+                <div className="section" style={{ color: "var(--text-muted)", fontSize: 13 }}>
+                  No {activeType ? docTypeLabel(activeType) : ""} documents match.
+                </div>
+              )}
               {hydroDocs.length > 0 && (
                 <>
                   <div className="tab-subhead"><span className="hydro-tri"/> Hydro-relevant · {hydroDocs.length}</div>
-                  {hydroDocs.map(d => <DocCard key={d.id} d={d} event={e} onOpenDoc={onOpenDoc}/>)}
+                  {hydroDocs.map(d => <DocCard key={d.id} d={d} event={e} onOpenSummary={setSummaryDoc}/>)}
                 </>
               )}
               {otherDocs.length > 0 && (
                 <>
                   {hydroDocs.length > 0 && <div className="tab-subhead">Other documents · {otherDocs.length}</div>}
-                  {otherDocs.map(d => <DocCard key={d.id} d={d} event={e} onOpenDoc={onOpenDoc}/>)}
+                  {otherDocs.map(d => <DocCard key={d.id} d={d} event={e} onOpenSummary={setSummaryDoc}/>)}
                 </>
               )}
             </div>
@@ -618,6 +839,9 @@ const DetailPane = ({ event, onClose, onOpenDoc }) => {
           )}
         </div>
       </div>
+      {summaryDoc && (
+        <DocSummaryModal doc={summaryDoc} event={e} onClose={() => setSummaryDoc(null)}/>
+      )}
     </>
   );
 };
