@@ -1,5 +1,19 @@
 [
   {
+    "title": "MRATF Net Conference",
+    "date": "2026-09-14",
+    "time": "12:00 PM - 4:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Resource Adequacy Task Force",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-resource-adequacy-task-force-net-conference-20260914/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=370801",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Resource adequacy task force in Markets+ (SPP's multi-RTO governance expansion) directly addresses seasonal energy adequacy, capacity accreditation, and participation rules for hydro and storage resources across a multi-state footprint where hydropower's strategic value to regional reliability is material.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MSWG Net Conference",
     "date": "2026-09-10",
     "time": "12:00 PM - 4:00 PM CT",
@@ -346,6 +360,48 @@
     "materials_url": "https://www.spp.org/spp-documents-filings/?id=370774",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Markets and Operations and Reliability Working Group typically addresses market rules, resource dispatch, ancillary services, and reliability requirements that directly affect hydropower and energy storage participation in SPP's markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "CIFP\u2013RBP / Connect and Manage \u2013 Stage 4 Meeting",
+    "date": "2026-06-30",
+    "time": "9:00 a.m. - 2:00 p.m.",
+    "rto": "PJM",
+    "committee": "CIFP\u2013RBP / Connect and Manage \u2013 Stage 4",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "CIFP\u2013RBP / Connect and Manage \u2013 Stage 4 appears to be an interconnection queue and procedural reform process focused on interconnection application administration and project management, which, while touching interconnection rules that hydro must navigate, is primarily a procedural/administrative track rather than a market-design mechanism that determines revenue, pricing, or strategic participation options for hydro resources.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Special MC Meeting",
+    "date": "2026-06-30",
+    "time": "2:00 p.m. - 5:00 p.m.",
+    "rto": "PJM",
+    "committee": "Special MC",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A generic 'Special MC Meeting' title with no agenda details provided does not indicate specific market-design content relevant to hydropower revenue, compliance, or strategic options; the committee designation alone is insufficient to assess relevance without knowing the actual topics.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "TAC Meeting",
+    "date": "2026-06-30",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Technical Advisory Committee",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/06302026-TAC-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/06302026-TAC-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A bare TAC meeting title with no agenda details provides no basis to assess whether technical discussions will address hydropower-relevant topics like frequency response, storage participation, or capacity mechanisms; without substantive content, this is too generic to flag for the downstream corpus.",
     "issues": [],
     "documents": []
   },
