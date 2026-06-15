@@ -1,5 +1,19 @@
 [
   {
+    "title": "Q3 ECCWG Net Conference",
+    "date": "2026-09-15",
+    "time": "11:00 AM - 12:00 PM CT",
+    "rto": "SPP",
+    "committee": "Enhanced Curtailment Calculator Working Group",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/q3-eccwg-net-conference-20260915/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=200401",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Enhanced Curtailment Calculator relates to renewable (wind/solar) curtailment management during oversupply, not to hydropower revenue, obligations, or strategic options in SPP's market design.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MRATF Net Conference",
     "date": "2026-09-14",
     "time": "12:00 PM - 4:00 PM CT",
@@ -350,6 +364,90 @@
     "documents": []
   },
   {
+    "title": "SOS Meeting",
+    "date": "2026-07-01",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "SOS",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM's SOS (Strategic Options Study) committee addresses long-term planning, resource adequacy, capacity markets, and transmission constraints that directly affect hydropower and pumped-storage revenue, accreditation, and participation opportunities in PJM's footprint and neighboring regions.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Cost Development Subcommittee Meeting",
+    "date": "2026-07-01",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "Cost Development Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Cost Development Subcommittee addresses CONE, demand curves, and other parameters that directly shape capacity-market accreditation and revenue for hydro and storage resources in PJM.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "NEPOOL Power Supply Planning Committee Meeting",
+    "date": "2026-07-01",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Power Supply Planning Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160148",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Power Supply Planning Committee meetings typically address resource adequacy, seasonal energy assessments, capacity accreditation, transmission planning, and reliability mechanisms\u2014all of which directly affect hydro revenue and operational strategy in ISO-NE's footprint and the broader Northeast market.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Markets Committee of the Board of Directors - July 1, 2026",
+    "date": "2026-07-01",
+    "time": "9:00 AM - 11:00 AM",
+    "rto": "MISO",
+    "committee": "Markets Committee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/0edf44a090bd498e8f5b415ad12c9f8f.aspx",
+    "materials_url": "https://www.misoenergy.org/link/0edf44a090bd498e8f5b415ad12c9f8f.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The MISO Markets Committee addresses market-design topics including energy pricing, ancillary services, capacity mechanisms, and resource participation rules that directly affect hydro and pumped-storage revenue, compliance, and strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "SSWG Meeting",
+    "date": "2026-07-01",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Steady State Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/07012026-SSWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/07012026-SSWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Steady State Working Group meetings typically address power-flow modeling, contingency analysis, and transmission-system stability studies rather than market-design mechanisms affecting hydro revenue, participation rules, or strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Batch Zero Weekly Readiness Meeting",
+    "date": "2026-07-01",
+    "time": "2:00 PM",
+    "rto": "ERCOT",
+    "committee": "Steady State Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/07012026-Batch-Zero-Weekly-Readiness",
+    "materials_url": "https://www.ercot.com/calendar/07012026-Batch-Zero-Weekly-Readiness",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A Steady State Working Group readiness meeting focused on internal batch-zero implementation logistics contains no substantive discussion of market design, pricing, participation rules, or reliability mechanisms that would affect hydropower strategy or operations.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MORWG Net Conference",
     "date": "2026-06-30",
     "time": "11:00 AM - 3:00 PM CT",
@@ -402,6 +500,20 @@
     "materials_url": "https://www.ercot.com/calendar/06302026-TAC-Meeting-_-Webex",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A bare TAC meeting title with no agenda details provides no basis to assess whether technical discussions will address hydropower-relevant topics like frequency response, storage participation, or capacity mechanisms; without substantive content, this is too generic to flag for the downstream corpus.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Cost Development Subcommittee Meeting",
+    "date": "2026-06-30",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "Cost Development Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Cost Development Subcommittee addresses cost inputs for capacity market accreditation and resource adequacy pricing (CONE, demand-curve parameters, performance metrics), which directly affect hydro and PSH revenue and offer development in PJM's capacity auction.",
     "issues": [],
     "documents": []
   },
@@ -503,6 +615,20 @@
         "stakeholders": []
       }
     ]
+  },
+  {
+    "title": "Cost Development Subcommittee Meeting",
+    "date": "2026-06-29",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "Cost Development Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Cost Development Subcommittee addresses capacity-auction parameters (CONE, demand curves) and cost-based mitigation rules that directly affect hydro and storage resource accreditation, offer development, and revenue in PJM's capacity market.",
+    "issues": [],
+    "documents": []
   },
   {
     "title": "CAMSTF Meeting",
@@ -1437,7 +1563,94 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The Technology Working Group agenda is typically focused on IT systems, network infrastructure, and operational technology rather than market-design mechanisms affecting hydropower revenue, compliance, or strategic positioning.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "TWG Meeting Agenda 2026-06-18",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/06182026-TWG-Meeting-_-Webex#agenda",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine Technology Working Group meeting agenda listing internal ERCOT system-development and operational-tool projects with no substantive discussion of market design, pricing, services, or operations rules affecting hydropower or storage resources.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Brandon Johnson",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jamie Lavas",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Katherine Li",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Luke Butler",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mandy Bauld",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Preethi Meher",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Prudhvi Gurlinka",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sreenivas Badri",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sruthi Hariharan",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Troy Anderson",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Weijun Ji",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Yugendher Karedla",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "NEPOOL Participants Committee Summer Meeting",
@@ -2096,7 +2309,49 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The Performance, Disturbance, Compliance Working Group agenda typically addresses operational compliance metrics, incident investigations, and grid-disturbance response procedures that are procedural/administrative in nature and do not directly affect hydro revenue mechanisms, participation models, or strategic market-design options that would inform NHA member decisions.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "PDCWG Meeting Agenda 2026-06-17",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/06172026-PDCWG-Meeting-_-Webex#agenda",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT frequency control and ancillary-services methodology development is a cross-market comparison point for hydro's role in fast-frequency response, regulation, and reserves \u2014 the same products hydro supplies in WECC/Eastern RTOs, and methodological changes in ERCOT often precede or inform similar proposals elsewhere.",
+        "ai_summary": "ERCOT's PDCWG meeting agenda includes discussion of 2027 ancillary-services methodology (presenter Hinojosa), frequency-control and regulation reporting (Lowe), and analysis of disturbances. While the agenda itself contains no substantive proposals, the 2027 AS methodology review is directly relevant to how ERCOT will price and accredit frequency response and regulation products going forward \u2014 the same ancillary services hydro supplies in other markets. Analysts tracking cross-RTO frequency-response design should monitor the outcomes when detailed proposals are published.",
+        "topics": [
+          "ancillary-services",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Hinojosa",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Lara",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Lowe",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Penney",
+            "entity": "ERCOT / Texas RE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Intro to MOD Training",
@@ -3724,6 +3979,19 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "presentation",
+        "title": "ERS Enhancements_DSWG Presentation",
+        "filename": "ERS-Enhancements-DSWG-slide-deck.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/15/ERS-Enhancements-DSWG-slide-deck.pptx",
+        "posted_date": "2026-06-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "ERCOT Emergency Response Service (ERS) is a demand-side load-curtailment program with no hydropower participation or analog; the proposed changes to baseline testing and availability metrics for price-responsive industrial loads do not extend to dispatchable generation, storage, or resources hydro owners operate.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -3780,6 +4048,19 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "report",
+        "title": "ERCOT_IBRWG_Industry_Updates_06152026",
+        "filename": "ERCOT_IBRWG_Industry_Updates_06152026.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/15/ERCOT_IBRWG_Industry_Updates_06152026.pptx",
+        "posted_date": "2026-06-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "parse error: Unterminated string starting at: line 63 column 7 (char 3151)",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -3874,6 +4155,26 @@
         "stakeholders": [
           {
             "name": "Samantha Findley",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "20260615_CMWG_TSAT Update Rev2",
+        "filename": "20260615_CMWG_TSAT-Update-Rev2.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/15/20260615_CMWG_TSAT-Update-Rev2.pptx",
+        "posted_date": "2026-06-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "TSAT (Transmission System Assessment Tool) is a computational implementation issue for ERCOT's transmission modeling in its control-room software; it touches neither hydro revenue streams, compliance obligations, nor strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Douglas Bernhoft",
             "entity": "ERCOT",
             "role": "presenter",
             "email": null
@@ -4021,12 +4322,12 @@
   {
     "title": "PRTMDW Meeting",
     "date": "2026-06-12",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 10:00 a.m.",
     "rto": "PJM",
     "committee": "PRTMDW",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8AA032CF-C6F9-4103-9E54-FBC1A13FF9E8}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={B559CF9F-EA0B-40F2-A41F-D1D98F55638D}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "PRTMDW (Planning & Reliability Technical Marketing & Development Working Group) typically addresses general market development and planning issues not specifically focused on hydropower/storage market rules, capacity accreditation, or storage-related policy.",
     "issues": [],
@@ -4116,12 +4417,12 @@
   {
     "title": "TOA-AC Special Session - Public Materials Only (No Registration) Meeting",
     "date": "2026-06-12",
-    "time": "8:30 a.m. - 9:30 a.m.",
+    "time": "2:30 p.m. - 4:30 p.m.",
     "rto": "PJM",
     "committee": "TOA-AC Special Session - Public Materials Only (No Registration)",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={FF6A8483-D6E7-4791-9A87-F74A93E862DC}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={03142569-81EB-45FF-9DA7-73A6824EC572}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "TOA-AC (Transmission Operations & Connections Advisory Committee) typically addresses transmission operations and interconnection procedures, which are generally not hydropower-specific; without additional context indicating discussion of hydro-related transmission planning, deliverability, or interconnection issues, this appears to be a routine advisory meeting unlikely to contain hydropower-relevant content.",
     "issues": [],
@@ -4238,7 +4539,7 @@
     "committee": "CIFP\u2013RBP / Connect and Manage - Stage 3",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={EB3AB57B-5CE8-41EE-823F-079239D7CA1D}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7599B5CD-ECEB-4DAA-A2A1-553D825EB05C}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The CIFP-RBP/Connect and Manage Stage 3 meeting appears to focus on interconnection queue management and procedural processes rather than market rules, resource adequacy, or operational matters directly affecting hydropower participation.",
     "issues": [],
@@ -4970,12 +5271,12 @@
   {
     "title": "Co-Located Load Order Workshop Meeting",
     "date": "2026-06-11",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "9:00 a.m. - 10:00 a.m.",
     "rto": "PJM",
     "committee": "Co-Located Load Order Workshop",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={B559CF9F-EA0B-40F2-A41F-D1D98F55638D}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Co-located load rules directly affect pumped-storage hydropower facilities that pair generation with pump load, which is a key operational and market participation model for PSH in PJM.",
     "issues": [],
@@ -7335,12 +7636,12 @@
   {
     "title": "CIFP\u2013RBP / Connect and Manage - Stage 3 Meeting",
     "date": "2026-06-10",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "2:30 p.m. - 4:30 p.m.",
     "rto": "PJM",
     "committee": "CIFP\u2013RBP / Connect and Manage - Stage 3",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={AF314B13-BB49-462F-9C79-130496E0F3A2}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={03142569-81EB-45FF-9DA7-73A6824EC572}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "CIFP\u2013RBP / Connect and Manage - Stage 3 appears to be a project management or interconnection queue processing meeting focused on administrative coordination rather than market rules, resource adequacy, or operational policies affecting hydropower participation.",
     "issues": [],
@@ -11484,12 +11785,12 @@
   {
     "title": "RCSTF Meeting",
     "date": "2026-06-09",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "2:30 p.m. - 4:30 p.m.",
     "rto": "PJM",
     "committee": "RCSTF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7599B5CD-ECEB-4DAA-A2A1-553D825EB05C}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={03142569-81EB-45FF-9DA7-73A6824EC572}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "RCSTF (Reserve Compliance Subcommittee Task Force) typically addresses reserve compliance and technical standards but the generic meeting title provides insufficient information to confirm hydropower-specific content, and this committee's focus on compliance metrics is unlikely to directly address hydro market participation issues.",
     "issues": [],
@@ -11739,12 +12040,12 @@
   {
     "title": "CAMSTF Meeting",
     "date": "2026-06-09",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 10:00 a.m.",
     "rto": "PJM",
     "committee": "CAMSTF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={B559CF9F-EA0B-40F2-A41F-D1D98F55638D}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "CAMSTF (Capacity, Ancillary Services, and Markets Subcommittee Task Force) addresses capacity market rules, ancillary services, and market design issues that directly affect hydropower and pumped-storage participation and compensation.",
     "issues": [],
@@ -12573,12 +12874,12 @@
   {
     "title": "TOA-AC Special Session - Public Materials Only (No Registration) Meeting",
     "date": "2026-06-08",
-    "time": "1:00 p.m. - 2:00 p.m.",
+    "time": "9:00 a.m. - 10:00 a.m.",
     "rto": "PJM",
     "committee": "TOA-AC Special Session - Public Materials Only (No Registration)",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={A51D34CA-2C49-4D78-8E14-56CDC19F7BC8}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={B559CF9F-EA0B-40F2-A41F-D1D98F55638D}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "TOA-AC (Transmission Owners Agreement \u2013 Advisory Committee) focuses on transmission owner coordination and operational issues rather than market design, resource adequacy, or generation participation rules that would directly affect hydropower and pumped-storage operations.",
     "issues": [],
