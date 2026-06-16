@@ -65,6 +65,21 @@ jobs:
             git push
           fi
 
+      - name: Flag soft scraper failures
+        # The scrape step now survives a single source failing so the healthy
+        # RTOs still publish. If any scraper was skipped it leaves a marker;
+        # fail the job here so the scheduled run still sends the usual GitHub
+        # failure email. Runs after the commit so today's data is published
+        # first; runs before the artifact upload so the logs get attached.
+        if: always()
+        working-directory: rto-docs
+        run: |
+          if [ -f logs/scraper_failures.txt ]; then
+            echo "::error::Scraper(s) failed and were skipped (calendar still published from healthy sources): $(tr '\n' ' ' < logs/scraper_failures.txt)"
+            exit 1
+          fi
+          echo "All scrapers succeeded."
+
       - name: Upload run log on failure
         if: failure()
         uses: actions/upload-artifact@v4
