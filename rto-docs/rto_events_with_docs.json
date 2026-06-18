@@ -1,5 +1,19 @@
 [
   {
+    "title": "MSC Zoom Meeting - Hosted by WIEB",
+    "date": "2026-09-18",
+    "time": "11:00 AM - 12:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ State Committee",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/msc-zoom-meeting-hosted-by-wieb-20260918/",
+    "materials_url": "https://www.spp.org/calendar-list/msc-zoom-meeting-hosted-by-wieb-20260918/",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Markets+ State Committee meeting title and hosting by WIEB (Western Interstate Energy Board) provide no indication of substantive market-design agenda items; without documented discussion topics touching revenue mechanisms, participation rules, capacity accreditation, or transmission/seams issues, a state-coordination meeting is unlikely to contain actionable content for hydro operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MTWG Net Conference",
     "date": "2026-09-17",
     "time": "12:00 PM - 4:00 PM CT",
@@ -599,7 +613,50 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Large load interconnection and co-located load developments directly affect hydro's strategic positioning and market participation options, particularly regarding the value of flexible generation and the potential for behind-the-meter resource arrangements.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20260716 LLWG Item 01c Minutes 20260610.pdf",
+        "filename": "20260716 LLWG Item 01c Minutes 20260610.pdf",
+        "url": "https://cdn.misoenergy.org/20260716%20LLWG%20Item%2001c%20Minutes%2020260610764681.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's Zero-Injection GIA (ZGIA) proposal directly affects how co-located generation and load can participate in markets and be registered\u2014a strategic option for hydro owners seeking to site generation with load, and a novel participation pathway that may extend to small hydro and hybrid resources under Order 2222 principles.",
+        "ai_summary": "MISO is developing a Zero-Injection Generator Interconnection Agreement (ZGIA) framework to enable market participation and registration of co-located load and generation. The proposal reflects six months of stakeholder input and is nearing a tariff filing at end of June 2026, with draft language and Planning Advisory Committee feedback still being incorporated. The framework adapts existing interconnection processes (surplus, replacement, ERAS) to zero-injection scenarios. For hydro owners, ZGIAs represent a new pathway to co-locate generation with large industrial load\u2014potentially raising MW value by shifting pricing exposure, enabling behind-the-meter hydro dispatch, and avoiding transmission constraints; most relevant to pumped-storage operators and small hydro seeking high-load-density sites. Comment deadlines and detailed tariff language appear in related filings (PAC-2024-2B, LLWG-2026-3, LLWG-2026-2) due May 26\u2013June 4, 2026.",
+        "topics": [
+          "hybrids-der",
+          "interconnection",
+          "load-growth"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Werner Roth",
+            "entity": "Large Load Working Group",
+            "role": "contact | vice chair",
+            "email": null
+          },
+          {
+            "name": "Marc Keyser",
+            "entity": "MISO",
+            "role": "presenter | miso liaison",
+            "email": null
+          },
+          {
+            "name": "Chris Plante",
+            "entity": "MISO Large Load Working Group",
+            "role": "presenter | chair",
+            "email": null
+          },
+          {
+            "name": "Eileen King",
+            "entity": "MISO Stakeholder Relations",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "WMWG Meeting",
@@ -873,7 +930,7 @@
     "committee": "Markets and Reliability Committee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={AC40F88C-2DE7-4C8D-A1D6-E87C9F0E1745}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Markets and Reliability Committee is the primary forum where PJM addresses capacity markets, resource adequacy, ancillary services, and market rule changes that directly affect hydropower and pumped-storage participation.",
     "issues": [],
@@ -887,11 +944,668 @@
     "committee": "Members Committee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={34F521EF-04FA-4344-AD82-8685462C01A9}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Members Committee meetings are typically governance and administrative forums rather than technical/market policy discussions where hydropower-specific rules and market design changes are debated.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "Administration A \u2013 MC New Member Announcement",
+        "filename": "20260624-administration-a---mc-new-member-announcement.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-administration-a---mc-new-member-announcement.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260624-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-agenda.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3f1658d3-7eae-4bba-9633-b64e9f724e84",
+            "canonical_name": "Regulation Market Design",
+            "status": "awaiting implementation & ferc approval",
+            "stakeholder_phase": "completed",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3f1658d3-7eae-4bba-9633-b64e9f724e84"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
+            "canonical_name": "Schedule 2 Penalty Calculations",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20260624-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-agenda-doc.docx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3f1658d3-7eae-4bba-9633-b64e9f724e84",
+            "canonical_name": "Regulation Market Design",
+            "status": "awaiting implementation & ferc approval",
+            "stakeholder_phase": "completed",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3f1658d3-7eae-4bba-9633-b64e9f724e84"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
+            "canonical_name": "Schedule 2 Penalty Calculations",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Consent Agenda A \u2013 Draft MC Minutes \u2013 5112026",
+        "filename": "20260624-consent-agenda-a---draft-mc-minutes---5112026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-consent-agenda-a---draft-mc-minutes---5112026.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Consent Agenda B \u2013 Draft Special MC \u2013 Rmr Resources Minutes \u2013 5272026",
+        "filename": "20260624-consent-agenda-b---draft-special-mc---rmr-resources-minutes---5272026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-consent-agenda-b---draft-special-mc---rmr-resources-minutes---5272026.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Consent Agenda C \u2013 1 Manual 15 Revisions Biennial Review \u2013 Presentation",
+        "filename": "20260624-consent-agenda-c---1-manual-15-revisions-biennial-review---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-consent-agenda-c---1-manual-15-revisions-biennial-review---presentation.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Consent Agenda C \u2013 2 Manual 15 Biennial Review Revisions \u2013 Executive Summary",
+        "filename": "20260624-consent-agenda-c---2-manual-15-biennial-review-revisions---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-consent-agenda-c---2-manual-15-biennial-review-revisions---executive-summary.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Consent Agenda C \u2013 3 Manual 15 Revisions \u2013 Redline",
+        "filename": "20260624-consent-agenda-c---3-manual-15-revisions---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-consent-agenda-c---3-manual-15-revisions---redline.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Consent Agenda D \u2013 1 Manual 15 Regulation Redesign Phase 2 Revisions \u2013 Presentation",
+        "filename": "20260624-consent-agenda-d---1-manual-15-regulation-redesign-phase-2-revisions---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-consent-agenda-d---1-manual-15-regulation-redesign-phase-2-revisions---presentation.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3f1658d3-7eae-4bba-9633-b64e9f724e84",
+            "canonical_name": "Regulation Market Design",
+            "status": "awaiting implementation & ferc approval",
+            "stakeholder_phase": "completed",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3f1658d3-7eae-4bba-9633-b64e9f724e84"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Consent Agenda D \u2013 2 Manual 15 Regulation Redesign Phase 2 Revisions \u2013 Executive Summary",
+        "filename": "20260624-consent-agenda-d---2-manual-15-regulation-redesign-phase-2-revisions---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-consent-agenda-d---2-manual-15-regulation-redesign-phase-2-revisions---executive-summary.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3f1658d3-7eae-4bba-9633-b64e9f724e84",
+            "canonical_name": "Regulation Market Design",
+            "status": "awaiting implementation & ferc approval",
+            "stakeholder_phase": "completed",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3f1658d3-7eae-4bba-9633-b64e9f724e84"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Consent Agenda D \u2013 3 Manual 15 Reg Redesign Phase 2 \u2013 Redlines",
+        "filename": "20260624-consent-agenda-d---3-manual-15-reg-redesign-phase-2---redlines.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-consent-agenda-d---3-manual-15-reg-redesign-phase-2---redlines.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3f1658d3-7eae-4bba-9633-b64e9f724e84",
+            "canonical_name": "Regulation Market Design",
+            "status": "awaiting implementation & ferc approval",
+            "stakeholder_phase": "completed",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3f1658d3-7eae-4bba-9633-b64e9f724e84"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 01 \u2013 Elections \u2013 Presentation",
+        "filename": "20260624-item-01---elections---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-01---elections---presentation.pdf",
+        "posted_date": "2026-06-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 02 \u2013 1 Schedule 2 Penalties \u2013 Presentation",
+        "filename": "20260624-item-02---1-schedule-2-penalties---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-02---1-schedule-2-penalties---presentation.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
+            "canonical_name": "Schedule 2 Penalty Calculations",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 02 \u2013 2 Schedule 2 Penalties Oa Revisions \u2013 Redline",
+        "filename": "20260624-item-02---2-schedule-2-penalties-oa-revisions---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-02---2-schedule-2-penalties-oa-revisions---redline.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
+            "canonical_name": "Schedule 2 Penalty Calculations",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "issue-charge",
+        "title": "Item 02 \u2013 3 Schedule 2 Penalties Problem Statement \u2013 Informational Only",
+        "filename": "20260624-item-02---3-schedule-2-penalties-problem-statement---informational-only.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-02---3-schedule-2-penalties-problem-statement---informational-only.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
+            "canonical_name": "Schedule 2 Penalty Calculations",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "issue-charge",
+        "title": "Item 02 \u2013 4 Schedule 2 Penalties Issue Charge \u2013 Informational Only",
+        "filename": "20260624-item-02---4-schedule-2-penalties-issue-charge---informational-only.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-02---4-schedule-2-penalties-issue-charge---informational-only.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
+            "canonical_name": "Schedule 2 Penalty Calculations",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03b \u2013 1 Arrc User Group Affordability Consideration \u2013 Presentation",
+        "filename": "20260624-item-03b---1-arrc-user-group-affordability-consideration---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-03b---1-arrc-user-group-affordability-consideration---presentation.pdf",
+        "posted_date": "2026-06-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 07 \u2013 Market Monitoring Report \u2013 Presentation",
+        "filename": "20260624-item-07---market-monitoring-report---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-07---market-monitoring-report---presentation.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 08a \u2013 1 PJM Market Operations Report \u2013 Presentation",
+        "filename": "20260624-item-08a---1-pjm-market-operations-report---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-08a---1-pjm-market-operations-report---presentation.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 08a \u2013 2 PJM Market Operations Report \u2013 Appendix",
+        "filename": "20260624-item-08a---2-pjm-market-operations-report---appendix.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-08a---2-pjm-market-operations-report---appendix.xlsx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 08b \u2013 1 System Operations Report \u2013 Presentation",
+        "filename": "20260624-item-08b---1-system-operations-report---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-08b---1-system-operations-report---presentation.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 08b \u2013 2 Operational Flexibility Metrics May 2026",
+        "filename": "20260624-item-08b---2-operational-flexibility-metrics-may-2026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-08b---2-operational-flexibility-metrics-may-2026.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 08b \u2013 3 Operational Flexibility Metrics June 2026",
+        "filename": "20260624-item-08b---3-operational-flexibility-metrics-june-2026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-08b---3-operational-flexibility-metrics-june-2026.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 08b \u2013 4 Operational Flexibility Metrics Graphs Data May 2026",
+        "filename": "20260624-item-08b---4-operational-flexibility-metrics-graphs-data-may-2026.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-08b---4-operational-flexibility-metrics-graphs-data-may-2026.xlsx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 08b \u2013 5 Operational Flexibility Metrics Graphs Data June 2026",
+        "filename": "20260624-item-08b---5-operational-flexibility-metrics-graphs-data-june-2026.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-08b---5-operational-flexibility-metrics-graphs-data-june-2026.xlsx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 08c \u2013 PJM Regulatory Report",
+        "filename": "20260624-item-08c---pjm-regulatory-report.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-08c---pjm-regulatory-report.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 09a \u2013 MRC Report",
+        "filename": "20260624-item-09a---mrc-report.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-09a---mrc-report.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "3322a887-69a9-4ebc-9dc5-69b9da854f25",
+            "canonical_name": "Schedule 2 Penalty Calculations",
+            "status": "awaiting senior committee approval",
+            "stakeholder_phase": "review",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3322a887-69a9-4ebc-9dc5-69b9da854f25"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "8c0a4c8f-4868-44a2-a8ba-65b5777aa28b",
+            "canonical_name": "Updates for Control Center and Data Exchange Requirements",
+            "status": "awaiting implementation & ferc approval",
+            "stakeholder_phase": "completed",
+            "committee_owner": "oc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=8c0a4c8f-4868-44a2-a8ba-65b5777aa28b"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 09b \u2013 MIC Report",
+        "filename": "20260624-item-09b---mic-report.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-09b---mic-report.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
+            "canonical_name": "Dual Fuel Schedule Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "education",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
+            "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 09c \u2013 OC Report",
+        "filename": "20260624-item-09c---oc-report.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-09c---oc-report.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "47c1f237-ad69-4695-8ba3-ff6cbaf9a037",
+            "canonical_name": "Storage as a Transmission Asset - Phase II",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "oc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=47c1f237-ad69-4695-8ba3-ff6cbaf9a037"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 09d \u2013 PC Report",
+        "filename": "20260624-item-09d---pc-report.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-09d---pc-report.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 10 \u2013 Stakeholder Process Forum Report",
+        "filename": "20260624-item-10---stakeholder-process-forum-report.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-10---stakeholder-process-forum-report.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 11 \u2013 Tech Change Forum Report",
+        "filename": "20260624-item-11---tech-change-forum-report.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-11---tech-change-forum-report.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 12b \u2013 Destf Report",
+        "filename": "20260624-item-12b---destf-report.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-12b---destf-report.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "2e32710d-634b-4925-84bf-1f56a33c7e05",
+            "canonical_name": "Enhancements to Deactivation Rules",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "consensus",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=2e32710d-634b-4925-84bf-1f56a33c7e05"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 12g \u2013 Rcstf Report",
+        "filename": "20260624-item-12g---rcstf-report.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260624/20260624-item-12g---rcstf-report.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "NEPOOL Transmission Committee Meeting",
@@ -904,8 +1618,374 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Transmission Committee meetings regularly address transmission planning, interconnection, and deliverability issues that directly affect hydropower and pumped-storage facilities' ability to participate in markets and deliver power.",
-    "issues": [],
-    "documents": []
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "asset-condition-reviewer",
+        "canonical_name": "Asset Condition Reviewer",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+      },
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
+    "documents": [
+      {
+        "type": "tariff",
+        "title": "2026-06-24 TC A04.2 Maine Office of the Public Advocate (ME OPA) Amendment",
+        "filename": "a04.2_tc_me_ope_acr_amendment.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04.2_tc_me_ope_acr_amendment.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a definitional amendment to asset-condition-project language in ISO-NE's transmission tariff, clarifying what qualifies for cost recovery; it does not touch hydro revenue mechanisms, participation rules, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Maine Office of the Public Advocate",
+            "entity": "Maine OPA",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-24 TC A02 CAR-SA: Initial Deactivations Redlines Presentation",
+        "filename": "a02_tc_mc_deactivations_redlines_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a02_tc_mc_deactivations_redlines_presentation.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ISO-NE is implementing seasonal capacity accreditation as part of Capacity Auction Reforms (CAR-SA), which directly affects how hydropower and pumped-storage resources are accredited, deactivated, and compensated in the capacity market \u2014 a core revenue stream.",
+        "ai_summary": "ISO-NE's Capacity Auction Reforms\u2013Seasonal Accreditation (CAR-SA) initiative is revising tariff provisions to align deactivation rules, cost-workbook submissions, conduct tests, and portfolio-benefit tests with a shift from annual to seasonal capacity commitment periods and marginal reliability impact (MRI) capacity accreditation. The deactivation redlines (WMPP ID 185), presented to the Transmission Committee in June 2026, conform existing provisions to seasonal terminology and introduce equivalent CNR Capability concepts, with a proposed Q2 2027 effective date. The revisions touch multiple sections of the ISO-NE tariff (II.48\u2013II.55 and III.A.24) that govern how resources request and are approved for deactivation, how their deactivation cost workbooks are evaluated, and how the conduct and portfolio-benefit tests determine whether deactivation is economically justified. Hydro and pumped-storage operators in ISO-NE will need to recalculate opportunity costs, break-even prices, and seasonal cash flows to comply with the new submission requirements; the shift to MRI-based accreditation means their deactivation threshold (20 MW reliability review) and compensation mechanics are redefined in terms of seasonal marginal capacity contribution rather than annual ratings. Next steps include Markets Committee review of accreditation modeling (June\u2013July 2026), tariff redline revisions, and anticipated FERC filing in Q4 2026.",
+        "topics": [
+          "capacity-ra",
+          "mitigation-offers",
+          "ops-compliance"
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Kevin Coopey",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": "KCoopey@iso-ne.com"
+          }
+        ]
+      },
+      {
+        "type": "vote",
+        "title": "2026-06-24 TC A00 Motions Letter",
+        "filename": "a00_2026_06_24_tc_motions_letter.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a00_2026_06_24_tc_motions_letter.docx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine procedural motions letter approving meeting minutes and advancing transmission tariff amendments for asset-condition review and related governance \u2014 neither the AC Reviewer Proposal nor the Maine OPA amendment scope-narrowing directly affects hydro revenue, dispatch/storage rules, capacity accreditation, pricing, ancillary-service procurement, or strategic market participation.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Maine Office of Public Advocate",
+            "entity": "State of Maine",
+            "role": "sponsor",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "decision",
+        "title": "2026-06-24 TC A04.1 Asset Condition Reviewer - Voting Memo",
+        "filename": "a04_tc_asset_condition_reviewer_voting_memo.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04_tc_asset_condition_reviewer_voting_memo.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Asset Condition Review is a transmission-owner oversight function unrelated to hydropower revenue streams, market participation obligations, or strategic options for hydro operators.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "ISO New England, Inc.",
+            "entity": "ISO-NE",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "2026-06-24 TC A00 Agenda",
+        "filename": "a00_2026_06_24_tc_agenda.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a00_2026_06_24_tc_agenda.docx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Capacity auction seasonal/accreditation reforms (Item 2.0) directly affect hydro and pumped-storage resource accreditation, a core revenue stream; Asset Condition Reviewer (Item 4.0\u20134.2) may impose new operating obligations on transmission-connected dispatchable resources including hydro.",
+        "ai_summary": "ISO-NE's Transmission Committee is reviewing two substantive proposals: (1) Capacity Auction Reforms on seasonal and accreditation frameworks (Item 2.0, 2nd committee meeting, future vote pending, WMPP ID 185) \u2014 tariff redlines align deactivations in a seasonal structure, likely affecting how hydro and PSH are accredited for seasonal capacity value; and (2) Asset Condition Reviewer updates (Items 4.1\u20134.2, 6th committee meeting, 66.67% vote required) to the Transmission Operating Agreement and Tariff that would impose new asset-condition assessment and operating standards on transmission-connected resources. The Maine Office of Public Advocate is proposing amendments to the TOA/Tariff related to the Asset Condition Reviewer proposal. Next action: TC votes on both proposals are scheduled for this meeting (June 24, 2026); the seasonal accreditation vote follows a future agenda item.",
+        "topics": [
+          "capacity-ra",
+          "ops-compliance",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Fatou Dieng",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Monica Gonzalez",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Drew Landry",
+            "entity": "Maine Office of Public Advocate (ME OPA)",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jackie Hansen",
+            "entity": "PTO AC (Participant Transmission Owner, Alternative Consultant)",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-06-24 TC A04.1 Asset Condition Reviewer - Presentation",
+        "filename": "a04.1_tc_acr_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04.1_tc_acr_presentation.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The Asset Condition Reviewer mechanism concerns transmission-system asset-inspection oversight (CIP-014 compliance, substation/line condition monitoring) \u2014 a transmission-owner operational obligation wholly separate from hydro's revenue streams, ancillary-service accreditation, capacity participation, storage rules, or strategic market options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Fatou Dieng",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Monica Gonzalez",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-06-24 TC A04.1 Asset Condition Reviewer - TOA Redlines",
+        "filename": "a04.1_tc_acr_toa_redlines.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04.1_tc_acr_toa_redlines.docx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a redlined draft of the ISO-NE Transmission Operating Agreement (TOA), a foundational governance document defining ownership, operating authority, and administrative relationships between ISO-NE and participating transmission owners \u2014 it addresses no hydro-specific market design, revenue mechanism, participation rule, operational obligation, or strategic option affecting hydropower or pumped-storage operations.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-24 TC A04.1 Asset Condition Reviewer - Attachment R Redlines",
+        "filename": "a04.1_tc_acr_attachment_r_redlines.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04.1_tc_acr_attachment_r_redlines.docx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a transmission asset-condition review procedure governing how ISO-NE's PTOs identify and justify major capital projects for transmission infrastructure maintenance and replacement; it does not address hydro revenue streams (energy/AS pricing, capacity accreditation, storage participation rules), hydro compliance obligations (dispatch, metering, ride-through), or strategic options available to hydro owners.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "asset-condition-reviewer",
+            "canonical_name": "Asset Condition Reviewer",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/asset-condition-reviewer"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-24 TC A02 CAR-SA Deactivations - Section II Redlines",
+        "filename": "a02_tc_mc_deactivations_redlines_section_ii.i.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a02_tc_mc_deactivations_redlines_section_ii.i.docx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ISO-NE's deactivation rules directly affect hydro and PSH capacity-market participation, retirement economics, and interconnection-rights termination \u2014 core revenue and strategic options for Northeast hydro owners.",
+        "ai_summary": "ISO-NE has redlined Section II of its tariff to establish a formal Deactivation Notification process for permanent resource retirements, effective for the Capacity Commitment Period beginning June 1, 2028. Generators seeking to retire must file a deactivation notice by the first business day within 12 months of each CCP start; resources >20 MW are subject to a 90-day reliability review, after which ISO may delay deactivation if needed for local transmission reliability and offer net going-forward-cost compensation. Key mechanics: (1) resources that never held Capacity Network Resource Interconnection Service (CNR or equivalent) can deactivate by simple written notice; (2) resources inactive for three calendar years are deemed automatically deactivated unless repower-application protections apply; (3) Lead Market Participants must submit detailed cost workbooks and officer affidavits, subject to Internal Market Monitor audit. Most exposed are Northeast hydro owners contemplating retirement, especially run-of-river or peaking units currently holding CNR capacity \u2014 the reliability-review gate and potential delayed-deactivation obligation (with only net-going-forward-cost recovery) can trap owners in the market longer than planned, and the three-year automatic-deactivation clock creates planning urgency for units on extended outages.",
+        "topics": [
+          "capacity-ra",
+          "interconnection",
+          "ops-compliance"
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "2026-06-24 TC A01.1 May 28, 2026 TC Meeting Minutes",
+        "filename": "a01.1_2026_05_28_tc_meeting_minutes.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a01.1_2026_05_28_tc_meeting_minutes.docx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is Transmission Committee meeting minutes covering asset condition review criteria and CIP-014 infrastructure protection standards \u2014 procedural and administrative governance matters unrelated to hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Fatou Dieng",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Monica Gonzalez",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nick Gangi",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-06-24 TC A03 PTO AC Notification of RNS Rates - Supplemental",
+        "filename": "a03_tc_notice_effective_schedule_1_and_9_rates_supplemental.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a03_tc_notice_effective_schedule_1_and_9_rates_supplemental.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a procedural tariff-filing notice updating transmission service rates under FERC formula methodology; it contains no substance touching hydro revenue streams, participation rules, operating obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jackie Hansen",
+            "entity": "Participating Transmission Owners Administrative Committee (PTO AC) / Rates Working Group (RWG)",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-06-24 TC A03 PTO AC Notification of RNS Rates",
+        "filename": "a03_tc_notice_effective_shedule_1_and_9_rates.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a03_tc_notice_effective_shedule_1_and_9_rates.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a transmission tariff rate notification for ISO-NE's Regional Network Service (Schedule 9) and Schedule 1 Service charges \u2014 routine rate-filing administration that does not touch hydropower revenue streams, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jackie Hansen",
+            "entity": "Participating Transmission Owners Administrative Committee (PTO AC)",
+            "role": "author",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "ISO-NE System Forecasting Public Webinar",
@@ -947,7 +2027,28 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "An ERCOT Operations Working Group meeting typically covers routine operational procedures, scheduling, and IT/systems administration rather than market-design mechanisms (frequency response, storage participation, capacity accreditation, or price formation) that would provide comparative insight for hydro-rich markets.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "OWG Meeting Agenda 2026-06-24",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/06242026-OWG-Meeting-_-Webex#agenda",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a bare agenda listing four discussion topics (antitrust admonition, system operations report, Texas RE report, HITE list submission) with no substantive content; it does not address any hydro/PSH revenue mechanism, compliance obligation, or strategic option.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "R. Floyd",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "CFSG Meeting",
@@ -1478,6 +2579,267 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "8 MMU Outlook Review",
+        "filename": "MMU%202025%20Outlook%20Review.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58309806/MMU%202025%20Outlook%20Review.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO Market Monitoring Unit analysis of renewable curtailment, storage economics, and energy price signals directly affects hydro and pumped-storage revenue via Index REC/Storage Credit structures, technology and nodal discounts on LBMP, and the value of storage-based curtailment mitigation.",
+        "ai_summary": "NYISO's Market Monitoring Unit analyzed the 2025\u20132044 System & Resource Outlook to evaluate how market signals guide renewable and storage investment. Key finding: energy storage becomes cost-effective for curtailment mitigation only as wind and solar penetration increases and marginal curtailment rates rise; under the Index Storage Credit structure, storage has strong incentives to locate where curtailment risk is highest, but may be unprofitable near profitable renewable sites. The MMU also identifies nodal and technology discounts (differences between zonal average LBMP and generation-weighted LBMP at renewable sites), which reduce wind and solar net revenues below Index REC strike prices\u2014a signal that affects both the competitiveness of all-renewable portfolios and the relative value of storage as a complementary product. For pumped-storage owners, this analysis quantifies the regional and temporal distribution of curtailment opportunities and implied net revenue costs of storage across three policy scenarios (Contract Case 2030, 100\u00d744 High Load 2035, 95\u00d744 Baseline Load 2035), directly informing where PSH investment is most economically justified under NYISO market rules.",
+        "topics": [
+          "storage",
+          "price-formation",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Joe Coscia",
+            "entity": "Potomac Economics / NYISO Market Monitoring Unit",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Pallas LeeVanSchaick",
+            "entity": "Potomac Economics / NYISO Market Monitoring Unit",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Budget & Priorities Working Group",
+    "date": "2026-06-24",
+    "time": "1:00 PM - 4:00 PM",
+    "rto": "NYISO",
+    "committee": "Budget & Priorities Working Group",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/bpwg",
+    "materials_url": "https://www.nyiso.com/bpwg",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Budget & Priorities Working Group meetings address internal organizational budgeting and staffing priorities rather than market design, rules, or operations affecting hydropower revenue, compliance, or strategy.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "1 Agenda",
+        "filename": "062426%20bpwg%20agenda.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58330292/062426%20bpwg%20agenda.pdf",
+        "posted_date": "2026-06-18",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a budget-committee meeting agenda with no substantive discussion of market design, revenue mechanisms, or operational rules affecting hydropower or pumped-storage participation.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Alan Ackerman",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Anna Dziekan",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jen Richards",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "4a 2027 Enterprise Project Descriptions",
+        "filename": "2027%20Enterprise%20Project%20Descriptions.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58330292/2027%20Enterprise%20Project%20Descriptions.pdf",
+        "posted_date": "2026-06-18",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document describes internal NYISO technology and back-office IT projects with no market rule changes, revenue mechanisms, operational obligations, or strategic options affecting hydropower or pumped-storage participation.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "4 2027 Enterprise Projects Updates and Costs",
+        "filename": "2027%20Enterprise%20Projects%20Updates%20and%20Costs.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58330292/2027%20Enterprise%20Projects%20Updates%20and%20Costs.pdf",
+        "posted_date": "2026-06-18",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a NYISO internal enterprise project-prioritization and budget-planning document with no substantive market-design content affecting hydropower revenue, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jennifer Richards",
+            "entity": "NYISO",
+            "role": "author | presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "3c 2027 Market Project Descriptions",
+        "filename": "2027%20Market%20Project%20Descriptions.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58330292/2027%20Market%20Project%20Descriptions.pdf",
+        "posted_date": "2026-06-18",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO's 2027 market project portfolio includes multiple projects directly affecting hydro/PSH revenue (capacity accreditation, ancillary services pricing, storage-as-transmission, operating reserves), compliance obligations (FERC Order 2222, transmission planning), and strategic options (demand response baseline alignment, reliability planning with large load integration, seasonal ICAP markets).",
+        "ai_summary": "NYISO released its 2027 market project candidate list for Budget & Priorities review, organizing 62 projects across four priority tiers: Prioritize (38 projects), Mandatory (5), Continuing (1), and Future (18). Key projects touching hydro/PSH economics include: 'Balancing Intermittency Phase 2: Evaluating Needs for Duration in Reserves' (ramping/flexibility accreditation); 'Improve Capacity Accreditation and Resource Adequacy Modeling'; 'Capacity Zone Redesign'; 'Enhancing Locational Pricing of Capacity'; 'Storage as Transmission'; 'Seasonal ICAP Market Improvements'; 'Dynamic Reserves' phases (operating reserve cost recovery and dispatch); and 'Reliability Attribute-Based Capacity Pricing for Transmission Security'. Mandatory projects include FERC Order 2222 compliance (DER aggregation pathways), FERC Transmission Planning Order 1920 implementation, and 'Hybrid Aggregation Model'. The projects span capacity accreditation and resource adequacy, ancillary services and operating reserves cost recovery, storage participation and transmission service pathways, and price-formation enhancements. No comment deadlines or vote dates are stated in the excerpt.",
+        "topics": [
+          "capacity-ra",
+          "ancillary-services",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "CPV",
+            "entity": "CPV",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "DPS",
+            "entity": "DPS",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "H.Q. ENERGY SERVICES (U.S.) INC.",
+            "entity": "H.Q. ENERGY SERVICES (U.S.) INC.",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "ISO-NE",
+            "entity": "ISO-NE",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "JERA AMERICAS",
+            "entity": "JERA AMERICAS",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "LIPA",
+            "entity": "LIPA",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "NATIONAL GRID",
+            "entity": "NATIONAL GRID",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "NYS UIU",
+            "entity": "NYS UIU",
+            "role": "sponsor",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "3 2027 Market Project Updates, Cost and NYISO Scores",
+        "filename": "2027%20Market%20%20Projects%20Updates,%20Cost%20and%20NYISO%20Scores.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58330292/2027%20Market%20%20Projects%20Updates,%20Cost%20and%20NYISO%20Scores.pdf",
+        "posted_date": "2026-06-18",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO is proposing and prioritizing 61 market projects for 2027, including several that directly affect hydro and storage revenue streams: capacity-market accreditation and ICAP mechanisms, energy-market design and pricing, ancillary-services cost recovery, demand-response and flexible-load models, and reserve duration/flexibility products\u2014all core revenue and obligation levers for hydropower and pumped-storage operators in NYISO.",
+        "ai_summary": "NYISO's Budget & Priorities Working Group is conducting a 2027 market-project prioritization process covering 61 proposed Market projects (16 Capacity Market, 33 Energy Markets, and others). Stakeholder scoring survey opens after June 30 with deadline July 15, 2027; results and high-priority-project constraints reviewed July 29. Among the projects most relevant to hydro/PSH are: Capacity Zone Redesign (locational capacity pricing); Balancing Intermittency Phase 2 (duration in reserves); Dynamic Reserves (operating reserve supplier cost recovery); Flexible Load Models (large loads as new resource type); ICAP Demand Curve Reset methodology; and Aligning Demand Response Baselining with LSE ICAP Obligations. Large-Load Interconnection has been added as a mandatory 2027 project (#60, details pending FERC order expected June 18), directly touching hydro's strategic option to co-locate load and serve it behind the meter. The full project cost and market-design details are posted with BPWG materials; owners should participate in the stakeholder survey by July 15 if seeking to influence 2027 market-design priorities.",
+        "topics": [
+          "capacity-ra",
+          "ramping-flexibility",
+          "ancillary-services"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Anna Dziekan",
+            "entity": "NYISO",
+            "role": "author | presenter",
+            "email": "adziekan@nyiso.com"
+          },
+          {
+            "name": "Kevin Pytel",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": "kpytel@nyiso.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "3b 2027 Project Prioritization MP List",
+        "filename": "2027%20Project%20Prioritization%20MP%20List.xlsx",
+        "url": "https://www.nyiso.com/documents/20142/58330292/2027%20Project%20Prioritization%20MP%20List.xlsx",
+        "posted_date": "2026-06-18",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document contains only a title reference with no extractable text; cannot assess whether the 2027 project prioritization list addresses hydro revenue mechanisms, operating obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "3a 2027 Project Prioritization Survey Draft",
+        "filename": "2027%20Project%20Prioritization%20Survey%20Draft.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58330292/2027%20Project%20Prioritization%20Survey%20Draft.pdf",
+        "posted_date": "2026-06-18",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Five-minute interchange scheduling with Hydro-Qu\u00e9bec directly affects hydro revenue by improving price convergence and real-time flexibility value; demand-response baseline alignment and ICAP surplus rules alter capacity-market participation rules affecting all thermal and storage competitors; DER aggregation integration enables small-hydro participation pathways under Order 2222.",
+        "ai_summary": "NYISO's 2027 project prioritization includes four proposals with direct hydro-market implications: (1) Five-minute interchange scheduling with Hydro-Qu\u00e9bec to replace current 15-minute/hourly settlement, improving price convergence between RTC and RTD and increasing flexibility value during renewable ramp events; (2) Demand-response baseline alignment with LSE ICAP obligations to prevent demand-side resources from becoming net ICAP sellers, affecting the competitive position of hydro in capacity markets; (3) Automatic ICAP surplus resale to prevent uplift in ICAP spot prices from unsold capacity, lowering the cost to all capacity suppliers; (4) DER aggregation system integration via API to streamline Order 2222 participation, creating a pathway for small hydro and run-of-river resources to enter wholesale markets through aggregator enrollment. All four are listed as 2027 projects with deliverables ranging from market-design completion to deployment; no comment deadlines or vote dates are stated in this survey draft.",
+        "topics": [
+          "price-formation",
+          "capacity-ra",
+          "hybrids-der"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "East Coast Power",
+            "entity": "East Coast Power",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "JERA Americas",
+            "entity": "JERA Americas",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "National Grid",
+            "entity": "National Grid",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "NYS UIU",
+            "entity": "New York State Utility Issues Unit",
+            "role": "sponsor",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -1844,6 +3206,58 @@
     ]
   },
   {
+    "title": "BPM Change Management Proposed Revision Request Review",
+    "date": "2026-06-23",
+    "time": "11:00 AM - 12:00 PM",
+    "rto": "CAISO",
+    "committee": "Business Practice Manual (BPM) change management",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/bpm-change-management-proposed-revision-request-review-jun-23-2026-1100-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/business-practice-manual-bpm-change-management",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "BPM change management process review is administrative governance of tariff-change procedures, not substantive market-design content affecting hydro revenue, compliance obligations, or strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Interconnection Customer User Group",
+    "date": "2026-06-23",
+    "time": "1:00 PM - 2:00 PM",
+    "rto": "CAISO",
+    "committee": "Interconnection Customer User Group",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-jun-23-2026-0100-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/interconnection-customer-user-group",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Interconnection Customer User Group meetings address queue management, deliverability rules, interconnection service treatments, and participation pathways\u2014all strategic for hydro owners evaluating uprates, new projects, and competitive positioning in CAISO.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda - Interconnection Customer User Group - Jun 09, 2026",
+        "filename": "agenda-interconnection-customer-user-group-jun-09-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-interconnection-customer-user-group-jun-09-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: interconnection queue and network-upgrade planning directly affect hydro and PSH deliverability, project costs, and timeline to revenue; C15 project short-circuit contributions and precursor network upgrades are load-path determinants for generation projects.",
+        "ai_summary": "CAISO's Interconnection Customer User Group agenda covers two interconnection-queue topics: (1) reassessment and inclusion of new generator-requisitioned network upgrades (GRNU) into a C14 project's generation interconnection agreements (GIAs), and (2) near-term release of C15 project short-circuit contributions to precursor network upgrades. These are queue-administration items affecting project cost allocation and interconnection terms. The agenda does not specify status, next steps, or member positions; it is a notice of agenda topics to be discussed at the June 9, 2026 meeting. Most relevant to projects in active interconnection with queued upgrades or to owners evaluating interconnection costs and timing.",
+        "topics": [
+          "interconnection",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "NEW Consulting",
+            "entity": "NEW Consulting",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "SPF Meeting",
     "date": "2026-06-22",
     "time": "10:00 a.m. - 12:00 p.m.",
@@ -1851,7 +3265,7 @@
     "committee": "SPF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C5AB2C67-0301-40A7-BD10-71C8001BB3D9}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SPF (State Point Forecast) is a routine operational/forecasting committee focused on weather and load prediction rather than market rules, resource adequacy, or dispatch mechanisms affecting hydropower.",
     "issues": [],
@@ -1869,7 +3283,21 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "ERCOT's Regional Planning Group addresses resource adequacy, transmission planning, and reliability mechanisms that serve as cross-market comparison points for how flexibility and storage participation are evaluated outside hydro-rich RTOs.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "RPG Meeting Agenda 2026-06-22",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/06222026-RPG-Meeting#agenda",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a Regional Planning Group meeting agenda listing transmission-project reviews and grid assessments; no market-design mechanisms affecting hydro revenue, compliance obligations, or strategic options are substantively addressed in the agenda items.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "PLWG Meeting",
@@ -2120,6 +3548,20 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Juneteenth (ISO offices OPEN)",
+    "date": "2026-06-19",
+    "time": "",
+    "rto": "CAISO",
+    "committee": null,
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/juneteenth-iso-offices-open-jun-19-2026-1200-am",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "This is a holiday office closure notice, not a market-design or governance meeting, and contains no substantive RTO/ISO policy, tariff, or operational content.",
+    "issues": [],
+    "documents": []
   },
   {
     "title": "NEPOOL Participants Committee Summer Meeting",
@@ -2516,7 +3958,92 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Resource Integration Working Group addresses market design for energy resources including storage, flexibility, and participation models that set precedent for hydro-comparable assets and cross-market comparison of how ERCOT handles resource participation differently from hydro-rich RTOs.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "RIWG Meeting Agenda 2026-06-18",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/06182026-RIWG-Meeting-_-Webex#agenda",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a bare meeting agenda with no substantive content on market design, pricing, participation rules, or compliance obligations affecting hydropower or pumped-storage operations.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Christian Danielson",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jenifer Fernandes",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Prudhvi Gurlinka",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Resource Integration Topics",
+        "filename": "Resource-Integration-Topics.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/Resource-Integration-Topics.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT interconnection queue mechanics and dynamic-model requirements for generation resources set cross-market precedent for how RTOs handle queue reform, model validation, and resource-integration standards that affect storage and flexible-resource participation pathways hydro monitors for applicability elsewhere.",
+        "ai_summary": "ERCOT's Resource Integration Working Group presented Q2 2026 status on the Quarterly Stability Assessment (QSA) process, including model-validation deadlines (45 days prior to QSA deadline for FIS studies, 15\u201330 days for dynamic model review), PSCAD model-quality test requirements effective August 1, 2026, and active revision requests on ESR maintenance exceptions and in-kind generation definitions. As of May 31, 2026, ERCOT has 1,960 active generation interconnection requests totaling 458 GW: 172 GW of battery storage, 163 GW solar, 71 GW natural gas, 48 GW wind, and 5 GW other (including 65 small-gen projects, 37 model-ready). The queue has grown from ~409 GW (May 2025) to ~458 GW (May 2026), with battery capacity in interconnection remaining near 172 GW. For hydro and storage operators, this document signals ERCOT's evolving requirements for dynamic-model validation and queue-management timelines; the large battery-storage queue (172 GW / 412 GWh) demonstrates how a non-hydro RTO is accommodating storage participation and sets a benchmark for comparable participation rules elsewhere. The QSA deadline structure and prerequisite schedules may inform how other RTOs design interconnection-process certainty for flexible resources. No immediate FERC filing or NHA member vote is present, but the document is useful reference material for understanding queue and stability-assessment mechanics in a hydro-free market.",
+        "topics": [
+          "interconnection",
+          "capacity-ra",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jenifer Fernandes",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "ResourceIntegrationDepartment",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": "ResourceIntegrationDepartment@ercot.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "ERCOT-RIWG-2026-06-18-RIOO-INR Workflow Enhancements",
+        "filename": "ERCOT-RIWG-2026-06-18-RIOO-INR-Workflow-Enhancements.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/ERCOT-RIWG-2026-06-18-RIOO-INR-Workflow-Enhancements.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "INTERCONNECTION: ERCOT is enhancing its Interconnection Request and operational-equipment workflow to support repowering and unit modifications at existing substations, which directly affects how hydro and storage owners modify or upgrade existing plants and pursue strategic repower opportunities in ERCOT's interconnection process.",
+        "ai_summary": "ERCOT's Grid and Market Solutions team is deploying enhancements to the Interconnection Request (INR) workflow on July 10, 2026, allowing Market Participants to select operational substations managed by the Resource Scheduling system and add new equipment on top of existing deployed infrastructure. Repowering and unit-modification functionality will be delivered in October 2026. This workflow change enables hydro and storage operators to pursue uprates, conversions, and repower projects more flexibly by building on existing operational infrastructure rather than being limited to greenfield substation creation, reducing barriers to life-extension and capacity-enhancement projects. Most relevant to owners of existing plants with operational equipment seeking to add capacity or transition to new generation technology; no comment deadline or vote is noted in this status update.",
+        "topics": [
+          "interconnection"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Prudhvi Gurlinka",
+            "entity": "ERCOT Grid and Market Solutions (GMS)",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "TWG Meeting",
@@ -2616,6 +4143,337 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "ERCOT-TWG-2026-06-18-2026-June-and-July-Releases-Market-changes",
+        "filename": "ERCOT-TWG-2026-06-18-2026-June-and-July-Releases-Market-changes.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/ERCOT-TWG-2026-06-18-2026-June-and-July-Releases-Market-changes.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document addresses only ERCOT's outage-scheduler system interface updates and warning-message formatting \u2014 operational IT changes with no bearing on hydropower revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Sreenivas Badri",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": "Sreenivas.Badri@ercot.com"
+          },
+          {
+            "name": "Katherine Li",
+            "entity": "ERCOT (Grid and Market Solutions)",
+            "role": "author | presenter",
+            "email": "Katherine.Li@ercot.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "ERCOT-TWG-2026-06-18-DPC-Process-Automation",
+        "filename": "ERCOT-TWG-2026-06-18-DPC-Process-Automation.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/ERCOT-TWG-2026-06-18-DPC-Process-Automation.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "DPC process automation is ERCOT-specific operational mechanics for network-model management between weekly loads; it affects transmission operators' administrative submission workflows but not hydro revenue, ancillary-services pricing, capacity accreditation, storage participation rules, or strategic market-design options that NHA members monitor.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Yong Ma",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Yugendher Karedla",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "ERCOT-TWG-2026-06-18-Large-Load-Curtailment-Manager",
+        "filename": "ERCOT-TWG-2026-06-18-Large-Load-Curtailment-Manager.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/ERCOT-TWG-2026-06-18-Large-Load-Curtailment-Manager.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT's Large Load Curtailment Manager implements demand-side flexibility dispatch that creates a cross-market comparison point for how RTOs can integrate dispatchable load as a reliability resource \u2014 relevant for understanding alternative approaches to the flexibility and ramping products hydro typically supplies, and for tracking load-growth dynamics that affect hydro scarcity value.",
+        "ai_summary": "ERCOT is deploying a Large Load Curtailment Manager (LLCM) tool to identify and instruct curtailment of specified large loads under SB6 policy. The minimum viable product goes live June 25, 2026, with full scope expected in Q4 2026. LLCM will monitor real-time margin, flag when large-load curtailment is warranted, and send XML dispatch instructions to loads with net-metering arrangements; curtailed load will be accounted in SCED reliability deployment price-adder calculations. This represents demand-side deployment capacity competing with traditional generation ramping and flexibility \u2014 a structural change to how ERCOT procures the flexibility function that hydro dominates in other RTOs. NHA analysts tracking frequency response, ramping, and flexibility procurement should monitor whether ERCOT's use of large-load curtailment as a reliability tool constrains the value of conventional flexibility resources or creates new settlement risk.",
+        "topics": [
+          "load-growth",
+          "price-formation",
+          "ramping-flexibility"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Luke Butler",
+            "entity": "ERCOT",
+            "role": "author | presenter",
+            "email": null
+          },
+          {
+            "name": "Sreenivas Badri",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": "Sreenivas.Badri@ercot.com"
+          },
+          {
+            "name": "Sruthi Hariharan",
+            "entity": "ERCOT",
+            "role": "author | presenter",
+            "email": "Sruthi.Hariharan@ercot.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "ERCOT-TWG-2026-06-18-Main Slide Deck",
+        "filename": "ERCOT-TWG-2026-06-18-Main-Slide-Deck.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/ERCOT-TWG-2026-06-18-Main-Slide-Deck.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine ERCOT Technology Working Group meeting agenda and slide titles covering IT systems, outage scheduling, operator tools, and internal portal updates \u2014 none of which touch hydro/PSH revenue mechanisms, participation rules, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amy Loera",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Brandon Johnson",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jamie Lavas",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kai Kaur",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Katherine Li",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kevin McGarrahan",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Luke Butler",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Preethi Meher",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Prudhvi Gurlinka",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sreenivas Badri",
+            "entity": "ERCOT",
+            "role": "presenter | contact",
+            "email": "Sreenivas.Badri@ercot.com"
+          },
+          {
+            "name": "Sruthi Hariharan",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Troy Anderson",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Yugendher Karedla",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Weijun Ji",
+            "entity": "LCRA",
+            "role": "presenter | contact",
+            "email": "weijun.ji@lcra.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "ERCOT-TWG-2026-06-18-QSE ICCP Telemetry Points Modeling Automation",
+        "filename": "ERCOT-TWG-2026-06-18-QSE-ICCP-Telemetry-Points-Modeling-Automation.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/ERCOT-TWG-2026-06-18-QSE-ICCP-Telemetry-Points-Modeling-Automation.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document addresses ICCP telemetry point modeling automation for QSE (Qualified Scheduling Entity) submissions in ERCOT \u2014 a procedural/operational IT workflow with no bearing on hydropower revenue streams (energy/ancillary-services pricing, capacity accreditation, storage rules), compliance obligations (dispatch, metering, ride-through), or strategic options (transmission, load co-location, market seams, resource adequacy). Hydro owners do not operate in ERCOT and would not use MPSP telemetry workflows; no cross-market design principle (frequency response, storage participation, ramping products) is at stake.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Sandip Bhattacharya",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": "Sandip.Bhattacharya@ercot.com"
+          },
+          {
+            "name": "Kai Kaur",
+            "entity": "ERCOT Grid and Market Solutions (GMS)",
+            "role": "author",
+            "email": "Kai.Kaur@ercot.com"
+          },
+          {
+            "name": "Kevin McGarrahan",
+            "entity": "ERCOT Grid and Market Solutions (GMS)",
+            "role": "author",
+            "email": "Kevin.McGarrahan@ercot.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "ERCOT-TWG-2026-06-18-RIOO-INR Workflow Enhancements",
+        "filename": "ERCOT-TWG-2026-06-18-RIOO-INR-Workflow-Enhancements.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/ERCOT-TWG-2026-06-18-RIOO-INR-Workflow-Enhancements.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document concerns ERCOT interconnection queue administration (INR workflow and RIOO system changes to support equipment repowering) with no bearing on hydro revenue mechanisms, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Sreenivas Badri",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": "Sreenivas.badri@ercot.com"
+          },
+          {
+            "name": "Prudhvi Gurlinka",
+            "entity": "ERCOT Grid and Market Solutions (GMS)",
+            "role": "author | presenter",
+            "email": "Srinath.Gurlinka@ercot.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "ERCOT-TWG-2026-06-18-SCR820-RT Operator Communications Tool",
+        "filename": "ERCOT-TWG-2026-06-18-SCR820-RT-Operator-Communications-Tool.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/ERCOT-TWG-2026-06-18-SCR820-RT-Operator-Communications-Tool.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document describes ERCOT's internal IT project for a real-time operator communications tool (RTOC) \u2014 a messaging platform between ERCOT control room and transmission operators/QSEs \u2014 with no bearing on hydro revenue mechanisms, operational obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Preethi Meher",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "ERCOT-TWG-2026-06-18-Secure API Pilot updates",
+        "filename": "ERCOT-TWG-2026-06-18-Secure-API-Pilot-updates.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/ERCOT-TWG-2026-06-18-Secure-API-Pilot-updates.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document addresses ERCOT's internal API platform modernization (SOAP/XML to REST/JSON transition) \u2014 a technical IT infrastructure change with no bearing on hydropower revenue streams, operational obligations, or strategic market-design options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Brandon Johnson",
+            "entity": "ERCOT",
+            "role": "author | presenter",
+            "email": "brandon.johnson@ercot.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "ERCOT-TWG-2026-06-DIP Updates",
+        "filename": "ERCOT-TWG-2026-06-DIP-Updates-1-.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/ERCOT-TWG-2026-06-DIP-Updates-1-.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT data-product updates include price-adder reporting for real-time dispatch and ancillary-service clearing prices (NPRR1290/NPRR1323), which establish precedent for how storage and flexible resources are priced and accredited in a major non-hydro RTO \u2014 directly comparable to NHA members' revenue mechanisms elsewhere.",
+        "ai_summary": "ERCOT is rolling out data-product enhancements across releases 6\u201311 (June\u2013December 2026) to support market-design changes. Release 7 adds a new Real-Time Deployed Large Load (RTDLL) price-adder column to historical and real-time pricing reports (NP6-323-CD, NP6-792-ER) under NPRR1238. Release 8 implements uncapped versions of System Lambda and LMPs (NP6-322-CD, NP6-787-CD) and unbounded ancillary-service clearing prices (MCPC) by type under NPRR1290/NPRR1323, exposing both capped and uncapped pricing for transparency. These changes affect how real-time scarcity signals propagate to dispatchable resources and how ancillary-service revenue is calculated. For NHA members tracking ERCOT as a comparison point: ERCOT's move to dual-publish capped and uncapped prices lets market participants see the full opportunity cost of dispatch, a framework PSH operators elsewhere use to justify opportunity-cost-based offer development and to critique reference-level mitigation rules that cap their bids below true scarcity.",
+        "topics": [
+          "price-formation",
+          "ancillary-services"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jamie Lavas",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": "Jlavas@ercot.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "PRS_June_2026_Project_Update",
+        "filename": "PRS_June_2026_Project_Update.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/PRS_June_2026_Project_Update.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Energy storage resource state-of-charge rules and controllable/curtailable load resource dispatch and frequency response are anchoring operational structures that will affect how pumped storage and other use-limited resources compete in ERCOT's nodal market.",
+        "ai_summary": "ERCOT is advancing several projects that will reshape how flexible and storage resources operate in its markets. NPRR1188 and NPRR1244 will implement nodal dispatch and energy settlement for controllable load resources (CLRs) and clarify their primary frequency response responsibilities, with go-live targeted for January 2027; separately, NPRR1326 proposes adding energy storage resource state-of-charge information to the ancillary services capacity monitor (impact assessment ongoing). NPRR1329 addresses resource entity requirements for self-limiting facilities. These projects establish the technical and operational framework into which ERCOT's storage and flexible-load assets must fit; pumped storage operators in ERCOT should monitor the December 2026 completion of the impact assessments for NPRR1326 and NPRR1329 and track the January 2027 go-live of NPRR1188/1244 as they will govern how storage dispatch interacts with frequency response obligations and energy settlement.",
+        "topics": [
+          "storage",
+          "ancillary-services",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Troy Anderson",
+            "entity": "ERCOT Portfolio Management",
+            "role": "presenter",
+            "email": "Troy.Anderson@ercot.com"
+          }
+        ]
       }
     ]
   },
@@ -2644,8 +4502,130 @@
     "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Commitment-Cost-Bidding-Flexibility",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Commitment cost bidding rules directly affect how dispatchable resources including hydropower and pumped-storage units recover fixed costs and participate in energy and ancillary services markets, influencing revenue adequacy and bidding strategy.",
-    "issues": [],
-    "documents": []
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "ad3f68fe-c016-4ea0-8b6d-3e28003d67d7",
+        "canonical_name": "Commitment cost bidding flexibility",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Commitment-Cost-Bidding-Flexibility"
+      }
+    ],
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - Commitment Cost Bidding Flexibility - Working Group - Jun 18, 2026",
+        "filename": "Presentation-Commitment-cost-bidding-flexibility-working-group-Jun-18-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Presentation-Commitment-cost-bidding-flexibility-working-group-Jun-18-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO is designing a local market power mitigation test for commitment costs that directly affects how hydro and other dispatchable resources can bid their start-up costs \u2014 a use-limited resource revenue stream \u2014 by implementing phased caps (300% in competitive conditions, 110% in uncompetitive) and testing commitment decisions against a three-pivotal-supplier test with reference levels.",
+        "ai_summary": "CAISO's Commitment Cost Bidding Flexibility (CCBF) working group is developing a market power mitigation framework for commitment cost offers, replacing a static cap with a competitiveness-based test that identifies uncompetitive conditions using a three-pivotal-supplier test for commitment-specific constraints. The framework will mitigate commitment costs identified as exercising market power by assessing them against the resource's cost-based reference level, with phased caps of 300% in competitive conditions and 110% in uncompetitive conditions. Dispatchable hydro and pumped-storage operators face direct revenue exposure: inflated commitment-cost bids that currently clear under the static cap could be suppressed or capped when the test identifies the resource as pivotal to binding transmission constraints; conversely, owners with low reference levels could bid more competitively. Workshop 2 (this meeting, June 18, 2026) identifies policy choices on structural competitiveness testing and mitigation criteria; next steps and comment deadlines not stated in this presentation excerpt.",
+        "topics": [
+          "mitigation-offers",
+          "price-formation",
+          "storage"
+        ],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "ad3f68fe-c016-4ea0-8b6d-3e28003d67d7",
+            "canonical_name": "Commitment cost bidding flexibility",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Commitment-Cost-Bidding-Flexibility"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Daniel Johnson",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sylvie Spewak",
+            "entity": "CAISO",
+            "role": "author | presenter",
+            "email": null
+          },
+          {
+            "name": "Yelena Kopylov-Alford",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Demand and Distributed Energy Market Integration",
+    "date": "2026-06-18",
+    "time": "1:00 PM - 4:00 PM",
+    "rto": "CAISO",
+    "committee": "Demand and Distributed Energy Market Integration",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/demand-and-distributed-energy-market-integration-jun-18-2026-0100-pm",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Demand-Distributed-Energy-Market-Integration",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Distributed energy market integration touches Order 2222 aggregation pathways for small hydro, DER participation models, and potential co-location rules affecting hydro's strategic options in California's evolving market structure.",
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "f1a778f4-4177-42f6-ad53-06746551fcb2",
+        "canonical_name": "Demand and distributed energy market integration",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Demand-Distributed-Energy-Market-Integration"
+      }
+    ],
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - Demand and Distributed Energy Market Integration - Jun 18, 2026",
+        "filename": "Presentation-Demand-and-Distributed-Energy-Market-Integration-2026-06-18.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Presentation-Demand-and-Distributed-Energy-Market-Integration-2026-06-18.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document addresses demand-response metering and end-use customer export recognition in CAISO's demand-response framework \u2014 a retail-load-side mechanism with no application to hydropower generation, pumped-storage dispatch, capacity accreditation, ancillary-service pricing, or any hydro revenue or obligation.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "f1a778f4-4177-42f6-ad53-06746551fcb2",
+            "canonical_name": "Demand and distributed energy market integration",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Demand-Distributed-Energy-Market-Integration"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Anja Gilbert",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Brenda Marquez",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "NEPOOL Participants Committee Summer Meeting",
@@ -2758,6 +4738,19 @@
         "filename": "20260617-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260617/20260617-agenda-doc.docx",
         "posted_date": "2026-06-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Informational Only \u2013 M 3 Process Needs Status",
+        "filename": "20260617-informational-only---m-3-process-needs-status.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260617/20260617-informational-only---m-3-process-needs-status.xlsx",
+        "posted_date": "2026-06-17",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -3085,7 +5078,7 @@
         "title": "20260617 AC Item 04 Short Term Incentive Plan Development",
         "filename": "20260617 AC Item 04 Short Term Incentive Plan Development.pdf",
         "url": "https://cdn.misoenergy.org/20260617%20AC%20Item%2004%20Short%20Term%20Incentive%20Plan%20Development763890.pdf",
-        "posted_date": "2026-06-10",
+        "posted_date": "2026-06-17",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document addresses MISO executive-compensation incentive metrics tied to operational reliability, compliance, and IT performance \u2014 internal management and governance topics that do not directly affect hydropower revenue streams, market participation rules, or strategic options.",
         "ai_summary": null,
@@ -3681,6 +5674,45 @@
         "topics": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-16-18 PC Composite Materials Part 3",
+        "filename": "npc-2026-06-16-18-composite-part-3-v3.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/npc-2026-06-16-18-composite-part-3-v3.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-16-18 PC Composite Materials Part 2",
+        "filename": "npc-2026-06-16-18-composite-part-2-v3.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/npc-2026-06-16-18-composite-part-2-v3.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-16-18 PC Composite Materials Part 1",
+        "filename": "npc-2026-06-16-18-composite-part-1-v3.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/npc-2026-06-16-18-composite-part-1-v3.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -3823,12 +5855,12 @@
   {
     "title": "SRRTEP-S Meeting",
     "date": "2026-06-16",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "1:00 p.m. - 3:00 p.m.",
     "rto": "PJM",
     "committee": "SRRTEP-S",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={BC5467A0-25AC-486A-AE20-BFAC49CB7E79}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={336F02F8-8372-497C-B8EE-8AEAA6BF745C}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-S (State Relations and Regulatory Transmission Expansion Planning - Stakeholder) is focused on state regulatory coordination and transmission expansion planning procedures, which are not directly related to hydropower market participation, capacity accreditation, energy storage rules, or ancillary services.",
     "issues": [],
@@ -13543,6 +15575,170 @@
           }
         ],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "04. AgingRevRqstProjects_PRS_Review_2026-06_v3",
+        "filename": "04.-AgingRevRqstProjects_PRS_Review_2026-06_v3.xlsx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/04.-AgingRevRqstProjects_PRS_Review_2026-06_v3.xlsx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a Protocol Revisions Subcommittee administrative review agenda item with no extracted text content; cannot assess relevance without substantive material on market design, pricing, accreditation, participation rules, or compliance obligations affecting hydropower or pumped storage.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1214",
+            "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
+            "status": "Pending",
+            "stakeholder_phase": "PRS for consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1286",
+            "canonical_name": "NPRR1286 \u2014 Establish Multi-Value Criteria for Resiliency-Related Transmission Project Evaluation",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1286"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1292",
+            "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1301",
+            "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1319",
+            "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1320",
+            "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1326",
+            "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1329",
+            "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1331",
+            "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1332",
+            "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1333",
+            "canonical_name": "NPRR1333 \u2014 Establish an Incentive Program for Advanced Grid Support",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1333"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1334",
+            "canonical_name": "NPRR1334 \u2014 Revision to Cybersecurity Incident Notification",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1334"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1335",
+            "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
+            "status": "Pending",
+            "stakeholder_phase": "PRS for consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1336",
+            "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1337",
+            "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
+          }
+        ],
+        "stakeholders": []
       }
     ]
   },
@@ -21164,7 +23360,7 @@
   {
     "title": "Planning Committee Meeting",
     "date": "2026-06-02",
-    "time": "9:00 a.m. - 11:00 a.m.",
+    "time": "8:00 a.m. - 8:00 p.m.",
     "rto": "PJM",
     "committee": "Planning Committee",
     "source_url": "https://www.pjm.com/calendar",
