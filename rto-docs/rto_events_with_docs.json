@@ -829,6 +829,36 @@
         ],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Monthly Review of RUC Market Impacts - May 2026",
+        "filename": "Monthly-Review-of-RUC-Market-Impacts-May-2026.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/19/Monthly-Review-of-RUC-Market-Impacts-May-2026.pptx",
+        "posted_date": "2026-06-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT's Reliability Unit Commitment (RUC) market triggers price adders for energy and ancillary services during scarcity; this cross-market comparison shows how ERCOT's commitment and uplift mechanics differ from hydro-centric RTOs, informing NHA's understanding of alternative market-design approaches to reliability procurement and cost recovery.",
+        "ai_summary": "ERCOT's May 2026 RUC market review reports 386.9 effective resource-hours committed, with 78% addressing capacity needs and most commitments (71%) issued with lead-time margins of 2 hours or less. RUC triggered 181.2 Reliability Deployment Price Adder (RDPA) hours at a time-weighted average of $0.75/MWh for energy, plus ancillary-service RDPAs averaging $0.13\u2013$0.18/MWh across regulation, responsive reserve, and contingency reserve. Make-whole payments totaled $1.14M in May; 77% of committed resource-hours came from generators at least 50 years old, predominantly non-opt-out resources. For hydro-centric markets, this illustrates ERCOT's reliance on must-offer thermal capacity and uplift cost-recovery rather than dynamic AS procurement or storage participation\u2014a design that contrasts with how CAISO, NYISO, and PJM price flexibility and commitment from dispatchable and storage resources.",
+        "topics": [
+          "price-formation",
+          "ancillary-services",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Market Update May 2026 WMWG",
+        "filename": "Market-Update-May-2026-WMWG.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/19/Market-Update-May-2026-WMWG.pptx",
+        "posted_date": "2026-06-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a routine market operations report with no substantive content on pricing mechanisms, ancillary services, capacity accreditation, storage participation, interconnection, transmission, or resource-adequacy rules affecting hydropower or pumped-storage revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -2218,7 +2248,7 @@
     "date": "2026-06-25",
     "time": "2:00 PM",
     "rto": "ERCOT",
-    "committee": "Retail Market Subcommittee",
+    "committee": "Dynamics Working Group",
     "source_url": "https://www.ercot.com/calendar",
     "detail_url": "https://www.ercot.com/calendar/06252026-Batch-Zero-Weekly-Readiness",
     "materials_url": "https://www.ercot.com/calendar/06252026-Batch-Zero-Weekly-Readiness",
@@ -4941,6 +4971,104 @@
           "storage",
           "capacity-ra"
         ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "02. CFSG_Minutes_May15_2026",
+        "filename": "02.-CFSG_Minutes_May15_2026.docx",
+        "url": "https://www.ercot.com/files/docs/2026/06/19/02.-CFSG_Minutes_May15_2026.docx",
+        "posted_date": "2026-06-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "ERCOT Credit Finance Sub Group minutes cover credit/collateral administration and regulatory-compliance balloting unrelated to hydro revenue, obligations, or strategic options; Texas has no hydropower and the document contains no market-design content (price formation, AS, capacity, storage participation, transmission) that would apply cross-market.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jett Price",
+            "entity": "Cooperative",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mark Price",
+            "entity": "DC Energy (implied by presenter context)",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Cory Phillips",
+            "entity": "ERCOT Staff",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Kais Akhter",
+            "entity": "ERCOT Staff",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Maruthi Gaddam",
+            "entity": "ERCOT Staff",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Ramakanth Potnuru",
+            "entity": "ERCOT Staff",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Ramlok Dommaraju",
+            "entity": "ERCOT Staff",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Zaldy Zapanta",
+            "entity": "ERCOT Staff",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Loretto Martin",
+            "entity": "Independent Retail Electric Provider",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "03. NPRRs for review v2",
+        "filename": "03.-NPRRs-for-review-v2.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/19/03.-NPRRs-for-review-v2.pptx",
+        "posted_date": "2026-06-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NPRR1319 (seasonal mothball restrictions) and NPRR1326 (energy storage state-of-charge monitoring) touch resource-adequacy and storage participation rules; NPRR1320 (PRM reporting) affects seasonal adequacy forecasting\u2014mechanisms that set precedent for how other RTOs treat mothballing, storage dispatch, and hydro seasonal value.",
+        "ai_summary": "ERCOT's Credit Finance Sub Group reviewed five Nodal Protocol Revision Requests. NPRR1319 expands prohibitions on seasonal mothballing to include December\u2013February (winter), eliminating the ability to mothball during peak-demand seasons and clarifying that ERCOT need not conduct a Must-Run Alternative RFP process when a unit seeks seasonal mothball status with short notice. NPRR1326 adds Energy Storage Resource State of Charge information to ERCOT's Ancillary Services Capacity Monitor, improving visibility into storage dispatch constraints during AS procurement. NPRR1320 formalizes reporting of multiple Planning Reserve Margin scenarios (rather than a single point forecast) in ERCOT's capacity and reserves reports, better surfacing seasonal and year-ahead adequacy risk. For hydro-rich markets monitoring cross-RTO approaches: ERCOT's tightened mothball rules and storage-visibility protocols illustrate how RTOs handle use-limited resource retirement and storage operational transparency\u2014relevant as precedent if other RTOs adopt similar frameworks.",
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "05. ERCOT Updates - Credit Exposure June 2026",
+        "filename": "05.-ERCOT-Updates-Credit-Exposure-June-2026.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/19/05.-ERCOT-Updates-Credit-Exposure-June-2026.pptx",
+        "posted_date": "2026-06-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Credit and collateral-management mechanics have no bearing on hydropower revenue streams, compliance obligations, or strategic options \u2014 this document concerns settlement-system credit exposure and bank-issued letters of credit, not market design.",
+        "ai_summary": null,
+        "topics": [],
         "issues": [],
         "stakeholders": []
       }
@@ -7951,6 +8079,104 @@
             "email": "Troy.Anderson@ercot.com"
           }
         ]
+      },
+      {
+        "type": "presentation",
+        "title": "ERCOT-TWG-2026-06-18-Main Slide Deck",
+        "filename": "ERCOT-TWG-2026-06-18-Main-Slide-Deck-1-.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/17/ERCOT-TWG-2026-06-18-Main-Slide-Deck-1-.pptx",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine ERCOT Technology Working Group meeting agenda covering internal IT systems, data tools, and operational processes (RTOC tool, API pilots, portal updates, telemetry submission workflows) with no bearing on energy pricing, ancillary-service procurement, capacity accreditation, storage rules, transmission planning, or any other hydro/PSH revenue, obligation, or strategic axis.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amy Loera",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Brandon Johnson",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jamie Lavas",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kai Kaur",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Katherine Li",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kevin McGarrahan",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Luke Butler",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Preethi Meher",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Prudhvi Gurlinka",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sreenivas Badri",
+            "entity": "ERCOT",
+            "role": "presenter | contact",
+            "email": "Sreenivas.Badri@ercot.com"
+          },
+          {
+            "name": "Sruthi Hariharan",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Troy Anderson",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Yugendher Karedla",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Weijun Ji",
+            "entity": "LCRA",
+            "role": "presenter | contact",
+            "email": "weijun.ji@lcra.org"
+          }
+        ]
       }
     ]
   },
@@ -8313,7 +8539,7 @@
         "title": "Item 02 \u2013 Atsi Supplemental Projects",
         "filename": "20260617-item-02---atsi-supplemental-projects.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20260617/20260617-item-02---atsi-supplemental-projects.pdf",
-        "posted_date": "2026-06-05",
+        "posted_date": "2026-06-19",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -22252,6 +22478,32 @@
         "filename": "20260605-md-opc---comments-regarding-data-center-accuracy-report.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-md-opc---comments-regarding-data-center-accuracy-report.pdf",
         "posted_date": "2026-06-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "LAS Stakeholder Feedback \u2013 Q1",
+        "filename": "20260605-las-stakeholder-feedback---q1.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-las-stakeholder-feedback---q1.pdf",
+        "posted_date": "2026-06-19",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "LAS Stakeholder Feedback \u2013 Q2",
+        "filename": "20260605-las-stakeholder-feedback---q2.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260605/20260605-las-stakeholder-feedback---q2.pdf",
+        "posted_date": "2026-06-19",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
