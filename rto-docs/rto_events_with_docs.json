@@ -378,6 +378,163 @@
     "documents": []
   },
   {
+    "title": "Planning Committee Meeting",
+    "date": "2026-07-07",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "Planning Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM Planning Committee meetings regularly address transmission expansion, resource adequacy, seasonal energy studies, interconnection queues, and reliability mechanisms that directly affect hydropower and storage deliverability, capacity accreditation, and strategic participation options.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Transmission Expansion Advisory Committee Meeting",
+    "date": "2026-07-07",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Transmission Expansion Advisory Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Transmission expansion planning directly affects hydro deliverability, interregional transfer capability, and the feasibility of storage-as-transmission alternatives, which are core strategic options for NHA members.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "NEPOOL Markets Committee Summer Meeting",
+    "date": "2026-07-07",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Markets Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160098",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ISO-NE Markets Committee meetings regularly address energy pricing, ancillary services, capacity accreditation, storage participation rules, and transmission-dependent resource valuation\u2014all core revenue and operational concerns for the hydropower and pumped-storage operators in the Northeast pool.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Reliability Subcommittee (RSC) - July 7, 2026",
+    "date": "2026-07-07",
+    "time": "9:00 AM - 9:01 AM",
+    "rto": "MISO",
+    "committee": "Reliability Subcommittee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/34bd3800c016412694a788ae4639bca8.aspx",
+    "materials_url": "https://www.misoenergy.org/link/34bd3800c016412694a788ae4639bca8.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO Reliability Subcommittee meetings address operating standards, resource adequacy, seasonal energy assessments, and compliance obligations for dispatchable resources including hydropower that affect operational requirements and revenue-related reliability mechanisms.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20260707 RSC Item 01c Minutes 20260519.pdf",
+        "filename": "202600625 RSC Item 01c Minutes 20260519.pdf",
+        "url": "https://cdn.misoenergy.org/202600625%20RSC%20Item%2001c%20Minutes%2020260519760292.pdf",
+        "posted_date": "2026-05-27",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is routine meeting minutes recording administrative items, status updates, and procedural items with no substantive content affecting hydro/PSH revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ray McCausland",
+            "entity": "Ameren",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Eric Barry",
+            "entity": "Entergy",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Adrian Harris",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Caid Kirby",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Clayton Umlor",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "cumlor@misoenergy.org"
+          },
+          {
+            "name": "Dan Pacilio",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Don Hunter",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "dhunter@misoenergy.org"
+          },
+          {
+            "name": "James Curtis",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jane Laskowski-Hart",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "John Boudreaux",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "John Harmon",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Joshua Schabla",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "jschabla@misoenergy.org"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Expedited Project Review Technical Study Task Force (EPR-TSTF) - July 7, 2026",
+    "date": "2026-07-07",
+    "time": "9:00 AM - 10:00 AM",
+    "rto": "MISO",
+    "committee": "Expedited Project Review Technical Study Task Force",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/230850fcde904e649b733d973a7d2945.aspx",
+    "materials_url": "https://www.misoenergy.org/link/230850fcde904e649b733d973a7d2945.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Expedited Project Review Technical Study Task Force is a technical infrastructure and interconnection-queue working group with no agenda details suggesting discussion of market design, pricing, ancillary services, capacity accreditation, storage participation, or other mechanisms directly affecting hydropower revenue, compliance, or strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "July 3, 2026 \u2013 PJM Holiday Meeting",
     "date": "2026-07-03",
     "time": "9:00 a.m. - 11:00 a.m.",
@@ -2248,7 +2405,7 @@
     "date": "2026-06-25",
     "time": "2:00 PM",
     "rto": "ERCOT",
-    "committee": "Dynamics Working Group",
+    "committee": "Retail Market Subcommittee",
     "source_url": "https://www.ercot.com/calendar",
     "detail_url": "https://www.ercot.com/calendar/06252026-Batch-Zero-Weekly-Readiness",
     "materials_url": "https://www.ercot.com/calendar/06252026-Batch-Zero-Weekly-Readiness",
@@ -9560,7 +9717,7 @@
         "title": "2026-06-16-18 PC Composite Materials Part 2",
         "filename": "npc-2026-06-16-18-composite-part-2-v3.pdf",
         "url": "https://www.iso-ne.com/static-assets/documents/100036/npc-2026-06-16-18-composite-part-2-v3.pdf",
-        "posted_date": "2026-06-17",
+        "posted_date": "2026-06-20",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
