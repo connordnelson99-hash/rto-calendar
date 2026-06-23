@@ -336,6 +336,184 @@
     "documents": []
   },
   {
+    "title": "Operating Committee Meeting",
+    "date": "2026-07-09",
+    "time": "9:00 a.m. - 2:00 p.m.",
+    "rto": "PJM",
+    "committee": "Operating Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={DB49D15D-9AAF-4CB5-AC49-DFBCDFF30DC4}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM Operating Committee meetings regularly address dispatch, outage scheduling, operating standards, and reliability protocols that directly affect hydro and storage unit compliance obligations and operational flexibility.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "Draft Minutes \u2013 OC \u2013 6426",
+        "filename": "20260709-draft-minutes---oc---6426.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260709/20260709-draft-minutes---oc---6426.pdf",
+        "posted_date": "2026-06-15",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Storage as a Transmission Asset (SATA) Phase II proposal directly affects pumped-storage hydro revenue and strategic options by establishing how storage resources are valued and compensated for transmission-service provision in PJM; regulation market redesign and synchronous reserve performance updates touch ancillary-service products hydro supplies.",
+        "ai_summary": "PJM's Operating Committee endorsed the PJM/Constellation Storage as a Transmission Asset (SATA) Phase II proposal (Package A) on June 4, 2026, with 72% support versus the Monitoring Analytics alternative (Package B), which received only 13.5% support. SATA Phase II restructures how energy-storage resources \u2014 including pumped-storage hydro \u2014 earn revenue for deferring or avoiding transmission infrastructure investment, establishing whether storage dispatch can be optimized jointly with transmission needs and what compensation mechanisms apply. The endorsement moves the proposal toward implementation; details on how pumped-storage facilities will be accredited, when charging/discharging is compensated, and whether PSH gains preferential treatment versus battery storage remain in design phases. Owners with existing or planned PSH in PJM should monitor the Phase II rulebook for charging-energy treatment, state-of-charge operational rules, and whether SATA compensation stacks with or replaces energy and ancillary-service revenues. Regulation market bifurcation simulations and synchronous-reserve performance reviews (Items 8, 9, 12) indicate PJM is stress-testing the reserve products on which hydro dispatch depends; results will be presented in follow-up meetings.",
+        "topics": [
+          "storage",
+          "price-formation",
+          "ancillary-services"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Abhishek Ghosh",
+            "entity": "Constellation Energy Generation, LLC",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Joe Bowring",
+            "entity": "Monitoring Analytics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "David Kimmel",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "David Mroz",
+            "entity": "PJM Interconnection",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Ilyana Dropkin",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jeff Schmitt",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Shubhrajit Bhattacharjee",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "NEPOOL Markets Committee Summer Meeting",
+    "date": "2026-07-09",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Markets Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160100",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ISO-NE Markets Committee meetings address energy price formation, ancillary services procurement, capacity accreditation, storage participation rules, and resource-adequacy mechanisms that directly affect hydropower and pumped-storage revenue and compliance obligations in the Northeast market.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Market Subcommittee (MSC) - July 9, 2026",
+    "date": "2026-07-09",
+    "time": "9:00 AM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Market Subcommittee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/d7e9586b903544f98740b30cd8a05c27.aspx",
+    "materials_url": "https://www.misoenergy.org/link/d7e9586b903544f98740b30cd8a05c27.aspx",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20260709 MSC Item 01c Minutes 20260521.pdf",
+        "filename": "20260709 MSC Item 01c Minutes 20260521.pdf",
+        "url": "https://cdn.misoenergy.org/20260709%20MSC%20Item%2001c%20Minutes%2020260521760661.pdf",
+        "posted_date": "2026-05-28",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is meeting minutes recording administrative roll call, action-item status, and committee management; it contains no substantive proposals, decisions, or technical content touching hydro revenue streams, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Bryan Garnett",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jason Howard",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mandi McGirr",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "PUCT Meeting",
+    "date": "2026-07-09",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "The Public Utility Commission of Texas",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/07092026-PUCT-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/07092026-PUCT-Meeting",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "PUCT meetings address Texas retail-market regulation and utility commission business, not RTO/ISO market-design, ancillary-services pricing, capacity mechanisms, or interregional transmission issues that affect hydro or storage participation.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "ROS Meeting",
+    "date": "2026-07-09",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Reliability and Operations Subcommittee",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/07092026-ROS-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/07092026-ROS-Meeting-_-Webex",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ERCOT Reliability and Operations Subcommittee meetings address frequency response, reserve requirements, operational standards, and resource participation rules that serve as cross-market comparison points for hydro-relevant mechanisms like ancillary services, flexibility products, and synchronous-unit ride-through standards.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Batch Zero Weekly Readiness Meeting",
+    "date": "2026-07-09",
+    "time": "2:00 PM",
+    "rto": "ERCOT",
+    "committee": "Reliability and Operations Subcommittee",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/07092026-Batch-Zero-Weekly-Readiness",
+    "materials_url": "https://www.ercot.com/calendar/07092026-Batch-Zero-Weekly-Readiness",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A 'Batch Zero Weekly Readiness Meeting' is a routine operational logistics call focused on IT systems, training preparation, and administrative readiness for a new market initiative, with no substantive agenda on market design, pricing, product definitions, or resource participation rules that would affect hydropower or storage operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MDWG Net Conference",
     "date": "2026-07-08",
     "time": "11:00 AM - 5:00 PM CT",
@@ -392,7 +570,7 @@
             "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
             "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
@@ -605,7 +783,7 @@
     "committee": "Planning Committee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={948CF9BE-0391-4D6D-A203-A76624F9091C}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "PJM Planning Committee meetings regularly address transmission expansion, resource adequacy, seasonal energy studies, interconnection queues, and reliability mechanisms that directly affect hydropower and storage deliverability, capacity accreditation, and strategic participation options.",
     "issues": [],
@@ -762,11 +940,25 @@
     "committee": "July 3, 2026 \u2013 PJM Holiday",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={948CF9BE-0391-4D6D-A203-A76624F9091C}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A holiday meeting on July 3, 2026 is a calendar placeholder and will not contain substantive market-design, rule, or operational content relevant to hydropower revenue, compliance obligations, or strategic options.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "Item 01 \u2013 Draft Minutes \u2013 05292026",
+        "filename": "20260701-item-01---draft-minutes---05292026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260701/20260701-item-01---draft-minutes---05292026.pdf",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "ERCOT observed holiday as defined by Protocol Section 2",
@@ -804,7 +996,7 @@
     "committee": "SOS",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={948CF9BE-0391-4D6D-A203-A76624F9091C}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "PJM's SOS (Strategic Options Study) committee addresses long-term planning, resource adequacy, capacity markets, and transmission constraints that directly affect hydropower and pumped-storage revenue, accreditation, and participation opportunities in PJM's footprint and neighboring regions.",
     "issues": [],
@@ -818,7 +1010,7 @@
     "committee": "Cost Development Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={948CF9BE-0391-4D6D-A203-A76624F9091C}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Cost Development Subcommittee addresses CONE, demand curves, and other parameters that directly shape capacity-market accreditation and revenue for hydro and storage resources in PJM.",
     "issues": [],
@@ -1098,7 +1290,7 @@
   {
     "title": "Large Load Working Group (LLWG) - June 29, 2026",
     "date": "2026-06-29",
-    "time": "9:00 AM - 4:00 PM",
+    "time": "9:00 AM - 2:15 PM",
     "rto": "MISO",
     "committee": "Large Load Working Group",
     "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
@@ -1149,6 +1341,83 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "agenda",
+        "title": "20260629 LLWG Item 01b Agenda.pdf",
+        "filename": "20260629 LLWG Item 01b Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20260629%20LLWG%20Item%2001b%20Agenda765275.pdf",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260629 LLWG Item 01d Management Plan.pdf",
+        "filename": "20260629 LLWG Item 01d Management Plan.pdf",
+        "url": "https://cdn.misoenergy.org/20260629%20LLWG%20Item%2001d%20Management%20Plan765242.pdf",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This MISO working group management plan addresses large-load integration, co-located generation/load, and operational reliability requirements that directly affect hydro and pumped-storage participation options, interconnection pathways, and reserve-product design.",
+        "ai_summary": "MISO's Large Load Working Group (LLWG) is tracking six active workstreams through Q4 2026 that reshape how large loads and co-located resources (including hydro-paired load) participate in MISO markets. Key items include: (1) Large Load Firm Service Step Up (LLWG-2026-1) and reserve-product enhancements (LLWG-2026-2), which will define capacity/reserve accreditation and service-level requirements for flexible resources attached to large loads; (2) Interconnection reliability requirements (LLWG-2026-3) and operational-reliability workstreams (LLWG-2026-4A/B/C covering forecasting, network models, and PMU/telemetry) that establish must-offer and real-time operational standards for co-located assets; and (3) Market participation rules for zero-injection GIAs (PAC-2024-4B), affecting how hydro or storage can register co-located load without serving the MISO grid. The June 29, 2026 meeting will surface a tentative FERC action and initial reserve-enhancement evaluation results; final tariff redlines and recommendations are scheduled for August and November 2026. Pumped-storage operators and conventional hydro owners considering co-location or large-load service opportunities need to monitor reserve-product design and the zero-injection GIA interpretation, as these will determine whether co-located capacity can stack ancillary-service revenues or will be constrained by MISO operational requirements.",
+        "topics": [
+          "load-growth",
+          "hybrids-der",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Marc Keyser",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Chris Plante",
+            "entity": "MISO LLWG",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Werner Roth",
+            "entity": "MISO LLWG",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Amanda Jones",
+            "entity": "MISO Stakeholder Relations",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Jake Carrico",
+            "entity": "MISO Stakeholder Relations",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20260629 LLWG Item 01c Action Items.pdf",
+        "filename": "20260629 LLWG Item 01c Action Items.pdf",
+        "url": "https://cdn.misoenergy.org/20260629%20LLWG%20Item%2001c%20Action%20Items765276.pdf",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large-load interconnection and co-located load affect hydro's strategic positioning in energy markets and scarcity value; this action-items document flags active MISO work on large-load firm service that could shape transmission access and revenue opportunities for hydro.",
+        "ai_summary": "MISO's Large Load Working Group issued feedback requests on June 10, 2026 (closed) for the Large Load Firm Service Step Up proposal (LLWG-2026-1), with comments originally due June 24. The proposal addresses how MISO accommodates large-load customers seeking firm service, a mechanism that intersects hydro's role in providing dispatchable energy and flexibility to serve new demand. Large-load firm-service design can shift the value of hydro by changing transmission constraints, scarcity pricing, and the premium for flexible supply \u2014 particularly for pumped-storage operators positioned to serve or compete with large loads. The document provides no detail on the proposal's substance, status, or next steps.",
+        "topics": [
+          "load-growth",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -1236,6 +1505,60 @@
         "topics": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "WMWG Meeting Agenda 2026-06-29",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/06292026-WMWG-Meeting-_-Webex#agenda",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT agenda includes multiple ancillary-service and storage-related proposals (Advanced Grid Support Service, Generation Firming Program, ERS enhancements) that set precedent for how flexible and dispatchable resources participate in markets \u2014 relevant as cross-RTO comparison for NHA's analytical corpus even though Texas has no hydropower fleet.",
+        "ai_summary": "The ERCOT WMWG agenda for June 29, 2026 includes discussion of the 2027 ancillary-services methodology (Luis Hinojosa, ERCOT presenter); NPRR 1278 proposing a new Advanced Grid Support Service as an ancillary service (Bob Helton, Engie); NPRR 1328 on a Generation Firming Program (Anupam Thatte, ERCOT); and ERS Enhancements under NPRR 1337 (Mark Patterson, ERCOT). The agenda also covers monthly renewable-forecast accuracy, intra-hour IRR forecasts, and discussion of FPA 202(c) orders. No vote dates or comment deadlines are specified in this agenda document. These proposals \u2014 particularly the Advanced Grid Support Service and Generation Firming Program \u2014 illustrate how ERCOT is structuring new products for flexible/dispatchable resources; the mechanisms differ from hydro-rich RTOs and provide a comparative baseline for how fast-response and storage-like capabilities are accredited and priced in a largely thermal/renewable market.",
+        "topics": [
+          "ancillary-services",
+          "storage",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Frazier",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Anupam Thatte",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Luis Hinojosa",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mark Patterson",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Matthew Skiles",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Bob Helton",
+            "entity": "Engie",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -1351,16 +1674,334 @@
   {
     "title": "RCSTF Meeting",
     "date": "2026-06-25",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "RCSTF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={D5A13C0D-3754-4653-9A5A-812E99396339}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={F7B09C2F-06A0-4A5C-8AF9-0EAF15A37DB5}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "RCSTF (Resource Adequacy Steering Committee Task Force) addresses resource adequacy rules and capacity market design that directly affect hydropower and pumped-storage accreditation, ELCC methodology, and market participation.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260625-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260625/20260625-agenda.pdf",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: This agenda covers PJM's RCSTF deliberations on CBIR (Capacity, Bilateral, Intermittent Resource) packages and real-time market pricing (including multistep ORDCs), which directly affect energy price formation, ancillary-services accreditation, and capacity/RA mechanisms \u2014 the core revenue and accreditation rules governing hydro and pumped-storage participation in PJM.",
+        "ai_summary": "PJM's Reserve Certainty Senior Task Force is meeting June 25, 2026 to review summary presentations of CBIR packages (Emily Barrett, PJM), Monitoring Analytics' proposals and matrix updates (Joel Romero Luna and Catherine Tyler), and to vote on RCSTF packages. The meeting also includes informal postings on real-time market pricing impacts of multistep ORDCs, with extended simulation results. Hydro owners in PJM need to monitor CBIR and ORDC outcomes because they reshape how energy scarcity is priced and how capacity is accredited \u2014 both foundational to hedging and RA showings. The vote on RCSTF packages is imminent; materials are posted for pre-vote review, and materials due to the secretary at times to be scheduled thereafter.",
+        "topics": [
+          "price-formation",
+          "capacity-ra",
+          "ancillary-services"
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Catherine Tyler",
+            "entity": "Monitoring Analytics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joel Romero Luna",
+            "entity": "Monitoring Analytics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Amanda Egan",
+            "entity": "PJM",
+            "role": "author | secretary | contact",
+            "email": null
+          },
+          {
+            "name": "Emily Barrett",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Lisa Morelli",
+            "entity": "PJM",
+            "role": "facilitator",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20260625-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260625/20260625-agenda-doc.docx",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "Draft Minutes \u2013 Rcstf \u2013 06092026",
+        "filename": "20260625-draft-minutes---rcstf---06092026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260625/20260625-draft-minutes---rcstf---06092026.pdf",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "These are routine meeting minutes documenting a Reserve Certainty Senior Task Force (RCSTF) teleconference agenda and attendee list, with no substantive discussion of market-design mechanisms affecting hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Catherine Tyler",
+            "entity": "Monitoring Analytics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joel Romero Luna",
+            "entity": "Monitoring Analytics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Amanda Egan",
+            "entity": "PJM Interconnection",
+            "role": "author | secretary",
+            "email": null
+          },
+          {
+            "name": "Austin Lin",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Lisa Morelli",
+            "entity": "PJM Interconnection",
+            "role": "facilitator",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 02 \u2013 Pjms Rcstf Proposal Summary",
+        "filename": "20260625-item-02---pjms-rcstf-proposal-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260625/20260625-item-02---pjms-rcstf-proposal-summary.pdf",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM's proposal restructures reserve products and requirements, introducing new ramping and uncertainty reserves (10-min and 30-min RUR) with locational procurement and 10-min response times that will directly affect hydro and PSH revenue and dispatch obligations.",
+        "ai_summary": "PJM proposes restructuring its reserve construct to align scheduling with operational needs and address growing ramping and uncertainty requirements. The proposal introduces three new reserve products\u201410-minute Ramp and Uncertainty (RUR), 10-minute Ramp and Uncertainty Down, and 30-minute RUR\u2014each with specified offer caps ($10/MWh day-ahead, $0 real-time), balancing settlement, and locational procurement. These products carry fast response requirements (10\u201330 min) that hydro and PSH are positioned to supply, and are priced at 1.25\u00d7 the clearing price or cost-to-provide, whichever is higher. The proposal also shifts Day-Ahead Scheduling Reserve from a fixed 4.51%-of-peak formula to a dynamic, risk-based framework classified by operating-day conditions. Hydro and pumped-storage operators will directly participate in procurement of these ramping/flexibility products, which represent new revenue streams for fast-responding resources; exposure depends on portfolio flexibility and locational advantage. The document does not state a vote date or comment deadline.",
+        "topics": [
+          "ramping-flexibility",
+          "ancillary-services",
+          "price-formation"
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Emily Barrett",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03a \u2013 Imm Rcstf Presentation",
+        "filename": "20260625-item-03a---imm-rcstf-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260625/20260625-item-03a---imm-rcstf-presentation.pdf",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "Item 03b \u2013 Options And Packages Matrix",
+        "filename": "20260625-item-03b---options-and-packages-matrix.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260625/20260625-item-03b---options-and-packages-matrix.xls",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "vote",
+        "title": "Item 04 \u2013 Rcstf Vote Information And Overview",
+        "filename": "20260625-item-04---rcstf-vote-information-and-overview.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260625/20260625-item-04---rcstf-vote-information-and-overview.pdf",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a procedural voting package overview for PJM's Reserve Certainty Senior Task Force (RCSTF) with no substantive content on hydro revenue streams, obligations, or strategic options \u2014 it announces voting mechanics, timelines, and roster administration only.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Amanda Egan",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "Amanda.Egan@pjm.com"
+          },
+          {
+            "name": "Lisa Morelli",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Lisa.Morelli@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Updated Information Only \u2013 2025 Rt Price Comparison Impact Of Multistep Ordcs Public Updated",
+        "filename": "20260625-updated-information-only---2025-rt-price-comparison_-impact-of-multistep-ordcs-public-updated.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260625/20260625-updated-information-only---2025-rt-price-comparison_-impact-of-multistep-ordcs-public-updated.xlsx",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Updated Information Only \u2013 Rt Market Pricing Impact Multi Step Ordcs With Extended Requirements 06092026",
+        "filename": "20260625-updated-information-only---rt-market-pricing-impact-multi-step-ordcs-with-extended-requirements-06092026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260625/20260625-updated-information-only---rt-market-pricing-impact-multi-step-ordcs-with-extended-requirements-06092026.pdf",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Operating Reserve Demand Curve (ORDC) restructuring changes ancillary-services revenue for reserve suppliers; multi-step ORDCs and unnesting of synchronized reserves affects how hydro's reserve products are priced and when they clear, with particular impact on 10-minute and 30-minute reserve pricing and frequency of scarcity events.",
+        "ai_summary": "PJM's Advanced Analytics team analyzed 2025 real-time market pricing impacts from proposed multi-step Operating Reserve Demand Curves (ORDCs) unnesting 10-minute Synchronized Reserve from 30-minute reserves and creating explicit 30-minute and 10-minute Online Reserve products. The Full Case scenario (updated ORDCs with Primary Reserve not clearing) showed 10-minute Online reserve prices rising from $10.25/MWh to $13.04/MWh (+$2.79), energy LMPs rising $0.80/MWh, uplift declining 3.8%, and load reserve payments rising $216M for 10-minute Online reserves\u2014with greatest price pressure during peak hours when reserves are most needed. The simulation found that prepositioning units with ramping products in the multi-step ORDC case reduced scarcity-event frequency compared to the base case, particularly during two modeled shortage events (3/3/2025 and 8/12/2025), suggesting improved reserve-positioning efficiency, though the analysis carries limitations (PROBE PD simulation tool, combustion-turbine-only commitment, 30-minute Online requirement added to SR requirement rather than separately modeled). Document presented to RCSTF with no stated vote or deadline; further results posted post-presentation.",
+        "topics": [
+          "ancillary-services",
+          "ramping-flexibility",
+          "price-formation"
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "5a586fd0-2381-40c2-a593-15eada18ad50",
+            "canonical_name": "Reserve Certainty and Resource Flexibility Incentives",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=5a586fd0-2381-40c2-a593-15eada18ad50"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Austin Lin",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "NEPOOL Reliability Committee Meeting",
@@ -2542,6 +3183,46 @@
         "topics": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "05. Flight Testing Update to RMS20260625",
+        "filename": "05.-Flight-Testing-Update-to-RMS20260625.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/22/05.-Flight-Testing-Update-to-RMS20260625.pptx",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns ERCOT retail-market testing mechanics (competitive retailer connectivity and enrollment cycles) with no bearing on hydropower revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Michelsen",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "05. ERCOT_IT_Report_June_2026_-_RMS",
+        "filename": "05.-ERCOT_IT_Report_June_2026_-_RMS.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/23/05.-ERCOT_IT_Report_June_2026_-_RMS.pptx",
+        "posted_date": "2026-06-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "ERCOT IT operations report on MarkeTrak availability, API performance, and retail-market system maintenance \u2014 no market-design mechanisms affecting hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Vikram Gupta",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -2625,7 +3306,7 @@
     "date": "2026-06-25",
     "time": "2:00 PM",
     "rto": "ERCOT",
-    "committee": "Dynamics Working Group",
+    "committee": "Retail Market Subcommittee",
     "source_url": "https://www.ercot.com/calendar",
     "detail_url": "https://www.ercot.com/calendar/06252026-Batch-Zero-Weekly-Readiness",
     "materials_url": "https://www.ercot.com/calendar/06252026-Batch-Zero-Weekly-Readiness",
@@ -2697,14 +3378,28 @@
     ]
   },
   {
+    "title": "Extended Day-ahead Market (EDAM) Market Performance",
+    "date": "2026-06-25",
+    "time": "9:00 AM - 11:00 AM",
+    "rto": "CAISO",
+    "committee": null,
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-edam-market-performance-jun-25-2026-0900-am",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "EDAM market-performance review directly affects West-region hydro generators' revenue opportunities, strategic participation choices, and exposure to locational pricing and co-optimization mechanics that shape hydro product values and transmission-constraint shadow prices.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Markets and Reliability Committee Meeting",
     "date": "2026-06-24",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 12:30 p.m.",
     "rto": "PJM",
     "committee": "Markets and Reliability Committee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={D5A13C0D-3754-4653-9A5A-812E99396339}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={AC40F88C-2DE7-4C8D-A1D6-E87C9F0E1745}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Markets and Reliability Committee is the primary forum where PJM addresses capacity markets, resource adequacy, ancillary services, and market rule changes that directly affect hydropower and pumped-storage participation.",
     "issues": [],
@@ -4617,7 +5312,7 @@
             "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
             "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
@@ -6222,12 +6917,12 @@
   {
     "title": "PJM/MISO JCM Meeting",
     "date": "2026-06-23",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 11:00 a.m.",
     "rto": "PJM",
     "committee": "PJM/MISO JCM",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={12860F75-EDF0-4A27-A4DD-61B7C8D3DB5B}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={5FDD2263-9189-42C8-B1AF-0B2450B5E746}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The PJM/MISO JCM (Joint and Common Meeting) is a governance and administrative coordination body between two RTOs that typically addresses procedural, operational, and administrative matters rather than substantive market rules or hydro-specific technical issues.",
     "issues": [],
@@ -6290,6 +6985,19 @@
         "filename": "20260623-jcm-info-only-posting-miso-pjm-2026-joa-biennial-review.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/pjm-miso-joint-common/2026/20260623/20260623-jcm-info-only-posting-miso-pjm-2026-joa-biennial-review.pdf",
         "posted_date": "2026-06-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 01 \u2013 Freeze Date Update",
+        "filename": "20260623-item-01---freeze-date-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/stakeholder-meetings/pjm-miso-joint-common/2026/20260623/20260623-item-01---freeze-date-update.pdf",
+        "posted_date": "2026-06-22",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -7981,7 +8689,18 @@
     "materials_url": "https://www.ercot.com/calendar/06182026-PUCT-Meeting",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "PUCT meetings address Texas retail regulation and state-level utility governance, not wholesale market design, RTO tariffs, or operational rules that affect hydropower participation or revenue.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1325",
+        "canonical_name": "NPRR1325 \u2014 Related to PGRR145, Batch Zero Process for Large Load Interconnections",
+        "status": "Approved on 06/18/2026",
+        "stakeholder_phase": "PUCT for consideration",
+        "committee_owner": "PUCT",
+        "is_open": 0,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1325"
+      }
+    ],
     "documents": []
   },
   {
@@ -10188,7 +10907,7 @@
     "committee": "SRRTEP-MA",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={12860F75-EDF0-4A27-A4DD-61B7C8D3DB5B}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={D5A13C0D-3754-4653-9A5A-812E99396339}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-MA (System Reliability, Regional Transmission, Engineering, and Planning - Mid-Atlantic) is a technical planning committee focused on transmission infrastructure and system reliability rather than market design, capacity accreditation, or operational rules that directly affect hydropower participation.",
     "issues": [],
@@ -12050,12 +12769,12 @@
   {
     "title": "TOA-AC Special Session - Public Materials Only (No Registration) Meeting",
     "date": "2026-06-12",
-    "time": "10:00 a.m. - 12:00 p.m.",
+    "time": "8:30 a.m. - 9:30 a.m.",
     "rto": "PJM",
     "committee": "TOA-AC Special Session - Public Materials Only (No Registration)",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C5AB2C67-0301-40A7-BD10-71C8001BB3D9}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={FF6A8483-D6E7-4791-9A87-F74A93E862DC}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "TOA-AC (Transmission Operations & Connections Advisory Committee) typically addresses transmission operations and interconnection procedures, which are generally not hydropower-specific; without additional context indicating discussion of hydro-related transmission planning, deliverability, or interconnection issues, this appears to be a routine advisory meeting unlikely to contain hydropower-relevant content.",
     "issues": [],
@@ -21371,12 +22090,12 @@
   {
     "title": "DTS Meeting",
     "date": "2026-06-09",
-    "time": "10:00 a.m. - 12:00 p.m.",
+    "time": "9:00 a.m. - 10:00 a.m.",
     "rto": "PJM",
     "committee": "DTS",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C5AB2C67-0301-40A7-BD10-71C8001BB3D9}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={B559CF9F-EA0B-40F2-A41F-D1D98F55638D}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "DTS (Distribution Training and Safety) meetings typically focus on operational training, safety procedures, and distribution system management rather than market design, resource adequacy, or participation rules relevant to hydropower and pumped-storage generators.",
     "issues": [],
@@ -25482,7 +26201,7 @@
             "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
             "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
@@ -25540,7 +26259,7 @@
             "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
             "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
@@ -25621,7 +26340,7 @@
             "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
             "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
@@ -25997,7 +26716,7 @@
             "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
             "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
@@ -30015,10 +30734,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1325",
         "canonical_name": "NPRR1325 \u2014 Related to PGRR145, Batch Zero Process for Large Load Interconnections",
-        "status": "Pending",
+        "status": "Approved on 06/18/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1325"
       },
       {
@@ -44903,7 +45622,7 @@
             "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
             "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
@@ -45034,7 +45753,7 @@
             "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
             "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
@@ -45088,7 +45807,7 @@
             "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
             "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
@@ -45811,7 +46530,7 @@
             "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
             "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
@@ -54009,7 +54728,7 @@
             "native_id": "b61ea0e7-c8bd-46fb-9614-725834e7a78a",
             "canonical_name": "Fuel Cost Policy Clarifications for Affiliated Fuel Suppliers",
             "status": "evaluation in progress",
-            "stakeholder_phase": "design",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=b61ea0e7-c8bd-46fb-9614-725834e7a78a"
