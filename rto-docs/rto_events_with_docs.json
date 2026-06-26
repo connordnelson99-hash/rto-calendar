@@ -1042,7 +1042,182 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A GHG Task Force meeting focused on greenhouse gas emissions policy is outside the scope of hydropower market participation, capacity accreditation, ancillary services, transmission planning, or market rules that directly affect hydro operations.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "0. MGHGTF Agenda 20260701.docx  [in MGHGTF Meeting Materials 20260701.zip]",
+        "filename": "0. MGHGTF Agenda 20260701.docx",
+        "url": "https://www.spp.org/Documents/77035/MGHGTF%20Meeting%20Materials%2020260701.zip#z=0.%20MGHGTF%20Agenda%2020260701.docx",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Markets+ GHG attribution and accounting rules directly affect how hydro exports (especially from the Northwest) are credited and priced in SPP's footprint and interregional transfers, shaping revenue and strategic positioning for hydro in multi-state resource portfolios.",
+        "ai_summary": "The Markets+ GHG Task Force is convening to review greenhouse-gas tracking, reporting, and attribution mechanisms including null-power designations for independent power producers, emissions-factor methodology, and internal resource attribution rules. The task force's July 1, 2026 agenda indicates ongoing work on GHG attribution architecture\u2014a foundational element for how clean hydro energy is credited in day-ahead and real-time pricing, capacity accreditation, and clean-energy program compliance. Hydro owners exporting into or participating via Markets+ must track how these rules value (or penalize) dispatchable zero-carbon generation relative to variable renewables; the unspecified emissions factor subgroup and null-power designation protocols will determine whether hydro's environmental attributes are properly recognized in nodal pricing and portfolio-adequacy showings.",
+        "topics": [
+          "clean-energy",
+          "seams-governance",
+          "price-formation"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Adam Cornelius",
+            "entity": "Southwest Power Pool (SPP Markets+)",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Gentry Crowson",
+            "entity": "Southwest Power Pool (SPP Markets+)",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Kim O'Guinn",
+            "entity": "Southwest Power Pool (SPP Markets+)",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mary Wiencke",
+            "entity": "Southwest Power Pool (SPP Markets+)",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Nick Foss",
+            "entity": "Southwest Power Pool (SPP Markets+)",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "1.a.b. MGHGTF Meeting Slides 20260701.potx  [in MGHGTF Meeting Materials 20260701.zip]",
+        "filename": "1.a.b. MGHGTF Meeting Slides 20260701.potx",
+        "url": "https://www.spp.org/Documents/77035/MGHGTF%20Meeting%20Materials%2020260701.zip#z=1.a.b.%20MGHGTF%20Meeting%20Slides%2020260701.potx",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "parse error: Expecting property name enclosed in double quotes: line 92 column 35 (char 3191)",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "1.c. MGHGTF Minutes 20260604.pdf  [in MGHGTF Meeting Materials 20260701.zip]",
+        "filename": "1.c. MGHGTF Minutes 20260604.pdf",
+        "url": "https://www.spp.org/Documents/77035/MGHGTF%20Meeting%20Materials%2020260701.zip#z=1.c.%20MGHGTF%20Minutes%2020260604.pdf",
+        "posted_date": "2026-06-04",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "parse error: Expecting ',' delimiter: line 77 column 20 (char 3019)",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2. Null Power redlines 20260701.docx  [in MGHGTF Meeting Materials 20260701.zip]",
+        "filename": "2. Null Power redlines 20260701.docx",
+        "url": "https://www.spp.org/Documents/77035/MGHGTF%20Meeting%20Materials%2020260701.zip#z=2.%20Null%20Power%20redlines%2020260701.docx",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Null Power designation rules directly affect how renewable energy attributes (RECs) and non-power attributes are separated from hydro-generated energy and accounted for in Markets+ GHG tracking, which determines both the revenue treatment of attribute sales and the GHG attribution of hydro exports into the footprint\u2014a critical issue for NHA members exporting renewable energy across the SPP Markets+ seam.",
+        "ai_summary": "Markets+ GHG Task Force is redlining protocol language on 'Null Power'\u2014energy from which a Reporting Entity (generator/owner) has separated and retained or sold RECs and non-power attributes. The redline clarifies timing (prior to Day-Ahead Market, or up to 90 calendar days post-operating-day via METra Portal) and the Market Operator's authority to adjust Null Power designations. This mechanism determines how hydropower owners account for attribute sales in the regional GHG accounting protocol and affects both the energy-market treatment of attribute-separated power and the GHG footprint attribution of hydro exports\u2014especially material for pumped-storage and conventional hydro owners in the West who commonly separate and sell RECs. Status and next steps are not stated in this excerpt; this is a redline document circulated to the MGHGTF for comment/approval.",
+        "topics": [
+          "clean-energy",
+          "seams-governance",
+          "price-formation"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Null Power",
+            "entity": null,
+            "role": "concept being redlined",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "3. GHG Tracking and Reporting Backstop Emissions Report 20260701.pptx  [in MGHGTF Meeting Materials 20260701.zip]",
+        "filename": "3. GHG Tracking and Reporting Backstop Emissions Report 20260701.pptx",
+        "url": "https://www.spp.org/Documents/77035/MGHGTF%20Meeting%20Materials%2020260701.zip#z=3.%20GHG%20Tracking%20and%20Reporting%20Backstop%20Emissions%20Report%2020260701.pptx",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Markets+ GHG attribution and accounting rules directly affect how hydro and pumped-storage exports are valued and marketed in clean-energy programs and cross-RTO trade, particularly for Northwest hydro entering WEIM/EDAM footprints.",
+        "ai_summary": "SPP Markets+ GHG Task Force proposes replacing EPA eGRID and EIA fuel-type emissions factors with two superior backstop sources: GRETA (a real-time heat-rate curve model already used by MISO, SPP IM, and APS) and Open Grid Emissions (OGE, a peer-reviewed, generator-specific annual dataset). The proposal would establish a four-tier pecking order\u2014Market Participant submission first, GRETA second, OGE third, and Market Operator calculation as fallback\u2014shifting away from outdated annual averages to dynamic and sub-plant-specific emissions accounting. This matters to hydro owners because zero-carbon hydro and pumped-storage assets will receive more accurate (and favorable) emissions-factor treatment in clean-energy programs and multiregional GHG accounting; the use of real-time heat-rate modeling and open-source peer-reviewed data strengthens the defensibility of hydro's zero-carbon claim in export markets and capacity-procurement contexts where GHG attribution determines eligibility and value. No vote date or comment deadline is stated in the document.",
+        "topics": [
+          "clean-energy",
+          "seams-governance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Nick Foss",
+            "entity": "SPP",
+            "role": "contact",
+            "email": "nfoss@spp.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "5. 2026-06-17_Revised Unspecified Emissions Factor Conclusions & Recommendation_DRAFT 20260701.docx  [in MGHGTF Meeting Materials 20260701.zip]",
+        "filename": "5. 2026-06-17_Revised Unspecified Emissions Factor Conclusions & Recommendation_DRAFT 20260701.docx",
+        "url": "https://www.spp.org/Documents/77035/MGHGTF%20Meeting%20Materials%2020260701.zip#z=5.%202026-06-17_Revised%20Unspecified%20Emissions%20Factor%20Conclusions%20%26%20Recommendation_DRAFT%2020260701.docx",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Unspecified emissions factor design and revenue treatment for GHG-zone imports affects hydro's energy-price formation and revenue capture under Washington's GHG pricing program, particularly for exporters and multi-zone participants in Markets+ footprint.",
+        "ai_summary": "Markets+ GHG Task Force proposes adopting Washington Department of Ecology's unspecified emissions factor for pricing imports into GHG zones, rather than attempting to calculate a real-time marginal-emissions rate. The proposal addresses a foundational issue: if the unspecified EF is set too high, specified/internal resources are economically undercut; too low, it underrepresents emissions costs and can raise marginal energy prices. The task force recommends proceeding with an adopted static factor and establishing post-implementation monitoring, with open questions on how SPP distributes unspecified EF revenue to market participants and how unspecified imports are tracked and reported. This directly affects hydro exporters' energy revenue in the GHG zone and their ability to compete against unspecified imports when dispatch incorporates the emissions adder.",
+        "topics": [
+          "price-formation",
+          "clean-energy",
+          "seams-governance"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "6.b. MGHGTF Action Items 20260701.docx  [in MGHGTF Meeting Materials 20260701.zip]",
+        "filename": "6.b. MGHGTF Action Items 20260701.docx",
+        "url": "https://www.spp.org/Documents/77035/MGHGTF%20Meeting%20Materials%2020260701.zip#z=6.b.%20MGHGTF%20Action%20Items%2020260701.docx",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Markets+ GHG pricing framework design directly affects energy price formation and revenue streams for hydropower and storage resources; GHG-tracking protocols and emissions accounting will alter dispatch economics and opportunity-cost calculations for hydro participation in SPP.",
+        "ai_summary": "SPP's Markets+ GHG Task Force is developing a greenhouse-gas pricing and tracking framework for the SPP footprint, with ongoing work on tariff language, protocols for emissions reporting, treatment of specified-source (imported) energy, and accounting for storage and hybrid resources. Recent action items (January\u2013June 2026) focus on defining hybrid storage market resources (HSMR), designing mechanisms for partially contracted internal GHG resources, allowing independent power producers to designate energy as 'Null Power,' and providing sample input forms and GHG reporting tools. No completion date is named in the action-items list, but the framework is post-go-live implementation. For hydro owners, the mechanism is two-fold: (1) GHG-based pricing will create new scarcity signals and marginal-cost adders that alter dispatch merit order, affecting when hydro generation is economically selected; (2) the tracking and reporting requirements (particularly for imports, exports, and storage state-of-charge) will impose operational and compliance obligations on hydro operators. Pumped-storage resources are explicitly targeted by the HSMR definition revisions and multi-configuration resource (MCR) merit-order stacking proposals (Action Item 180), which will reshape how PSH offers energy and frequency support. Most exposed are PSH operators and large run-of-river exports into SPP; smaller reservoir hydro in SPP territory will face reduced dispatch value in high-emissions periods.",
+        "topics": [
+          "price-formation",
+          "storage",
+          "clean-energy"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Claire Breidenich",
+            "entity": "SPP",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Lauren Quillian",
+            "entity": "SPP",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Sarah Ruen",
+            "entity": "SPP",
+            "role": "author",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "SOS Meeting",
@@ -1084,7 +1259,128 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Power Supply Planning Committee meetings typically address resource adequacy, seasonal energy assessments, capacity accreditation, transmission planning, and reliability mechanisms\u2014all of which directly affect hydro revenue and operational strategy in ISO-NE's footprint and the broader Northeast market.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "2026-07-01 PSPC A00 Agenda",
+        "filename": "a00_2026_07_01_pspc_agenda.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a00_2026_07_01_pspc_agenda.docx",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: ISO-NE's annual capacity auction and ICR/capacity accreditation methodology development directly affects how New England's hydropower and pumped-storage resources are accredited for resource adequacy and capacity revenue; demand-resource performance audits and load forecasting also inform the adequacy construct that drives RA value.",
+        "ai_summary": "ISO-NE's Power Supply Planning Committee will meet July 1, 2026, to establish the 2026 schedule for developing ICR-Related Values (Installed Capacity Requirements, Locational Seasonal Reserves, Minimum Capacity Levels, Hydro-Qu\u00e9bec Interconnection Capability Constraints, and MRI Demand Curves) that feed the annual reconfiguration auction, plus review Summer 2025 and Winter 2025\u20132026 demand-resource performance and update the 2026 CELT load forecast. The ISO's capacity accreditation methodology and demand-resource audit results directly influence the reliability margin and seasonal reserve requirements against which hydro RA value is calculated; changes to the load forecast or demand-resource performance assumptions ripple into the adequacy baseline and thus hydro's capacity accreditation share. The agenda indicates this is a schedule-setting meeting with no proposals tabled yet, so substantive changes are likely to emerge in subsequent PSPC meetings through the 2026 cycle.",
+        "topics": [
+          "capacity-ra",
+          "load-growth"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Helve Saarela",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sam Allen",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Victoria Rojo",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-07-01 PSPC A02 2026 Schedule for Development of New England's ICR-Related Values",
+        "filename": "a02_2026_icr_schedule_pspc_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a02_2026_icr_schedule_pspc_presentation.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Installed Capacity Requirement (ICR) and accreditation values determine how much capacity New England hydro and other resources can claim toward resource adequacy; this schedule governs the development cycle for ARA 3 (2027\u20132028), which directly affects hydro's capacity accreditation and the revenue hydro receives from New England's capacity auction.",
+        "ai_summary": "ISO-NE has released the development schedule for Installed Capacity Requirement (ICR) and related values\u2014including Hydro-Qu\u00e9bec Interconnection Capability Credit (HQICC), Maximum Capacity Limit (MCL), and Marginal Reliability Impact (MRI) demand curves\u2014to be used in the third Annual Reconfiguration Auction (ARA 3) for the 2027\u20132028 Capacity Commitment Period, scheduled to occur in March 2027. The PSPC will review assumptions and proposed values across meetings in August, September, and October 2026; the RC and PC will vote on October 20 and November 12, 2026, respectively; FERC filing is due by November 30, 2026. For New England hydro owners, this proceeding determines the accreditation rules and demand-curve parameters that govern how much capacity they can claim in the auction and the clearing prices they face\u2014particularly relevant for owners supplying reserve margin and for understanding how interconnection credits and seasonal constraints shape their RA revenues in ISO-NE's forward capacity market.",
+        "topics": [
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Helve Saarela",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-07-01 PSPC A03 Review Summer 2025 & Winter 2025-2026 Demand Resource Performance",
+        "filename": "a03_demand_resource_performance_2025_2026.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a03_demand_resource_performance_2025_2026.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document reports ISO-NE demand-response resource (DRR) audit performance against capacity obligations; DRRs are retail/behind-the-meter load reduction programs unrelated to hydro or PSH revenue streams, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Sam Allen",
+            "entity": "ISO New England",
+            "role": "author | presenter",
+            "email": "sallen@iso-ne.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-07-01 PSPC A04 Review Active Demand Capacity Resource (ADCR) Availabilities",
+        "filename": "a04_adcr_availability_assumptions_2026.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a04_adcr_availability_assumptions_2026.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document reports historical forced-outage rates (FOR) for Active Demand Capacity Resources (demand response) in ISO-NE's Forward Capacity Market\u2014a purely demand-side resource class with no direct revenue, obligation, or strategic relevance to hydropower or pumped-storage operators.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Sam Allen",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": "sallen@iso-ne.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-07-01 PSPC A05 Review Of 2026 CELT Load Forecast",
+        "filename": "a05_2026_celt_load_forecast.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/a05_2026_celt_load_forecast.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: ISO-NE's 2026 gross load forecast directly drives the Installed Capacity Requirement (ICR) for the Forward Capacity Market auctions and the Annual Reconfiguration Auction, which sets the demand curve and accreditation targets that determine hydro and PSH capacity revenue and clearing in New England.",
+        "ai_summary": "ISO-NE presents the 2026 vintage gross load forecast using its pre-existing methodology (pre-CELT 2025) to support calculation of the Installed Capacity Requirement (ICR) for upcoming Annual Reconfiguration Auctions (ARA). The forecast incorporates load data through end of 2025, reconstitutes for behind-the-meter PV and Passive Demand Resources (PDRs) using FCA 18 CSO values, and applies separate models for energy and seasonal peaks. For the 2027\u20132028 capacity commitment period, the 2026 forecast yields summer 50/50 and 90/10 peaks of 27,835 MW and 29,778 MW, and winter peaks of 22,461 MW and 23,337 MW, with an annual energy forecast of 136,064 GWh; ARA-specific adjustments are reported separately. This forecast directly determines the capacity-market demand curve and resource-adequacy baseline against which hydro and PSH plants are accredited and paid for capacity in New England's FCM.",
+        "topics": [
+          "capacity-ra",
+          "load-growth"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Victoria Rojo",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Markets Committee of the Board of Directors - July 1, 2026",
@@ -1216,6 +1512,48 @@
     "documents": []
   },
   {
+    "title": "Comments due - Demand and Distributed Energy Market Integration",
+    "date": "2026-07-01",
+    "time": "",
+    "rto": "CAISO",
+    "committee": "Demand and Distributed Energy Market Integration",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/comments-due-demand-and-distributed-energy-market-integration-jul-01-2026-1200-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Demand-Distributed-Energy-Market-Integration",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Distributed energy market integration touches Order 2222 participation pathways for small hydro and co-located hydroelectric resources, and demand-side design may affect load-growth scarcity signals that influence hydro valuation and strategic positioning in CAISO.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Settlement User Group",
+    "date": "2026-07-01",
+    "time": "10:00 AM - 11:00 AM",
+    "rto": "CAISO",
+    "committee": "Settlement User Group",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/settlement-user-group-jul-01-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/settlement-user-group",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Settlement User Group meetings typically address billing, invoicing, and administrative settlement mechanics rather than market-design changes affecting hydro revenue, obligations, or strategic options.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda - Settlement User Group - Jun 17, 2026",
+        "filename": "agenda-settlement-user-group-jun-17-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-settlement-user-group-jun-17-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
     "title": "MORWG Net Conference",
     "date": "2026-06-30",
     "time": "11:00 AM - 3:00 PM CT",
@@ -1227,7 +1565,352 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Markets and Operations and Reliability Working Group typically addresses market rules, resource dispatch, ancillary services, and reliability requirements that directly affect hydropower and energy storage participation in SPP's markets.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "report",
+        "title": "09-10-MIR8.1 and MIR8.2 Update to MORWG June 2026.pptx  [in MORWG Meeting Materials 20260630.zip]",
+        "filename": "09-10-MIR8.1 and MIR8.2 Update to MORWG June 2026.pptx",
+        "url": "https://www.spp.org/Documents/77003/MORWG%20Meeting%20Materials%2020260630.zip#z=09-10-MIR8.1%20and%20MIR8.2%20Update%20to%20MORWG%20June%202026.pptx",
+        "posted_date": "2026-06-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MIR8.1 restructures how pumped-storage and battery resources manage state-of-charge forecasting across Markets+ unit-commitment studies, shifting from market-participant prediction to market-operator calculation of SOC trajectories \u2014 a material change to how storage revenue exposure and dispatch predictability are handled under Markets+ rules.",
+        "ai_summary": "Markets+ MIR8.1 proposes to introduce time-coupled intervals in all unit-commitment studies (Day-Ahead Market, Day-Ahead RUC, Intra-Day RUC, and Short-Term RUC), allowing market operators to calculate state-of-charge for all intervals after the first, rather than requiring market participants to submit a SOC forecast for every interval. The change is optional: participants can elect either the current design (submitting SOC forecast for each interval) or the new coupled design (submitting SOC forecast only for the first interval, letting the market operator time-couple and calculate subsequent SOC values). The proposal targets a FERC filing timeline, with MPEC approval targeted for August 2026. For pumped-storage owners, this addresses a key exposure: misforecasting dispatch leads to infeasible SOC trajectories in real-time, triggering capacity shortfalls and financial penalties; time-coupling within studies mitigates that risk by ensuring the market solver respects physical charging/discharging constraints. The optionality preserves flexibility for hybrid resources and those charging/discharging outside the market (where the operator lacks full visibility). MORWG convened June 30, 2026; MPEC approval is scheduled August 25, 2026.",
+        "topics": [
+          "storage",
+          "seams-governance",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "01 - June MORWG Agenda.docx  [in MORWG Meeting Materials 20260630.zip]",
+        "filename": "01 - June MORWG Agenda.docx",
+        "url": "https://www.spp.org/Documents/77003/MORWG%20Meeting%20Materials%2020260630.zip#z=01%20-%20June%20MORWG%20Agenda.docx",
+        "posted_date": "2026-06-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This agenda covers multiple Markets+ Market Design initiatives directly affecting hydro and storage revenue and operational rules: state-of-charge management for multi-hour storage (MIR8.1), co-located resource constraints (MIR8.2), dynamic scheduling and pseudo-ties for resource participation (MIR9.2-R, MIR9.3-R), and real-time market settlement mechanics (MIR81-R, MIR60-R).",
+        "ai_summary": "Markets+ Markets and Operations working groups will discuss and vote on six Market Implementation Requests in June 2026, with August 2026 MPEC approval targets for most items. MIR8.1 (State of Charge Management) and MIR8.2 (Co-Located Resource Constraints) introduce new participation and operational frameworks for multi-hour storage resources\u2014both drawn from MSR (multi-service resource) subgroup whitepapers and directly affecting how pumped storage and hybrid generators (including co-located hydro + solar) can operate and earn revenue. MIR9.2-R and MIR9.3-R expand dynamic-scheduling and pseudo-tie pathways, opening participation for neighboring resources and potentially enabling smaller or out-of-footprint hydro to access Markets+ balancing. MIR60-R and MIR81-R address real-time transaction settlement and dynamic multi-transaction-interchange pricing, altering how interchange flows (critical for Northwest-to-SPP hydro exports) settle and are valued. Comment deadlines range from June 18 to June 25, 2026; August MPEC vote is the approval milestone for most items.",
+        "topics": [
+          "storage",
+          "hybrids-der",
+          "seams-governance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Garrott Granholm",
+            "entity": "Southwest Power Pool / Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jeremy Reddig",
+            "entity": "Southwest Power Pool / Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kelli Schermerhorn",
+            "entity": "Southwest Power Pool / Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Libby Kirby",
+            "entity": "Southwest Power Pool / Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nicholas Foss",
+            "entity": "Southwest Power Pool / Markets+",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "02 - Antitrust Statement.pptx  [in MORWG Meeting Materials 20260630.zip]",
+        "filename": "02 - Antitrust Statement.pptx",
+        "url": "https://www.spp.org/Documents/77003/MORWG%20Meeting%20Materials%2020260630.zip#z=02%20-%20Antitrust%20Statement.pptx",
+        "posted_date": "2026-06-30",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a standard antitrust compliance statement with no substantive content on hydropower revenue streams, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "03a - May MORWG Meeting Minutes.docx  [in MORWG Meeting Materials 20260630.zip]",
+        "filename": "03a - May MORWG Meeting Minutes.docx",
+        "url": "https://www.spp.org/Documents/77003/MORWG%20Meeting%20Materials%2020260630.zip#z=03a%20-%20May%20MORWG%20Meeting%20Minutes.docx",
+        "posted_date": "2026-06-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MIR9.1-R establishes rules for non-dispatchable physical resources (likely including run-of-river hydro and variable generation), and MIR78-R adjusts market-clearing rules for MCR transition states in Markets+\u2014both touch hydro participation mechanics and obligations in SPP's evolving regional market.",
+        "ai_summary": "The Markets+ Operations and Reliability Working Group approved two market-initiative requests at its May 27, 2026 meeting. MIR9.1-R (Non-Dispatchable Physical Resources) creates a framework for resources whose owners are legally or contractually unable to submit financial offer information, allowing them to be modeled in the market without unavailable offer data\u2014directly relevant to run-of-river hydro and other variable resources that cannot control output. MIR78-R (MCR Transition) removes a 30-minute transition-state eligibility constraint on reserve clearing that was ported from the Integrated Marketplace but does not apply in Markets+, simplifying multi-commitment-request behavior. Both motions passed unanimously; no comment deadlines or further action items were assigned in these minutes. The group also received education on MIR1 (Market System Outage BA Overrides) and MIR79-R (MIR Process terminology revision), with updates scheduled for June and July MORWG meetings.",
+        "topics": [
+          "seams-governance",
+          "ops-compliance",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Libby Kirby",
+            "entity": "Bonneville Power Administration",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Peter Graf",
+            "entity": "Clark County PUD",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chris McDarment",
+            "entity": "Grant County PUD",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Evan Sorrell",
+            "entity": "Puget Sound Energy",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "AJ Holley",
+            "entity": "SPP",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Adam Cornelius",
+            "entity": "SPP",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Caleb Mayden",
+            "entity": "SPP",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Gentry Crowson",
+            "entity": "SPP",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kelli Schermerhorn",
+            "entity": "SPP",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sherri Maxey",
+            "entity": "SPP",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Skylar Kincaid",
+            "entity": "SPP",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Harley Johnson",
+            "entity": "Tacoma Power",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "04-MIR75-R SPP Comments-20260520.docx  [in MORWG Meeting Materials 20260630.zip]",
+        "filename": "04-MIR75-R SPP Comments-20260520.docx",
+        "url": "https://www.spp.org/Documents/77003/MORWG%20Meeting%20Materials%2020260630.zip#z=04-MIR75-R%20SPP%20Comments-20260520.docx",
+        "posted_date": "2026-05-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: This MIR75-R proposal directly affects high-priority export scheduling and adjustment procedures for hydro and other dispatchable resources in SPP Markets+, touching revenue realization for exports and operational constraints on resource commitment and discharge.",
+        "ai_summary": "SPP Markets+ MIR75-R proposes clarified mechanics for adjusting high-priority export e-Tags when a resource's maximum economic limit or Variable Energy Resource forecast falls below committed export volumes. The proposal specifies that adjustments will be made pro-rata when multiple e-Tags share a single resource source, with a 1 MW minimum threshold and whole-MW rounding. Hydro and pumped-storage operators exporting power into or through SPP Markets+ will face automatic downward adjustment of export schedules when their available capacity (Max ECOL for conventional hydro, Maximum Discharge Limit for MSRs, VER forecast for wind/solar) cannot support the export commitment \u2014 a constraint that directly reduces realized export revenue and requires operators to manage export bids against real-time resource availability, especially during low-water or variable-generation conditions. The language resulted from an April 2026 MSWG/MDWG policy decision; this MIR specifies the operational algorithm. SRP supports the threshold addition.",
+        "topics": [
+          "seams-governance",
+          "storage",
+          "price-formation"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kelli Schermerhorn",
+            "entity": "SPP",
+            "role": "author",
+            "email": "kschermerhorn@spp.org"
+          },
+          {
+            "name": "SRP",
+            "entity": "SRP",
+            "role": "commenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "05-MIR9.2-R Dynamic Schedule Resources June 2026.pptx  [in MORWG Meeting Materials 20260630.zip]",
+        "filename": "05-MIR9.2-R Dynamic Schedule Resources June 2026.pptx",
+        "url": "https://www.spp.org/Documents/77003/MORWG%20Meeting%20Materials%2020260630.zip#z=05-MIR9.2-R%20Dynamic%20Schedule%20Resources%20June%202026.pptx",
+        "posted_date": "2026-06-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Markets+ Dynamic Schedule Resource rules establish how dispatchable hydro and other resources physically located in one balancing authority but serving load in another are accounted for in dispatch, power-balance settlement, and interbalancing-authority transfer accounting \u2014 directly affecting how hydro output is cleared, metered, and compensated across BA boundaries, particularly for multi-state/multi-BA hydro operators.",
+        "ai_summary": "Markets+ proposes a new 'Dynamic Schedule Resource' participation type (MIR 9.2-R, June 2026) to solve a double-counting problem: when a dispatchable resource in one Balancing Authority (Native BA) is dynamically scheduled to serve load in another (Attaining BA), current rules treat its dispatch change in both the dynamic net scheduled interchange (NSI) and the market-to-interchange (MTI), forcing both BAs to regulate redundantly. The solution links a Dynamic Schedule Resource to a Dynamic Schedule Resource Interface; the resource remains dispatchable by Markets+ in real-time (RTBM), but only the interface value (not the resource's full output) is counted in the Attaining BA's power balance, preventing double-counting. The proposal defines five use cases: participating-to-participating BAs (resource-coupled or not), participating-to-non-participating (resource-coupled or not), and non-participating to participating. Most exposed are multi-BA hydro operators and pumped-storage facilities dynamically scheduled across BA lines; use-case 1a (participating-to-participating, resource-coupled) preserves dispatchability and shifts regulation responsibility via the interface, altering how dynamic hydro transfers compete in dispatch and how their locational and marginal-loss signals propagate across seams. Tariff and protocol sections are newly drafted; implementation timeline and stakeholder comment opportunity are not detailed in this presentation.",
+        "topics": [
+          "seams-governance",
+          "ops-compliance",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "comment",
+        "title": "05-MIR9.2-R SPP Comments-20260602.docx  [in MORWG Meeting Materials 20260630.zip]",
+        "filename": "05-MIR9.2-R SPP Comments-20260602.docx",
+        "url": "https://www.spp.org/Documents/77003/MORWG%20Meeting%20Materials%2020260630.zip#z=05-MIR9.2-R%20SPP%20Comments-20260602.docx",
+        "posted_date": "2026-06-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Dynamic Schedule Resources clarifies how Markets+ will treat dispatchability and real-time ICCP management of hydro and other resources subject to physical energy transfers across BA boundaries\u2014a revenue and compliance issue for hydro sellers using dynamic dispatch to serve load or other BAs, and for multi-state resource compliance with e-Tag and regulation-burden rules.",
+        "ai_summary": "SPP staff proposes tariff and protocol revisions (April 2025/1.0a) to clarify registration, e-Tagging, and operational treatment of Dynamic Schedule Resources and Interfaces across Markets+ timeframes (DA, RUC, pre-RTBM, RTBM). The proposal distinguishes resource-coupled versus non-resource-coupled dynamic schedules and specifies when a resource may remain dispatchable under a dynamic schedule (internal transfers) versus when transactions must be non-dispatchable (certain exports). Key change: MSRs (multi-state resources, of which hydro is the canonical example) registered as Dynamic Schedule Resources can represent import or export depending on dispatch, but must coordinate separate e-Tags with the Native and Attaining BAs and accept ICCP-reported real-time quantities as fixed; Dynamic e-Tags referencing these resources are ignored by settlements, shifting compliance burden to the Market Participant. This reduces regulation burden on receiving BAs by eliminating pseudo-ties but locks the Dynamic Schedule Resource's output into the native BA's power balance and removes it from real-time economic dispatch in the attaining BA\u2014a material constraint for hydro operators managing multi-BA export strategies. Status: tariff/protocol revisions have been proposed; next step and comment deadline are not stated in this excerpt.",
+        "topics": [
+          "storage",
+          "ops-compliance",
+          "seams-governance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Carman Ruder",
+            "entity": "SPP",
+            "role": "author",
+            "email": "cruder@spp.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "06-MIR9.3-R Dynamic Schedule Resource Pseudo-Ties June 2026.pptx  [in MORWG Meeting Materials 20260630.zip]",
+        "filename": "06-MIR9.3-R Dynamic Schedule Resource Pseudo-Ties June 2026.pptx",
+        "url": "https://www.spp.org/Documents/77003/MORWG%20Meeting%20Materials%2020260630.zip#z=06-MIR9.3-R%20Dynamic%20Schedule%20Resource%20Pseudo-Ties%20June%202026.pptx",
+        "posted_date": "2026-06-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Markets+ is refining pseudo-tie registration rules for external resources, which directly affects how hydropower and other dispatchable generation located outside the Markets+ footprint can participate, be dispatched, and settle \u2014 a strategic option for NHA members operating in non-participating balancing areas seeking access to SPP Markets+.",
+        "ai_summary": "Markets+ (SPP's combined market and reliability coordinator) is adopting a new registration pathway (MIR 9.3-R) that allows external resources physically located in non-participating balancing authorities to be modeled as pseudo-tied within Markets+ using dynamic schedules instead of formal NAESB pseudo-tie agreements. External resources registered under this new option will be dispatchable by Markets+, settled at their physical-location LMP, and participate identically to formally pseudo-tied resources, but the underlying dynamic schedule between native and attaining balancing authorities will remain in place (and ignored by the market system and settlements). The change preserves all formal pseudo-tie requirements and adds two new attributes: the market participant must designate the resource as a \"dynamically scheduled pseudo-tie\" in the registration workbook, and the participating attaining BA must provide an attestation letter confirming its understanding that the resource will be modeled as pseudo-tied. This creates operational flexibility for BA arrangements that cannot or prefer not to establish formal pseudo-ties, potentially broadening external-resource participation. The document shows protocol language updates to sections 9.1.1, 9.1.9, 9.1.9.1, and 9.1.9.2 but states no vote date or comment deadline.",
+        "topics": [
+          "seams-governance",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "06-MIR9.3-R Dynamic Schedule Resource Pseudo-Ties submission.docx  [in MORWG Meeting Materials 20260630.zip]",
+        "filename": "06-MIR9.3-R Dynamic Schedule Resource Pseudo-Ties submission.docx",
+        "url": "https://www.spp.org/Documents/77003/MORWG%20Meeting%20Materials%2020260630.zip#z=06-MIR9.3-R%20Dynamic%20Schedule%20Resource%20Pseudo-Ties%20submission.docx",
+        "posted_date": "2026-06-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: External resource pseudo-tie registration and modeling rules directly affect how hydropower resources outside the Markets+ footprint (including those in adjacent balancing authorities) can participate in the day-ahead and real-time energy market and settle, and clarifies the framework for pseudo-tied hydro to remain on dynamic schedules while competing in Markets+\u2014a critical pathway for cross-BA hydro participation and revenue capture.",
+        "ai_summary": "Markets+ (SPP's organized market launching 2027) is codifying registration and operational requirements for two forms of external resource pseudo-ties: formal pseudo-ties with binding BA agreements, and dynamically scheduled pseudo-ties where the resource is modeled as pseudo-tied into the attaining BAA in Markets+ commercial and network models while energy continues to flow as a dynamic schedule under NAESB/WECC standards between native and attaining BAs. The MIR (Markets+ Initiative Request 9.3-R) adds a new resource designation ('dynamically scheduled pseudo-tie') and defines meter-agent, attestation, and settlement responsibilities in Protocols Sections 9.1.1, 9.1.9, 9.1.9.1 (new), and 9.1.9.2 (new). SPP staff rates this as medium design, implementation, and operational complexity; MPEC approval is targeted Q3 2026 with Q1 2027 go-live. This standardizes a workaround already in Markets+ base design, reducing ad hoc handling and participation ambiguity for external hydro resources seeking to serve load within the footprint\u2014directly relevant to northwest hydro exports and cross-border hydro from Mexican utilities or other external basins.",
+        "topics": [
+          "seams-governance",
+          "ops-compliance",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Carman Ruder",
+            "entity": "Southwest Power Pool",
+            "role": "author",
+            "email": "cruder@spp.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "07-MIR60-R Markets+ Interchange Transaction System Points Schedules (MITSPS) submission.docx  [in MORWG Meeting Materials 20260630.zip]",
+        "filename": "07-MIR60-R Markets+ Interchange Transaction System Points Schedules (MITSPS) submission.docx",
+        "url": "https://www.spp.org/Documents/77003/MORWG%20Meeting%20Materials%2020260630.zip#z=07-MIR60-R%20Markets%2B%20Interchange%20Transaction%20System%20Points%20Schedules%20%28MITSPS%29%20submission.docx",
+        "posted_date": "2026-06-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Markets+ Interchange Transaction System Points Schedules (MITSPS) establish a new framework for import/export transactions across the Markets+ boundary and internal transfers within the footprint, affecting how hydro and other resources can participate in interregional energy trading and settlement \u2014 a direct revenue vector for hydro owners seeking to export power or manage interchange scheduling within the expanding Markets+ footprint.",
+        "ai_summary": "SPP Markets+ is implementing the Markets+ Interchange Transaction System Points Schedules (MITSPS) framework, which creates generic system points (MPSP) within each Markets+ Balancing Authority Area to facilitate scheduling and tagging of import/export transactions across the Markets+ boundary and internal market transfers. The protocol revisions establish registration, operational, and settlement requirements for MPSPs as sources and sinks for interchange transactions, with optional hourly limits managed by each BA in the Day-Ahead and Real-Time Balancing Markets. For hydro owners exporting from or importing into Markets+ BAAs, MITSPS enables participation in interchange transactions that are not pre-scheduled bilateral trades but are cleared by the market \u2014 expanding the scheduling and revenue-participation pathways available to hydroelectric resources. The MIR seeks MPEC approval in Q3 2026 with implementation targeted for Q1 2027, affecting how existing hydro plants can access interregional markets and how new capacity (especially in growing Markets+ footprint) will schedule transactions.",
+        "topics": [
+          "seams-governance",
+          "price-formation",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kelli Schermerhorn",
+            "entity": "Southwest Power Pool",
+            "role": "author",
+            "email": "kschermerhorn@spp.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "08-MIR81-R Dynamic MTI-MOTI in RTBM submission.docx  [in MORWG Meeting Materials 20260630.zip]",
+        "filename": "08-MIR81-R Dynamic MTI-MOTI in RTBM submission.docx",
+        "url": "https://www.spp.org/Documents/77003/MORWG%20Meeting%20Materials%2020260630.zip#z=08-MIR81-R%20Dynamic%20MTI-MOTI%20in%20RTBM%20submission.docx",
+        "posted_date": "2026-06-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: MTI/MOTI tagging and BAA Scheduling Constraints directly affect how SPP Markets+ dispatches interregional power flows in real-time; distinguishing Normal (DA-locked) from Dynamic (RTBM-only) transaction types changes the sequencing and flexibility of resource commitment and redispatch \u2014 a structural change to market dispatch that hydro operators use to optimize revenue from flexible ramping and interregional sales.",
+        "ai_summary": "SPP Markets+ (MIR 81-R) proposes to distinguish Normal and Dynamic MTI/MOTI transaction types, with Normal types locked after Pre-RTBM SCED and Dynamic types eligible only in RTBM. This allows BAAs to create separate BAA Scheduling Constraints on Dynamic paths without retroactively constraining the day-ahead and RUC commitment plan. The change is ranked High priority, with MPEC approval targeted Q4 2026 and implementation Q1 2027. Hydro operators in the SPP footprint benefit by avoiding artificial redispatch and binding constraints when BAs adjust transmission limits for reliability mid-day; it preserves the optimization value of DA and RUC schedules and lets BAs manage incremental transfer changes without forcing costly RTBM repricing and potential VRL violations. Most exposed are pumped-storage and flexible reservoir operators using MTI/MOTI paths for interregional arbitrage and capacity sales.",
+        "topics": [
+          "seams-governance",
+          "price-formation",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Garrott Granholm",
+            "entity": "SPP",
+            "role": "author",
+            "email": "ggranholm@spp.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "08-MIR81-R Dynamic MTI-MOTI in RTBM.pptx  [in MORWG Meeting Materials 20260630.zip]",
+        "filename": "08-MIR81-R Dynamic MTI-MOTI in RTBM.pptx",
+        "url": "https://www.spp.org/Documents/77003/MORWG%20Meeting%20Materials%2020260630.zip#z=08-MIR81-R%20Dynamic%20MTI-MOTI%20in%20RTBM.pptx",
+        "posted_date": "2026-06-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Modifies balancing-area scheduling constraints and market-transfer-interface (MTI) rules that affect real-time dispatch flexibility and locational price signals \u2014 hydro's revenue from ramping/flexibility procurement and locational scarcity pricing depends on how transmission constraints are enforced across market intervals.",
+        "ai_summary": "SPP Markets+ proposes MIR81-R, which distinguishes Normal (day-ahead/RUC/pre-RTBM) and Dynamic (real-time only) MTI/MOTI transaction types to allow balancing authorities to set different scheduling constraints in RTBM than were used in DA commitment, preventing large NSI swings without undermining DA/RUC optimization. Normal MTIs become fixed quantities in real-time; Dynamic MTIs operate only in RTBM with nonbinding limits (defaulting to 99,999 MW unless constrained by BA-to-BA scheduling restrictions). The proposal updates tariff sections 4.2.7, 8.2, 8.2.1.1, 8.2.2.1, 8.2.6, and 9.4.1 to implement transaction-type registration and constraint-submission requirements via the MUI. This affects real-time dispatch optimization and price formation: by allowing separate constraints for incremental transfers, the scheme constrains BAA scheduling-constraint binding in RTBM while preserving DA-cleared transfers, potentially reducing real-time price separation and limiting the incremental scarcity premiums hydro can capture on flexible ramping in congested intervals. All market participants must submit Normal MTIs/MOTIs prior to DA market close and register at least one Dynamic MTI at resource registration.",
+        "topics": [
+          "price-formation",
+          "ramping-flexibility",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "CIFP\u2013RBP / Connect and Manage \u2013 Stage 4 Meeting",
@@ -1363,7 +2046,7 @@
         "title": "Agenda",
         "filename": "20260630-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260630/20260630-agenda.pdf",
-        "posted_date": "2026-06-24",
+        "posted_date": "2026-06-25",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -1397,7 +2080,7 @@
         "title": "Agenda Doc",
         "filename": "20260630-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260630/20260630-agenda-doc.docx",
-        "posted_date": "2026-06-24",
+        "posted_date": "2026-06-25",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -2267,6 +2950,108 @@
           }
         ],
         "stakeholders": []
+      },
+      {
+        "type": "comment",
+        "title": "Written Comments \u2013 Amp",
+        "filename": "20260630-written-comments---amp.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260630/20260630-written-comments---amp.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "comment",
+        "title": "Written Comments \u2013 Dc Doee",
+        "filename": "20260630-written-comments---dc-doee.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260630/20260630-written-comments---dc-doee.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "comment",
+        "title": "Written Comments \u2013 PJM Governors Collaborative",
+        "filename": "20260630-written-comments---pjm-governors-collaborative.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260630/20260630-written-comments---pjm-governors-collaborative.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": []
       }
     ]
   },
@@ -2325,6 +3110,153 @@
     "meeting_hydro_reason": "A generic Technical User Group agenda title without specific topic indication does not reliably signal content on market design, pricing, capacity, storage participation, or operational compliance issues that would affect hydro/PSH owners.",
     "issues": [],
     "documents": []
+  },
+  {
+    "title": "Department of Market Monitoring 2025 Annual Report on Market Issues and Performance Public Call",
+    "date": "2026-06-30",
+    "time": "11:00 AM - 12:00 PM",
+    "rto": "CAISO",
+    "committee": "Department of Market Monitoring Market Issues and Performance Report",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/department-of-market-monitoring-2025-annual-report-on-market-issues-and-performance-public-call-jun-30-2026-1100-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/department-of-market-monitoring-market-issues-and-performance-report",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "CAISO's annual market-monitoring report typically analyzes price formation, ancillary services, energy-storage performance, resource-adequacy outcomes, and market-power mitigation\u2014all core revenue and strategic-option axes for hydro and PSH operators in the Western markets.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - 2025 Fourth Quarter Market Issues and Performance - Apr 02, 2026",
+        "filename": "presentation-2025-fourth-quarter-market-issues-and-performance-apr-02-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-2025-fourth-quarter-market-issues-and-performance-apr-02-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO market-monitoring report on Q4 2025 real-time pricing, regional generation mix by fuel (including hydro), transmission congestion, and interregional transfer flows \u2014 directly bearing on hydro revenue (price formation and regional scarcity signals) and strategic positioning in the West.",
+        "ai_summary": "CAISO's Department of Market Monitoring reports Q4 2025 market outcomes: electricity prices in the West fell 7% year-over-year; less frequent high-price intervals occurred; Pacific Northwest shifted to net exporter across all hours; and California prices remain elevated by greenhouse-gas costs rather than congestion. The report shows generation-mix shifts by region (Slides 8\u201311) but does not propose tariff changes. For hydro owners, the data reveals that interregional transmission capacity and fuel-mix changes\u2014especially lower prices and reduced Northwest scarcity\u2014signal weakened export value from the PNW into California, while California's GHG-driven premium persists. Analysts using this as a reference point would identify market conditions affecting hydro's locational revenue; no comment deadline or action item is stated.",
+        "topics": [
+          "price-formation",
+          "transmission",
+          "clean-energy"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "DMM",
+            "entity": "CAISO Department of Market Monitoring",
+            "role": "contact",
+            "email": "DMM@caiso.com"
+          },
+          {
+            "name": "Ryan Kurlinski",
+            "entity": "CAISO Department of Market Monitoring",
+            "role": "author | presenter",
+            "email": "rkurlinski@caiso.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - 2025 Third Quarter Market Issues and Performance - Jan 08, 2026",
+        "filename": "presentation-2025-third-quarter-market-issues-and-performance-jan-08-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-2025-third-quarter-market-issues-and-performance-jan-08-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO market-monitoring report analyzing Q3 2025 price formation, congestion patterns, WEIM transfers, and generation mix changes across multiple Western regions \u2014 directly informs hydro revenue via locational pricing signals, interregional trade dynamics, and operational conditions that shape dispatch and scarcity.",
+        "ai_summary": "CAISO's Department of Market Monitoring presents Q3 2025 market performance: Western region prices down 4% year-over-year; California dominated by south-to-north congestion and GHG costs; Northwest saw higher solar-hour prices while California peaked in non-solar hours; WEIM transfers flowed from CAISO mid-day and from Intermountain/Desert Southwest in non-solar hours, with assistance-energy opt-ins increasing transfers for 8 of 10 entities. Real-time three-pivotal-supplier test found 4.2% of WEIM 15-minute intervals uncompetitive; RTD mitigation errors added ~37 MW incremental dispatch. Hydro owners should track the pronounced shift in congestion direction (north-to-south peak in Q3 2024 vs. current south-to-north pattern) and the interregional transfer behavior, which directly affects locational scarcity pricing and arbitrage opportunities for reservoir and pumped-storage resources positioned to move energy across the Western interconnect.",
+        "topics": [
+          "price-formation",
+          "seams-governance",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ryan Kurlinski",
+            "entity": "CAISO Department of Market Monitoring",
+            "role": "presenter",
+            "email": "rkurlinski@caiso.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - 2025 Second Quarter Market Issues and Performance - Oct 09, 2025",
+        "filename": "presentation-2025-second-quarter-market-issues-and-performance-oct-09-2025.pdf",
+        "url": "https://www.caiso.com/documents/presentation-2025-second-quarter-market-issues-and-performance-oct-09-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO market-monitoring report on Q2 2025 energy price formation, congestion, interregional transfers (WEIM), and resource dispatch patterns\u2014directly informative for hydro owners assessing revenue drivers, transmission constraints affecting their exports, and strategic positioning across the West.",
+        "ai_summary": "CAISO's Department of Market Monitoring reports Q2 2025 real-time market conditions: electricity prices in the West rose 12% versus Q2 2024, driven by south-to-north congestion and California greenhouse-gas costs; Northwest prices were higher during solar hours, California during non-solar hours\u2014indicating hydro's value shifts with solar generation patterns. WEIM transfer congestion into or out of Pacific Northwest areas occurred over 20% of 5-minute intervals, and Mid-Columbia and Palo Verde bilateral prices converged with ISO market prices, suggesting arbitrage opportunities narrowed. Pacific Northwest coal output rose despite more outages, and transfers from the Intermountain West during non-solar hours declined Q-o-Q, signaling reduced availability or changed dispatch incentives. For hydro owners, these trends show tightening price signals in hydro-export corridors, persistent congestion reducing transmission access to California, and seasonal shifts in the regional generation stack that affect dispatch positioning and revenue timing.",
+        "topics": [
+          "price-formation",
+          "transmission",
+          "seams-governance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ryan Kurlinski",
+            "entity": "CAISO Department of Market Monitoring",
+            "role": "presenter",
+            "email": "rkurlinski@caiso.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - 2024 Annual Report on Market Issues and Performance",
+        "filename": "presentation-2024-annual-report-on-market-issues-and-performance.pdf",
+        "url": "https://www.caiso.com/documents/presentation-2024-annual-report-on-market-issues-and-performance.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO's 2024 market-performance report provides comprehensive data on hydro generation patterns, regional price formation, congestion outcomes, and ancillary-services procurement mix \u2014 all drivers of hydro revenue and dispatch value \u2014 plus recommendations affecting storage bid-cost recovery, default energy bids, and local market-power mitigation that extend to hybrid resources including hydropower.",
+        "ai_summary": "CAISO's Department of Market Monitoring presents 2024 annual performance data and forward recommendations. Pacific Northwest hydro generation increased in 2024 relative to 2023; Northwest prices rose mid-day during solar hours and followed net-load patterns, with transfer-congestion elevation noted (page 7, 11\u201312). Battery participation in ancillary services grew substantially (page 43), while overall flexible ramping product prices remained infrequent at system/BA level (page 42). Recommendations include extending local market-power mitigation to hybrid resources, enhancing default energy bids for batteries to reflect intraday opportunity costs (with standardized bids for WEIM batteries proposed), and revising bid-cost recovery rules \u2014 changes that would apply similarly to hydro and PSH if codified (pages 46\u201347). No specific vote or comment deadline stated in this presentation; this is a published annual report. Most exposure: pumped-storage operators subject to bid-cost recovery and default-energy-bid rules, and larger reservoir hydro in the Pacific Northwest tier where congestion pricing and seasonal price patterns drive revenue.",
+        "topics": [
+          "price-formation",
+          "ancillary-services",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ryan Kurlinski",
+            "entity": "CAISO Department of Market Monitoring",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - 2025 First Quarter Market Issues and Performance - Jun 26, 2025",
+        "filename": "presentation-2025-first-quarter-market-issues-and-performance-jun-26-2025.pdf",
+        "url": "https://www.caiso.com/documents/presentation-2025-first-quarter-market-issues-and-performance-jun-26-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO Q1 2025 market-monitoring report documents flexible ramping product procurement split by fuel type (hydro vs. solar/wind/batteries), WEIM interregional transfer patterns involving hydro-exporting regions (Pacific Northwest, Intermountain West), and price formation across WEIM footprint affecting hydro export value.",
+        "ai_summary": "CAISO's Department of Market Monitoring Q1 2025 performance report shows hydro and batteries supplying the bulk of upward flexible ramping product (FRP) procurement, while solar and wind dominate downward FRP demand in the 15-minute market. Intermountain West and Pacific Northwest became dominant WEIM exporters during non-solar hours in Q1 2025, with PacEast and Idaho Power identified as main peak-hour exporters; transfer congestion into/out of those hydro-rich regions occurred in ~20% of 5-minute intervals, creating locational scarcity signals. Electricity prices in the West dropped 39% year-over-year but remain driven by south-to-north congestion and greenhouse-gas costs within California. The report is observational and carries no proposals or compliance deadlines, but provides a baseline on how hydro's FRP-market participation, export positioning, and regional pricing have shifted in the WEIM footprint \u2014 useful for understanding Q1 2025 hydro revenue dynamics and transmission-constrained export opportunity.",
+        "topics": [
+          "ramping-flexibility",
+          "seams-governance",
+          "price-formation"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "DMM",
+            "entity": "CAISO Department of Market Monitoring",
+            "role": "contact",
+            "email": "DMM@caiso.com"
+          },
+          {
+            "name": "Ryan Kurlinski",
+            "entity": "CAISO Department of Market Monitoring",
+            "role": "presenter",
+            "email": "rkurlinski@caiso.com"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "PRTMDW Meeting",
@@ -2414,7 +3346,7 @@
         "title": "20260629 LLWG Item 01b Agenda.pdf",
         "filename": "20260629 LLWG Item 01b Agenda.pdf",
         "url": "https://cdn.misoenergy.org/20260629%20LLWG%20Item%2001b%20Agenda765275.pdf",
-        "posted_date": "2026-06-22",
+        "posted_date": "2026-06-25",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Large Load Working Group agenda addresses co-located load-and-generation registration, interconnection reliability, and operational requirements that directly affect hydro's strategic options for serving large loads and co-location arrangements, plus hydro's obligations for operational reliability and dispatch coordination.",
         "ai_summary": "MISO's Large Load Working Group (LLWG) is meeting June 29, 2026, to address market participation rules for co-located load and generation (item 6: Zero-Injection GIA under PAC-2024-2B), interconnection reliability requirements (LLWG-2026-3), large-load telemetry/PMU requirements (LLWG-2026-4C), operational forecasting requirements (LLWG-2026-4A), and reserve product enhancements (LLWG-2026-2). The co-location and zero-injection items directly enable hydro owners to serve large loads behind the meter or as bundled resources, expanding revenue and strategic flexibility; the interconnection and operational requirements impose new compliance obligations on dispatchable generation (including hydropower) serving large loads. Next LLWG meeting is July 16, 2026. No voting or comment deadlines are stated in this agenda.",
@@ -2824,6 +3756,19 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "comment",
+        "title": "DRAFT 1328NPRR-12 ERCOT comments 06XX26",
+        "filename": "DRAFT-1328NPRR-12-ERCOT-comments-06XX26.docx",
+        "url": "https://www.ercot.com/files/docs/2026/06/25/DRAFT-1328NPRR-12-ERCOT-comments-06XX26.docx",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "ERCOT's Generation Firming Program is a Texas-specific reserve obligation targeting thermal and wind resources during low-reserve hours; it does not establish mechanisms affecting hydropower revenue streams, storage participation rules, or strategic options that would transfer to hydro-rich RTOs, and Texas has no material hydropower fleet.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -3677,7 +4622,7 @@
         "title": "Item 03b \u2013 Options And Packages Matrix",
         "filename": "20260625-item-03b---options-and-packages-matrix.xls",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260625/20260625-item-03b---options-and-packages-matrix.xls",
-        "posted_date": "2026-06-24",
+        "posted_date": "2026-06-25",
         "hydro_relevant": false,
         "hydro_relevance_reason": "Document is a matrix/table with no extracted text content; cannot assess substantive relevance to hydro revenue, obligations, or strategic options without seeing the actual options and packages being evaluated.",
         "ai_summary": null,
@@ -3701,7 +4646,7 @@
         "title": "Item 04 \u2013 Rcstf Vote Information And Overview",
         "filename": "20260625-item-04---rcstf-vote-information-and-overview.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/task-forces/rcstf/2026/20260625/20260625-item-04---rcstf-vote-information-and-overview.pdf",
-        "posted_date": "2026-06-24",
+        "posted_date": "2026-06-25",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document is a procedural voting package overview for PJM's Reserve Certainty Senior Task Force (RCSTF) with no substantive content on hydro revenue streams, obligations, or strategic options \u2014 it announces voting mechanics, timelines, and roster administration only.",
         "ai_summary": null,
@@ -4340,6 +5285,108 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "minutes",
+        "title": "2026-05-12-14 MC/RC Meeting Minutes - Final",
+        "filename": "2026_05_12_14_joint_mc_rc_meeting_minutes.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/2026_05_12_14_joint_mc_rc_meeting_minutes.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ISO-NE proposes eliminating Estimated QC exceptions and composite offers under Capacity Auction Reforms Seasonal Accreditation, and sets minimum resource-size thresholds (100 kW MRIC) with aggregation allowances \u2014 changes that directly affect hydro and small-hydro qualification, accreditation, and participation pathways in the FCM.",
+        "ai_summary": "ISO-NE presented refinements to its Capacity Auction Reforms Seasonal Accreditation (CAR SA) proposal, addressing resource qualification under the continuous process: resources under 100 kW of Marginal Reliability Impact Capacity may aggregate to meet the 100 kW minimum threshold; prior FCM minimum-size exceptions will not carry forward; the Estimated Qualified Capacity process (which previously addressed limited audit data) will be eliminated; and composite offers will be discontinued due to separate seasonal clearing. These changes reshape qualification burden and aggregation rules for small hydro, run-of-river, and variable hydro operators, most of whom have historically relied on exception pathways or composite bidding. The document does not state a comment deadline or next vote date.",
+        "topics": [
+          "capacity-ra",
+          "hybrids-der",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jennifer Engelson",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "2026-05-21 MC/RC Meeting Minutes - Final",
+        "filename": "2026_05_21_joint_mc_rc_meeting_minutes.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/2026_05_21_joint_mc_rc_meeting_minutes.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a participant roster and meeting minutes header with no substantive discussion of market design, pricing, operational rules, or strategic issues affecting hydropower or pumped-storage revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Tom Kaslow",
+            "entity": "Firstlight Power Management LLC",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Colleen Nash",
+            "entity": "Interconnect Energy Storage LLC",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "2026-05-21 RC Meeting Minutes - Final",
+        "filename": "052126_rc_meeting_minutes.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/052126_rc_meeting_minutes.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a meeting-attendance roster and procedural minutes with no substantive discussion of market design, operational rules, or mechanisms affecting hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Tom Kaslow",
+            "entity": "Firstlight Power Management LLC",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Nick Gangi",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Colleen Nash",
+            "entity": "Interconnect Energy Storage LLC",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-06-25 RC Actions Letter",
+        "filename": "062526_rc_actions_letter.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100036/062526_rc_actions_letter.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document records routine Reliability Committee meeting actions on three interconnection/project revisions (solar, battery, AVR control) with no substantive discussion of market design, pricing, ancillary services, storage participation rules, or hydro-specific obligations that would affect NHA members' revenue, compliance, or strategy.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Daniel Patnaude",
+            "entity": "ISO-NE / NEPOOL",
+            "role": "author",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -4851,7 +5898,28 @@
     "materials_url": "https://www.ercot.com/calendar/06252026-RMS-Meeting",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Retail Market Subcommittee meetings address customer switching, billing, data transport, and retail mechanics with no bearing on wholesale market design, resource accreditation, ancillary services, or revenue formation for hydro operators.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ERCOT",
+        "native_id": "LPGRR076",
+        "canonical_name": "LPGRR076 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+        "status": "Pending",
+        "stakeholder_phase": "RMS for Impact Analysis consideration",
+        "committee_owner": "RMS",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/LPGRR076"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "RMGRR182",
+        "canonical_name": "RMGRR182 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+        "status": "Pending",
+        "stakeholder_phase": "TAC for consideration",
+        "committee_owner": "TAC",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/RMGRR182"
+      }
+    ],
     "documents": [
       {
         "type": "agenda",
@@ -4863,7 +5931,28 @@
         "hydro_relevance_reason": "This is a retail-market subcommittee agenda with no bearing on wholesale market design, hydro revenue streams, or PSH participation rules; the energy-attribute-certificate item touches clean-energy accounting but only in retail context (MarkeTrak/FlighTrak systems and residential demand response), not wholesale market accreditation or GHG attribution affecting hydro exports.",
         "ai_summary": null,
         "topics": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "LPGRR076",
+            "canonical_name": "LPGRR076 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "RMS for Impact Analysis consideration",
+            "committee_owner": "RMS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/LPGRR076"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "RMGRR182",
+            "canonical_name": "RMGRR182 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "TAC for consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/RMGRR182"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Dave Michelsen",
@@ -4916,7 +6005,28 @@
           "clean-energy",
           "price-formation"
         ],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "LPGRR076",
+            "canonical_name": "LPGRR076 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "RMS for Impact Analysis consideration",
+            "committee_owner": "RMS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/LPGRR076"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "RMGRR182",
+            "canonical_name": "RMGRR182 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "TAC for consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/RMGRR182"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Dave Michelsen",
@@ -4972,7 +6082,28 @@
         "hydro_relevance_reason": "Retail Market Subcommittee comment on retail-market mechanics (customer switching, billing, market operations) \u2014 not relevant to hydro/PSH revenue formation, participation rules, operational obligations, or strategic options in wholesale markets.",
         "ai_summary": null,
         "topics": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "LPGRR076",
+            "canonical_name": "LPGRR076 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "RMS for Impact Analysis consideration",
+            "committee_owner": "RMS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/LPGRR076"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "RMGRR182",
+            "canonical_name": "RMGRR182 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "TAC for consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/RMGRR182"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -4985,7 +6116,28 @@
         "hydro_relevance_reason": "This document concerns ERCOT retail-market testing mechanics (competitive retailer connectivity and enrollment cycles) with no bearing on hydropower revenue, obligations, or strategic options.",
         "ai_summary": null,
         "topics": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "LPGRR076",
+            "canonical_name": "LPGRR076 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "RMS for Impact Analysis consideration",
+            "committee_owner": "RMS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/LPGRR076"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "RMGRR182",
+            "canonical_name": "RMGRR182 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "TAC for consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/RMGRR182"
+          }
+        ],
         "stakeholders": [
           {
             "name": "David Michelsen",
@@ -5005,7 +6157,28 @@
         "hydro_relevance_reason": "ERCOT IT operations report on MarkeTrak availability, API performance, and retail-market system maintenance \u2014 no market-design mechanisms affecting hydro revenue, obligations, or strategic options.",
         "ai_summary": null,
         "topics": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "LPGRR076",
+            "canonical_name": "LPGRR076 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "RMS for Impact Analysis consideration",
+            "committee_owner": "RMS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/LPGRR076"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "RMGRR182",
+            "canonical_name": "RMGRR182 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "TAC for consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/RMGRR182"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Vikram Gupta",
@@ -5025,7 +6198,28 @@
         "hydro_relevance_reason": "Document concerns retail market IT systems, data-transparency platforms, and customer-transfer processes (MarkeTrak, TXSET) \u2014 none of which touch hydropower revenue, participation rules, obligations, or strategic options.",
         "ai_summary": null,
         "topics": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "LPGRR076",
+            "canonical_name": "LPGRR076 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "RMS for Impact Analysis consideration",
+            "committee_owner": "RMS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/LPGRR076"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "RMGRR182",
+            "canonical_name": "RMGRR182 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "TAC for consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/RMGRR182"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Monica Jones",
@@ -5057,7 +6251,28 @@
         "hydro_relevance_reason": "Retail market mechanics (retail customer switching, MarkeTrak platform administration, data transport, billing system changes) with no bearing on wholesale energy pricing, hydro/PSH product accreditation, ancillary-service procurement, or asset-owner compliance obligations.",
         "ai_summary": null,
         "topics": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "LPGRR076",
+            "canonical_name": "LPGRR076 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "RMS for Impact Analysis consideration",
+            "committee_owner": "RMS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/LPGRR076"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "RMGRR182",
+            "canonical_name": "RMGRR182 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "TAC for consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/RMGRR182"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Melinda Earnest",
@@ -5113,7 +6328,28 @@
         "hydro_relevance_reason": "Document addresses Texas retail electric market operations (customer switching, billing system tools, TDSP profile administration) with no nexus to hydropower or pumped-storage revenue, obligations, or strategic options.",
         "ai_summary": null,
         "topics": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "LPGRR076",
+            "canonical_name": "LPGRR076 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "RMS for Impact Analysis consideration",
+            "committee_owner": "RMS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/LPGRR076"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "RMGRR182",
+            "canonical_name": "RMGRR182 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "TAC for consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/RMGRR182"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -5126,7 +6362,28 @@
         "hydro_relevance_reason": "This document addresses retail-market training logistics (MarkeTrak, Texas SET, training scheduling) \u2014 not a mechanism touching hydro revenue streams, obligations, or strategic options.",
         "ai_summary": null,
         "topics": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "LPGRR076",
+            "canonical_name": "LPGRR076 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "RMS for Impact Analysis consideration",
+            "committee_owner": "RMS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/LPGRR076"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "RMGRR182",
+            "canonical_name": "RMGRR182 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "TAC for consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/RMGRR182"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Melinda Earnest",
@@ -5147,6 +6404,74 @@
             "email": "deborah.mckeever@Oncor.com"
           }
         ]
+      },
+      {
+        "type": "vote",
+        "title": "RMS Combined Ballot 062526",
+        "filename": "RMS-Combined-Ballot-062526.xls",
+        "url": "https://www.ercot.com/files/docs/2026/06/25/RMS-Combined-Ballot-062526.xls",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Retail Market Subcommittee ballots address Texas retail-market mechanics (customer switching, billing, data protocols, MarkeTrak administration) with no bearing on hydropower revenue, compliance obligations, or strategic market-design options; Texas has no hydro fleet and ERCOT retail governance does not set precedent for wholesale markets where hydro participates.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "LPGRR076",
+            "canonical_name": "LPGRR076 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "RMS for Impact Analysis consideration",
+            "committee_owner": "RMS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/LPGRR076"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "RMGRR182",
+            "canonical_name": "RMGRR182 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "TAC for consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/RMGRR182"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "12. TDTMS-Agile-Enhancements-Log 06182026",
+        "filename": "TDTMS-Agile-Enhancements-Log-06182026.xlsx",
+        "url": "https://www.ercot.com/files/docs/2026/06/25/TDTMS-Agile-Enhancements-Log-06182026.xlsx",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a retail-market systems IT enhancement log with no bearing on hydropower revenue streams, operating obligations, strategic options, or market-design mechanics affecting hydro or PSH.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "LPGRR076",
+            "canonical_name": "LPGRR076 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "RMS for Impact Analysis consideration",
+            "committee_owner": "RMS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/LPGRR076"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "RMGRR182",
+            "canonical_name": "RMGRR182 \u2014 Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "status": "Pending",
+            "stakeholder_phase": "TAC for consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/RMGRR182"
+          }
+        ],
+        "stakeholders": []
       }
     ]
   },
@@ -5237,7 +6562,34 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A 'Batch Zero Weekly Readiness Meeting' is an operational/implementation logistics meeting, not a market-design forum; the Dynamics Working Group title suggests technical standards work, but without agenda specifics indicating discussion of frequency response, synchronous-unit ride-through, or other hydro-relevant operating standards, this appears to be routine IT/readiness tracking.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "Batch_Zero_Readiness_FAQs_V2 REVISION 6252026",
+        "filename": "Batch_Zero_Readiness_FAQs_V2-REVISION-6252026.xlsx",
+        "url": "https://www.ercot.com/files/docs/2026/06/25/Batch_Zero_Readiness_FAQs_V2-REVISION-6252026.xlsx",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a retail-market readiness FAQ for ERCOT's Batch Zero implementation \u2014 retail customer switching and IT logistics with no bearing on hydro revenue mechanisms, compliance obligations, or strategic market-design options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Batch-Zero-Readiness-Weekly-Meeting-20260625",
+        "filename": "Batch-Zero-Readiness-Weekly-Meeting-20260625.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/06/25/Batch-Zero-Readiness-Weekly-Meeting-20260625.pptx",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a retail-market/large-load interconnection process document with no bearing on hydro revenue mechanisms, market-design obligations, or strategic options; ERCOT large-load integration is a transmission/TSP coordination matter outside energy-market architecture that affects hydro.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Comments due - On-Peak Deliverability Assessment Methodology Refinements",
@@ -15862,7 +17214,7 @@
   {
     "title": "Co-Located Load Order Workshop Meeting",
     "date": "2026-06-11",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "Co-Located Load Order Workshop",
     "source_url": "https://www.pjm.com/calendar",
