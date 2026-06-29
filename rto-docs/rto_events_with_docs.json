@@ -294,6 +294,20 @@
     "documents": []
   },
   {
+    "title": "Joint WRWG-WREC Net Conference 20260721",
+    "date": "2026-07-21",
+    "time": "9:00 AM - 6:00 PM CT",
+    "rto": "SPP",
+    "committee": "Western Reliability Working Group",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/joint-wrwg-wrec-net-conference-20260721/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=168269",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "This is a joint Western Reliability Working Group and Western Regional Energy Commission net conference with no agenda or substantive content provided; the title alone does not indicate specific market-design topics (revenue mechanisms, ancillary services, storage participation, capacity accreditation, transmission planning, or compliance rules) that would affect hydro operators, and SPP has minimal hydropower in its footprint.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MRATF Net Conference",
     "date": "2026-07-20",
     "time": "12:00 PM - 4:00 PM CT",
@@ -318,6 +332,83 @@
     "materials_url": "https://www.spp.org/calendar-list/msc-zoom-meeting-hosted-by-wieb-20260717/",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "This appears to be a routine state committee meeting hosted by a state energy board (WIEB) without specific indication of market rule changes, capacity accreditation, storage, or other hydropower-relevant topics in the title.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Planning Advisory Committee (PAC) - July 15, 2026",
+    "date": "2026-07-15",
+    "time": "9:00 AM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Planning Advisory Committee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/bc15553c824741509a52dc8bcc1d53f4.aspx",
+    "materials_url": "https://www.misoenergy.org/link/bc15553c824741509a52dc8bcc1d53f4.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO Planning Advisory Committee meetings regularly address resource adequacy, transmission expansion, storage participation rules, and capacity-market design that directly affect hydro and PSH revenue, compliance obligations, and strategic options in the region.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20260715 PAC Item 01c Minutes 20260527.pdf",
+        "filename": "20260715 PAC Item 01c Minutes 20260527.pdf",
+        "url": "https://cdn.misoenergy.org/20260715%20PAC%20Item%2001c%20Minutes%2020260527762107.pdf",
+        "posted_date": "2026-06-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's Long-Range Transmission Planning (LRTP) process directly affects hydro's transmission deliverability and strategic options; interregional coordination with PJM and SPP, load-growth forecasting, and resource adequacy criteria shape the value and revenue exposure of hydro assets across the MISO footprint.",
+        "ai_summary": "MISO has launched its 2026 Long-Range Transmission Planning (LRTP) process for the Midwest and South regions, with issue identification and solutions development following a seven-step process; solutions proposals are anticipated in 2027. The LRTP will assess reliability and load-serving needs across a 20-year horizon (CAGR ~1.5% annually) using Future 2 and 3+ scenarios that show resource and energy adequacy under MISO's 1-in-10-years Loss of Load Expectation (LOLE) criterion. Hydro owners' revenue and dispatch flexibility are affected because transmission bottlenecks identified in LRTP feed into the solutions phase \u2014 constraints on interregional transfers or load pockets in the South region (Louisiana/Texas) directly impact where MISO can call on existing hydro for scarcity pricing and ramping services, and load growth shapes the baseline scarcity against which hydro's flexibility premium is valued. Feedback on Future scenarios is due June 17, 2026; solutions will be developed in 2027, making this the foundational study for MISO transmission expansion over the next decade.",
+        "topics": [
+          "transmission",
+          "capacity-ra",
+          "load-growth"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Schiro",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jeanna Furnish",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Laura Rauch",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Vikram Godbole",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Cynthia Crane",
+            "entity": "MISO Planning Advisory Committee",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "PRS Meeting",
+    "date": "2026-07-15",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Protocol Revisions Subcommittee",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/07152026-PRS-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/07152026-PRS-Meeting",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Protocol Revisions Subcommittee meetings typically address routine operational procedures, messaging standards, and technical compliance mechanics with no bearing on market design, participation rules, pricing, or revenue mechanisms that affect hydropower.",
     "issues": [],
     "documents": []
   },
@@ -1598,6 +1689,34 @@
     "documents": []
   },
   {
+    "title": "Comments due - Congestion Revenue Rights Enhancements",
+    "date": "2026-07-02",
+    "time": "",
+    "rto": "CAISO",
+    "committee": "Congestion revenue rights enhancements",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/comments-due-congestion-revenue-rights-enhancements-jul-02-2026-1200-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Congestion-revenue-rights-enhancements",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Congestion revenue rights are a financial hedging instrument for transmission congestion that do not directly affect hydropower revenue mechanisms, capacity accreditation, ancillary-service pricing, storage participation rules, or operational obligations that hydro owners depend on.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - Congestion Revenue Rights Enhancements - June 25, 2026",
+        "filename": "Presentation-Congestion-Reveune-Rights-Enhancements-2026-06-25.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Presentation-Congestion-Reveune-Rights-Enhancements-2026-06-25.pdf",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
     "title": "MGHGTF Net Conference",
     "date": "2026-07-01",
     "time": "11:00 AM - 3:00 PM CT",
@@ -2496,7 +2615,7 @@
   {
     "title": "CIFP\u2013RBP / Connect and Manage \u2013 Stage 4 Meeting",
     "date": "2026-06-30",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 2:00 p.m.",
     "rto": "PJM",
     "committee": "CIFP\u2013RBP / Connect and Manage \u2013 Stage 4",
     "source_url": "https://www.pjm.com/calendar",
@@ -4210,7 +4329,7 @@
         "title": "20260629 LLWG Item 07 Large Load Interconnection Reliability Requirements (LLWG 2026 3)",
         "filename": "20260629 LLWG Item 07 Large Load Interconnection Reliability Requirements (LLWG-2026-3).pdf",
         "url": "https://cdn.misoenergy.org/20260629%20LLWG%20Item%2007%20Large%20Load%20Interconnection%20Reliability%20Requirements%20%28LLWG-2026-3%29765705.pdf",
-        "posted_date": "2026-06-26",
+        "posted_date": "2026-06-29",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Large load interconnection requirements and their operational reliability mandates (remote disconnect, ramp-rate controls, ride-through, telemetry/PMU) directly constrain how co-located loads (data centers, AI/HPC) can interact with the transmission system and may affect hydro's ability to serve or coordinate with these loads, plus set a precedent for how RTOs will require dispatchable resources to respond to fast-ramping demand.",
         "ai_summary": "MISO is filing revised Tariff language by end of July 2026 to impose interconnection reliability requirements on large loads (\u226550 MW new, \u226525 MW cumulative increase) and computational loads (\u22651 MW of data-center-type digital demand), implementing FERC's show-cause order. Requirements include basic facility data, modeling, hourly forecasts, telemetry, and PMU data; computational loads face additional phasor measurement, ride-through (voltage/frequency), and ramp-rate controls; MISO will install and charge customers for remote disconnect equipment and control systems. A transitional provision exempts loads with service commencement before 11/1/2027 from ramp and ride-through requirements for their lifetime unless they upgrade by \u226525 MW after 10/1/2026. This affects hydro owners because (1) it establishes a co-location precedent \u2014 large loads are now defined as discrete withdrawal points, creating opportunities for hydro to site behind-the-meter generation and enter direct load-service arrangements; (2) the ramp-rate and ride-through enforcement on computational loads (AI, crypto, HPC) creates a demand-side flexibility requirement that could be partially satisfied by hybrid hydro-storage systems and (3) the remote-disconnect and PMU mandates on loads set operational-control expectations that may extend to dispatchable generation. Stakeholders expressed concerns about applicability, transition, and specific language; feedback has influenced the revised Tariff language.",
@@ -7663,19 +7782,19 @@
   {
     "title": "Markets and Reliability Committee Meeting",
     "date": "2026-06-24",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 12:30 p.m.",
     "rto": "PJM",
     "committee": "Markets and Reliability Committee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={D5A13C0D-3754-4653-9A5A-812E99396339}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={AC40F88C-2DE7-4C8D-A1D6-E87C9F0E1745}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Markets and Reliability Committee is the primary forum where PJM addresses capacity markets, resource adequacy, ancillary services, and market rule changes that directly affect hydropower and pumped-storage participation.",
     "issues": [],
     "documents": [
       {
         "type": "agenda",
-        "title": "Agenda",
+        "title": "Markets and Reliability Committee Agenda",
         "filename": "20260624-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20260624/20260624-agenda.pdf",
         "posted_date": "2026-06-17",
@@ -14211,7 +14330,7 @@
     "committee": "DESTF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8A99A4EF-9863-4346-945D-D0FC3CB556E6}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={F5F4E95F-7068-40C2-A9F3-C9338AC4382D}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "DESTF (Distributed Energy and Storage Task Force) directly addresses energy storage and distributed resources, which are core topics for pumped-storage hydropower participation in PJM markets.",
     "issues": [],
@@ -15298,12 +15417,12 @@
   {
     "title": "SRRTEP-S Meeting",
     "date": "2026-06-16",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "1:00 p.m. - 3:00 p.m.",
     "rto": "PJM",
     "committee": "SRRTEP-S",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={BC5467A0-25AC-486A-AE20-BFAC49CB7E79}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={336F02F8-8372-497C-B8EE-8AEAA6BF745C}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-S (State Relations and Regulatory Transmission Expansion Planning - Stakeholder) is focused on state regulatory coordination and transmission expansion planning procedures, which are not directly related to hydropower market participation, capacity accreditation, energy storage rules, or ancillary services.",
     "issues": [],
@@ -16426,12 +16545,12 @@
   {
     "title": "Tech Change Forum Meeting",
     "date": "2026-06-15",
-    "time": "1:00 p.m. - 3:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "Tech Change Forum",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={336F02F8-8372-497C-B8EE-8AEAA6BF745C}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8A99A4EF-9863-4346-945D-D0FC3CB556E6}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The Tech Change Forum is a general technology discussion committee without specific focus on market rules, resource adequacy, or operational changes that directly affect hydropower participation in PJM's markets.",
     "issues": [],
