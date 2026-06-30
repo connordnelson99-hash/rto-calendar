@@ -1,5 +1,19 @@
 [
   {
+    "title": "MORWG Net Conference",
+    "date": "2026-09-30",
+    "time": "11:00 AM - 3:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Operations and Reliability Working Group",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-operations-and-reliability-working-group-net-conference-20260930/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=370774",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Markets+ Operations and Reliability Working Group meetings address market design, energy pricing, ancillary services, capacity/reliability mechanisms, and participation rules that directly affect hydro and storage revenue, compliance obligations, and strategic positioning in the SPP footprint and cross-RTO context.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MSC Zoom Meeting - Hosted by WIEB",
     "date": "2026-09-18",
     "time": "11:00 AM - 12:00 PM CT",
@@ -336,6 +350,62 @@
     "documents": []
   },
   {
+    "title": "Joint NEPOOL Reliability and Transmission Committee Meeting",
+    "date": "2026-07-16",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Reliability Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=161677",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Reliability Committee meetings in ISO-NE typically address resource adequacy, operating standards, winterization/readiness requirements, and transmission-reliability issues that directly affect hydro dispatch obligations, strategic transmission planning for hydro deliverability, and seasonal energy-adequacy outlooks in a hydro-significant Northeast region.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "NEPOOL Transmission Committee Meeting",
+    "date": "2026-07-16",
+    "time": "3:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Transmission Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160130",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ISO-NE Transmission Committee meetings address transmission planning, interregional transfer capability, and non-wires alternatives that directly affect hydro deliverability, resource adequacy, and strategic participation options for NHA members in New England and the broader Northeast.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Large Load Working Group (LLWG) - July 16, 2026",
+    "date": "2026-07-16",
+    "time": "9:00 AM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Large Load Working Group",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/5c48ee05084b4be8a1a7c98cb0622860.aspx",
+    "materials_url": "https://www.misoenergy.org/link/5c48ee05084b4be8a1a7c98cb0622860.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Large load interconnection and co-located load developments affect hydro's strategic positioning, market participation models, and scarcity value in MISO's footprint, making LLWG proceedings material to NHA members evaluating market opportunities and transmission/deliverability constraints.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "OTWG Meeting",
+    "date": "2026-07-16",
+    "time": "9:00 AM",
+    "rto": "ERCOT",
+    "committee": "Operations Training Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/07162026-OTWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/07162026-OTWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Operations Training Working Group meetings cover staff training logistics and operational procedures with no bearing on market design, pricing, participation rules, or strategic compliance issues affecting hydropower operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Planning Advisory Committee (PAC) - July 15, 2026",
     "date": "2026-07-15",
     "time": "9:00 AM - 3:00 PM",
@@ -409,6 +479,20 @@
     "materials_url": "https://www.ercot.com/calendar/07152026-PRS-Meeting",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Protocol Revisions Subcommittee meetings typically address routine operational procedures, messaging standards, and technical compliance mechanics with no bearing on market design, participation rules, pricing, or revenue mechanisms that affect hydropower.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Texas SET/LP Meeting",
+    "date": "2026-07-15",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Texas Standard Electronic Transactions/Load Profiling Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/07152026-Texas-SET_LP-Meeting-_",
+    "materials_url": "https://www.ercot.com/calendar/07152026-Texas-SET_LP-Meeting-_",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Texas SET/LP Working Group focuses on retail-market transaction standards and customer load profiling, which are billing and data-transport mechanics with no direct bearing on wholesale market design, pricing, or participation rules for hydropower and storage resources.",
     "issues": [],
     "documents": []
   },
@@ -1461,7 +1545,56 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The Expedited Project Review Technical Study Task Force is a technical infrastructure and interconnection-queue working group with no agenda details suggesting discussion of market design, pricing, ancillary services, capacity accreditation, storage participation, or other mechanisms directly affecting hydropower revenue, compliance, or strategic options.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "20260707 EPR-TSTF Item 01d Agenda_UPDATED.pdf",
+        "filename": "20260707 EPR-TSTF Item 01d Agenda_UPDATED.pdf",
+        "url": "https://cdn.misoenergy.org/20260707%20EPR-TSTF%20Item%2001d%20Agenda_UPDATED766364.pdf",
+        "posted_date": "2026-06-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Large-load interconnection (data center additions) in MISO's West Region directly affects hydro deliverability and scarcity value in that region; interconnection queue and transmission-constrained area studies shape the strategic value of existing hydro resources and their position in regional adequacy.",
+        "ai_summary": "MISO's Expedited Project Review (EPR) task force is advancing technical studies for multiple infrastructure projects across four regions, including two data-center load additions in the West Region (Hannover facility projects 51293 and 51404). The EPR process streamlines interconnection review for projects meeting MISO criteria, reducing study timelines. Data-center loads are drivers of regional scarcity and transmission constraint\u2014the addition of these loads in the West Region increases locational price signals and raises the economic value of existing hydro resources that can deliver into that area; simultaneously, transmission upgrades bundled with large-load projects (e.g., the Hannover upgrades) may relieve or shift constraints that affect hydro's ability to move power to constrained nodes. Next meeting is August 4, 2026; this session (July 7, 2026) reviews results and technical findings for Central, East, West, and South region projects.",
+        "topics": [
+          "load-growth",
+          "interconnection",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Adam Meyer",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dave Seelye",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Eric Olson",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nestor Martinez",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Z. Zhou",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Steering Committee (SC) Special Meeting - July 7, 2026",
@@ -1685,6 +1818,20 @@
     "materials_url": "https://www.ercot.com/calendar/07032026-ERCOT-observed-holiday-as",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Holiday observance scheduling in ERCOT protocols is administrative calendar management with no bearing on market design, dispatch rules, energy pricing, ancillary services, capacity accreditation, storage participation, or operational standards affecting hydropower.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Resource Adequacy Analysis Subcommittee Meeting",
+    "date": "2026-07-03",
+    "time": "1:00 p.m. - 3:00 p.m.",
+    "rto": "PJM",
+    "committee": "Resource Adequacy Analysis Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={39162BDF-9AF3-4B19-938A-18974A33F0A0}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Resource Adequacy Analysis Subcommittee meetings address seasonal adequacy constructs, capacity accreditation methodologies, and reliability mechanisms that directly affect how hydro and storage resources are valued and procured in PJM's RA framework.",
     "issues": [],
     "documents": []
   },
@@ -2228,7 +2375,7 @@
   {
     "title": "Settlement User Group",
     "date": "2026-07-01",
-    "time": "10:00 AM - 11:00 AM",
+    "time": "10:00 AM - 11:30 AM",
     "rto": "CAISO",
     "committee": "Settlement User Group",
     "source_url": "https://www.caiso.com/meetings-events/meetings",
@@ -4095,6 +4242,20 @@
     ]
   },
   {
+    "title": "Tentative:FERC Order 881 Refresher Training: WebLineR Application Overview and Updates",
+    "date": "2026-06-30",
+    "time": "10:00 AM - 11:30 AM",
+    "rto": "CAISO",
+    "committee": null,
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/ferc-order-881-refresher-training-webliner-application-overview-and-updates-jun-30-2026-1000-am",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A refresher training on WebLineR application mechanics and IT procedures is operational administration with no bearing on market design, pricing, settlement, or dispatch rules affecting hydropower revenue, compliance, or strategy.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "PRTMDW Meeting",
     "date": "2026-06-29",
     "time": "9:00 a.m. - 4:00 p.m.",
@@ -4312,7 +4473,7 @@
         "title": "20260629 LLWG Item 07 Draft MISO Large Load Interconnection Requirement Technical Compendium",
         "filename": "20260629 LLWG Item 07 Draft_MISO_Large_Load_Interconnection_Requirement_Technical Compendium.pdf",
         "url": "https://cdn.misoenergy.org/20260629%20LLWG%20Item%2007%20Draft_MISO_Large_Load_Interconnection_Requirement_Technical%20Compendium765704.pdf",
-        "posted_date": "2026-06-24",
+        "posted_date": "2026-06-29",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Large load interconnection and operational requirements directly affect hydro's strategic options for co-location, load-following capability valuation, and transmission/grid-stability service revenue through emerging demand for ramp, ride-through, and dynamic-performance capabilities that hydro uniquely supplies.",
         "ai_summary": "MISO has published a Large Load Interconnection Reliability Requirements technical compendium establishing interconnection standards for rapid-growth transmission-connected loads (data centers, AI computing, etc.), with four requirement categories: data/telemetry/forecasting; ramp management; voltage/frequency ride-through; and stability assessment. The framework defines minimum disturbance-performance expectations and dynamic-response capabilities that large loads must meet. This expands MISO's valuation of ramping, frequency support, and voltage stability \u2014 services hydro suppliers have historically dominated \u2014 and opens strategic pathways for hydro co-location with large loads and behind-the-meter service delivery. The document establishes technical requirements that may inform future MISO ancillary-services procurement and reserve-adequacy modeling as load volatility and grid-stability demands increase; hydro owners should monitor whether MISO translates these reliability needs into new product definitions or accreditation adjustments that reward fast-response, high-ramp-capability resources.",
@@ -4346,7 +4507,7 @@
         "title": "20260629 LLWG Item 08b Large Load Operational Forecast Requirements (LLWG 2026 4A)",
         "filename": "20260629 LLWG Item 08b Large Load Operational Forecast Requirements (LLWG-2026-4A).pdf",
         "url": "https://cdn.misoenergy.org/20260629%20LLWG%20Item%2008b%20Large%20Load%20Operational%20Forecast%20Requirements%20%28LLWG-2026-4A%29765707.pdf",
-        "posted_date": "2026-06-24",
+        "posted_date": "2026-06-29",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Large load forecasting requirements directly affect hydro's operational flexibility value and dispatch obligations, and the rule design (monitoring, incentives, settlement potential) may establish precedent for how variable/dispatchable resources' forecast accuracy is treated in MISO's commitment and real-time dispatch processes.",
         "ai_summary": "MISO proposes to require large loads (data centers, industrial facilities, campuses) to submit short-term operational forecasts at hourly (next 1\u2013168 hours) and 5-minute (next 6 hours) granularities, feeding into MISO's Multi-Day/Next-Day/Intraday reliability commitment and look-ahead commitment/real-time dispatch processes. Forecasts are submitted at the Commercial Pricing (CP) node level by the Tariff Customer; MISO will monitor timeliness and accuracy against telemetered actual load and is considering incentive mechanisms (ranging from escalation to settlement-based penalties). Status: requirements finalized for LLWG feedback by July 13, 2026; accuracy incentives and BPM implementation to follow. For hydro operators, the mechanism is load-side variability management: large loads add volatile demand that MISO's standard weather/calendar forecasts cannot capture; if these forecasts are inaccurate, MISO's commitment stack and reserve procurement tighten or loosen unpredictably, affecting the scarcity signals and ramping/flexibility value hydro receives in real-time and look-ahead markets. The settlement-based penalty option (SPP precedent cited) could create a parallel market-discipline framework applied to demand-side forecast accuracy, potentially informing future treatment of hydro forecast errors and opportunity-cost offers.",
@@ -4397,7 +4558,7 @@
         "title": "20260629 LLWG Item 06 Market Participation and Registration of Co Located Load and Generation (PAC 2024 4B)",
         "filename": "20260629 LLWG Item 06 Market Participation and Registration of Co-Located Load and Generation (PAC-2024-4B).pdf",
         "url": "https://cdn.misoenergy.org/20260629%20LLWG%20Item%2006%20Market%20Participation%20and%20Registration%20of%20Co-Located%20Load%20and%20Generation%20%28PAC-2024-4B%29765711.pdf",
-        "posted_date": "2026-06-24",
+        "posted_date": "2026-06-29",
         "hydro_relevant": true,
         "hydro_relevance_reason": "MISO's Zero-Injection GIA (ZGIA) framework directly affects co-located generation and load registration, which creates new revenue and settlement rules for hydropower and storage resources operating at or near large industrial loads, and establishes precedent for how RTOs treat behind-the-meter or tightly co-located hybrid resources.",
         "ai_summary": "MISO proposes to require Zero-Injection GIAs (generation interconnection agreements where generation is co-located with large industrial loads) whose associated load exceeds the Large Load threshold to register as market resources. Grandfathered ZGIAs already accepted by FERC are exempt. MISO proposes no time limit on ZGIAs and will clarify that loads are firm NITS loads paying gross transmission charges. Market registration will ensure both load and generation volumes are reported separately for accurate ancillary-service charge allocation, affecting settlement and LMP exposure. This proposal responds to FERC's recent Show Cause Order. Stakeholder feedback is due July 15, 2026, with tariff filing expected July 2026. The mechanism matters most to pumped-storage operators and conventional hydro owners considering co-location with or service to large loads (data centers, manufacturing, etc.); the registration and metering rules will determine whether co-located generation can capture locational price signals or is treated as internal to the load node.",
@@ -4414,7 +4575,7 @@
         "title": "20260629 LLWG Item 08a Large Load Telemetry and PMU Requirements (LLWG 2026 4C)",
         "filename": "20260629 LLWG Item 08a Large Load Telemetry and PMU Requirements (LLWG-2026-4C).pdf",
         "url": "https://cdn.misoenergy.org/20260629%20LLWG%20Item%2008a%20Large%20Load%20Telemetry%20and%20PMU%20Requirements%20%28LLWG-2026-4C%29765706.pdf",
-        "posted_date": "2026-06-24",
+        "posted_date": "2026-06-29",
         "hydro_relevant": true,
         "hydro_relevance_reason": "MISO's telemetry and PMU requirements for large loads will impose new operational compliance obligations on hydropower and storage facilities co-located with or behind the same point of interconnection as computational loads, and may affect dispatch visibility and real-time market participation for generation resources at large-load sites.",
         "ai_summary": "MISO proposes mandatory real-time SCADA telemetry (MW, MVAR, breaker status via ICCP) for all large loads and generation resources \u226520 MVA sharing the same point of interconnection, plus PMU installation (sampling at 60 Hz minimum in IEEE C37.118 format) at computational large loads before service commencement. Generation behind the large load's POI cannot be netted with load and must stream individual telemetry including state-of-charge data for battery or storage devices, and control-mode telemetry for market-participating generators. MISO requests feedback by July 13, 2026, with detailed requirements to be drafted in Business Practice Manuals. Pumped-storage facilities and conventional hydro units co-located at large-load sites (especially data-center campuses) will face new capital costs (PMU installation and ICCP comms) and operational constraints (non-netting, continuous dispatch visibility, reduced operational flexibility).",
@@ -4523,7 +4684,7 @@
         "title": "20260629 LLWG Item 04 Liaison Report.pdf",
         "filename": "20260629 LLWG Item 04 Liaison Report.pdf",
         "url": "https://cdn.misoenergy.org/20260629%20LLWG%20Item%2004%20Liaison%20Report766034.pdf",
-        "posted_date": "2026-06-26",
+        "posted_date": "2026-06-30",
         "hydro_relevant": true,
         "hydro_relevance_reason": "MISO's Large Load Working Group is developing interconnection frameworks, co-located resource rules (ZGIA), and reserve product enhancements that directly affect how pumped-storage and conventional hydropower can participate in markets and operate at existing or new facility locations; operational requirements for large loads including ride-through and stability control establish precedent for dispatchable resource standards.",
         "ai_summary": "MISO is pursuing a three-phase framework for rapid large-load integration: Connect (120-day GIA completion), Transition (flexible service options including firm step-up), and Ensure Long-Term Reliability (real-time coordination and reserve product enhancements). The ZGIA (zero-injection GIA) tariff language covers market participation, resource adequacy treatment, ride-through, and stability requirements for co-located generation and load; initial proposal was filed with FERC in June 2026, with a non-firm service option and firm service step-up option timeline influenced by FERC show-cause order review (target July 2026 filing). Co-located resource rules and the firm service step-up option create new pathways for PSH and hydro to participate in MISO markets with flexible injection/withdrawal capability, while operational reliability requirements (SCADA telemetry, PMU standards, dynamic reserve preparedness) establish obligations that will apply to dispatchable and storage-like resources. The Steering Committee special meeting on July 7, 2026, will determine the forum for continued ZGIA discussion and review LLWG charter.",
@@ -5069,7 +5230,7 @@
         "title": "Item 03 \u2013 Cycle Schedule Update",
         "filename": "20260626-item-03---cycle-schedule-update.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/ips/2026/20260626/20260626-item-03---cycle-schedule-update.pdf",
-        "posted_date": "2026-06-23",
+        "posted_date": "2026-06-29",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Interconnection queue cycle schedules and deliverability study timelines directly affect hydro generators' ability to interconnect new capacity or uprate existing plants, and interim deliverability pathways (2027/28 DY) offer strategic options for accelerated commercial operation prior to network upgrade completion.",
         "ai_summary": "PJM Interconnection has posted Transition Cycle 2 Phase II Studying & Information (SIS) reports covering 270 projects (June 5, 2026) and opened Decision Point II (DP2) from June 8\u2013July 7, 2026, during which project developers must confirm participation and modifications via NextGen to proceed to Phase III SIS (starting July 8). Cycle 01 applications total 829 requests (811 generator interconnections at 220,227 MWE cumulative), with deficiency reviews underway and scoping meetings anticipated to start end-Q2; Cycle 01 model posting and Phase I study commencement are targeted for Q3 2026. PJM also offers an Interim Deliverability Study for the 2027/28 in-service window (application deadline June 30, 2026; results October 2026), which allows projects to demonstrate reliable delivery before required network upgrades are completed\u2014a pathway valuable to hydro developers needing early commercial operation. Hydro and pumped-storage owners in PJM should resolve deficiency notices in NextGen and monitor DP2 elections (closing July 7) and interim-study deadlines (June 30) to preserve queue position and deliverability timing.",
@@ -7794,7 +7955,7 @@
     "documents": [
       {
         "type": "agenda",
-        "title": "Markets and Reliability Committee Agenda",
+        "title": "Agenda",
         "filename": "20260624-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20260624/20260624-agenda.pdf",
         "posted_date": "2026-06-17",
@@ -11465,7 +11626,7 @@
     "committee": "PJM/MISO JCM",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={D5A13C0D-3754-4653-9A5A-812E99396339}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={12860F75-EDF0-4A27-A4DD-61B7C8D3DB5B}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The PJM/MISO JCM (Joint and Common Meeting) is a governance and administrative coordination body between two RTOs that typically addresses procedural, operational, and administrative matters rather than substantive market rules or hydro-specific technical issues.",
     "issues": [],
@@ -14211,7 +14372,7 @@
     "committee": "SRRTEP-W",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={12860F75-EDF0-4A27-A4DD-61B7C8D3DB5B}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={BC5467A0-25AC-486A-AE20-BFAC49CB7E79}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-W (System Resource and Resilience Task Force) meetings typically focus on long-term resource adequacy and system resilience planning; without specific agenda details mentioning hydropower, storage, or capacity accreditation, the generic title provides insufficient indication of hydropower-relevant content.",
     "issues": [],
@@ -14330,7 +14491,7 @@
     "committee": "DESTF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={F5F4E95F-7068-40C2-A9F3-C9338AC4382D}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8A99A4EF-9863-4346-945D-D0FC3CB556E6}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "DESTF (Distributed Energy and Storage Task Force) directly addresses energy storage and distributed resources, which are core topics for pumped-storage hydropower participation in PJM markets.",
     "issues": [],
@@ -16545,12 +16706,12 @@
   {
     "title": "Tech Change Forum Meeting",
     "date": "2026-06-15",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "1:00 p.m. - 3:00 p.m.",
     "rto": "PJM",
     "committee": "Tech Change Forum",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8A99A4EF-9863-4346-945D-D0FC3CB556E6}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={336F02F8-8372-497C-B8EE-8AEAA6BF745C}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The Tech Change Forum is a general technology discussion committee without specific focus on market rules, resource adequacy, or operational changes that directly affect hydropower participation in PJM's markets.",
     "issues": [],
