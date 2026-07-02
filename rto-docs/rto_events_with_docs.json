@@ -466,7 +466,7 @@
     "date": "2026-07-16",
     "time": "1:30 PM",
     "rto": "ISO-NE",
-    "committee": "Reliability Committee",
+    "committee": "Transmission Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=161677",
     "materials_url": null,
@@ -1077,7 +1077,7 @@
   {
     "title": "Market Subcommittee (MSC) - July 9, 2026",
     "date": "2026-07-09",
-    "time": "9:00 AM - 3:00 PM",
+    "time": "9:00 AM - 2:45 PM",
     "rto": "MISO",
     "committee": "Market Subcommittee",
     "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
@@ -1118,6 +1118,299 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "presentation",
+        "title": "20260709 MSC Item 13b DAMAP Reduction Total - Presentation (MSC-2026-7).pdf",
+        "filename": "20260709 MSC Item 13b DAMAP Reduction Total - Presentation (MSC-2026-7).pdf",
+        "url": "https://cdn.misoenergy.org/20260709%20MSC%20Item%2013b%20DAMAP%20Reduction%20Total%20-%20Presentation%20%28MSC-2026-7%29766993.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "DAMAP Reduction Total calculation directly affects how derated and manually re-dispatched hydro and storage units are compensated for lost ancillary-service revenue, and the change alters the baseline against which their schedule adjustments are measured.",
+        "ai_summary": "MISO proposes to revise the Day-Ahead Margin Assurance Payment (DAMAP) Reduction Total calculation for derated and manually re-dispatched units, replacing a simple sum-of-cleared-products approach with constraint-based clearing values that reflect physical MW-sharing limits between regulation, contingency reserves, ramp capability, and short-term reserves. Currently, the sum method can overstate total cleared MWs (since ancillary-service MWs can be shared with energy), leading to larger schedule reductions than physical capability warrants; the proposed method uses the maximum of two DART constraint combinations to more accurately cap the Reduction Total. MISO also proposes a parallel change to one Real-Time Revenue Sufficiency Guarantee distribution component (DDC_NDL_CAP_VOL) using the same constraint logic. Stakeholder feedback is due July 24, 2026, with a target Q3 2026 filing and 60-day effective date. The change most directly affects dispatchable hydro, pumped storage, and other use-limited resources that routinely clear multiple ancillary services alongside energy.",
+        "topics": [
+          "ancillary-services",
+          "price-formation",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Chris Delk",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "cdelk@misoenergy.org"
+          },
+          {
+            "name": "Davey Lopez",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "dlopez@misoenergy.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20260709 MSC Item 13a DAMAP Reduction Total - New Issue Introduction (MSC-2026-7).pdf",
+        "filename": "20260709 MSC Item 13a DAMAP Reduction Total - New Issue Introduction (MSC-2026-7).pdf",
+        "url": "https://cdn.misoenergy.org/20260709%20MSC%20Item%2013a%20DAMAP%20Reduction%20Total%20-%20New%20Issue%20Introduction%20%28MSC-2026-7%29766992.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "DAMAP (Day-Ahead Margin Assurance Payment) and RSG Distribution calculations directly affect revenue sufficiency and make-whole payments for dispatchable units including hydro; overstated Reduction Totals suppress adjusted DA schedules and thus unit revenue when derated or manually redispatched.",
+        "ai_summary": "MISO proposes correcting the Day-Ahead Margin Assurance Payment (DAMAP) Reduction Total calculation, which currently overstates the sum of cleared day-ahead products by double-counting MWs shared across multiple products, resulting in artificially suppressed adjusted DA schedules for derated or manually redispatched units. The fix would base Reduction Totals on physical unit limitations rather than product sums, and would also correct a similar defect in Revenue Sufficiency Guarantee (RSG) Distribution. Both changes require tariff filings; MSC-2026-7 has been introduced for adoption at the July 9, 2026 Market Subcommittee meeting. Any hydro or pumped-storage unit that experiences deratings, manual redispatch, or forced outages would receive more accurate (and typically higher) make-whole compensation under the corrected formulas.",
+        "topics": [
+          "price-formation",
+          "mitigation-offers",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Chris Delk",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "cdelk@misoenergy.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20260709 MSC Item 08 2026 Biennial Review of MSC Inactive Issues on MISO Dashboard.pdf",
+        "filename": "20260709 MSC Item 08 2026 Biennial Review of MSC Inactive Issues on MISO Dashboard.pdf",
+        "url": "https://cdn.misoenergy.org/20260709%20MSC%20Item%2008%202026%20Biennial%20Review%20of%20MSC%20Inactive%20Issues%20on%20MISO%20Dashboard766958.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Storage-as-transmission asset (MSC-2020-1) and hybrid resource participation rules (MSC-2020-3) are among nine inactive issues under biennial review; both directly affect PSH participation models and revenue-recognition pathways, though both remain deprioritized for 2026.",
+        "ai_summary": "MISO's 2026 biennial review recommends keeping all nine inactive Market Subcommittee issues in inactive status, including MSC-2020-1 (Using Storage as a Transmission Asset to Provide Market Services) and MSC-2020-3 (Enhanced Hybrid Resource Participation Model). Both issues were placed inactive in December 2022 and remain deprioritized due to competing initiatives\u2014MSC-2020-3 is contingent on separate hybrid-resource work (MSC-2020-2) for which MISO has requested a delayed implementation date beyond June 2026. This preserves the current treatment of PSH and co-located hydro-storage hybrids under baseline participation rules rather than advancing alternative frameworks that could unlock additional revenue streams or operational flexibility. The next biennial review is scheduled for 2028, meaning no near-term market-design changes are anticipated for storage or hybrid resources in MISO.",
+        "topics": [
+          "storage",
+          "hybrids-der"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jason Howard",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "jhoward@misoenergy.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20260709 MSC Item 09 MSC Issue Status Change Recommendations.pdf",
+        "filename": "20260709 MSC Item 09 MSC Issue Status Change Recommendations.pdf",
+        "url": "https://cdn.misoenergy.org/20260709%20MSC%20Item%2009%20MSC%20Issue%20Status%20Change%20Recommendations766991.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses the Uninstructed Deviation Enhancement (UDE) Flag, which touches settlement rules and dispatch compliance affecting how hydro and other dispatchable resources are charged or credited for deviations from dispatch instructions\u2014a direct obligation and settlement mechanism for hydro operators.",
+        "ai_summary": "MISO implemented the Uninstructed Deviation Enhancement (UDE) Flag in November 2025, with settlement enhancements becoming effective June 1, 2026. The MSC recommends closing this issue (MSC-2024-7) as Completed. The UDE flag modifies how deviations from dispatch instructions are metered and settled; hydro and other dispatchable resources must now comply with revised settlement rules that took effect June 1, 2026, affecting how they are charged or credited for off-dispatch performance. The mechanism is live; no further stakeholder action is requested, but operators should verify their settlement systems align with the June 1, 2026 rules.",
+        "topics": [
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jason Howard",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "jhoward@misoenergy.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20260709 MSC Item 04c ARR FTR TCM Quarterly Results.pdf",
+        "filename": "20260709 MSC Item 04c ARR FTR TCM Quarterly Results.pdf",
+        "url": "https://cdn.misoenergy.org/20260709%20MSC%20Item%2004c%20ARR%20FTR%20TCM%20Quarterly%20Results766927.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ARR/FTR transmission revenue allocation and congestion-rent distribution directly affects hydro's transmission-dependent revenue stream and capacity value in MISO.",
+        "ai_summary": "MISO reports quarterly Transmission Customer Metric (TCM) results measuring what portion of day-ahead congestion revenue is returned to transmission customers via ARR/FTR credits versus retained by non-transmission customers. The 2025\u20132026 planning year shows 60% TCM, with 2026\u20132027 at 95% (partial-year data through June 29, 2026). The metric tracks total DA congestion revenue ($1.845B in 2025\u20132026), splits between transmission-customer returns ($1.102B) and non-transmission-customer revenue ($743M). Seasonal variation is substantial: winter 2025 TCM was 50%, while summer 2024 peaked at 92%. This directly impacts reservoir and pumped-storage hydro located in congested zones\u2014a higher TCM means more congestion rent flows back to hydro owners with ARRs, improving revenue from transmission-constrained dispatch; lower TCM diverts that rent elsewhere. The metric has trended upward since 2020 lows (55% in 2020\u20132021), suggesting improving transmission-customer treatment, but shows high volatility by season and year.",
+        "topics": [
+          "price-formation",
+          "transmission",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "MISO Client Services and Readiness",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "WPPI Energy",
+            "entity": "WPPI Energy",
+            "role": "sponsor",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "20260709 MSC Item 04b MSE Quarterly Update.pdf",
+        "filename": "20260709 MSC Item 04b MSE Quarterly Update.pdf",
+        "url": "https://cdn.misoenergy.org/20260709%20MSC%20Item%2004b%20MSE%20Quarterly%20Update766926.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a technology program status update for MISO's internal market-clearing and data systems; it contains no content on market design, hydro revenue mechanisms, participation rules, or operational requirements affecting hydropower or pumped-storage owners.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "20260709 MSC Item 04a FERC Status Report.pdf",
+        "filename": "20260709 MSC Item 04a FERC Status Report.pdf",
+        "url": "https://cdn.misoenergy.org/20260709%20MSC%20Item%2004a%20FERC%20Status%20Report766925.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's demand curve updates for regulation, spinning reserves, and up-ramp capability directly affect the ancillary-services revenue hydro operators earn; the co-located resource dispatch rule affects strategic dispatch options for hybrid and co-located hydro; and uninstructed deviation settlement changes alter operational compliance obligations and economic incentives for all dispatchable units including hydro.",
+        "ai_summary": "MISO filed three tariff changes: (1) Demand Curve update (ER26-2705-000, effective August 4, 2026) revising the demand curves for Regulation and Spinning Reserves and the Up Ramp Capability product in Day-Ahead and Real-Time Markets \u2014 hydro's core ancillary-service revenue streams. (2) Interconnection Service Limit Constraint for Co-located Resources (ER26-1915-000, filed 3/25/26, amended 6/11/26 for later implementation) allowing co-located resources to dispatch more efficiently within their interconnection limits \u2014 relevant to owners of hybrid hydro-solar or hydro-wind plants seeking optimized dispatch. (3) Uninstructed Deviation Settlement Charges (ER26-1521-000, accepted by FERC 5/29/26, effective 6/1/26) modifying settlement rules to incentivize reduction of uninstructed deviations \u2014 affects all dispatchable units including hydro by changing the economic penalty structure for unscheduled output. Ancillary-service demand curves are particularly material to large, responsive generators; co-located rules widen strategic options for mixed-renewable portfolios; uninstructed-deviation incentives reshape operational discipline across all hydro plants.",
+        "topics": [
+          "ancillary-services",
+          "ramping-flexibility",
+          "hybrids-der"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "20260709 MSC Item 02c DERWG Status Report.pdf",
+        "filename": "20260709 MSC Item 02c DERWG Status Report.pdf",
+        "url": "https://cdn.misoenergy.org/20260709%20MSC%20Item%2002c%20DERWG%20Status%20Report766930.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Order 2222 status update and DER aggregation framework directly affect small hydro and pumped-storage participation options as dispatchable, use-limited resources competing in retail-DR aggregation and VPP models.",
+        "ai_summary": "MISO's Distributed Energy Resource Working Group reported on operational coordination among MISO, distribution companies, transmission owners, aggregators, and load-balancing authorities for DER deployment; the Local Enrollment System (LES) is in multi-phase rollout beginning with emergency DR and expanding to demand-response aggregators (DERAs). FERC issued a Notice of Withdrawal of Inquiry and Termination of Rulemaking on Order 2222 (Docket RM21-14, April 16, 2026), ending the rulemaking on aggregator participation in RTO markets. For small hydro and pumped-storage owners, the termination of RM21-14 closes the federal rule-making pathway for aggregator participation but leaves MISO's tariff-level Order 2222 compliance in place; the LES framework and DERA enrollment phase are the next operational gate determining whether small hydro/PSH can participate at scale through aggregators or remain subject to full-resource-model registration. No comment deadline or vote date is stated in this status report.",
+        "topics": [
+          "hybrids-der",
+          "ops-compliance",
+          "ferc-policy"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Shely Leisz",
+            "entity": "MISO Distributed Energy Resource Working Group",
+            "role": "vice-chair",
+            "email": null
+          },
+          {
+            "name": "Zachary Callen",
+            "entity": "MISO Distributed Energy Resource Working Group",
+            "role": "author | chair",
+            "email": null
+          },
+          {
+            "name": "Ted Ko",
+            "entity": "VPP Convergence Projects",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "20260709 MSC Item 02b SUG Status Report.pdf",
+        "filename": "20260709 MSC Item 02b SUG Status Report.pdf",
+        "url": "https://cdn.misoenergy.org/20260709%20MSC%20Item%2002b%20SUG%20Status%20Report766929.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a routine administrative status report from the Settlements User Group with no substantive content on market design, pricing, ancillary services, capacity accreditation, storage participation, or operational compliance rules affecting hydropower or pumped-storage hydro.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jonas Cruz",
+            "entity": "MISO",
+            "role": "author | contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "20260709 MSC Item 01b Agenda.pdf",
+        "filename": "20260709 MSC Item 01b Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20260709%20MSC%20Item%2001b%20Agenda766928.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Agenda includes multiple market-design items directly affecting hydro revenue and compliance: reserve deliverability (regulation and operating reserve), FTR-ARR enhancements, ancillary-services pricing mechanics (TCDC evaluation), and a new margin-assurance payment mechanism (DAMAP) that modifies energy/capacity price formation.",
+        "ai_summary": "The July 9, 2026 MISO Market Subcommittee meeting agenda covers four items of direct interest to hydro operators: (1) Enhance Reserve Deliverability (MSC-2026-2) \u2014 MISO will discuss regulation reserve deliverability and performance, directly affecting how hydro's primary AS product is procured and compensated; (2) Evaluation of Updates to Congestion Management and Transmission Constraint Demand Curves (MSC-2026-6) \u2014 initial findings on TCDC changes, which shape both energy scarcity pricing and operating-reserve demand curves where hydro earns flexibility revenue; (3) Day Ahead Margin Assurance Payment Reduction Total (MSC-2026-7) \u2014 new issue introduction on DAMAP, a capacity/margin-assurance construct that may alter how day-ahead scarcity and adequacy are priced; and (4) FTR-ARR Market Enhancements (MSC-2025-5) \u2014 problem statement on transmission-rights market redesign, with feedback requested. The meeting also includes IMM seasonal outlook and market recommendations. No comment deadlines or vote dates are stated in the agenda itself.",
+        "topics": [
+          "ancillary-services",
+          "price-formation",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Akshay Korad",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Bryan Garnett",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Carrie Milton",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chris Delk",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chris Miller",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chuck Hansen",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jason Howard",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joshua Schabla",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mandi McGirr",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dr. Patton",
+            "entity": "Potomac Economics",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -1147,7 +1440,31 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "ERCOT Reliability and Operations Subcommittee meetings address frequency response, reserve requirements, operational standards, and resource participation rules that serve as cross-market comparison points for hydro-relevant mechanisms like ancillary services, flexibility products, and synchronous-unit ride-through standards.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "report",
+        "title": "PDCWG-Report-to-ROS_070926",
+        "filename": "PDCWG-Report-to-ROS_070926.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/07/01/PDCWG-Report-to-ROS_070926.pptx",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT's 2027 ancillary-services methodology revision directly informs frequency-response and inertia-procurement design elsewhere; the declining synchronous inertia trend and FFR award uptake set precedent for storage and synthetic inertia treatment that hydro operators should monitor for cross-market design migration.",
+        "ai_summary": "ERCOT is revising its 2027 ancillary-services (AS) methodology with board approval targeted for September 15, 2026; stakeholder feedback is being solicited through July 2026 ROS and WMS subcommittee meetings. The report shows ERCOT's minimum synchronous inertia has declined from 143 GW\u00b7s (2016) to 114.7 GW\u00b7s (2026) despite rising non-synchronous generation penetration (now 81% of system load), while fast-frequency response (FFR) awards have ramped from zero in prior years to 430 MW in 2026\u2014indicating a structural shift toward synthetic/storage-based frequency support to replace lost synchronous inertia from retiring thermal units. For hydro operators in other RTOs considering their own inertia and frequency-response portfolios, this documents ERCOT's precedent-setting approach to pricing and accrediting FFR as a substitute for synchronous reserve margins, a model that may inform future NERC standards or multiregional frequency-adequacy assessments.",
+        "topics": [
+          "ancillary-services",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Paul Messmann",
+            "entity": "ERCOT (PDCWG Chair)",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Batch Zero Weekly Readiness Meeting",
@@ -1619,7 +1936,344 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "ERCOT's Wholesale Market Subcommittee addresses energy price formation, ancillary services, capacity mechanisms, and storage participation rules that set cross-market precedent relevant to how hydro and PSH compete in other RTOs.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "WMS Meeting Agenda 2026-07-08",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/07082026-WMS-Meeting-_-Webex#agenda",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Agenda previews ERCOT's July 2026 treatment of ancillary services methodology (2027 AS framework) and multiple protocol revisions affecting energy-storage participation (ERS Enhancements, Advanced Grid Support Service, Generation Firming Program) \u2014 market-design precedents NHA monitors across RTOs for implications on storage revenue and dispatch rules.",
+        "ai_summary": "ERCOT's Wholesale Market Subcommittee agenda for July 8, 2026 includes review of 2027 Ancillary Services Methodology (presenter Luis Hinojosa, 6/17/26) and votes on three storage-adjacent NPRRs: NPRR1337 (ERS Enhancements), NPRR1278 (Advanced Grid Support Service as ancillary service), and NPRR1328 (Generation Firming Program). Four other tabled items touch dispatch and demand-response design. No vote dates or comment deadlines are stated in the agenda itself; the substantive work occurs in working-group meetings (WMWG, CMWG, SAWG) listed as concurrent sessions. This agenda is a planning document with no immediate action deadlines for external stakeholders, but the three storage-related NPRRs signal ERCOT's evolution on how storage\u2014including pumped hydro\u2014participates in ancillary service procurement and grid-support products, a design question NHA tracks across all RTOs. Most relevant to energy-storage operators (batteries and PSH) considering ERCOT participation.",
+        "topics": [
+          "ancillary-services",
+          "storage",
+          "ferc-policy"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Alfredo Moreno",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Amanda Frazier",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Blake Holt",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kevin Hanson",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Luis Hinojosa",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nathan Mancha",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Shane Thomas",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "02. WMS Agenda 202606708",
+        "filename": "02.-WMS-Agenda-202606708.doc",
+        "url": "https://www.ercot.com/files/docs/2026/07/01/02.-WMS-Agenda-202606708.doc",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT agenda covers ancillary services methodology, advanced grid support service design, energy storage resource (ESR) participation rules, and price-formation mechanisms (System Lambda capping, reliability deployment pricing) \u2014 cross-market design elements that hydro-industry analysts track for comparison to hydro-rich RTOs and for precedent on storage and flexible-resource participation.",
+        "ai_summary": "ERCOT's Wholesale Market Subcommittee meeting on July 8, 2026, agendizes several protocol revisions affecting energy storage and ancillary services participation. NPRR1278 would establish Advanced Grid Support Service as a formal ancillary service; NPRR1337 addresses Energy Resource Supplement (ERS) enhancements; and multiple open action items track ancillary service duration parameters, proxy offer floors, and System Lambda capping (NPRR1290, deferred to 2027 unless urgency arises). The subcommittee is also reviewing post-RTC reliability deployment pricing, transparency in DOE 202(c) emergency authority use, and performance metrics for Ancillary Service Demand Curves. These design choices\u2014particularly ERS availability requirements, ancillary service duration rules, and price-adder mechanisms\u2014set precedent for how other RTOs (including those with pumped storage and hydropower) structure storage and flexible-resource compensation; ERCOT's approach to ESR participation and grid-support service crediting is increasingly referenced in cross-market discussions of storage-market design.",
+        "topics": [
+          "ancillary-services",
+          "storage",
+          "price-formation"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Katie Rich",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Shams Siddiqui",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Shane Thomas",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Blake Holt",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Eric Blakey",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "03. DRAFT Minutes WMS 20260508",
+        "filename": "03.-DRAFT-Minutes-WMS-20260508.doc",
+        "url": "https://www.ercot.com/files/docs/2026/07/01/03.-DRAFT-Minutes-WMS-20260508.doc",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "ERCOT meeting minutes contain routine procedural votes, working-group updates, and NPRR processing steps with no substantive content touching hydro or PSH revenue mechanisms, compliance obligations, or strategic options; NPRR1328 (Generation Firming Program) addresses ramping capability but is tabled for further WMWG review with no design details disclosed in this document, and no other items present market-design implications for hydro.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Cara Sweeney",
+            "entity": "CPS Energy",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Juliana Gianni",
+            "entity": "DSWG",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Anupam Thatte",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Blake Holt",
+            "entity": "ERCOT",
+            "role": "presenter | contact",
+            "email": null
+          },
+          {
+            "name": "Chenyan Guo",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ino Gonzalez",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jim Lee",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Joe Lara",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jordan Troublefield",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kevin Hanson",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Magie Shanks",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ryan King",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Amanda Frazier",
+            "entity": "GVEC",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "03. DRAFT Minutes WMS 20260603",
+        "filename": "03.-DRAFT-Minutes-WMS-20260603.doc",
+        "url": "https://www.ercot.com/files/docs/2026/07/01/03.-DRAFT-Minutes-WMS-20260603.doc",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine meeting-minutes document listing attendees and recording disposition of procedural matters (agenda review, approval of prior minutes, working-group updates); it contains no substantive discussion of hydro or storage revenue mechanisms, compliance obligations, or strategic options that would affect NHA members.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Shams Siddiqi",
+            "entity": "Crescent Power Consulting",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Beth Garza",
+            "entity": "ERCOT",
+            "role": "meeting participant",
+            "email": null
+          },
+          {
+            "name": "Blake Holt",
+            "entity": "ERCOT",
+            "role": "meeting chair",
+            "email": null
+          },
+          {
+            "name": "Freddy Garcia",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sai Moorty",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Shane Thomas",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Amanda Frazier",
+            "entity": "GVEC",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Juliana Gianni",
+            "entity": "Goff Policy",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "05. CMWG Update for July 8 WMS",
+        "filename": "05.-CMWG-Update-for-July-8-WMS.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/07/01/05.-CMWG-Update-for-July-8-WMS.pptx",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document addresses ERCOT congestion-management mechanics (CRR auctions, DAM point-to-point fees, auction sequencing) that have no hydro-specific revenue, obligation, or strategic dimension and do not set precedent for hydro-relevant markets.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Shane Thomas",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "12. Draft 2027 Block Meeting Schedule.v2",
+        "filename": "12.-Draft-2027-Block-Meeting-Schedule.v2.xls",
+        "url": "https://www.ercot.com/files/docs/2026/07/01/12.-Draft-2027-Block-Meeting-Schedule.v2.xls",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "A block meeting schedule is administrative logistics with no bearing on hydropower revenue, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Settlement User Group",
+    "date": "2026-07-08",
+    "time": "10:00 AM - 11:30 AM",
+    "rto": "CAISO",
+    "committee": "Settlement User Group",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/settlement-user-group-jul-08-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/settlement-user-group",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Settlement User Group meetings typically address billing mechanics, credit administration, and settlement-system operations rather than market-design rules affecting hydro revenue, compliance, or strategy.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda - Settlement User Group - Jul 1, 2026",
+        "filename": "agenda-settlement-user-group-jul-1-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-settlement-user-group-jul-1-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Jul 1, 2026 - EDAM Issues - Sample",
+        "filename": "jul-1-2026-edam-issues-sample.xlsx",
+        "url": "https://www.caiso.com/documents/jul-1-2026-edam-issues-sample.xlsx",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "MCUF Net Conference",
@@ -2438,13 +3092,164 @@
         "title": "2026-07-07-09 MC A00 - Meeting Materials - Zip",
         "filename": "a00_2026_07-07-09_meeting_materials.zip",
         "url": "https://www.iso-ne.com/static-assets/documents/100036/a00_2026_07-07-09_meeting_materials.zip",
-        "posted_date": "2026-06-30",
+        "posted_date": "2026-07-01",
         "hydro_relevant": false,
         "hydro_relevance_reason": "Document is a zip archive of meeting materials with no extracted text content; cannot assess substantive relevance to hydro revenue, obligations, or strategic options without access to individual agenda items and proposals.",
         "ai_summary": null,
         "topics": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "2026-07-07-09 MC A03e - CAR-SA: Resource Accreditation Modeling Cont. - Presentation",
+        "filename": "a03e_2026_07_07-09_mc_rc_car-sa_resource_accreditation_modeling_cont.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/a03e_2026_07_07-09_mc_rc_car-sa_resource_accreditation_modeling_cont.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ISO-NE is modeling resource accreditation (capacity credit) for energy-limited and storage resources under the CAR-SA (Capacity Auction Reforms) proposal, directly affecting how pumped-storage hydro and run-of-river resources qualify for and receive capacity revenue in ISO-NE's forward market.",
+        "ai_summary": "ISO-NE presents the final Resource Accreditation Modeling Impact Analysis for CAR-SA, effective Q2 2027, which determines capacity accreditation (rMRI) values for energy-limited and storage resources under different weather weighting and system-reliability scenarios. The analysis evaluates FirstLight's alternative load-weighting methodology, finding it understates high-load (peak system-risk) conditions and reduces net ICR by ~280 MW compared to ISO's 70-year methodology, with material impacts on ICR but limited direct impacts on storage accreditation values across durations. Pumped-storage owners in ISO-NE should monitor the final design translation into production software and any further stakeholder-requested sensitivity analyses, as the weighting of historical weather years and the LOLE reliability threshold materially affect the seasonal capacity credit each PSH unit receives and thus its annual revenue.",
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "load-growth"
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Chris Geissler",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Fei Zeng",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-07-07-09 MC A03b - CAR-SA: Transition Mechanism, cont. - Presentation",
+        "filename": "a03b_2026_07_07-09_mc_rc_car-sa_transition_mechanism_cont.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/a03b_2026_07_07-09_mc_rc_car-sa_transition_mechanism_cont.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAR-SA's seasonal capacity accreditation and marginal reliability impact (MRIC) methodology directly reshapes how hydro (especially pumped storage and seasonal resources) is credited in ISO-NE's capacity market, altering revenue recognition across seasons and affecting reserve margins that determine must-offer and procurement rules.",
+        "ai_summary": "ISO-NE is implementing Capacity Auction Reforms \u2013 Seasonal/Accreditation (CAR-SA) with a three-year transition beginning in CCP 2028\u201329 (Q2 2027 proposed effective date). The reform shifts accreditation from a long-standing annual Qualified Capacity (QC) methodology to seasonal Marginal Reliability Impact Capacity (MRIC) values that reflect resource contributions to each season's adequacy. During transition, each resource's accredited capacity will be a weighted average: Year 1 (2/3 QC + 1/3 MRIC), Year 2 (1/3 QC + 2/3 MRIC), Year 3 (full MRIC). Hydro owners\u2014particularly seasonal resources like winter-peaking or pumped-storage operators\u2014will experience year-by-year accreditation shifts; some resources (e.g. passive demand response and winter solar) will see accreditation rise under CAR-SA, while others (especially summer-peaking hydro) will experience lower recognized capacity. The demand curve for procurement will also shift leftward across the three-year glide path, mirroring supply-side accreditation changes to maintain unit consistency and cost equivalence. Next steps include stakeholder review of transition mechanics and expected board/Markets Committee approval in coming meetings.",
+        "topics": [
+          "capacity-ra",
+          "storage"
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Calvin Smythe",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chris Geissler",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-07-07-09 MC A03l - CAR-SA: Winter Gas Constraint, cont. - Presentation",
+        "filename": "a03l_2026_07_07-09_mc_rc_car-sa_winter_gas_constraint_cont..pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/a03l_2026_07_07-09_mc_rc_car-sa_winter_gas_constraint_cont..pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The proposal establishes a non-firm gas capacity demand curve and bilateral-transaction rules affecting how gas-backed resources\u2014and by extension, competing dispatchable and storage resources\u2014are accredited and compensated in ISO-NE's capacity market, directly impacting hydro's competitive position and RA value.",
+        "ai_summary": "ISO-NE's Capacity Auction Reforms (CAR-SA) introduce a non-firm gas capacity demand curve effective Q2 2027 to reflect winter regional gas-supply constraints in capacity-market pricing. The proposal specifies: (1) gas-contract requirements (16-hour daily firmness for LNG; affidavit requirements dropped); (2) bilateral CSO (Capacity Supply Obligation) transaction limits tied to truncation points on the demand curve, preventing overtrading of constrained non-firm capacity across zones; and (3) restrictions on gas-only resource-backed imports, which cannot sell non-firm CSO in winter. The mechanism directly affects hydro's accreditation and capacity revenue: by capping non-firm gas capacity and pricing it separately, ISO-NE reduces the volume of low-cost gas capacity competing in winter auctions, tightening supply and raising clearing prices for all resources\u2014especially valuable for pumped-storage hydro and reservoir hydro with winter peaking capability. The filing to stakeholders occurred in July 2026; the ISO notes it will \"assess potential enhancements... in the months to come and after the CAR-SA filing.\" Most exposed are PSH and winter-peaking conventional hydro in zonal export-constrained areas, which benefit from reduced gas competition in winter RA auctions.",
+        "topics": [
+          "capacity-ra",
+          "price-formation",
+          "storage"
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Steven Otto",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-07-07-09 MC A03b - CAR-SA: Transition Mechanism, cont. - Presentation",
+        "filename": "a03a_2026_07_07-09_mc_rc_car-sa_summary_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/a03a_2026_07_07-09_mc_rc_car-sa_summary_presentation.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: ISO-NE's Capacity Auction Reforms (CAR-SA) restructure capacity accreditation and seasonal procurement to reflect resource-specific reliability contributions, directly affecting how hydro and pumped-storage accreditation values are calculated and the seasonal demand curves that set their capacity revenue.",
+        "ai_summary": "ISO-NE proposes moving from annual to seasonal (summer/winter) capacity auctions with accreditation reforms tied to Expected Unserved Energy (EUE) reduction, effective Q2 2027. The design improves resource operational-characteristic modeling\u2014including energy-limited and storage resources\u2014and calculates accreditation values (rMRI) based on margro reliability impact at system-adequacy criteria, rather than uniform assumptions. This revalues hydro and pumped-storage capacity by season and by performance characteristics (outage rates, generation profiles, energy limits); a transition mechanism will phase in the new rules. Key implications for storage and energy-limited hydro: accreditation will reflect their seasonal and state-dependent contributions more precisely, affecting revenue in capacity auctions and long-term investment signals. FERC accepted the prior CAR-PD filing in March 2026; CAR-SA filing anticipated by end of 2026, with key auction activities in first half of 2027.",
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "ops-compliance"
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Chris Geissler",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -2787,6 +3592,36 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "20260707 EPR-TSTF Item 03 MISO EPR Statistics.pdf",
+        "filename": "20260707 EPR-TSTF Item 03 MISO EPR Statistics.pdf",
+        "url": "https://cdn.misoenergy.org/20260707%20EPR-TSTF%20Item%2003%20MISO%20EPR%20Statistics766827.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Large-load interconnection (data centers and industrial facilities) in MISO creates scarcity and demand growth that raises the value and dispatch frequency of existing hydro resources, while also establishing transmission planning priorities that affect deliverability and strategic co-location opportunities for hydro owners.",
+        "ai_summary": "MISO's Expedited Project Review process has approved 67 projects through July 2026 representing ~14,000+ MW of new load additions across February, April, and June cycles. Prominent new loads include multiple large data centers (Hannover 430 MW, Project Skyway 780 MW, Project Atom 300 MW, Peninsula DC 430 MW) and industrial facilities concentrated in Central and West regions. These projects trigger transmission build-outs and distribution upgrades that reshape MISO's interconnection queue and establish new load pockets. For hydro and pumped-storage owners, this load concentration raises scarcity rents during peak periods, increases the value of ramping flexibility to serve demand ramps at large loads, and may create co-location or load-serving-entity pathways if MISO permits behind-meter arrangements; it also signals which transmission corridors MISO is prioritizing, which affects where existing hydro deliverability constraints may bind or be relieved.",
+        "topics": [
+          "load-growth",
+          "interconnection",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260707 EPR-TSTF Item 02 EPR Results and MISO Recommendation.pdf",
+        "filename": "20260707 EPR-TSTF Item 02 EPR Results and MISO Recommendation.pdf",
+        "url": "https://cdn.misoenergy.org/20260707%20EPR-TSTF%20Item%2002%20EPR%20Results%20and%20MISO%20Recommendation766826.pdf",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document reviews transmission interconnection projects for large industrial loads in MISO, with no implications for hydropower revenue, participation rules, storage accreditation, or hydro operational obligations.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -2957,6 +3792,57 @@
     "documents": []
   },
   {
+    "title": "Interconnection Customer User Group",
+    "date": "2026-07-07",
+    "time": "1:00 PM - 2:00 PM",
+    "rto": "CAISO",
+    "committee": "Interconnection Customer User Group",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-jul-07-2026-0100-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/interconnection-customer-user-group",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Interconnection Customer User Group meetings address interconnection queue reform, deliverability rules, surplus interconnection service, and uprates at existing plants \u2014 all critical to hydro owners' ability to expand or modify generation facilities and navigate FERC Order 2023-era reforms.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda - Interconnection Customer User Group - Jun 23, 2026",
+        "filename": "agenda-interconnection-customer-user-group-jun-23-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-interconnection-customer-user-group-jun-23-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Interconnection queue management and deliverability constraints \u2014 Cluster 15 TPD capacity reductions and transmission capability assessments directly affect hydro and storage project interconnection timelines, costs, and deliverability, which are core to hydro's strategic option to build or uprate generation.",
+        "ai_summary": "CAISO's Interconnection Customer User Group agenda addresses Cluster 15 transmission planning and delivery (TPD) capacity reductions, transmission capability analysis, and associated withdrawal penalties and tariff clean-up items, with near-term releases of project contribution requirements to participating network users (PNUs) scheduled. TPD capacity constraints in interconnection clusters are a primary determinant of whether new hydro projects (especially pumped storage) can physically deliver energy to load; reductions force project rescoping, higher costs, or withdrawal. The agenda does not specify decisions made or comment deadlines, but marks an active phase of interconnection-queue governance where capacity reallocations and penalty structures are being negotiated \u2014 most relevant to hydro developers and existing PSH owners evaluating expansion or uprate paths in CAISO's footprint.",
+        "topics": [
+          "interconnection",
+          "transmission",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Dendrite consulting",
+            "entity": "Dendrite consulting",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "LSA",
+            "entity": "LSA",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Qualus",
+            "entity": "Qualus",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Independence Day",
     "date": "2026-07-04",
     "time": "",
@@ -3066,7 +3952,7 @@
         "title": "Item 03 \u2013 EDART Update \u2013 Presentation",
         "filename": "20260701-item-03---edart-update---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260701/20260701-item-03---edart-update---presentation.pdf",
-        "posted_date": "2026-06-30",
+        "posted_date": "2026-07-01",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -3754,7 +4640,34 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A Steady State Working Group readiness meeting focused on internal batch-zero implementation logistics contains no substantive discussion of market design, pricing, participation rules, or reliability mechanisms that would affect hydropower strategy or operations.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "Batch-Zero-Readiness-Weekly-Meeting-20260701",
+        "filename": "Batch-Zero-Readiness-Weekly-Meeting-20260701.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/07/01/Batch-Zero-Readiness-Weekly-Meeting-20260701.pptx",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "ERCOT Batch Zero large-load interconnection process concerns data-center and industrial co-location in Texas; Texas has no hydropower, and the interconnection queue mechanics do not extend to dispatchable or storage resources in ways that would inform hydro participation or market-design precedent elsewhere.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Batch_Zero_Readiness_FAQs_V3",
+        "filename": "Batch_Zero_Readiness_FAQs_V3.xlsx",
+        "url": "https://www.ercot.com/files/docs/2026/07/01/Batch_Zero_Readiness_FAQs_V3.xlsx",
+        "posted_date": "2026-07-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a readiness FAQ for ERCOT's Batch Zero implementation\u2014a routine operational/IT readiness check\u2014with no extracted content touching hydro revenue streams, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Comments due - Demand and Distributed Energy Market Integration",
@@ -9271,7 +10184,7 @@
     "date": "2026-06-25",
     "time": "2:00 PM",
     "rto": "ERCOT",
-    "committee": "Retail Market Subcommittee",
+    "committee": "Dynamics Working Group",
     "source_url": "https://www.ercot.com/calendar",
     "detail_url": "https://www.ercot.com/calendar/06252026-Batch-Zero-Weekly-Readiness",
     "materials_url": "https://www.ercot.com/calendar/06252026-Batch-Zero-Weekly-Readiness",
