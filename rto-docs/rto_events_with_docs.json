@@ -350,6 +350,76 @@
     "documents": []
   },
   {
+    "title": "Transmission Owners Compliance Task Team (TOCTT) - July 20, 2026",
+    "date": "2026-07-20",
+    "time": "9:00 AM - 11:00 AM",
+    "rto": "MISO",
+    "committee": "Transmission Owners Compliance Task Team",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/dbaf8f6eeeff47bab77583d96b71e4f4.aspx",
+    "materials_url": "https://www.misoenergy.org/link/dbaf8f6eeeff47bab77583d96b71e4f4.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Transmission Owners Compliance Task Team meetings focus on operational compliance and administrative procedures for transmission infrastructure owners, not on market-design rules, pricing mechanisms, or participation frameworks that affect hydropower revenue, obligations, or strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Settlements User Group (SUG) - July 20, 2026",
+    "date": "2026-07-20",
+    "time": "9:30 AM - 11:00 AM",
+    "rto": "MISO",
+    "committee": "Settlements User Group",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/b96f4e5ff52a44ec877a1bcafc01a777.aspx",
+    "materials_url": "https://www.misoenergy.org/link/b96f4e5ff52a44ec877a1bcafc01a777.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Settlements User Group meetings typically address billing administration, payment processing, and meter-data management rather than market-design mechanisms affecting revenue, compliance obligations, or strategic options for hydropower operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Modeling Users Group (MUG) - July 20, 2026",
+    "date": "2026-07-20",
+    "time": "1:00 PM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Modeling Users Group",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/7507edfa88b64f86960eeef53a06474d.aspx",
+    "materials_url": "https://www.misoenergy.org/link/7507edfa88b64f86960eeef53a06474d.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Modeling Users Group meetings typically focus on technical modeling software, data formats, and simulation tools for MISO's planning and operations systems, which do not directly address hydropower revenue mechanisms, compliance obligations, or strategic market-design options.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "CMWG Meeting",
+    "date": "2026-07-20",
+    "time": "10:00 AM",
+    "rto": "ERCOT",
+    "committee": "Congestion Management Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/07202026-CMWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/07202026-CMWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Congestion management in ERCOT (a nodal market with no hydropower fleet) typically addresses transmission-constraint handling and locational pricing mechanics that have no direct analog to hydro revenue or participation rules, and ERCOT's congestion design does not set precedent for RTO/ISO practices affecting hydro-rich markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "DSWG Meeting",
+    "date": "2026-07-20",
+    "time": "1:00 PM",
+    "rto": "ERCOT",
+    "committee": "Demand Side Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/07202026-DSWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/07202026-DSWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Demand Side Working Group focuses on demand-response programs, customer-side management, and retail mechanisms with no direct bearing on energy pricing, ancillary services, capacity accreditation, storage participation rules, or transmission/reliability infrastructure that would affect hydropower or pumped-storage revenue or operational strategy.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MSC Zoom Meeting - Hosted by WIEB",
     "date": "2026-07-17",
     "time": "11:00 AM - 12:00 PM CT",
@@ -1962,6 +2032,20 @@
     "documents": []
   },
   {
+    "title": "Market Update",
+    "date": "2026-07-09",
+    "time": "10:00 AM - 10:30 AM",
+    "rto": "CAISO",
+    "committee": "Market update",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/market-update-jul-09-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/market-update",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "CAISO Market Update meetings typically cover energy and ancillary-services price formation, capacity accreditation, storage participation rules, and other market-design developments directly affecting hydro and PSH revenue, compliance, and strategic positioning in the Western grid.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MDWG Net Conference",
     "date": "2026-07-08",
     "time": "11:00 AM - 5:00 PM CT",
@@ -3411,12 +3495,12 @@
   {
     "title": "MCUF Net Conference",
     "date": "2026-07-07",
-    "time": "2:00 PM CT",
+    "time": "2:00 PM - 5:00 PM CT",
     "rto": "SPP Markets +",
     "committee": "Markets+ Change User Forum",
     "source_url": "https://www.spp.org/events/",
     "detail_url": "https://www.spp.org/calendar-list/marketsplus-change-user-forum-net-conference-20260707/",
-    "materials_url": "https://www.spp.org/calendar-list/marketsplus-change-user-forum-net-conference-20260707/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=506338",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A 'Change User Forum' focused on net conference logistics does not typically address substantive market rules, capacity mechanisms, or operational policies affecting hydropower and storage resources.",
     "issues": [],
@@ -4618,6 +4702,71 @@
             "email": "jmislak@iso-ne.com"
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "2026-07-07-09 MC A03j - CAR-SA: rMRI Input Table",
+        "filename": "a03j_2026_07_07-09_mc_rmri_input_table.xlsx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/a03j_2026_07_07-09_mc_rmri_input_table.xlsx",
+        "posted_date": "2026-07-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a data table input stub with no extractable content; title alone does not indicate hydropower revenue, compliance, or strategic implications.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "2026-07-07-09 MC A03j - CAR-SA: Qualification - Presentation",
+        "filename": "a03j_2026_07_07-09_mc_qualification_cont_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/a03j_2026_07_07-09_mc_qualification_cont_presentation.pdf",
+        "posted_date": "2026-07-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAR-SA resource qualification process directly affects how hydropower and pumped-storage resources demonstrate capacity accreditation and qualify for ISO-NE's seasonal capacity market, with material-change rules determining when resource modifications trigger re-qualification and affect Seasonal Claimed Capability and accreditation outcomes.",
+        "ai_summary": "ISO-NE presented the CAR-SA (Capacity Accreditation Reform \u2013 Seasonal/Accreditation) resource qualification process, effective Q2 2027, which introduces conforming changes to the material-change framework to align with seasonal accreditation concepts. The material-change definition now references Seasonal Maximum Capability (SMCap) instead of Annual Qualified Capacity, and triggers historical-data restart for Maximum Capability and Dependable Capability when deemed material; resource qualification deadlines shift from the original to at least five business days prior to Monthly Capacity Demonstration Deadlines. Hydro and PSH operators\u2014especially those modifying interconnection facilities, changing technology type, or adjusting capacity by >5 MW or 10%\u2014must report material changes, update Qualification Data Submission Packages, and demonstrate updated Commercial Capacity; failure to meet deadlines can defer participation to the next seasonal or monthly auction event. Questions may be submitted to ISO-NE MC Secretary Jasleen Singh (jsingh@iso-ne.com) by July 27, 2026.",
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "ops-compliance"
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Jasleen Singh",
+            "entity": "ISO-NE",
+            "role": "contact",
+            "email": "jsingh@iso-ne.com"
+          },
+          {
+            "name": "Jennifer Engelson",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -5464,6 +5613,20 @@
     "documents": []
   },
   {
+    "title": "Interconnection Process Subcommittee Meeting",
+    "date": "2026-07-03",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "Interconnection Process Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={34DEF545-95E5-478B-84B3-14A449CDB374}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM's Interconnection Process Subcommittee addresses interconnection rules, queue reform, and deliverability standards that directly affect how hydro and storage resources enter the market and secure transmission access, including FERC Order 2023 compliance and surplus service on existing plants.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Comments due - Congestion Revenue Rights Enhancements",
     "date": "2026-07-02",
     "time": "",
@@ -6154,6 +6317,163 @@
         "posted_date": null,
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Installed Capacity Working Group",
+    "date": "2026-07-01",
+    "time": "10:00 AM - 4:00 PM",
+    "rto": "NYISO",
+    "committee": "Installed Capacity Working Group",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/icapwg",
+    "materials_url": "https://www.nyiso.com/icapwg",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "NYISO's Installed Capacity Working Group develops capacity-market rules, accreditation methodologies (including ELCC/UCAP treatment), and performance standards that directly affect how hydropower and pumped-storage plants are compensated and qualify in the capacity market.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "comment",
+        "title": "03b IPPNY Comments on NYISO Demand Curve Reset Methodology Improvement Project",
+        "filename": "IPPNY%20NYISO%20Letter%20RE%20DCRMIP%20FINAL.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58403090/IPPNY%20NYISO%20Letter%20RE%20DCRMIP%20FINAL.pdf",
+        "posted_date": "2026-06-29",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "IPPNY comments on NYISO's Demand Curve Reset (DCR) methodology directly touch capacity-market accreditation and proxy-unit design, which set the reference prices for NYISO capacity revenues \u2014 the 'missing money' mechanism on which dispatchable hydro and pumped storage depend for cost recovery and investment signals.",
+        "ai_summary": "IPPNY, representing 80% of New York generation, submits comments on NYISO's preliminary DCR improvements, urging four changes: (1) require proxy units to meet firm-fuel winter-availability requirements (minimum 8 hours daily operation December\u2013February, or 56 hours on-site fuel storage); (2) adjust the Level of Excess to close the gap between market and planning assumptions; (3) shift the zero-crossing point (ZCP) of capacity demand curves rightward to reduce price volatility with small supply changes; and (4) improve annual escalation factors for financial parameters while retaining the quadrennial reset cycle, using New York-specific data for cost-of-debt and market-return indices. The core grievance is that NYISO's 2022 switch to a 2-hour battery as proxy unit excluded firm-fuel costs needed for winter reliability, causing capacity prices to fall below levels needed to retain or invest in generation \u2014 a signal deficiency that IPPNY argues has induced retirements and underinvests in reliability. Status: IPPNY feedback on preliminary recommendations; no vote or implementation date stated. Most exposed are any hydro/PSH operators relying on NYISO capacity-market revenues for cost recovery, particularly if they have winter firm-fuel capability that the battery-proxy ignores.",
+        "topics": [
+          "capacity-ra",
+          "mitigation-offers"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Richard Bratton",
+            "entity": "Independent Power Producers of New York, Inc. (IPPNY)",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Ben Schneider",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Michael Ferrari",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Shaun Johnson",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Zach T. Smith",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "1 Agenda",
+        "filename": "1%20icap%20miwg%20prlwg%20agenda%20070126.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58403090/1%20icap%20miwg%20prlwg%20agenda%20070126.pdf",
+        "posted_date": "2026-06-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ICAP Demand Curve Reset (DCR) process directly affects capacity-market accreditation and RA pricing for all resources including hydro and pumped storage; NYISO's capacity market is a major revenue stream for NHA members.",
+        "ai_summary": "NYISO's Installed Capacity Working Group (ICAP/MIWG/PRLWG) is meeting July 1, 2026 to discuss improvements to the ICAP Demand Curve Reset (DCR) process and methodology \u2014 a core mechanism governing how NYISO's capacity accreditation and pricing are calibrated. The DCR controls the demand-curve parameters (cone, pivots, slopes) that determine what hydro and pumped-storage resources receive in RA revenue and how much capacity the market clears. No specific proposals or deadlines are stated in this agenda excerpt, but the working group is actively revisiting the methodology, which could reshape accreditation for all resources. This is an active process to monitor for substantive proposals in follow-up materials.",
+        "topics": [
+          "capacity-ra",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Francesco Biancardi",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Julia Popova",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Michael Ferrari",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "tariff",
+        "title": "2 DADRP/DSASP Cleanup Tariff Revisions",
+        "filename": "DADRP%20DSASP%20Cleanup%20Tariff%20Revisions%20MIWG.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58403090/DADRP%20DSASP%20Cleanup%20Tariff%20Revisions%20MIWG.pdf",
+        "posted_date": "2026-06-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO tariff cleanup affecting market participation pathways for aggregations (including DER/small hydro) and energy storage resources; removes deprecated demand-reduction program language and integrates aggregations into cost-based reference-level framework, which bears on offer-development obligations and mitigation-offer rules for non-traditional participants.",
+        "ai_summary": "NYISO is cleaning up Market Services Tariff (MST) and Open Access Transmission Tariff (OATT) sections to remove obsolete language from the sunsunset Demand Aggregation/Demand Reduction Provider (DADRP) and Demand-Side Ancillary Service Provider (DSASP) programs. Key substantive change: aggregations (including small hydro and DER) are now folded into MST 23.7.3 cost-based reference-level framework, replacing a prior special exemption (MST 23.7.4) that had carved them out because NYISO previously did not calculate reference levels for demand-side resources. The removal of MST 23.7.4 means aggregations must now develop cost-based reference levels for mitigation-offer compliance, aligning them with generator standards. Other revisions correct grammatical errors, restore erroneously deleted BPCG recovery language in OATT 6.1.12, and clarify minimum-generation-bid and supplier definitions. Filing timeline: BIC discussion 7/15/2026; Market Committee vote 7/29/2026. Small hydro and distributed hydro resources participating via aggregation must monitor this closely, as it resets the compliance baseline for offer development.",
+        "topics": [
+          "hybrids-der",
+          "mitigation-offers",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Francesco Biancardi",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "3 ICAP Demand Curve Reset (DCR) Process and Methodology Improvements",
+        "filename": "DCR%20P&MI%20-%2007012026%20ICAPWG_final.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58403090/DCR%20P&MI%20-%2007012026%20ICAPWG_final.pdf",
+        "posted_date": "2026-06-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO's ICAP demand curve reset methodology directly affects capacity accreditation and pricing for all resources including hydro and pumped storage, which depend on accurate CONE (Cost of New Entry) calculations and proxy-unit definitions to determine their capacity value and revenue.",
+        "ai_summary": "NYISO is redesigning its Installed Capacity (ICAP) demand curve reset (DCR) process and cost-to-build methodology, with initial recommendations evaluated against reliability-based valuation, transparency, investment efficiency, and ease of administration. Key proposals include: using EIA overnight capital cost data to streamline cost-to-build estimates (rather than consultant-driven bottom-up approaches), codifying proxy-unit screening criteria to increase predictability, implementing more frequent indexed updates to financial parameters, and adjusting demand curve structures (kinked curves, zero-crossing informed by Minimum Reliability Index). The document is an interim presentation (July 1, 2026) building to an initial concept proposal in August and a complete market design with tariff updates by year-end. For hydro and pumped-storage owners, changes to CONE inputs and proxy-unit definitions directly affect capacity accreditation values and the price signal that drives the DCR clearing price\u2014hydro's primary revenue mechanism in NYISO; any shift toward faster reset cycles or non-consultant methodologies could increase or decrease the accuracy of cost-to-build estimates that anchor their capacity payments, and technology-prescriptive proxy choices (e.g., mandating a gas turbine) would exclude alternative dispatch profiles that might better reflect hydro's actual value.",
+        "topics": [
+          "capacity-ra",
+          "mitigation-offers"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Michael Ferrari",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "tariff",
+        "title": "2a DER Cleanup Filing Tariff",
+        "filename": "DER%20Cleanup%20Filing%20Tariff.zip",
+        "url": "https://www.nyiso.com/documents/20142/58403090/DER%20Cleanup%20Filing%20Tariff.zip",
+        "posted_date": "2026-06-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document text could not be extracted; title alone ('2a DER Cleanup Filing Tariff') does not establish relevance without substantive content confirming whether DER rules as applied to hydro/PSH participation, Order 2222 compliance, or other revenue/obligation/strategic axes are addressed.",
         "ai_summary": null,
         "topics": [],
         "issues": [],
@@ -8151,6 +8471,204 @@
     "meeting_hydro_reason": "A refresher training on WebLineR application mechanics and IT procedures is operational administration with no bearing on market design, pricing, settlement, or dispatch rules affecting hydropower revenue, compliance, or strategy.",
     "issues": [],
     "documents": []
+  },
+  {
+    "title": "Budget & Priorities Working Group",
+    "date": "2026-06-30",
+    "time": "10:00 AM - 4:00 PM",
+    "rto": "NYISO",
+    "committee": "Budget & Priorities Working Group",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/bpwg",
+    "materials_url": "https://www.nyiso.com/bpwg",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Budget & Priorities Working Group meetings typically address NYISO operational budgets, staffing, and administrative priorities rather than market-design rules affecting hydropower revenue, compliance, or strategic options.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "1 Agenda",
+        "filename": "063026%20bpwg%20agenda.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58394458/063026%20bpwg%20agenda.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a bare meeting agenda with no substantive content on market design, pricing, accreditation, participation rules, or operational standards that would affect hydropower or PSH revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Alan Ackerman",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jen Richards",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kevin Pytel",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "3b 2027 Enterprise Project Descriptions",
+        "filename": "2027%20Enterprise%20Project%20Descriptions.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58394458/2027%20Enterprise%20Project%20Descriptions.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ADVANCED STORAGE TOOL and BLACK START AUTOMATION PORTAL are enterprise projects that directly support hydro/PSH participation infrastructure and compliance obligations; RENEWABLE ENERGY FORECAST INTEGRATION affects variable hydro scheduling; SYSTEM RESOURCE PLANNING enhancements with AI capability touch interconnection process for generation (including hydro uprates); and several projects support grid operations and reliability mechanisms hydro must operate within.",
+        "ai_summary": "NYISO is planning 2027 enterprise projects (internal technology and back-office improvements, no market rule changes) that include three items material to hydro/PSH: (1) Advanced Storage Tool\u2014development of a software capability to model and manage storage operations, directly benefiting pumped-storage operators' dispatch and planning; (2) Black Start Automation Portal\u2014automating black-start capability tracking and compliance for synchronous resources including hydro units; (3) Renewable Energy Forecast Integration and Reporting Enhancements (REFIRE)\u2014improving NYISO's forecasting and reporting of variable renewable generation, which affects the reserve and ramping requirements hydro must meet and the scarcity signals hydro responds to. Additionally, System Resource Planning enhancements with AI capability are designed to improve the interconnection process, potentially reducing queue time for hydro uprates and new storage interconnections. These are \"Prioritize\" category projects expected to be included in the 2027 budget pending feasibility assessment; no formal decision or comment deadline is stated in this draft.",
+        "topics": [
+          "storage",
+          "ancillary-services",
+          "interconnection"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2b 2027 Project Prioritization Survey",
+        "filename": "2027%20Project%20Prioritization%20Survey_063026.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58394458/2027%20Project%20Prioritization%20Survey_063026.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Project 1 (5-Minute Transaction Scheduling with Hydro-Qu\u00e9bec) directly affects NYISO hydro export revenue and market-efficiency mechanisms; Projects 3\u20135 touch DER aggregation and ICAP participation rules that extend to small hydro and storage under Order 2222, and Project 2 (transparency) affects price-formation confidence critical to all resources.",
+        "ai_summary": "NYISO's Budget & Priorities Working Group is surveying stakeholders on 2027 project prioritization. Project 1 proposes five-minute transaction scheduling with Hydro-Qu\u00e9bec to improve price convergence between RTC and RTD and increase real-time flexibility; market-design work is due in 2027. Project 3 (Aggregation System Integration) seeks API-driven automation of DER enrollment and safety review to streamline FERC 2222 compliance for Member System utilities and small DER operators. Project 4 (Demand Response Baseline Alignment) will investigate rules preventing DSRs from becoming net ICAP suppliers, addressing a MMU recommendation. Project 5 (Automatic ICAP Surplus Offers) implements tariff changes to auto-resell UCAP surplus and reduce clearing prices. Survey responses due July 15, 2026; all responses will be made public.",
+        "topics": [
+          "price-formation",
+          "capacity-ra",
+          "hybrids-der"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "East Coast Power",
+            "entity": "East Coast Power",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "JERA Americas",
+            "entity": "JERA Americas",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "Anna Dziekan",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": "adziekan@nyiso.com"
+          },
+          {
+            "name": "Kevin Pytel",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": "kpytel@nyiso.com"
+          },
+          {
+            "name": "NYS UIU",
+            "entity": "NYS Utility Integration Unit",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "National Grid",
+            "entity": "National Grid",
+            "role": "sponsor",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "3 2027 Proposed Enterprise Projects Updates and Costs",
+        "filename": "2027%20Proposed%20Enterprise%20Projects%20Updates%20and%20Costs_Revised.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58394458/2027%20Proposed%20Enterprise%20Projects%20Updates%20and%20Costs_Revised.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is an internal NYISO budget and enterprise-project planning document covering IT infrastructure, facility upgrades, and administrative automation \u2014 with no bearing on hydropower revenue mechanisms, participation rules, settlement, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jennifer Richards",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2c 2027 Proposed Market Project Descriptions",
+        "filename": "2027%20%20Proposed%20Market%20Project%20Descriptions.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58394458/2027%20%20Proposed%20Market%20Project%20Descriptions.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO's 2027 market project list includes multiple initiatives affecting hydro and PSH revenue mechanisms, strategic options, and compliance obligations: capacity accreditation and RA modeling, storage-as-transmission, dynamic reserves, ancillary-service pricing, operating-reserve design, demand-curve resets, and outage scheduling.",
+        "ai_summary": "NYISO's 2027 Market Project Candidates document lists 62 proposed initiatives across four prioritization tiers (Prioritize, Mandatory, Continuing, Future). Hydro and PSH owners should track: (1) Balancing Intermittency Phase 2: Evaluating Needs for Duration in Reserves (ENDURE) \u2014 examining whether longer-duration reserve products are needed, directly relevant to PSH scheduling and RA accreditation; (2) Capacity zone redesign and locational capacity pricing enhancements \u2014 affecting where hydro gets recognized for RA; (3) Storage as Transmission \u2014 potentially enabling PSH to serve transmission functions and unlock new revenue; (4) Dynamic Reserves Phase 1 (Continuing) and Phase 2 (Prioritize) \u2014 redesigning how reserves are scheduled and cost-recovered, bearing on hydro's ancillary-service margins; (5) ICAP Demand Curve Reset methodology improvements and seasonal ICAP market improvements \u2014 updating capacity-auction parameters that determine bid acceptance and clearing prices for hydro's capacity offerings; (6) Outage scheduling enhancements, operating-reserve performance review, and fast-start pricing logic \u2014 touching dispatch and settlement rules affecting hydro's operational flexibility value. The document is a prioritization framework for budget and resource allocation; next steps and timelines are not specified within this excerpt, but member engagement through stakeholder survey is noted as ongoing.",
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "ancillary-services"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "2 2027 Proposed Market Projects Updates and Costs",
+        "filename": "2027%20Market%20Projects%20Updates%20and%20Costs_Revised.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58394458/2027%20Market%20Projects%20Updates%20and%20Costs_Revised.pdf",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO is prioritizing 61 market projects for 2027 including capacity-zone redesign, DER enhancements, storage/intermittency-duration reserves, demand-response baselining, and large-load integration \u2014 all affecting hydro and storage revenue, accreditation, and participation frameworks; the document establishes the project pipeline and stakeholder-scoring process that will shape NYISO market design through 2027.",
+        "ai_summary": "NYISO's 2027 budget and market-project prioritization process is now open for stakeholder input through a July 15, 2027 survey. The project slate includes 61 candidates (6 mandatory, 2 continuing, 42 prioritize, 11 future) spanning energy markets, capacity markets, new-resource participation, and reliability planning. Key projects directly touching hydro and storage include: Capacity Zone Redesign (SOM) [#7], Balancing Intermittency Phase 2: Evaluating Needs for Duration in Reserves (ENDURE) [#6], DER Market Enhancements [#8] (which will enable small hydro aggregation under Order 2222), and a newly mandatory FERC Order on Large Loads project that eliminates and absorbs three related projects (Reliability Planning & Large Load Integration [#32], DER Market Enhancements [#8], and Flexible Load Models\u2014Large Loads [#16]). The FERC order's treatment of large-load interconnection, frequency support, and flexible supply will reshape the incentive for hydro participation. Weighted stakeholder scores (voting members only, governance-weighted by sector, with Generation Owner and Other Supplier each at 21.5%) will drive prioritization at the July 30 BPWG meeting, leading to Board approval in December 2026. Comments are due July 15, 2027.",
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "ramping-flexibility"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Anna Dziekan",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": "adziekan@nyiso.com"
+          },
+          {
+            "name": "Kevin Pytel",
+            "entity": "NYISO",
+            "role": "presenter, contact",
+            "email": "kpytel@nyiso.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2a Project Prioritization MP List",
+        "filename": "BPWG%20Report%202027%20-%20Project%20Prioritization%20MP%20List.xlsx",
+        "url": "https://www.nyiso.com/documents/20142/58394458/BPWG%20Report%202027%20-%20Project%20Prioritization%20MP%20List.xlsx",
+        "posted_date": "2026-06-25",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document metadata indicates a project prioritization list from NYISO's internal Budget & Priorities Working Group with no extracted text content; unable to assess whether the prioritized projects touch hydropower revenue, compliance obligations, or strategic options without substantive content.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "PRTMDW Meeting",
@@ -15238,13 +15756,71 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "vote",
+        "title": "Final Motions",
+        "filename": "062426%20MC%20Final%20Motions.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58309806/062426%20MC%20Final%20Motions.pdf",
+        "posted_date": "2026-06-24",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Motion #4 approves the 2025-2044 System & Resource Outlook, a long-range adequacy and resource planning study that shapes NYISO capacity/RA policy, transmission needs, and seasonal energy-sufficiency outlooks\u2014foundational inputs to hydro fleet valuation, accreditation, and retirement/mothballing decisions.",
+        "ai_summary": "The NYISO Management Committee unanimously approved the draft 2025-2044 System & Resource Outlook on June 24, 2026, following stakeholder review at prior ESPWG (Electricity System Planning Working Group) and TPAS (Transmission Planning Advisory Subcommittee) meetings and Business Issues Committee recommendation on June 10. The Outlook is a 19-year resource adequacy and transmission-planning forecast used to drive NYISO capacity market design, seasonal energy-sufficiency assessments, and infrastructure investment priorities. Hydro owners in NYISO should review this document to understand how their resources are modeled in the long-term adequacy baseline (seasonal accreditation assumptions, drought-stress scenarios, availability profiles) and how the Outlook's transmission and resource-mix conclusions may affect market scarcity signals, RA penalties, and the valuation of dispatchable/storage capacity relative to new renewables and storage.",
+        "topics": [
+          "capacity-ra",
+          "transmission",
+          "water-hydrology"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Tim Daly",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "7a 2025-2044 System Resource Outlook Draft Report - Revised",
+        "filename": "2025-2044_System_Resource_Outlook_Draft_Report_revised.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58309806/2025-2044_System_Resource_Outlook_Draft_Report_revised.pdf",
+        "posted_date": "2026-06-16",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Twenty-year resource and transmission outlook directly shapes hydro's strategic options through demand growth, large-load interconnection patterns, interregional transfer capability, fossil-retirements scenarios, and Quebec hydropower interchange\u2014all central to hydro revenue sustainability and portfolio positioning.",
+        "ai_summary": "NYISO's 2025\u20132044 System & Resource Outlook (draft for Management Committee discussion June 24, 2026) models New York's generation and transmission evolution across policy and demand scenarios to 2044. Key findings: growing peak and energy demand, emergence of large loads as significant growth driver, widespread fossil retirements accelerating, and substantial transmission needs\u2014especially Central East congestion and renewable-pocket curtailment\u2014all shape where and when new capacity (including hydro imports from Quebec) is economically viable. The outlook explicitly evaluates Quebec hydropower interchange availability and its system-flexibility impact, directly affecting the value of interregional hydro flows into NYISO. Most relevant to hydro owners are the demand-growth projections, large-load co-location patterns, transmission-congestion forecasts (which determine export/import economics), and scenarios testing new nuclear and offshore wind arrival\u2014all of which reset the scarcity and locational signals hydro responds to in energy and capacity markets.",
+        "topics": [
+          "transmission",
+          "load-growth",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "7b 2025-2044 System Resource Outlook Draft Report redline - Revised",
+        "filename": "2025-2044_System_Resource_Outlook_Draft_Report_revised_redline.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58309806/2025-2044_System_Resource_Outlook_Draft_Report_revised_redline.pdf",
+        "posted_date": "2026-06-16",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO's 20-year resource and transmission outlook directly informs hydro's strategic options\u2014load growth, resource adequacy constructs, transmission constraints affecting deliverability, large-load interconnection (data centers), and interregional flows with Qu\u00e9bec hydro\u2014and shapes how much capacity value existing hydro will capture.",
+        "ai_summary": "NYISO's 2025\u20132044 System & Resource Outlook (draft for June 24, 2026 Management Committee discussion) projects substantial transmission and generation investment needs driven by demand growth, fossil retirements, and zero-emissions policy targets. The outlook models four scenarios with varying demand futures (95x and 100x2044 load cases) and policy stringency, examining resource mix, zonal concentration, and transmission congestion\u2014particularly Central East bottlenecks\u2014through 2044. Load growth emerges as a significant constraint driver, with large loads (data centers) cited as a new demand source, and interregional flows with Hydro-Qu\u00e9bec are flagged as affecting \"system flexibility and risk.\" For hydro owners, this frames the scarcity backdrop (tightened supply conditions drive higher downstate payments) and identifies where transmission limits will compress their deliverability to load centers; it also quantifies the scale of renewable and nuclear build-out that will compete for transmission headroom and RA accreditation. The document is in draft status for committee discussion with no stated vote date or comment deadline in the excerpt.",
+        "topics": [
+          "load-growth",
+          "transmission",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
   {
     "title": "Budget & Priorities Working Group",
     "date": "2026-06-24",
-    "time": "1:00 PM - 4:00 PM",
+    "time": "12:30 PM - 2:00 PM",
     "rto": "NYISO",
     "committee": "Budget & Priorities Working Group",
     "source_url": "https://www.nyiso.com/committees",
@@ -15466,6 +16042,30 @@
             "name": "NYS UIU",
             "entity": "New York State Utility Issues Unit",
             "role": "sponsor",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "proposal",
+        "title": "2 Qualifications for Capacity Imports from ISO-NE - LIPA Project Proposal",
+        "filename": "LIPA%20External%20Capacity%20CETICZ%20Presentation.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58330292/LIPA%20External%20Capacity%20CETICZ%20Presentation.pdf",
+        "posted_date": "2026-06-24",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAPACITY-RA MECHANISM: NYISO's categorical disqualification of ISO-NE capacity imports based on Connecticut's import-constrained-zone (ICZ) status directly affects which external hydro and thermal resources can qualify for ICAP accreditation in Zone K; the proposed Manual amendment would restore eligibility for ISO-NE resources (including hydro) whose deliverability transits constrained zones, preserving multi-year contracting certainty and the value of existing ISO-NE import pathways as least-cost capacity procurement.",
+        "ai_summary": "LIPA proposes an FY2027 NYISO Market Project to amend ICAP Manual \u00a74.9.3.2(iii) to create a durable eligibility pathway for ISO-NE capacity imports to Zone K, addressing a collision between ISO-NE's planned elimination of the Capacity Export Through Import-Constrained Zones (CETICZ) mechanism and NYISO's categorical disqualification of resources in zones separated from the NYCA by constrained zones. Under current Path B rules, Cross Sound Cable (HVDC) and Northport\u2013Norwalk Harbor Cable imports from Rest-of-Pool are automatically disqualified whenever Connecticut is modeled as an ICZ, regardless of actual price separation, and ISO-NE's transition to a prompt (1-month-ahead) capacity auction removes the ~3-year forward visibility that previously allowed hedging of this risk. LIPA seeks rolling documentation rules, seasonal CSO-netting stabilization, and grandfathering of existing contracts to preserve external ICAP eligibility and multi-year contracting certainty, noting that NYISO already accepts PJM imports under facility-level deliverability tests rather than categorical zonal exclusions. No vote date or comment deadline is stated; the request is for stakeholder support to designate this as an FY2027 project. Most directly exposed are LIPA and Zone K load-serving entities relying on ISO-NE capacity imports, and any generator (hydro, thermal, or storage) seeking to export from ISO-NE Rest-of-Pool or constrained zones into NYCA.",
+        "topics": [
+          "capacity-ra",
+          "seams-governance",
+          "interconnection"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Aaron Breidenbaugh",
+            "entity": "PSEG-LI & LIPA",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -16459,6 +17059,46 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "02 Moody's Analytics - National Economic Outlook",
+        "filename": "US0626.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58321015/US0626.pdf",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a macroeconomic outlook document with no direct bearing on hydropower revenue streams, market-design obligations, or strategic options; it addresses general economic conditions (GDP growth, inflation, unemployment, consumer sentiment, housing, equity valuations) with no specific nexus to hydro generation, ancillary services, capacity accreditation, storage participation rules, or transmission/seams governance.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Adam Kamins",
+            "entity": "Moody's Analytics",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "03 Moody's Analytics - New York State Outlook",
+        "filename": "NY0626.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58321015/NY0626.pdf",
+        "posted_date": "2026-06-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a macroeconomic outlook (employment, tourism, housing, venture capital) with no bearing on hydropower revenue streams, compliance obligations, or strategic market options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Adam Kamins",
+            "entity": "Moody's Analytics",
+            "role": "author",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -16657,7 +17297,7 @@
   {
     "title": "Installed Capacity Working Group",
     "date": "2026-06-22",
-    "time": "10:00 AM - 4:00 PM",
+    "time": "10:00 AM - 2:00 PM",
     "rto": "NYISO",
     "committee": "Installed Capacity Working Group",
     "source_url": "https://www.nyiso.com/committees",
@@ -16830,6 +17470,84 @@
         ],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "3 External SRE Opportunity Cost & Penalty - Revised",
+        "filename": "External%20SRE%20Opportunity%20Cost%20&%20Penalties_0622MIWG_final_revised.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58312138/External%20SRE%20Opportunity%20Cost%20&%20Penalties_0622MIWG_final_revised.pdf",
+        "posted_date": "2026-06-16",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO proposal to cap opportunity-cost recovery and strengthen defection penalties for external ICAP suppliers affects how hydro and other dispatchable resources located outside NY (notably in PJM or ISO-NE) value their NYISO capacity obligations and manage the trade-off between NYISO SRE calls and higher-priced neighboring-market opportunities \u2014 a direct revenue and strategic participation lever for multi-region hydro portfolios.",
+        "ai_summary": "NYISO proposes to cap opportunity-cost recovery for external ICAP suppliers responding to Supplemental Resource Evaluations (SREs) at the applicable proxy-bus LBMP, excluding ATC interface congestion, and to add FERC referral as a sanction for suppliers that defect to sell energy elsewhere during an SRE obligation. Currently, external suppliers can claim any opportunity costs; the proposal aligns external cost recovery more closely to internal reliability-commitment rules (startup, minimum generation) and removes the subsidy for selling at neighboring-market prices. Status: draft for ICAPWG/MIWG discussion; next step is stakeholder feedback and return with tariff/manual language (no deadline stated). External ICAP suppliers \u2014 especially multi-region hydropower and gas operators serving NYISO capacity markets from PJM, ISO-NE, or IESO \u2014 face lower opportunity-cost compensation in high-priced hours in neighboring control areas, reducing the financial benefit of maintaining NYISO ICAP obligations; simultaneously, the threat of FERC referral for non-compliance strengthens the incentive to answer SREs even when outside-market prices spike.",
+        "topics": [
+          "capacity-ra",
+          "mitigation-offers",
+          "price-formation"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Myott",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "6 Seasonal TSL Floor Kick Off",
+        "filename": "Seasonal%20TSL%20Floor%20Kickoff%20-%2006222026%20ICAWPG.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58312138/Seasonal%20TSL%20Floor%20Kickoff%20-%2006222026%20ICAWPG.pdf",
+        "posted_date": "2026-06-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO's seasonal TSL floor methodology directly affects ICAP accreditation and capacity requirements for all resources including hydro and storage, with implications for winter peak conditions and derating factors for limited-control run-of-river hydro.",
+        "ai_summary": "NYISO is implementing seasonal Transmission Security Limit (TSL) floor values as part of its Winter Reliability Capacity Enhancements proposal (filed with FERC February 18, 2026, Docket ER26-1431, effective date requested June 28, 2026, for 2027-2028 capability year onward). The seasonal methodology will replace annual calculations with winter- and summer-specific peak loads, bulk transmission limits, equipment ratings, and derating factors. Critically, NYISO proposes to include winter performance data for Limited Control Run of River hydro resources in the seasonal derating factor calculation and will establish winter-specific Special Case Resource (SCR) enrollment, which raises the ICAP addback component. The document indicates that 5-year derating factors will consider winter EFORd for thermal units and seasonal adjustments for intermittent and run-of-river hydro per updated ICAP Manual Attachment N (revised June 2026), and that seasonal External Unforced Deliverability Rights (UDR) elections would be implemented starting 2027-2028. Pumped storage and battery-based energy storage resources (ESRs) currently face no specific UCAP duration-limit adjustment in the TSL floor calculation, though the document notes ESRs are modeled in resource adequacy with full availability subject to duration limits. Run-of-river hydro owners should monitor the winter derating factor methodology to understand how winter-season performance data may reduce their seasonal ICAP accreditation; reservoir and pumped-storage operators should track the seasonal UDR election framework and any future ESR adjustments proposed.",
+        "topics": [
+          "capacity-ra",
+          "water-hydrology",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Keegan Guinn",
+            "entity": "NYISO",
+            "role": "author | presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "5 Transmission Security Background",
+        "filename": "TSL%20Background%20-%2006222026%20ICAPWG.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58312138/TSL%20Background%20-%2006222026%20ICAPWG.pdf",
+        "posted_date": "2026-06-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO's derating-factor methodology and transmission-security-assessment practices directly affect ICAP accreditation for all generators including hydropower, and the document addresses seasonal EFORd calculations and limited-control run-of-river hydro treatment in capacity-adequacy studies.",
+        "ai_summary": "NYISO staff present transmission-security assessment background and derating-factor recommendations for the Installed Capacity market, including treatment of seasonal forced outage rates (EFORd) for thermal units and reference to run-of-river hydro derating under ICAP Manual Attachment N. The document identifies a methodological gap: 5-year seasonal EFORd averages understate zonal derating factors by roughly 2% compared to 5-year continuous EFORd, and NYISO recommends developing an automated tool to support multi-year continuous seasonal EFORd calculations. The implications for hydro are indirect but material\u2014derating factors determine Locational Minimum Installed Capacity Requirements (LCRs) that shape the ICAP demand curve and pricing hydro and other resources bid into. Run-of-river resources are explicitly noted as following Attachment N methodology, though the document does not propose changes to that treatment in this June 2026 working-group meeting.",
+        "topics": [
+          "capacity-ra",
+          "ops-compliance",
+          "water-hydrology"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ross Altman",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Yvonne Huang",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -17293,6 +18011,40 @@
         "hydro_relevant": true,
         "hydro_relevance_reason": "NYISO's ICAP Manual governs capacity accreditation, duration-adjustment factors, and reporting requirements that directly affect how hydropower and pumped-storage resources are valued and compensated in NYISO's capacity market.",
         "ai_summary": "NYISO's draft Installed Capacity (ICAP) Manual 17.0, effective April 2, 2026, specifies minimum capacity requirements, unforced-capacity calculations, and resource-specific test conditions and reporting obligations for all capacity suppliers. The manual explicitly addresses energy-limited resources (including hydro), co-located storage resources (directly relevant to PSH), duration-adjustment factors, and DER aggregations. Sections 4.1.1 and 4.1.4 detail Energy Duration Limitations and Duration Adjustment Factors for installed-capacity suppliers and co-located storage; Section 4.2 governs Demonstrated Maximum Net Capability (DMNC) testing that determines hydro's accredited capacity; and Section 4.4 establishes monthly operating-data reporting requirements (including intermittent power resources and energy-limited resources). The document is in draft for discussion at the Business Issues Committee (BIC) meeting on June 18, 2026, following circulation at the June 9, 2026 ICAPWG meeting (yellow-highlighted changes noted). Hydro and PSH owners need to review the updated duration-adjustment methodology, DMNC test procedures, and state-of-charge rules for co-located storage to confirm accreditation treatment and compliance deadlines.",
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "vote",
+        "title": "Final Motion",
+        "filename": "BIC%20final%20Motion.WRCE.June18.2026.pdf",
+        "url": "https://www.nyiso.com/documents/20142/58264153/BIC%20final%20Motion.WRCE.June18.2026.pdf",
+        "posted_date": "2026-06-18",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO is approving installed capacity manual revisions for seasonal capacity accreditation elections and must-offer requirements affecting hydro and storage resource participation and revenue obligations.",
+        "ai_summary": "NYISO's Business Issues Committee approved on June 18, 2026 revisions to the Installed Capacity Manual implementing Winter Reliability Capacity Enhancements, specifically addressing seasonal UDR/EDR (Unforced Demand Response / Equivalent Demand Response) elections and must-offer requirements (FERC Docket ER26-1431). The revisions change the rules governing when and how capacity resources, including hydropower and pumped storage, must be available and offer energy during winter scarcity periods \u2014 affecting both their accreditation methodology and their operational obligations. The approval is conditional on FERC acceptance of the filing; if FERC rejects the proposal, the manual revisions will be rescinded without further action. Most exposed are owners with winter-dependent capacity portfolios and PSH facilities subject to new seasonal election and dispatch mechanics.",
+        "topics": [
+          "capacity-ra",
+          "ops-compliance",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "2c Draft ICAP Manual edited during BIC",
+        "filename": "ICAP%20Manual%20edited%20during%206.18.2026BIC(single%20redline).pdf",
+        "url": "https://www.nyiso.com/documents/20142/58264153/ICAP%20Manual%20edited%20during%206.18.2026BIC(single%20redline).pdf",
+        "posted_date": "2026-06-18",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO's ICAP Manual revision defines unforced-capacity accreditation, duration-adjustment factors, and participation rules for energy-limited resources (hydro) and co-located storage\u2014direct determinants of how much capacity hydro and pumped-storage plants can sell and at what revenue.",
+        "ai_summary": "NYISO has issued a draft ICAP (Installed Capacity) Manual 04, effective April 2, 2026, for BIC (Business Issues Committee) discussion and acceptance. The manual governs how much unforced capacity hydro, pumped storage, and other resources can supply to the NYCA, including duration-adjustment factors for energy-limited resources (\u00a74.1.1), co-located storage provisions (\u00a74.1.4), and DMNC/DMGC testing procedures (\u00a74.2). Hydro and PSH owners must comply with operating-data reporting (\u00a74.4), bidding/scheduling (\u00a74.8.7 for co-located storage), and maintenance-scheduling rules; the manual sets the technical and temporal basis for their capacity accreditation and revenue in NYISO's ICAP auctions. The document is in draft form and was under BIC discussion as of June 18, 2026\u2014no comment deadline or vote date is stated in this excerpt.",
         "topics": [
           "capacity-ra",
           "storage",
