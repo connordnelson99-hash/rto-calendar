@@ -322,6 +322,123 @@
     "documents": []
   },
   {
+    "title": "Operational Planning Studies User Group (OPSUG) - July 22, 2026",
+    "date": "2026-07-22",
+    "time": "9:00 AM - 12:00 PM",
+    "rto": "MISO",
+    "committee": "Operational Planning Studies User Group",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/ce3b1e377a9545f39ac0d8410a18e037.aspx",
+    "materials_url": "https://www.misoenergy.org/link/ce3b1e377a9545f39ac0d8410a18e037.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Operational Planning Studies User Group meetings typically focus on technical modeling, forecasting methodology, and study administration rather than market-design mechanisms that affect hydro revenue, compliance obligations, or strategic participation options.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Planning Subcommittee (PSC) - July 22, 2026",
+    "date": "2026-07-22",
+    "time": "9:00 AM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Planning Subcommittee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/a2718d93146342eeb5637f0c7735a8b7.aspx",
+    "materials_url": "https://www.misoenergy.org/link/a2718d93146342eeb5637f0c7735a8b7.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Planning Subcommittee addresses transmission planning, resource adequacy, and interconnection issues that directly affect hydropower deliverability, interconnection queues, and strategic positioning in MISO's footprint.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20260722 PSC Item 01c Minutes 20260610",
+        "filename": "20260722 PSC Item 01c Minutes 20260610.pdf",
+        "url": "https://cdn.misoenergy.org/20260722%20PSC%20Item%2001c%20Minutes%2020260610764879.pdf",
+        "posted_date": "2026-06-17",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's proposal to remove storage charging limitations in generator interconnection agreements (PAC-2024-3) directly affects pumped-storage hydropower's operational flexibility and revenue optionality by allowing charging across all dispatch phases rather than restricting it to specific windows.",
+        "ai_summary": "MISO updated its proposal regarding charging limits for storage units in generation interconnection studies, replacing the Summer Shoulder charging case with a Light Load charging case to permit storage to charge across multiple dispatch phases while remaining subject to violation-based limits from DPP analysis. The revised BPM-015 updates are targeted for effectiveness prior to DPP 2026 kick-off (status: pending July Planning Advisory Committee approval). For pumped-storage operators, this expands the hours and conditions under which they can charge without contractual restrictions, improving their ability to arbitrage between low and high prices and optimize state-of-charge management\u2014though charging remains subject to reliability-driven limits. Separately, MISO invited feedback (due June 26, 2026) on replacing the 2-Year Light Load, 0% wind MTEP scenario with a 2-Year Winter Peak, Low wind case; stakeholders raised concerns about how batteries are modeled under light load sensitivities, indicating sensitivity assumptions may affect resource adequacy accreditation.",
+        "topics": [
+          "storage",
+          "capacity-ra",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Eileen King",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Grant Larson",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Greg Plauck",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joe Dunn",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "RaeLynn Asah",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Scott Goodwin",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Patrick Jehring",
+            "entity": "NextEra",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "PDCWG Meeting",
+    "date": "2026-07-22",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Performance, Disturbance, Compliance Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/07222026-PDCWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/07222026-PDCWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Performance, Disturbance, Compliance Working Group meetings typically address routine operational compliance, incident reviews, and technical standards that do not directly engage market-design mechanisms (price formation, ancillary-service procurement, capacity accreditation, storage participation rules) or strategic options relevant to hydro and PSH operators, and ERCOT has negligible hydropower fleet to benchmark against.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "CFSG Meeting",
+    "date": "2026-07-22",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Credit Finance Sub Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/07222026-CFSG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/07222026-CFSG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Credit and finance sub-group meetings address settlement administration and credit policies, which fall outside the market-design axes (revenue mechanisms, compliance obligations, and strategic options) that affect hydro and PSH operations.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Joint WRWG-WREC Net Conference 20260721",
     "date": "2026-07-21",
     "time": "9:00 AM - 6:00 PM CT",
@@ -979,6 +1096,83 @@
             "name": "Jacob Krouse",
             "entity": "MISO",
             "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "20260713 SGWG Item 03 MISO AI Summary Pilot Program Update",
+        "filename": "20260713 SGWG Item 03 MISO AI Summary Pilot Program Update.pdf",
+        "url": "https://cdn.misoenergy.org/20260713%20SGWG%20Item%2003%20MISO%20AI%20Summary%20Pilot%20Program%20Update767222.pdf",
+        "posted_date": "2026-07-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is an administrative report on MISO's internal AI transcription pilot program for stakeholder meetings \u2014 it addresses RTO operations and process management, not market design, revenue mechanisms, compliance obligations, or strategic options affecting hydro or PSH owners.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260713 SGWG Item 02 SGG Redlines",
+        "filename": "20260713 SGWG Item 02 SGG_Redlines.pdf",
+        "url": "https://cdn.misoenergy.org/20260713%20SGWG%20Item%2002%20SGG_Redlines767192.pdf",
+        "posted_date": "2026-07-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses MISO stakeholder governance procedures (leadership elections, voting mechanics, proxy rules) with no bearing on hydropower revenue streams, operational compliance obligations, or strategic market-design options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260713 SGWG Item 01c Action Items",
+        "filename": "20260713 SGWG Item 01c Action Items.pdf",
+        "url": "https://cdn.misoenergy.org/20260713%20SGWG%20Item%2001c%20Action%20Items767190.pdf",
+        "posted_date": "2026-07-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a stakeholder governance procedural document tracking internal meeting action items (leadership election language, governance redlines) with no bearing on hydropower or PSH revenue mechanisms, operating obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260713 SGWG Item 01d Management Plan",
+        "filename": "20260713 SGWG Item 01d Management Plan.pdf",
+        "url": "https://cdn.misoenergy.org/20260713%20SGWG%20Item%2001d%20Management%20Plan767191.pdf",
+        "posted_date": "2026-07-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a procedural governance document describing SGWG's internal meeting schedule, leadership structure, and administrative tasks (charter review, lesson-learned collection) with no bearing on market design, revenue mechanisms, compliance obligations, or strategic options affecting hydropower or pumped-storage operations.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Dana Cochran",
+            "entity": "MISO",
+            "role": "liaison",
+            "email": null
+          },
+          {
+            "name": "Eileen King",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Chris Plante",
+            "entity": "MISO Stakeholder Governance Working Group",
+            "role": "vice chair",
+            "email": null
+          },
+          {
+            "name": "Ray McCausland",
+            "entity": "MISO Stakeholder Governance Working Group",
+            "role": "chair",
             "email": null
           }
         ]
@@ -13974,7 +14168,7 @@
     "date": "2026-06-25",
     "time": "2:00 PM",
     "rto": "ERCOT",
-    "committee": "Dynamics Working Group",
+    "committee": "Retail Market Subcommittee",
     "source_url": "https://www.ercot.com/calendar",
     "detail_url": "https://www.ercot.com/calendar/06252026-Batch-Zero-Weekly-Readiness",
     "materials_url": "https://www.ercot.com/calendar/06252026-Batch-Zero-Weekly-Readiness",
@@ -71857,5 +72051,19 @@
         "stakeholders": []
       }
     ]
+  },
+  {
+    "title": "MCUF Face-To-Face",
+    "date": "2026-01-00",
+    "time": "9:00 AM - 3:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Change User Forum",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-change-user-forum-face-to-face-202601006/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=506338",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A Markets+ Change User Forum meeting focused on operational procedures and system logistics is unlikely to address revenue, compliance, or strategic market-design mechanisms that directly affect hydro operators.",
+    "issues": [],
+    "documents": []
   }
 ]
