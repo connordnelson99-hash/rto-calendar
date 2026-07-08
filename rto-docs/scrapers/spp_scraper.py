@@ -219,15 +219,20 @@ class SPPScraper(BaseRTOScraper):
 
         meetings = []
         for detail_url, info in raw.items():
+            detail = self._fetch_detail(detail_url)
+
+            # Date precedence: slug digits (only source that encodes multi-day
+            # ranges) -> detail page's TIME field -> events-list day header.
+            # The latter two cover slugs whose digits aren't a real date.
             date_set = self._dates_from(info["slug"])
             meeting_date = (
-                min(date_set) if date_set else info["header_date"]
+                min(date_set) if date_set
+                else detail.get("date") or info["header_date"]
             )
             if not meeting_date:
                 continue
             meeting_date = self._compact_to_iso(meeting_date)
 
-            detail = self._fetch_detail(detail_url)
             committee = detail.get("committee") or self._committee_from_slug(
                 info["slug"]
             )
@@ -303,15 +308,22 @@ class SPPScraper(BaseRTOScraper):
             out["location"] = phone.get_text(" ", strip=True) or None
 
         # TIME: value -> "December 18, 2025 10:00AM - 12:00PM"
+        # The leading "Month D, YYYY" is the meeting date straight from SPP's
+        # CMS — the fallback source when the slug's digits aren't a real date
+        # (see _dates_from). Kept compact (YYYYMMDD) like header_date.
         for desc in soup.select(".event-desc"):
             label = desc.select_one(".label")
             if label and label.get_text(strip=True).upper().startswith("TIME"):
                 if "ZONE" in label.get_text(strip=True).upper():
                     continue
                 value = desc.select_one(".value")
-                m = _TIME_RANGE_RE.search(value.get_text(" ", strip=True)) if value else None
+                vtext = value.get_text(" ", strip=True) if value else ""
+                m = _TIME_RANGE_RE.search(vtext)
                 if m:
                     out["time"] = self._tidy_time(m.group(0)) + " CT"
+                d = self._parse_header_date(vtext)
+                if d:
+                    out["date"] = d
                 break
 
         folders = []
@@ -633,17 +645,32 @@ class SPPScraper(BaseRTOScraper):
     @staticmethod
     def _dates_from(text):
         """Compact YYYYMMDD dates in a slug/filename, expanding ranges like
-        20260127-28 -> {20260127, 20260128}. Returns a set of 8-char strings."""
-        out = set()
+        20260127-28 -> {20260127, 20260128}. Returns a set of 8-char strings.
+
+        Only real calendar dates survive: SPP occasionally emits slugs whose
+        digit run is NOT a date — e.g. marketsplus-change-user-forum-
+        face-to-face-202601006 (a 9-digit run for an Oct 6, 2026 meeting),
+        which the regex bites into as 20260100, day zero. That once shipped
+        meeting_date "2026-01-00" and crashed the web calendar's date math.
+        Invalid candidates are dropped so callers fall back to the detail
+        page / events-list header date instead."""
+        candidates = set()
         for m in _DATE8_RE.finditer(text):
             start = m.group(1)
-            out.add(start)
+            candidates.add(start)
             tail = m.group(2)
             if tail:
                 if len(tail) == 2:      # day only, same year+month
-                    out.add(start[:6] + tail)
+                    candidates.add(start[:6] + tail)
                 elif len(tail) == 4:    # month+day, same year
-                    out.add(start[:4] + tail)
+                    candidates.add(start[:4] + tail)
+        out = set()
+        for d in candidates:
+            try:
+                datetime.strptime(d, "%Y%m%d")
+            except ValueError:
+                continue
+            out.add(d)
         return out
 
     def _file_matches(self, filename, meeting_iso_dates):

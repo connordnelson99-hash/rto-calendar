@@ -42,6 +42,16 @@
     return d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
   }
 
+  // A scraped date is only usable if it's yyyy-mm-dd AND a real calendar day.
+  // Feed rows occasionally carry garbage (e.g. SPP slug "202601006" once
+  // parsed to "2026-01-00"); an invalid date reaching isoWeekStart/addDaysIso
+  // throws "Invalid time value" and blanks the whole calendar, so events with
+  // unusable dates are dropped instead (see buildEvent).
+  function isValidIsoDate(iso) {
+    if (typeof iso !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(iso)) return false;
+    return !Number.isNaN(new Date(iso + "T12:00:00").getTime());
+  }
+
   // ISO Monday of the week containing iso (yyyy-mm-dd in).
   function isoWeekStart(iso) {
     const d = new Date(iso + "T12:00:00");
@@ -177,6 +187,13 @@
     const rto = raw.rto || "Other";
     const rtoMeta = RTO_META[rto] || RTO_META.Other;
 
+    // Unusable date → null, so the .filter(e => e.date) in buildMarketsData
+    // drops this event instead of letting it crash the date math downstream.
+    const date = isValidIsoDate(raw.date) ? raw.date : null;
+    if (raw.date && !date) {
+      console.warn(`RTO Calendar: dropping event with invalid date ${JSON.stringify(raw.date)}: ${raw.title}`);
+    }
+
     const documents = (raw.documents || []).map((d, i) => {
       const issues = (d.issues || []).map(s => resolveIssue(s, issuesByKey));
       return {
@@ -227,10 +244,10 @@
     let timeFmt = null;
     let timeZoneShort = null;
     let sourceTimeFmt = null;
-    if (parsed && sourceTz && raw.date) {
-      const utcStart = wallToUtc(raw.date, parsed.startH, parsed.startM, sourceTz);
+    if (parsed && sourceTz && date) {
+      const utcStart = wallToUtc(date, parsed.startH, parsed.startM, sourceTz);
       const utcEnd = parsed.endH != null
-        ? wallToUtc(raw.date, parsed.endH, parsed.endM, sourceTz)
+        ? wallToUtc(date, parsed.endH, parsed.endM, sourceTz)
         : null;
       time24 = fmtClock24(utcStart, USER_TZ);
       timeFmt = fmtRange(utcStart, utcEnd, USER_TZ);
@@ -248,8 +265,8 @@
     return {
       id: String(idx),
       title: raw.title,
-      date: raw.date,
-      dateRaw: formatDateLong(raw.date),
+      date,
+      dateRaw: formatDateLong(date),
       time: time24,
       timeFmt,
       timeZoneShort,
