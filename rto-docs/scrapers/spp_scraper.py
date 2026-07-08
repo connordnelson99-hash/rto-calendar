@@ -307,24 +307,36 @@ class SPPScraper(BaseRTOScraper):
         if phone:
             out["location"] = phone.get_text(" ", strip=True) or None
 
-        # TIME: value -> "December 18, 2025 10:00AM - 12:00PM"
-        # The leading "Month D, YYYY" is the meeting date straight from SPP's
-        # CMS — the fallback source when the slug's digits aren't a real date
-        # (see _dates_from). Kept compact (YYYYMMDD) like header_date.
+        # TIME:      "December 18, 2025 10:00AM - 12:00PM"
+        #            (the leading "Month D, YYYY" is the meeting date straight
+        #            from SPP's CMS — the fallback source when the slug's
+        #            digits aren't a real date; kept compact like header_date)
+        # TIME ZONE: "(UTC-06:00) Central Time (US & Canada)"
+        #            (usually Central, but NOT always — e.g. meetings at the
+        #            Denver office are Mountain — so the tag we append to the
+        #            time comes from this field, defaulting to CT)
+        time_str = None
+        zone_tag = None
         for desc in soup.select(".event-desc"):
             label = desc.select_one(".label")
-            if label and label.get_text(strip=True).upper().startswith("TIME"):
-                if "ZONE" in label.get_text(strip=True).upper():
-                    continue
-                value = desc.select_one(".value")
-                vtext = value.get_text(" ", strip=True) if value else ""
-                m = _TIME_RANGE_RE.search(vtext)
-                if m:
-                    out["time"] = self._tidy_time(m.group(0)) + " CT"
-                d = self._parse_header_date(vtext)
-                if d:
-                    out["date"] = d
-                break
+            if not label:
+                continue
+            ltext = label.get_text(strip=True).upper()
+            if not ltext.startswith("TIME"):
+                continue
+            value = desc.select_one(".value")
+            vtext = value.get_text(" ", strip=True) if value else ""
+            if "ZONE" in ltext:
+                zone_tag = self._zone_tag(vtext)
+                continue
+            m = _TIME_RANGE_RE.search(vtext)
+            if m:
+                time_str = self._tidy_time(m.group(0))
+            d = self._parse_header_date(vtext)
+            if d:
+                out["date"] = d
+        if time_str:
+            out["time"] = f"{time_str} {zone_tag or 'CT'}"
 
         folders = []
         for a in soup.select(".document-list a[href]"):
@@ -708,6 +720,18 @@ class SPPScraper(BaseRTOScraper):
     def _tidy_time(raw):
         """'10:00AM - 12:00PM' -> '10:00 AM - 12:00 PM'."""
         return re.sub(r"(?i)(\d)\s*([AP]M)", r"\1 \2", raw).strip()
+
+    @staticmethod
+    def _zone_tag(tz_text):
+        """SPP 'TIME ZONE:' value -> short tag the web UI can convert from
+        ('(UTC-07:00) Mountain Time (US & Canada)' -> 'MT'). Defaults to CT
+        (SPP HQ) when the field is missing or names no US zone."""
+        t = (tz_text or "").lower()
+        for name, tag in (("mountain", "MT"), ("pacific", "PT"),
+                          ("eastern", "ET"), ("central", "CT")):
+            if name in t:
+                return tag
+        return "CT"
 
     def _track_rto(self, committee, slug, wg_url):
         """Classify a Western meeting into its UI track. Markets+ groups are

@@ -62,9 +62,11 @@
   }
 
   // Each RTO publishes meeting times in its own local zone (CAISO=PT,
-  // PJM/NYISO/ISO-NE/FERC=ET, MISO/SPP/ERCOT=CT). The scraped `time`
-  // string carries no zone, so we tag the source zone here and convert
-  // to the viewer's local zone at render time.
+  // PJM/NYISO/ISO-NE/FERC=ET, MISO/SPP/ERCOT=CT). Most scraped `time`
+  // strings carry no zone, so we tag the source zone here and convert
+  // to the viewer's local zone at render time. When the string DOES end
+  // in a zone tag (SPP appends one — usually CT, but e.g. meetings at
+  // its Denver office are MT), that tag wins over this table.
   const RTO_SOURCE_TZ = {
     PJM:             "America/New_York",
     NYISO:           "America/New_York",
@@ -79,6 +81,23 @@
     ERCOT:           "America/Chicago",
     // Other: unknown — leave display as scraped.
   };
+
+  // Zone tags a scraped time string may end with ("9:00 AM - 3:00 PM MT").
+  const ZONE_TAG_TZ = {
+    ET: "America/New_York",    EST: "America/New_York",    EDT: "America/New_York",
+    CT: "America/Chicago",     CST: "America/Chicago",     CDT: "America/Chicago",
+    MT: "America/Denver",      MST: "America/Denver",      MDT: "America/Denver",
+    PT: "America/Los_Angeles", PST: "America/Los_Angeles", PDT: "America/Los_Angeles",
+  };
+  const ZONE_TAG_RE = /\b([ECMP][SD]?T)\b\.?/gi;
+
+  // IANA zone for the tag embedded in a time string, or null if untagged.
+  function zoneTagTz(t) {
+    const m = t ? String(t).match(ZONE_TAG_RE) : null;
+    if (!m) return null;
+    const tag = m[m.length - 1].replace(".", "").toUpperCase();
+    return ZONE_TAG_TZ[tag] || null;
+  }
 
   const USER_TZ = (() => {
     try { return Intl.DateTimeFormat().resolvedOptions().timeZone; }
@@ -106,10 +125,12 @@
   };
 
   // Parse "9:00 AM - 12:00 PM" / "1:00 p.m. - 4:00 p.m." / "4:00 PM" / null.
-  // Returns { startH, startM, endH?, endM? } or null.
+  // Returns { startH, startM, endH?, endM? } or null. Zone tags are stripped
+  // first — "3:00 PM CT" would otherwise fail the anchored match below and
+  // silently drop the end time (zoneTagTz reads the tag separately).
   function parseTimeRange(t) {
     if (!t) return null;
-    const s = String(t).trim();
+    const s = String(t).replace(ZONE_TAG_RE, " ").trim();
     if (!s) return null;
     const halves = s.split(/\s*[-–]\s*/);
     const one = (str) => {
@@ -235,10 +256,11 @@
     const meetingHydro = raw.meeting_hydro_relevant === true;
     const hasHydroDocs = documents.some(d => d.hydro_relevant);
 
-    // Resolve display time in the viewer's zone. If we know the RTO's
-    // source zone we convert; otherwise (Other) we fall back to the raw
-    // string so the viewer still sees something sensible.
-    const sourceTz = RTO_SOURCE_TZ[rto] || null;
+    // Resolve display time in the viewer's zone. A zone tag embedded in the
+    // scraped time beats the RTO-level default (SPP tags each meeting; its
+    // Denver-hosted ones are MT, not the CT the default assumes). If neither
+    // is known (Other) we fall back to the raw string.
+    const sourceTz = zoneTagTz(raw.time) || RTO_SOURCE_TZ[rto] || null;
     const parsed = parseTimeRange(raw.time);
     let time24 = null;
     let timeFmt = null;
