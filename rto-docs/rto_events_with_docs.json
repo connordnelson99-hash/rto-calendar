@@ -1258,6 +1258,20 @@
   },
   {
     "title": "SOS Meeting",
+    "date": "2026-07-31",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "SOS",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM's State of the System (SOS) committee addresses resource adequacy, seasonal energy assessments, transmission planning, and reliability mechanisms that directly affect hydro asset valuation, accreditation, and strategic positioning in the Mid-Atlantic market.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "SOS Meeting",
     "date": "2026-07-30",
     "time": "9:00 a.m. - 11:00 a.m.",
     "rto": "PJM",
@@ -1295,6 +1309,20 @@
     "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "PIEOUG (PJM Industrial End-User Roundtable) focuses on large industrial customer concerns such as procurement, pricing transparency, and grid access for load; it does not address resource participation models, market design, or operational rules affecting hydropower and storage operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "CCLLSCO Meeting",
+    "date": "2026-07-30",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "CCLLSCO",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "CCLLSCO (Capacity, Credit, Liquidity, Legal, Settlement & Compliance Operations) handles credit, settlement, and operational administration with no direct bearing on hydro revenue mechanisms, market design, capacity accreditation, or participation rules.",
     "issues": [],
     "documents": []
   },
@@ -4166,6 +4194,19 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "810_02_V5.0_Baseline11112024",
+        "filename": "810_02_V5.0_Baseline11112024.docx",
+        "url": "https://www.ercot.com/files/docs/2026/07/23/810_02_V5.0_Baseline11112024.docx",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document specifies the technical format (ANSI X12 EDI transaction 810_02) for billing invoices between Texas TDSPs and competitive retailers in the retail market; it contains no market-design content touching hydro revenue streams, participation rules, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -4194,6 +4235,34 @@
     "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Price-formation-enhancements",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "CAISO's price-formation enhancements directly affect energy price signals, scarcity pricing, and uplift mechanisms that shape hydropower revenue and operational dispatch decisions.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "WEM Governing Body Executive Session",
+    "date": "2026-07-28",
+    "time": "8:30 AM - 11:00 AM",
+    "rto": "CAISO",
+    "committee": "Board of Governors - Governance and committees",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/wem-governing-body-executive-session-jul-28-2026-0830-am",
+    "materials_url": "/about/governance-committees",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Western Energy Market governance discussions directly affect NHA members' strategic participation choices, market-design authority, and cross-RTO operational rules that shape revenue and compliance obligations for Western hydro and PSH operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Extended Day-Ahead Market (EDAM) Congestion Revenue Allocation",
+    "date": "2026-07-28",
+    "time": "9:00 AM - 12:00 PM",
+    "rto": "CAISO",
+    "committee": null,
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-edam-congestion-revenue-allocation-jul-28-2026-0900-am",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "EDAM congestion revenue allocation directly affects how hydro's locational energy and transmission-constrained ancillary services are priced and compensated, and NHA members in the West are actively evaluating EDAM participation as a strategic market-seams choice.",
     "issues": [],
     "documents": []
   },
@@ -4572,11 +4641,201 @@
     "committee": "Interconnection Process Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={B5D18C4C-D32A-48D5-9D2E-D7D58972B87F}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Interconnection Process Subcommittee meetings address queue reform, deliverability rules, surplus interconnection service, and uprates at existing plants \u2014 all material to hydro owners' strategic options and compliance obligations.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260727-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/ips/2026/20260727/20260727-agenda.pdf",
+        "posted_date": "2026-07-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine agenda for a PJM subcommittee meeting with no substantive discussion of market-design mechanisms affecting hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Martin",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Colleen Lauver",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dave Miscavage",
+            "entity": "PJM",
+            "role": "author, presenter",
+            "email": null
+          },
+          {
+            "name": "David Sadowski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Grace Tangirala",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20260727-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/ips/2026/20260727/20260727-agenda-doc.docx",
+        "posted_date": "2026-07-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Interconnection queue reform and surplus interconnection service rules directly affect hydro uprates and new-plant deliverability; this subcommittee governs PJM's interconnection process, which shapes revenue opportunities for hydro owners seeking to expand or interconnect.",
+        "ai_summary": "PJM's Interconnection Process Subcommittee met July 27, 2026, to discuss Cycle Schedule updates, TC2 Engineering and Procurement Agreements, and EIT training. This subcommittee governs the interconnection queue, queue timelines, and deliverability rules that determine whether new or uprated hydropower and pumped-storage plants can reach markets and capture capacity and energy revenue. The next meetings are scheduled for August 24, September 28, October 23, and November 23, 2026; materials are due 10 days before each meeting. This is reference material for tracking PJM interconnection governance; agendas for future meetings (August onward) may contain substantive proposals affecting hydro interconnection cost, timing, or feasibility.",
+        "topics": [
+          "interconnection",
+          "capacity-ra",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Martin",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Colleen Lauver",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dave Miscavage",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "David Sadowski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Grace Tangirala",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "Item 02 \u2013 Draft Minutes \u2013 IPS \u2013 06262026",
+        "filename": "20260727-item-02---draft-minutes---ips---06262026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/ips/2026/20260727/20260727-item-02---draft-minutes---ips---06262026.pdf",
+        "posted_date": "2026-07-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a procedural meeting-minutes document covering agenda administration, cycle scheduling, and meeting logistics with no substantive discussion of market design, tariffs, pricing, products, or operations affecting hydropower revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Martin",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dave Miscavage",
+            "entity": "PJM",
+            "role": "author, presenter",
+            "email": null
+          },
+          {
+            "name": "Joelle Tomasello",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Lisa Krizenoskas",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Maria Belenky",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Item 04 \u2013 Tc2 Engineering And Procurement Agreements",
+        "filename": "20260727-item-04---tc2-engineering-and-procurement-agreements.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/ips/2026/20260727/20260727-item-04---tc2-engineering-and-procurement-agreements.pdf",
+        "posted_date": "2026-07-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Engineering and Procurement Agreements in PJM's interconnection process affect the lead time and cost recovery for long-lead items in generation projects, including pumped-storage and conventional hydro interconnections, by permitting early procurement of critical equipment during Phase III before final interconnection rights are secured.",
+        "ai_summary": "PJM has formalized an Engineering and Procurement Agreement (E&P Agreement) process available to project developers in Phase III of the interconnection queue. The agreement expedites procurement of long-lead-time items (such as transformers, generators, and structural components critical to hydro and PSH projects) by allowing developers to begin engineering and procurement work before execution of the final Generation Interconnection Agreement. The E&P Agreement does not grant interconnection rights, priority, or construction authority, but allows developers to lock in equipment costs and delivery timelines early. Project developers must coordinate with their assigned PJM Project Manager and the relevant Transmission Owner on scope; PJM drafts the agreement, developers execute within 15 business days, the Transmission Owner has 15 business days thereafter, and PJM then files with FERC or reports in Electric Quarterly Reports. First batch of TC2 E&P Agreement requests closes August 14, 2026. For hydro owners with projects in PJM's queue, this reduces the risk of long-lead procurement delays and cost escalation between Phase II and commercial operation.",
+        "topics": [
+          "interconnection",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Chelsea Brown",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Chelsea.brown@pjm.com"
+          },
+          {
+            "name": "Grace Tangirala",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "Grace.Tangirala@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Item 05 \u2013 Eit Developer Training",
+        "filename": "20260727-item-05---eit-developer-training.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/ips/2026/20260727/20260727-item-05---eit-developer-training.pdf",
+        "posted_date": "2026-07-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM's Expedited Interconnection Track (EIT) establishes new queue-bypass procedures and requirements for large load additions and generating facilities, directly affecting hydro and storage interconnection timelines, capacity accreditation, and site-control obligations.",
+        "ai_summary": "PJM has filed and FERC has accepted (June 9, 2026) tariff revisions establishing an Expedited Interconnection Track (EIT) for projects supporting large load additions, effective July 31, 2026 (Manual 14H revisions endorsed by PC and MRC, effective July 31, 2026). The EIT imposes specific site-control, financial-deposit, and dynamic-modeling requirements including: 100% site control for 36 months minimum; acreage thresholds (10 acres per synchronous-generator facility, 1 acre/100 MWh for battery storage); readiness deposits of $15,000/MW; study deposits of $500,000; and combined dynamic models (PSCAD/PSS/E) for uprates. Hydro and PSH developers seeking EIT status must provide a Notice of Commitment from a Primary Siting Authority and critical-path construction schedules. The mechanism affects interconnection timing and strategic queue positioning for storage uprates, pump-back expansion, or run-of-river/reservoir projects co-located with or serving large loads (data centers, industrial); smaller hydro facilities that cannot meet 36-month site-control terms or acreage density thresholds may be excluded from fast-track benefits. The track is now open for applications in NextGen portal as of 12 EPT July 31, 2026.",
+        "topics": [
+          "interconnection",
+          "capacity-ra",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Sadowski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "MC Information Webinar Meeting",
@@ -4975,6 +5234,45 @@
           }
         ],
         "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03a \u2013 1 PJM Market Operations Report \u2013 Presentation",
+        "filename": "item-03a---1-pjm-market-operations-report---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260727-web/item-03a---1-pjm-market-operations-report---presentation.pdf",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 03a \u2013 2 PJM Market Operations Report \u2013 Appendix",
+        "filename": "item-03a---2-pjm-market-operations-report---appendix.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260727-web/item-03a---2-pjm-market-operations-report---appendix.xlsx",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03b \u2013 4 Hot Weather Update \u2013 Presentation",
+        "filename": "item-03b---4-hot-weather-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260727-web/item-03b---4-hot-weather-update---presentation.pdf",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -5152,6 +5450,19 @@
         "topics": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "ERS_Alternate Baseline Test_Concept_Paper_V2",
+        "filename": "ERS_Alternate-Baseline-Test_Concept_Paper_V2.docx",
+        "url": "https://www.ercot.com/files/docs/2026/07/23/ERS_Alternate-Baseline-Test_Concept_Paper_V2.docx",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "ABT is ERCOT's baseline-testing protocol for energy-storage resource (ERS) load reductions in demand response; it has no direct application to hydropower revenue, obligations, or strategic options, and no cross-market precedent value for hydro-rich RTOs.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -5187,7 +5498,7 @@
         "title": "20260727 LLWG Item 01b Agenda",
         "filename": "20260727 LLWG Item 01b Agenda.pdf",
         "url": "https://cdn.misoenergy.org/20260727%20LLWG%20Item%2001b%20Agenda769870.pdf",
-        "posted_date": "2026-07-20",
+        "posted_date": "2026-07-23",
         "hydro_relevant": true,
         "hydro_relevance_reason": "MISO's Large Load Working Group addresses interconnection and grid-impact issues for major industrial and data-center loads; developments in co-located load and interconnection reliability requirements directly affect hydro's strategic positioning and may influence transmission constraints and grid-balancing demand for hydro flexibility.",
         "ai_summary": "MISO's Large Load Working Group meets July 27, 2026, with a substantive agenda item on Interconnection Reliability Requirements (LLWG-2026-3) involving tariff review. Large-load interconnection and co-location strategies represent a growing strategic option for hydropower owners\u2014hydro assets co-located with or contracted to serve data centers and industrial loads can capture scarcity value and reduce transmission constraints. The agenda signals active development of MISO's interconnection and reliability framework for these loads; the tariff-review component may establish or clarify rules affecting how hydro participates in or competes with co-located generation and load-service pathways. No comment deadline or vote date is specified in this agenda document.",
@@ -5275,6 +5586,64 @@
             "email": "rdarrah@misoenergy.org"
           }
         ]
+      },
+      {
+        "type": "tariff",
+        "title": "20260727 LLWG Item 03 Interconnection Reliability Requirements (LLWG 2026 3) Draft Tariff",
+        "filename": "20260727 LLWG Item 03 Interconnection Reliability Requirements (LLWG-2026-3) Draft Tariff.docx",
+        "url": "https://cdn.misoenergy.org/20260727%20LLWG%20Item%2003%20Interconnection%20Reliability%20Requirements%20%28LLWG-2026-3%29%20Draft%20Tariff770225.docx",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO is establishing new reliability and operational requirements for large computational loads (50+ MW) that will co-locate behind generation or storage, creating precedent for how RTOs handle co-located load and potentially affecting hydro and PSH operators' interconnection obligations and dispatch flexibility.",
+        "ai_summary": "MISO's Large Load Working Group has drafted tariff language (Section 37A) establishing reliability requirements for large computational loads (\u226550 MW), with differentiated rules for computational loads (data centers, servers, etc.) versus general industrial load. Computational loads must install PMUs, meet ride-through standards during voltage/frequency disturbances, and comply with up/down ramp limits; all large loads must provide real-time telemetry, load forecasts, and detailed electrical models prior to September 1, 2027 (or service commencement, whichever is later). The tariff explicitly excludes from the definition of \"Large Load\" any load associated with charging of electric storage resources, preserving a separate category for PSH charging \u2014 but the ramp-rate requirements for computational loads and the modeling/telemetry mandates will likely set precedent for storage participation rules and co-located resource interconnection standards across RTOs. Owners of PSH or hydro plants considering co-location with large load or generation should monitor: (1) whether these ramp and ride-through standards extend to storage-charging loads in future MISO filings, (2) how the PMU and forecast-data requirements affect dispatch flexibility and day-ahead commitment processes, and (3) whether MISO's exclusion of storage charging from the \"Large Load\" category persists or is narrowed.",
+        "topics": [
+          "load-growth",
+          "interconnection",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "20260727 LLWG Item 02 Liaison Report",
+        "filename": "20260727 LLWG Item 02 Liaison Report.pdf",
+        "url": "https://cdn.misoenergy.org/20260727%20LLWG%20Item%2002%20Liaison%20Report770226.pdf",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's large load framework directly affects hydro's co-location and transmission-service options, and introduces demand-response and new reserve market products that could alter hydro's revenue streams and operational flexibility.",
+        "ai_summary": "MISO is developing a three-part framework (Connect Quickly, Transition and Scale, Ensure Long-Term Reliability) to integrate large loads within 120 days using expedited interconnection, co-located resources (ZGIA), and flexible transmission-service options including non-firm and firm step-up service. The framework includes new demand-response and reserve market products and stability/ramp requirements that will shape real-time operations and dispatch signals. Key tariff filings are due August\u2013October 2026, with stakeholder feedback due through August 8, 2026. Large load growth\u2014especially co-located generation and flexible demand response\u2014competes directly with hydro's flexibility revenue and alters the scarcity signals that have historically driven hydro's peak-period dispatch value.",
+        "topics": [
+          "load-growth",
+          "storage",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ryan Darrah",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "rdarrah@misoenergy.org"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "20260727 LLWG Item 03 Interconnection Reliability Requirements (LLWG 2026 3) Presentation",
+        "filename": "20260727 LLWG Item 03 Interconnection Reliability Requirements (LLWG-2026-3)_Presentation.pdf",
+        "url": "https://cdn.misoenergy.org/20260727%20LLWG%20Item%2003%20Interconnection%20Reliability%20Requirements%20%28LLWG-2026-3%29_Presentation770291.pdf",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large load interconnection requirements\u2014particularly computational load ramp and ride-through mandates\u2014create new operating obligations and reliability standards that affect hydro's dispatch flexibility, frequency-response capability, and potential to supply ramping and fast-response services to support large-load volatility.",
+        "ai_summary": "MISO is revising and filing tariff language (targeting mid-August 2026) to establish interconnection reliability requirements for large loads \u226550 MW, with differentiated rules for computational loads (data centers, AI, cryptocurrency mining) versus process-driven industrial loads. Computational loads face advanced requirements: PMU telemetry, voltage/frequency ride-through standards, and ramp-rate visibility/constraints. The transition framework exempts loads already in service as of November 1, 2027, but newly approved loads and modifications \u226525 MW face full requirements immediately. For hydro operators, this matters because large-load ramp requirements and ride-through standards will shape future dispatch instructions and potentially compress the flexibility window hydro has historically exploited for energy arbitrage and reserve provision; loads with high, controllable ramp rates (cryptocurrency mining, AI data centers) may reduce scarcity pricing events hydro relies on, or alternatively force hydro into faster-response regimes if loads' behavioral flexibility proves insufficient.",
+        "topics": [
+          "load-growth",
+          "ops-compliance",
+          "interconnection"
+        ],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -6089,6 +6458,82 @@
             "name": "Rafael Panos",
             "entity": "New England Power",
             "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "2026-06-09-11 MC/RC Meeting Minutes - Final",
+        "filename": "2026_06_09_11_draft_mc_rc_joint_meeting_minutes.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/2026_06_09_11_draft_mc_rc_joint_meeting_minutes.pdf",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ISO-NE proposes Capacity Auction Reforms with Seasonal Accreditation (CAR-SA) including transition mechanism affecting resource accreditation, demand curves, and winter gas constraint \u2014 directly impacting how hydro and storage are credited and compensated in ISO-NE's capacity market.",
+        "ai_summary": "ISO-NE introduced its thinking on a transition mechanism for Capacity Auction Reforms\u2013Seasonal Accreditation (CAR-SA), a multi-part capacity market redesign covering auction timing, seasonality, resource accreditation, and the winter gas constraint. The proposal aims to provide a measured glide path from current rules to full CAR-SA design, with transition focus on resource accreditation, system and zonal demand curves, and continued assessment of the gas constraint transition. The transition mechanism status and next steps (comment deadline, vote date, or implementation timeline) are not stated in the extracted text.",
+        "topics": [
+          "capacity-ra",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Dr. Chris Geissler",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "2026-06-25 RC Meeting Minutes - Final",
+        "filename": "2026_06_25_rc_meeting_minutes.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/2026_06_25_rc_meeting_minutes.pdf",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine meeting-minutes cover page listing committee participants and approving prior meeting records; it contains no substantive agenda items, proposals, decisions, or discussion of market design, revenue mechanisms, obligations, or strategic options affecting hydropower or pumped-storage operations.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Nick Gangi",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "2026-06-24 MC/RC/TC Meeting Minutes - Final",
+        "filename": "2026_06_24_tc_mc_rc_meeting_minutes.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/2026_06_24_tc_mc_rc_meeting_minutes.pdf",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "parse error: Expecting property name enclosed in double quotes: line 111 column 45 (char 3018)",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-07-23 RC Actions Letter",
+        "filename": "072326_rc_actions_letter.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/072326_rc_actions_letter.pdf",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine Reliability Committee meeting minutes/actions letter covering transmission project approvals and substation procedure updates with no bearing on hydropower revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Daniel Patnaude",
+            "entity": "ISO New England",
+            "role": "author",
             "email": null
           }
         ]
@@ -6953,7 +7398,7 @@
         "title": "20260722 PSC Item 02 Liaison Report",
         "filename": "20260722 PSC Item 02 Liaison Report.pdf",
         "url": "https://cdn.misoenergy.org/20260722%20PSC%20Item%2002%20Liaison%20Report769235.pdf",
-        "posted_date": "2026-07-15",
+        "posted_date": "2026-07-23",
         "hydro_relevant": true,
         "hydro_relevance_reason": "MTEP26/27 transmission planning cycles and TPL-008 compliance affect MISO's transmission-expansion projects, which determine deliverability and interregional transfer capability for hydro exports and generator interconnection; large-load workgroup expansion affects resource-adequacy forecasting and scarcity signals hydro operators depend on for revenue; stakeholder-feedback window for MTEP27 scope is a submission deadline for hydro fleet concerns.",
         "ai_summary": "MISO is executing the MTEP26 reliability-planning cycle (project-recommendation phase underway, board approval targeted December 2026) and requesting stakeholder feedback on MTEP27 scope by October 29, 2026. Separately, MISO and transmission owners are implementing TPL-008-1 (extreme-temperature transmission-planning standard), with R1 enforceable April 2026, R2\u2013R4 compliance required Q2 2027, and R5\u2013R6 by Q4 2027. MISO has resumed the Long Range Transmission Planning study as part of MTEP27. These planning cycles directly shape transmission expansion that controls MISO hydropower generators' export capacity and interregional-transfer capability; TPL-008 compliance may add new transmission needs that alter scarcity patterns. Hydro operators with MISO plants should submit scope feedback to PlanningCoordinator@MISOEnergy.org by October 29, 2026, and track Subregional Planning Meetings (SPM #3 scheduled September 3\u20134, 2026) where local transmission issues affecting hydro deliverability are debated.",
@@ -7130,7 +7575,7 @@
         "title": "20260722 PSC Item 06 Transmission Service Requirements for Charging Electric Storage Resources from the Grid",
         "filename": "20260722 PSC Item 06 Transmission Service Requirements for Charging Electric Storage Resources from the Grid.pdf",
         "url": "https://cdn.misoenergy.org/20260722%20PSC%20Item%2006%20Transmission%20Service%20Requirements%20for%20Charging%20Electric%20Storage%20Resources%20from%20the%20Grid769631.pdf",
-        "posted_date": "2026-07-17",
+        "posted_date": "2026-07-23",
         "hydro_relevant": true,
         "hydro_relevance_reason": "MISO is proposing to expand the transmission-service exemption for economically-dispatched energy-storage charging, which directly affects pumped-storage hydro operators' cost structure and competitive positioning against batteries in MISO markets.",
         "ai_summary": "MISO proposes to exempt Electric Storage Resources (ESRs) from transmission-service charges when charging as part of an ESR Transaction offered with Economic dispatch status\u2014a broader exemption than FERC Order 841 currently requires. Under current MISO rules, only ESRs charging to provide regulation and ramping services avoid transmission charges; this proposal would add charging energy stored for later energy injection, imbalance services, and other grid services when economically dispatched. The proposal recognizes that ESR charging for grid services differs fundamentally from traditional load consumption and is moving to the Planning Advisory Committee in August 2026 for tariff development, with feedback due August 7, 2026. For pumped-storage hydro, this lowers the cost burden on battery competitors in MISO's energy and reserve markets, eroding PSH's cost-of-operations advantage and potentially reducing PSH revenue from energy arbitrage and reserve provision when batteries can charge at lower net cost.",
@@ -7538,12 +7983,12 @@
   {
     "title": "Transmission Owners Agreement-Administrative Committee - Public Materials Only (No Registration) Meeting",
     "date": "2026-07-22",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "3:00 p.m. - 5:00 p.m.",
     "rto": "PJM",
     "committee": "Transmission Owners Agreement-Administrative Committee - Public Materials Only (No Registration)",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={EB1E973F-4DFF-4889-9241-C5351AF4561D}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={FA09280A-87EE-46CC-A294-701D6D364A29}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Transmission Owners Agreement administrative meetings typically cover governance, organizational procedures, and internal committee operations rather than market-design rules affecting hydropower revenue, obligations, or strategic options.",
     "issues": [],
@@ -7566,7 +8011,7 @@
   {
     "title": "Risk Management Committee Meeting",
     "date": "2026-07-22",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "3:00 p.m. - 5:00 p.m.",
     "rto": "PJM",
     "committee": "Risk Management Committee",
     "source_url": "https://www.pjm.com/calendar",
@@ -9511,12 +9956,12 @@
   {
     "title": "SPF Meeting",
     "date": "2026-07-20",
-    "time": "10:00 a.m. - 12:00 p.m.",
+    "time": "3:00 p.m. - 5:00 p.m.",
     "rto": "PJM",
     "committee": "SPF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={FA09280A-87EE-46CC-A294-701D6D364A29}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SPF (Security and Planning Forum) is a stakeholder advisory committee focused on physical and cybersecurity, emergency preparedness, and business continuity planning\u2014topics with no bearing on hydro revenue mechanisms, participation rules, capacity/energy pricing, or strategic market-design options.",
     "issues": [],
@@ -10134,7 +10579,7 @@
     "date": "2026-07-16",
     "time": "1:30 PM",
     "rto": "ISO-NE",
-    "committee": "Transmission Committee",
+    "committee": "Reliability Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=161677",
     "materials_url": null,
@@ -13472,6 +13917,19 @@
         "filename": "20260714-minutes-dts---06092026.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/dts/2026/20260714/20260714-minutes-dts---06092026.pdf",
         "posted_date": "2026-07-09",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "Minutes",
+        "filename": "20260714-minutes.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/dts/2026/20260714/20260714-minutes.pdf",
+        "posted_date": "2026-07-23",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
