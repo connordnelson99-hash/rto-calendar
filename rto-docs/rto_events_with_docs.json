@@ -364,6 +364,20 @@
     "documents": []
   },
   {
+    "title": "NEPOOL Membership Subcommittee Meeting",
+    "date": "2026-08-10",
+    "time": "2:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Membership Subcommittee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160353",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Membership Subcommittee meetings address governance, voting rights, and procedural matters unrelated to market design, revenue mechanisms, compliance obligations, or strategic options affecting hydropower operations.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Budget and Finance Subcommittee",
     "date": "2026-08-07",
     "time": "2:00 PM",
@@ -532,7 +546,21 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The Participants Committee is a governance and stakeholder coordination body; without a specific agenda indicating discussion of market design, capacity accreditation, ancillary services pricing, storage participation rules, or transmission/deliverability changes, a general committee meeting title does not signal substantive content on hydro revenue, compliance obligations, or strategic options.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "2026-08-06 PC Initial Notice",
+        "filename": "npc-2026-08-06-initial.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/npc-2026-08-06-initial.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Reliable Operations Working Group (ROWG-Closed) - August 6, 2026",
@@ -808,7 +836,7 @@
   {
     "title": "Advisory Committee (AC) - August 5, 2026",
     "date": "2026-08-05",
-    "time": "9:00 AM - 1:00 PM",
+    "time": "9:00 AM - 11:25 AM",
     "rto": "MISO",
     "committee": "Advisory Committee",
     "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
@@ -1056,11 +1084,145 @@
     "committee": "Transmission Expansion Advisory Committee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={493980BD-99ED-4711-B5DA-FD27D5A236D9}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Transmission expansion planning directly affects hydro deliverability, interregional transfer capability, and the economic viability of existing and new hydro resources, making it strategically important for hydro operators evaluating market participation and revenue opportunities in PJM.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "Item 04 \u2013 Atsi Supplemental Projects",
+        "filename": "20260804-item-04---atsi-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260804/20260804-item-04---atsi-supplemental-projects.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document addresses FirstEnergy transmission substation and line projects in PJM (new customer connections, equipment replacements, scope changes) with no nexus to hydropower revenue, storage participation, ancillary-service accreditation, capacity markets, flexibility products, or hydro-specific compliance obligations.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 05 \u2013 Jcpl Supplemental Projects",
+        "filename": "20260804-item-05---jcpl-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260804/20260804-item-05---jcpl-supplemental-projects.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document addresses FirstEnergy/JCPL transmission substation and line equipment condition, replacement, and capacity rating \u2014 purely local transmission infrastructure projects with no bearing on hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 06 \u2013 Aep Supplemental Projects",
+        "filename": "20260804-item-06---aep-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260804/20260804-item-06---aep-supplemental-projects.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large load interconnection (1,300 MW customer service need in AEP zone) creates transmission-expansion planning context that affects hydro deliverability, congestion patterns, and strategic positioning of existing hydro assets in PJM; transmission planning outcomes influence where hydro export capability and scarcity rents accrue.",
+        "ai_summary": "AEP is processing a customer request for 345 kV transmission service to support a 1,300 MW load near Van Wert, Ohio (500 MW by end of 2028, remaining 800 MW by Q3 2031) through PJM's M-3 transmission-planning process. The project is in the Needs Meeting phase as of August 4, 2026. This load interconnection drives transmission-expansion planning that will reshape congestion patterns and interregional transfer capability in the eastern part of PJM's footprint \u2014 outcomes that determine whether existing hydro plants can reach high-value scarcity hours and the marginal value of hydro's locational flexibility. Stakeholders have 10 days after this meeting to comment; the process moves to Solutions Meeting with posted slides 10 days beforehand, then to a Local Plan submission following Do No Harm analysis.",
+        "topics": [
+          "transmission",
+          "load-growth",
+          "interconnection"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 07 \u2013 PPL Supplemental Projects",
+        "filename": "20260804-item-07---ppl-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260804/20260804-item-07---ppl-supplemental-projects.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large load interconnection (750 MW facility near Frackville) represents a substantial demand-growth event that affects the scarcity value of all existing hydro resources in the PJM footprint and may trigger transmission expansion affecting hydro deliverability to load centers.",
+        "ai_summary": "PPL Transmission Zone submitted two supplemental project needs to PJM's M-3 transmission-planning process: a 750 MW customer-service request to serve a new facility near Frackville, PA (in-service 05/2029), and a 10 MW reliability project near Greenbrier, PA (in-service 11/2029). The Frackville request is the material strategic event\u2014adding 750 MW of load in 2031 increases PJM-wide scarcity rents and baseline energy prices during peak seasons, raising the opportunity cost of water discharge for hydroelectric and pumped-storage owners and sharpening revenue signals for flexible capacity. Stakeholders must comment within 10 days of the 08/04/2026 meeting to shape the solutions path; hydro asset owners in PJM should monitor transmission-siting outcomes to confirm whether new generation or storage must be sited near the load or whether existing hydro can participate in long-distance dispatch to serve it.",
+        "topics": [
+          "load-growth",
+          "transmission",
+          "interconnection"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 08 \u2013 Ace Supplemental Projects",
+        "filename": "20260804-item-08---ace-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260804/20260804-item-08---ace-supplemental-projects.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses a routine transmission-planning procedural matter (withdrawal of a single local distribution need in New Jersey) with no bearing on hydropower revenue mechanisms, dispatch obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 09 \u2013 Peco Supplemental Projects",
+        "filename": "20260804-item-09---peco-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260804/20260804-item-09---peco-supplemental-projects.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document addresses routine transmission project planning (equipment replacement, substation reconfiguration, customer interconnection) in PECO's service territory with no bearing on hydro revenue streams, storage participation rules, ancillary-service pricing, resource-adequacy accreditation, capacity markets, or strategic market-design options affecting hydropower or pumped-storage operators.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 10 \u2013 COMED Supplemental Projects",
+        "filename": "20260804-item-10---comed-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260804/20260804-item-10---comed-supplemental-projects.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document describes ComEd's Blue Island substation hardening project (circuit breaker and bus replacement at a 345 kV transmission node), a routine transmission asset-condition project that does not affect hydro revenue mechanisms, operating obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 11 \u2013 Deok Supplemental Projects",
+        "filename": "20260804-item-11---deok-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260804/20260804-item-11---deok-supplemental-projects.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission planning for a 500 MW + 300 MW customer load request in PJM's DEOK zone affects the strategic option of large-load co-location and the transmission deliverability of existing and future hydro resources in the region; load growth scarcity events increase value of dispatchable generation.",
+        "ai_summary": "PJM's Transmission Expansion Advisory Committee is evaluating transmission solutions (at an estimated cost of $32.8 M) to serve a customer's planned 500 MW load addition near Trenton, Ohio in 2027 and an additional 300 MW in 2028. The proposed solution involves new 345 kV and 138 kV circuits and substation upgrades at Woodsdale, Pierce, and Beckjord, with an in-service date of June 1, 2029. Stakeholders must submit comments within 10 days of this August 4, 2026 meeting. For hydro owners, large-load interconnection in PJM's footprint increases the scarcity value of firm dispatchable resources during peak demand; the transmission plan's timing and rating constraints will determine how much of that load's flexible demand falls to existing hydro units versus new resources, and whether hydro's natural ramping capability becomes more valuable during the build-out.",
+        "topics": [
+          "transmission",
+          "load-growth",
+          "interconnection"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 12 \u2013 DOM Supplemental Projects",
+        "filename": "20260804-item-12---dom-supplemental-projects.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260804/20260804-item-12---dom-supplemental-projects.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large-load interconnection (data center, 70 MW summer) in Dominion transmission zone directly affects hydro dispatch patterns, scarcity value, and strategic options for generators serving that zone; transmission planning changes may also alter interregional transfer capability and hydro deliverability.",
+        "ai_summary": "Dominion Energy is pursuing a supplemental transmission project (DOM-2023-0011) to serve a 70+ MW data center load (Atlas) in Gainesville, Virginia, with an in-service target of June 2028. The solution involves extending two 230 kV lines from the Gemini substation and re-terminating existing line segments, at a total cost of approximately $52.9 M. Load growth of this magnitude in a transmission-constrained area typically drives up real-time and peak-period scarcity signals and can shift the locational value of generation; hydro operators serving or proximal to the Dominion zone should monitor whether this concentration of summer peaking load (70 MW summer, zero winter) creates seasonal value opportunities. No explicit stakeholder comment deadline is provided in this update meeting material, but Dominion's process timeline (posted on TEAC, 10 days for stakeholder comments after solutions posting) applies.",
+        "topics": [
+          "load-growth",
+          "transmission",
+          "interconnection"
+        ],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Steering Committee (SC) - August 4, 2026",
@@ -1873,16 +2035,129 @@
   {
     "title": "PRTMDW Meeting",
     "date": "2026-07-29",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "PRTMDW",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={87170C59-65CE-48DF-84D6-FCC54D0A103B}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Price, Reliability, Transmission, and Markets Design Working group (PRTMDW) addresses energy pricing, capacity mechanisms, transmission planning, and market design that directly affect hydro revenue and strategic options in PJM's footprint.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260729-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/prtmdw/2026/20260729/20260729-agenda.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a meeting agenda and administrative notice containing no substantive market-design proposals, rule changes, or decisions affecting hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Carl Coscia",
+            "entity": "Base Power",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Erik Heinle",
+            "entity": "Constellation",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jim Davis",
+            "entity": "Dominion",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Denise Foster Cronin",
+            "entity": "EKPC",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jen Tribulski",
+            "entity": "PJM",
+            "role": "facilitator",
+            "email": null
+          },
+          {
+            "name": "M. Connolly",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Mollie Lacek",
+            "entity": "PJM",
+            "role": "secretary",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20260729-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/prtmdw/2026/20260729/20260729-agenda-doc.docx",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a workshop agenda document that lists administrative details, meeting logistics, antitrust/code-of-conduct boilerplate, and panelist names, but contains no substantive market-design proposal, rule change, or discussion content that would affect hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Carl Coscia",
+            "entity": "Base Power",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Erik Heinle",
+            "entity": "Constellation",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jim Davis",
+            "entity": "Dominion",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Denise Foster Cronin",
+            "entity": "EKPC",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jen Tribulski",
+            "entity": "PJM",
+            "role": "facilitator",
+            "email": null
+          },
+          {
+            "name": "M. Connolly",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Mollie Lacek",
+            "entity": "PJM",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "MISO Initiatives to Support Reliability Imperative (RI) Workshop - July 29, 2026",
@@ -1896,12 +2171,121 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "A reliability-imperative workshop will likely address resource adequacy, operational standards, and dispatch mechanisms affecting dispatchable hydro participation in MISO, and may cover seasonal energy adequacy, winterization, and synchronous-unit requirements that hydro operators must comply with.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "20260729 RI Workshop Presentation Deck.pdf",
+        "filename": "20260729 RI Workshop Presentation Deck.pdf",
+        "url": "https://cdn.misoenergy.org/20260729%20RI%20Workshop%20Presentation%20Deck770853.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's strategic initiatives directly address three hydro-critical mechanisms: resource accreditation and seasonal peak-period alignment (capacity-RA); storage participation optimization in energy and ancillary-services markets; and dynamic reserves (both revenue and obligation impacts); additionally, load-growth and transmission-evolution initiatives affect hydro deliverability and strategic optionality in MISO's footprint.",
+        "ai_summary": "MISO is executing a multi-year Reliability Imperative with five strategic pillars. On capacity-RA, MISO is aligning accreditation with peak risk periods and further refining seasonal accreditation including external resources through 2029 \u2014 directly affecting how hydro's contribution is measured and valued. On storage, MISO is optimizing storage-resource participation in markets (initiated 24\u201336 months) and advancing storage integration with market optimization in subsequent years \u2014 bearing on PSH charging-energy treatment, AS stacking, and state-of-charge rules. On flexibility, dynamic reserves initiatives are underway to improve local reliability. On interconnection and load growth, MISO is accelerating large-load integration ('reliable speed-to-power'), expediting generator-interconnection studies (ERAS/EPR), and reforming its queue process \u2014 expanding the addressable market for hydro's flexibility and firm capacity, but also increasing operational constraints. Stakeholder feedback is requested by September 4, 2026, on alignment with member needs, gaps, and support required.",
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "ramping-flexibility"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Aubrey Johnson",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dana Cochran",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "JT Smith",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jessica Lucas",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ted Vatnsdal",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Zak Joundi",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "20260724 RI Workshop Item 01b Agenda.pdf",
+        "filename": "20260724 RI Workshop Item 01b Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20260724%20RI%20Workshop%20Item%2001b%20Agenda770852.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO is conducting a broad workshop on reliability imperatives touching operational risk, market redefinition, transmission evolution, and system enhancements\u2014all mechanisms that could reshape how hydropower and storage are dispatched, priced, or accredited in the MISO footprint.",
+        "ai_summary": "MISO is convening a half-day workshop (July 29, 2026) to present its strategic response to reliability challenges across five workstreams: operational risks, market redefinition, transmission evolution, operations of the future, and system enhancements. The agenda signals MISO is reassessing its energy and reserve market design, dispatch protocols, and transmission strategy in real time. Hydro and storage owners in MISO should monitor the detailed proposals from this workshop\u2014market redefinition and operations changes could affect pricing, dispatch flexibility, ramping product demand, and operational obligations. The workshop materials themselves do not propose specific rule changes, but the presentations (Zak Joundi on market redefinition, Aubrey Johnson on transmission, JT Smith on operations) will clarify which market and operational levers MISO is considering; follow-up filings are likely to specify deadlines.",
+        "topics": [
+          "price-formation",
+          "capacity-ra",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Aubrey Johnson",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dana Cochran",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "JT Smith",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jessica Lucas",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ted Vatnsdal",
+            "entity": "MISO",
+            "role": "host",
+            "email": null
+          },
+          {
+            "name": "Zak Joundi",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Operations Training User Group (OTUG) - July 29, 2026",
     "date": "2026-07-29",
-    "time": "1:00 PM - 3:00 PM",
+    "time": "1:00 PM - 2:00 PM",
     "rto": "MISO",
     "committee": "Operations Training User Group",
     "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
@@ -1910,7 +2294,73 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Operations Training User Group meetings cover training logistics, IT systems, and operational procedures rather than market-design rules, pricing mechanisms, or strategic market participation options that affect hydro revenue and compliance.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "20260729 OTUG Item 01b Agenda.pdf",
+        "filename": "20260729 OTUG Item 01b Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20260729%20OTUG%20Item%2001b%20Agenda770592.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a training and administrative meeting agenda with no substantive policy content, market-design changes, or rule developments affecting hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "D. Viering",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "J. Lindsey",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20260729 OTUG Item 04 2027 Vendor Training Offerings.pdf",
+        "filename": "20260729 OTUG Item 04 2027 Vendor Training Offerings.pdf",
+        "url": "https://cdn.misoenergy.org/20260729%20OTUG%20Item%2004%202027%20Vendor%20Training%20Offerings770591.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a training course catalog for grid operators; it contains no market-design content affecting hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260729 OTUG Item 02 2026 Power System Restoration Drill.pdf",
+        "filename": "20260729 OTUG Item 02 2026 Power System Restoration Drill.pdf",
+        "url": "https://cdn.misoenergy.org/20260729%20OTUG%20Item%2002%202026%20Power%20System%20Restoration%20Drill770589.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document describes operational training logistics and drill registration procedures for MISO system operators; it contains no market-design content touching hydropower revenue streams, participation rules, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260729 OTUG Item 03 2026 Vendor Training Reminders & Call for Peer Training.pdf",
+        "filename": "20260729 OTUG Item 03 2026 Vendor Training Reminders  Call for Peer Training.pdf",
+        "url": "https://cdn.misoenergy.org/20260729%20OTUG%20Item%2003%202026%20Vendor%20Training%20Reminders%20%20Call%20for%20Peer%20Training770590.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a training logistics notice listing vendor courses and a call for peer-training volunteers; it contains no market design, revenue mechanism, compliance obligation, or strategic option affecting hydropower or PSH operations.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "SSWG Meeting",
@@ -1999,7 +2449,7 @@
         "title": "Agenda",
         "filename": "20260728-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20260728/20260728-agenda.pdf",
-        "posted_date": "2026-07-21",
+        "posted_date": "2026-07-24",
         "hydro_relevant": false,
         "hydro_relevance_reason": "parse error: Unterminated string starting at: line 75 column 7 (char 3139)",
         "ai_summary": null,
@@ -2043,7 +2493,7 @@
         "title": "Agenda Doc",
         "filename": "20260728-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20260728/20260728-agenda-doc.docx",
-        "posted_date": "2026-07-21",
+        "posted_date": "2026-07-24",
         "hydro_relevant": false,
         "hydro_relevance_reason": "parse error: Expecting value: line 64 column 15 (char 3271)",
         "ai_summary": null,
@@ -2697,7 +3147,7 @@
         "title": "Item 02c \u2013 1 Destf Ceg Proposal \u2013 Presentation",
         "filename": "20260728-item-02c---1-destf-ceg-proposal---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20260728/20260728-item-02c---1-destf-ceg-proposal---presentation.pdf",
-        "posted_date": "2026-07-21",
+        "posted_date": "2026-07-24",
         "hydro_relevant": true,
         "hydro_relevance_reason": "RMR (Reliability Must-Run) agreement terms and capacity-market treatment directly affect hydro and storage owners' retirement/mothball decisions, cost-recovery certainty, and revenue exposure \u2014 this is strategic-option and obligation material for use-limited resources facing deactivation.",
         "ai_summary": "Constellation proposes amendments to PJM's pro forma RMR Agreement to clarify cost-recovery rights and termination conditions before operating units under RMR. Key proposals: allow asset-owner termination if cost-of-service rate filing is not completed to satisfaction, entitle owners to recovery of all prudently incurred costs upon termination, and clarify the right to accept or reject PJM extensions. Separately, Constellation opposes blanket inclusion of RMR resources' UCAP (Unforced Capacity) values in the RPM (Reliability Pricing Model) auction, arguing RMR resources are not Capacity Resources and inclusion should require crediting all capacity-market revenues back to entities funding RMR operations. This matters to hydro and PSH owners considering deactivation: RMR is the primary mechanism PJM uses to keep units online for transmission reliability, and the absence of clear pre-operational cost-recovery certainty and the risk of uncompensated capacity-market inclusion could deter owners from accepting RMR status and instead pursuing retirement.",
@@ -3426,7 +3876,7 @@
         "title": "Item 01 \u2013 Elections \u2013 Presentation",
         "filename": "20260728-item-01---elections---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260728/20260728-item-01---elections---presentation.pdf",
-        "posted_date": "2026-07-21",
+        "posted_date": "2026-07-24",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -4236,7 +4686,297 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "CAISO's price-formation enhancements directly affect energy price signals, scarcity pricing, and uplift mechanisms that shape hydropower revenue and operational dispatch decisions.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "ISO Presentation - Policy Briefing on Price Formation Enhancements - Mar 03, 2026",
+        "filename": "iso-presentation-policy-spotlight-briefing-on-price-formation-enhancements-mar-2026.pdf",
+        "url": "https://www.caiso.com/documents/iso-presentation-policy-spotlight-briefing-on-price-formation-enhancements-mar-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO is developing scarcity pricing enhancements that directly affect energy price formation and the value of hydro's flexibility and scarcity-period supply; the mechanism will shape how hydro captures revenue during tight conditions and whether demand-side participation reduces reliance on traditional scarcity pricing.",
+        "ai_summary": "CAISO staff (Allie Mace and James Friedrich) are presenting the evolution of scarcity pricing reform efforts at the WEM Governing Body, following 17 stakeholder meetings and 97 sets of comments (Nov 2024\u2013present). The working group is weighing two tracks: incremental changes to balancing-authority-level mitigation and scarcity rules (Track 1) versus comprehensive scarcity pricing redesign (Track 2). Four unresolved questions frame the decision: timing relative to EDAM implementation, whether scarcity signals or resource sufficiency alone drives reliability, the role of demand-side participation in maturing markets, and whether scarcity pricing must apply uniformly across the Western footprint. Stakeholder presenters (Six Cities, Calpine, Portland General Electric, and Public Generating Pool) will voice positions on urgency and EDAM interaction; no explicit comment deadline or vote date is stated in this briefing material, but the working group's parallel-track structure suggests imminent decision points.",
+        "topics": [
+          "price-formation",
+          "capacity-ra",
+          "seams-governance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Allie Mace",
+            "entity": "CAISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "James Friedrich",
+            "entity": "CAISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Chris Devon",
+            "entity": "Calpine Corporation",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kalia Savage",
+            "entity": "Portland General Electric",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sibyl Geiselman",
+            "entity": "Public Generating Pool (PGP)",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Bonnie Blair",
+            "entity": "Thompson Coburn (on behalf of Six Cities)",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "CESA Public Comment Letter - Policy Spotlight Briefing on Price Formation Enhancements - Feb 27, 2026",
+        "filename": "cesa-public-comment-letter-policy-spotlight-briefing-on-price-formation-enhancements-mar-2026.pdf",
+        "url": "https://www.caiso.com/documents/cesa-public-comment-letter-policy-spotlight-briefing-on-price-formation-enhancements-mar-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CESA's comments directly address scarcity pricing design for CAISO's real-time energy market and its interaction with imbalance reserve procurement \u2014 mechanisms that fundamentally affect the revenue hydro and storage resources capture during scarcity events and their opportunity to offer into markets beyond ancillary-service awards.",
+        "ai_summary": "CESA urges CAISO to advance a comprehensive scarcity pricing design on the published 2026\u20132028 policy roadmap, arguing that robust real-time energy scarcity pricing is essential to correct longstanding price-signal failures (evidenced during Summer 2020 events) and to backstop imbalance reserve procurements that cover only 97.5% of uncertainty. CESA proposes defining an 'energy supply margin' of unloaded or flexible resources (excluding ancillary-service bids) whose relaxation would trigger gradual energy price increases above marginal cost in real-time, enabling voluntary offers from resources without day-ahead or reserve awards to dispatch during extreme conditions. The mechanism directly raises real-time energy revenue for all dispatchable resources\u2014especially storage and hydro\u2014during scarcity by pricing energy closer to true scarcity value rather than the marginal resource cost, and expands the margin calculation to include ramping resources across multiple timescales (30-minute and 60-minute starts/ramp capability). A WEM Governing Body decision is scheduled for Q4 2026; no comment deadline is stated in this letter, but the March 3, 2026 WEM Governing Body meeting is referenced as the next proceeding touchpoint.",
+        "topics": [
+          "price-formation",
+          "ramping-flexibility",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Scott Murtishaw",
+            "entity": "California Energy Storage Alliance (CESA)",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "TEA Public Comment Letter - Policy Spotlight Briefing on Price Formation Enhancements - Mar 03, 2026",
+        "filename": "tea-public-comment-letter-policy-spotlight-briefing-on-price-formation-enhancements-mar-03-2026.pdf",
+        "url": "https://www.caiso.com/documents/tea-public-comment-letter-policy-spotlight-briefing-on-price-formation-enhancements-mar-03-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO price-formation enhancements directly affect energy scarcity pricing and intertie bidding mechanics for supply at CAISO's borders \u2014 a core revenue determinant for all dispatchable resources including hydro competing to export or sell uncommitted energy into CAISO.",
+        "ai_summary": "The Energy Authority (TEA) supports CESA's position that CAISO must address scarcity pricing in response to FERC's removal of the WECC soft-offer cap and the imminent launch of SPP's RTOE (April 1, 2026) and Markets+ Wave 1 (October 1, 2027), both of which offer more robust scarcity pricing and open economic intertie bidding than CAISO currently provides. TEA argues that without upgraded price-formation rules for uncommitted supply at CAISO's borders, LSEs will have difficulty contracting for substitute capacity during tight conditions, and third-party generators will migrate RA contracts to the new SPP markets. TEA supports the MSC, CESA, WPTF, and Calpine positions and urges CAISO to prioritize scarcity pricing reform \u2014 particularly for intertie and border supply pricing \u2014 as a near-term priority. This affects all hydro and PSH operators exporting or selling into CAISO or competing across western seams, because upgraded intertie scarcity pricing raises the value of flexible export capacity and uncommitted energy sales at CAISO borders.",
+        "topics": [
+          "price-formation",
+          "seams-governance",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Dan Williams",
+            "entity": "The Energy Authority (TEA)",
+            "role": "author",
+            "email": "dwilliams2@teainc.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Six Cities Perspective - Policy Spotlight Briefing on Price Formation Enhancements - Mar 2026",
+        "filename": "six-cities-perspective-spotlight-briefing-on-price-formation-enhancements-mar-2026.pdf",
+        "url": "https://www.caiso.com/documents/six-cities-perspective-spotlight-briefing-on-price-formation-enhancements-mar-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO Price Formation Enhancements proposal directly affects how scarcity pricing and ancillary-services co-optimization would alter energy and reserve revenue for all hydropower and pumped-storage resources in the CAISO footprint; the document stakes the position that comprehensive scarcity pricing reform should be deferred pending EDAM/DAME implementation, which affects the timing and design of hydro's exposure to new price-formation rules.",
+        "ai_summary": "A coalition of California LSEs and utilities (BAMx, CCCA, NCPA, PG&E, SDG&E, Six Cities, SCE) submitted a March 3, 2026 briefing opposing comprehensive scarcity-pricing reform in CAISO's price-formation enhancement initiative, arguing that co-optimization of ancillary services is incomplete, new reserve products' impacts are unassessed, and scarcity-pricing measures already exist in the market. The coalition instead endorses incremental improvements identified in CAISO's Straw Proposal and recommends deferring broader changes until after EDAM and Day Ahead Market Enhancements are implemented and market data accumulates. For hydropower and pumped-storage operators, the deferred timeline delays potential design changes to how scarcity pricing and ancillary-services revenue are formed, while the straw proposal's incremental elements (not detailed in this briefing) remain the near-term focus; no comment deadline for NHA members is stated in this briefing, but the March 3 date suggests comments were due around that time on the underlying CAISO proposal.",
+        "topics": [
+          "price-formation",
+          "ancillary-services",
+          "seams-governance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Bonnie S. Blair",
+            "entity": "Thompson Coburn LLP (counsel for Bay Area Municipal Transmission Group and Six Cities)",
+            "role": "signatory",
+            "email": "bblair@thompsoncoburn.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PGP Perspective - Policy Spotlight Briefing on Price Formation Enhancements - Mar 2026",
+        "filename": "pgp-perspective-spotlight-briefing-on-price-formation-enhancements-mar-2026.pdf",
+        "url": "https://www.caiso.com/documents/pgp-perspective-spotlight-briefing-on-price-formation-enhancements-mar-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO Price Formation Enhancements proposal directly affects energy scarcity pricing, market power mitigation for use-limited resources (hydro's core revenue exposure), and emergency pricing signals during tight conditions when hydro's dispatch value peaks.",
+        "ai_summary": "The Public Generating Pool (PGP)\u2014a coalition of Pacific Northwest public utilities owning primarily hydropower and purchasing BPA tier-1 power\u2014is advocating for CAISO's Price Formation Enhancements to address scarcity pricing during emergency conditions across the West. PGP rejects implementing a complex new ancillary-services product or wholesale Value of Lost Load (VOLL) mechanisms, instead favoring a refined 'straw proposal' that improves price signals and market power mitigation (MPM) for balancing authorities during tight conditions. The proposal targets scarcity pricing rules that apply equally to all participating BAs\u2014not just CAISO\u2014and aims to clarify how supply and demand emergency actions, price triggers, warning signals, and post-market settlement would function during extreme conditions. This directly affects revenue for hydro owners: the design of scarcity-pricing duration, MPM rules for use-limited resources, and how emergency conditions are defined and signaled all determine what hydro can earn when system margins tighten. Next steps include exploring BA supply-margin definitions and refining conditions for triggering scarcity pricing.",
+        "topics": [
+          "price-formation",
+          "mitigation-offers",
+          "seams-governance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Public Generating Pool",
+            "entity": "Public Generating Pool (trade association / advocacy group representing NW public utilities)",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "PGE Perspective - Policy Spotlight Briefing on Price Formation Enhancements - Mar 2026",
+        "filename": "pge-perspective-policy-spotlight-briefing-on-price-formation-enhancements-mar-2026.pdf",
+        "url": "https://www.caiso.com/documents/pge-perspective-policy-spotlight-briefing-on-price-formation-enhancements-mar-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO's scarcity pricing redesign (ORDC-style reform) directly affects real-time energy price formation and uplift/make-whole allocation, the two primary revenue mechanisms for hydro and PSH; PGE's intervention argues for deferring structural reform until post-EDAM stabilization, affecting the timeline and sequencing of changes that will reshape how hydro's flexibility and scarcity value are monetized.",
+        "ai_summary": "PGE argues that CAISO should implement only targeted interim scarcity-pricing improvements in 2026\u20132027 (load-shed pricing refinements, reserve-pricing consistency, shortage-logic clarification) and defer structural scarcity redesign (ORDC-style reform) until after EDAM stabilization in 2027+, citing risks to settlement mechanics and co-optimization during the 2026 EDAM launch. The concern is that concurrent objective-function changes during EDAM onboarding could alter core optimization and settlement logic while BAA-level market power mitigation, DAME coordination, and transfer mechanics remain under active development. Hydro owners should monitor this because scarcity pricing reform directly sets the value of real-time energy and uplift during tight conditions \u2014 the primary revenue source for flexibility; deferring structural change preserves the current DA/RT co-optimization framework that has historically worked in hydro's favor, but the post-2027 structural redesign will almost certainly reprrice hydro's contribution to scarcity and reserves. The trajectory suggests CAISO will eventually move toward a more explicit, reserve-demand-curve (ORDC) style approach, which may improve price signals for energy scarcity but risks depressing uplift payments if not designed carefully for use-limited resources.",
+        "topics": [
+          "price-formation",
+          "seams-governance",
+          "ramping-flexibility"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kalia Savage",
+            "entity": "PGE (Pacific Gas and Electric Company)",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Briefing on Spotlight Initiative - Price Formation Enhancements - Oct 2025",
+        "filename": "briefing-on-spotlight-initiative-price-formation-enhancements-oct-2025.pdf",
+        "url": "https://www.caiso.com/documents/briefing-on-spotlight-initiative-price-formation-enhancements-oct-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO is proposing changes to scarcity pricing and market-power mitigation (BAA-level MPM) that directly affect how energy prices are formed when reserves are tight\u2014a core revenue driver for hydropower and the mechanism by which hydro's flexibility earns scarcity rents.",
+        "ai_summary": "CAISO staff briefed the WEM Governing Body on two price-formation enhancements: BAA-level market power mitigation (MPM) and scarcity pricing. The straw proposal shifts BAA-level MPM to a grouping approach, includes CAISO as a BAA in competitiveness testing, and mitigates only pivotal suppliers; it also proposes preserving scarcity signals that reflect opportunity cost of contingency-reserve capacity, triggering highest prices during load-shedding events, and exploring comprehensive scarcity-pricing options. Formal policy proposals will go to the WEM Governing Body and ISO Board of Governors in 2026. For hydropower owners, the scarcity-pricing enhancements are potentially revenue-positive\u2014they expand the conditions under which hydro's flexibility commands premium compensation during tight grid conditions\u2014while BAA-level MPM changes may reduce unnecessary mitigation of hydro offers in constrained interregional scenarios, though the net effect depends on how competitiveness testing and pivotal-supplier definitions treat hydro's structural position in the West.",
+        "topics": [
+          "price-formation",
+          "mitigation-offers",
+          "seams-governance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "James Friedrich",
+            "entity": "CAISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Briefing on Spotlight Initiative - Price Formation Enhancements - Vitol Presentation - Oct 2025",
+        "filename": "briefing-on-spotlight-initiative-price-formation-enhancements-vitol-presentation-oct-2025.pdf",
+        "url": "https://www.caiso.com/documents/briefing-on-spotlight-initiative-price-formation-enhancements-vitol-presentation-oct-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Scarcity pricing design directly affects hydro and storage revenue by reshaping real-time and day-ahead energy prices during tight supply conditions\u2014the core value stream for flexible, dispatchable resources like hydropower and pumped storage.",
+        "ai_summary": "Vitol presented CAISO's Price Formation Enhancements initiative, specifically advocating for an enhanced Operating Reserve Demand Curve (ORDC) that ties real-time and day-ahead energy prices to the marginal reliability value of reserves (LOLP \u00d7 VOLL). The proposal aims to move CAISO away from binary, sporadic price spikes during shortages toward a continuous, graduated scarcity-pricing mechanism that signals reliability value *before* reserves are exhausted\u2014similar to MISO's recent implementation under ER25-579. Key design levers include LOLP measurement (probability reserves will fall below minimum within the next hour), VOLL calibration (customer willingness-to-pay segmented by load class), minimum-reserve thresholds, and reserve-requirement expansion to capture \"economic shortages.\" For hydropower and pumped storage owners, a well-designed ORDC would raise energy-market revenue during tight conditions by rewarding flexible supply earlier in scarcity events and encouraging day-ahead hedging and long-term investment signals; a poorly designed ORDC could suppress price signals if VOLL is set too low or reserves too high. Comments are due through the Price Formation Enhancements proceeding (no explicit deadline stated in this document).",
+        "topics": [
+          "price-formation",
+          "ancillary-services",
+          "ramping-flexibility"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Vitol Inc.",
+            "entity": "Vitol Inc.",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "WPTF Public Comment Letter - Price Formation Enhancements Initiative - Oct 23, 2025",
+        "filename": "wptf-public-comment-letter-price-formation-enhancements-initiative-oct-2025.pdf",
+        "url": "https://www.caiso.com/documents/wptf-public-comment-letter-price-formation-enhancements-initiative-oct-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "WPTF comments on CAISO's Price Formation Enhancements initiative directly address scarcity pricing design and energy price signals during tight supply conditions \u2014 core revenue mechanisms for hydropower \u2014 and propose early price-escalation mechanisms that would affect how hydro's energy is valued during system stress.",
+        "ai_summary": "WPTF, representing western power traders and generators, urges CAISO to implement robust scarcity pricing in the current phase of the Price Formation Enhancements (PFE) initiative, arguing that prices should rise gradually as supply tightens, not only after scarcity occurs. WPTF opposes CAISO's proposal to defer comprehensive scarcity pricing and instead rely on future enhancements to the Flexible Ramping Product and Ancillary Services, citing uncertainty and timeline risk. The letter also objects to CAISO's proposal to apply balancing-authority-level market power mitigation to the CAISO BAA absent new competitiveness analysis, arguing that any price suppression must be balanced by robust scarcity pricing \u2014 a direct constraint on energy pricing for hydro resources during periods of tight conditions. No specific vote or comment deadline is stated in this letter; it is itself a public comment on an ongoing initiative.",
+        "topics": [
+          "price-formation",
+          "ramping-flexibility",
+          "mitigation-offers"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Andrew Campbell",
+            "entity": "CAISO WEM Governing Body",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Anita Decker",
+            "entity": "CAISO WEM Governing Body",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Deborah Smith",
+            "entity": "CAISO WEM Governing Body",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Rebecca Wagner",
+            "entity": "CAISO WEM Governing Body",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Robert Kondziolka",
+            "entity": "CAISO WEM Governing Body",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Scott Miller",
+            "entity": "Western Power Trading Forum (WPTF)",
+            "role": "author",
+            "email": "smiller@wptf.org"
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "Joint LSEs Public Comment Letter - Price Formation Enhancements Initiative - Oct 28, 2025",
+        "filename": "jointlsespubliccommentletter-priceformationenhancementsinitiative-oct28-2025.pdf",
+        "url": "https://www.caiso.com/documents/jointlsespubliccommentletter-priceformationenhancementsinitiative-oct28-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "parse error: Unterminated string starting at: line 55 column 17 (char 3215)",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "WEM Governing Body Executive Session",
@@ -4834,6 +5574,29 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "report",
+        "title": "Item 03 \u2013 Cycle Schedule Update",
+        "filename": "20260727-item-03---cycle-schedule-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/ips/2026/20260727/20260727-item-03---cycle-schedule-update.pdf",
+        "posted_date": "2026-07-24",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: interconnection queue cycle scheduling directly affects hydro and PSH project development timelines, deliverability studies, and queue-related strategic options \u2014 project developers need to track phase completions and base-case posting dates to plan studies and advance projects through PJM's interconnection process.",
+        "ai_summary": "PJM's Interconnection Process Subcommittee reported on Transition Cycle 2 (TC2) Phase III and Cycle 01 (C01) schedules on July 27, 2026. TC2 Phase III began July 8 and is actively reviewing Decision Point 2 submittals; following those reviews, PJM will retool load-flow, short-circuit, stability, and PSCAD/EMT studies for weak-grid projects and coordinate affected-system studies. For Cycle 01, PJM anticipates posting the summer-peak base case on August 28, 2026, with Phase I studies to begin September 28; application reviews are on track to complete by late July and scoping meetings by early August. The final count of Cycle 01 projects to be studied in Phase I will be released before the August 28 base-case posting. Hydro and PSH developers tracking interconnection queues need these dates to schedule technical reviews, coordinate with model updates, and plan advance of their projects into active study phases.",
+        "topics": [
+          "interconnection",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Colleen Lauver",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Colleen.Lauver@pjm.com"
+          }
+        ]
       }
     ]
   },
@@ -5266,7 +6029,7 @@
         "title": "Item 03b \u2013 4 Hot Weather Update \u2013 Presentation",
         "filename": "item-03b---4-hot-weather-update---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260727-web/item-03b---4-hot-weather-update---presentation.pdf",
-        "posted_date": "2026-07-23",
+        "posted_date": "2026-07-24",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -7605,7 +8368,7 @@
         "title": "20260722 PSC Item 04b - MTEP26 Transfer Capability Analysis Results Review",
         "filename": "20260722 PSC Item 04b - MTEP26 Transfer Capability Analysis Results Review.pdf",
         "url": "https://cdn.misoenergy.org/20260722%20PSC%20Item%2004b%20-%20MTEP26%20Transfer%20Capability%20Analysis%20Results%20Review769599.pdf",
-        "posted_date": "2026-07-17",
+        "posted_date": "2026-07-24",
         "hydro_relevant": true,
         "hydro_relevance_reason": "MECHANISM: Transfer-capability constraints directly affect the interregional transmission paths available to hydropower exports and deliverability of hydro resources; large-load growth in MISO Central (cited as rationale for new transfer studies) alters scarcity conditions and revenue signals for dispatchable hydro serving the region.",
         "ai_summary": "MISO presents final MTEP26 transfer-capability results for two internal transfers: MISO North/East to Central (limited to \u221229 to 2 MW in 2031\u20132036) and Illinois Import (178\u20131,109 MW). Both are constrained by the Montgomery\u2013Rootbeer 345 kV line under contingency P7-1, with the MISO Central transfer severely limited by planned large-load growth in that region. MISO also reports completion of 18 interregional transfers in the NERC ITCS 2026 study, with final results due January 2027. Large-load concentration in MISO Central reduces available interregional transfer headroom, raising the scarcity value of existing generation sited downstream of binding constraints; hydro owners face tighter deliverability into constrained load pockets and may benefit from increased dispatch and pricing in congested zones. Final NERC ITCS report is scheduled January 2027.",
@@ -7640,7 +8403,7 @@
         "title": "20260722 PSC Item 04c Revising MTEP Sensitivities for NERC TPL",
         "filename": "20260722 PSC Item 04c Revising MTEP Sensitivities for NERC TPL.pdf",
         "url": "https://cdn.misoenergy.org/20260722%20PSC%20Item%2004c%20Revising%20MTEP%20Sensitivities%20for%20NERC%20TPL769600.pdf",
-        "posted_date": "2026-07-17",
+        "posted_date": "2026-07-24",
         "hydro_relevant": true,
         "hydro_relevance_reason": "MTEP sensitivity scenarios directly affect transmission-planning assumptions about hydro dispatch and scarcity pricing, particularly low-wind/low-renewable cases that drive ancillary-services value and resource-adequacy accreditation for conventional and pumped-storage hydro.",
         "ai_summary": "MISO is revising its 2-year MTEP reliability sensitivities to comply with NERC TPL standards, introducing a new Winter Peak scenario with wind output reduced to 30% and solar at 0% to test system reliability under severe renewable scarcity conditions. This scenario was developed because existing models underrepresented low-renewable dispatch risk. The revised sensitivities will be implemented in MTEP27 and include updated scenarios across Year 2, Year 5, and Year 10 planning horizons with varying wind and solar capacity factors. For hydro owners, low-wind/low-solar MTEP sensitivities increase the apparent scarcity value of dispatchable capacity and reserve availability, which can improve accreditation and opportunity-cost-offer justifications for both conventional reservoir hydro and pumped-storage facilities \u2014 but also expose hydro to tighter transmission-constraint modeling if those scarcity cases become binding in regional planning. The Planning Model Manual redlines were presented at the MUG; implementation appears on track for MTEP27 with no decision date stated in this document.",
@@ -7983,12 +8746,12 @@
   {
     "title": "Transmission Owners Agreement-Administrative Committee - Public Materials Only (No Registration) Meeting",
     "date": "2026-07-22",
-    "time": "3:00 p.m. - 5:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "Transmission Owners Agreement-Administrative Committee - Public Materials Only (No Registration)",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={FA09280A-87EE-46CC-A294-701D6D364A29}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={EB1E973F-4DFF-4889-9241-C5351AF4561D}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Transmission Owners Agreement administrative meetings typically cover governance, organizational procedures, and internal committee operations rather than market-design rules affecting hydropower revenue, obligations, or strategic options.",
     "issues": [],
@@ -8011,7 +8774,7 @@
   {
     "title": "Risk Management Committee Meeting",
     "date": "2026-07-22",
-    "time": "3:00 p.m. - 5:00 p.m.",
+    "time": "1:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "Risk Management Committee",
     "source_url": "https://www.pjm.com/calendar",
@@ -9956,7 +10719,7 @@
   {
     "title": "SPF Meeting",
     "date": "2026-07-20",
-    "time": "3:00 p.m. - 5:00 p.m.",
+    "time": "10:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "SPF",
     "source_url": "https://www.pjm.com/calendar",
