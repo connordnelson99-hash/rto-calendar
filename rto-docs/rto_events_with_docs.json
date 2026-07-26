@@ -364,6 +364,109 @@
     "documents": []
   },
   {
+    "title": "NEPOOL Markets Committee Meeting",
+    "date": "2026-08-11",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Markets Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160101",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ISO-NE Markets Committee meetings routinely address energy price formation, capacity accreditation, ancillary services, storage participation, and transmission/deliverability rules that directly affect hydro and pumped-storage revenue, compliance, and strategic positioning in the Northeast.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Loss of Load Expectation Working Group (LOLEWG) - August 11, 2026",
+    "date": "2026-08-11",
+    "time": "12:00 PM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Loss of Load Expectation Working Group",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/8c771587aeea490fb136f79ab97fdb20.aspx",
+    "materials_url": "https://www.misoenergy.org/link/8c771587aeea490fb136f79ab97fdb20.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Loss of Load Expectation (LOLE) studies and resource-adequacy constructs directly affect how hydro capacity is accredited, what reserve margins are required, and what seasonal energy-adequacy outlooks drive market-design changes that alter hydro revenue and strategic options.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20260811 LOLEWG Item 01c Minutes 20260623.pdf",
+        "filename": "20260811 LOLEWG Item 01c Minutes 20260623.pdf",
+        "url": "https://cdn.misoenergy.org/20260811%20LOLEWG%20Item%2001c%20Minutes%2020260623769466.pdf",
+        "posted_date": "2026-07-16",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's seasonal LOLE study and capacity adequacy framework directly affects resource adequacy accreditation (ELCC values) for hydro and storage, and load-growth findings will shape reserve margin and capacity procurement decisions that determine demand for hydro's energy and flexibility products.",
+        "ai_summary": "MISO's Loss of Load Expectation Working Group discussed the PY 2027\u20132028 seasonal LOLE study, which maintains a 0.1 days/year annual target with seasonal 0.01 days/year floors across four seasons. The study incorporates seasonally differentiated ELCC values for wind and solar, improved load-forecast modeling, and Capacity Import/Export Limit (CIL/CEL) calculations by Local Resource Zone. Notably, MISO documented unprecedented winter and spring load growth across its footprint, with peak-demand patterns shifting away from summer dominance; stakeholders were asked to comment by July 7, 2026 on revised load-forecast uncertainty parameters that may reshape planning-reserve-margin requirements. Hydro operators should monitor: (1) seasonal ELCC methodology as applied to dispatchable resources, since seasonal accreditation drives RA value; (2) load-growth findings and their impact on reserve adequacy for winter/shoulder periods (classic high-scarcity windows for dispatchable hydro); and (3) CIL/CEL results in September that will constrain interregional transfer capability and affect hydro export value in neighboring zones.",
+        "topics": [
+          "capacity-ra",
+          "load-growth",
+          "transmission"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ryan Kelley",
+            "entity": null,
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Trey Mayeux",
+            "entity": "Cleco",
+            "role": "presenter | vice chair",
+            "email": null
+          },
+          {
+            "name": "Eric Thoms",
+            "entity": "Invenergy",
+            "role": "presenter | chair",
+            "email": null
+          },
+          {
+            "name": "Forrest Hickey",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jacob Zhang",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mike Colenso",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Neil Shah",
+            "entity": "MISO",
+            "role": "presenter | contact",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "RMS Meeting",
+    "date": "2026-08-11",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Retail Market Subcommittee",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08112026-RMS-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/08112026-RMS-Meeting",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Retail Market Subcommittee addresses customer switching, billing, data transport, and retail-market mechanics \u2014 none of which affect hydro revenue, compliance, or strategic options in wholesale markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Membership Subcommittee Meeting",
     "date": "2026-08-10",
     "time": "2:00 PM",
@@ -11342,7 +11445,7 @@
     "date": "2026-07-16",
     "time": "1:30 PM",
     "rto": "ISO-NE",
-    "committee": "Reliability Committee",
+    "committee": "Transmission Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=161677",
     "materials_url": null,
