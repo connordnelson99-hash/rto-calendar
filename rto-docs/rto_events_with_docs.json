@@ -336,6 +336,107 @@
     "documents": []
   },
   {
+    "title": "NEPOOL Markets Committee Meeting",
+    "date": "2026-08-12",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Markets Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160102",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ISO-NE Markets Committee meetings address energy pricing, ancillary services, capacity accreditation, storage participation rules, and transmission/deliverability issues that directly affect hydropower and pumped-storage revenue, compliance, and strategic positioning in New England.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Large Load Working Group (LLWG) - August 12, 2026",
+    "date": "2026-08-12",
+    "time": "9:00 AM - 4:00 PM",
+    "rto": "MISO",
+    "committee": "Large Load Working Group",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/4688c82410fe4ea09729ce71a51afabc.aspx",
+    "materials_url": "https://www.misoenergy.org/link/4688c82410fe4ea09729ce71a51afabc.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Large load interconnection and co-located load developments affect hydro revenue and strategic options by creating scarcity signals and behind-the-meter service opportunities, particularly relevant to data-center-driven load growth in MISO's footprint.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Tuning Training",
+    "date": "2026-08-12",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Steady State Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08122026-Tuning-Training-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/08122026-Tuning-Training-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Steady State Working Group tuning training is an internal technical-operations topic (power-flow modeling calibration) with no bearing on market design, pricing, participation rules, or strategic options for hydropower or storage resources.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "PRS Meeting",
+    "date": "2026-08-12",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Protocol Revisions Subcommittee",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08122026-PRS-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/08122026-PRS-Meeting",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Protocol Revisions Subcommittee meetings in ERCOT typically address operational procedures, data formats, and IT system changes with no direct bearing on market-design mechanisms (price formation, ancillary services, capacity accreditation, storage participation) that NHA members track for cross-market comparison.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "02. Draft Minutes PRS 20260610",
+        "filename": "02.-Draft-Minutes-PRS-20260610.docx",
+        "url": "https://www.ercot.com/files/docs/2026/07/23/02.-Draft-Minutes-PRS-20260610.docx",
+        "posted_date": "2026-07-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is meeting minutes reporting on ERCOT administrative procedures, committee approvals, and project-scheduling discussions; it contains no substantive market-design content affecting hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Diana Coleman",
+            "entity": "CPS Energy",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ino Gonzalez",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kenneth Ragsdale",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sai Moorty",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Troy Anderson",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "MDWG Net Conference",
     "date": "2026-08-11",
     "time": "11:00 AM - 5:00 PM CT",
@@ -5106,6 +5207,20 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "EDAM congestion revenue allocation directly affects how hydro's locational energy and transmission-constrained ancillary services are priced and compensated, and NHA members in the West are actively evaluating EDAM participation as a strategic market-seams choice.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Technical User Group",
+    "date": "2026-07-28",
+    "time": "10:00 AM - 11:00 AM",
+    "rto": "CAISO",
+    "committee": "Technical User Group (TUG)",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/technical-user-group-jul-28-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/technical-user-group-tug",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "CAISO Technical User Group meetings regularly address market-design implementations, dispatch rules, settlement mechanics, and participation requirements that directly affect hydro and storage operators' compliance obligations and revenue mechanisms.",
     "issues": [],
     "documents": []
   },
@@ -11445,7 +11560,7 @@
     "date": "2026-07-16",
     "time": "1:30 PM",
     "rto": "ISO-NE",
-    "committee": "Transmission Committee",
+    "committee": "Reliability Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=161677",
     "materials_url": null,
