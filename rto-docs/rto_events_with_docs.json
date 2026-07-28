@@ -1,5 +1,19 @@
 [
   {
+    "title": "MORWG Net Conference",
+    "date": "2026-10-28",
+    "time": "11:00 AM - 5:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Operations and Reliability Working Group",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-operations-and-reliability-working-group-net-conference-20261028/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=370774",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Markets+ Operations and Reliability Working Group meetings address market design, resource participation rules, and reliability mechanisms that directly affect hydro and storage revenue, obligations, and strategic positioning in SPP's evolving footprint.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MSC Zoom Meeting - Hosted by WIEB",
     "date": "2026-10-16",
     "time": "11:00 AM - 12:00 PM CT",
@@ -322,6 +336,34 @@
     "documents": []
   },
   {
+    "title": "NEPOOL Markets Committee Meeting",
+    "date": "2026-08-13",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Markets Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=163988",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ISO-NE Markets Committee meetings regularly address energy price formation, ancillary services design, capacity market rules, and storage participation \u2014 all of which directly affect hydro and PSH revenue and compliance across New England's RTO footprint.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "OTWG Meeting",
+    "date": "2026-08-13",
+    "time": "9:00 AM",
+    "rto": "ERCOT",
+    "committee": "Operations Training Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08132026-OTWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/08132026-OTWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Operations Training Working Group meetings address internal training logistics and operational procedures rather than market-design rules, pricing mechanisms, or strategic participation options that would affect hydropower revenue, obligations, or options.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MDWG Net Conference",
     "date": "2026-08-12",
     "time": "11:00 AM - 3:00 PM CT",
@@ -361,7 +403,52 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Large load interconnection and co-located load developments affect hydro revenue and strategic options by creating scarcity signals and behind-the-meter service opportunities, particularly relevant to data-center-driven load growth in MISO's footprint.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20260812 LLWG Item 01c Minutes 20260716.pdf",
+        "filename": "20260812 LLWG Item 01c Minutes 20260716.pdf",
+        "url": "https://cdn.misoenergy.org/20260812%20LLWG%20Item%2001c%20Minutes%2020260716771087.pdf",
+        "posted_date": "2026-07-27",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Meeting minutes of MISO's Large Load Working Group contains administrative items, agenda reviews, and status updates with no substantive discussion of mechanisms affecting hydropower revenue, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Jones",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Eileen King",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Marc Keyser",
+            "entity": "MISO",
+            "role": "liaison",
+            "email": null
+          },
+          {
+            "name": "Werner Roth",
+            "entity": "TX PUC",
+            "role": "vice chair",
+            "email": null
+          },
+          {
+            "name": "Chris Plante",
+            "entity": "WEC",
+            "role": "chair",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Tuning Training",
@@ -805,6 +892,20 @@
     "materials_url": "https://www.ercot.com/calendar/08062026-RMTTF-Meeting-_-Webex",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Retail Market Training Task Force addresses customer-facing retail mechanics (switching, billing, education) with no bearing on wholesale market design, pricing, dispatch, or ancillary services relevant to hydro operators or the cross-RTO comparison function.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Market Implementation Committee Meeting",
+    "date": "2026-08-06",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Market Implementation Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C14066E8-5155-4715-99FA-7A5C096D8A24}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM's Market Implementation Committee deliberates on tariff changes, market rules, and operational procedures that directly affect how hydropower and pumped-storage resources participate in energy, ancillary services, and capacity markets, including frequency response, reserve accreditation, and price-formation rules.",
     "issues": [],
     "documents": []
   },
@@ -1637,6 +1738,20 @@
     "documents": []
   },
   {
+    "title": "Post CIFP Workshop - Technical Overview Meeting",
+    "date": "2026-07-31",
+    "time": "1:00 p.m. - 3:00 p.m.",
+    "rto": "PJM",
+    "committee": "Post CIFP Workshop - Technical Overview",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A post-CIFP (Capacity, Incentives, and Frequency Performance) technical overview workshop, without agenda detail, appears to be a procedural/informational meeting on a completed initiative rather than an active market-design development affecting hydro revenue, obligations, or strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "SOS Meeting",
     "date": "2026-07-30",
     "time": "9:00 a.m. - 11:00 a.m.",
@@ -1686,11 +1801,77 @@
     "committee": "CCLLSCO",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={96DE6677-C7A6-43A5-94F8-15F6C38E1EE2}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "CCLLSCO (Capacity, Credit, Liquidity, Legal, Settlement & Compliance Operations) handles credit, settlement, and operational administration with no direct bearing on hydro revenue mechanisms, market design, capacity accreditation, or participation rules.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260730-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260730/20260730-agenda.pdf",
+        "posted_date": "2026-07-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20260730-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260730/20260730-agenda-doc.docx",
+        "posted_date": "2026-07-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "Item 01a \u2013 Draft Co Located Load Order Workshop Minutes \u2013 3182026",
+        "filename": "20260730-item-01a---draft-co-located-load-order-workshop-minutes---3182026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260730/20260730-item-01a---draft-co-located-load-order-workshop-minutes---3182026.pdf",
+        "posted_date": "2026-07-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 02 \u2013 Co Located Load And Large Load Show Cause Orders \u2013 Presentation",
+        "filename": "20260730-item-02---co-located-load-and-large-load-show-cause-orders---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260730/20260730-item-02---co-located-load-and-large-load-show-cause-orders---presentation.pdf",
+        "posted_date": "2026-07-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03 \u2013 Show Cause For Large Loads Conceptual Approach \u2013 Presentation",
+        "filename": "20260730-item-03---show-cause-for-large-loads-conceptual-approach---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260730/20260730-item-03---show-cause-for-large-loads-conceptual-approach---presentation.pdf",
+        "posted_date": "2026-07-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "MORWG Net Conference",
@@ -2360,6 +2541,234 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda \u2013 Updated",
+        "filename": "20260729-agenda---updated.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/prtmdw/2026/20260729/20260729-agenda---updated.pdf",
+        "posted_date": "2026-07-27",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a meeting agenda with no substantive market-design content; it lists discussion topics from an earlier May 6 paper and identifies panelists but discloses neither the policy proposals under discussion nor any positions on revenue, obligations, or strategic options affecting hydro or PSH.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "d63cb446-6161-48ca-9bd5-83411c918ada",
+            "canonical_name": "Powering Reliability Through Market Design",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "education",
+            "committee_owner": "pjm",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details-non-stakeholder.aspx?Issue=d63cb446-6161-48ca-9bd5-83411c918ada"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Carl Coscia",
+            "entity": "Base Power",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Erik Heinle",
+            "entity": "Constellation",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jim Davis",
+            "entity": "Dominion",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Denise Foster Cronin",
+            "entity": "EKPC",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Harry Singh",
+            "entity": "Goldman Sachs",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ric O'Connell",
+            "entity": "GridLab",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jen Tribulski",
+            "entity": "PJM",
+            "role": "facilitator",
+            "email": null
+          },
+          {
+            "name": "M. Connolly",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Mollie Lacek",
+            "entity": "PJM",
+            "role": "secretary",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda \u2013 Updated Doc",
+        "filename": "20260729-agenda---updated-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/prtmdw/2026/20260729/20260729-agenda---updated-doc.docx",
+        "posted_date": "2026-07-27",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a meeting agenda with logistical content, antitrust guidelines, and code-of-conduct boilerplate; it names a workshop topic ('Powering Reliability Through Market Design') and lists discussion participants, but contains no substantive proposal, data, analysis, or decision that would affect hydro revenue, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "d63cb446-6161-48ca-9bd5-83411c918ada",
+            "canonical_name": "Powering Reliability Through Market Design",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "education",
+            "committee_owner": "pjm",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details-non-stakeholder.aspx?Issue=d63cb446-6161-48ca-9bd5-83411c918ada"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Carl Coscia",
+            "entity": "Base Power",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Erik Heinle",
+            "entity": "Constellation",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jim Davis",
+            "entity": "Dominion",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Denise Foster Cronin",
+            "entity": "EKPC",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Harry Singh",
+            "entity": "Goldman Sachs",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ric O'Connell",
+            "entity": "GridLab",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jen Tribulski",
+            "entity": "PJM",
+            "role": "facilitator",
+            "email": null
+          },
+          {
+            "name": "M. Connolly",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Mollie Lacek",
+            "entity": "PJM",
+            "role": "secretary",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 01c \u2013 Path A \u2013 Stabilized Markets Via Lse Hedging Requirements \u2013 EKPC Presentation",
+        "filename": "20260729-item-01c---path-a---stabilized-markets-via-lse-hedging-requirements---ekpc-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/prtmdw/2026/20260729/20260729-item-01c---path-a---stabilized-markets-via-lse-hedging-requirements---ekpc-presentation.pdf",
+        "posted_date": "2026-07-27",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "EKPC's proposal for mandatory LSE hedging requirements and bilateral contracting obligations directly affects capacity market design, resource adequacy accreditation (ELCC volatility), and risk allocation for dispatchable resources \u2014 including hydropower \u2014 that serve LSE load obligations in PJM.",
+        "ai_summary": "East Kentucky Power Cooperative presents a proposal (Path A) to require Load-Serving Entities (LSEs) to maintain bilateral or owned-resource hedges covering a percentage of their forecasted load, rather than relying primarily on the RPM Capacity Market. EKPC argues that as large loads (data centers) enter without adequate resources, unhedged LSEs create unreasonable load-shed risk and price pressure on hedged entities, and advocates guardrails on market leaning, state partnership on resource adequacy definition, and enforcement penalties for non-compliance. The proposal touches hydropower owners' revenue streams because it would reshape RPM's residual design, alter accreditation risk (EKPC notes ELCC volatility is creating bilateral-contract risk), and shift capacity-resource valuation and procurement timing \u2014 potentially increasing long-term bilateral contracting demand for owned or committed hydro assets. Most exposed are hydro owners serving as hedging resources for cooperatives and vertically integrated LSEs; the document frames this as an urgent market-design issue but does not state a formal PJM timeline or vote date.",
+        "topics": [
+          "capacity-ra",
+          "load-growth",
+          "mitigation-offers"
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "d63cb446-6161-48ca-9bd5-83411c918ada",
+            "canonical_name": "Powering Reliability Through Market Design",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "education",
+            "committee_owner": "pjm",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details-non-stakeholder.aspx?Issue=d63cb446-6161-48ca-9bd5-83411c918ada"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Denise Foster Cronin",
+            "entity": "East Kentucky Power Cooperative (EKPC)",
+            "role": "author | presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 01d \u2013 Incentivizing Resource Adequacy \u2013 Dominion Presentation",
+        "filename": "20260729-item-01d---incentivizing-resource-adequacy---dominion-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/prtmdw/2026/20260729/20260729-item-01d---incentivizing-resource-adequacy---dominion-presentation.pdf",
+        "posted_date": "2026-07-27",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Dominion proposes new load-entity capacity procurement incentives and bilateral-contracting frameworks that would reshape how generation investment is signaled in PJM's capacity market and affect hydro's revenue via changes to auction structure, VRR-curve parameters, and the balance between central capacity procurement and bilateral contracting.",
+        "ai_summary": "Dominion proposes a Load Entity Large Load Addition (LLA) Sufficiency Incentive to restructure PJM's capacity market: load entities serving incremental large loads must procure or contract for new capacity (or capacity-equivalent alternatives such as demand response or provisional interconnection service) to meet 70 percent of their LLA obligation prior to the Base Residual Auction, or face a penalty equal to Point A of the VRR curve applied to the uncovered portion. The penalty is phased in over a 5-year transition (calculated but not assessed in Year 1, 50% assessed in Year 4, 100% in Year 5), with delivery years 2028/29\u20132033/34 covering the implementation window. Hydro owners and flexible generators benefit if this shifts PJM's market from over-reliance on the centralized BRA toward bilateral contracting and tighter alignment of generation investment with load growth \u2014 which would raise investment signals in the energy and ancillary-services markets and reduce uplift \u2014 but face revenue risk if it accelerates retirements or cannibalization of existing capacity through reactivation of retired resources to meet the LLA obligation. The proposal also flags coordination between transmission planning and generation interconnection (referencing SPP's Consolidated Planning Process as a model) as a parallel stream, which could affect hydro's interconnection timelines and deliverability. No formal vote or comment deadline is stated in this presentation; status is \"ideas initially implemented\" for load-forecasting enhancements in delivery year 2027/28.",
+        "topics": [
+          "capacity-ra",
+          "price-formation",
+          "load-growth"
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "d63cb446-6161-48ca-9bd5-83411c918ada",
+            "canonical_name": "Powering Reliability Through Market Design",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "education",
+            "committee_owner": "pjm",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details-non-stakeholder.aspx?Issue=d63cb446-6161-48ca-9bd5-83411c918ada"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Jim Davis",
+            "entity": "Dominion Energy",
+            "role": "presenter",
+            "email": "james.g.davis@dominionenergy.com"
+          }
+        ]
       }
     ]
   },
@@ -2632,13 +3041,814 @@
         "topics": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "agenda_tac_072926_FINAL_rev1",
+        "filename": "agenda_tac_072926_FINAL_rev1.docx",
+        "url": "https://www.ercot.com/files/docs/2026/07/27/agenda_tac_072926_FINAL_rev1.docx",
+        "posted_date": "2026-07-27",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "parse error: Unterminated string starting at: line 79 column 17 (char 3060)",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Transmission Development Forum",
+    "date": "2026-07-29",
+    "time": "9:00 AM - 4:00 PM",
+    "rto": "CAISO",
+    "committee": "Transmission development forum",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/transmission-development-forum-jul-29-2026-0900-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/transmission-development-forum",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Transmission development directly affects hydro deliverability, interregional transfer capability, storage-as-transmission alternatives, and the strategic value of existing hydro plants in CAISO and interconnected markets.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "comment",
+        "title": "ISO Response to Comments Matrix - Transmission Development Forum - Jan 28, 2026",
+        "filename": "iso-response-to-comments-matrix-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/iso-response-to-comments-matrix-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a comment-response matrix on specific transmission projects (Vaca Dixon capacitor banks, San Bernardino lines, etc.) with no bearing on hydropower revenue formation, market participation rules, storage accreditation, water/hydrology operations, or strategic market choices for hydro owners.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "CPUC",
+            "entity": "California Public Utilities Commission",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Clearway Energy",
+            "entity": "Clearway Energy",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Qualus",
+            "entity": "Qualus",
+            "role": "commenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Approved Projects - Transmission Planning Process - Jan 28, 2026",
+        "filename": "approved-projects-transmission-planning-process-jan-28-2026.xlsx",
+        "url": "https://www.caiso.com/documents/approved-projects-transmission-planning-process-jan-28-2026.xlsx",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission planning and approved projects directly affect hydro deliverability, interregional transfer capability, and the economic viability of hydropower exports and location-specific revenue.",
+        "ai_summary": "CAISO's Transmission Development Forum approved a slate of transmission projects as of January 28, 2026. Transmission expansion and approval status affect the ability of hydropower facilities to deliver output to load centers and participate in interregional markets (EDAM/WEIM); projects that relieve constraints or increase interregional transfer capability raise the value of existing hydro MWs by improving scarcity pricing signals and market reach, while delays or rejections reduce exportability and compress local pricing during high-demand periods. Hydro owners and PSH operators should monitor which projects were approved, their in-service timelines, and any constraints on hydro-serving transmission corridors to understand future revenue prospects.",
+        "topics": [
+          "transmission",
+          "storage",
+          "seams-governance"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "comment",
+        "title": "Comments - Clearway - Transmission Development Forum - Jan 28, 2026",
+        "filename": "comments-clearway-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/comments-clearway-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a project-specific transmission-infrastructure comment requesting data clarification and construction timelines on three named substations; it does not address hydropower revenue mechanisms, compliance obligations, or strategic options affecting hydro/PSH participation in CAISO markets.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "comment",
+        "title": "Comments - Qualus - Transmission Development Forum - Jan 28, 2026",
+        "filename": "comments-qualus-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/comments-qualus-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a narrow technical comment on a specific transmission-project permitting timeline (Midway 230 kV reactor replacement) with no bearing on hydro revenue mechanisms, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Qualus",
+            "entity": "Qualus",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "Comments - California Public Utility Commission - Transmission Development Forum - Jan 28, 2026",
+        "filename": "comments-california-public-utility-commission-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/comments-california-public-utility-commission-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document addresses transmission infrastructure planning (capacitor banks and circuit breakers in the Vaca Dixon area) with no nexus to hydropower revenue mechanisms, operational obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "California Public Utilities Commission",
+            "entity": "California Public Utilities Commission",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Approved Projects - Transmission Planning Process - January 2026",
+        "filename": "approved-projects-transmission-planning-process-january-2026.xlsx",
+        "url": "https://www.caiso.com/documents/approved-projects-transmission-planning-process-january-2026.xlsx",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document metadata indicates this is a transmission planning process status/list report with no extracted text; cannot assess substantive content on revenue mechanisms, compliance obligations, or strategic options without text content.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Network Upgrades - Generator Interconnection - January 2026",
+        "filename": "network-upgrades-generator-interconnection-january-2026.xlsx",
+        "url": "https://www.caiso.com/documents/network-upgrades-generator-interconnection-january-2026.xlsx",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No text extracted; document title alone (Network Upgrades - Generator Interconnection) suggests interconnection queue/deliverability content, but without substantive content it cannot be evaluated against hydro revenue, obligation, or strategic-option criteria.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda - Transmission Development Forum - Jan 28, 2026",
+        "filename": "agenda-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Transmission planning status updates affect hydro deliverability and interregional transfer capability \u2014 a core strategic option for hydro fleet value and market participation. Forum tracks approved transmission projects and network upgrades that enable or constrain hydro export and market access.",
+        "ai_summary": "CAISO and California PUC are hosting a Transmission Development Forum (next meeting July 29, 2026) to provide a single public tracking portal for approved transmission projects and network upgrades affecting generators and stakeholders. The forum consolidates previously held quarterly stakeholder calls and CPUC's Transmission Project Review Process (effective Jan 1, 2024, applying to PG&E, SCE, SDG&E), moving to semi-annual meetings in 2026. Projects included are those approved through CAISO's transmission planning process and generator interconnection network upgrades with executed LGIAs; workbooks and presentations are posted at https://www.caiso.com/library/transmission-development-forum and updated ongoing. The Jan 28, 2026 agenda includes presentations from transmission developers (HWT, LS Power, CalGrid) and utilities (PG&E, SCE, SDG&E, VEA/GridLiance West) plus discussion of 2025 SB 1174 Transmission System Assessment results focusing on project delays and impacts on in-development generation and storage resources.",
+        "topics": [
+          "transmission",
+          "interconnection",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Taha Marmoush",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Gridliance - Transmission Development Forum - Jan 28, 2026",
+        "filename": "presentation-gridliance-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-gridliance-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a project-status update on specific transmission network upgrades (GLW/VEA area projects and phasor measurement units) with no bearing on hydro/PSH revenue mechanisms, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Gridliance",
+            "entity": "Gridliance",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Horizon West Transmission - Transmission Development Forum - Jan 28, 2026",
+        "filename": "presentation-horizon-west-transmission-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-horizon-west-transmission-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CAISO's Horizon West Transmission projects directly affect California hydropower and pumped-storage deliverability and interregional transfer capability, which determines the geographic and temporal scarcity value of hydro generation.",
+        "ai_summary": "CAISO's Transmission Development Forum presents status of two 500 kV projects in Horizon West (North Gila\u2013Imperial Valley line; Imperial Valley\u2013North of SONGS line and substation), both approved in the 2022\u20132023 transmission plan with in-service dates now expected in December 2031 and October 2032 respectively. These projects expand southern California transmission capacity and improve interconnection with the Southwest, directly affecting the ability of California hydro and pumped-storage operators to deliver energy into and export from the state during tight supply conditions and seasonal scarcity. The expected completion timeline frames when the transmission constraint relief will materialize and begins to inform long-term capacity planning and pricing assumptions for hydro assets in the region.",
+        "topics": [
+          "transmission",
+          "load-growth",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - San Diego Gas and Electric - Transmission Development Forum - Jan 28, 2026",
+        "filename": "presentation-san-diego-gas-and-electric-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-san-diego-gas-and-electric-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine transmission project status update with no bearing on hydro revenue mechanisms, participation rules, operating obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "San Diego Gas & Electric",
+            "entity": "San Diego Gas & Electric Company",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Southern California Edison - Transmission Development Forum - Jan 28, 2026",
+        "filename": "presentation-southern-california-edison-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-southern-california-edison-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission planning and queue network upgrades directly affect hydro deliverability, interconnection, and the value of existing and queued generation capacity in SCE's service territory and CAISO.",
+        "ai_summary": "Southern California Edison presented updates on 19 approved transmission planning projects and 11 network upgrades supporting generator interconnection queue development in CAISO. Key projects include the Lugo\u2013Victorville 500 kV upgrade (entering construction Jan 2019, now expected Mar 2027), Antelope-Whirlwind 500 kV line upgrade (expected Jan 2026), and multiple 230 kV/115 kV reinforcements in the Lugo-Victor-Kramer corridor currently on hold pending reassessment of need. Network upgrades total 6,800 MW of queued generation capacity (primarily Vincent 500 kV SCD mitigation); several critical upgrades including Devers and Mira Loma SCD mitigations remain in early planning stages with expected in-service dates pushed to 2029\u20132033. Delays in transmission infrastructure directly constrain deliverability of existing and queued hydro resources in the region, particularly storage and flexible resources needed for SCE's resource-adequacy portfolio.",
+        "topics": [
+          "transmission",
+          "interconnection",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - LS Power - Transmission Development Forum - Jan 28, 2026",
+        "filename": "presentation-ls-power-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-ls-power-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission expansion projects, including HVDC corridors and new substations with reactive-support equipment, affect hydro's physical deliverability, locational value, and participation in voltage/reactive-power markets.",
+        "ai_summary": "LS Power presents status on six major transmission projects in California and the Southwest, including the SWIP-North 500 kV line (285 miles, Idaho Power to NV Energy), Round Mountain reactive-support project (STATCOM blocks and Fern Road Substation), and Metcalf\u2013San Jose B HVDC corridor, all scheduled for 2028 in-service dates. These projects expand transmission capacity and reactive-power resources in the West, which directly affects the locational value of existing hydro generation and the opportunity for hydro owners to participate in voltage-support markets; HVDC expansion along the Oregon-Nevada corridor improves deliverability for Northwest hydro into California. The document lists project status (mostly permitting phase, one under construction) and CPCN filing dates, with required in-service dates of June 2028 for most projects.",
+        "topics": [
+          "transmission",
+          "ancillary-services",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "LS Power",
+            "entity": "LS Power",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Cal Grid - Transmission Development Forum - Jan 28, 2026",
+        "filename": "presentation-cal-grid-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-cal-grid-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission planning directly affects hydro deliverability and the value of existing hydro capacity; large transmission projects with multi-year development timelines shape the strategic option set for hydro owners deciding on retirement, uprate, or relocation.",
+        "ai_summary": "CAISO's Transmission Development Forum presentation outlines approved transmission planning projects, including two major 500 kV substation and line projects in the Humboldt area (Humboldt 500 kV Substation with line to Collinsville and Humboldt to Fern Road 500 kV Line), both approved in the 2023\u20132024 Transmission Plan with planned in-service dates in June 2034. These infrastructure additions expand northern California transmission capacity and interconnection points, which affects the deliverability of hydro generation from the region and alters the economic value of capacity in areas newly connected or relieved of congestion. Hydro owners with resources in or near affected corridors should monitor project advancement to understand transmission-driven revenue signals and potential changes in locational pricing.",
+        "topics": [
+          "transmission",
+          "load-growth",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - PG&E - Transmission Development Forum - Jan 28, 2026",
+        "filename": "presentation-pg-e-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-pg-e-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission planning and interconnection project status directly affects hydro deliverability, grid access, and the sequencing of major infrastructure projects that determine whether existing and new hydro capacity can reach markets efficiently \u2014 particularly sensitive for California's Sierra/Valley hydro fleet and Dos Amigos Pumping Plant.",
+        "ai_summary": "PG&E updates CAISO Transmission Development Forum on 26 active GIP/TPP projects spanning 2010\u20132025 transmission-plan approvals, with in-service dates spanning 2026\u20132034. Key items include: (1) East Shore 230 kV Bus Terminals Reconfiguration (T.0006021) may no longer be needed and is under CAISO review; (2) Los Banos 70 kV Area Reinforcement (T.0009617, formerly T.0009617) is delayed due to dependencies on Dos Amigos Pumping Plant\u2013Panoche 230 kV New Switching Station; (3) Moss Landing\u2013Las Aguilas 230 kV Series Reactor (T.0009559) is delayed 6+ months pending cluster 13 study completion; (4) multiple projects show scope reductions and portfolio recalibration that improve schedules (Newark-Milpitas, Eagle Rock\u2013Fulton\u2013Silverado, Manteca-Ripon-Riverbank-Melones lines). Hydro owners in California's Central Valley and coast depend on these transmission projects to deliver energy and manage exports; delays or scope changes alter interconnection windows and transmission-constrained revenue. The Dos Amigos dependency is material to PSH operations in the region. PG&E requests stakeholder questions be held until slide completion, suggesting this is a standing TDF update with no formal comment period.",
+        "topics": [
+          "transmission",
+          "interconnection",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Wrap-up - Transmission Development Forum - Jan 28, 2026",
+        "filename": "wrap-up-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/wrap-up-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a meeting wrap-up and calendar/logistics document with no substantive content on transmission planning, market design, rate-setting, or any hydro revenue, obligation, or strategic mechanism.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - California Public Utilities Commission - Transmission Development Forum - Jan 28, 2026",
+        "filename": "presentation-california-public-utilities-commission-transmission-development-forum-jan-28-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-california-public-utilities-commission-transmission-development-forum-jan-28-2026.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: interconnection and transmission deliverability delays directly affect the in-service timeline and revenue realization for energy storage resources (including pumped storage) with signed agreements; this assessment quantifies which transmission projects are blocking storage deployment and identifies delay drivers (materials procurement, bundling dependencies, permitting) that shape resource adequacy and PSH market opportunity in California.",
+        "ai_summary": "California Public Utilities Commission (CPUC) Energy Division presented findings from the SB 1174 (2025) Transmission System Assessment, which tracks delays to renewable generation and storage resources dependent on delayed transmission projects in PG&E and SCE service areas. Of 40.5 GW of generation and storage resources with signed interconnection agreements, 8.9 GW (~22%) face in-service-date delays due to transmission delays, with an additional 4.4 GW at risk; SCE's territory accounts for 7.3 GW of delayed resources, driven primarily by materials procurement bottlenecks (4.5 GW), bundling dependencies (4.4 GW), and permitting delays. CPUC recommends PTOs improve early-phase planning, proactively procure long lead-time materials, and coordinate better metrics for high-impact projects; the assessment will be referenced in 2026 state agency workshops and the Integrated Energy and Resources Planning (IEPR) process. For pumped-storage owners seeking California interconnection, this analysis quantifies where queue delays originate and flags the Eldorado\u2013Lugo\u2013Mohave RPS upgrade, Gates 230 kV Reactors, and Midway Substation 230 kV conversion as high-impact bottlenecks; delays of 11+ months on materials are documented, and bundling-dependency chains can affect resources not yet even in signed agreements.",
+        "topics": [
+          "interconnection",
+          "transmission",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Edmund Dale",
+            "entity": "California Public Utilities Commission, Energy Division",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "ISO  Response to Comments - Matrix - Transmission Development Forum - Jul 30, 2025",
+        "filename": "iso-response-to-comments-matrix-transmission-development-forum-jul-30-2025.pdf",
+        "url": "https://www.caiso.com/documents/iso-response-to-comments-matrix-transmission-development-forum-jul-30-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a transmission infrastructure planning document addressing equipment procurement timelines and substation upgrades in California; it contains no discussion of energy markets, pricing, ancillary services, storage participation, capacity accreditation, dispatch rules, or any other mechanism affecting hydropower or pumped-storage revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "California Public Utilities Commission",
+            "entity": "CPUC",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Clearway Energy",
+            "entity": "Clearway Energy",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Flynn Resource Consultants Inc.",
+            "entity": "Flynn Resource Consultants Inc.",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Intersect Power",
+            "entity": "Intersect Power",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Longroad Energy",
+            "entity": "Longroad Energy",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "REV Renewables",
+            "entity": "REV Renewables",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "SB Energy",
+            "entity": "SB Energy",
+            "role": "commenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Overview - Transmission Development Forum - Jul 30, 2025",
+        "filename": "agenda-transmission-development-forum-jul-30-2025.pdf",
+        "url": "https://www.caiso.com/documents/agenda-transmission-development-forum-jul-30-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission planning and network upgrades directly affect hydro deliverability and strategic dispatch options; this forum tracks the status of projects in the CAISO's transmission planning process that impact generator interconnection and transmission network capacity.",
+        "ai_summary": "CAISO and CPUC jointly host a Transmission Development Forum to track the status of approved transmission projects and network upgrades affecting generators in the CAISO footprint. The forum covers previously approved transmission projects and network upgrades from the generator interconnection process (those with executed LGIAs). Workbooks with project information are posted online and updated continually; the forum will meet twice yearly in 2026, with next meeting dates to be announced. Hydro owners in CAISO territory depend on transmission deliverability to realize the value of generation; changes to network upgrade status and timelines directly affect when existing hydro plants can access scarcity pricing and export markets, and whether constrained locations remain capable of delivering energy to load.",
+        "topics": [
+          "transmission",
+          "interconnection",
+          "load-growth"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Taha Marmoush",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Horizon West Transmission",
+            "entity": "HWT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "LS Power",
+            "entity": "LS Power",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Pacific Gas & Electric",
+            "entity": "PG&E",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Southern California Edison",
+            "entity": "SCE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "San Diego Gas & Electric",
+            "entity": "SDG&E",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Valley Electric Association / GridLiance West",
+            "entity": "VEA/GLW",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Approved Projects - Transmission Planning Process - Jul 2025",
+        "filename": "approved-projects-transmission-planning-process-jul-2025.xlsx",
+        "url": "https://www.caiso.com/documents/approved-projects-transmission-planning-process-jul-2025.xlsx",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a title-only transmission planning approval list with no extracted text; cannot assess hydro revenue, obligation, or strategic impacts without substantive content.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Network Upgrades - Generator Interconnection - Jul 2025",
+        "filename": "network-upgrades-generator-interconnection-jul-2025.xlsx",
+        "url": "https://www.caiso.com/documents/network-upgrades-generator-interconnection-jul-2025.xlsx",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No text was extracted from the document; title alone does not indicate content touching hydro revenue, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - GLW/VEA - Transmission Development Forum - Jul 30, 2025",
+        "filename": "presentation-glw-vea-transmission-development-forum-jul-30-2025.pdf",
+        "url": "https://www.caiso.com/documents/presentation-glw-vea-transmission-development-forum-jul-30-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission expansion projects in the GLW/VEA area directly affect hydropower deliverability and generation access to load centers; these network upgrades determine whether hydro resources can reach markets and realize energy/capacity value.",
+        "ai_summary": "CAISO reports completion of all cluster 9 and earlier GLW/VEA network-upgrade projects, with revised in-service dates for major 2022\u20132023 TPP-approved upgrades now scheduled for May\u2013June 2028 (previously December 2027). The GLW/VEA area upgrades\u2014a multi-year transmission-expansion program affecting Southern California generation dispatch and export capacity\u2014have shifted their expected completion by 5\u20136 months. This timing affects hydro operators' ability to export energy from the Southwest to California and dispatch behind congestion; delays to these projects extend the period during which transmission constraints may cap hydro's realized revenue and utilization, particularly for pumped-storage and conventional hydro plants in the generation-rich Intermountain regions relying on GLW/VEA paths to reach CAISO load.",
+        "topics": [
+          "transmission",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - HWT - Transmission Development Forum - Jul 30, 2025",
+        "filename": "presentation-hwt-transmission-development-forum-jul-30-2025.pdf",
+        "url": "https://www.caiso.com/documents/presentation-hwt-transmission-development-forum-jul-30-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission expansion directly affects hydro deliverability and the strategic value of existing and new hydro capacity; these CAISO-approved 500 kV lines (in-service 2031\u20132032) will alter interregional transfer capability and scarcity pricing in the Southwest, impacting revenue from hydro exports and the economic case for new/uprated plants.",
+        "ai_summary": "CAISO's Transmission Development Forum presents updates on two major 500 kV transmission projects approved in the 2022\u20132023 transmission plan: the North Gila\u2013Imperial Valley 500 kV line (in-service December 2031) and the Imperial Valley\u2013North of SONGS 500 kV line with North of SONGS substation (in-service October 2032). These expansions will increase transfer capability out of the Southwest into California and southern Nevada, reducing congestion-driven locational scarcity and potentially lowering energy prices in export markets while improving the economic value of hydro-served demand growth in southern California. Owners of conventional hydro in the Colorado River basin, Southwest, and Northwest should track these in-service dates as they shape multi-year hedging, uprate, and relicense business cases.",
+        "topics": [
+          "transmission",
+          "load-growth"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - SCE - Transmission Development Forum - Jul 30, 2025",
+        "filename": "presentation-sce-transmission-development-forum-jul-30-2025.pdf",
+        "url": "https://www.caiso.com/documents/presentation-sce-transmission-development-forum-jul-30-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission expansion directly affects hydro's deliverability, locational value, and interregional transfer capability\u2014especially critical for Western hydro exporters; queue network upgrades hosting 2,791 MW of interconnected resources alter the transmission grid available to hydro facilities.",
+        "ai_summary": "SCE's Transmission Development Forum presentation updates CAISO on 25 approved transmission planning projects (Lugo-Victorville 500 kV, Devers reconfiguration, Colorado River\u2013Red Bluff 500 kV upgrades, and others) and 4 queue network upgrades (Moorpark CRAS, South of Vincent CRAS hosting 1,400 MW, Lugo-Victorville RAS). Most projects have shifted in-service dates; three major 500 kV line upgrades (Devers-Valley, Devers-Red Bluff, Colorado River\u2013Red Bluff) have slipped from 2027\u20132028 targets to 2028\u20132030, while regional backbone reinforcements in Southern California remain in design or early engineering stages. These upgrades affect export corridors and local-node congestion pricing for any hydro resources with delivery paths through the Lugo, Devers, or Colorado River substations; delays lengthen periods of constrained transmission and may suppress locational scarcity signals that would otherwise reward flexible, dispatchable generation at supply-constrained nodes. Most impacted are Western hydropower operators exporting via Southern California interties and pumped-storage facilities dependent on those paths for economically viable charging windows.",
+        "topics": [
+          "transmission",
+          "interconnection",
+          "load-growth"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - SDGE - Transmission Development Forum - Jul 30, 2025",
+        "filename": "presentation-sdge-transmission-development-forum-jul-30-2025.pdf",
+        "url": "https://www.caiso.com/documents/presentation-sdge-transmission-development-forum-jul-30-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "SDG&E transmission project status updates do not touch hydropower revenue streams, obligations, or strategic options; they concern local distribution and subtransmission planning unrelated to hydro dispatch, pricing, capacity accreditation, storage participation, or interconnection queues affecting hydro development.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "SDG&E",
+            "entity": "San Diego Gas & Electric",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - LSPC - Transmission Development Forum - Jul 30, 2025",
+        "filename": "presentation-lspc-transmission-development-forum-jul-30-2025.pdf",
+        "url": "https://www.caiso.com/documents/presentation-lspc-transmission-development-forum-jul-30-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission expansion directly affects hydro and PSH deliverability, generation viability, and export capability\u2014long-distance transmission additions in California (SWIP-North) and interconnection points (Idaho Power, NV Energy) touch NHA members' strategic transmission-access and interregional-trade positioning.",
+        "ai_summary": "LS Power presents status updates on six major California transmission projects led by LSPGC and GBT, spanning dynamic reactive support (STATCOMs at Gates and Round Mountain substations, both now in or nearing service as of March\u2013June 2025), new substations and regional AC/HVDC lines (Collinsville, Manning, Metcalf\u2013San Jose, Newark projects in permitting, due in-service May\u2013June 2028), and the 285-mile SWIP-North 500 kV line connecting Idaho Power's Midpoint substation to Robinson Summit (NV Energy), with 70% series compensation, also in permitting for May 2028 in-service. These projects expand Southern California generation interconnection and Northern California\u2013to\u2013Nevada interregional capacity. For hydro and PSH owners, SWIP-North is the most material: it increases transmission headroom for exports from hydro-rich intermountain regions (Idaho, Nevada) into California's load centers and reduces transmission constraints that currently suppress generation- and capacity-value for existing run-of-river and reservoir plants in the region. No comment deadlines or membership votes are stated in the excerpt.",
+        "topics": [
+          "transmission",
+          "storage"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - PG&E - Transmission Development Forum - Jul 30, 2025",
+        "filename": "presentation-pg-e-transmission-development-forum-jul-30-2025.pdf",
+        "url": "https://www.caiso.com/documents/presentation-pg-e-transmission-development-forum-jul-30-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine transmission-project status update from PG&E covering construction schedules and equipment sourcing; it contains no market-design content affecting hydro revenue streams, participation rules, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Daniel Register",
+            "entity": "PG&E",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Darrin Yoxtheimer",
+            "entity": "PG&E",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nick Medina",
+            "entity": "PG&E",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Vanessa Morgan",
+            "entity": "PG&E",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Wrap-up - Transmission Development Forum - Jul 30, 2025",
+        "filename": "wrap-up-transmission-development-forum-jul-30-2025.pdf",
+        "url": "https://www.caiso.com/documents/wrap-up-transmission-development-forum-jul-30-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a meeting wrap-up and administrative calendar document containing only logistics, deadlines, and routine operational announcements with no substantive discussion of transmission, market design, storage, pricing, or resource adequacy mechanisms affecting hydropower revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "comment",
+        "title": "Comments - Clearway Energy - Transmission Planning Process - Jul 2025",
+        "filename": "comments-clearway-energy-transmission-planning-process-jul-2025.pdf",
+        "url": "https://www.caiso.com/documents/comments-clearway-energy-transmission-planning-process-jul-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: transmission-planning delays affect hydro deliverability and interconnection outcomes; Clearway's questions about PG&E upgrade timelines and CAISO's role in expediting large-scale transmission work directly impact the ability of clustered renewable projects (including co-located hydro or hydro-paired storage) to achieve commercial certainty and access to the grid.",
+        "ai_summary": "Clearway Energy submitted comments on CAISO's July 2025 Transmission Development Forum raising three critical transmission-planning issues: (1) PG&E's 22rsmt-4 upgrade (target ISD 2031) \u2014 Clearway requests clarity on LGIA assignment, work scope documentation, long-lead equipment status, and risk mitigation; (2) PG&E's 20rsmt-5 upgrade (target ISD June 2026) \u2014 Clearway seeks details on risk factors, circuit-breaker delivery, construction start date, Tesla substation outage windows, and CPUC permit scope; and (3) PG&E's C12P1-NPT04 upgrade (target ISD 2026) \u2014 similar details on risk, equipment arrival, construction timing, Vaca Dixon outage constraints, and permitting. Critically, Clearway argues that CAISO should: (a) take active oversight of transmission timelines and enforce adherence by PTOs; and (b) allow cluster projects (awaiting delayed large upgrades) to commercialize based on available DNU headroom without the upgrade, enabling contractual certainty before long-lead deliverability upgrades come online. For hydro and PSH owners, these are the concrete bottlenecks determining when and how much generation capacity can physically access the grid; delays cascade into interconnection queue bottlenecks and reduce the effective deliverability of clustered projects \u2014 raising the scarcity value of already-online hydro but constraining new hydro or storage uprates that depend on these transmission segments.",
+        "topics": [
+          "transmission",
+          "interconnection",
+          "load-growth"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Clearway Energy",
+            "entity": "Clearway Energy",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "Comments - CPUC - Transmission Planning Process - Jul 2025",
+        "filename": "comments-cpuc-transmission-planning-process-jul-2025.pdf",
+        "url": "https://www.caiso.com/documents/comments-cpuc-transmission-planning-process-jul-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission delays and in-service date slippages directly affect hydro deliverability and the value of hydro exports; the document flags permitting and coordination risks on two major California transmission projects (Wheeler Ridge, Lugo-Victorville) that constrain the ability of hydro resources to reach load centers and participate in interregional energy exchange.",
+        "ai_summary": "CPUC Energy Division staff submitted questions to PG&E and SCE regarding delays to two major transmission projects: Wheeler Ridge Junction Substation (target ISD pushed to 2033\u20132034) and Lugo-Victorville upgrades (ISD slipped from 2025 to target 2027). PG&E cited lessons from the Estrella permitting process; SCE cited coordination delays with LADWP and generator outreach. Transmission bottlenecks directly constrain hydro-plant deliverability and interregional export capability; delays to these projects reduce the locational value of hydro generation in the North and access to Southern California markets. No explicit deadlines or votes are stated in the document, but the underlying transmission-planning process continues within CAISO's TDF and CPUC oversight frameworks.",
+        "topics": [
+          "transmission",
+          "load-growth",
+          "interconnection"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Edmund Dale",
+            "entity": "California Public Utilities Commission (CPUC) Energy Division",
+            "role": "contact",
+            "email": "edmund.dale@cpuc.ca.gov"
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "Comments - Flynn PG&E - Transmission Planning Process - Jul 2025",
+        "filename": "comments-flynn-pg-e-transmission-planning-process-jul-2025.pdf",
+        "url": "https://www.caiso.com/documents/comments-flynn-pg-e-transmission-planning-process-jul-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a set of technical Q&A responses from PG&E on specific transmission project design choices (reactor technology, conductor type) with no bearing on hydropower revenue mechanisms, participation rules, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Flynn Resource Consultants Inc.",
+            "entity": "Flynn Resource Consultants Inc.",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "PG&E",
+            "entity": "Pacific Gas & Electric Company",
+            "role": "respondent",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "Comments - Intersect Power - Transmission Planning Process - Jul 2025",
+        "filename": "comments-intersect-power-transmission-planning-process-jul-2025.pdf",
+        "url": "https://www.caiso.com/documents/comments-intersect-power-transmission-planning-process-jul-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Transmission upgrades directly affect hydro deliverability and interconnection capacity; the Lugo-Eldorado upgrade (a major Southern California path) influences the transmission constraints within which hydro operators trade energy and compete for interconnection service.",
+        "ai_summary": "Intersect Power requests that Southern California Edison provide detailed status, schedule, delay causes, and discovery points for the Lugo-Eldorado transmission upgrade (listed as item #4 in SCE's July 2025 Transmission Development Forum presentation). The upgrade affects a major transmission corridor in the CAISO footprint; completion delays or accelerations directly reshape the transmission capacity available to hydro generators exporting from the Northwest and producing within California, altering locational prices and available transfer capacity for energy and ancillary services.",
+        "topics": [
+          "transmission",
+          "interconnection"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Intersect Power",
+            "entity": "Intersect Power",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "Comments - Long Road Energy - Transmission Planning Process - Jul 2025",
+        "filename": "comments-long-road-energy-transmission-planning-process-jul-2025.pdf",
+        "url": "https://www.caiso.com/documents/comments-long-road-energy-transmission-planning-process-jul-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission planning and in-service dates directly affect hydro deliverability and the timing of revenue realization from generation projects; queue delays and upgrade sequencing alter strategic execution timelines for hydro-backed transmission interconnections.",
+        "ai_summary": "Longroad Energy comments on CAISO's July 2025 Transmission Development Forum, raising three questions about PG&E transmission upgrades in Clusters 13\u201314: (1) why upgrade C13P1-KGR05 was triggered by Cluster 14 but assigned to Cluster 13, and its funding status; (2) the 6-month delay in C13P1-KGR05's in-service date (ISD) versus January 2025 reports, while a precursor upgrade (C13P1-KPN02) was accelerated three years to 2027; and (3) the distinction between two ostensibly identical Midway 230 kV BAAH conversions (C13P1-KPN02 and C13P1-KPN03). These questions probe the cost allocation, scheduling rationale, and specification clarity of network upgrades that govern when interconnected generation resources \u2014 including hydro and storage \u2014 can deliver power. No comment deadline or next step is stated in this excerpt.",
+        "topics": [
+          "transmission",
+          "interconnection",
+          "load-growth"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Longroad Energy",
+            "entity": "Longroad Energy",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "Comments - Rev Renewable - Transmission Planning Process - Jul 2025",
+        "filename": "comments-rev-renewable-transmission-planning-process-jul-2025.pdf",
+        "url": "https://www.caiso.com/documents/comments-rev-renewable-transmission-planning-process-jul-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: transmission planning delays affecting hydro/renewable resource deliverability and capacity accreditation status in CAISO's annual resource-adequacy studies \u2014 directly impacts revenue-eligible MW and RA participation.",
+        "ai_summary": "REV Renewables raises a critical timing issue in CAISO's transmission planning: the Lugo-Victorville 500 kV upgrade has split in-service dates (SCE's portion in 2025, LADWP's portion delayed to January 2029), and REV asks whether CAISO will use 2025 or 2029 ISD in its annual deliverability studies. This matters because projects whose Full Capacity Delivery Status (FCDS) and deliverability depend on this upgrade will receive different RA accreditation values depending on which date CAISO assumes \u2014 a one-year vs. four-year delay cascades through all dependent projects' capacity eligibility and resource-adequacy showings. REV seeks clarification on CAISO's methodology for projects whose transmission backbone is only partially complete within the study year.",
+        "topics": [
+          "transmission",
+          "capacity-ra",
+          "interconnection"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "comment",
+        "title": "Comments - SB Energy - Transmission Planning Process - Jul 2025",
+        "filename": "comments-sb-energy-transmission-planning-process-jul-2025.pdf",
+        "url": "https://www.caiso.com/documents/comments-sb-energy-transmission-planning-process-jul-2025.pdf",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "TRANSMISSION PLANNING: delays in major transmission-network upgrades (Serrano\u2013Alberhill\u2013Valley 500kV, Midway, Manning) directly affect deliverability and in-service timing for interconnected generation (including hydropower), and affect interconnection project delivery schedules and network-upgrade completion dates on which hydro developers depend.",
+        "ai_summary": "SB Energy, LS Power, and PG&E submit comments on CAISO's Transmission Development Forum addressing critical delays in California transmission upgrades. The Serrano\u2013Alberhill\u2013Valley 500kV line slipped from December 2027 to June 2031 due to switchgear lead times; Midway 230 kV bus reactor installation delayed to March 2031 despite earlier BAAH completion; Manning 500kV upgrades face similar long-lead-item procurement uncertainty. SB Energy and LS Power ask when purchase orders for HV circuit breakers, transformers, and switchgear will be issued. These upgrades are network requirements for interconnected projects, so delays extend in-service dates for downstream generation\u2014including hydro resources awaiting completion of required network upgrades. Hydro developers should monitor these timelines and consider engaging in CAISO's transmission-planning reassessment process to ensure network-upgrade sequencing aligns with hydro interconnection schedules.",
+        "topics": [
+          "transmission",
+          "interconnection",
+          "load-growth"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "LS Power",
+            "entity": "LS Power",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "PG&E",
+            "entity": "Pacific Gas and Electric Company",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "SB Energy",
+            "entity": "SB Energy",
+            "role": "author",
+            "email": null
+          }
+        ]
       }
     ]
   },
   {
     "title": "Markets and Reliability Committee Meeting",
     "date": "2026-07-28",
-    "time": "9:00 a.m. - 12:30 p.m.",
+    "time": "9:00 a.m. - 2:00 p.m.",
     "rto": "PJM",
     "committee": "Markets and Reliability Committee",
     "source_url": "https://www.pjm.com/calendar",
@@ -3523,7 +4733,7 @@
         "title": "Item 03b \u2013 PJM Draft Avoidable Costs \u2013 Presentation",
         "filename": "20260728-item-03b---pjm-draft-avoidable-costs---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20260728/20260728-item-03b---pjm-draft-avoidable-costs---presentation.pdf",
-        "posted_date": "2026-07-21",
+        "posted_date": "2026-07-27",
         "hydro_relevant": true,
         "hydro_relevance_reason": "PJM's avoidable-cost study directly informs mitigation of market-power offers for use-limited resources; hydro and pumped storage are designated 'Unit Specific' (requiring individual cost derivation), affecting their opportunity-cost offer development and revenue exposure under PJM's mitigation rules.",
         "ai_summary": "PJM and The Brattle Group have completed a 2026 update to gross avoidable costs (GAC) for existing generation, a key input to offer mitigation and resource retirement analysis. Hydro (3,275 MW) and pumped storage (5,232 MW) are flagged as 'Unit Specific' rather than covered by generic technology benchmarks, meaning owners must develop individual plant-level avoidable costs for offer mitigation purposes rather than using a standard reference. The 2026 analysis updates representative-plant characteristics and cost drivers compared to 2022 (with notable increases in coal GAC: +44%, onshore wind +29%, simple-cycle CT +23%, reflecting aging fleets and input costs), and introduces battery energy storage as a new resource type. Hydro and PSH owners will need to monitor PJM's next steps on how unit-specific costs will be calculated and what documentation is required for compliance with offer-mitigation filings.",
@@ -3898,7 +5108,7 @@
   {
     "title": "Members Committee Meeting",
     "date": "2026-07-28",
-    "time": "1:15 p.m. - 5:00 p.m.",
+    "time": "2:00 p.m. - 5:00 p.m.",
     "rto": "PJM",
     "committee": "Members Committee",
     "source_url": "https://www.pjm.com/calendar",
@@ -4094,6 +5304,19 @@
         "filename": "20260728-item-02---arrc-user-group---affordability-consideration.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260728/20260728-item-02---arrc-user-group---affordability-consideration.pdf",
         "posted_date": "2026-07-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 04 \u2013 Technical Conference Report",
+        "filename": "20260728-item-04---technical-conference-report.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260728/20260728-item-04---technical-conference-report.pdf",
+        "posted_date": "2026-07-27",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -4559,7 +5782,36 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "ERCOT Operations Working Group meetings typically address grid operations, control-center procedures, and IT/systems matters rather than market-design topics (pricing, capacity accreditation, storage participation, ancillary-services procurement) that would inform NHA members' revenue, obligations, or strategic options.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "OWG Meeting Agenda 2026-07-28",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/07282026-OWG-Meeting-_-Webex#agenda",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT's proposed 2027 ancillary-services methodology revision directly affects how frequency response, reserves, and other grid-support services are priced and procured \u2014 a cross-market design precedent NHA tracks for hydro and storage participation models, even though Texas itself has minimal hydropower.",
+        "ai_summary": "ERCOT staff are presenting a Proposed 2027 AS Methodology at the Operations Working Group meeting (2026-07-28), authored by Luis Hinojosa. The agenda does not provide detail on the proposal's scope, but the 2027 AS methodology revision touches ancillary-services procurement, pricing, and possibly demand-curve or performance-accreditation rules. This is a cross-market design precedent: ERCOT's choices on frequency-response architecture, regulation-service requirements, and reserve-accreditation mechanics inform how other RTOs (including hydro-rich regions like the West) structure equivalent mechanisms. Hydro and pumped-storage operators monitor ERCOT AS methodology shifts as leading indicators of broader market-design trends in scarcity pricing and flexible-resource compensation.",
+        "topics": [
+          "ancillary-services"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Luis Hinojosa",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "R. Floyd",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Texas SET/LP-TDTMS Joint Meeting",
@@ -4857,6 +6109,19 @@
         "posted_date": "2026-07-23",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document specifies the technical format (ANSI X12 EDI transaction 810_02) for billing invoices between Texas TDSPs and competitive retailers in the retail market; it contains no market-design content touching hydro revenue streams, participation rules, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "AV2026_Update_20260727",
+        "filename": "AV2026_Update_20260727.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/07/27/AV2026_Update_20260727.pptx",
+        "posted_date": "2026-07-27",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine administrative progress report on Texas metering, data-transport systems, and load-profiling validation \u2014 retail/operational mechanics with no bearing on hydro revenue streams, compliance obligations, or strategic options.",
         "ai_summary": null,
         "topics": [],
         "issues": [],
@@ -5207,7 +6472,28 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "EDAM congestion revenue allocation directly affects how hydro's locational energy and transmission-constrained ancillary services are priced and compensated, and NHA members in the West are actively evaluating EDAM participation as a strategic market-seams choice.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "b27fdfb7-80ba-4881-ae09-68dbb82e2f13",
+        "canonical_name": "Extended day-ahead market",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market"
+      },
+      {
+        "rto": "CAISO",
+        "native_id": "b009c20b-d59e-421d-ba8b-1c8de230d32a",
+        "canonical_name": "Extended day-ahead market - congestion revenue allocation",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market-congestion-revenue-allocation"
+      }
+    ],
     "documents": []
   },
   {
@@ -5223,6 +6509,61 @@
     "meeting_hydro_reason": "CAISO Technical User Group meetings regularly address market-design implementations, dispatch rules, settlement mechanics, and participation requirements that directly affect hydro and storage operators' compliance obligations and revenue mechanisms.",
     "issues": [],
     "documents": []
+  },
+  {
+    "title": "BPM Change Management Proposed Revision Request Review",
+    "date": "2026-07-28",
+    "time": "11:00 AM - 12:00 PM",
+    "rto": "CAISO",
+    "committee": "Business Practice Manual (BPM) change management",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/bpm-change-management-proposed-revision-request-review-jul-28-2026-1100-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/business-practice-manual-bpm-change-management",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "BPM change management is an administrative/governance process for updating manuals; it does not itself address market design, revenue mechanisms, participation rules, or operational standards that affect hydropower operations or revenue.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Cluster 16 Interconnection Request In-Take Process Training",
+    "date": "2026-07-28",
+    "time": "1:00 PM - 2:30 PM",
+    "rto": "CAISO",
+    "committee": null,
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/cluster-16-interconnection-request-in-take-process-training-jul-28-2026-0100-pm",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Training on interconnection request intake processes is operational/administrative logistics rather than market-design policy affecting revenue, compliance obligations, or strategic options for hydro operators.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "other",
+        "title": "https://www.caiso.com/documents/lse-commercial-interest-opt-in-form.docx",
+        "filename": "lse-commercial-interest-opt-in-form.docx",
+        "url": "https://www.caiso.com/documents/lse-commercial-interest-opt-in-form.docx",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "https://www.caiso.com/documents/non-lse-commercial-interest-form.docx",
+        "filename": "non-lse-commercial-interest-form.docx",
+        "url": "https://www.caiso.com/documents/non-lse-commercial-interest-form.docx",
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "MTWG Net Conference",
@@ -6573,7 +7914,7 @@
         "title": "20260727 LLWG Item 03 Interconnection Reliability Requirements (LLWG 2026 3) Draft Tariff",
         "filename": "20260727 LLWG Item 03 Interconnection Reliability Requirements (LLWG-2026-3) Draft Tariff.docx",
         "url": "https://cdn.misoenergy.org/20260727%20LLWG%20Item%2003%20Interconnection%20Reliability%20Requirements%20%28LLWG-2026-3%29%20Draft%20Tariff770225.docx",
-        "posted_date": "2026-07-23",
+        "posted_date": "2026-07-27",
         "hydro_relevant": true,
         "hydro_relevance_reason": "MISO is establishing new reliability and operational requirements for large computational loads (50+ MW) that will co-locate behind generation or storage, creating precedent for how RTOs handle co-located load and potentially affecting hydro and PSH operators' interconnection obligations and dispatch flexibility.",
         "ai_summary": "MISO's Large Load Working Group has drafted tariff language (Section 37A) establishing reliability requirements for large computational loads (\u226550 MW), with differentiated rules for computational loads (data centers, servers, etc.) versus general industrial load. Computational loads must install PMUs, meet ride-through standards during voltage/frequency disturbances, and comply with up/down ramp limits; all large loads must provide real-time telemetry, load forecasts, and detailed electrical models prior to September 1, 2027 (or service commencement, whichever is later). The tariff explicitly excludes from the definition of \"Large Load\" any load associated with charging of electric storage resources, preserving a separate category for PSH charging \u2014 but the ramp-rate requirements for computational loads and the modeling/telemetry mandates will likely set precedent for storage participation rules and co-located resource interconnection standards across RTOs. Owners of PSH or hydro plants considering co-location with large load or generation should monitor: (1) whether these ramp and ride-through standards extend to storage-charging loads in future MISO filings, (2) how the PMU and forecast-data requirements affect dispatch flexibility and day-ahead commitment processes, and (3) whether MISO's exclusion of storage charging from the \"Large Load\" category persists or is narrowed.",
@@ -6614,7 +7955,7 @@
         "title": "20260727 LLWG Item 03 Interconnection Reliability Requirements (LLWG 2026 3) Presentation",
         "filename": "20260727 LLWG Item 03 Interconnection Reliability Requirements (LLWG-2026-3)_Presentation.pdf",
         "url": "https://cdn.misoenergy.org/20260727%20LLWG%20Item%2003%20Interconnection%20Reliability%20Requirements%20%28LLWG-2026-3%29_Presentation770291.pdf",
-        "posted_date": "2026-07-23",
+        "posted_date": "2026-07-27",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Large load interconnection requirements\u2014particularly computational load ramp and ride-through mandates\u2014create new operating obligations and reliability standards that affect hydro's dispatch flexibility, frequency-response capability, and potential to supply ramping and fast-response services to support large-load volatility.",
         "ai_summary": "MISO is revising and filing tariff language (targeting mid-August 2026) to establish interconnection reliability requirements for large loads \u226550 MW, with differentiated rules for computational loads (data centers, AI, cryptocurrency mining) versus process-driven industrial loads. Computational loads face advanced requirements: PMU telemetry, voltage/frequency ride-through standards, and ramp-rate visibility/constraints. The transition framework exempts loads already in service as of November 1, 2027, but newly approved loads and modifications \u226525 MW face full requirements immediately. For hydro operators, this matters because large-load ramp requirements and ride-through standards will shape future dispatch instructions and potentially compress the flexibility window hydro has historically exploited for energy arbitrage and reserve provision; loads with high, controllable ramp rates (cryptocurrency mining, AI data centers) may reduce scarcity pricing events hydro relies on, or alternatively force hydro into faster-response regimes if loads' behavioral flexibility proves insufficient.",
@@ -11556,11 +12897,25 @@
     ]
   },
   {
+    "title": "Load Analysis Subcommittee Meeting",
+    "date": "2026-07-17",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "Load Analysis Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={A14547D4-CA89-45AA-9819-B7A7E79AE871}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Load forecasting and growth analysis directly informs resource-adequacy studies, seasonal energy-adequacy assessments, and transmission-planning decisions that affect hydropower deliverability and revenue opportunities, particularly in a context of potential data-center loads and co-located generation.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Joint NEPOOL Reliability and Transmission Committee Meeting",
     "date": "2026-07-16",
     "time": "1:30 PM",
     "rto": "ISO-NE",
-    "committee": "Reliability Committee",
+    "committee": "Transmission Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=161677",
     "materials_url": null,
@@ -14291,12 +15646,12 @@
   {
     "title": "PRTMDW Meeting",
     "date": "2026-07-15",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 10:00 a.m.",
     "rto": "PJM",
     "committee": "PRTMDW",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={61DC324C-6DE5-4EBE-BE44-73D41B561FE8}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={1C88FEB7-60D4-47F0-AA26-CEB3C758EDB0}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The PJM PRTMDW (Planning and Resource Transmission Markets Design Working) committee addresses transmission planning, resource accreditation, capacity markets, and energy pricing mechanisms that directly affect hydropower revenue, participation rules, and strategic positioning in the RTO.",
     "issues": [],
@@ -15798,6 +17153,20 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Distributed Resources Subcommittee meetings may address DER aggregation rules, participation models, and grid-interconnection standards that affect small hydro and pumped-storage facilities seeking to participate as aggregated or hybrid resources under evolving Order 2222 and storage participation frameworks.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Markets and Reliability Committee Meeting",
+    "date": "2026-07-13",
+    "time": "9:00 a.m. - 2:00 p.m.",
+    "rto": "PJM",
+    "committee": "Markets and Reliability Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={CE85BF99-50CF-4945-9CEE-3597AE816B5E}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM's Markets and Reliability Committee addresses energy pricing, ancillary services, capacity accreditation, and storage participation rules that directly affect hydropower and pumped-storage revenue, compliance, and strategic positioning in the RTO.",
     "issues": [],
     "documents": []
   },
