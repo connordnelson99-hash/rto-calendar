@@ -786,7 +786,12 @@ def run_stage1(conn, client, rto_filter=None, rescreen=False, dry_run=False):
 
         try:
             relevant, reason = screen_meeting(client, m, dry_run)
-            save_meeting_screening(conn, m["id"], relevant, reason)
+            # Same hazard as Stage 2: the dry-run verdict is a placeholder
+            # (relevant=True, reason="dry-run"), and saving it would mark every
+            # matched meeting hydro-relevant — which then opens the Stage-2 gate
+            # for all of their documents.
+            if not dry_run:
+                save_meeting_screening(conn, m["id"], relevant, reason)
             flag = "YES" if relevant else "no"
             print(f"{flag} — {reason[:80]}")
             if relevant:
@@ -798,8 +803,14 @@ def run_stage1(conn, client, rto_filter=None, rescreen=False, dry_run=False):
     return relevant_count
 
 
-def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200, dry_run=False):
-    """Screen documents for meetings that passed Stage 1."""
+def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200,
+               dry_run=False, since=None, until=None):
+    """Screen documents for meetings that passed Stage 1.
+
+    `since`/`until` bound the MEETING date (inclusive, YYYY-MM-DD). Pair them
+    with --rescreen to refresh a specific window — e.g. the few weeks the
+    weekly digest actually reads — without paying to reprocess the archive.
+    """
     where = [
         # Stage-1 gate: only docs from meetings flagged relevant — EXCEPT
         # NYISO, SPP, MISO, and ERCOT. Their meeting titles are just the
@@ -822,6 +833,12 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200, dry_run
     if rto_filter:
         where.append("d.rto = ?")
         params.append(rto_filter.upper())
+    if since:
+        where.append("m.meeting_date >= ?")
+        params.append(since)
+    if until:
+        where.append("m.meeting_date <= ?")
+        params.append(until)
 
     docs = conn.execute(f"""
         SELECT d.id, d.rto, d.doc_type, d.title, d.filename,
@@ -868,14 +885,22 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200, dry_run
             (relevant, reason, summary, topics, stakeholders, directness,
              evidence, read_through, names_hydro) = screen_document(
                 client, doc, dry_run)
-            save_ai_screening(conn, doc["id"], relevant, reason, summary,
-                              topics=topics, directness=directness,
-                              evidence=evidence,
-                              hydro_read_through=read_through,
-                              source_names_hydro=names_hydro)
-            save_document_stakeholders(
-                conn, doc["id"], stakeholders, source_text=doc["extracted_text"]
-            )
+            # A dry run must not persist anything. screen_document returns a
+            # placeholder verdict (relevant=True, reason="dry-run") so the loop
+            # can go through its motions, and saving that overwrites real
+            # screening results with a fabricated one — it silently marked 113
+            # documents hydro-relevant with reason "dry-run" before this guard
+            # existed. Recovering needed the previous commit's copy of the DB.
+            if not dry_run:
+                save_ai_screening(conn, doc["id"], relevant, reason, summary,
+                                  topics=topics, directness=directness,
+                                  evidence=evidence,
+                                  hydro_read_through=read_through,
+                                  source_names_hydro=names_hydro)
+                save_document_stakeholders(
+                    conn, doc["id"], stakeholders,
+                    source_text=doc["extracted_text"]
+                )
             stakeholder_count += len(stakeholders)
             if directness in directness_counts:
                 directness_counts[directness] += 1
@@ -961,6 +986,16 @@ def main():
         help="Max documents to screen in Stage 2 per run (default: 200)"
     )
     parser.add_argument(
+        "--since", metavar="YYYY-MM-DD",
+        help="Stage 2: only documents whose MEETING date is on/after this"
+    )
+    parser.add_argument(
+        "--until", metavar="YYYY-MM-DD",
+        help="Stage 2: only documents whose MEETING date is on/before this. "
+             "With --rescreen, use these to refresh just the weeks the digest "
+             "reads instead of the whole archive."
+    )
+    parser.add_argument(
         "--dry-run", action="store_true",
         help="Print prompts without calling the API"
     )
@@ -1008,7 +1043,9 @@ def main():
                    rto_filter=args.rto,
                    rescreen=args.rescreen,
                    limit=args.limit,
-                   dry_run=args.dry_run)
+                   dry_run=args.dry_run,
+                   since=args.since,
+                   until=args.until)
 
     conn.close()
     print("\nDone. Run: python run_scrapers.py --export-only  to refresh the calendar JSON.")
