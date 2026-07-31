@@ -22,6 +22,9 @@ rto-docs/docs/
 # Local run logs
 rto-docs/logs/
 *.log
+# Generated email deliverables (digest + "Meetings Ahead" block, rebuilt weekly)
+rto-hydro-digest-*.html
+meetings_block*.html
 
 # SQLite WAL / shared-memory files
 *.db-shm
