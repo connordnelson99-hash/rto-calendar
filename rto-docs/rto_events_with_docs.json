@@ -388,7 +388,18 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "ISO-NE Markets Committee meetings regularly address energy price formation, ancillary services design, capacity market rules, and storage participation \u2014 all of which directly affect hydro and PSH revenue and compliance across New England's RTO footprint.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
     "documents": []
   },
   {
@@ -430,7 +441,18 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "ISO-NE Markets Committee meetings address energy pricing, ancillary services, capacity accreditation, storage participation rules, and transmission/deliverability issues that directly affect hydropower and pumped-storage revenue, compliance, and strategic positioning in New England.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
     "documents": []
   },
   {
@@ -604,8 +626,55 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "ISO-NE Markets Committee meetings routinely address energy price formation, capacity accreditation, ancillary services, storage participation, and transmission/deliverability rules that directly affect hydro and pumped-storage revenue, compliance, and strategic positioning in the Northeast.",
-    "issues": [],
-    "documents": []
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "capacity-auction-reforms-key-project",
+        "canonical_name": "Capacity Auction Reforms",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+      }
+    ],
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "2026-08-11-13 MC - NESCOE Conceptual Amendments - Presentation",
+        "filename": "2026_08_11-13_car-sa_nescoe_conceptual_amendments.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/2026_08_11-13_car-sa_nescoe_conceptual_amendments.pdf",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: CAR-SA (Capacity, Accreditation, and Reliability \u2013 Seasonal Approach) fundamentally restructures ISO-NE's capacity market, affecting how hydro and all dispatchable resources are accredited and valued across seasonal reliability impacts, with direct implications for capacity revenue and demand-curve pricing hydro receives.",
+        "ai_summary": "NESCOE (the Northeast state energy officials coalition) presents three conceptual amendments to ISO-NE's proposed CAR-SA capacity market redesign, to be discussed at the NEPOOL Markets Committee (meeting date 2026-08-11). The amendments target: (1) the proxy resource's Net CONE (Cost of New Entry) performance assumptions \u2014 proposing NERC class-average EFORd for recent-vintage combustion turbines (~4.1%) instead of ISO's higher assumption, lowering annual Net CONE from $14.119/kW-mo to $11.432/kW-mo; (2) a four-period (rather than three-period) transition price cap stepping from 1.0\u00d7 to 1.6\u00d7 annual Net CONE to avoid multi-billion-dollar capacity shortage pricing in early years when market has no prior operating history; and (3) alignment of gas-demand curve assumptions with today's forward capacity market procurement. For hydro owners, the lower Net CONE assumption would reduce the demand-curve floor and seasonal-payment rates affecting capacity accreditation valuations; the extended transition cap would moderate scarcity pricing signals during 2028\u20132032. NESCOE frames these as work-in-progress and welcomes continued feedback as the proposal moves through NEPOOL's process. No specific comment deadline or vote date is stated in this presentation.",
+        "topics": [
+          "capacity-ra",
+          "price-formation",
+          "ferc-policy"
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "NESCOE",
+            "entity": "NESCOE (Northeast State Committee on Electricity)",
+            "role": "author | presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Loss of Load Expectation Working Group (LOLEWG) - August 11, 2026",
@@ -920,6 +989,19 @@
         "topics": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-08-06 PC Supplemental Notice",
+        "filename": "npc-2026-08-06supplemental.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100037/npc-2026-08-06supplemental.pdf",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -949,7 +1031,252 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "ERCOT Reliability and Operations Subcommittee meetings routinely address frequency response, ancillary services, resource adequacy, and operational standards that set cross-market precedent for how RTOs treat storage and dispatchable resources, making this a relevant comparison point for NHA's tracking of market-design trends outside hydro-primary regions.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "ROS Meeting Agenda 2026-08-06",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/08062026-ROS-Meeting#agenda",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT is developing energy-storage participation rules (NPRR1340, Dispatchable Reliability Reserve Service with energy-storage resource participation) and ancillary-services methodology for 2027 \u2014 both design precedents for how RTOs beyond the West treat storage revenue and dispatch obligations, and relevant for cross-market comparison on frequency response and storage accreditation.",
+        "ai_summary": "ERCOT's Reliability and Operations Subcommittee is voting on 2027 Ancillary Services Methodology and advancing NPRR1340 (Dispatchable Reliability Reserve Service with energy-storage resource participation) and related NOGRRs (NOGRR284, NOGRR288) addressing ESR participation in reliability reserves and release-factor rules. These revisions define how ERCOT dispatches and prices storage for flexibility and frequency response \u2014 a design template for non-Western RTOs that historically underutilize pumped storage and may inform FERC-wide precedent on storage AS participation. The mechanism: if ERCOT's ESR participation rules succeed in unlocking storage dispatch and pricing, they establish a model that pressures other RTOs (including those considering hydro-rich regions) to adopt similar frameworks, raising the value of dispatchability and ramping services. Pumped-storage operators in ERCOT's footprint (none currently) and in markets watching ERCOT's evolution should monitor vote outcomes and tariff language; next step is the August 6, 2026 ROS vote.",
+        "topics": [
+          "storage",
+          "ancillary-services",
+          "ramping-flexibility"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Alex Lee",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Charles Aleman",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chris Ramirez",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "David Blankenship",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Luis Hinojosa",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Manuel Sanchez",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mina Turner",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Paul Messmann",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ping Yan",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Rickey Floyd",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Uchenna Ndusorouwa",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "02. ROS Agenda 20260806",
+        "filename": "02.-ROS-Agenda-20260806.docx",
+        "url": "https://www.ercot.com/files/docs/2026/07/30/02.-ROS-Agenda-20260806.docx",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "parse error: Unterminated string starting at: line 78 column 15 (char 2985)",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "04. June 2026 ERCOT Operations Report Public",
+        "filename": "04.-June-2026-ERCOT-Operations-Report-Public.docx",
+        "url": "https://www.ercot.com/files/docs/2026/07/30/04.-June-2026-ERCOT-Operations-Report-Public.docx",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT frequency events, net-load ramp analysis, and reliability unit commitment mechanisms provide cross-market comparison points for how ERCOT manages frequency response, flexibility procurement, and system reliability \u2014 topics hydro owners monitor to benchmark against hydro-rich RTOs and understand alternative operational approaches to similar reliability challenges.",
+        "ai_summary": "ERCOT's June 2026 operations report documents 10 frequency events (delta frequencies 0.021\u20130.063 Hz, damping ratios 5\u201314%), 73 reliability unit commitments across Texas zones driven by system capacity and transmission-constraint needs, and record net-load ramps (11,157 MW over 60 minutes on 6/24/2026) reflecting high wind-solar penetration (peak 76.88% on 6/28/2026). The report shows ERCOT managing inertia-constrained reliability during periods of very low synchronous reserve (278\u2013310 GW-s inertia recorded) and high renewable variability without a formal ramping product, instead relying on RUC and frequency-response systems. For hydro asset owners tracking alternative market designs: ERCOT's approach to frequency stability and flexibility procurement during high-renewable scenarios (no discrete ramp markets, reliance on thermal unit commitment and load-resource deployment) contrasts with CAISO/NYISO flexible-ramping and AS-demand curves; the magnitude of net-load ramps and inertia levels illustrate the operational pressure that hydro's fast-response capability addresses in markets with deep renewable penetration.",
+        "topics": [
+          "ancillary-services",
+          "ramping-flexibility",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "04. SystemPlanningROS_June2026",
+        "filename": "04.-SystemPlanningROS_June2026.docx",
+        "url": "https://www.ercot.com/files/docs/2026/07/30/04.-SystemPlanningROS_June2026.docx",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine ERCOT transmission-planning status report listing regional transmission projects under review; it contains no market-design content affecting hydro revenue (pricing, ancillary services, ramping products, capacity accreditation), compliance obligations, or strategic options relevant to hydropower or pumped-storage operators.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "09. Planning Working Group update 08_06_26",
+        "filename": "09.-Planning-Working-Group-update-08_06_26.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/07/30/09.-Planning-Working-Group-update-08_06_26.pptx",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "ERCOT transmission planning topics (N-1-1 criteria, load-loss alignment, grid-enhancing technologies) do not affect hydropower revenue formation, storage participation rules, or regional market strategy in hydro-relevant domains.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Robert Golen",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Evan Neel",
+            "entity": "ERCOT Planning Working Group",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kiran Kota",
+            "entity": "ERCOT Planning Working Group",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mina Turner",
+            "entity": "ERCOT Planning Working Group",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Eric Goff",
+            "entity": "TEBA",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "11. SSWG_Update_ROS_08062026",
+        "filename": "11.-SSWG_Update_ROS_08062026.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/07/30/11.-SSWG_Update_ROS_08062026.pptx",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine ERCOT Seasonal and Short-term Working Group (SSWG) administrative update on case-build timelines and meeting scheduling with no bearing on market-design mechanisms affecting hydropower or pumped-storage revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Weiwei Hu",
+            "entity": "Austin Energy",
+            "role": "author",
+            "email": "weiwei.hu@austinenergy.com"
+          },
+          {
+            "name": "Chris Ramirez",
+            "entity": "WETT LLC",
+            "role": "author",
+            "email": "cramirez@wettllc.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "14. August_OTWG_Updates",
+        "filename": "14.-August_OTWG_Updates.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/07/30/14.-August_OTWG_Updates.pptx",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: Black start training and restoration procedures directly affect hydro and thermal generators' obligations to participate in emergency frequency and voltage support during system restoration \u2014 a core ancillary service hydro supplies and a compliance requirement under ERCOT rules.",
+        "ai_summary": "ERCOT's Operator Training Working Group (OTWG) is developing black-start restoration training for Next Start Resources and all generators, with emphasis on frequency and voltage actions during restoration scenarios. An open action item (assigned 03/07/2024) calls for computer-based training material to increase knowledge of black-start responsibilities among generators that would not normally attend in-person black-start training. A 2027 Black Start Training task force held its first planning meeting on 7/22/2026 and is developing training strategies, simulation exercises, and materials; future participation requires an approved NDA and inquiries should go to systemoperationstraining@ercot.com. This training development affects all generators' ability to meet ERCOT's black-start and frequency-support obligations during emergency restoration, which is particularly relevant for hydro and other synchronous resources whose frequency response is critical to grid restoration.",
+        "topics": [
+          "ancillary-services",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jane Minnich",
+            "entity": "EDF Trading",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Aaron Ballew",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mark Spinner",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Steve Rainwater",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Manuel Sanchez",
+            "entity": "Oncor",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "RMTTF Meeting",
@@ -1016,6 +1343,179 @@
         "hydro_relevance_reason": "This is a procedural meeting agenda for a settlement-system user forum with no substantive market-design content touching hydro revenue, obligations, or strategic options.",
         "ai_summary": null,
         "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "AJ Holley",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Bill Schwant",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chris Baldwin",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dana Boyer",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Lisa Brightwell",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sam McCarty",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Shamar Melvin",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Steve White",
+            "entity": "SPP Markets+",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "01) Introduction.pptx  [in MSUF Meeting Materials 20260805.zip]",
+        "filename": "01) Introduction.pptx",
+        "url": "https://www.spp.org/Documents/77354/MSUF%20Meeting%20Materials%2020260805.zip#z=01%29%20Introduction.pptx",
+        "posted_date": "2026-08-05",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a title slide only with no extractable content; cannot assess whether the MSUF Net Conference agenda or settlement-forum topics touch hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "03) MSUF Action Items_20260805.pdf  [in MSUF Meeting Materials 20260805.zip]",
+        "filename": "03) MSUF Action Items_20260805.pdf",
+        "url": "https://www.spp.org/Documents/77354/MSUF%20Meeting%20Materials%2020260805.zip#z=03%29%20MSUF%20Action%20Items_20260805.pdf",
+        "posted_date": "2026-08-05",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine settlements administrative tracking document listing IT system configuration, technical specification, and training logistics items with no bearing on hydro revenue mechanisms, operational obligations, or strategic market-design choices.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "John Rendall",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Zenab",
+            "entity": "PCI",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "04) Proposed Changes Must Offer.potx  [in MSUF Meeting Materials 20260805.zip]",
+        "filename": "04) Proposed Changes Must Offer.potx",
+        "url": "https://www.spp.org/Documents/77354/MSUF%20Meeting%20Materials%2020260805.zip#z=04%29%20Proposed%20Changes%20Must%20Offer.potx",
+        "posted_date": "2026-08-05",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Must-offer requirements are a direct compliance obligation for dispatchable hydro and PSH; changes to these rules affect which resources must participate in Markets+ energy and ancillary-services markets and under what conditions.",
+        "ai_summary": "SPP Markets+ proposes changes to must-offer rules, but the document text did not extract (title only). Based on the title and forum context (Settlements User Forum, August 2026), this appears to be a tariff/operating-procedure proposal affecting which resources and in which market timeframes must submit offers. For hydro and PSH owners in the Markets+ footprint, must-offer scope determines their baseline compliance load and revenue-participation obligations. Without the substantive content, the exact mechanism (e.g., whether changes narrow or expand hydro exemptions, alter the must-offer window, or link to state-of-charge or water-availability relief) cannot be determined. Hydro stakeholders should obtain the full presentation to assess exposure.",
+        "topics": [
+          "ops-compliance",
+          "seams-governance"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "05) Markets+ Program Update.pptx  [in MSUF Meeting Materials 20260805.zip]",
+        "filename": "05) Markets+ Program Update.pptx",
+        "url": "https://www.spp.org/Documents/77354/MSUF%20Meeting%20Materials%2020260805.zip#z=05%29%20Markets%2B%20Program%20Update.pptx",
+        "posted_date": "2026-08-05",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document text was not extracted (metadata only); cannot assess whether Markets+ program updates address hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "06) Markets+ Settlements Connectivity Testing Overview.pptx  [in MSUF Meeting Materials 20260805.zip]",
+        "filename": "06) Markets+ Settlements Connectivity Testing Overview.pptx",
+        "url": "https://www.spp.org/Documents/77354/MSUF%20Meeting%20Materials%2020260805.zip#z=06%29%20Markets%2B%20Settlements%20Connectivity%20Testing%20Overview.pptx",
+        "posted_date": "2026-08-05",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a technical connectivity testing overview for Markets+ settlement systems \u2014 internal RTO operational logistics with no bearing on hydro revenue, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "07) Markets+ Stakeholder Training Update.pptx  [in MSUF Meeting Materials 20260805.zip]",
+        "filename": "07) Markets+ Stakeholder Training Update.pptx",
+        "url": "https://www.spp.org/Documents/77354/MSUF%20Meeting%20Materials%2020260805.zip#z=07%29%20Markets%2B%20Stakeholder%20Training%20Update.pptx",
+        "posted_date": "2026-08-05",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a training update on Markets+ settlement procedures and administrative mechanics; contains no content touching hydro/PSH revenue mechanisms, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "09) Calibration Exercise.pptx  [in MSUF Meeting Materials 20260805.zip]",
+        "filename": "09) Calibration Exercise.pptx",
+        "url": "https://www.spp.org/Documents/77354/MSUF%20Meeting%20Materials%2020260805.zip#z=09%29%20Calibration%20Exercise.pptx",
+        "posted_date": "2026-08-05",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No text extracted; screening by title only reveals a 'Calibration Exercise' in Markets+ Settlements User Forum materials \u2014 likely an administrative or training exercise on settlement mechanics with no stated connection to hydro revenue streams, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "MSUF Meeting Agenda_20260805.docx  [in MSUF Meeting Materials 20260805.zip]",
+        "filename": "MSUF Meeting Agenda_20260805.docx",
+        "url": "https://www.spp.org/Documents/77354/MSUF%20Meeting%20Materials%2020260805.zip#z=MSUF%20Meeting%20Agenda_20260805.docx",
+        "posted_date": "2026-08-05",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: SPP Markets+ Settlements User Forum agenda addresses settlement calculation changes and must-offer rules that directly affect how hydro resources' energy and ancillary-service revenue are metered, settled, and accrued \u2014 core obligations and operational compliance for all SPP hydro participants.",
+        "ai_summary": "SPP's Markets+ Settlements User Forum (MSUF) convenes August 5, 2026 to review Must Offer Calculation Changes, Markets+ Connectivity Testing, SPP Portal Settlement Applications, and Shadowing Energy Charge Types. The agenda prioritizes settlement-system configuration and calculation-guide updates affecting how resources' energy and charges flow through the markets platform. The 'Shadowing Energy Charge Types' session (30 min) and 'SPP Portal: Settlement Applications' (15 min) suggest substantive changes to settlement mechanics or charge classification. For SPP hydropower operators \u2014 especially those with variable/run-of-river profiles or pumped-storage units managing state-of-charge scheduling \u2014 these updates may affect how generation is metered and revenue accrued, and whether charge treatment introduces new compliance or optimization constraints. No comment deadline or vote date is stated in the agenda itself; the MSUF typically produces recommendations flowing to SPP's Markets+ governance bodies.",
+        "topics": [
+          "ops-compliance",
+          "seams-governance",
+          "storage"
+        ],
         "issues": [],
         "stakeholders": [
           {
@@ -1790,6 +2290,20 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Storage design and modeling directly affects pumped-storage hydro participation rules, state-of-charge management, AS stacking, charging-energy treatment, and revenue accreditation in CAISO markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Comments due - Resource Adequacy Modeling and Program Design",
+    "date": "2026-08-05",
+    "time": "",
+    "rto": "CAISO",
+    "committee": "Resource Adequacy Modeling and Program Design",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/comments-due-resource-adequacy-modeling-and-program-design-aug-05-2026-1200-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Resource-adequacy-modeling-and-program-design",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Resource adequacy modeling and program design directly affects hydro accreditation (ELCC/seasonal capacity credit), reliability mechanisms, and procurement rules that determine hydro revenue and operational obligations in CAISO.",
     "issues": [],
     "documents": []
   },
@@ -2999,6 +3513,36 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "20260804 EPR TSTF Item 02 EPR Results and MISO Recommendation",
+        "filename": "20260804 EPR-TSTF Item 02 EPR Results and MISO Recommendation.pdf",
+        "url": "https://cdn.misoenergy.org/20260804%20EPR-TSTF%20Item%2002%20EPR%20Results%20and%20MISO%20Recommendation772139.pdf",
+        "posted_date": "2026-07-31",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large spot-load interconnections (780 MW + 200 MW totaling 980 MW) create transmission and reliability projects that affect hydro's dispatch value, scarcity pricing, and interregional transmission constraints \u2014 directly touching the strategic option of load growth and transmission planning as it impacts hydro deliverability and locational scarcity signals.",
+        "ai_summary": "MISO's Expedited Project Review (EPR) Task Force completed analysis on two large spot-load projects (Project Skyway, 780 MW in North Rochester area, ISD 6/1/2028; Macaw 230 kV substation, 200 MW near Clinton MS, ISD 12/31/2026) totaling 980 MW of new demand. Both passed TPL-001-5.1 reliability analysis with no new MTEP projects required, and MISO recommends they move to MTEP26 Appendix A after the PAC comment period. The load growth itself does not trigger new transmission projects, but hydro owners should note that concentrated spot loads in weak transmission pockets (North Rochester, Clinton) may tighten local scarcity and increase LMP volatility in those zones, creating opportunity for hydro to capture higher locational rents if positioned to serve those constraints.",
+        "topics": [
+          "load-growth",
+          "transmission",
+          "capacity-ra"
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260804 EPR TSTF Item 03 MISO EPR Statistics",
+        "filename": "20260804 EPR-TSTF Item 03 MISO EPR Statistics.pdf",
+        "url": "https://cdn.misoenergy.org/20260804%20EPR-TSTF%20Item%2003%20MISO%20EPR%20Statistics772140.pdf",
+        "posted_date": "2026-07-31",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a statistical summary of MISO's Expedited Project Review load-interconnection pipeline; it contains no market-design rules, pricing mechanisms, participation models, or compliance requirements affecting hydro revenue, operations, or strategic options.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -3083,16 +3627,242 @@
   {
     "title": "Cost Development Subcommittee Meeting",
     "date": "2026-08-03",
-    "time": "9:00 a.m. - 11:00 a.m.",
+    "time": "1:00 p.m. - 3:00 p.m.",
     "rto": "PJM",
     "committee": "Cost Development Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={39A89312-97D7-43E7-8A58-D4A3E928C179}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Cost Development Subcommittee addresses cost-basis inputs for capacity-market CONE, reference levels, and default energy bids that directly affect hydro revenue and mitigation rules for use-limited resources.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260731-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260731/20260731-agenda.pdf",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The agenda covers PJM's Reliability Backstop Procurement (RBP) and Interim Resource Adequacy Service (IRAS) proposals, which are central to capacity/resource-adequacy procurement design and directly affect how dispatchable resources including conventional hydro and pumped storage are accredited, procured, and compensated for reliability contributions.",
+        "ai_summary": "PJM's Cost Development Subcommittee will hold a technical workshop on July 31, 2026 to discuss Board decisional letters on two proposals: Reliability Backstop Procurement (RBP) and Interim Resource Adequacy Service (IRAS). Becky Carroll (PJM) and Tim Horger (PJM) will present high-level overviews of each proposal, with stakeholder Q&A following. These proposals touch capacity accreditation and resource-adequacy procurement structures that determine how conventional and pumped-storage hydro qualify for and receive RA/capacity payments \u2014 changes to ELCC methodology, seasonal accreditation, or procurement triggers could shift revenue or forced-participation obligations for hydro operators across PJM. The meeting is a post-CIFP (Cost Impact Finance Proposal, presumably a prior phase) technical review; next steps will be discussed during the meeting.",
+        "topics": [
+          "capacity-ra",
+          "storage"
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Becky Carroll",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dave Anders",
+            "entity": "PJM",
+            "role": "facilitator",
+            "email": null
+          },
+          {
+            "name": "Matt Connolly",
+            "entity": "PJM",
+            "role": "secretary, author",
+            "email": null
+          },
+          {
+            "name": "Tim Horger",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20260731-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260731/20260731-agenda-doc.docx",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: PJM's Reliability Backstop Procurement (RBP) and Interim Resource Adequacy Service (IRAS) proposals directly touch capacity/resource-adequacy accreditation and procurement rules that determine how hydropower and pumped storage are valued in PJM's market \u2014 changes to RA accreditation methodology, seasonal treatment, or backstop-procurement eligibility affect hydro revenue and strategic positioning.",
+        "ai_summary": "PJM held a technical workshop (July 31, 2026) to review the Board decisional letter and executive summaries for two reliability proposals: Reliability Backstop Procurement (RBP) and Interim Resource Adequacy Service (IRAS). Becky Carroll and Tim Horger (PJM) presented high-level overviews of each. The agenda indicates this follows a Cost-Inclusive Fixed-Price (CIFP) workshop; no specific vote date, deadline, or substantive proposal terms are stated in this agenda excerpt. Next steps will be disclosed after the meeting. Hydro and PSH operators in PJM should monitor the Board decisional letter and executive summaries for details on how RBP and IRAS accreditation, procurement rules, and seasonal/temporal treatment of capacity resources will be modified, as these directly influence how dispatchable generation and storage are compensated in PJM's resource-adequacy construct.",
+        "topics": [
+          "capacity-ra",
+          "storage"
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Becky Carroll",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dave Anders",
+            "entity": "PJM",
+            "role": "facilitator",
+            "email": null
+          },
+          {
+            "name": "Matt Connolly",
+            "entity": "PJM",
+            "role": "author | secretary",
+            "email": null
+          },
+          {
+            "name": "Tim Horger",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "decision",
+        "title": "Board Decisional Letter On Critical Issue Fast Path",
+        "filename": "20260731-board-decisional-letter-on-critical-issue-fast-path.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260731/20260731-board-decisional-letter-on-critical-issue-fast-path.pdf",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Board decision on Reliability Backstop Procurement and load-growth resource adequacy mechanisms directly affects hydro's strategic positioning on large load growth, capacity accreditation, and RA market value in PJM \u2014 hydro owners must track how 70 GW of new Large Load demand is allocated across the capacity market and whether the interim demand-management service creates new ancillary or flexible-supply opportunities.",
+        "ai_summary": "The PJM Board approved a Reliability Backstop Procurement mechanism and Interim Resource Adequacy Service (formerly Connect and Manage) to address resource-adequacy shortfalls driven by ~70 GW of Large Load growth projected by 2038 and ~15 GW of generation retirements since 2022. PJM will conduct an initial backstop procurement in September 2026 targeting the 2028/2029 capacity-auction shortfall, with costs allocated to Load Serving Entities; new Large Loads without sufficient new supply will be subject to load-reduction requirements (Interim Resource Adequacy Service) that trigger before emergency demand management, and new Large Loads added after the 2028/2029 forecast will be excluded from RPM auction demand forecasts until they bring matching new supply online. This mechanism shifts the RA accreditation and capacity-market math for the entire region: existing hydro operators face tighter competition for capacity revenue as the baseline demand calculation excludes new loads until matched by new supply, but simultaneously benefit from scarcity signals created by the load-growth/retirement squeeze and from potential opportunities if their flexibility is valued in the interim demand-management service design. The Board will file at FERC by end of July 2026; stakeholder divergence centered on whether voluntary subscription would suffice versus the Board's mandatory procurement approach.",
+        "topics": [
+          "capacity-ra",
+          "load-growth",
+          "ops-compliance"
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Paula Conboy",
+            "entity": "PJM Interconnection",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "decision",
+        "title": "Item 02a \u2013 CIFP Reliability Backstop Procurement \u2013 PJM Board Decision",
+        "filename": "20260731-item-02a---cifp-reliability-backstop-procurement--pjm-board-decision.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260731/20260731-item-02a---cifp-reliability-backstop-procurement--pjm-board-decision.pdf",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM's Reliability Backstop Procurement directly affects hydropower and pumped-storage revenue by establishing a 15-year capacity-procurement mechanism that competes with RPM auctions; hydroelectric and PSH resources are eligible participants, and the settlement structure (contract-for-differences against RPM clearing prices) alters the revenue economics for capacity-committed hydro assets.",
+        "ai_summary": "PJM's Board has approved a two-path Reliability Backstop Procurement mechanism \u2014 a central procurement plus facilitated bilateral matchmaking \u2014 to address a megawatt shortfall in the 2028/2029 Base Residual Auction driven by large load growth (particularly data centers). The central procurement will commit new capacity resources to a fixed 15-year term (2028/2029 through 2042/2043 at a maximum willingness to pay of $555/MW-day UCAP), settled via contract-for-differences against RPM clearing prices. Hydroelectric and pumped-storage resources are eligible as 'new' supply if they meet interconnection and online-date criteria (June 1, 2032 or earlier); eligible hydro will face a $0 must-offer obligation into RPM and shortfall charges (20% of RBP commitment price annually) if delayed beyond three years. Bid solicitation opens September 30, 2026, with selection concluded by December 2, 2026. This structure creates an alternative revenue pathway for hydro and PSH outside traditional RPM, but locks in long-term price risk for capacity-committed resources and penalizes development delays.",
+        "topics": [
+          "capacity-ra",
+          "load-growth",
+          "storage"
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 02b \u2013 CIFP Framework For Service During Periods Of Insufficient Resource Adequacy \u2013 Executive Summary \u2013 Redline",
+        "filename": "20260731-item-02b---cifp-framework-for-service-during-periods-of-insufficient-resource-adequacy---executive-summary---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260731/20260731-item-02b---cifp-framework-for-service-during-periods-of-insufficient-resource-adequacy---executive-summary---redline.pdf",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large Load interconnection and load-reduction mechanics directly affect hydro's strategic revenue through scarcity pricing and capacity adequacy signaling, and create transmission/deliverability competition as 70 GW of new load adds to the system under rules that may shift resource-adequacy accreditation and locational value.",
+        "ai_summary": "PJM proposes Interim Resource Adequacy Service (IRAS), a load-reduction framework that allows new Large Loads (\u226550 MW at a site) to interconnect without providing their own capacity, but requires them to shed load or rely on backup generation during capacity-shortage periods. The proposal establishes a Large Load Registry tracking all participants, allocates load-reduction obligations to zones based on RPM shortfalls, and triggers demand reduction prior to Pre-Emergency Load Management. Large Loads bringing their own capacity (BYONC) or receiving Reliability Backstop Procurement (RBP) credit are exempt. The Board developed this framework in response to projected 70 GW of Large Load additions by 2038 and consecutive years of PJM clearing short of its Reliability Requirement. This shifts the scarcity signal that historically benefited existing hydro \u2014 new load growth no longer automatically drives reserve margins down, meaning the energy price spikes and capacity values that compensate existing generation for holding reservoir storage are diminished; simultaneously, the framework creates transmission congestion and local-delivery tightness that can increase locational adders for hydro that serves incremental load, a partial offset.",
+        "topics": [
+          "load-growth",
+          "capacity-ra",
+          "transmission"
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c5bb612d-5342-4b56-850e-4e520e902ec6",
+            "canonical_name": "Implementation of Connect and Manage Framework for Large Load Interconnections",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c5bb612d-5342-4b56-850e-4e520e902ec6"
+          }
+        ],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Distributed Resources Subcommittee Meeting",
@@ -3637,7 +4407,33 @@
         "title": "Item Iii \u2013 Caps Pieoug Wholesale Cost TO Customers \u2013 Presentation",
         "filename": "20260730-item-iii---caps-pieoug-wholesale-cost-to-customers---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/user-groups/pieoug/2026/20260730/20260730-item-iii---caps-pieoug-wholesale-cost-to-customers---presentation.pdf",
-        "posted_date": "2026-07-28",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item Ii \u2013 Part 2 \u2013 Evaluation Of Stakeholder Voting Patterns \u2013 Presentation",
+        "filename": "20260730-item-ii---part-2--evaluation-of-stakeholder-voting-patterns---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/user-groups/pieoug/2026/20260730/20260730-item-ii---part-2--evaluation-of-stakeholder-voting-patterns---presentation.pdf",
+        "posted_date": "2026-07-29",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item Ii \u2013 PJM Governance \u2013 Christina Simeone Presentation",
+        "filename": "20260730-item-ii---pjm-governance---christina-simeone-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/user-groups/pieoug/2026/20260730/20260730-item-ii---pjm-governance---christina-simeone-presentation.pdf",
+        "posted_date": "2026-07-29",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -5684,7 +6480,18 @@
     "materials_url": "https://www.ercot.com/calendar/07292026-TAC-Meeting",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "ERCOT Technical Advisory Committee meetings regularly address market design topics including ancillary services, frequency response, energy storage participation, and reliability mechanisms that serve as cross-market comparison points for NHA's hydro-focused analysis, even though ERCOT has minimal hydropower.",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1328",
+        "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
+        "status": "Pending",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
+      }
+    ],
     "documents": [
       {
         "type": "agenda",
@@ -5696,7 +6503,18 @@
         "hydro_relevance_reason": "parse error: Expecting value: line 70 column 7 (char 3058)",
         "ai_summary": null,
         "topics": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1328",
+            "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -5709,7 +6527,18 @@
         "hydro_relevance_reason": "parse error: Expecting property name enclosed in double quotes: line 79 column 25 (char 2897)",
         "ai_summary": null,
         "topics": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1328",
+            "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -5722,7 +6551,18 @@
         "hydro_relevance_reason": "parse error: Unterminated string starting at: line 79 column 17 (char 3060)",
         "ai_summary": null,
         "topics": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1328",
+            "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -5735,7 +6575,18 @@
         "hydro_relevance_reason": "Document is a TAC ballot (voting record) with no extracted text; cannot assess whether any proposals or decisions affect hydro revenue, obligations, or strategic options without seeing the actual ballot items and rationale.",
         "ai_summary": null,
         "topics": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1328",
+            "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
+          }
+        ],
         "stakeholders": []
       }
     ]
@@ -10048,6 +10899,50 @@
             "email": "Colleen.Lauver@pjm.com"
           }
         ]
+      },
+      {
+        "type": "minutes",
+        "title": "Item 02 \u2013 Draft Minutes \u2013 IPS \u2013 6262026",
+        "filename": "20260727-item-02---draft-minutes---ips---6262026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/ips/2026/20260727/20260727-item-02---draft-minutes---ips---6262026.pdf",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "These are procedural meeting minutes covering cycle schedules, market participation options for mixed-technology facilities, and interconnection process administration\u2014none of which establish or modify the specific revenue mechanisms, operational obligations, or strategic options that affect hydro or PSH owners.",
+        "ai_summary": null,
+        "topics": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Martin",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dave Miscavage",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": null
+          },
+          {
+            "name": "Joelle Tomasello",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Lisa Krizenoskas",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Maria Belenky",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -12407,6 +13302,35 @@
         "topics": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "ERCOT-TWG-2026-07-23-2026-July-and-August-Releases-Market-changes",
+        "filename": "ERCOT-TWG-2026-07-23-2026-July-and-August-Releases-Market-changes.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/07/30/ERCOT-TWG-2026-07-23-2026-July-and-August-Releases-Market-changes.pptx",
+        "posted_date": "2026-07-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT price-formation changes (SCED LMP capping logic under NPRR1290/1323) and energy-offer validation rules affect how all dispatchable and storage resources are compensated and how their bids are processed\u2014a cross-market comparison point for hydro market-design treatment in energy pricing and offer mechanics.",
+        "ai_summary": "ERCOT's August 2026 (R8) release implements NPRR1290/1323, revising the logic for capping locational marginal prices (LMPs) when System Lambda exceeds the Value of Lost Load (VOLL) in SCED Step 2 calculations. Simultaneously, ERCOT will enforce stricter validation on energy-only offer/bid curves: the first (not just last) price-quantity point must meet the 1 MW minimum, effective August 27, 2026 or potentially deferred to October. These changes tighten price-formation discipline and offer-submission rigor. For hydro operators, the LMP capping clarification is primarily a cross-market reference point (ERCOT has no hydropower fleet), but the offer-validation rule mirrors issues in other RTOs where storage and flexible resources must submit complex bid curves; stricter enforcement of minimum-quantity rules could narrow offer-curve flexibility or require bid restructuring for operators using multi-point curves to capture scarcity pricing.",
+        "topics": [
+          "price-formation",
+          "ops-compliance"
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Katherine Li",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": "Katherine.Li@ercot.com"
+          },
+          {
+            "name": "Sreenivas Badri",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": "Sreenivas.Badri@ercot.com"
+          }
+        ]
       }
     ]
   },
@@ -15203,7 +16127,7 @@
     "committee": "SRRTEP-S",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={F304018D-451F-4248-AF50-332569CD0714}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={87FB62F7-9F33-40F9-8A25-4C54C83647B3}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-S (State Reliability Review and Transmission Expansion Planning - Stakeholder) addresses state-level grid reliability and transmission planning but without a published agenda item touching hydro revenue, participation rules, storage models, interconnection, or operational obligations, the relevance cannot be confirmed from the title alone.",
     "issues": [],
@@ -15265,12 +16189,12 @@
   {
     "title": "SRRTEP-MA Meeting",
     "date": "2026-07-17",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "9:00 a.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "SRRTEP-MA",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={87FB62F7-9F33-40F9-8A25-4C54C83647B3}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={127D9569-6725-4FC1-979F-58E3EE9FBA90}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-MA (Short-Range Reliability and Operations Plan) focuses on near-term operational scheduling and reliability logistics in PJM's footprint, not on market design, pricing mechanisms, capacity accreditation, storage participation rules, or transmission expansion\u2014the axes that affect hydro owners' revenue, compliance, and strategic choices.",
     "issues": [],
@@ -16748,12 +17672,12 @@
   {
     "title": "TEAC Special Session - Planning Process Education Meeting",
     "date": "2026-07-16",
-    "time": "9:00 a.m. - 10:00 a.m.",
+    "time": "9:00 a.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "TEAC Special Session - Planning Process Education",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={1C88FEB7-60D4-47F0-AA26-CEB3C758EDB0}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={61DC324C-6DE5-4EBE-BE44-73D41B561FE8}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A planning-process education session for transmission experts addresses procedural mechanics and training logistics rather than market-design rules affecting hydropower revenue, obligations, or strategic options.",
     "issues": [],
@@ -17568,8 +18492,8 @@
         "native_id": "NPRR1328",
         "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
         "status": "Pending",
-        "stakeholder_phase": "TAC for consideration",
-        "committee_owner": "TAC",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
       },
@@ -17725,8 +18649,8 @@
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
@@ -17896,8 +18820,8 @@
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
@@ -18067,8 +18991,8 @@
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
@@ -18228,8 +19152,8 @@
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
@@ -18382,8 +19306,8 @@
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
@@ -18538,12 +19462,12 @@
   {
     "title": "PRTMDW Meeting",
     "date": "2026-07-15",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "9:00 a.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "PRTMDW",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={96DE6677-C7A6-43A5-94F8-15F6C38E1EE2}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={61DC324C-6DE5-4EBE-BE44-73D41B561FE8}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The PJM PRTMDW (Planning and Resource Transmission Markets Design Working) committee addresses transmission planning, resource accreditation, capacity markets, and energy pricing mechanisms that directly affect hydropower revenue, participation rules, and strategic positioning in the RTO.",
     "issues": [],
