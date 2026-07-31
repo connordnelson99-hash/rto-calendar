@@ -47,7 +47,7 @@ RTO_META = {
 }
 _FALLBACK_META = {"color": "#64748B", "bg": "#F1F5F9", "label": "RTO"}
 
-DEFAULT_CALENDAR_URL = "https://connordnelson99-hash.github.io/rto-calendar/webcal.html"
+DEFAULT_CALENDAR_URL = "https://connordnelson99-hash.github.io/rto-calendar/webcal-v2/"
 
 # Brand-ish neutrals used for the table chrome.
 INK = "#0F172A"

@@ -48,6 +48,7 @@ Individual Event Pages (caiso.com/meetings-events/calendar/{slug}):
   - NO document downloads
 """
 
+import os
 import re
 import json
 import time
@@ -64,6 +65,13 @@ class CAISOScraper(BaseRTOScraper):
     BASE_URL = "https://www.caiso.com"
     MEETINGS_URL = "https://www.caiso.com/meetings-events/meetings"
     STAKEHOLDER_URL = "https://stakeholdercenter.caiso.com"
+    # The public meetings page only server-renders a ~5-card "Upcoming meetings"
+    # carousel, so scraping it capped CAISO's lookahead at a few days while the
+    # other RTOs published their full forward calendars. This is the FullCalendar
+    # feed the calendar view (caiso.com/meetings-events/calendar) actually loads:
+    # it takes start=/end= ISO dates and returns every event in the window, each
+    # with its documents inline in a `docsSort` tree. Confirmed live 2026-07-10.
+    CALENDAR_JSON_URL = "https://www.caiso.com/resources/calendar.json"
 
     # Known meeting series / governing bodies
     MEETING_SERIES = {
@@ -90,27 +98,31 @@ class CAISOScraper(BaseRTOScraper):
 
     def scrape_meetings(self, lookback_days=14, lookahead_days=30):
         """
-        Scrape CAISO's meetings page for upcoming and recent meetings.
+        Discover CAISO meetings for the lookback/lookahead window.
 
-        Two strategies:
-          1. Parse the meetings listing page (button.card elements with
-             data-event-id attributes)
-          2. Scrape stakeholder center initiative pages for meeting
-             tables (table.table-phase rows with dates)
+        Primary source is the calendar JSON feed (CALENDAR_JSON_URL), which
+        returns the full forward calendar plus each event's documents inline.
+        If that feed is empty or fails (e.g. CAISO changes the endpoint), fall
+        back to the legacy path: the meetings-page carousel plus stakeholder
+        center initiative tables.
         """
         start_date, end_date = self._date_range(lookback_days, lookahead_days)
-        meetings = []
 
         print(f"  Scraping CAISO meetings ({start_date} to {end_date})...")
 
-        # Strategy 1: Parse the meetings listing page
-        meetings_from_listing = self._scrape_meetings_listing(
-            start_date, end_date
-        )
-        meetings.extend(meetings_from_listing)
+        # Primary: the FullCalendar JSON feed (full window + inline docs)
+        meetings = self._scrape_calendar_json(start_date, end_date)
+        if meetings:
+            print(f"  Found {len(meetings)} CAISO meetings (calendar.json)")
+            return meetings
 
-        # Strategy 2: Scrape stakeholder center topic pages
-        # (these have the actual document links)
+        # Fallback: the old carousel + stakeholder-center topic scrape. Only
+        # reaches ~5 upcoming meetings, but keeps some data flowing if the feed
+        # changes shape or a bot filter blocks it.
+        print("    calendar.json returned nothing; falling back to the "
+              "meetings-page carousel")
+        meetings = self._scrape_meetings_listing(start_date, end_date)
+
         topic_meetings = self._scrape_topic_meetings(start_date, end_date)
         for tm in topic_meetings:
             # Deduplicate by title + date
@@ -119,8 +131,204 @@ class CAISOScraper(BaseRTOScraper):
                        for m in meetings):
                 meetings.append(tm)
 
-        print(f"  Found {len(meetings)} CAISO meetings")
+        print(f"  Found {len(meetings)} CAISO meetings (fallback)")
         return meetings
+
+    # ── Calendar JSON feed (primary discovery) ──────────────────
+
+    def _scrape_calendar_json(self, start_date, end_date):
+        """
+        Pull every event in the window from the FullCalendar JSON feed.
+
+        The feed requires both start= and end= (ISO YYYY-MM-DD); a bare request
+        returns []. Each event carries its documents inline as a `docsSort`
+        tree, so most meetings need no follow-up page fetch for attachments.
+        """
+        try:
+            self._polite_delay()
+            resp = self.session.get(
+                self.CALENDAR_JSON_URL,
+                params={"start": start_date, "end": end_date},
+                headers={"Accept": "application/json"},
+                timeout=30,
+            )
+            resp.raise_for_status()
+            events = resp.json()
+        except Exception as e:
+            print(f"    Error fetching CAISO calendar.json: {e}")
+            return []
+
+        if not isinstance(events, list):
+            print(f"    Unexpected calendar.json shape: {type(events).__name__}")
+            return []
+
+        print(f"    calendar.json: {len(events)} events in window")
+
+        meetings = []
+        for ev in events:
+            parsed = self._parse_calendar_event(ev, start_date, end_date)
+            if parsed:
+                meetings.append(parsed)
+        return meetings
+
+    def _parse_calendar_event(self, ev, start_date, end_date):
+        """Turn one calendar.json event into a meeting dict."""
+        try:
+            if not isinstance(ev, dict):
+                return None
+            if ev.get("hidden") or ev.get("isoArchived"):
+                return None
+
+            fmt = ev.get("format") or []
+            # Skip holidays; they are calendar noise, not stakeholder meetings.
+            if any((f or "").lower() == "holiday" for f in fmt):
+                return None
+
+            start = (ev.get("start") or "")
+            meeting_date = start[:10]
+            if not re.match(r"\d{4}-\d{2}-\d{2}$", meeting_date):
+                return None
+            if not (start_date <= meeting_date <= end_date):
+                return None
+
+            title = (ev.get("title") or "").strip() or "CAISO Meeting"
+
+            topics = (ev.get("calendarTopics") or {}).get("titles") or []
+            categories = (ev.get("calendarCategories") or {}).get("titles") or []
+            committee = topics[0] if topics else (categories[0] if categories else None)
+
+            documents = self._parse_docssort(ev.get("docsSort"))
+
+            return {
+                "title": title,
+                "meeting_date": meeting_date,
+                "meeting_time": self._format_event_time(ev),
+                "committee": committee,
+                "meeting_type": fmt[0] if fmt else None,
+                "source_url": self.MEETINGS_URL,
+                "detail_url": ev.get("url"),
+                "materials_url": self._initiative_url_from_event(ev),
+                "event_id": ev.get("id"),
+                "embedded_docs": [],
+                # Docs parsed from the feed. If empty, scrape_meeting_documents
+                # falls back to the linked initiative/topic page (docs for a
+                # future meeting are often posted there after the feed lists it).
+                "_documents": documents,
+            }
+        except Exception as e:
+            print(f"      Error parsing calendar event: {e}")
+            return None
+
+    def _parse_docssort(self, raw):
+        """
+        Flatten a `docsSort` value into a list of document dicts.
+
+        `docsSort` is a (sometimes JSON-encoded) tree of Folder/Document nodes.
+        A Document's real download URL lives at data.url, or failing that the
+        first entry of data.siteInfos (siteId 1 is the caiso.com copy).
+        """
+        if not raw:
+            return []
+        nodes = raw
+        if isinstance(raw, str):
+            try:
+                nodes = json.loads(raw)
+            except (json.JSONDecodeError, TypeError):
+                return []
+
+        out = []
+        seen = set()
+        self._walk_doc_nodes(nodes, out, seen)
+        return out
+
+    def _walk_doc_nodes(self, nodes, out, seen):
+        if not isinstance(nodes, list):
+            return
+        for node in nodes:
+            if not isinstance(node, dict):
+                continue
+            children = node.get("children") or []
+            if (node.get("type") or "").lower() == "folder":
+                self._walk_doc_nodes(children, out, seen)
+                continue
+
+            data = node.get("data") or {}
+            url = data.get("url")
+            if not url:
+                site_infos = data.get("siteInfos") or []
+                # Prefer the caiso.com copy (siteId 1), else any populated URL.
+                for want_id in (1, None):
+                    for si in site_infos:
+                        if not si.get("url"):
+                            continue
+                        if want_id is None or si.get("siteId") == want_id:
+                            url = si["url"]
+                            break
+                    if url:
+                        break
+
+            if url:
+                full_url = url if url.startswith("http") else urljoin(self.BASE_URL, url)
+                if full_url not in seen and "youtu" not in full_url.lower():
+                    seen.add(full_url)
+                    filename = data.get("filename") or unquote(full_url.split("/")[-1])
+                    title = data.get("title") or node.get("label") or filename
+                    posted = data.get("isoDatePosted")
+                    posted_date = (
+                        posted[:10]
+                        if isinstance(posted, str) and len(posted) >= 10
+                        else None
+                    )
+                    out.append({
+                        "download_url": full_url,
+                        "doc_type": self._classify_caiso_doc(filename, title),
+                        "title": title,
+                        "filename": filename,
+                        "posted_date": posted_date,
+                    })
+
+            # A node can carry both a document and nested children.
+            self._walk_doc_nodes(children, out, seen)
+
+    def _initiative_url_from_event(self, ev):
+        """
+        Best materials URL for an event: the stakeholder center initiative page
+        linked in the description (has the phase table + late-posted docs), else
+        the calendar topic page.
+        """
+        desc = ev.get("description") or ""
+        m = re.search(
+            r"https://stakeholdercenter\.caiso\.com/StakeholderInitiatives/[^\s\"'<>]+",
+            desc,
+        )
+        if m:
+            return m.group(0)
+
+        topic_urls = ev.get("calendarTopicsUrl") or []
+        if topic_urls and topic_urls[0]:
+            url = topic_urls[0]
+            return url if url.startswith("http") else urljoin(self.BASE_URL, url)
+        return None
+
+    def _format_event_time(self, ev):
+        """Render 'start - end PT' from an event, or None for all-day items."""
+        if ev.get("allDay"):
+            return None
+
+        def clock(iso):
+            try:
+                t = datetime.strptime(iso[:19], "%Y-%m-%dT%H:%M:%S")
+            except (ValueError, TypeError):
+                return None
+            fmt = "%#I:%M %p" if os.name == "nt" else "%-I:%M %p"
+            return t.strftime(fmt)
+
+        start = clock(ev.get("start") or "")
+        if not start:
+            return None
+        end = clock(ev.get("end") or "")
+        span = f"{start} - {end}" if end else start
+        return f"{span} PT"
 
     def _scrape_meetings_listing(self, start_date, end_date):
         """
