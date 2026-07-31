@@ -63,7 +63,11 @@ def init_db(db_path=None):
             hydro_relevant INTEGER,
             hydro_relevance_reason TEXT,
             ai_summary TEXT,
+            hydro_read_through TEXT,
+            source_names_hydro INTEGER,
             topics TEXT,
+            directness TEXT,
+            evidence TEXT,
             ai_processed_at TIMESTAMP,
             UNIQUE(download_url)
         );
@@ -195,7 +199,19 @@ def migrate_db(conn):
         ("hydro_relevant",            "INTEGER"),
         ("hydro_relevance_reason",    "TEXT"),
         ("ai_summary",                "TEXT"),
+        # The hydro relevance argument, kept OUT of ai_summary so a reader can
+        # tell what the document says from what an analyst inferred from it.
+        # `source_names_hydro` records (deterministically, not via the model)
+        # whether the source ever uses the words hydro / pumped storage / PSH.
+        ("hydro_read_through",        "TEXT"),
+        ("source_names_hydro",        "INTEGER"),
         ("topics",                    "TEXT"),
+        # How directly the doc bears on hydro ('direct' | 'precedent' |
+        # 'reference'), and the verbatim source spans backing any date or
+        # figure in the summary. Both stay NULL on docs screened before
+        # these were added — treat NULL as "unrated", never as "low".
+        ("directness",                "TEXT"),
+        ("evidence",                  "TEXT"),
         ("ai_processed_at",           "TIMESTAMP"),
         ("stakeholders_extracted_at", "TIMESTAMP"),
     ]
@@ -344,20 +360,41 @@ def save_meeting_screening(conn, meeting_id, hydro_relevant, reason):
 
 
 def save_ai_screening(conn, doc_id, hydro_relevant, reason, summary=None,
-                      topics=None):
+                      topics=None, directness=None, evidence=None,
+                      hydro_read_through=None, source_names_hydro=None):
     """Store Haiku screening result for a document. `topics` is a list of
     controlled-vocabulary tags (see screen_documents.TOPIC_TAGS), stored
-    semicolon-joined; None/[] leaves any existing tags untouched."""
+    semicolon-joined; None/[] leaves any existing tags untouched.
+
+    `directness` is one of 'direct' | 'precedent' | 'reference' — how directly
+    the document bears on hydro (see screen_documents.DIRECTNESS_LEVELS).
+    `evidence` is a list of {claim, quote, verified} dicts, stored as JSON:
+    the verbatim source spans backing each date or figure in the summary.
+
+    `hydro_read_through` is the hydro relevance argument, held separately from
+    `summary` so a downstream reader can tell document content from analyst
+    inference; `source_names_hydro` is 1/0 for whether the source text itself
+    ever names hydro. All are COALESCEd, so a re-run that omits them preserves
+    what's there."""
     conn.execute("""
         UPDATE documents
         SET hydro_relevant = ?,
             hydro_relevance_reason = ?,
             ai_summary = COALESCE(?, ai_summary),
+            hydro_read_through = COALESCE(?, hydro_read_through),
+            source_names_hydro = COALESCE(?, source_names_hydro),
             topics = COALESCE(?, topics),
+            directness = COALESCE(?, directness),
+            evidence = COALESCE(?, evidence),
             ai_processed_at = CURRENT_TIMESTAMP
         WHERE id = ?
     """, (1 if hydro_relevant else 0, reason, summary,
-          ";".join(topics) if topics else None, doc_id))
+          hydro_read_through,
+          None if source_names_hydro is None else (1 if source_names_hydro else 0),
+          ";".join(topics) if topics else None,
+          directness,
+          json.dumps(evidence, ensure_ascii=False) if evidence else None,
+          doc_id))
     conn.commit()
 
 
@@ -563,6 +600,19 @@ def get_stats(conn):
     return stats
 
 
+def _load_evidence(raw):
+    """Decode the stored evidence JSON into a list. Older rows hold NULL and
+    a hand-edited row could hold anything, so a decode failure degrades to []
+    rather than breaking a whole export."""
+    if not raw:
+        return []
+    try:
+        val = json.loads(raw)
+    except (json.JSONDecodeError, TypeError):
+        return []
+    return val if isinstance(val, list) else []
+
+
 def export_calendar_json(conn, output_path=None):
     """Export meetings + documents as JSON for the web calendar."""
     rows = conn.execute("""
@@ -650,7 +700,17 @@ def export_calendar_json(conn, output_path=None):
                         "hydro_relevant": bool(doc["hydro_relevant"]) if doc["hydro_relevant"] is not None else None,
                         "hydro_relevance_reason": doc["hydro_relevance_reason"],
                         "ai_summary": doc["ai_summary"],
+                        # Kept separate from ai_summary on purpose: this is the
+                        # analyst's inference, not something the doc asserts.
+                        "hydro_read_through": doc["hydro_read_through"],
+                        "source_names_hydro": (
+                            None if doc["source_names_hydro"] is None
+                            else bool(doc["source_names_hydro"])),
                         "topics": (doc["topics"] or "").split(";") if doc["topics"] else [],
+                        # null on docs screened before directness existed —
+                        # the UI treats null as "unrated", not as "low".
+                        "directness": doc["directness"],
+                        "evidence": _load_evidence(doc["evidence"]),
                         "issues": [dict(r) for r in issue_rows],
                         "stakeholders": [dict(r) for r in stakeholder_rows],
                     })
@@ -708,7 +768,8 @@ def export_hydro_corpus(conn, json_path=None, csv_path=None):
     rows = conn.execute("""
         SELECT d.id, d.rto, d.doc_type, d.title, d.filename, d.download_url,
                d.posted_date, d.ai_summary, d.hydro_relevance_reason,
-               d.topics,
+               d.hydro_read_through, d.source_names_hydro,
+               d.topics, d.directness, d.evidence,
                m.id AS meeting_id, m.committee, m.meeting_date,
                m.title AS meeting_title
         FROM documents d
@@ -754,9 +815,21 @@ def export_hydro_corpus(conn, json_path=None, csv_path=None):
             "posted_date": r["posted_date"],
             "relevance_reason": r["hydro_relevance_reason"],
             "topics": (r["topics"] or "").split(";") if r["topics"] else [],
+            # "unrated" (not null/empty) so a record stays self-describing to
+            # whatever reads it — docs screened before directness existed must
+            # not be silently read as the weakest tier.
+            "directness": r["directness"] or "unrated",
+            "evidence": _load_evidence(r["evidence"]),
             "initiatives": initiatives,
             "stakeholders": stakeholders,
             "ai_summary": r["ai_summary"],
+            # The hydro argument, deliberately NOT folded into ai_summary.
+            # Restating this as something the document says is the single most
+            # common way these records get misread — see CLAUDE.md.
+            "hydro_read_through": r["hydro_read_through"],
+            "source_names_hydro": (
+                None if r["source_names_hydro"] is None
+                else bool(r["source_names_hydro"])),
             "url": r["download_url"],
         })
 
@@ -771,7 +844,9 @@ def export_hydro_corpus(conn, json_path=None, csv_path=None):
         import csv
         cols = ["rto", "meeting_date", "committee", "meeting_title",
                 "doc_type", "title", "posted_date", "relevance_reason",
-                "topics", "initiatives", "stakeholders", "ai_summary", "url"]
+                "topics", "directness", "source_names_hydro", "evidence",
+                "initiatives", "stakeholders", "ai_summary",
+                "hydro_read_through", "url"]
         # utf-8-sig so Excel renders en-dashes etc. in summaries cleanly.
         with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
             writer = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
@@ -781,6 +856,12 @@ def export_hydro_corpus(conn, json_path=None, csv_path=None):
                 row["topics"] = "; ".join(rec["topics"])
                 row["initiatives"] = "; ".join(rec["initiatives"])
                 row["stakeholders"] = "; ".join(rec["stakeholders"])
+                # Flatten to `claim — "quote"` pairs; unverified spans are
+                # marked so a reader never treats one as source-checked.
+                row["evidence"] = " | ".join(
+                    f'{e.get("claim", "?")} — "{e.get("quote", "")}"'
+                    + ("" if e.get("verified") else " [UNVERIFIED]")
+                    for e in rec["evidence"] if isinstance(e, dict))
                 writer.writerow(row)
         print(f"Exported {len(records)} hydro docs to {csv_path}")
 

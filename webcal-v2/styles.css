@@ -1703,7 +1703,6 @@ input, select, textarea { font-family: inherit; color: inherit; }
   flex-shrink: 0;
 }
 .initiative-icon { color: var(--initiative); }
-.toolbar-meta strong.initiative-count { color: var(--initiative); }
 .filter-chip.active.initiative {
   background: var(--initiative-bg);
   border-color: var(--initiative-border);
@@ -2923,3 +2922,173 @@ input, select, textarea { font-family: inherit; color: inherit; }
 }
 .export-rto-item input { cursor: pointer; }
 
+
+/* ── Directness ("confidence") ────────────────────────────────────────────
+   Relevance is a deliberately wide gate — a document the screen rejects is
+   invisible to every consumer forever. Directness is the separate axis that
+   keeps that width from reading as overclaiming: it says whether an item is
+   ABOUT hydro or merely adjacent to it. "direct" borrows the hydro accent;
+   the weaker tiers stay deliberately quiet so they read as context, not as
+   a warning. Docs screened before ratings existed render no badge at all —
+   absence means unrated, which is not the same as weak. */
+.doc-directness {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: var(--text-muted);
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+}
+.doc-directness.direct {
+  color: var(--hydro);
+  background: color-mix(in oklab, var(--hydro) 10%, var(--bg-elev));
+  border-color: color-mix(in oklab, var(--hydro) 30%, var(--border));
+}
+.doc-directness.precedent {
+  color: var(--text-secondary);
+  border-color: var(--border-strong);
+}
+.doc-directness.inline { margin-top: 0; margin-left: 8px; vertical-align: middle; }
+
+/* Confidence slider — lives in the toolbar, where it replaced a static
+   hydro-relevant / initiative-linked / total-meetings readout that only
+   repeated counts the sidebar nav already shows. Putting it here also keeps
+   the sidebar's Views → RTOs → Topics rhythm unbroken. The full stop list,
+   per-stop counts, and the unrated-items disclosure ride in the title
+   tooltip, since a toolbar row has no space for them. */
+.toolbar-conf {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-shrink: 0;
+  cursor: help;
+}
+.toolbar-conf-label {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.toolbar-conf input[type="range"] {
+  width: 74px;
+  margin: 0;
+  accent-color: var(--hydro);
+  cursor: pointer;
+}
+.toolbar-conf-readout {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.toolbar-conf-readout strong { color: var(--hydro); font-weight: 700; }
+.toolbar-conf-count { color: var(--text-soft); font-variant-numeric: tabular-nums; }
+
+/* Narrow viewports: the slider keeps working, the words go. */
+@media (max-width: 860px) {
+  .toolbar-conf-label,
+  .toolbar-conf-count { display: none; }
+}
+
+/* ── Evidence ("Sourced from") ────────────────────────────────────────────
+   Every date and figure in a summary carries the verbatim span it came from,
+   checked automatically against the extracted text. A quote that could not
+   be found is shown and flagged rather than dropped — hiding it would hide
+   the one signal that a specific may be invented. */
+.evidence-block { margin-top: var(--sp-5); }
+.evidence-block h4 { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px; }
+.evidence-hint {
+  font-size: var(--fs-xs);
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--text-muted);
+}
+.evidence-row {
+  border-left: 2px solid color-mix(in oklab, var(--hydro) 45%, var(--border));
+  padding: 2px 0 2px var(--sp-3);
+  margin-bottom: var(--sp-3);
+}
+.evidence-row.unverified {
+  border-left-color: var(--warn);
+  background: color-mix(in oklab, var(--warn) 7%, transparent);
+}
+.evidence-claim {
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 2px;
+}
+.evidence-flag {
+  margin-left: 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--warn);
+  border: 1px solid color-mix(in oklab, var(--warn) 45%, var(--border));
+  border-radius: 3px;
+  padding: 1px 5px;
+  cursor: help;
+}
+.evidence-quote {
+  margin: 0;
+  font-size: var(--fs-sm);
+  font-family: var(--font-mono, monospace);
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.evidence-quote::before { content: "\201C"; }
+.evidence-quote::after  { content: "\201D"; }
+
+/* ── Hydro read-through ───────────────────────────────────────────────────
+   The hydro relevance argument, kept visually distinct from the summary. Most
+   RTO documents reach hydro through a rule of general applicability and never
+   say the word; that read-through is exactly what a member wants, but it is
+   analysis, and blending it into the summary is how it ends up quoted onward
+   as something the RTO said. Styled as commentary, not as reported fact. */
+.readthrough-block {
+  margin-top: var(--sp-5);
+  padding: var(--sp-3) var(--sp-4);
+  background: color-mix(in oklab, var(--hydro) 6%, var(--bg-elev));
+  border: 1px solid color-mix(in oklab, var(--hydro) 22%, var(--border));
+  border-radius: var(--radius-md);
+}
+.readthrough-block h4 {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 6px 0;
+}
+.readthrough-block p {
+  margin: 0;
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+.readthrough-tag {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 1px 5px;
+  cursor: help;
+}
+.readthrough-note {
+  margin-top: var(--sp-2);
+  padding-top: 6px;
+  border-top: 1px dashed color-mix(in oklab, var(--hydro) 25%, var(--border));
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+}

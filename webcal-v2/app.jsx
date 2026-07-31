@@ -22,11 +22,72 @@ function LoadingScreen({ error }) {
   );
 }
 
+// Toolbar control for the confidence filter — how directly an event's documents
+// bear on hydro. Relevance is a deliberately wide gate (a rejected document is
+// invisible to every consumer forever), so this is the axis that lets a reader
+// narrow to the squarely-applicable without re-tuning the screen.
+//
+// Hidden only when the whole dataset carries no ratings, so it doesn't occupy
+// toolbar space on an export that pre-dates directness. Deliberately NOT tied
+// to the current filter subset: a narrow search can leave zero rated events,
+// and a control that disappears while its filter is still applied leaves the
+// user with an active constraint and nothing to adjust it with.
+function ConfidenceControl({ events, hasRatings, shownCount, minRank, setMinRank, meta, stops }) {
+  const counts = useMemo(() => {
+    // `unratedShown` counts everything the slider can't act on — unrated
+    // hydro-relevant events AND events with no hydro-relevant docs at all.
+    // Both pass every stop, so both belong in each stop's total; otherwise
+    // the per-stop numbers wouldn't reconcile with the "N shown" readout.
+    // `unratedRelevant` is narrower and only describes the ratings gap.
+    const m = { rated: 0, unratedShown: 0, unratedRelevant: 0, byRank: {} };
+    for (const e of events) {
+      const info = meta?.[e.directness];
+      if (info) {
+        m.rated++;
+        m.byRank[info.rank] = (m.byRank[info.rank] || 0) + 1;
+      } else {
+        m.unratedShown++;
+        if (e.isRelevant) m.unratedRelevant++;
+      }
+    }
+    return m;
+  }, [events, meta]);
+
+  if (!stops?.length || !hasRatings) return null;
+
+  const active = stops[minRank - 1];
+  const countAt = (rank) => counts.unratedShown + Object.entries(counts.byRank)
+    .reduce((n, [r, c]) => n + (Number(r) >= rank ? c : 0), 0);
+
+  const tip = [
+    "How directly an event's documents bear on hydro.",
+    ...stops.map(s => `${s.label}: ${s.hint} (${countAt(s.minRank)} shown)`),
+    counts.unratedRelevant > 0
+      ? `${counts.unratedRelevant} hydro-relevant item${counts.unratedRelevant === 1 ? "" : "s"} screened before ratings existed — always shown.`
+      : null,
+  ].filter(Boolean).join("\n");
+
+  return (
+    <div className="toolbar-conf" title={tip}>
+      <span className="toolbar-conf-label">Confidence</span>
+      <input type="range" min="1" max={stops.length} step="1" value={minRank}
+             aria-label="Minimum confidence that a meeting applies to hydro"
+             onChange={e => setMinRank(Number(e.target.value))}/>
+      <span className="toolbar-conf-readout">
+        <strong>{active?.label}</strong>
+        <span className="toolbar-conf-count">{shownCount} shown</span>
+      </span>
+    </div>
+  );
+}
+
 function App() {
   const [data, setData] = useState(null);
   const [loadError, setLoadError] = useState(null);
 
-  const [filters, setFilters] = useState({ view: "all", rto: "all", topic: "all", q: "", facet: null });
+  // `minRank` is the confidence filter: 1 = All, 2 = Precedent+, 3 = Direct
+  // only. See DIRECTNESS_STOPS in data.js.
+  const [filters, setFilters] = useState({ view: "all", rto: "all", topic: "all", minRank: 1, q: "", facet: null });
   const [selectedId, setSelectedId] = useState(null);
   const [selectedDate, setSelectedDate] = useState(null);
   const [monthCursor, setMonthCursor] = useState(() => {
@@ -65,8 +126,11 @@ function App() {
       });
   }, []);
 
-  // Filter events
-  const filteredEvents = useMemo(() => {
+  // Everything except the confidence filter. Kept separate so the confidence
+  // control can report how many events each of its stops would show *under the
+  // other active filters* — with RTO=CAISO set, the useful number is how many
+  // CAISO events survive each stop, not how many across all markets.
+  const preConfidenceEvents = useMemo(() => {
     if (!data) return [];
     return data.events.filter(e => {
       if (filters.view === "hydro" && !e.isRelevant) return false;
@@ -91,6 +155,23 @@ function App() {
       return true;
     });
   }, [data, filters]);
+
+  // Confidence filter. Unrated events (every doc screened before directness
+  // existed) pass at every stop: they carry no rating to judge, and dropping
+  // them would silently hide most of the archive rather than narrowing it. The
+  // control states how many are unrated so this is visible, not a surprise.
+  const filteredEvents = useMemo(() => {
+    if (filters.minRank <= 1 || !data) return preConfidenceEvents;
+    return preConfidenceEvents.filter(e => {
+      const meta = data.directnessMeta[e.directness];
+      return !meta || meta.rank >= filters.minRank;
+    });
+  }, [data, preConfidenceEvents, filters.minRank]);
+
+  // Whether directness exists in this export at all — gates the toolbar control.
+  const hasRatings = useMemo(
+    () => !!data && data.events.some(e => e.directness),
+    [data]);
 
   const selectedEvent = data && data.events.find(e => e.id === selectedId);
 
@@ -177,6 +258,13 @@ function App() {
                 <span className="x">×</span>
               </span>
             )}
+            {filters.minRank > 1 && (
+              <span className="filter-chip active" onClick={() => setFilters({...filters, minRank: 1})}>
+                <Icon name="target" size={11}/>
+                {data.directnessStops?.[filters.minRank - 1]?.label} or stronger
+                <span className="x">×</span>
+              </span>
+            )}
             {filters.view === "hydro" && (
               <span className="filter-chip active" onClick={() => setFilters({...filters, view: "all"})}>
                 <span className="hydro-tri"/>
@@ -205,13 +293,14 @@ function App() {
               </span>
             )}
             <div className="toolbar-spacer"/>
-            <span className="toolbar-meta">
-              <strong>{filteredEvents.filter(e=>e.isRelevant).length}</strong> hydro-relevant
-              {" "}·{" "}
-              <strong className="initiative-count">{filteredEvents.filter(e=>e.hasIssues).length}</strong> initiative-linked
-              {" "}·{" "}
-              {filteredEvents.length} of {data.events.length} meetings
-            </span>
+            <ConfidenceControl
+              events={preConfidenceEvents}
+              hasRatings={hasRatings}
+              shownCount={filteredEvents.length}
+              minRank={filters.minRank}
+              setMinRank={(minRank) => setFilters({ ...filters, minRank })}
+              meta={data.directnessMeta}
+              stops={data.directnessStops}/>
             <button className="icon-btn" title="Refresh" onClick={() => window.location.reload()}><Icon name="refresh" size={14}/></button>
           </div>
 

@@ -124,6 +124,40 @@
     "ferc-policy":        { label: "FERC Policy" },
   };
 
+  // How directly a document bears on hydro. Relevance is a deliberately wide
+  // gate (a rejected doc is invisible to every consumer forever); directness
+  // is the separate axis that keeps that width from reading as overclaiming.
+  // Ordered strongest -> weakest via `rank`. Keep in sync with
+  // DIRECTNESS_LEVELS in rto-docs/screen_documents.py.
+  const DIRECTNESS_META = {
+    direct:    { rank: 3, label: "Direct",
+                 blurb: "Changes a hydro or PSH revenue stream, obligation, or option" },
+    precedent: { rank: 2, label: "Precedent",
+                 blurb: "Written for other resources or markets, but sets precedent for hydro" },
+    reference: { rank: 1, label: "Reference",
+                 blurb: "Background or analysis, no specific hydro action" },
+  };
+
+  // Stops for the confidence filter, loosest -> strictest. Unrated content
+  // (docs screened before directness existed) always passes every stop —
+  // filtering it out would silently hide most of the archive.
+  const DIRECTNESS_STOPS = [
+    { minRank: 1, label: "All",       hint: "No confidence filter" },
+    { minRank: 2, label: "Precedent", hint: "Hide reference-only material" },
+    { minRank: 3, label: "Direct",    hint: "Directly applicable to hydro only" },
+  ];
+
+  // Strongest rating in a list, ignoring unrated entries. Returns null when
+  // nothing is rated.
+  function strongestDirectness(values) {
+    let best = null;
+    for (const v of values) {
+      const m = DIRECTNESS_META[v];
+      if (m && (!best || m.rank > DIRECTNESS_META[best].rank)) best = v;
+    }
+    return best;
+  }
+
   // Parse "9:00 AM - 12:00 PM" / "1:00 p.m. - 4:00 p.m." / "4:00 PM" / null.
   // Returns { startH, startM, endH?, endM? } or null. Zone tags are stripped
   // first — "3:00 PM CT" would otherwise fail the anchored match below and
@@ -227,7 +261,18 @@
         hydro_relevant: d.hydro_relevant === true,
         hydro_relevance_reason: d.hydro_relevance_reason || null,
         ai_summary: d.ai_summary || null,
+        // Held separately from ai_summary on purpose — this is the inferred
+        // hydro argument, and the UI labels it as such so a reader never
+        // mistakes it for something the document asserts.
+        hydro_read_through: d.hydro_read_through || null,
+        source_names_hydro: typeof d.source_names_hydro === "boolean"
+          ? d.source_names_hydro : null,
         topics: Array.isArray(d.topics) ? d.topics : [],
+        // null on docs screened before directness existed — "unrated", which
+        // is NOT the same as the weakest tier and must never be filtered out
+        // as though it were.
+        directness: DIRECTNESS_META[d.directness] ? d.directness : null,
+        evidence: Array.isArray(d.evidence) ? d.evidence : [],
         issues,
         stakeholders: d.stakeholders || [],
       };
@@ -235,6 +280,12 @@
 
     // Event-level topic set: the union of its docs' tags, for filtering.
     const topics = [...new Set(documents.flatMap(d => d.topics))];
+
+    // Event-level directness: the STRONGEST rating among its hydro-relevant
+    // docs, so an event holding one directly-applicable document still shows
+    // at the strictest filter setting. Stays null when no doc is rated.
+    const directness = strongestDirectness(
+      documents.filter(d => d.hydro_relevant).map(d => d.directness));
 
     // Deduplicate issues across all sources (meeting-level + doc-level) by
     // native_id. PJM cites individual document URLs so its issues come in
@@ -307,6 +358,7 @@
       hydroDocCount: documents.filter(d => d.hydro_relevant).length,
       isRelevant: meetingHydro || hasHydroDocs,
       topics,
+      directness,
       issues,
       hasIssues: issues.length > 0,
     };
@@ -360,6 +412,8 @@
       events,
       rtoMeta: RTO_META,
       topicMeta: TOPIC_META,
+      directnessMeta: DIRECTNESS_META,
+      directnessStops: DIRECTNESS_STOPS,
       today,
       weekStart: currentWeek.weekStart,
       weekEnd: currentWeek.weekEnd,
@@ -506,6 +560,7 @@
 
   window.RTO_META = RTO_META;
   window.TOPIC_META = TOPIC_META;
+  window.DIRECTNESS_META = DIRECTNESS_META;
 
   window.loadMarketsData = async function () {
     // Data files live at <repo-root>/rto-docs/ — one level up from
@@ -645,13 +700,108 @@ Each JSON record / CSV row has:
 - \`title\` — document title.
 - \`posted_date\` — when the document was posted, if known.
 - \`relevance_reason\` — why the screener flagged it as hydro-relevant.
+- \`topics\` — 1-3 tags from a fixed controlled vocabulary (e.g. \`capacity-ra\`,
+  \`storage\`, \`price-formation\`). Safe to group and count on exactly.
+- \`directness\` — how squarely the document bears on hydro. See below; this is
+  the field to weight by, not \`relevance_reason\`.
+- \`evidence\` — the verbatim source spans behind the dates and figures in
+  \`ai_summary\`. See below.
+- \`source_names_hydro\` — whether the document's own text uses the words hydro,
+  hydropower, pumped storage, PSH, or run-of-river. Checked mechanically, not
+  judged by a model. \`false\` is common and normal.
 - \`initiatives\` — linked market initiatives/issues (with status), where available.
 - \`stakeholders\` — named authors/contacts and their organizations, where extracted.
-- \`ai_summary\` — an AI-generated summary of the document's contents.
+- \`ai_summary\` — what the DOCUMENT says. Document-grounded only.
+- \`hydro_read_through\` — why it matters to hydro. INFERENCE, not the document's
+  words. See below.
 - \`url\` — direct link to the ORIGINAL source document on the RTO/ISO website.
   Fetch this to go beyond the summary (see "Pulling original source material").
 
-In the CSV, the \`initiatives\` and \`stakeholders\` lists are joined with "; ".
+In the CSV, the \`topics\`, \`initiatives\` and \`stakeholders\` lists are joined
+with "; ", and \`evidence\` is flattened to \`claim — "quote"\` pairs separated
+by " | ", with \`[UNVERIFIED]\` appended to any unconfirmed span.
+
+## Directness — read this before you weight anything
+
+Relevance is a deliberately WIDE gate. A document the screener rejects becomes
+invisible to every downstream consumer permanently, so the screen is tuned to
+favor recall: it keeps anything a hydro owner, the calendar UI, or this corpus
+might plausibly want. That width is intentional, but it means "relevant" alone
+does not mean "about hydro."
+
+\`directness\` is the axis that tells them apart:
+
+- \`direct\` — the document's own subject changes a hydro or PSH revenue stream,
+  compliance obligation, or strategic option.
+- \`precedent\` — the rule targets other resources (batteries, gas, generic
+  storage) or another market, and matters because its design would extend to or
+  set precedent for hydro. All ERCOT records are at most \`precedent\`; Texas has
+  essentially no hydro fleet, and ERCOT is tracked for cross-market comparison.
+- \`reference\` — background or analytical value with no specific hydro action:
+  market-monitor reports, white papers, long-run studies, data.
+- \`unrated\` — screened before this field existed. **Not a weak rating.** Judge
+  these on \`ai_summary\` and \`relevance_reason\`; do not treat them as
+  \`reference\`, and do not exclude them from counts without saying so.
+
+If you are writing something member-facing, lead with \`direct\` records. Frame
+\`precedent\` records explicitly as read-throughs or comparisons rather than as
+things that happened to hydro — describing an ERCOT storage rule as if it hit a
+member's fleet is the most common way this corpus gets misread.
+
+## \`ai_summary\` vs \`hydro_read_through\` — do not merge these
+
+These two fields are deliberately separate, and collapsing them is the single
+easiest way to publish something false.
+
+- \`ai_summary\` reports **only what the document says**. It is constrained not to
+  name a resource class the document doesn't name: if the deck says "Non-Energy
+  Limited Resources", the summary says that, not "including most hydro plants".
+- \`hydro_read_through\` is the **argument** that this matters to hydro. It reasons
+  from the document plus general market knowledge. It is inference, and it is
+  supposed to be there — a capacity-accreditation reform that never says the word
+  "hydro" still moves hydro capacity revenue, and explaining that is the point.
+
+**When you write member-facing text, keep the provenance.** State \`ai_summary\`
+content as what the RTO said or proposed. State \`hydro_read_through\` content as
+implication — "this would determine…", "hydro owners should expect…", "the
+read-through is…". Never promote a read-through sentence into a claim about the
+document, and never add per-technology mechanics of your own.
+
+Concretely, for an ISO-NE accreditation deck where \`source_names_hydro\` is
+\`false\`:
+
+- Fine: "ISO-NE detailed how Dependable Capability will be measured for
+  non-energy-limited resources. Most conventional hydro is accredited on that
+  path, so this determines its seasonal capacity value."
+- **Not fine:** "Pumped storage uses full outage data rather than the 5% assumed
+  for batteries; energy-limited hydro gets a proxy duration curve." Nothing like
+  that is in the deck. Invented thresholds, exemptions, and per-technology
+  treatments are the characteristic failure here — they read as plausible because
+  they are the *kind* of thing such a document might contain.
+
+If \`source_names_hydro\` is \`false\`, then **no sentence you publish may attribute
+a hydro-specific rule to that document.** Say what the general rule is, say that
+hydro falls under it, and stop. If a member needs the hydro-specific treatment,
+the honest answer is that this document doesn't give it — often, as with
+energy-limited resources at ISO-NE, because the RTO still has it open.
+
+## Evidence — check specifics before you republish them
+
+Each record's \`evidence\` array holds the verbatim spans supporting every date,
+deadline, vote schedule, and figure asserted in \`ai_summary\`. Each entry has:
+
+- \`claim\` — the specific, as the summary stated it.
+- \`quote\` — the span copied from the document's extracted text.
+- \`verified\` — whether that quote was found in the source text automatically.
+
+**\`verified: false\` (or \`[UNVERIFIED]\` in the CSV) means the quote could not be
+matched against the source.** Usually the summary paraphrased, or the quote came
+from a title rather than the body; occasionally the specific is wrong. Never
+republish an unverified date or figure without opening \`url\` and confirming it.
+Prefer quoting the \`quote\` text over the summary's paraphrase when precision
+matters — deadlines especially. An empty \`evidence\` array on a summary with no
+dates or figures is normal and expected; an older record may have none because
+it predates this field.
 
 ## How to use this
 

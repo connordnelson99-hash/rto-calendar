@@ -24,6 +24,69 @@ function formatStatus(s) {
   return STATUS_LABEL_OVERRIDES[k] || (k.charAt(0).toUpperCase() + k.slice(1));
 }
 
+// The hydro relevance argument, rendered distinctly from the summary because
+// it is inference rather than document content. Most RTO material reaches hydro
+// through a general rule and never says the word — that read-through is worth
+// stating, but a reader has to be able to tell it apart from what the document
+// actually said, or it gets quoted onward as fact.
+const HydroReadThrough = ({ text, sourceNamesHydro }) => {
+  if (!text) return null;
+  return (
+    <div className="readthrough-block">
+      <h4>
+        Why this matters to hydro
+        <span className="readthrough-tag"
+              title={sourceNamesHydro === false
+                ? "This document never uses the words hydro, pumped storage, or PSH. The connection below is analysis, not something the document states."
+                : "Analysis of what this means for hydro owners — distinct from what the document itself says."}>
+          inference
+        </span>
+      </h4>
+      <p>{text}</p>
+      {sourceNamesHydro === false && (
+        <div className="readthrough-note">
+          The source document does not mention hydro or pumped storage anywhere.
+        </div>
+      )}
+    </div>
+  );
+};
+
+// Verbatim source spans behind the dates and figures in a summary. The
+// screener is asked to quote each specific; the pipeline then checks every
+// quote against the extracted text. An unmatched quote is shown and flagged
+// rather than hidden, because it's the one signal a specific may be invented
+// — a member about to calendar a comment deadline should see the doubt.
+// Renders nothing for documents screened before evidence was collected.
+const EvidenceList = ({ evidence }) => {
+  const rows = Array.isArray(evidence) ? evidence : [];
+  if (rows.length === 0) return null;
+  return (
+    <div className="evidence-block">
+      <h4>
+        Sourced from
+        <span className="evidence-hint">
+          each date and figure above, quoted from the document
+        </span>
+      </h4>
+      {rows.map((ev, i) => (
+        <div key={i} className={"evidence-row" + (ev.verified ? "" : " unverified")}>
+          <div className="evidence-claim">
+            {ev.claim}
+            {!ev.verified && (
+              <span className="evidence-flag"
+                    title="This quote could not be matched against the extracted document text — check the source before relying on it.">
+                unconfirmed
+              </span>
+            )}
+          </div>
+          <blockquote className="evidence-quote">{ev.quote}</blockquote>
+        </div>
+      ))}
+    </div>
+  );
+};
+
 function formatShortDate(iso) {
   if (!iso) return null;
   const d = new Date(iso + "T12:00:00");
@@ -423,6 +486,12 @@ const DocCard = ({ d, event, onOpenSummary }) => {
             <span>{d.filename}</span>
           </div>
         )}
+        {d.directness && window.DIRECTNESS_META?.[d.directness] && (
+          <div className={"doc-directness " + d.directness}
+               title={window.DIRECTNESS_META[d.directness].blurb}>
+            {window.DIRECTNESS_META[d.directness].label}
+          </div>
+        )}
         {(d.topics || []).length > 0 && (
           <div className="doc-sponsors">
             <Icon name="tag" size={11}/>
@@ -525,6 +594,12 @@ const DocSummaryModal = ({ doc, event, onClose }) => {
                 {doc.topics.map(t => (
                   <span key={t} className="cmp-topic-chip">{window.TOPIC_META?.[t]?.label || t}</span>
                 ))}
+                {doc.directness && window.DIRECTNESS_META?.[doc.directness] && (
+                  <span className={"doc-directness inline " + doc.directness}
+                        title={window.DIRECTNESS_META[doc.directness].blurb}>
+                    {window.DIRECTNESS_META[doc.directness].label}
+                  </span>
+                )}
               </div>
             )}
 
@@ -532,6 +607,11 @@ const DocSummaryModal = ({ doc, event, onClose }) => {
               <Icon name="sparkle" size={11}/> AI summary · screened by Claude
             </div>
             <p className="doc-modal-summary">{doc.ai_summary}</p>
+
+            <EvidenceList evidence={doc.evidence}/>
+
+            <HydroReadThrough text={doc.hydro_read_through}
+                              sourceNamesHydro={doc.source_names_hydro}/>
 
             <button className="btn primary" onClick={openPdf}>
               <Icon name="external" size={13}/> Open source PDF
@@ -905,7 +985,15 @@ const DocReader = ({ doc, event, onClose }) => {
               <div className="callout" style={{ marginBottom: 20 }}>
                 <div className="callout-icon">▲</div>
                 <div className="callout-body">
-                  <div className="label">Why this matters</div>
+                  <div className="label">
+                    Why this matters
+                    {doc.directness && window.DIRECTNESS_META?.[doc.directness] && (
+                      <span className={"doc-directness inline " + doc.directness}
+                            title={window.DIRECTNESS_META[doc.directness].blurb}>
+                        {window.DIRECTNESS_META[doc.directness].label}
+                      </span>
+                    )}
+                  </div>
                   {doc.hydro_relevance_reason}
                 </div>
               </div>
@@ -915,6 +1003,9 @@ const DocReader = ({ doc, event, onClose }) => {
               <div className="reader-summary-section">
                 <h4>Summary</h4>
                 <p>{doc.ai_summary}</p>
+                <EvidenceList evidence={doc.evidence}/>
+                <HydroReadThrough text={doc.hydro_read_through}
+                                  sourceNamesHydro={doc.source_names_hydro}/>
               </div>
             ) : (
               <div className="reader-summary-section" style={{ color: "var(--text-muted)" }}>
