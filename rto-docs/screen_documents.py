@@ -804,12 +804,17 @@ def run_stage1(conn, client, rto_filter=None, rescreen=False, dry_run=False):
 
 
 def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200,
-               dry_run=False, since=None, until=None):
+               dry_run=False, since=None, until=None, only_unrated=False):
     """Screen documents for meetings that passed Stage 1.
 
     `since`/`until` bound the MEETING date (inclusive, YYYY-MM-DD). Pair them
     with --rescreen to refresh a specific window — e.g. the few weeks the
     weekly digest actually reads — without paying to reprocess the archive.
+
+    `only_unrated` further narrows to documents that predate the current
+    screening fields. That's what makes a rescreen resumable: an interrupted run
+    can be restarted without paying to redo — and without re-rolling — the
+    documents it already finished, including the ones it judged not relevant.
     """
     where = [
         # Stage-1 gate: only docs from meetings flagged relevant — EXCEPT
@@ -839,6 +844,13 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200,
     if until:
         where.append("m.meeting_date <= ?")
         params.append(until)
+    if only_unrated:
+        # `source_names_hydro`, not `directness`, is the "already screened under
+        # the current prompt" signal: it is written on every save, while directness
+        # is NULL for any document judged not relevant. Testing directness would
+        # treat every not-relevant document as unfinished and re-screen it on
+        # every resume — on this window that was 155 documents of pure rework.
+        where.append("d.source_names_hydro IS NULL")
 
     docs = conn.execute(f"""
         SELECT d.id, d.rto, d.doc_type, d.title, d.filename,
@@ -996,6 +1008,12 @@ def main():
              "reads instead of the whole archive."
     )
     parser.add_argument(
+        "--only-unrated", action="store_true",
+        help="Stage 2: skip documents that already carry a directness rating. "
+             "Use with --rescreen to resume an interrupted rescreen without "
+             "paying to redo the documents it already finished."
+    )
+    parser.add_argument(
         "--dry-run", action="store_true",
         help="Print prompts without calling the API"
     )
@@ -1045,7 +1063,8 @@ def main():
                    limit=args.limit,
                    dry_run=args.dry_run,
                    since=args.since,
-                   until=args.until)
+                   until=args.until,
+                   only_unrated=args.only_unrated)
 
     conn.close()
     print("\nDone. Run: python run_scrapers.py --export-only  to refresh the calendar JSON.")

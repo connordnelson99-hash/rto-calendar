@@ -524,6 +524,12 @@
           if (d.type) meta.push(`**Type:** ${d.type}`);
           if (d.posted_date) meta.push(`**Posted:** ${d.posted_date}`);
           if (meta.length) out.push(`- ${meta.join(" · ")}`);
+          const dm = window.DIRECTNESS_META?.[d.directness];
+          if (dm) out.push(`- **Confidence:** ${dm.label} — ${dm.blurb}`);
+          if ((d.topics || []).length) {
+            out.push(`- **Topics:** ${d.topics
+              .map(t => window.TOPIC_META?.[t]?.label || t).join(" · ")}`);
+          }
           if (d.hydro_relevant && d.hydro_relevance_reason) {
             out.push(`- **Why flagged:** ${d.hydro_relevance_reason}`);
           }
@@ -543,11 +549,45 @@
           }
           if (d.url) out.push(`- **URL:** ${d.url}`);
           out.push("");
+
+          // Summary and read-through are emitted under separate headings, and
+          // the headings say which is which. The screener deliberately keeps
+          // the hydro argument OUT of the summary so a reader can tell document
+          // content from inference; collapsing them back together here would
+          // undo that and hand a downstream writer un-attributed claims.
           if (d.ai_summary) {
-            out.push("**AI summary:**");
+            out.push("**What the document says:**");
             out.push("");
             out.push(d.ai_summary);
             out.push("");
+          }
+          if (d.hydro_read_through) {
+            out.push("**Why it matters to hydro** — inference, not stated in the document:");
+            out.push("");
+            out.push(d.hydro_read_through);
+            out.push("");
+            if (d.source_names_hydro === false) {
+              out.push("> Note: this document never uses the words hydro, " +
+                       "pumped storage, or PSH. Do not attribute any " +
+                       "hydro-specific rule to it.");
+              out.push("");
+            }
+          }
+          const ev = d.evidence || [];
+          if (ev.length) {
+            out.push("**Sourced from the document** — verbatim spans behind the dates and figures above:");
+            out.push("");
+            for (const e of ev) {
+              const mark = e.verified ? "" : "[UNVERIFIED] ";
+              out.push(`- ${mark}${e.claim} — "${e.quote}"`);
+            }
+            out.push("");
+            if (ev.some(e => !e.verified)) {
+              out.push("> [UNVERIFIED] means the quote could not be matched " +
+                       "against the extracted text. Open the URL and confirm " +
+                       "before republishing that specific.");
+              out.push("");
+            }
           }
         }
       }
