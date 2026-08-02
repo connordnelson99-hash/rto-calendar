@@ -322,6 +322,104 @@
     "documents": []
   },
   {
+    "title": "CLLSCO Meeting",
+    "date": "2026-08-18",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "CLLSCO",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "CLLSCO (Compliance, Legal, Legislative and Strategic Oversight Committee) addresses corporate governance, legal compliance, and legislative affairs rather than market-design mechanisms affecting hydro revenue, participation rules, or strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Risk Management Committee Meeting",
+    "date": "2026-08-18",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Risk Management Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Risk Management Committee meetings typically address internal credit, financial, and operational risk governance rather than market-design mechanisms affecting hydro revenue, participation rules, or strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "NEPOOL Reliability & Transmission Committee Summer Meeting",
+    "date": "2026-08-18",
+    "time": "1:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Reliability Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160122",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ISO-NE Reliability Committee meetings address resource adequacy, operating standards, transmission planning, and interconnection rules that directly affect hydro/PSH participation, compliance, and revenue in New England's markets.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Reliability Subcommittee (RSC) - August 18, 2026",
+    "date": "2026-08-18",
+    "time": "9:00 AM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Reliability Subcommittee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/fffae4f129474b459852b8caece83273.aspx",
+    "materials_url": "https://www.misoenergy.org/link/fffae4f129474b459852b8caece83273.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO Reliability Subcommittee meetings regularly address resource adequacy, operating standards, and ancillary-services design that directly affect hydro and storage participation, revenue, and compliance obligations.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "RPG Meeting",
+    "date": "2026-08-18",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Regional Planning Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08182026-RPG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/08182026-RPG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Regional planning meetings typically focus on transmission infrastructure and load-growth forecasting rather than market-design mechanisms affecting hydro revenue, obligations, or strategic options, and ERCOT's lack of hydropower limits direct applicability unless the agenda explicitly addresses storage participation, capacity mechanisms, or flexibility products.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "NDSWG Meeting",
+    "date": "2026-08-18",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Network Data Support Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08182026-NDSWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/08182026-NDSWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Network Data Support Working Group meetings address IT infrastructure, data systems, and technical operations support rather than market design, pricing, or resource participation rules that affect hydropower revenue, compliance, or strategy.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "PLWG Meeting",
+    "date": "2026-08-18",
+    "time": null,
+    "rto": "ERCOT",
+    "committee": "Planning Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08182026-PLWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/08182026-PLWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The ERCOT Planning Working Group agenda is typically focused on transmission planning, resource adequacy studies, and infrastructure development in Texas, which has no hydropower fleet; without specific indication that this meeting addresses storage participation, frequency response, or other market-design mechanisms relevant to hydro comparison, the generic planning-group title does not warrant inclusion.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "SPF Meeting",
     "date": "2026-08-17",
     "time": "10:00 a.m. - 12:00 p.m.",
@@ -8771,7 +8869,7 @@
           {
             "name": "Anna McKenna",
             "entity": "CAISO",
-            "role": "moderator",
+            "role": "presenter",
             "email": null
           },
           {
@@ -8813,7 +8911,7 @@
           {
             "name": "Kavya Niranjan",
             "entity": "Renewable NW",
-            "role": "moderator",
+            "role": "presenter",
             "email": null
           },
           {
@@ -8901,7 +8999,7 @@
           {
             "name": "John Tsoukalis",
             "entity": "Brattle Group",
-            "role": "presenter",
+            "role": "panelist",
             "email": null
           },
           {
@@ -8913,25 +9011,25 @@
           {
             "name": "Bob Hellrich-Dawson",
             "entity": "FERC",
-            "role": "presenter",
-            "email": "bob.hellrich-dawson@ferc.gov"
+            "role": "panelist",
+            "email": null
           },
           {
             "name": "Richard Doying",
             "entity": "Grid Strategies",
-            "role": "presenter",
-            "email": "rdoying@gridstrategiesllc.com"
+            "role": "panelist",
+            "email": null
           },
           {
             "name": "John Hammond",
             "entity": "Idaho Public Utilities Commission",
-            "role": "presenter",
+            "role": "panelist",
             "email": null
           },
           {
             "name": "Gabriel Aguilera",
             "entity": "New Mexico Public Regulation Commission",
-            "role": "presenter",
+            "role": "panelist",
             "email": null
           },
           {
@@ -8943,7 +9041,7 @@
           {
             "name": "Ann Rendahl",
             "entity": "Washington Utilities and Transportation Commission",
-            "role": "presenter",
+            "role": "panelist",
             "email": null
           }
         ]
@@ -9001,12 +9099,12 @@
   {
     "title": "PIEOUG Meeting",
     "date": "2026-07-30",
-    "time": "1:00 p.m. - 5:00 p.m.",
+    "time": "1:00 p.m. - 3:00 p.m.",
     "rto": "PJM",
     "committee": "PIEOUG",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={DD0E2642-AB8B-46FE-A798-99259751AF23}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={4FC4550C-D370-46FC-9381-9801B914D7B7}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "PIEOUG (PJM Industrial End-User Roundtable) focuses on large industrial customer concerns such as procurement, pricing transparency, and grid access for load; it does not address resource participation models, market design, or operational rules affecting hydropower and storage operators.",
     "issues": [],
@@ -19175,7 +19273,7 @@
           {
             "name": "Joe Eto",
             "entity": "California ISO",
-            "role": "board member, chair",
+            "role": "board member (chair)",
             "email": null
           },
           {
@@ -19187,7 +19285,7 @@
           {
             "name": "Mary Leslie",
             "entity": "California ISO",
-            "role": "board member, vice chair",
+            "role": "board member (vice chair)",
             "email": null
           },
           {
@@ -19221,16 +19319,10 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Roger Collanton",
-            "entity": "CAISO",
-            "role": "signatory",
-            "email": null
-          },
-          {
             "name": "Stacey Bernard",
             "entity": "CAISO",
-            "role": "author | contact",
-            "email": "sbernard@caiso.com"
+            "role": "author",
+            "email": null
           }
         ]
       },
@@ -19251,40 +19343,40 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Rebecca Wagner",
-            "entity": null,
-            "role": "contact",
-            "email": "rebwagner@gmail.com"
-          },
-          {
             "name": "Beth Vaughan",
-            "entity": "California Community Choice Association",
+            "entity": "California Community Choice Association (End-user/LSE sector)",
             "role": "contact",
             "email": "beth@cal-cca.org"
           },
           {
             "name": "Barry Moline",
-            "entity": "California Municipal Utilities Association",
+            "entity": "California Municipal Utilities Association (Publicly-owned utilities sector)",
             "role": "contact",
             "email": "bmoline@cmua.org"
           },
           {
             "name": "Jan Smutny-Jones",
-            "entity": "Independent Energy Producers Association",
+            "entity": "Independent Energy Producers Association (Generators, marketers, energy providers sector)",
             "role": "contact",
             "email": "smutny@iepa.com"
           },
           {
             "name": "Eric Eisenman",
-            "entity": "PG&E",
+            "entity": "PG&E (Participating Transmission Owner sector)",
             "role": "contact",
             "email": "Exe3@pge.com"
           },
           {
             "name": "Scott Bolton",
-            "entity": "PacifiCorp",
+            "entity": "PacifiCorp (Out-of-area entities sector)",
             "role": "contact",
             "email": "Scott.Bolton@pacificorp.com"
+          },
+          {
+            "name": "Rebecca Wagner",
+            "entity": "Public interest groups sector",
+            "role": "contact",
+            "email": "rebwagner@gmail.com"
           }
         ]
       },
@@ -19303,56 +19395,7 @@
         "directness": null,
         "evidence": [],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Angelina Galiteva",
-            "entity": "California Independent System Operator",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Ashutosh Bhagwat",
-            "entity": "California Independent System Operator",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Jan Schori",
-            "entity": "California Independent System Operator",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Mary Leslie",
-            "entity": "California Independent System Operator",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Severin Borenstein",
-            "entity": "California Independent System Operator",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Ava Villegas",
-            "entity": "Korn Ferry",
-            "role": "contact",
-            "email": "ava.villegas@kornferry.com"
-          },
-          {
-            "name": "Peter Bogin",
-            "entity": "Korn Ferry",
-            "role": "contact",
-            "email": "peter.bogin@kornferry.com"
-          },
-          {
-            "name": "Shelly Fust",
-            "entity": "Korn Ferry",
-            "role": "contact",
-            "email": "shelly.fust@kornferry.com"
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "agenda",
@@ -19373,7 +19416,7 @@
       },
       {
         "type": "agenda",
-        "title": "Final Agenda - ISO Board of Governors Meeting - Jul 15-16, 2026",
+        "title": "Draft Agenda - ISO Board of Governors Meeting - July 15-16, 2026",
         "filename": "draft-agenda-iso-board-of-governors-meeting-july-15-16-2026.pdf",
         "url": "https://www.caiso.com/documents/draft-agenda-iso-board-of-governors-meeting-july-15-16-2026.pdf",
         "posted_date": "2026-07-10",
@@ -19440,32 +19483,32 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Borenstein",
-            "entity": "CAISO",
+            "name": "Governor Borenstein",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Eto",
-            "entity": "CAISO",
+            "name": "Governor Eto",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Leslie",
-            "entity": "CAISO",
+            "name": "Governor Leslie",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Reynolds",
-            "entity": "CAISO",
+            "name": "Governor Reynolds",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Schori",
-            "entity": "CAISO",
+            "name": "Governor Schori",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           }
@@ -19505,7 +19548,7 @@
           {
             "name": "Abram Klein",
             "entity": "Appian Way",
-            "role": "author | presenter",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -19595,26 +19638,8 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Andrew Campbell",
-            "entity": null,
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Anita Decker",
-            "entity": null,
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Deborah Smith",
-            "entity": null,
-            "role": "contact",
-            "email": null
-          },
-          {
             "name": "Elliot Mainzer",
-            "entity": "California ISO",
+            "entity": "CAISO",
             "role": "author",
             "email": null
           }
@@ -19703,12 +19728,18 @@
             "entity": "CAISO",
             "role": "author",
             "email": null
+          },
+          {
+            "name": "H. Staver",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
           }
         ]
       },
       {
         "type": "other",
-        "title": "Department of Market Monitoring Update \u2013 Congestion Revenue Rights Enhancements -July 2026",
+        "title": "Department of Market Monitoring Update - Congestion Revenue Rights Enhancements - Jul 2026",
         "filename": "department-of-market-monitoring-update-congestion-revenue-rights-enhancements-jul-2026.pdf",
         "url": "https://www.caiso.com/documents/department-of-market-monitoring-update-congestion-revenue-rights-enhancements-jul-2026.pdf",
         "posted_date": "2026-07-09",
@@ -19738,7 +19769,7 @@
         "stakeholders": [
           {
             "name": "Eric Hildebrandt",
-            "entity": "CAISO Department of Market Monitoring",
+            "entity": "California ISO, Department of Market Monitoring",
             "role": "author",
             "email": null
           }
@@ -19780,31 +19811,31 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Borenstein",
+            "name": "Governor Borenstein",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Eto",
+            "name": "Governor Eto",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Leslie",
+            "name": "Governor Leslie",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Reynolds",
+            "name": "Governor Reynolds",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Schori",
+            "name": "Governor Schori",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
@@ -19938,7 +19969,7 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Borenstein",
+            "name": "Governor Borenstein",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
@@ -19950,19 +19981,19 @@
             "email": null
           },
           {
+            "name": "Governor Leslie",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Governor Reynolds",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
+            "email": null
+          },
+          {
             "name": "Governor Schori",
-            "entity": "CAISO Board of Governors",
-            "role": "signatory",
-            "email": null
-          },
-          {
-            "name": "Leslie",
-            "entity": "CAISO Board of Governors",
-            "role": "signatory",
-            "email": null
-          },
-          {
-            "name": "Reynolds",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
@@ -20077,7 +20108,7 @@
         "stakeholders": [
           {
             "name": "Joanne Serina",
-            "entity": "California Independent System Operator Corporation",
+            "entity": "California Independent System Operator Corporation (CAISO)",
             "role": "author",
             "email": null
           }
@@ -20137,7 +20168,7 @@
           {
             "name": "A. Ivancovich",
             "entity": "CAISO",
-            "role": "author",
+            "role": "contact",
             "email": null
           },
           {
@@ -20383,7 +20414,7 @@
             "email": null
           },
           {
-            "name": "Wagner",
+            "name": "Wagner, Rebecca",
             "entity": "WEM Governing Body",
             "role": "member",
             "email": null
@@ -20543,7 +20574,7 @@
           {
             "name": "Kerri Schlachter",
             "entity": "Black Hills Energy",
-            "role": "author",
+            "role": "presenter",
             "email": "Kerri.Schlachter@blackhillscorp.com"
           }
         ]
@@ -20585,8 +20616,8 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "CalCCA",
-            "entity": "California Community Choice Aggregators",
+            "name": "California Community Choice Aggregators (CalCCA)",
+            "entity": "CalCCA",
             "role": "author",
             "email": null
           }
@@ -20712,7 +20743,7 @@
           {
             "name": "Guillermo Bautista Alderete",
             "entity": "CAISO",
-            "role": "author",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -20818,15 +20849,15 @@
             "email": null
           },
           {
-            "name": "Jacob Mays",
+            "name": "Dr. Jacob Mays",
             "entity": "Cornell University",
-            "role": "presenter",
+            "role": "contact",
             "email": null
           },
           {
-            "name": "Ross Baldick",
+            "name": "Dr. Ross Baldick",
             "entity": "University of Texas",
-            "role": "presenter",
+            "role": "contact",
             "email": null
           }
         ]
@@ -20903,31 +20934,31 @@
         "stakeholders": [
           {
             "name": "Campbell",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Decker",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Kondziolka",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Smith",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Wagner",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           }
@@ -20970,8 +21001,8 @@
         "stakeholders": [
           {
             "name": "Susan L. Pope",
-            "entity": "WEM Governing Body",
-            "role": "presenter, market expert",
+            "entity": "WEM Governing Body Market Expert",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -21128,140 +21159,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Andrew Campbell",
-            "entity": null,
-            "role": "vice chair, wem governing body (elected chair effective july 1, 2026)",
-            "email": null
-          },
-          {
-            "name": "Anita Decker",
-            "entity": null,
-            "role": "wem governing body member (reappointed)",
-            "email": null
-          },
-          {
-            "name": "Becky Robinson",
-            "entity": null,
-            "role": "director, market design and analysis, presenter",
-            "email": null
-          },
-          {
-            "name": "Deborah Smith",
-            "entity": null,
-            "role": "wem governing body member (elected vice chair effective july 1, 2026)",
-            "email": null
-          },
-          {
-            "name": "Elliot Mainzer",
-            "entity": null,
-            "role": "president and ceo",
-            "email": null
-          },
-          {
-            "name": "Greg Fisher",
-            "entity": null,
-            "role": "lead counsel",
-            "email": null
-          },
-          {
-            "name": "Guillermo Bautista Alderete",
-            "entity": null,
-            "role": "director, market performance and advanced analytics, presenter",
-            "email": null
-          },
-          {
-            "name": "Milos Bosanac",
-            "entity": null,
-            "role": "manager, policy development, presenter",
-            "email": null
-          },
-          {
-            "name": "Neil Millar",
-            "entity": null,
-            "role": "vice president, infrastructure and operations planning, presenter",
-            "email": null
-          },
-          {
-            "name": "Rebecca Wagner",
-            "entity": null,
-            "role": "chair, wem governing body",
-            "email": null
-          },
-          {
-            "name": "Robert Kondziolka",
-            "entity": null,
-            "role": "wem governing body member",
-            "email": null
-          },
-          {
-            "name": "Jim Shetler",
-            "entity": "Balancing Authority of Northern California (BANC)",
-            "role": "general manager, presenter",
-            "email": null
-          },
-          {
-            "name": "Christopher Mclean",
-            "entity": "California Energy Commission",
-            "role": "public comment",
-            "email": null
-          },
-          {
-            "name": "Lindsey Schlekeway",
-            "entity": "NV Energy",
-            "role": "market policy director, chair of regional issues forum, presenter",
-            "email": null
-          },
-          {
-            "name": "Gabriel Aguilera",
-            "entity": "New Mexico Public Regulation Commission",
-            "role": "commissioner, presenter",
-            "email": null
-          },
-          {
-            "name": "Kerstin Rock",
-            "entity": "PacifiCorp",
-            "role": "senior director, western market policy & analytics, presenter",
-            "email": null
-          },
-          {
-            "name": "Colsen Jim",
-            "entity": "Public Service Company of New Mexico",
-            "role": "public comment",
-            "email": null
-          },
-          {
-            "name": "John Mayhew",
-            "entity": "Public Service Company of New Mexico",
-            "role": "public comment",
-            "email": null
-          },
-          {
-            "name": "Kathleen Staks",
-            "entity": "Regional Organization for Western Energy (ROWE)",
-            "role": "president, presenter",
-            "email": null
-          },
-          {
-            "name": "Chris Summers",
-            "entity": "San Diego Gas & Electric",
-            "role": "director, origination, energy supply & dispatch, presenter",
-            "email": null
-          },
-          {
-            "name": "Jeff Nelson",
-            "entity": "Southern California Edison (SCE)",
-            "role": "director, ferc rates and market integration, presenter",
-            "email": null
-          },
-          {
-            "name": "Caitlin Liotiris",
-            "entity": "Western Power Trading Forum (WPTF)",
-            "role": "representative, presenter",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "agenda",
@@ -21299,7 +21197,38 @@
         "directness": null,
         "evidence": [],
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Campbell",
+            "entity": "WEM Governing Body",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Decker",
+            "entity": "WEM Governing Body",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Kondziolka",
+            "entity": "WEM Governing Body",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Smith",
+            "entity": "WEM Governing Body",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Wagner",
+            "entity": "WEM Governing Body",
+            "role": "signatory",
+            "email": null
+          }
+        ]
       },
       {
         "type": "other",
@@ -21460,7 +21389,7 @@
           {
             "name": "Guillermo Bautista Alderete",
             "entity": "CAISO",
-            "role": "presenter",
+            "role": "author",
             "email": null
           }
         ]
@@ -21529,7 +21458,7 @@
           {
             "name": "Guillermo Bautista Alderete",
             "entity": "CAISO",
-            "role": "presenter",
+            "role": "author",
             "email": null
           }
         ]
@@ -21701,7 +21630,7 @@
         "stakeholders": [
           {
             "name": "Jeffrey Nelson",
-            "entity": "Southern California Edison",
+            "entity": "Southern California Edison (SCE)",
             "role": "presenter",
             "email": null
           }
@@ -21742,14 +21671,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Western Power Trading Forum",
-            "entity": "WPTF",
-            "role": "presenter",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "presentation",
@@ -21768,57 +21690,57 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Anita Decker",
-            "entity": null,
-            "role": "wem governing body member subject of reappointment",
-            "email": null
-          },
-          {
             "name": "Joe Eto",
-            "entity": null,
-            "role": "iso board of governors member (non-voting)",
-            "email": null
-          },
-          {
-            "name": "Rebecca Wagner",
-            "entity": null,
-            "role": "wem governing body member (non-voting)",
+            "entity": "ISO Board of Governors",
+            "role": "contact",
             "email": null
           },
           {
             "name": "Fred Heutte",
             "entity": "NW Energy Coalition",
-            "role": "stakeholder representative",
-            "email": null
-          },
-          {
-            "name": "Stefanie Johnson",
-            "entity": "SCL",
-            "role": "stakeholder representative",
+            "role": "contact",
             "email": null
           },
           {
             "name": "Chris Summers",
             "entity": "San Diego Gas & Electric",
-            "role": "presenter, wem nominating committee chair",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stefanie Johnson",
+            "entity": "Seattle City Light",
+            "role": "contact",
             "email": null
           },
           {
             "name": "Nico Procos",
             "entity": "Silicon Valley Power",
-            "role": "stakeholder representative",
+            "role": "contact",
             "email": null
           },
           {
             "name": "Seth Cochran",
             "entity": "Vitol",
-            "role": "stakeholder representative",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Anita Decker",
+            "entity": "WEM Governing Body",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Rebecca Wagner",
+            "entity": "WEM Governing Body",
+            "role": "contact",
             "email": null
           },
           {
             "name": "Milt Doumit",
             "entity": "Washington Utilities & Transportation Commission",
-            "role": "stakeholder representative",
+            "role": "contact",
             "email": null
           }
         ]
@@ -21840,20 +21762,8 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Anita Decker",
-            "entity": null,
-            "role": "signatory",
-            "email": null
-          },
-          {
             "name": "Joe Eto",
-            "entity": null,
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Rebecca Wagner",
-            "entity": null,
+            "entity": "ISO Board of Governors",
             "role": "contact",
             "email": null
           },
@@ -21888,9 +21798,21 @@
             "email": null
           },
           {
+            "name": "Rebecca Wagner",
+            "entity": "WEM Governing Body",
+            "role": "contact",
+            "email": null
+          },
+          {
             "name": "Milt Doumit",
             "entity": "Washington Utilities & Transportation Commission",
             "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Anita Decker",
+            "entity": "Western Energy Markets Governing Body",
+            "role": "subject of nomination",
             "email": null
           }
         ]
@@ -21913,31 +21835,31 @@
         "stakeholders": [
           {
             "name": "Anita Decker",
-            "entity": null,
-            "role": "nominee/reappointee",
+            "entity": "Western Energy Markets Governing Body",
+            "role": "member",
             "email": null
           },
           {
-            "name": "Campbell",
-            "entity": null,
+            "name": "Member Campbell",
+            "entity": "Western Energy Markets Governing Body",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Kondziolka",
-            "entity": null,
+            "name": "Member Kondziolka",
+            "entity": "Western Energy Markets Governing Body",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Smith",
-            "entity": null,
+            "name": "Member Smith",
+            "entity": "Western Energy Markets Governing Body",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Wagner",
-            "entity": null,
+            "name": "Member Wagner",
+            "entity": "Western Energy Markets Governing Body",
             "role": "signatory",
             "email": null
           }
@@ -21961,32 +21883,32 @@
         "stakeholders": [
           {
             "name": "Andrew Campbell",
-            "entity": null,
-            "role": "elected chair",
+            "entity": "WEM Governing Body",
+            "role": "elected official",
             "email": null
           },
           {
             "name": "Deborah Smith",
-            "entity": null,
-            "role": "elected vice chair",
+            "entity": "WEM Governing Body",
+            "role": "elected official",
             "email": null
           },
           {
-            "name": "Member Decker",
-            "entity": null,
+            "name": "Decker",
+            "entity": "WEM Governing Body",
             "role": "seconder",
             "email": null
           },
           {
-            "name": "Member Kondziolka",
-            "entity": null,
+            "name": "Kondziolka",
+            "entity": "WEM Governing Body",
             "role": "voter",
             "email": null
           },
           {
-            "name": "Member Wagner",
-            "entity": null,
-            "role": "mover",
+            "name": "Wagner",
+            "entity": "WEM Governing Body",
+            "role": "sponsor/mover",
             "email": null
           }
         ]
@@ -22064,7 +21986,7 @@
         "stakeholders": [
           {
             "name": "Eric Hildebrandt",
-            "entity": "CAISO Department of Market Monitoring",
+            "entity": "California ISO, Department of Market Monitoring",
             "role": "author",
             "email": null
           }
@@ -22195,104 +22117,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Aditya Jayam Prabhakar",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Alice Reynolds",
-            "entity": "CAISO",
-            "role": "board governor",
-            "email": null
-          },
-          {
-            "name": "Greg Fisher",
-            "entity": "CAISO",
-            "role": "lead counsel",
-            "email": null
-          },
-          {
-            "name": "Jan Schori",
-            "entity": "CAISO",
-            "role": "board governor",
-            "email": null
-          },
-          {
-            "name": "Jeff Billinton",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Joseph Eto",
-            "entity": "CAISO",
-            "role": "chair",
-            "email": null
-          },
-          {
-            "name": "Mary Leslie",
-            "entity": "CAISO",
-            "role": "vice chair",
-            "email": null
-          },
-          {
-            "name": "Neil Millar",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Severin Borenstein",
-            "entity": "CAISO",
-            "role": "board governor",
-            "email": null
-          },
-          {
-            "name": "Nancy Radar",
-            "entity": "California Wind Energy Association",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "Barbara Hale",
-            "entity": "City and County of San Francisco",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "Nancy Saracino",
-            "entity": "Golden State Clean Energy",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "Ed Smeloff",
-            "entity": "GridLab",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "Jim Gill",
-            "entity": "Pacific Gas and Electric",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "Nico Procos",
-            "entity": "Silicon Valley Power",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "Jonathan Young",
-            "entity": "State Water Contractors",
-            "role": "public commenter",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "agenda",
@@ -22396,67 +22221,67 @@
         "stakeholders": [
           {
             "name": "Alice Reynolds",
-            "entity": "California Independent System Operator",
+            "entity": "CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Binaya Shrestha",
-            "entity": "California Independent System Operator",
+            "entity": "CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Elliot Mainzer",
-            "entity": "California Independent System Operator",
+            "entity": "CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Jan Schori",
-            "entity": "California Independent System Operator",
+            "entity": "CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Jeff Billinton",
-            "entity": "California Independent System Operator",
+            "entity": "CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Joe Eto",
-            "entity": "California Independent System Operator",
+            "entity": "CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Mark Rothleder",
-            "entity": "California Independent System Operator",
+            "entity": "CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Mary Leslie",
-            "entity": "California Independent System Operator",
+            "entity": "CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Neil Millar",
-            "entity": "California Independent System Operator",
+            "entity": "CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Severin Borenstein",
-            "entity": "California Independent System Operator",
+            "entity": "CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Nicolas Procos",
-            "entity": "City of Santa Clara, dba Silicon Valley Power",
+            "entity": "City of Santa Clara, dba Silicon Valley Power (SVP)",
             "role": "author",
             "email": null
           }
@@ -22492,7 +22317,7 @@
             "name": "Ed Smeloff",
             "entity": "GridLab",
             "role": "author",
-            "email": "707-677-2107"
+            "email": null
           }
         ]
       },
@@ -22558,7 +22383,7 @@
           {
             "name": "Joe Eto",
             "entity": "California Independent System Operator Corporation (CAISO)",
-            "role": "signatory",
+            "role": "contact",
             "email": null
           },
           {
@@ -22593,74 +22418,7 @@
         "directness": "direct",
         "evidence": [],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Alice Reynolds",
-            "entity": "California Independent System Operator",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Binaya Shrestha",
-            "entity": "California Independent System Operator",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Elliot Mainzer",
-            "entity": "California Independent System Operator",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Jan Schori",
-            "entity": "California Independent System Operator",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Jeff Billinton",
-            "entity": "California Independent System Operator",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Joe Eto",
-            "entity": "California Independent System Operator",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Mark Rothleder",
-            "entity": "California Independent System Operator",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Mary Leslie",
-            "entity": "California Independent System Operator",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Neil Millar",
-            "entity": "California Independent System Operator",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Severin Borenstein",
-            "entity": "California Independent System Operator",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Barbara Hale",
-            "entity": "City and County of San Francisco",
-            "role": "author",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "comment",
@@ -22762,33 +22520,33 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Borenstein",
-            "entity": "ISO Board of Governors",
-            "role": "signatory (seconded)",
+            "name": "Governor Borenstein",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
             "email": null
           },
           {
-            "name": "Eto",
-            "entity": "ISO Board of Governors",
-            "role": "signatory (voted y)",
+            "name": "Governor Eto",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
             "email": null
           },
           {
-            "name": "Leslie",
-            "entity": "ISO Board of Governors",
-            "role": "signatory (voted y)",
+            "name": "Governor Leslie",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
             "email": null
           },
           {
-            "name": "Reynolds",
-            "entity": "ISO Board of Governors",
-            "role": "signatory (moved)",
+            "name": "Governor Reynolds",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
             "email": null
           },
           {
-            "name": "Schori",
-            "entity": "ISO Board of Governors",
-            "role": "signatory (voted y)",
+            "name": "Governor Schori",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
             "email": null
           }
         ]
@@ -22917,6 +22675,12 @@
         ],
         "issues": [],
         "stakeholders": [
+          {
+            "name": "J. Billinton",
+            "entity": "CAISO",
+            "role": "author",
+            "email": null
+          },
           {
             "name": "Neil Millar",
             "entity": "CAISO",
@@ -23393,86 +23157,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Caitlin Liotiris",
-            "entity": "American Clean Power - California",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "Danielle Mills",
-            "entity": "CAISO",
-            "role": "director infrastructure policy development, presenter",
-            "email": null
-          },
-          {
-            "name": "Elliot Mainzer",
-            "entity": "CAISO",
-            "role": "president and ceo, presenter",
-            "email": null
-          },
-          {
-            "name": "Roger Collanton",
-            "entity": "CAISO",
-            "role": "vp general counsel chief compliance officer corporate secretary, presenter",
-            "email": null
-          },
-          {
-            "name": "Ryan Seghesio",
-            "entity": "CAISO",
-            "role": "vp chief financial officer and treasurer, presenter",
-            "email": null
-          },
-          {
-            "name": "Alice Reynolds",
-            "entity": "CAISO Board of Governors",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Jan Schori",
-            "entity": "CAISO Board of Governors",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Joseph Eto",
-            "entity": "CAISO Board of Governors",
-            "role": "chair, presenter",
-            "email": null
-          },
-          {
-            "name": "Mary Leslie",
-            "entity": "CAISO Board of Governors",
-            "role": "member, vice chair (elected)",
-            "email": null
-          },
-          {
-            "name": "Severin Borenstein",
-            "entity": "CAISO Board of Governors",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Susan Schneider",
-            "entity": "Large-scale Solar Association",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "Andrew Campbell",
-            "entity": "WEM Governing Body",
-            "role": "non-voting department of market monitoring oversight committee member",
-            "email": null
-          },
-          {
-            "name": "Rebecca Wagner",
-            "entity": "WEM Governing Body",
-            "role": "chair, presenter",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "comment",
@@ -23560,19 +23245,19 @@
         "stakeholders": [
           {
             "name": "D. Shonkwiler",
-            "entity": "CAISO",
+            "entity": "California Independent System Operator Corporation",
             "role": "author",
             "email": null
           },
           {
             "name": "Roger Collanton",
-            "entity": "CAISO",
+            "entity": "California Independent System Operator Corporation",
             "role": "author",
             "email": null
           },
           {
             "name": "S. Bernard",
-            "entity": "CAISO",
+            "entity": "California Independent System Operator Corporation",
             "role": "author",
             "email": null
           }
@@ -23681,36 +23366,6 @@
             "entity": "CAISO",
             "role": "author",
             "email": null
-          },
-          {
-            "name": "CPUC Energy Division",
-            "entity": "California Public Utilities Commission",
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "PG&E",
-            "entity": "Pacific Gas and Electric Company",
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "SDG&E",
-            "entity": "San Diego Gas & Electric",
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "Six Cities",
-            "entity": "Six Cities (California utilities)",
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "SCE",
-            "entity": "Southern California Edison",
-            "role": "commenter",
-            "email": null
           }
         ]
       },
@@ -23731,32 +23386,32 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Borenstein",
-            "entity": null,
+            "name": "Governor Borenstein",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Eto",
-            "entity": null,
+            "name": "Governor Eto",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Leslie",
-            "entity": null,
+            "name": "Governor Leslie",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Reynolds",
-            "entity": null,
+            "name": "Governor Reynolds",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Schori",
-            "entity": null,
+            "name": "Governor Schori",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           }
@@ -23834,28 +23489,10 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Becky Robinson",
-            "entity": "CAISO",
-            "role": "contact",
-            "email": "frequencyband@caiso.com"
-          },
-          {
             "name": "Elliot Mainzer",
             "entity": "CAISO",
             "role": "author",
             "email": null
-          },
-          {
-            "name": "Khaled Abdul-Rahman",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Paul Dockery",
-            "entity": "CAISO",
-            "role": "contact",
-            "email": "frequencyband@caiso.com"
           }
         ]
       },
@@ -23898,6 +23535,12 @@
         ],
         "issues": [],
         "stakeholders": [
+          {
+            "name": "A. Gordon Page",
+            "entity": "CAISO",
+            "role": "author",
+            "email": null
+          },
           {
             "name": "Ryan Seghesio",
             "entity": "CAISO",
@@ -24008,32 +23651,32 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Borenstein",
-            "entity": null,
-            "role": "signatory",
-            "email": null
-          },
-          {
-            "name": "Eto",
-            "entity": null,
-            "role": "signatory",
-            "email": null
-          },
-          {
             "name": "Leslie",
-            "entity": null,
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Mark Eto",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Reynolds",
-            "entity": null,
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Schori",
-            "entity": null,
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Severin Borenstein",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           }
@@ -24123,6 +23766,12 @@
         ],
         "issues": [],
         "stakeholders": [
+          {
+            "name": "D. Mills",
+            "entity": "CAISO",
+            "role": "author",
+            "email": null
+          },
           {
             "name": "Neil Millar",
             "entity": "CAISO",
@@ -24248,32 +23897,32 @@
         "stakeholders": [
           {
             "name": "Borenstein",
-            "entity": null,
-            "role": "governor",
+            "entity": "ISO Board of Governors",
+            "role": "signatory",
             "email": null
           },
           {
-            "name": "Eto",
-            "entity": null,
-            "role": "governor, moved",
+            "name": "Governor Eto",
+            "entity": "ISO Board of Governors",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Governor Reynolds",
+            "entity": "ISO Board of Governors",
+            "role": "signatory",
             "email": null
           },
           {
             "name": "Mary Leslie",
-            "entity": null,
-            "role": "elected vice chair",
-            "email": null
-          },
-          {
-            "name": "Reynolds",
-            "entity": null,
-            "role": "governor, second",
+            "entity": "ISO Board of Governors",
+            "role": "signatory",
             "email": null
           },
           {
             "name": "Schori",
-            "entity": null,
-            "role": "governor",
+            "entity": "ISO Board of Governors",
+            "role": "signatory",
             "email": null
           }
         ]
@@ -24296,37 +23945,37 @@
         "stakeholders": [
           {
             "name": "Alice Reynolds",
-            "entity": null,
-            "role": "signatory",
-            "email": null
-          },
-          {
-            "name": "Andrew Campbell",
-            "entity": null,
+            "entity": "ISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Jan Schori",
-            "entity": null,
+            "entity": "ISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Joseph Eto",
-            "entity": null,
+            "entity": "ISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Mary Leslie",
-            "entity": null,
+            "entity": "ISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Severin Borenstein",
-            "entity": null,
+            "entity": "ISO Board of Governors",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Andrew Campbell",
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           }
@@ -24396,74 +24045,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Ahmadi, Massih",
-            "entity": "California ISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Bogen, Melanie",
-            "entity": "California ISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Chandinee Chandrasekaran, Chandinee",
-            "entity": "California ISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Das Gupta, Dinesh",
-            "entity": "California ISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Hines, Nicole",
-            "entity": "California ISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Martin, Michael",
-            "entity": "California ISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Mohammed-Ali, Abdulrahman",
-            "entity": "California ISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Namburi, Priyanka",
-            "entity": "California ISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Rivera, Andrew",
-            "entity": "California ISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Wiltzius, Rashele",
-            "entity": "California ISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Susan R. Schneider",
-            "entity": "Phoenix Consulting",
-            "role": "author",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "report",
@@ -24558,12 +24140,6 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "A. Ivancovich",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
             "name": "Roger Collanton",
             "entity": "CAISO",
             "role": "author",
@@ -24616,122 +24192,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Alyssa Krag-Arnold",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Amelia Blanke",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Anna McKenna",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Elliot Mainzer",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Guillermo Bautista Alderete",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "James Friedrich",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Joe Eto",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Khaled Abdul-Rahman",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Milos Bosanac",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Neil Millar",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Stacey Crowley",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Alice Reynolds",
-            "entity": "CPUC",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Ben Allen",
-            "entity": "California State Senate",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Eloise G\u00f3mez Reyes",
-            "entity": "California State Senate",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Henry Stern",
-            "entity": "California State Senate",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "John Laird",
-            "entity": "California State Senate",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Josh Becker",
-            "entity": "California State Senate",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Sabrina Cervantes",
-            "entity": "California State Senate",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "David LaCerte",
-            "entity": "FERC",
-            "role": "contact",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "report",
@@ -24857,7 +24318,7 @@
           {
             "name": "Guillermo Bautista Alderete",
             "entity": "CAISO",
-            "role": "presenter",
+            "role": "author",
             "email": null
           }
         ]
@@ -24901,152 +24362,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Jacob Mays",
-            "entity": null,
-            "role": "market surveillance committee appointee",
-            "email": null
-          },
-          {
-            "name": "Ross Baldick",
-            "entity": null,
-            "role": "market surveillance committee appointee",
-            "email": null
-          },
-          {
-            "name": "Jim Shetler",
-            "entity": "Balancing Authority of Northern California (BANC)",
-            "role": "general manager",
-            "email": null
-          },
-          {
-            "name": "Benjamin Hobbs",
-            "entity": "CAISO",
-            "role": "market surveillance committee member",
-            "email": null
-          },
-          {
-            "name": "Elliot Mainzer",
-            "entity": "CAISO",
-            "role": "president and ceo",
-            "email": null
-          },
-          {
-            "name": "Guillermo Bautista Alderete",
-            "entity": "CAISO",
-            "role": "director, market performance and advanced analytics",
-            "email": null
-          },
-          {
-            "name": "Mark Rothleder",
-            "entity": "CAISO",
-            "role": "senior vice president and coo",
-            "email": null
-          },
-          {
-            "name": "Roger Collanton",
-            "entity": "CAISO",
-            "role": "vp, general counsel, chief compliance officer and corporate secretary",
-            "email": null
-          },
-          {
-            "name": "Scott Harvey",
-            "entity": "CAISO",
-            "role": "market surveillance committee member",
-            "email": null
-          },
-          {
-            "name": "Evelyn Kahl",
-            "entity": "California Community Choice Association",
-            "role": "chief policy officer and general counsel",
-            "email": null
-          },
-          {
-            "name": "Mark Smith",
-            "entity": "Calpine",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Adam Swadley",
-            "entity": "Department of Market Monitoring",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Alice Reynolds",
-            "entity": "ISO Board of Governors",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Jan Schori",
-            "entity": "ISO Board of Governors",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Joseph Eto",
-            "entity": "ISO Board of Governors",
-            "role": "chair",
-            "email": null
-          },
-          {
-            "name": "Mary Leslie",
-            "entity": "ISO Board of Governors",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Severin Borenstein",
-            "entity": "ISO Board of Governors",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Kathleen Staks",
-            "entity": "Regional Organization for Western Energy (ROWE)",
-            "role": "president",
-            "email": null
-          },
-          {
-            "name": "Dan Williams",
-            "entity": "The Energy Authority",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Andrew Campbell",
-            "entity": "WEM Governing Body",
-            "role": "vice chair",
-            "email": null
-          },
-          {
-            "name": "Anita Decker",
-            "entity": "WEM Governing Body",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Deborah Smith",
-            "entity": "WEM Governing Body",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Rebecca Wagner",
-            "entity": "WEM Governing Body",
-            "role": "chair",
-            "email": null
-          },
-          {
-            "name": "Robert Kondziolka",
-            "entity": "WEM Governing Body",
-            "role": "presenter",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "agenda",
@@ -25144,27 +24460,39 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "James Bushnell",
-            "entity": null,
-            "role": "subject",
-            "email": null
-          },
-          {
             "name": "Elliot Mainzer",
             "entity": "CAISO",
             "role": "author",
             "email": null
           },
           {
+            "name": "Dr. Benjamin Hobbs",
+            "entity": "CAISO Market Surveillance Committee",
+            "role": "subject (retiring member)",
+            "email": null
+          },
+          {
+            "name": "Dr. Scott Harvey",
+            "entity": "CAISO Market Surveillance Committee",
+            "role": "subject (retiring member)",
+            "email": null
+          },
+          {
+            "name": "James Bushnell",
+            "entity": "CAISO Market Surveillance Committee",
+            "role": "subject (current member)",
+            "email": null
+          },
+          {
             "name": "Dr. Jacob Mays",
             "entity": "Cornell University",
-            "role": "subject",
+            "role": "subject (appointee candidate)",
             "email": null
           },
           {
             "name": "Dr. Ross Baldick",
             "entity": "University of Texas at Austin",
-            "role": "subject",
+            "role": "subject (appointee candidate)",
             "email": null
           }
         ]
@@ -25186,15 +24514,75 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Jacob Mays",
-            "entity": null,
+            "name": "Borenstein",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Eto",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Leslie",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Reynolds",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Schori",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Dr. Jacob Mays",
+            "entity": "ISO Market Surveillance Committee",
             "role": "appointee",
             "email": null
           },
           {
-            "name": "Ross Baldick",
-            "entity": null,
+            "name": "Dr. Ross Baldick",
+            "entity": "ISO Market Surveillance Committee",
             "role": "appointee",
+            "email": null
+          },
+          {
+            "name": "Campbell",
+            "entity": "WEM Governing Body",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Decker",
+            "entity": "WEM Governing Body",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Kondziolka",
+            "entity": "WEM Governing Body",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Smith",
+            "entity": "WEM Governing Body",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Wagner",
+            "entity": "WEM Governing Body",
+            "role": "signatory",
             "email": null
           }
         ]
@@ -25247,7 +24635,7 @@
         "stakeholders": [
           {
             "name": "Donna Frakes",
-            "entity": "Leadership Lyceum Consulting",
+            "entity": "Leadership Lyceum",
             "role": "contact",
             "email": "Donna.Frakes@LeadershipLyceum.com"
           }
@@ -25365,7 +24753,7 @@
           {
             "name": "Guillermo Bautista Alderete",
             "entity": "CAISO",
-            "role": "author",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -25486,33 +24874,33 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Ben Hobbs",
-            "entity": "CAISO",
-            "role": "msc member",
+            "name": "Dr. Ben Hobbs",
+            "entity": "CAISO Market Surveillance Committee",
+            "role": "presenter",
             "email": null
           },
           {
-            "name": "Guillermo Bautista Alderete",
-            "entity": "CAISO",
-            "role": "presenter | director of market performance and advanced analytics",
+            "name": "Dr. Scott Harvey",
+            "entity": "CAISO Market Surveillance Committee",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "James Bushnell",
-            "entity": "CAISO",
-            "role": "author | chair, market surveillance committee",
+            "entity": "CAISO Market Surveillance Committee",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Guillermo Bautista Alderete",
+            "entity": "California Independent System Operator",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Milos Bosanac",
-            "entity": "CAISO",
-            "role": "presenter | manager of policy development",
-            "email": null
-          },
-          {
-            "name": "Scott Harvey",
-            "entity": "CAISO",
-            "role": "presenter | msc member",
+            "entity": "California Independent System Operator",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -25561,31 +24949,25 @@
           {
             "name": "Scott Olson",
             "entity": "Avangrid",
-            "role": "director of policy, regulation, and markets and vice chair of regional issues forum, presenter",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Becky Robinson",
             "entity": "CAISO",
-            "role": "director, market design and analysis, presenter",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Elliot Mainzer",
             "entity": "CAISO",
-            "role": "president and ceo, presenter",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Heather Kelley",
             "entity": "CAISO",
-            "role": "executive director, project management, presenter",
-            "email": null
-          },
-          {
-            "name": "K. Osborne",
-            "entity": "CAISO",
-            "role": "author",
+            "role": "presenter",
             "email": null
           },
           {
@@ -25597,43 +24979,19 @@
           {
             "name": "Ryan Seghesio",
             "entity": "CAISO",
-            "role": "vp, chief financial officer and treasurer, presenter",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Gabriel Aguilera",
-            "entity": "New Mexico Public Regulation Commission",
-            "role": "commissioner and chair of body of state regulators, presenter",
-            "email": null
-          },
-          {
-            "name": "Andrew Campbell",
-            "entity": "WEM Governing Body",
-            "role": "vice chair",
-            "email": null
-          },
-          {
-            "name": "Anita Decker",
-            "entity": "WEM Governing Body",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Deborah Smith",
-            "entity": "WEM Governing Body",
-            "role": "member",
+            "entity": "New Mexico Public Regulation Commission / Body of State Regulators",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Rebecca Wagner",
             "entity": "WEM Governing Body",
-            "role": "chair",
-            "email": null
-          },
-          {
-            "name": "Robert Kondziolka",
-            "entity": "WEM Governing Body",
-            "role": "member",
+            "role": "contact",
             "email": null
           }
         ]
@@ -25656,32 +25014,32 @@
         "stakeholders": [
           {
             "name": "Campbell",
-            "entity": null,
-            "role": "signatory",
+            "entity": "WEM Governing Body",
+            "role": "member",
             "email": null
           },
           {
             "name": "Decker",
-            "entity": null,
-            "role": "signatory",
+            "entity": "WEM Governing Body",
+            "role": "member",
             "email": null
           },
           {
             "name": "Kondziolka",
-            "entity": null,
-            "role": "signatory",
+            "entity": "WEM Governing Body",
+            "role": "member",
             "email": null
           },
           {
             "name": "Smith",
-            "entity": null,
-            "role": "signatory",
+            "entity": "WEM Governing Body",
+            "role": "member",
             "email": null
           },
           {
             "name": "Wagner",
-            "entity": null,
-            "role": "signatory",
+            "entity": "WEM Governing Body",
+            "role": "member",
             "email": null
           }
         ]
@@ -25806,31 +25164,31 @@
         "stakeholders": [
           {
             "name": "Campbell",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Decker",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Kondziolka",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Smith",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Wagner",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           }
@@ -25915,36 +25273,6 @@
             "entity": "CAISO",
             "role": "author",
             "email": null
-          },
-          {
-            "name": "CPUC Energy Division",
-            "entity": "CPUC",
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "PG&E",
-            "entity": "PG&E",
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "SCE",
-            "entity": "SCE",
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "SDG&E",
-            "entity": "SDG&E",
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "Six Cities",
-            "entity": "Six Cities",
-            "role": "commenter",
-            "email": null
           }
         ]
       },
@@ -25978,32 +25306,32 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Campbell",
-            "entity": null,
+            "name": "Member Campbell",
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Decker",
-            "entity": null,
+            "name": "Member Decker",
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Kondziolka",
-            "entity": null,
+            "name": "Member Kondziolka",
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Smith",
-            "entity": null,
+            "name": "Member Smith",
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Wagner",
-            "entity": null,
+            "name": "Member Wagner",
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           }
@@ -26065,57 +25393,9 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Balancing Authority of Northern California",
-            "entity": "BANC",
-            "role": null,
-            "email": null
-          },
-          {
-            "name": "Black Hills Energy",
-            "entity": "Black Hills Energy",
-            "role": null,
-            "email": null
-          },
-          {
             "name": "Khaled Abdul-Rahman, PhD.",
             "entity": "CAISO",
             "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Los Angeles Department of Water & Power",
-            "entity": "LADWP",
-            "role": null,
-            "email": null
-          },
-          {
-            "name": "Public Service of New Mexico",
-            "entity": "PNM",
-            "role": null,
-            "email": null
-          },
-          {
-            "name": "PacifiCorp",
-            "entity": "PacifiCorp",
-            "role": null,
-            "email": null
-          },
-          {
-            "name": "Portland General Electric",
-            "entity": "Portland General Electric",
-            "role": null,
-            "email": null
-          },
-          {
-            "name": "Power Watch",
-            "entity": "Power Watch",
-            "role": null,
-            "email": null
-          },
-          {
-            "name": "Turlock Irrigation District",
-            "entity": "TID",
-            "role": null,
             "email": null
           }
         ]
@@ -26296,92 +25576,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Andrew Campbell",
-            "entity": null,
-            "role": "vice chair, wem governing body",
-            "email": null
-          },
-          {
-            "name": "Anita Decker",
-            "entity": null,
-            "role": "wem governing body member",
-            "email": null
-          },
-          {
-            "name": "Deborah Smith",
-            "entity": null,
-            "role": "wem governing body member",
-            "email": null
-          },
-          {
-            "name": "Rebecca Wagner",
-            "entity": null,
-            "role": "chair, wem governing body",
-            "email": null
-          },
-          {
-            "name": "Robert Kondziolka",
-            "entity": null,
-            "role": "wem governing body member",
-            "email": null
-          },
-          {
-            "name": "Angelina Galiteva",
-            "entity": "CAISO",
-            "role": "departing iso board of governors member",
-            "email": null
-          },
-          {
-            "name": "Elliot Mainzer",
-            "entity": "CAISO",
-            "role": "president and ceo, presenter",
-            "email": null
-          },
-          {
-            "name": "Guillermo Bautista Alderete",
-            "entity": "CAISO",
-            "role": "director, market performance and advanced analytics, presenter",
-            "email": null
-          },
-          {
-            "name": "Jan Schori",
-            "entity": "CAISO",
-            "role": "governor, iso board of governors",
-            "email": null
-          },
-          {
-            "name": "Joseph Eto",
-            "entity": "CAISO",
-            "role": "chair, iso board of governors",
-            "email": null
-          },
-          {
-            "name": "Mary Leslie",
-            "entity": "CAISO",
-            "role": "governor, iso board of governors",
-            "email": null
-          },
-          {
-            "name": "Roger Collanton",
-            "entity": "CAISO",
-            "role": "vp, general counsel, chief compliance officer and corporate secretary",
-            "email": null
-          },
-          {
-            "name": "Severin Borenstein",
-            "entity": "CAISO",
-            "role": "governor, iso board of governors",
-            "email": null
-          },
-          {
-            "name": "Evelyn Kahl",
-            "entity": "California Community Choice Association",
-            "role": "chief policy officer and general counsel, formation committee update presenter",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "agenda",
@@ -26452,25 +25647,25 @@
           {
             "name": "Calpine",
             "entity": "Calpine",
-            "role": "stakeholder-presenter",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Portland General Electric",
             "entity": "Portland General Electric",
-            "role": "stakeholder-presenter",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Public Generating Pool",
             "entity": "Public Generating Pool",
-            "role": "stakeholder-presenter",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Six Cities",
-            "entity": "Six Cities",
-            "role": "stakeholder-presenter",
+            "entity": "Six Cities (stakeholder coalition)",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -26492,56 +25687,56 @@
         "issues": [],
         "stakeholders": [
           {
+            "name": "Eto",
+            "entity": "ISO Board of Governors",
+            "role": "chair, board",
+            "email": null
+          },
+          {
+            "name": "Leslie",
+            "entity": "ISO Board of Governors",
+            "role": "governor, board",
+            "email": null
+          },
+          {
+            "name": "Schori",
+            "entity": "ISO Board of Governors",
+            "role": "governor, board",
+            "email": null
+          },
+          {
             "name": "Borenstein",
-            "entity": null,
-            "role": "governor",
+            "entity": "ISO Board of Governors / WEM Governing Body",
+            "role": "governor, board",
             "email": null
           },
           {
             "name": "Campbell",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "vice chair",
             "email": null
           },
           {
             "name": "Decker",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "member",
-            "email": null
-          },
-          {
-            "name": "Eto",
-            "entity": null,
-            "role": "chair",
             "email": null
           },
           {
             "name": "Kondziolka",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "member",
             "email": null
           },
           {
-            "name": "Leslie",
-            "entity": null,
-            "role": "governor",
-            "email": null
-          },
-          {
-            "name": "Schori",
-            "entity": null,
-            "role": "governor",
-            "email": null
-          },
-          {
             "name": "Smith",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "member",
             "email": null
           },
           {
             "name": "Wagner",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "chair",
             "email": null
           }
@@ -26604,15 +25799,9 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Alice Reynolds",
-            "entity": "CAISO",
-            "role": null,
-            "email": null
-          },
-          {
             "name": "Angelina Galiteva",
             "entity": "CAISO",
-            "role": null,
+            "role": "contact",
             "email": null
           },
           {
@@ -26624,31 +25813,37 @@
           {
             "name": "Joe Eto",
             "entity": "CAISO",
-            "role": null,
+            "role": "contact",
             "email": null
           },
           {
             "name": "Khaled Abdul-Rahman",
             "entity": "CAISO",
-            "role": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Alice Reynolds",
+            "entity": "CAISO / California Public Utilities Commission",
+            "role": "contact",
             "email": null
           },
           {
             "name": "Christine Harada",
             "entity": "California Public Utilities Commission",
-            "role": null,
+            "role": "contact",
             "email": null
           },
           {
             "name": "John Reynolds",
             "entity": "California Public Utilities Commission",
-            "role": null,
+            "role": "contact",
             "email": null
           },
           {
             "name": "Kathleen Staks",
             "entity": "Regional Organization for Western Energy (ROWE)",
-            "role": null,
+            "role": "contact",
             "email": null
           }
         ]
@@ -26686,7 +25881,7 @@
           {
             "name": "Guillermo Bautista Alderete",
             "entity": "CAISO",
-            "role": "presenter",
+            "role": "author",
             "email": null
           }
         ]
@@ -26848,7 +26043,7 @@
         "stakeholders": [
           {
             "name": "Eric Hildebrandt",
-            "entity": "CAISO",
+            "entity": "CAISO Department of Market Monitoring",
             "role": "author",
             "email": null
           }
@@ -26964,38 +26159,38 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Benjamin F. Hobbs",
-            "entity": "California ISO",
-            "role": "author",
-            "email": null
-          },
-          {
             "name": "James Friedrich",
-            "entity": "California ISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Jim Bushnell",
-            "entity": "California ISO",
+            "entity": "CAISO",
             "role": "presenter",
             "email": null
           },
           {
             "name": "Kun Zhao",
-            "entity": "California ISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Scott Harvey",
-            "entity": "California ISO",
+            "entity": "CAISO",
             "role": "presenter",
             "email": null
           },
           {
             "name": "Scott Lehman",
-            "entity": "California ISO",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Benjamin F. Hobbs",
+            "entity": "CAISO Market Surveillance Committee",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Jim Bushnell",
+            "entity": "CAISO Market Surveillance Committee",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Scott Harvey",
+            "entity": "CAISO Market Surveillance Committee",
             "role": "presenter",
             "email": null
           }
@@ -27036,140 +26231,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Torsten Kieper",
-            "entity": "Bay Area Municipal Transmission Group",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "Allie Mace",
-            "entity": "CAISO",
-            "role": "senior advisor, regional stakeholder affairs",
-            "email": null
-          },
-          {
-            "name": "Becky Robinson",
-            "entity": "CAISO",
-            "role": "director, market design and analysis",
-            "email": null
-          },
-          {
-            "name": "Elliot Mainzer",
-            "entity": "CAISO",
-            "role": "president and ceo",
-            "email": null
-          },
-          {
-            "name": "Guillermo Bautista Alderete",
-            "entity": "CAISO",
-            "role": "director \u2013 market performance and advanced analytics",
-            "email": null
-          },
-          {
-            "name": "James Friederich",
-            "entity": "CAISO",
-            "role": "lead policy developer",
-            "email": null
-          },
-          {
-            "name": "Khaled Abdul-Rahman",
-            "entity": "CAISO",
-            "role": "vp, chief information and technology officer",
-            "email": null
-          },
-          {
-            "name": "Roger Collanton",
-            "entity": "CAISO",
-            "role": "vp, general counsel, chief compliance officer and corporate secretary",
-            "email": null
-          },
-          {
-            "name": "Bonnie Blair",
-            "entity": "California Load Serving Entities",
-            "role": "senior counsel",
-            "email": null
-          },
-          {
-            "name": "Katherine Stockton",
-            "entity": "California Public Utilities Commission Energy Division",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "Chris Devon",
-            "entity": "Calpine",
-            "role": "director of government and regulatory affairs",
-            "email": null
-          },
-          {
-            "name": "Brian Theaker",
-            "entity": "Middle River Project",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "Lindsey Schlekeway",
-            "entity": "NV Energy",
-            "role": "market policy director and chair of regional issues forum",
-            "email": null
-          },
-          {
-            "name": "Gabriel Aguilera",
-            "entity": "New Mexico Public Regulation Commission",
-            "role": "commissioner and chair of body of state regulators",
-            "email": null
-          },
-          {
-            "name": "Kalia Savage",
-            "entity": "Portland General Electric",
-            "role": "principal markets and policy analyst",
-            "email": null
-          },
-          {
-            "name": "Sibyl Geiselman",
-            "entity": "Public Generating Pool",
-            "role": "market policy advisor",
-            "email": null
-          },
-          {
-            "name": "Dan Williams",
-            "entity": "The Energy Authority",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "Andrew Campbell",
-            "entity": "WEM Governing Body",
-            "role": "vice chair",
-            "email": null
-          },
-          {
-            "name": "Anita Decker",
-            "entity": "WEM Governing Body",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Deborah Smith",
-            "entity": "WEM Governing Body",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Rebecca Wagner",
-            "entity": "WEM Governing Body",
-            "role": "chair",
-            "email": null
-          },
-          {
-            "name": "Robert Kondziolka",
-            "entity": "WEM Governing Body",
-            "role": "member",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "implementation",
@@ -27253,7 +26315,7 @@
           {
             "name": "Guillermo Bautista Alderete",
             "entity": "CAISO",
-            "role": "presenter",
+            "role": "author",
             "email": null
           }
         ]
@@ -27312,7 +26374,7 @@
           {
             "name": "Becky Robinson",
             "entity": "CAISO",
-            "role": "author",
+            "role": "author | presenter",
             "email": null
           }
         ]
@@ -27399,32 +26461,32 @@
         "stakeholders": [
           {
             "name": "Campbell",
-            "entity": null,
-            "role": "signatory",
+            "entity": "WEM Governing Body",
+            "role": "member",
             "email": null
           },
           {
             "name": "Decker",
-            "entity": null,
-            "role": "signatory",
+            "entity": "WEM Governing Body",
+            "role": "member",
             "email": null
           },
           {
             "name": "Kondizolka",
-            "entity": null,
-            "role": "signatory",
+            "entity": "WEM Governing Body",
+            "role": "member",
             "email": null
           },
           {
             "name": "Smith",
-            "entity": null,
-            "role": "signatory",
+            "entity": "WEM Governing Body",
+            "role": "member",
             "email": null
           },
           {
             "name": "Wagner",
-            "entity": null,
-            "role": "signatory",
+            "entity": "WEM Governing Body",
+            "role": "member",
             "email": null
           }
         ]
@@ -27539,12 +26601,6 @@
             "email": null
           },
           {
-            "name": "Rebecca Wagner",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
             "name": "Roger Collanton",
             "entity": "CAISO",
             "role": "presenter",
@@ -27553,6 +26609,12 @@
           {
             "name": "Severin Borenstein",
             "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Rebecca Wagner",
+            "entity": "CAISO / WEM Governing Body",
             "role": "presenter",
             "email": null
           }
@@ -27660,14 +26722,14 @@
         "stakeholders": [
           {
             "name": "Roger Collanton",
-            "entity": "California Independent System Operator Corporation",
+            "entity": "CAISO",
             "role": "author",
             "email": null
           },
           {
             "name": "S. Bernard",
-            "entity": "California Independent System Operator Corporation",
-            "role": "author",
+            "entity": "CAISO",
+            "role": "co-author",
             "email": null
           }
         ]
@@ -27690,31 +26752,31 @@
         "stakeholders": [
           {
             "name": "Campbell",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Decker",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Kondziolka",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Smith",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Wagner",
-            "entity": null,
+            "entity": "WEM Governing Body",
             "role": "signatory",
             "email": null
           }
@@ -27738,31 +26800,31 @@
         "stakeholders": [
           {
             "name": "Borenstein",
-            "entity": null,
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Eto",
-            "entity": null,
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Galiteva",
-            "entity": null,
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Leslie",
-            "entity": null,
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Schori",
-            "entity": null,
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           }
@@ -27801,14 +26863,14 @@
         "stakeholders": [
           {
             "name": "Roger Collanton",
-            "entity": "CAISO",
+            "entity": "California ISO",
             "role": "author",
             "email": null
           },
           {
             "name": "S. Bernard",
-            "entity": "CAISO",
-            "role": "author",
+            "entity": "California ISO",
+            "role": "co-author",
             "email": null
           }
         ]
@@ -27957,14 +27019,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Financial Planning and Procurement Department",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "decision",
@@ -28079,31 +27134,31 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Borenstein",
+            "name": "Governor Borenstein",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Eto",
+            "name": "Governor Eto",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Galiteva",
+            "name": "Governor Galiteva",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Leslie",
+            "name": "Governor Leslie",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Schori",
+            "name": "Governor Schori",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
@@ -28128,31 +27183,31 @@
         "stakeholders": [
           {
             "name": "Borenstein",
-            "entity": "CAISO",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Eto",
-            "entity": "CAISO",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Galiteva",
-            "entity": "CAISO",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Leslie",
-            "entity": "CAISO",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Schori",
-            "entity": "CAISO",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           }
@@ -28176,31 +27231,31 @@
         "stakeholders": [
           {
             "name": "Angelina Galiteva",
-            "entity": "CAISO",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Borenstein",
-            "entity": "CAISO",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Joseph Eto",
-            "entity": "CAISO",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Leslie",
-            "entity": "CAISO",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Schori",
-            "entity": "CAISO",
+            "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           }
@@ -28248,14 +27303,26 @@
             "email": null
           },
           {
-            "name": "S. Vaughan",
-            "entity": "CAISO",
-            "role": "author",
+            "name": "Chad Dupuis",
+            "entity": "PG&E",
+            "role": "presenter",
             "email": null
           },
           {
-            "name": "Chad Dupuis",
-            "entity": "PG&E",
+            "name": "Alan Hernandez",
+            "entity": "SCE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Arthur Jackson",
+            "entity": "SCE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sheikh Ahmed",
+            "entity": "SCE",
             "role": "presenter",
             "email": null
           },
@@ -28272,26 +27339,8 @@
             "email": null
           },
           {
-            "name": "Alan Hernandez",
-            "entity": "Southern California Edison",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Arthur Jackson",
-            "entity": "Southern California Edison",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Sheikh Ahmed",
-            "entity": "Southern California Edison",
-            "role": "presenter",
-            "email": null
-          },
-          {
             "name": "Dave Hahn",
-            "entity": "Western Area Power Administration",
+            "entity": "Western Area Power Administration (WAPA)",
             "role": "presenter",
             "email": null
           }
@@ -28337,74 +27386,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Anna McKenna",
-            "entity": "CAISO",
-            "role": "co-author",
-            "email": null
-          },
-          {
-            "name": "Becky Robinson",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Danny Johnson",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Elliot Mainzer",
-            "entity": "CAISO",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "James Friedrich",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Stacey Crowley",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Cottie Petrie-Norris",
-            "entity": "California State Assembly",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Monique Lim\u00f3n",
-            "entity": "California State Senate",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "David LeCerte",
-            "entity": "FERC",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Laura Swett",
-            "entity": "FERC",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Pam Sporborg",
-            "entity": "West-wide Governance Pathways Initiative Launch Committee",
-            "role": "presenter",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "report",
@@ -28542,7 +27524,7 @@
         "stakeholders": [
           {
             "name": "Guillermo Bautista Alderete",
-            "entity": "California ISO",
+            "entity": "CAISO",
             "role": "presenter",
             "email": null
           }
@@ -28603,80 +27585,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Andrew Rivera",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Chandinee Chandrasekaran",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Christina Billing",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Daune Wilson",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Dinesh Das Gupta",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Matthew Chambers",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Melanie Bogen",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Michael Martin",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Nicole Hines",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Priyanka Namburi",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Rashele Wiltzius",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Susan R. Schneider",
-            "entity": "Phoenix Consulting",
-            "role": "author",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "comment",
@@ -28763,87 +27672,27 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Angelina Galiteva",
-            "entity": "CAISO Board of Governors",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Jan Schori",
-            "entity": "CAISO Board of Governors",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Joe Eto",
-            "entity": "CAISO Board of Governors",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Mary Leslie",
-            "entity": "CAISO Board of Governors",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Severin Borenstein",
-            "entity": "CAISO Board of Governors",
-            "role": "contact",
-            "email": null
-          },
-          {
             "name": "Jorge Luis Quintero",
-            "entity": "California Department of Water Resources \u2013 State Water Project",
+            "entity": "California Department of Water Resources \u2013 State Water Project (CDWR)",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Alan Kurotori",
-            "entity": "City of Palo Alto",
+            "entity": "City of Palo Alto Utilities (BAMx)",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Nico Procos",
-            "entity": "City of Santa Clara dba Silicon Valley Power",
+            "entity": "City of Santa Clara dba Silicon Valley Power (BAMx)",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Jonathan Young",
-            "entity": "State Water Contractors",
+            "entity": "State Water Contractors (SWC)",
             "role": "signatory",
-            "email": null
-          },
-          {
-            "name": "Andrew Campbell",
-            "entity": "WEM Governing Body",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Anita Decker",
-            "entity": "WEM Governing Body",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Deborah Smith",
-            "entity": "WEM Governing Body",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Rebecca Wagner",
-            "entity": "WEM Governing Body",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Robert Kondziolka",
-            "entity": "WEM Governing Body",
-            "role": "contact",
             "email": null
           }
         ]
@@ -28944,98 +27793,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Darcie Houck",
-            "entity": "Body of State Regulators",
-            "role": "liaison",
-            "email": null
-          },
-          {
-            "name": "Milt Doumit",
-            "entity": "Body of State Regulators",
-            "role": "liaison",
-            "email": null
-          },
-          {
-            "name": "John Hammond",
-            "entity": "Body of State Regulators / Idaho",
-            "role": "liaison",
-            "email": null
-          },
-          {
-            "name": "Sam Harper",
-            "entity": "CLECA",
-            "role": "nominating committee representative",
-            "email": null
-          },
-          {
-            "name": "Beth Vaughan",
-            "entity": "Cal CCA",
-            "role": "nominating committee representative",
-            "email": null
-          },
-          {
-            "name": "Julie Halligan",
-            "entity": "California Public Advocate's Office",
-            "role": "nominating committee representative",
-            "email": null
-          },
-          {
-            "name": "Jan Schori",
-            "entity": "ISO Board of Governors",
-            "role": "liaison",
-            "email": null
-          },
-          {
-            "name": "Collin Smith",
-            "entity": "LEAP",
-            "role": "nominating committee representative",
-            "email": null
-          },
-          {
-            "name": "Kelsie Gomanie",
-            "entity": "NRDC",
-            "role": "nominating committee representative",
-            "email": null
-          },
-          {
-            "name": "John Mayhew",
-            "entity": "PNM",
-            "role": "nominating committee representative",
-            "email": null
-          },
-          {
-            "name": "Josh Walter",
-            "entity": "Seattle City Light",
-            "role": "nominating committee representative",
-            "email": null
-          },
-          {
-            "name": "Ian White",
-            "entity": "Shell",
-            "role": "nominating committee representative",
-            "email": null
-          },
-          {
-            "name": "Meg McNaul",
-            "entity": "Six Cities",
-            "role": "nominating committee representative",
-            "email": null
-          },
-          {
-            "name": "Andy Campbell",
-            "entity": "WEM Governing Body",
-            "role": "liaison",
-            "email": null
-          },
-          {
-            "name": "Anita Decker",
-            "entity": "WEM Governing Body",
-            "role": "liaison",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "presentation",
@@ -29147,7 +27905,7 @@
           {
             "name": "Roger Collanton",
             "entity": "CAISO",
-            "role": "author",
+            "role": "co-author",
             "email": null
           }
         ]
@@ -29201,7 +27959,7 @@
           {
             "name": "Allie Mace",
             "entity": "CAISO",
-            "role": "author, presenter",
+            "role": "author | presenter",
             "email": null
           },
           {
@@ -29271,7 +28029,7 @@
         "stakeholders": [
           {
             "name": "Rahul Kalaskar",
-            "entity": "AES Corporation / Independent Power Producers and Marketers",
+            "entity": "AES Corporation",
             "role": "presenter",
             "email": null
           },
@@ -29371,7 +28129,7 @@
         "stakeholders": [
           {
             "name": "Rahul Kalaskar",
-            "entity": "Independent Power Producers and Marketers (Sector Liaison, CAISO Regional Issues Forum)",
+            "entity": "CAISO Board of Governors / WEM Governing Body (Independent Power Producers and Marketers Sector Liaison)",
             "role": "presenter",
             "email": null
           }
@@ -29436,7 +28194,7 @@
           {
             "name": "Guillermo Bautista Alderete",
             "entity": "CAISO",
-            "role": "author",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -29479,19 +28237,19 @@
         "stakeholders": [
           {
             "name": "Benjamin F. Hobbs",
-            "entity": "CAISO Market Surveillance Committee",
+            "entity": "California ISO Market Surveillance Committee",
             "role": "author",
             "email": null
           },
           {
             "name": "J. Bushnell",
-            "entity": "CAISO Market Surveillance Committee",
+            "entity": "California ISO Market Surveillance Committee",
             "role": "co-author",
             "email": null
           },
           {
             "name": "S. Harvey",
-            "entity": "CAISO Market Surveillance Committee",
+            "entity": "California ISO Market Surveillance Committee",
             "role": "co-author",
             "email": null
           }
@@ -29532,140 +28290,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Allie Mace",
-            "entity": "CAISO",
-            "role": "senior advisor, regional stakeholder affairs",
-            "email": null
-          },
-          {
-            "name": "Amelia Blanke",
-            "entity": "CAISO",
-            "role": "principal economist and director, market strategy and governance",
-            "email": null
-          },
-          {
-            "name": "Andrew Ulmer",
-            "entity": "CAISO",
-            "role": "assistant general counsel",
-            "email": null
-          },
-          {
-            "name": "Elliot Mainzer",
-            "entity": "CAISO",
-            "role": "president and ceo",
-            "email": null
-          },
-          {
-            "name": "Milos Bosanac",
-            "entity": "CAISO",
-            "role": "manager, policy development",
-            "email": null
-          },
-          {
-            "name": "Roger Collanton",
-            "entity": "CAISO",
-            "role": "vp, general counsel, chief compliance officer and corporate secretary",
-            "email": null
-          },
-          {
-            "name": "Angelina Galiteva",
-            "entity": "CAISO Board of Governors",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Jan Schori",
-            "entity": "CAISO Board of Governors",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Joseph Eto",
-            "entity": "CAISO Board of Governors",
-            "role": "vice chair",
-            "email": null
-          },
-          {
-            "name": "Mary Leslie",
-            "entity": "CAISO Board of Governors",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Severin Borenstein",
-            "entity": "CAISO Board of Governors",
-            "role": "chair",
-            "email": null
-          },
-          {
-            "name": "Evelyn Kahl",
-            "entity": "California Community Choice Association",
-            "role": "chief policy officer and general counsel",
-            "email": null
-          },
-          {
-            "name": "Rahul Kalaskar",
-            "entity": "Independent Power Producers and Marketers",
-            "role": "ippm sector liaison for the wem regional issues forum",
-            "email": null
-          },
-          {
-            "name": "Scott Ranzal",
-            "entity": "Pacific Gas and Electric",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Johnathan Young",
-            "entity": "State Water Contractors",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Dan Williams",
-            "entity": "The Energy Authority",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Andrew Campbell",
-            "entity": "Western Energy Markets Governing Body",
-            "role": "vice chair",
-            "email": null
-          },
-          {
-            "name": "Anita Decker",
-            "entity": "Western Energy Markets Governing Body",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Deborah Smith",
-            "entity": "Western Energy Markets Governing Body",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Rebecca Wagner",
-            "entity": "Western Energy Markets Governing Body",
-            "role": "chair",
-            "email": null
-          },
-          {
-            "name": "Robert Kondziolka",
-            "entity": "Western Energy Markets Governing Body",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Kathleen Staks",
-            "entity": "Western Freedom",
-            "role": "pathways launch committee member and executive director",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "report",
@@ -29788,20 +28413,26 @@
         "issues": [],
         "stakeholders": [
           {
+            "name": "Sylvie Spewak",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
             "name": "Benjamin F. Hobbs",
-            "entity": "California ISO Market Surveillance Committee",
-            "role": "chair / author",
+            "entity": "Market Surveillance Committee of CAISO",
+            "role": "author",
             "email": null
           },
           {
             "name": "James Bushnell",
-            "entity": "California ISO Market Surveillance Committee",
+            "entity": "Market Surveillance Committee of CAISO",
             "role": "author",
             "email": null
           },
           {
             "name": "Scott M. Harvey",
-            "entity": "California ISO Market Surveillance Committee",
+            "entity": "Market Surveillance Committee of CAISO",
             "role": "author",
             "email": null
           }
@@ -29822,7 +28453,14 @@
         "directness": null,
         "evidence": [],
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "PG&E",
+            "entity": "Pacific Gas and Electric Company",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "presentation",
@@ -29895,7 +28533,7 @@
         "stakeholders": [
           {
             "name": "Jonah Cabral",
-            "entity": "Portland General Electric",
+            "entity": "Portland General Electric (PGE)",
             "role": "presenter",
             "email": null
           }
@@ -29974,7 +28612,7 @@
           {
             "name": "Allie Mace",
             "entity": "CAISO",
-            "role": "author",
+            "role": "author | presenter",
             "email": null
           },
           {
@@ -30023,18 +28661,6 @@
             "name": "Anna McKenna",
             "entity": "CAISO",
             "role": "author",
-            "email": null
-          },
-          {
-            "name": "NV Energy",
-            "entity": "NV Energy",
-            "role": "position-taker",
-            "email": null
-          },
-          {
-            "name": "Pacific Gas & Electric",
-            "entity": "Pacific Gas & Electric",
-            "role": "position-taker",
             "email": null
           }
         ]
@@ -30336,7 +28962,26 @@
           }
         ],
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Idaho Power",
+            "entity": "Idaho Power",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Pacific Gas and Electric",
+            "entity": "Pacific Gas and Electric",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Portland General Electric",
+            "entity": "Portland General Electric",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "minutes",
@@ -30377,110 +29022,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Becky Robinson",
-            "entity": "CAISO",
-            "role": "director, market design and analysis",
-            "email": null
-          },
-          {
-            "name": "Guillermo Bautista Alderete",
-            "entity": "CAISO",
-            "role": "director, market performance and advanced analytics",
-            "email": null
-          },
-          {
-            "name": "Khaled Abdul-Rahman",
-            "entity": "CAISO",
-            "role": "vp, chief information and technology officer",
-            "email": null
-          },
-          {
-            "name": "Andy Husted",
-            "entity": "Idaho Power Company",
-            "role": "gas trading leader, presenter",
-            "email": null
-          },
-          {
-            "name": "Lindsey Schlekeway",
-            "entity": "NV Energy",
-            "role": "market policy director, chair of regional issues forum",
-            "email": null
-          },
-          {
-            "name": "Gabriel Aguilera",
-            "entity": "New Mexico Public Regulation Commission",
-            "role": "commissioner, chair of body of state regulators",
-            "email": null
-          },
-          {
-            "name": "Todd Ryan",
-            "entity": "Pacific Gas and Electric",
-            "role": "manager, ferc and iso policy team, presenter",
-            "email": null
-          },
-          {
-            "name": "Jonah Cabral",
-            "entity": "Portland General Electric",
-            "role": "transmission and market policy analyst, presenter",
-            "email": null
-          },
-          {
-            "name": "Adam Swadley",
-            "entity": "WEM Department of Market Monitoring",
-            "role": "manager, market and policy analysis",
-            "email": null
-          },
-          {
-            "name": "Andrew Campbell",
-            "entity": "WEM Governing Body",
-            "role": "vice chair",
-            "email": null
-          },
-          {
-            "name": "Anita Decker",
-            "entity": "WEM Governing Body",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Deborah Smith",
-            "entity": "WEM Governing Body",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Rebecca Wagner",
-            "entity": "WEM Governing Body",
-            "role": "chair",
-            "email": null
-          },
-          {
-            "name": "Robert Kondziolka",
-            "entity": "WEM Governing Body",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Benjamin Hobbs",
-            "entity": "WEM Market Surveillance Committee",
-            "role": "chair",
-            "email": null
-          },
-          {
-            "name": "Elliot Mainzer",
-            "entity": "WEM/CAISO",
-            "role": "president and ceo",
-            "email": null
-          },
-          {
-            "name": "Danny Johnson",
-            "entity": "WEM/CAISO Management",
-            "role": "manager, policy development, presenter",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "agenda",
@@ -30635,7 +29177,7 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Borenstein",
+            "name": "Governor Borenstein",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
@@ -30653,13 +29195,13 @@
             "email": null
           },
           {
-            "name": "Leslie",
+            "name": "Governor Leslie",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
-            "name": "Schori",
+            "name": "Governor Schori",
             "entity": "CAISO Board of Governors",
             "role": "signatory",
             "email": null
@@ -30810,104 +29352,44 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "California Efficiency + Demand Management Council",
-            "entity": null,
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "California Energy Storage Alliance",
-            "entity": null,
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "Microsoft",
-            "entity": null,
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "Renew Home",
-            "entity": null,
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "Rev Renewables",
-            "entity": null,
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "Six Cities",
-            "entity": null,
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "Alliance for Retail Energy Market",
+            "name": "Alliance for Retail Energy Market (AreM)",
             "entity": "AreM",
             "role": "commenter",
             "email": null
           },
           {
-            "name": "California ISO Department of Market Monitoring",
-            "entity": "CAISO",
+            "name": "California Department of Water Resources (CDWR)",
+            "entity": "California Department of Water Resources",
             "role": "commenter",
             "email": null
           },
           {
-            "name": "California Department of Water Resources",
-            "entity": "CDWR",
+            "name": "California Efficiency + Demand Management Council",
+            "entity": "California Efficiency + Demand Management Council",
             "role": "commenter",
             "email": null
           },
           {
-            "name": "California Public Utilities Commission Energy Division",
-            "entity": "CPUC",
+            "name": "California Energy Storage Alliance",
+            "entity": "California Energy Storage Alliance",
             "role": "commenter",
             "email": null
           },
           {
-            "name": "California Public Utilities Commission Public Advocates Office",
-            "entity": "CPUC",
+            "name": "California ISO \u2013 Department of Market Monitoring",
+            "entity": "California ISO",
             "role": "commenter",
             "email": null
           },
           {
-            "name": "Middle River Power, LLC",
-            "entity": "Middle River Power",
+            "name": "California Public Utilities Commission \u2013 Energy Division",
+            "entity": "California Public Utilities Commission",
             "role": "commenter",
             "email": null
           },
           {
-            "name": "Northern California Power Agency",
-            "entity": "NCPA",
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "Pacific Gas & Electric",
-            "entity": "PG&E",
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "Southern California Edison",
-            "entity": "SCE",
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "San Diego Gas & Electric",
-            "entity": "SDG&E",
-            "role": "commenter",
-            "email": null
-          },
-          {
-            "name": "Western Power Trading Forum",
-            "entity": "WPTF",
+            "name": "California Public Utilities Commission \u2013 Public Advocates Office",
+            "entity": "California Public Utilities Commission",
             "role": "commenter",
             "email": null
           }
@@ -30950,7 +29432,7 @@
         "stakeholders": [
           {
             "name": "Eric Hildebrandt",
-            "entity": "California ISO",
+            "entity": "California Independent System Operator (CAISO), Department of Market Monitoring",
             "role": "author",
             "email": null
           }
@@ -30992,33 +29474,33 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Borenstein",
-            "entity": "ISO Board of Governors",
-            "role": "signatory (voted)",
+            "name": "Governor Borenstein",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
             "email": null
           },
           {
-            "name": "Eto",
-            "entity": "ISO Board of Governors",
-            "role": "signatory (second)",
+            "name": "Governor Eto",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
             "email": null
           },
           {
-            "name": "Galiteva",
-            "entity": "ISO Board of Governors",
-            "role": "signatory (voted)",
+            "name": "Governor Galiteva",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
             "email": null
           },
           {
-            "name": "Leslie",
-            "entity": "ISO Board of Governors",
-            "role": "signatory (voted)",
+            "name": "Governor Leslie",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
             "email": null
           },
           {
-            "name": "Schori",
-            "entity": "ISO Board of Governors",
-            "role": "signatory (moved)",
+            "name": "Governor Schori",
+            "entity": "CAISO Board of Governors",
+            "role": "signatory",
             "email": null
           }
         ]
@@ -31072,7 +29554,7 @@
           {
             "name": "Middle River Power",
             "entity": "Middle River Power",
-            "role": "stakeholder",
+            "role": "stakeholder position-taker",
             "email": null
           }
         ]
@@ -31122,6 +29604,12 @@
             "entity": "CAISO",
             "role": "author",
             "email": null
+          },
+          {
+            "name": "H. Staver",
+            "entity": "CAISO",
+            "role": "author",
+            "email": null
           }
         ]
       },
@@ -31151,7 +29639,7 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Alliance for Retail Energy Market",
+            "name": "Alliance for Retail Energy Market (AReM)",
             "entity": "AReM",
             "role": "commenter",
             "email": null
@@ -31230,31 +29718,31 @@
         "stakeholders": [
           {
             "name": "Borenstein",
-            "entity": "CAISO",
+            "entity": "ISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Eto",
-            "entity": "CAISO",
+            "entity": "ISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Galiteva",
-            "entity": "CAISO",
+            "entity": "ISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Leslie",
-            "entity": "CAISO",
+            "entity": "ISO Board of Governors",
             "role": "signatory",
             "email": null
           },
           {
             "name": "Schori",
-            "entity": "CAISO",
+            "entity": "ISO Board of Governors",
             "role": "signatory",
             "email": null
           }
@@ -31301,52 +29789,10 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Denise Walsh",
-            "entity": "California ISO",
-            "role": "subject matter expert",
-            "email": null
-          },
-          {
-            "name": "Gregory Fisher",
-            "entity": "California ISO",
-            "role": "legal reviewer",
-            "email": null
-          },
-          {
-            "name": "Jayme Ackemann",
-            "entity": "California ISO",
-            "role": "communications reviewer",
-            "email": null
-          },
-          {
-            "name": "Lisa Milanes",
-            "entity": "California ISO",
-            "role": "compliance reviewer",
-            "email": null
-          },
-          {
-            "name": "Pamela Kokoszka",
-            "entity": "California ISO",
-            "role": "human resources reviewer",
-            "email": null
-          },
-          {
-            "name": "Priya Lukose",
-            "entity": "California ISO",
-            "role": "policy coordinator",
-            "email": null
-          },
-          {
-            "name": "Roger Collanton",
-            "entity": "California ISO",
-            "role": "signatory",
-            "email": null
-          },
-          {
             "name": "Ryan Seghesio",
             "entity": "California ISO",
-            "role": "author; contact",
-            "email": "rseghesio@caiso.com"
+            "role": "cfo & treasurer",
+            "email": null
           }
         ]
       },
@@ -31368,7 +29814,7 @@
         "stakeholders": [
           {
             "name": "Joanne Serina",
-            "entity": "California Independent System Operator Corporation",
+            "entity": "CAISO",
             "role": "author",
             "email": null
           }
@@ -31419,80 +29865,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Billing, Christina",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Bogen, Melanie",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Chambers, Matthew",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Hines, Nicole",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Jin, Licheng",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Jordan, Jill",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Martin, Michael",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Namburi, Priyanka",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Rivera, Andrew",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Wilson, Daune",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Wiltzius, Rashele",
-            "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Susan R. Schneider",
-            "entity": "Phoenix Consulting",
-            "role": "author",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "decision",
@@ -31542,7 +29915,7 @@
           {
             "name": "J. Billinton",
             "entity": "CAISO",
-            "role": "author",
+            "role": "co-author",
             "email": null
           },
           {
@@ -31615,14 +29988,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "PG&E",
-            "entity": "Pacific Gas & Electric Company",
-            "role": "project sponsor",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "report",
@@ -31779,13 +30145,7 @@
           {
             "name": "Anna McKenna",
             "entity": "CAISO",
-            "role": "author",
-            "email": null
-          },
-          {
-            "name": "Mark Rothleder",
-            "entity": "CAISO",
-            "role": "presenter",
+            "role": "co-author",
             "email": null
           },
           {
@@ -31795,50 +30155,32 @@
             "email": null
           },
           {
-            "name": "Jan Schori",
-            "entity": "CAISO Board of Governors",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Severin Borenstein",
-            "entity": "CAISO Board of Governors",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "James Bushnell",
-            "entity": "CAISO Market Surveillance Committee",
-            "role": "presenter",
-            "email": null
-          },
-          {
             "name": "Becky Robinson",
-            "entity": "Western Energy Markets (CAISO)",
+            "entity": "Western Energy Markets",
             "role": "presenter",
             "email": null
           },
           {
             "name": "Danny Johnson",
-            "entity": "Western Energy Markets (CAISO)",
+            "entity": "Western Energy Markets",
             "role": "presenter",
             "email": null
           },
           {
             "name": "Elliot Mainzer",
-            "entity": "Western Energy Markets (CAISO)",
+            "entity": "Western Energy Markets",
             "role": "presenter",
             "email": null
           },
           {
             "name": "Guillermo Bautista-Alderete",
-            "entity": "Western Energy Markets (CAISO)",
+            "entity": "Western Energy Markets",
             "role": "presenter",
             "email": null
           },
           {
             "name": "Roger Collanton",
-            "entity": "Western Energy Markets (CAISO)",
+            "entity": "Western Energy Markets",
             "role": "presenter",
             "email": null
           }
@@ -31932,75 +30274,51 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Angelina Galiteva",
-            "entity": "CAISO",
-            "role": "governor",
-            "email": null
-          },
-          {
             "name": "Elliot Mainzer",
             "entity": "CAISO",
-            "role": "president and ceo, presenter",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Greg Fisher",
             "entity": "CAISO",
-            "role": "lead counsel",
-            "email": null
-          },
-          {
-            "name": "Jan Schori",
-            "entity": "CAISO",
-            "role": "governor",
-            "email": null
-          },
-          {
-            "name": "Joseph Eto",
-            "entity": "CAISO",
-            "role": "vice chair",
-            "email": null
-          },
-          {
-            "name": "Mary Leslie",
-            "entity": "CAISO",
-            "role": "governor",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Partha Malvadkar",
             "entity": "CAISO",
-            "role": "principal, resource adequacy, presenter",
-            "email": null
-          },
-          {
-            "name": "Rebecca Wagner",
-            "entity": "CAISO",
-            "role": "wem governing body chair, presenter",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Ryan Seghesio",
             "entity": "CAISO",
-            "role": "vice president, chief financial officer and treasurer",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joseph Eto",
+            "entity": "CAISO Board of Governors",
+            "role": "author",
             "email": null
           },
           {
             "name": "Severin Borenstein",
-            "entity": "CAISO",
-            "role": "chair",
+            "entity": "CAISO Board of Governors",
+            "role": "author",
             "email": null
           },
           {
             "name": "Adam Swadley",
             "entity": "CAISO Department of Market Monitoring",
-            "role": "manager, market policy and analysis, commenter",
+            "role": "presenter",
             "email": null
           },
           {
-            "name": "Middle River Power",
-            "entity": "Middle River Power",
-            "role": "commenter",
+            "name": "Rebecca Wagner",
+            "entity": "WEM Governing Body",
+            "role": "presenter",
             "email": null
           },
           {
@@ -32128,6 +30446,36 @@
         "issues": [],
         "stakeholders": [
           {
+            "name": "Angelina Galiteva",
+            "entity": "CAISO Board of Governors",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Jan Schori",
+            "entity": "CAISO Board of Governors",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Joe Eto",
+            "entity": "CAISO Board of Governors",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mary Leslie",
+            "entity": "CAISO Board of Governors",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Severin Borenstein",
+            "entity": "CAISO Board of Governors",
+            "role": "contact",
+            "email": null
+          },
+          {
             "name": "Michael Wilding",
             "entity": "PacifiCorp",
             "role": "author",
@@ -32135,61 +30483,31 @@
           },
           {
             "name": "Andrew Campbell",
-            "entity": "WEM Governing Body / CAISO Board of Governors",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Angelina Galiteva",
-            "entity": "WEM Governing Body / CAISO Board of Governors",
+            "entity": "Western Energy Market Governing Body / CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Anita Decker",
-            "entity": "WEM Governing Body / CAISO Board of Governors",
+            "entity": "Western Energy Market Governing Body / CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Deborah Smith",
-            "entity": "WEM Governing Body / CAISO Board of Governors",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Jan Schori",
-            "entity": "WEM Governing Body / CAISO Board of Governors",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Joe Eto",
-            "entity": "WEM Governing Body / CAISO Board of Governors",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Mary Leslie",
-            "entity": "WEM Governing Body / CAISO Board of Governors",
+            "entity": "Western Energy Market Governing Body / CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Rebecca Wagner",
-            "entity": "WEM Governing Body / CAISO Board of Governors",
+            "entity": "Western Energy Market Governing Body / CAISO",
             "role": "contact",
             "email": null
           },
           {
             "name": "Robert Kondziolka",
-            "entity": "WEM Governing Body / CAISO Board of Governors",
-            "role": "contact",
-            "email": null
-          },
-          {
-            "name": "Severin Borenstein",
-            "entity": "WEM Governing Body / CAISO Board of Governors",
+            "entity": "Western Energy Market Governing Body / CAISO",
             "role": "contact",
             "email": null
           }
@@ -32358,7 +30676,7 @@
           {
             "name": "Becky Robinson",
             "entity": "CAISO",
-            "role": "author",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -32442,104 +30760,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Becky Robinson",
-            "entity": "CAISO",
-            "role": "director, market design and analysis",
-            "email": null
-          },
-          {
-            "name": "Danny Johnson",
-            "entity": "CAISO",
-            "role": "manager, policy development",
-            "email": null
-          },
-          {
-            "name": "Elliot Mainzer",
-            "entity": "CAISO",
-            "role": "president and ceo",
-            "email": null
-          },
-          {
-            "name": "Greg Fisher",
-            "entity": "CAISO",
-            "role": "lead counsel",
-            "email": null
-          },
-          {
-            "name": "James Friedrich",
-            "entity": "CAISO",
-            "role": "lead policy developer",
-            "email": null
-          },
-          {
-            "name": "Don Tretheway",
-            "entity": "California Energy Storage Alliance",
-            "role": "public commenter",
-            "email": null
-          },
-          {
-            "name": "James Bushnell",
-            "entity": "Market Surveillance Committee",
-            "role": "committee member",
-            "email": null
-          },
-          {
-            "name": "Lindsey Schlekeway",
-            "entity": "NV Energy",
-            "role": "market policy director and chair of regional issues forum",
-            "email": null
-          },
-          {
-            "name": "Gabriel Aguilera",
-            "entity": "New Mexico Public Regulation Commission",
-            "role": "commissioner and chair of body of state regulators",
-            "email": null
-          },
-          {
-            "name": "Seth Cochran",
-            "entity": "Vitol",
-            "role": "head of strategic market policy, presenter",
-            "email": null
-          },
-          {
-            "name": "Andrew Campbell",
-            "entity": "WEM Governing Body",
-            "role": "vice chair",
-            "email": null
-          },
-          {
-            "name": "Anita Decker",
-            "entity": "WEM Governing Body",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Deborah Smith",
-            "entity": "WEM Governing Body",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Rebecca Wagner",
-            "entity": "WEM Governing Body",
-            "role": "chair",
-            "email": null
-          },
-          {
-            "name": "Robert Kondziolka",
-            "entity": "WEM Governing Body",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Carrie Bentley",
-            "entity": "Western Power Trading Forum",
-            "role": "public commenter",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "agenda",
@@ -32581,14 +30802,7 @@
           }
         ],
         "issues": [],
-        "stakeholders": [
-          {
-            "name": "Vitol",
-            "entity": "Vitol",
-            "role": "stakeholder perspective presenter",
-            "email": null
-          }
-        ]
+        "stakeholders": []
       },
       {
         "type": "agenda",
@@ -32638,87 +30852,57 @@
         "issues": [],
         "stakeholders": [
           {
-            "name": "Lisa Hickey",
-            "entity": null,
-            "role": "independent senior regulatory counsel, presenter",
-            "email": null
-          },
-          {
             "name": "Jim Shetler",
             "entity": "Balancing Area of Northern California",
-            "role": "general manager, presenter",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Becky Robinson",
-            "entity": "California ISO",
-            "role": "director, market design and analysis, presenter",
+            "entity": "CAISO",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Elliot Mainzer",
-            "entity": "California ISO",
-            "role": "president and ceo, presenter",
+            "entity": "CAISO",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Guillermo Bautista Alderete",
-            "entity": "California ISO",
-            "role": "director \u2013 market performance and advanced analytics, presenter",
+            "entity": "CAISO",
+            "role": "presenter",
             "email": null
           },
           {
-            "name": "K. Osborne",
-            "entity": "California ISO",
-            "role": "corporate secretary",
+            "name": "Lisa Hickey",
+            "entity": "Independent Senior Regulatory Counsel",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Lindsey Schlekeway",
             "entity": "NV Energy",
-            "role": "market policy director and chair of regional issues forum, presenter",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Gabriel Aguilera",
             "entity": "New Mexico Public Regulation Commission",
-            "role": "commissioner, presenter",
-            "email": null
-          },
-          {
-            "name": "Andrew Campbell",
-            "entity": "Western Energy Markets Governing Body",
-            "role": "vice chair",
-            "email": null
-          },
-          {
-            "name": "Anita Decker",
-            "entity": "Western Energy Markets Governing Body",
-            "role": "member",
-            "email": null
-          },
-          {
-            "name": "Deborah Smith",
-            "entity": "Western Energy Markets Governing Body",
-            "role": "member",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Rebecca Wagner",
-            "entity": "Western Energy Markets Governing Body",
-            "role": "chair",
-            "email": null
-          },
-          {
-            "name": "Robert Kondziolka",
-            "entity": "Western Energy Markets Governing Body",
-            "role": "member",
+            "entity": "WEM Governing Body",
+            "role": "presenter",
             "email": null
           },
           {
             "name": "Kathleen Staks",
             "entity": "Western Freedom",
-            "role": "pathways launch committee member and executive director, presenter",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -32990,7 +31174,7 @@
           {
             "name": "Becky Robinson",
             "entity": "CAISO",
-            "role": "presenter",
+            "role": "author | presenter",
             "email": null
           }
         ]
@@ -33038,7 +31222,7 @@
           {
             "name": "Guillermo Bautista Alderete",
             "entity": "CAISO",
-            "role": "author; presenter",
+            "role": "author",
             "email": null
           }
         ]
@@ -33103,7 +31287,7 @@
         "stakeholders": [
           {
             "name": "Eric Hildebrandt",
-            "entity": "CAISO",
+            "entity": "CAISO, Department of Market Monitoring",
             "role": "author",
             "email": null
           }
@@ -33280,12 +31464,6 @@
         "stakeholders": [
           {
             "name": "Christina Guimera",
-            "entity": "CAISO",
-            "role": "presenter",
-            "email": null
-          },
-          {
-            "name": "Guillermo Bautista Alderete",
             "entity": "CAISO",
             "role": "presenter",
             "email": null
@@ -39160,12 +37338,12 @@
   {
     "title": "Transmission Owners Agreement-Administrative Committee - Public Materials Only (No Registration) Meeting",
     "date": "2026-07-22",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "Transmission Owners Agreement-Administrative Committee - Public Materials Only (No Registration)",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={CE9F0C16-5AB3-4651-BAA6-07EFF2E1BA67}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={EB1E973F-4DFF-4889-9241-C5351AF4561D}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Transmission Owners Agreement administrative meetings typically cover governance, organizational procedures, and internal committee operations rather than market-design rules affecting hydropower revenue, obligations, or strategic options.",
     "issues": [],
@@ -39353,12 +37531,16 @@
         "filename": "WPTF-Presentation-UCAP-Implementation-and-RAAIM-Jul-22-2026.pdf",
         "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/WPTF-Presentation-UCAP-Implementation-and-RAAIM-Jul-22-2026.pdf",
         "posted_date": null,
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MECHANISM: UCAP implementation and RAAIM redesign directly affect how CAISO accredits and pays hydro/PSH capacity in resource-adequacy showings, and how availability is measured and penalized \u2014 touching both the accreditation revenue stream (through changes to counting rules, must-offer obligations, and deliverability ceilings) and compliance obligations (RAAIM performance metrics and penalty exposure).",
+        "ai_summary": "WPTF presents CAISO's path to implement CPUC-adopted UCAP (Unforced Capacity) methodology for 2028 RA year, arguing that CAISO must define separate capacity values post-UCAP \u2014 Pmax, PmaxRA (deliverable accredited capacity), LRA-specific QC, maximum NQC, and shown RA \u2014 because one value cannot serve every CAISO function (forward counting, deliverability studies, must-offer formulas, RAAIM exposure, exports, and backstop procurement) without double-counting or losing capability. On RAAIM, WPTF argues the current design does not need redesign: forced-outage data show no correlation with load or prices, UCAP itself does not justify price increases, and a 94.5% monthly availability floor is conceptually consistent with UCAP's removal of expected outages from the forward MW value. The presentation urges CAISO to establish demonstrated failure (via resource availability trends, substitution-request analysis, and event-level causation) before changing RAAIM penalties or exposures. This touches hydro and PSH by redefining which capacity value applies to RA accreditation, must-offer, and RAAIM calculations \u2014 especially for partially deliverable resources and storage with variable seasonal contribution \u2014 and by proposing to keep RAAIM pricing unchanged while clarifying what 'shown RA' means, which will determine both the compliance exposure and the RA revenue hydro owners receive in forward showings.",
         "hydro_read_through": null,
         "source_names_hydro": null,
-        "topics": [],
+        "topics": [
+          "capacity-ra",
+          "ops-compliance",
+          "storage"
+        ],
         "directness": null,
         "evidence": [],
         "issues": [
@@ -39373,7 +37555,20 @@
             "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Resource-adequacy-modeling-and-program-design"
           }
         ],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Carrie Bentley",
+            "entity": "Western Power Trading Forum (WPTF)",
+            "role": "presenter | author",
+            "email": "Cbentley@gridwell.com"
+          },
+          {
+            "name": "Kallie Wells",
+            "entity": "Western Power Trading Forum (WPTF)",
+            "role": "co-author | contact",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -41810,12 +40005,12 @@
   {
     "title": "SRRTEP-W Meeting",
     "date": "2026-07-17",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "1:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "SRRTEP-W",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={87FB62F7-9F33-40F9-8A25-4C54C83647B3}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={CE9F0C16-5AB3-4651-BAA6-07EFF2E1BA67}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-W (System Planning Committee's State, Regional & Transmission Planning subcommittee) is a long-term transmission-planning body; without advance knowledge of specific agenda items, a bare committee meeting notice is unlikely to contain actionable market-design decisions affecting hydro revenue, obligations, or strategic options, and the committee's focus on multi-year transmission projects rather than tariff or operational market rules makes it a low-probability hit for the screening gate.",
     "issues": [],
