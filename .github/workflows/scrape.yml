@@ -49,6 +49,20 @@ jobs:
         working-directory: rto-docs
         run: python screen_documents.py
 
+      - name: Prune old extracted text (keeps the committed DB under GitHub's limit)
+        # The DB is committed on every run, and extracted_text was ~75% of it —
+        # 54 MB of 72 MB, growing ~0.75 MB/day and on track to cross GitHub's
+        # 100 MB per-file HARD BLOCK (not a warning) around Sep 2026. Clearing
+        # text for already-screened documents older than 60 days holds the file
+        # at a steady state instead of growing without bound. The text is derived
+        # data, re-fetchable from download_url; documents that have NOT been
+        # screened are never pruned at any age, since clearing their text would
+        # make them permanently unscreenable.
+        #
+        # Must run AFTER screening (which reads the text) and BEFORE the commit.
+        working-directory: rto-docs
+        run: python run_scrapers.py --prune-text 60
+
       - name: Re-export calendar JSON
         working-directory: rto-docs
         run: python run_scrapers.py --export-only

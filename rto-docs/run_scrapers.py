@@ -18,6 +18,7 @@ from db.database import (
     init_db, get_connection, get_stats,
     export_calendar_json, export_issues_json,
     export_hydro_corpus, resolve_issue_references,
+    prune_extracted_text, DB_PATH,
 )
 
 # Import scrapers
@@ -125,6 +126,14 @@ def main():
         "--refresh-closed-issues", action="store_true",
         help="Re-fetch detail pages for closed issues too (default: active only)",
     )
+    parser.add_argument(
+        "--prune-text", nargs="?", type=int, const=60, metavar="DAYS",
+        help="Clear extracted_text for already-screened documents whose meeting "
+             "is older than DAYS (default 60), then VACUUM. Keeps the "
+             "git-committed DB under GitHub's 100 MB per-file limit; the text is "
+             "re-fetchable from download_url if an old doc ever needs rescreening. "
+             "Never touches unscreened documents. Runs standalone, then exits.",
+    )
 
     args = parser.parse_args()
 
@@ -147,6 +156,19 @@ def main():
             print(f"    Meetings:   {data['meetings']}")
             print(f"    Documents:  {data['documents']}")
             print(f"    Downloaded: {data['downloaded']}")
+        return
+
+    if args.prune_text is not None:
+        conn = get_connection()
+        before = DB_PATH.stat().st_size
+        n, freed = prune_extracted_text(conn, older_than_days=args.prune_text)
+        conn.close()
+        after = DB_PATH.stat().st_size
+        print(f"\nPruned extracted_text from {n:,} screened document(s) with "
+              f"meetings older than {args.prune_text} days")
+        print(f"  text cleared : {freed / 1048576:.1f} MB")
+        print(f"  DB file      : {before / 1048576:.1f} MB -> "
+              f"{after / 1048576:.1f} MB")
         return
 
     if args.export_only:

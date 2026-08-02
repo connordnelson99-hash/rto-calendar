@@ -398,6 +398,49 @@ def save_ai_screening(conn, doc_id, hydro_relevant, reason, summary=None,
     conn.commit()
 
 
+def prune_extracted_text(conn, older_than_days=60, dry_run=False):
+    """Clear `extracted_text` for old, already-screened documents, then VACUUM.
+
+    The DB is committed to git on every scrape, and extracted_text is ~75% of
+    its size (54 MB of 72 MB in Aug 2026) — it was on track to cross GitHub's
+    100 MB per-file hard block around Sep 2026. The text is derived data: it
+    comes from documents still reachable at their `download_url`, so clearing it
+    costs a re-fetch if an old document ever needs rescreening, not the record.
+
+    Two guards:
+      * Only documents whose meeting is older than `older_than_days`, so the
+        digest window and anything a rescreen would plausibly touch is kept.
+      * Only documents with `ai_processed_at` set. Clearing the text of an
+        UNSCREENED document would make it permanently unscreenable — there is
+        no second chance for those, so they are never pruned regardless of age.
+
+    VACUUM is required: without it SQLite keeps the freed pages and the file on
+    disk doesn't shrink at all. Returns (docs_pruned, bytes_freed).
+    """
+    rows = conn.execute(f"""
+        SELECT d.id, LENGTH(d.extracted_text) AS n
+        FROM documents d JOIN meetings m ON m.id = d.meeting_id
+        WHERE d.extracted_text IS NOT NULL
+          AND d.ai_processed_at IS NOT NULL
+          AND m.meeting_date < date('now', '-{int(older_than_days)} days')
+    """).fetchall()
+    ids = [r["id"] for r in rows]
+    freed = sum(r["n"] or 0 for r in rows)
+
+    if dry_run or not ids:
+        return len(ids), freed
+
+    conn.executemany(
+        "UPDATE documents SET extracted_text = NULL WHERE id = ?",
+        [(i,) for i in ids])
+    conn.commit()
+    # VACUUM cannot run inside a transaction.
+    conn.isolation_level = None
+    conn.execute("VACUUM")
+    conn.isolation_level = ""
+    return len(ids), freed
+
+
 def upsert_issue(conn, rto, native_id, **fields):
     """
     Insert or update an issue. Returns the issue ID.
