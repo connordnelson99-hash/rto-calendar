@@ -1,5 +1,19 @@
 [
   {
+    "title": "MCUF Net Conference",
+    "date": "2026-11-03",
+    "time": "2:00 PM - 5:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Change User Forum",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-change-user-forum-net-conference-20261103/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=506338",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Markets+ Change User Forum Net Conference appears to be a general user-community logistics and training meeting without a defined focus on market design, rate-setting, or operational rules affecting hydro revenue, obligations, or strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MTWG Net Conference",
     "date": "2026-10-29",
     "time": "12:00 PM - 4:00 PM CT",
@@ -322,6 +336,210 @@
     "documents": []
   },
   {
+    "title": "NEPOOL Reliability & Transmission Committee Summer Meeting",
+    "date": "2026-08-19",
+    "time": "1:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Reliability Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160123",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Summer Reliability Committee meetings typically address seasonal resource-adequacy concerns, reserve margins, and operating standards that directly affect hydro's compliance obligations and revenue through seasonal accreditation and reliability-driven procurement decisions.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Resource Adequacy Subcommittee (RASC) - August 19, 2026",
+    "date": "2026-08-19",
+    "time": "9:00 AM - 4:00 PM",
+    "rto": "MISO",
+    "committee": "Resource Adequacy Subcommittee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/47ad269f015b4e6aa5dfa435cd0d14be.aspx",
+    "materials_url": "https://www.misoenergy.org/link/47ad269f015b4e6aa5dfa435cd0d14be.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO's Resource Adequacy Subcommittee will likely address capacity accreditation, seasonal/fuel-specific resource contributions (including hydro), reliability mechanisms, and RA construct design\u2014all foundational to hydro revenue and strategic planning in the MISO footprint.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "other",
+        "title": "New Issue - LBA Transmission Loss Calculation in PRA.pdf",
+        "filename": "New Issue - LBA Transmission Loss Calculation in PRA.pdf",
+        "url": "https://cdn.misoenergy.org/New%20Issue%20-%20LBA%20Transmission%20Loss%20Calculation%20in%20PRA772436.pdf",
+        "posted_date": "2026-07-31",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO resource adequacy accreditation rules determine how transmission losses affect seasonal capacity requirements for all generation resources, including hydro; changes to loss-calculation methodology directly impact the megawatt obligations hydro owners must meet in the Planning Resource Auction.",
+        "ai_summary": "Hoosier Energy submits a new issue requesting MISO re-evaluate its transmission loss (TL) calculation methodology used in the Planning Resource Auction (PRA). MISO's current method uses a one-year lookback of State Estimator losses at the LBA level, with the percentage values based on Coincident Peak demand hour two years prior to the Planning Year (2024 data for 2026/27 PRA), creating year-to-year volatility that can require hundreds of additional megawatts of capacity procurement for individual LSEs. Hoosier proposes aligning the lookback period to average the prior three years of LBA transmission losses to reduce volatility while reflecting more consistent, reasonable loss levels, and is open to alternatives such as using Resource Adequacy Hours used for generation accreditation or hours proposed for PRMR Allocation.",
+        "hydro_read_through": "The document does not mention hydro directly. However, MISO's PRA transmission loss calculation method applies to all generation resources subject to capacity accreditation, including conventional hydropower. Transmission loss percentages directly affect the megawatt obligations each load-serving entity must procure; reducing year-to-year volatility in loss calculations stabilizes the capacity market requirements for hydro owners and improves predictability of revenue obligations. If MISO adopts a three-year lookback or alternative stability mechanism, it would dampen the procurement swings that currently force hydro owners to reassess seasonal capacity revenue and strategic bidding each year.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "MISO's current transmission loss methodology uses a one-year lookback at State Estimator losses at the LBA level, with percentage values based on Coincident Peak demand hour two years prior to the Planning Year (2024 for 2026/27 PRA)",
+            "quote": "MISO's current methodology for calculating transmission losses in the PRA utilizes a one-year lookback at State Estimator losses summed every 5-minutes at the LBA level that changes every year. The Transmission Loss % value used for purposes of the PRA are based the Coincident Peak demand hour by season, two years prior to the Planning Year (i.e., 2024 for the 2026/27 PRA).",
+            "verified": true
+          },
+          {
+            "claim": "Year-over-year volatility from loss-calculation changes can amount to hundreds of megawatts in additional capacity requirements for individual LSEs",
+            "quote": "For some LSEs this could amount to hundreds of MWs in additional capacity needing to be procured from one year to the next.",
+            "verified": true
+          },
+          {
+            "claim": "Proposed solution is to align the lookback period to average prior three years of LBA transmission losses",
+            "quote": "aligning the lookback period for TL to average the prior three years of LBA Transmission Losses",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jeffrey Wernert",
+            "entity": "Hoosier Energy",
+            "role": "author",
+            "email": "jwernert@theprimegroupllc.com"
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "20260819 RASC Item 01c Minutes 20260708.pdf",
+        "filename": "20260819 RASC Item 01c Minutes 20260708.pdf",
+        "url": "https://cdn.misoenergy.org/20260819%20RASC%20Item%2001c%20Minutes%2020260708769730.pdf",
+        "posted_date": "2026-07-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO is reforming accreditation methodology for resource adequacy capacity markets, refining planning reserve margin allocation rules, and examining outage-notification thresholds \u2014 all of which directly govern how use-limited and variable resources including hydro are accredited, and how storage and conventional hydropower's seasonal capacity revenue is allocated across load-serving entities.",
+        "ai_summary": "MISO Resource Adequacy Subcommittee met on July 8, 2026, and discussed four major capacity-market design items affecting all resource accreditation and planning reserve margin (PRMR) allocation. (1) Solar accreditation for PY27-28: MISO retained existing fixed-window hours (HE 15-17 for non-winter seasons, based on Non-GADS data) despite observed shifts in reliability-risk hours, deferring updates to the planned Direct Loss of Load (DLOL) accreditation transition for PY28-29. (2) External Resource Accreditation (RASC-2019-2 and RASC-2024-5): MISO proposed distinguishing pseudo-tied resources (accredited via Schedule 53A) from non-pseudo-tied resources (accredited via day-ahead e-Tag offers with three-year lookback and 80/20 weighting between Tier 2 RA Hours and Tier 1 non-RA Hours); MISO also proposed eliminating Use-Limited Resources as a category from the Planning Resource Auction. Stakeholder feedback by July 27, 2026; tariff redlines in late 2026 with filing targeting PY 2029-30 or beyond. (3) 24-Hour Lead Time in Accreditation (RASC-2026-1): MISO presented three options to address resources that increase notification times within 48 hours of operating day, rendering themselves uncommittable while retaining full accreditation despite 3.1 GWs unavailability during Winter Storm Fern; options ranged from reducing max lead time to 12 hours, assigning zero availability to last-minute changes, or implementing a sliding-scale availability curve. Stakeholder feedback due July 22, 2026; FERC filing planned for October with October feedback. (4) PRMR Allocation (RASC-2020-4 and RASC-2019-2): MISO revised its proposal to allocate LSE PRMR based on settled load during Tier 2 RA Hours (three-year lookback), replacing previous CPDf-based approach; LSE RAHD is scaled by CPDf forecast ratio and weighted by effective margins, better aligning PRMR allocation with each LSE's contribution to system risk under the DLOL framework. Stakeholder feedback due July 24, 2026; tariff redlines in August and September; FERC filing by end of 2026 targeting PY 2029-30 or later implementation.",
+        "hydro_read_through": "Although the document does not name hydropower directly, three items materially affect hydro and pumped-storage asset owners: (1) the proposed elimination of Use-Limited Resources as a PRA category would remove a pathway through which run-of-river and some conventional hydro currently participate, forcing reliance on the new accreditation rules under Schedules 53A and 53B (the mechanics of which are still being finalized); (2) the DLOL transition and the related solar and external-resource accreditation reforms reset how seasonal capacity contributions are measured, directly affecting the ELCC-based availability factors and seasonal-risk-hour definitions that drive hydro's accreditation and hence its RA revenue, with implementation deferred to PY 2028-29 but tariff details due in late 2026; and (3) the PRMR reallocation from CPDf-based to risk-hour-based settled-load shares will shift how system-wide reserve margins are distributed among LSEs, which in turn changes the seasonal demand for hydro's capacity and the price signals hydro operators receive when optimizing dispatch timing and commitment\u2014this is a high-impact revenue signal with PY 2029-30 implementation.",
+        "source_names_hydro": true,
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Solar accreditation for PY27-28 will maintain fixed hours HE 15-17 for non-winter seasons, deferring updates to DLOL transition for PY28-29",
+            "quote": "MISO ultimately decided to maintain the status quo for PY27-28, given the planned implementation of Direct Loss of Load (DLOL) based accreditation in PY28-29... MISO will continue using the existing hours in the Non-GADS Performance Template and fixed accreditation for new solar resources during PY27-28.",
+            "verified": false
+          },
+          {
+            "claim": "External Resource Accreditation feedback due July 27, 2026; FERC filing in late 2026 or early 2027 with PY 2029-30 or beyond effective date",
+            "quote": "MISO requests written feedback by July 27, 2026... planning a FERC filing in late 2026 or early 2027, with an effective date for Planning Year 2029-30 or beyond.",
+            "verified": false
+          },
+          {
+            "claim": "24-Hour Lead Time: Winter Storm Fern case showed 37 thermal resources increased notification times, resulting in 3.1 GWs unavailable",
+            "quote": "A case study from Winter Storm Fern illustrated the problem: 37 thermal resources increased their notification times, resulting in 3.1 GWs being unavailable for a morning capacity emergency.",
+            "verified": true
+          },
+          {
+            "claim": "24-Hour Lead Time feedback due July 22, 2026; FERC filing planned for October",
+            "quote": "The next steps include further stakeholder engagement, with feedback requested on potential solutions by July 22, 2026. The timeline anticipates a recommended solution and initial tariff redlines in August, revisions based on feedback in September, and a FERC filing in October.",
+            "verified": true
+          },
+          {
+            "claim": "PRMR Allocation stakeholder feedback due July 24, 2026; FERC filing by end of 2026 targeting PY 2029-30 implementation",
+            "quote": "Stakeholder feedback is requested on the volatility analysis, changes to the lookback period, and the scaling methodology by July 24... Next steps include initial and final tariff redlines in August and September, respectively, and a FERC filing by the end of 2026, targeting implementation for Planning Year 2029/30 or later.",
+            "verified": false
+          },
+          {
+            "claim": "PRMR allocation will use three-year lookback of settled load during Tier 2 RA Hours, weighted by effective margins",
+            "quote": "MISO's revised proposal allocates LSE PRMR based on actual demand during Resource Adequacy hours in last three years... Each LSE's Seasonal RAHD calculation will be scaled by the ratio of the LSE Coincident Peak Demand forecast (CPDf) to the lookback Planning Year's CPDf... The ratio of LSE RAHD over the sum of all LSE RAHD will be used for PRMR allocation, replacing the previous CPDf-based approach.",
+            "verified": false
+          },
+          {
+            "claim": "Use-Limited Resources category proposed for elimination from Planning Resource Auction",
+            "quote": "MISO also proposed eliminating the category of Use-Limited Resources from the Planning Resource Auction, asserting that accreditation rules under Schedule 53A and 53B, as well as ongoing External Resource Accreditation efforts, adequately capture these assets.",
+            "verified": true
+          },
+          {
+            "claim": "Average 3.7 GWs of generation unavailable during critical periods despite being counted as available in accreditation",
+            "quote": "with an average of 3.7 GWs of generation unavailable during critical periods, despite being counted as available in accreditation calculations.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Andy Taylor",
+            "entity": null,
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chris Delk",
+            "entity": null,
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Davey Lopez",
+            "entity": null,
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Trey Mayeux",
+            "entity": null,
+            "role": "contact (vice chair)",
+            "email": null
+          },
+          {
+            "name": "Werner Roth",
+            "entity": null,
+            "role": "presenter (chair)",
+            "email": null
+          },
+          {
+            "name": "Amanda Jones",
+            "entity": "MISO",
+            "role": "contact (stakeholder relations)",
+            "email": null
+          },
+          {
+            "name": "Zhaoxia Xie",
+            "entity": "MISO",
+            "role": "presenter (miso liaison)",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CFSG Meeting",
+    "date": "2026-08-19",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Credit Finance Sub Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08192026-CFSG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/08192026-CFSG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Credit and finance administration meetings do not address market design, pricing, participation rules, or strategic options that affect hydropower revenue, compliance obligations, or operational choices.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "PDCWG Meeting",
+    "date": "2026-08-19",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Performance, Disturbance, Compliance Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08192026-PDCWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/08192026-PDCWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Performance, Disturbance, Compliance Working Group typically addresses operational incident review, generation-performance monitoring, and grid-compliance administration rather than market-design mechanisms affecting hydro revenue, participation models, or strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "CLLSCO Meeting",
     "date": "2026-08-18",
     "time": "9:00 a.m. - 12:00 p.m.",
@@ -354,7 +572,7 @@
     "date": "2026-08-18",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Reliability Committee",
+    "committee": "Transmission Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=160122",
     "materials_url": null,
@@ -416,6 +634,48 @@
     "materials_url": "https://www.ercot.com/calendar/08182026-PLWG-Meeting-_-Webex",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The ERCOT Planning Working Group agenda is typically focused on transmission planning, resource adequacy studies, and infrastructure development in Texas, which has no hydropower fleet; without specific indication that this meeting addresses storage participation, frequency response, or other market-design mechanisms relevant to hydro comparison, the generic planning-group title does not warrant inclusion.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Interconnection Customer User Group",
+    "date": "2026-08-18",
+    "time": "1:00 PM - 2:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Interconnection Customer User Group",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-aug-18-2026-0100-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/interconnection-customer-user-group",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Interconnection Customer User Group meetings address queue reform, interconnection service allocation, surplus interconnection at existing plants, and deliverability rules\u2014all core strategic options for hydro owners seeking uprates, new facilities, or participation in CAISO's Order 2023-era interconnection processes.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Market Seams Workshop",
+    "date": "2026-08-18",
+    "time": "9:00 AM - 2:30 PM PT",
+    "rto": "CAISO",
+    "committee": "Market Seams",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/market-seams-workshop-aug-18-2026-0900-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/market-seams",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "CAISO Market Seams workshops address inter-regional transmission, EDAM/WEIM integration, and resource-adequacy coordination\u2014all critical to NHA members' strategic choices about market participation, deliverability of hydro exports (especially from the Northwest), and how hydro's flexibility is valued across seams.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Comments due - BPM Proposed Revision Requests",
+    "date": "2026-08-18",
+    "time": null,
+    "rto": "CAISO",
+    "committee": "Business Practice Manual (BPM) change management",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/comments-due-bpm-proposed-revision-requests-aug-18-2026-1200-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/business-practice-manual-bpm-change-management",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "BPM change management at CAISO covers tariff and operational rule revisions that routinely affect hydro revenue (energy and ancillary-services pricing, settlement, dispatch), participation models (storage accreditation, AS stacking, flexibility products), and compliance obligations (outage scheduling, must-offer rules, metering), making a call for revision comments a potential signal of substantive rule changes affecting NHA members.",
     "issues": [],
     "documents": []
   },
@@ -38643,6 +38903,68 @@
             "name": "Mandi McGirr",
             "entity": "MISO",
             "role": "stakeholder relations",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20260721 IPWG Item 01d Management Plan.pdf",
+        "filename": "20260721 IPWG Item 01d Management Plan.pdf",
+        "url": "https://cdn.misoenergy.org/20260721%20IPWG%20Item%2001d%20Management%20Plan769402.pdf",
+        "posted_date": "2026-08-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's Interconnection Process Working Group manages the Generator Interconnection Business Practice Manual and interconnection planning processes that directly affect hydro facilities' queue positions, study timelines, and deliverability \u2014 core strategic and compliance obligations for hydro owners.",
+        "ai_summary": "The IPWG Management Plan sets forth the 2026\u20132027 meeting calendar and work plan for MISO's interconnection process oversight. The committee reports to the Planning Advisory Committee and focuses on reducing study time and increasing certainty in interconnection planning through modifications to the Generator Interconnection Business Practice Manual (BPM) and potential tariff filings to FERC. Major ongoing work includes Generator Interconnection Queue Improvements (PAC-2023-1), Inverter-Based Resource Performance and Modeling (PAC-2024-2), Attachment GGG improvements, Order 2023 compliance (BPM-015 review and penalty procedures), and coordination with SPP on joint operating agreements. The committee held 8 meetings in 2025 with an average of 296 total participants. Upcoming meetings are scheduled for September 1, October 13, and December 8 in Q4 2026, with Q1 and Q2 2027 dates and agendas to be determined.",
+        "hydro_read_through": "The document does not mention hydropower or storage facilities directly, but MISO's interconnection process rules and BPM revisions govern the queue, study cycle, and interconnection costs that determine hydro generators' ability to interconnect, upgrade, or expand. Changes to queue modeling, application automation (GIAA), inverter performance standards (which affect how conventional synchronous hydro compares to IBR in conformance), and Order 2023 BPM-015 compliance all shape the economic and operational feasibility of hydro development and uprates in MISO. Hydro owners should track outcomes from queue improvements and Order 2023 work, as these directly affect project economics and buildout timelines.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "ops-compliance",
+          "ferc-policy"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "8 meetings held in 2025 with average of 296 participants",
+            "quote": "How many meetings were held in 2025? 8 What was the average number of total participants in 2025? 296",
+            "verified": true
+          },
+          {
+            "claim": "Q4 2026 meeting on October 13 includes leadership elections and Order 2023 BPM-015 update",
+            "quote": "October 13\n\u2022 2027 Meeting Calendar \u2022 Leadership elections\u221a\n\u2022 AFS: JOA Updates  FERC Status Report\n(LG&E, SPP, and SOCO)  Definitive Planning Phase (DPP) Study Cycle Update\n\u2022 Order 2023 BPM-015 \u2022 Inverter Based Resource (IBR) Performance, Modeling, and Conformance (PAC-2024-2)\nUpdate",
+            "verified": false
+          },
+          {
+            "claim": "September 1 meeting scheduled with 2027 calendar review and FERC status report",
+            "quote": "September 1\n\u2022 2027 Calendar Review\n\u2022 Leadership nominations\n FERC Status Report\n Definitive Planning Phase (DPP) Study Cycle Update",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kyle Trotter",
+            "entity": "MISO",
+            "role": "miso liaison",
+            "email": null
+          },
+          {
+            "name": "Mandi McGirr",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Angela Maiko",
+            "entity": "MISO / Interconnection Process Working Group",
+            "role": "vice chair",
+            "email": null
+          },
+          {
+            "name": "Erin Murphy",
+            "entity": "MISO / Interconnection Process Working Group",
+            "role": "chair",
             "email": null
           }
         ]
