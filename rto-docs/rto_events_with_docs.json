@@ -1,5 +1,19 @@
 [
   {
+    "title": "MSUF Net Conference",
+    "date": "2026-11-04",
+    "time": "2:00 PM - 4:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Settlements User Forum",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-settlements-user-forum-net-conference-20261104/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=575244",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A settlements user forum focused on technical settlement procedures and IT administration in Markets+ does not address revenue mechanisms, compliance obligations, or strategic market-design options that would affect hydropower owners' operations or revenues.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MCUF Net Conference",
     "date": "2026-11-03",
     "time": "2:00 PM - 5:00 PM CT",
@@ -336,6 +350,206 @@
     "documents": []
   },
   {
+    "title": "Market Subcommittee (MSC) - August 20, 2026",
+    "date": "2026-08-20",
+    "time": "9:00 AM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Market Subcommittee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/2f28f4697b6342eca574f93881c7a580.aspx",
+    "materials_url": "https://www.misoenergy.org/link/2f28f4697b6342eca574f93881c7a580.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The MISO Market Subcommittee addresses energy price formation, ancillary services, capacity markets, storage participation, and other core market-design mechanisms that directly affect hydropower and pumped-storage revenue, compliance, and strategic positioning in a major multi-state RTO.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20260820 MSC Item 01c Minutes 20260709.pdf",
+        "filename": "20260820 MSC Item 01c Minutes 20260709.pdf",
+        "url": "https://cdn.misoenergy.org/20260820%20MSC%20Item%2001c%20Minutes%2020260709769568.pdf",
+        "posted_date": "2026-07-16",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses multiple market-design mechanisms directly affecting hydro revenue and obligation: regulation-reserve deliverability and performance standards, ancillary-services demand curves, reserve-shortage pricing, transmission congestion management, and day-ahead settlement calculations\u2014all canonical hydro-participation and compliance areas.",
+        "ai_summary": "MISO's July 9, 2026 Market Subcommittee meeting minutes cover six active market-design items with deadlines and next steps. (1) Enhance Reserve Deliverability (MSC-2026-2): MISO is evaluating Regulation reserve clearing location and performance standards, with plans to study Regulation RPE demand curves for day-ahead and real-time markets; feedback period closed. (2) Transmission Constraint Demand Curves (MSC-2026-6): MISO is evaluating congestion-management effectiveness and potential TCDC enhancements following recent reserve-shortage pricing changes, with recommendations and costs/benefits analysis planned for later in 2026. (3) FTR-ARR Market Enhancements (MSC-2025-5): MISO is performing holistic evaluation of ARR Nomination Process (Reference Year, Reserved Source Point, Long-Term Transmission Rights constraints) and transmission-outage reporting, with stakeholder feedback deadline July 23, 2026. (4) Up Ramp Capability demand curves (MSC-2026-1): MISO filed tariff revisions ER26-2705-000 on June 1, 2026 with requested effective date August 4, 2026 updating Regulation, Spinning Reserves, and Up Ramp Capability demand curves. (5) Improve Market Monitoring and Mitigation (MSC-2026-5): IMM shared revised tariff redlines addressing stakeholder concerns on Module D and Duty of Candor; goal is to return to MSC in August with revised redlines and implementation examples. (6) Day-Ahead Margin Assurance Payment Reduction Total (MSC-2026-7, new issue): MISO proposes fixing DAMAP and RSG Distribution calculations to prevent double-counting of MWs cleared across products, with draft redlines posted and Q3 2026 FERC filing targeted for 60-day effective date; stakeholder feedback deadline July 24, 2026.",
+        "hydro_read_through": "Regulation-reserve clearing location and performance failures directly undermine hydro's core ancillary-services revenue, since hydro is the primary provider of this flexibility; MISO's planned demand-curve and performance-incentive changes will reshape how much hydro clears and at what price in these essential markets. Congestion management and TCDC-enhancement work affects the locational signals and out-of-market costs that constrain hydro's energy and reserve export economics. The Up Ramp Capability demand-curve update is likewise a direct pricing lever for a service hydro chronically supplies. The FTR-ARR process reform touches transmission-rights accreditation and congestion pricing that feed hydro's long-term revenue certainty. The DAMAP and RSG calculation fixes will correct settlement mechanics that currently overstate derated-unit revenue shares, benefiting all dispatchable resources including hydro. All of these items have tight feedback and filing deadlines in the next 6\u20138 weeks.",
+        "source_names_hydro": true,
+        "topics": [
+          "ancillary-services",
+          "ramping-flexibility",
+          "price-formation"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Regulation reserve demand curves will be studied for day-ahead and real-time markets",
+            "quote": "MISO plans to perform study and simulations to determine Reg RPE demand curve for the DA and RT market",
+            "verified": true
+          },
+          {
+            "claim": "Up Ramp Capability demand curves filed June 1, 2026 with August 4, 2026 effective date",
+            "quote": "MISO filed Tariff revisions (ER26-2705-000) on June 1, 2026 (with a requested effective date of August 4, 2026) to update the demand curves for Regulation, Spinning Reserves and Up Ramp Capability (URC)",
+            "verified": true
+          },
+          {
+            "claim": "FTR-ARR Market Enhancements feedback deadline July 23, 2026",
+            "quote": "MISO requested feedback on FTR-ARR Market Enhancements (MSC-2025-5) by July 23, 2026",
+            "verified": true
+          },
+          {
+            "claim": "DAMAP Reduction Total feedback deadline July 24, 2026",
+            "quote": "MISO requested feedback on Day-Ahead Margin Assurance Payment (DAMAP) Reduction Total (MSC-2026-7) by July 24, 2026",
+            "verified": true
+          },
+          {
+            "claim": "DAMAP tariff filing targeted Q3 2026 with 60-day effective date",
+            "quote": "MISO is targeting a FERC filing in Q3 2026 with an effective date of 60 days from filing",
+            "verified": true
+          },
+          {
+            "claim": "Module D and Duty of Candor revised redlines to return in August MSC",
+            "quote": "The IMM shared that the goal is to come back to the MSC in August with revised redlines",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Chris Miller",
+            "entity": "FERC",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Akshay Korad",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Bryan Garnett",
+            "entity": "MISO",
+            "role": "author, chair",
+            "email": null
+          },
+          {
+            "name": "Chris Delk",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Christine Ross",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Chuck Hansen",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Dustin Grethen",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Jason Brown",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Jason Howard",
+            "entity": "MISO",
+            "role": "author, liaison",
+            "email": null
+          },
+          {
+            "name": "Joshua Schabla",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mandi McGirr",
+            "entity": "MISO",
+            "role": "author, stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Sarah Fisher",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Congcong Wang",
+            "entity": "National Lab of the Rockies",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Carrie Milton",
+            "entity": "Potomac Economics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dr. David Patton",
+            "entity": "Potomac Economics",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "PUCT Meeting",
+    "date": "2026-08-20",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "The Public Utility Commission of Texas",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08202026-PUCT-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/08202026-PUCT-Meeting",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Public Utility Commission of Texas (PUCT) is a state regulatory body that oversees retail utility operations and customer protections in Texas, which is outside the scope of RTO/ISO wholesale market-design proceedings that affect hydropower revenue, compliance obligations, and strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "DWG Meeting",
+    "date": "2026-08-20",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Dynamics Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08202026-DWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/08202026-DWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ERCOT's Dynamics Working Group addresses synchronous-generator performance, ride-through standards, and frequency response\u2014design patterns that NHA tracks cross-market for comparison with hydro-rich RTOs and that inform how storage and dispatchable resources are treated in reliability standards.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "TWG Meeting",
+    "date": "2026-08-20",
+    "time": "2:00 PM",
+    "rto": "ERCOT",
+    "committee": "Technology Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08202026-TWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/08202026-TWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "ERCOT Technology Working Group meetings typically address IT systems, operational technology, and technical infrastructure rather than market-design mechanisms affecting energy pricing, ancillary services, capacity accreditation, storage participation, or resource adequacy that would interest hydropower operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "NEPOOL Reliability & Transmission Committee Summer Meeting",
     "date": "2026-08-19",
     "time": "1:00 PM",
@@ -540,6 +754,48 @@
     "documents": []
   },
   {
+    "title": "Markets and Reliability Committee Meeting",
+    "date": "2026-08-19",
+    "time": "9:00 a.m. - 12:30 p.m.",
+    "rto": "PJM",
+    "committee": "Markets and Reliability Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The PJM Markets and Reliability Committee addresses energy pricing, ancillary services, capacity accreditation, storage participation rules, and transmission planning that directly affect hydropower and pumped-storage revenue and compliance obligations in the PJM footprint.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Members Committee Meeting",
+    "date": "2026-08-19",
+    "time": "1:15 p.m. - 5:00 p.m.",
+    "rto": "PJM",
+    "committee": "Members Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A generic Members Committee meeting agenda with no disclosed topics cannot be presumed to address the specific market-design, revenue, or operational axes (energy pricing, ancillary services, capacity accreditation, storage rules, transmission planning, or compliance mechanisms) that affect hydropower and pumped-storage operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Large Loads Straw Proposal",
+    "date": "2026-08-19",
+    "time": "9:00 AM - 4:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Large loads",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/large-loads-straw-proposal-aug-19-2026-0900-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Large-loads",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Large-load interconnection and co-located load development directly affects hydro's strategic options by raising scarcity value and enabling new behind-the-meter participation pathways, particularly relevant as CAISO evolves its market design for data centers and industrial loads.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "CLLSCO Meeting",
     "date": "2026-08-18",
     "time": "9:00 a.m. - 12:00 p.m.",
@@ -654,11 +910,11 @@
   {
     "title": "Market Seams Workshop",
     "date": "2026-08-18",
-    "time": "9:00 AM - 2:30 PM PT",
+    "time": "8:00 AM - 1:30 PM PT",
     "rto": "CAISO",
     "committee": "Market Seams",
     "source_url": "https://www.caiso.com/meetings-events/meetings",
-    "detail_url": "https://www.caiso.com/meetings-events/calendar/market-seams-workshop-aug-18-2026-0900-am",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/market-seams-workshop-aug-18-2026-0800-am",
     "materials_url": "https://www.caiso.com/meetings-events/topics/market-seams",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "CAISO Market Seams workshops address inter-regional transmission, EDAM/WEIM integration, and resource-adequacy coordination\u2014all critical to NHA members' strategic choices about market participation, deliverability of hydro exports (especially from the Northwest), and how hydro's flexibility is valued across seams.",
@@ -747,7 +1003,59 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "ERCOT's Inverter-Based Resource Working Group focuses on technical standards and grid interconnection for solar, wind, and battery inverters; while battery participation rules may set precedent for storage generally, this working group's focus on inverter hardware and IBR-specific interconnection standards has no direct bearing on conventional hydropower, pumped-storage hydro operations, or market-design mechanisms that affect the hydro fleet.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "IBRWG Meeting Agenda 2026-08-17",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/08172026-IBRWG-Meeting-_-Webex#agenda",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT comparison on inverter-based resource (IBR) ride-through and frequency response performance \u2014 voltage-support and fault-ride-through obligations that set precedent for how other RTOs (including hydro-rich markets) may extend similar rules to dispatchable synchronous units.",
+        "ai_summary": "The IBRWG (Inverter-Based Resource Working Group) agenda for August 17, 2026 addresses recent ride-through events in ERCOT's system and performance considerations for negative sequence current injection by IBRs. The meeting covers NERC (North American Electric Reliability Corporation) updates and other industry developments. Topics include an antitrust admonition, discussion of ride-through performance standards, technical performance metrics for IBR negative sequence current injection, and regulatory updates.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage directly. However, ERCOT's development of ride-through and voltage-support performance standards for inverter resources establishes technical and compliance precedent that could inform similar requirements for synchronous dispatchable units\u2014including conventional hydro plants with synchronous generators\u2014in other markets. Ride-through obligations and frequency-response standards that originate in ERCOT are monitored by NHA as indicators of emerging grid-support expectations that may migrate to hydro-rich RTOs like WECC, SPP, or the Eastern Interconnection.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "ops-compliance"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "Meeting date and recent ride-through events discussion",
+            "quote": "Recent Ride-Through Events\nMegan Miller, ERCOT\n9:35 am",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jimmy Zhang",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Megan Miller",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Julia Matevosyan",
+            "entity": "ESIG",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mark Henry",
+            "entity": "TRE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "CMWG Meeting",
@@ -1163,6 +1471,79 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "20260812 LLWG Item 01d Management Plan.pdf",
+        "filename": "20260812 LLWG Item 01d Management Plan.pdf",
+        "url": "https://cdn.misoenergy.org/20260812%20LLWG%20Item%2001d%20Management%20Plan772569.pdf",
+        "posted_date": "2026-08-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large-load interconnection and resource-study processes directly affect transmission deliverability and grid-interconnection timing for all resources, including hydro plants seeking upgrades or new firm transmission service; co-location of hydro with large loads or transmission-constrained integration pathways is a strategic option.",
+        "ai_summary": "MISO's Large Load Working Group (LLWG) management plan outlines 2026\u20132027 work on large-load participation mechanisms including Firm Service Step Up (LLWG-2026-1), Reserve Product Enhancements (LLWG-2026-2), Interconnection Reliability Requirements (LLWG-2026-3), Conditional/Non-firm Transmission Service (LLWG-2026-5), and Load Addition Resource Study (LLWG-2026-6). Key scheduled items for voting or feedback include: Conditional Non-firm Transmission Service review on August 12, 2026; Large Load Firm Service Step Up final tariff redlines and Load Addition Resource Study draft redlines on August 27; Large Load Reserve Product Enhancements evaluation results and initial recommendations on August 27; final tariff redlines for Conditional Non-firm Transmission Service and Large Load Reserve Product Enhancements on October 29; and Large Load Remote Disconnect proposal on October 29. The work is coordinated with other MISO stakeholder groups and responds to FERC directives.",
+        "hydro_read_through": "This document does not mention hydro directly. Large-load interconnection and resource-adequacy studies establish how new or expanded demands integrate into the transmission network and what generation resources are required to serve them. To the extent hydro operators compete for firm transmission service or ancillary-services revenue in MISO, or hold transmission-constrained resources near large-load zones, changes to large-load interconnection processes and firm/non-firm transmission service rules affect the cost and availability of interconnection service upgrades and alter the capacity and reserve-product value hydro supplies. The Load Addition Resource Study (LLWG-2026-6) in particular may inform MISO resource adequacy and transmission planning that determines scarcity pricing and capacity-accreditation outcomes hydro depends on.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "interconnection",
+          "transmission"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "Large Load Firm Service Step Up (LLWG-2026-1) final tariff redlines and Load Addition Resource Study draft redlines scheduled for August 27",
+            "quote": "August 27\n\u2022 Large Load Firm Service Step Up (RASC-2026-1) Final Tariff Redlines \n\u2022 Large Load Reserve Product Enhancements (LLWG-2026-2) Evaluation results and initial\nrecommendation(s)",
+            "verified": false
+          },
+          {
+            "claim": "Conditional Non-firm Transmission Service (LLWG-2026-5) review on August 12",
+            "quote": "August 12\nReview Conditional Non-firm Transmission Service (LLWG-2026-5)",
+            "verified": false
+          },
+          {
+            "claim": "Final tariff redlines for Conditional Non-firm Transmission Service and Large Load Remote Disconnect on October 29",
+            "quote": "October 29\n\u2022 Large Load Firm Service Step Up (LLWG-2026-1) BPM\n\u2022 Tariff for Conditional/Non-firm Transmission Service (LLWG-2026-5) Final Tariff Redlines \n\u2022 Large Load Remote Disconnect (LLWG-2026-TBD) Tariff Redlines",
+            "verified": false
+          },
+          {
+            "claim": "Load Addition Resource Study (LLWG-2026-6) draft tariff redlines on August 27",
+            "quote": "\u2022 Load Addition Resource Study (LLWG-2026-6) Draft Tariff Redlines",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Jones",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Chris Plante",
+            "entity": "MISO",
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "Eileen King",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Marc Keyser",
+            "entity": "MISO",
+            "role": "miso liaison",
+            "email": null
+          },
+          {
+            "name": "Werner Roth",
+            "entity": "MISO",
+            "role": "vice chair",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -1295,7 +1676,7 @@
         "title": "Approved Projects - Transmission Planning Process - Jul 2026",
         "filename": "approved-projects-transmission-planning-process-jul-2026.xlsx",
         "url": "https://www.caiso.com/documents/approved-projects-transmission-planning-process-jul-2026.xlsx",
-        "posted_date": "2026-07-24",
+        "posted_date": "2026-08-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "Document title indicates transmission planning process approvals with no extracted text; cannot assess whether hydro revenue, obligations, or strategic options are affected without substantive content.",
         "ai_summary": null,
@@ -1312,7 +1693,7 @@
         "title": "Network Upgrades - Generation Interconnection - Jul 2026",
         "filename": "network-upgrades-generation-interconnection-jul-2026.xlsx",
         "url": "https://www.caiso.com/documents/network-upgrades-generation-interconnection-jul-2026.xlsx",
-        "posted_date": "2026-07-24",
+        "posted_date": "2026-08-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "Document title only; no text extracted. Cannot assess whether the transmission development / generation interconnection content addresses hydro revenue, obligations, or strategic options.",
         "ai_summary": null,
@@ -1431,7 +1812,7 @@
         "title": "Presentation - Southern California Edison - Transmission Development Forum - Jul 29, 2026",
         "filename": "presentation-southern-california-edison-transmission-development-forum-jul-29-2026.pdf",
         "url": "https://www.caiso.com/documents/presentation-southern-california-edison-transmission-development-forum-jul-29-2026.pdf",
-        "posted_date": "2026-07-27",
+        "posted_date": "2026-08-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This is a routine Southern California Edison transmission-project status update with no bearing on hydro revenue mechanisms, market obligations, or strategic options.",
         "ai_summary": null,
@@ -1787,11 +2168,29 @@
     "committee": "DTS",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={35602BAE-628F-43CD-B60F-05B1731D93E0}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "DTS (Demand and Transmission Study) meetings typically address grid planning, demand forecasting, and transmission adequacy without agenda specifics that would indicate discussion of hydropower revenue mechanisms, storage participation rules, or market-design changes affecting hydro operations.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "Minutes DTS \u2013 7142026",
+        "filename": "20260811-minutes-dts---7142026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/dts/2026/20260811/20260811-minutes-dts---7142026.pdf",
+        "posted_date": "2026-08-03",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Technical User Group",
@@ -2005,6 +2404,38 @@
     ]
   },
   {
+    "title": "VPWG Meeting",
+    "date": "2026-08-11",
+    "time": "10:30 AM",
+    "rto": "ERCOT",
+    "committee": "Voltage Profile Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08112026-VPWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/08112026-VPWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A Voltage Profile Working Group meeting addresses transmission-engineering and reactive-power technical standards with no direct bearing on hydropower revenue mechanisms, participation models, capacity accreditation, energy-market price formation, or operational compliance obligations specific to hydro or storage resources.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "VPWG Meeting Agenda 2026-08-11",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/08112026-VPWG-Meeting-_-Webex#agenda",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Voltage measurement and reporting practice at ERCOT is transmission-operations administration with no bearing on hydro or PSH revenue streams, compliance obligations, or strategic options; ERCOT has no hydropower fleet and this agenda item addresses grid infrastructure operations, not market design.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
     "title": "NEPOOL Membership Subcommittee Meeting",
     "date": "2026-08-10",
     "time": "2:00 PM",
@@ -2026,11 +2457,82 @@
     "committee": "RSCS",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={34D2C8F3-15C6-4F29-B43E-25E14BF7B87A}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "RSCS (Reliability, Security and Compliance Subcommittee) is PJM's forum for discussing operating standards, resource adequacy, capacity market performance, and reliability mechanisms that directly affect hydropower revenue accreditation, dispatch obligations, and strategic planning in the footprint.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "report",
+        "title": "Reliability Compliance Update \u2013 Rscs 8102026",
+        "filename": "20260810-reliability-compliance-update---rscs-8102026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/rscs/2026/20260810/20260810-reliability-compliance-update---rscs-8102026.pdf",
+        "posted_date": "2026-08-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document announces NERC Inverter-Based Resource (IBR) reliability standards with mandatory compliance deadlines in 2026\u20132027 and large-load ride-through recommendations; these affect synchronous hydro units' operating obligations and set precedent for all dispatchable resources' compliance with evolving reliability standards.",
+        "ai_summary": "PJM Reliability Compliance Update presents NERC announcements relevant to registered entities' compliance obligations. Key items: (1) NERC Small Group Advisory Session (SGAS) on IBR standards PRC-028-1, PRC-029-1, PRC-030-1, and MOD-026-2, with a general session August 10, 2026, 2:00\u20133:30 p.m. ET and one-on-one sessions August 11\u201314, 2026; Generator Owners and Operators must submit compliance questions by June 30, 2026, to Charlie Cook. (2) RBB Self-Select Attestation Process open June 17\u2013August 18, 2026, with attestation deadline 8:00 p.m. Eastern, Tuesday, August 18, 2026. (3) Draft white paper on Large Load Disturbance Performance with comment period July 30\u2013August 29, 2026, addressing ride-through and post-fault active-power-recovery requirements. (4) Monitoring and Situational Awareness Technical Conference October 6\u20137, 2026, in Chicago, and BES Protection System Misoperation Reduction Workshop October 20\u201321, 2026, in Austin.",
+        "hydro_read_through": "The document does not mention hydropower directly. However, the IBR standards and large-load ride-through recommendations signal NERC's tightening of reliability requirements applicable to all synchronous and dispatchable resources, including conventional hydro. Hydro owners should track the SGAS and draft ride-through paper because compliance requirements announced in 2026\u20132027 will cascade into tariff updates and operating procedures that affect dispatch flexibility and outage-scheduling options. The large-load ride-through work is relevant to pumped-storage operators particularly, as it reshapes expectations for how all demand-response and storage resources must respond to disturbances.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance",
+          "ancillary-services"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "NERC Small Group Advisory Session (SGAS) on IBR standards PRC-028-1, PRC-029-1, PRC-030-1, and MOD-026-2 with general session Monday, August 10, 2026, from 2:00\u20133:30 p.m. ET and one-on-one sessions Tuesday, August 11, 2026 \u2013 Friday, August 14, 2026",
+            "quote": "Monday, August 10, 2026, from 2:00\u20133:30 p.m. ET . General Session Live Webinar (Registration) \u2013 Discussions on current and future phased implementation of the NERC Reliability Standards for IBRs. 2. Tuesday, August 11, 2026 \u2013 Friday, August 14, 2026, One-on-One Sessions",
+            "verified": true
+          },
+          {
+            "claim": "Generator Owners and Generator Operators must submit compliance questions by June 30, 2026, to Charlie Cook",
+            "quote": "NERC is requesting Generator Owners and Generator Operators provide any questions they may have relevant to their PRC-028-1, PRC-029-1, PRC-030-1, and MOD-026-2 compliance obligations by June 30, 2026. Questions to be sent to Charlie Cook",
+            "verified": true
+          },
+          {
+            "claim": "RBB Self-Select Attestation Process deadline 8:00 p.m. Eastern, Tuesday, August 18, 2026",
+            "quote": "NERC must receive a response for all segments represented in the RBB by 8:00 p.m. Eastern, Tuesday, August 18, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "Large Load Disturbance Performance white paper comment period July 30\u2013August 29, 2026",
+            "quote": "Comment Period: July 30 \u2013 August 29, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Monitoring and Situational Awareness Technical Conference October 6\u20137, 2026 in Chicago",
+            "quote": "October 6, 2026 | 8:00 a.m. \u2013 5:00 p.m. Central October 7, 2026 | 8:00 a.m. \u2013 12:00 p.m. Central",
+            "verified": true
+          },
+          {
+            "claim": "BES Protection System Misoperation Reduction Workshop October 20\u201321, 2026 in Austin",
+            "quote": "Save the Date - October 20-21 | 8:00 a.m. \u2013 5:00 p.m. Central",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Charlie Cook",
+            "entity": "NERC",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Elizabeth Davis",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Elizabeth.Davis@pjm.com"
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Gizella.Mali@pjm.com"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "MSS Meeting",
@@ -2803,7 +3305,7 @@
         "title": "Agenda",
         "filename": "20260806-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260806/20260806-agenda.pdf",
-        "posted_date": "2026-07-30",
+        "posted_date": "2026-08-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This is a routine operating-committee agenda containing administrative items, operational metrics reviews, and compliance updates with no substantive market-design content affecting hydro revenue, obligations, or strategic options.",
         "ai_summary": null,
@@ -2869,7 +3371,7 @@
         "title": "Agenda Doc",
         "filename": "20260806-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260806/20260806-agenda-doc.docx",
-        "posted_date": "2026-07-30",
+        "posted_date": "2026-08-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This is a routine operating committee agenda with no discussion of market design, revenue mechanisms, compliance obligations, or strategic options affecting hydropower or pumped-storage resources.",
         "ai_summary": null,
@@ -2959,7 +3461,7 @@
         "title": "Item 06 \u2013 Reliability Compliance Update \u2013 Presentation",
         "filename": "20260806-item-06---reliability-compliance-update---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260806/20260806-item-06---reliability-compliance-update---presentation.pdf",
-        "posted_date": "2026-07-30",
+        "posted_date": "2026-08-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document is a routine NERC compliance and reliability-standards briefing with no substantive content on hydropower or pumped-storage market design, revenue mechanisms, operating obligations specific to hydro, or strategic options affecting hydro fleet value or participation.",
         "ai_summary": null,
@@ -3017,6 +3519,30 @@
         "evidence": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 09 \u2013 Ceja 2030 Reliability Extensions",
+        "filename": "20260806-item-09----ceja-2030-reliability-extensions.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260806/20260806-item-09----ceja-2030-reliability-extensions.pdf",
+        "posted_date": "2026-08-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document addresses Illinois CEJA compliance and fossil-fuel retirements in PJM, a topic with no direct bearing on hydropower revenue, compliance obligations, or strategic options in the region.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": true,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "M. Gary Helm",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Gary.Helm@pjm.com"
+          }
+        ]
       }
     ]
   },
@@ -3457,7 +3983,169 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Retail Market Training Task Force addresses customer-facing retail mechanics (switching, billing, education) with no bearing on wholesale market design, pricing, dispatch, or ancillary services relevant to hydro operators or the cross-RTO comparison function.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "RMTTF Meeting Agenda 2026-08-06",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/08062026-RMTTF-Meeting-_-Webex#agenda",
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a training-task-force agenda addressing retail-market mechanics (MarkeTrak software, TX SET 5.0 settlement system, learning-management counts, and instructor assignments), with no bearing on RTO/ISO market design, revenue mechanisms, compliance obligations, or strategic options affecting hydropower or pumped-storage owners.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Debbie",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "K. Scott",
+            "entity": "ERCOT",
+            "role": "instructor",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026 RMTTF Upcoming Key Dates",
+        "filename": "2026-RMTTF-Upcoming-Key-Dates.docx",
+        "url": "https://www.ercot.com/files/docs/2026/08/03/2026-RMTTF-Upcoming-Key-Dates.docx",
+        "posted_date": "2026-08-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a calendar of internal ERCOT training and administrative meetings with no bearing on market-design rules, revenue mechanisms, compliance obligations, or strategic options affecting hydropower or pumped-storage facilities.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-06-03 RMTTF Meeting notes draft",
+        "filename": "2026-06-03-RMTTF-Meeting-notes-draft.docx",
+        "url": "https://www.ercot.com/files/docs/2026/08/03/2026-06-03-RMTTF-Meeting-notes-draft.docx",
+        "posted_date": "2026-08-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document covers training logistics, meeting administration, and retail-market IT system procedures (MarkeTrak, TXSET, LMS) with no bearing on hydro or PSH revenue streams, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ella Bruns",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Renato Filho",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Sarah Willmann",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Sarah Wilson",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Melinda Eastern",
+            "entity": "AEP",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Angela Ghormley",
+            "entity": "Calpine Energy",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Kathy Scott",
+            "entity": "Centerpoint",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Monica Jones",
+            "entity": "Centerpoint",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Art Deller",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Elizabeth Morales",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Ghabriel Martins",
+            "entity": "Grid Monitor",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Tomas Fernandez",
+            "entity": "NRG",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Debbie McKeever",
+            "entity": "Oncor",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Sheri Gaston",
+            "entity": "Oncor",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Edelmira Pena",
+            "entity": "Revolution Energy",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Sheri Wiegand",
+            "entity": "Vistra",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Market Implementation Committee Meeting",
@@ -6011,7 +6699,7 @@
         "title": "Agenda",
         "filename": "20260804-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260804/20260804-agenda.pdf",
-        "posted_date": "2026-07-28",
+        "posted_date": "2026-08-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This is a routine Planning Committee agenda covering governance items (charter review, manual updates, interconnection methodology) and informational updates with no content on pricing, revenue mechanisms, compliance obligations, or strategic options affecting hydropower or pumped-storage operations.",
         "ai_summary": null,
@@ -6071,7 +6759,7 @@
         "title": "Agenda Doc",
         "filename": "20260804-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260804/20260804-agenda-doc.docx",
-        "posted_date": "2026-07-28",
+        "posted_date": "2026-08-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This is a routine Planning Committee agenda document containing only meeting logistics, administrative procedures, and generic governance items (charter review, antitrust guidelines, meeting schedule) with no bearing on hydropower revenue streams, compliance obligations, or strategic market-design options.",
         "ai_summary": "PJM Planning Committee will consider three interconnection-adjacent items on August 4, 2026: (1) endorsement of revisions to Manual 21B (Rules and Procedures for Determination of Generating Capability), which sets how PJM assesses resource output for queue studies and may affect hydro plant uprate pathways; (2) approval of an Issue Charge and solution concept on Manual 14H cluster-based interim deliverability methodology (quick-fix process), which streamlines how new services are tested for grid deliverability \u2014 critical to hydro-plus-transmission expansion sequencing; and (3) approval of a Fuel Switch Issue Charge addressing post-agreement fuel changes on generating interconnection agreements. The Manual 21B and 14H changes touch how existing hydro generators and new projects navigate the interconnection process and demonstrate deliverability. No vote dates or comment deadlines are specified in this agenda; substantive details and next-step timelines will appear in forthcoming agenda documents.",
@@ -6279,7 +6967,7 @@
         "title": "Item 05 \u2013 1 Manual 21b Periodic Review \u2013 Presentation",
         "filename": "20260804-item-05---1-manual-21b-periodic-review---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260804/20260804-item-05---1-manual-21b-periodic-review---presentation.pdf",
-        "posted_date": "2026-07-28",
+        "posted_date": "2026-08-03",
         "hydro_relevant": true,
         "hydro_relevance_reason": "PJM Manual 21B governs capacity accreditation and performance testing for all resources including hydro; this periodic review clarifies ELCC analysis procedures, performance adjustment methodologies, and data requirements that directly affect how conventional hydro and storage resources qualify for and are paid in PJM's capacity market.",
         "ai_summary": "PJM's cover-to-cover periodic review of Manual 21B (capacity accreditation and resource adequacy) adds clarifying language to the ICAP definition, codifies test-data requirements in Appendix A, clarifies ambient-condition and simultaneous-requirement testing rules with specified submission deadlines, updates the Performance Adjustment section for DER calculation, and adds language clarifying that additional data can be gathered to facilitate ELCC analysis. The Planning Committee conducted first read on July 7, 2026; second read and endorsement are scheduled for August 4, 2026, with MRC review on August 19, 2026.",
@@ -6687,7 +7375,7 @@
         "title": "Item 07 \u2013 Reliability Compliance Update \u2013 Presentation",
         "filename": "20260804-item-07---reliability-compliance-update---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260804/20260804-item-07---reliability-compliance-update---presentation.pdf",
-        "posted_date": "2026-07-28",
+        "posted_date": "2026-08-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document announces NERC compliance deadlines and technical conferences regarding inverter-based resource (IBR) standards, protection-system misoperations, and balloting procedures \u2014 none of which directly affect hydropower or pumped-storage revenue mechanisms, capacity accreditation, or participation rules.",
         "ai_summary": null,
@@ -6831,7 +7519,7 @@
         "title": "Item 09 \u2013 Peco Supplemental Projects",
         "filename": "20260804-item-09---peco-supplemental-projects.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260804/20260804-item-09---peco-supplemental-projects.pdf",
-        "posted_date": "2026-07-24",
+        "posted_date": "2026-08-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "The document addresses local transmission-planning needs for PECO (circuit-breaker replacement, substation upgrades, and a load-interconnection study), which is a standard infrastructure-planning process with no hydro-specific revenue, compliance, or strategic implications.",
         "ai_summary": null,
@@ -7979,6 +8667,58 @@
         "evidence": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "20260804 EPR TSTF Item 03 MISO EPR Statistics UPDATED",
+        "filename": "20260804 EPR-TSTF Item 03 MISO EPR Statistics UPDATED.pdf",
+        "url": "https://cdn.misoenergy.org/20260804%20EPR-TSTF%20Item%2003%20MISO%20EPR%20Statistics%20UPDATED772140.pdf",
+        "posted_date": "2026-08-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large-load interconnection projects (data centers, industrial loads) documented across MISO's expedited review cycles directly increase system scarcity and raise the value of all dispatchable generation, including hydropower's energy and flexibility products; load-growth fundamentals reshape the revenue opportunity set for every existing hydro plant in MISO.",
+        "ai_summary": "MISO's Expedited Project Review Technical Study Task Force reports approval status and load values for 46 large-load interconnection projects across three 2026 cycles (February, April, June), representing approximately 10,700 MW of new load additions. As of the August 4, 2026 meeting date, nine of ten February EPRs have been approved (2,600 MW); five of nineteen April EPRs approved with one in mitigation discussions (4,657+ MW); nine June EPRs received, one in mitigation discussions (3,452 MW). The report includes projects such as Hannover Data Center (430 MW approved, West region), Project Skyway Large Load (780 MW, expected in-service 6/1/2028, under study), and 17 additional large-load interconnection requests across MISO's Central, South, East, and West regions, with load values ranging from 13.37 MW to 1,200 MW and expected in-service dates spanning 11/1/2026 through 12/1/2029.",
+        "hydro_read_through": "This document does not mention hydro or storage directly. However, load-growth fundamentals matter enormously to every existing hydro plant in MISO: each new large load\u2014whether a data center or industrial customer\u2014increases system peak demand and peak-hour scarcity, which raises the energy and ancillary-service prices hydro operators receive on hours when scarcity binds. The approval and pipeline of 10,700+ MW of new load across three cycles signals that MISO's planning horizons and transmission build-out are being reshaped by load pressure, which translates to stronger energy margins and more frequent high-price intervals that hydro is ideally positioned to capture. Hydro owners should monitor which of these projects come online and their geographic clustering, as transmission congestion created by load concentration can also fragment pricing zones in ways that either isolate or enhance the value of hydro located near new load centers.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "interconnection",
+          "transmission"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Nine of ten February 2026 Cycle EPRs approved, representing 2,600 MW of new load",
+            "quote": "MISO received 10 EPRs for the February 2026 cycle representing 2,600 MW of new load.\n...Nine of the ten February 2026 Cycle EPRs have been approved.",
+            "verified": false
+          },
+          {
+            "claim": "Five of nineteen April 2026 EPRs approved, one in mitigations discussions, representing 4,657+ MW",
+            "quote": "MISO received eighteen (18) EPR project requests for the April 2026 cycle\nrepresenting 4657+ MW of new load additions\n...Five of the nineteen April 2026 EPRs have been\napproved. One of the requests has completed\nmitigations discussions.",
+            "verified": false
+          },
+          {
+            "claim": "Nine June 2026 EPRs received, one in mitigation discussions, representing 3,452 MW",
+            "quote": "MISO received nine(9) EPR project requests for the June 2026 cycle representing 3452\nMW of new load additions\n...MISO received nine EPR requests for the June 2026 Cycle. One of the requests has completed mitigation\ndiscussions.",
+            "verified": false
+          },
+          {
+            "claim": "Hannover Data Center Load Addition approved with 430 MW load value",
+            "quote": "April 2026 | 51293 | Hannover Data Center Load\nAddition | West | MDU | 430 | Approved",
+            "verified": true
+          },
+          {
+            "claim": "Project Skyway Large Load 780 MW with expected in-service date 6/1/2028, under study",
+            "quote": "June 2026 | 51366 | Project Skyway Large Load | West | XEL | MN/Zone 1 | 780 | 6/1/2028 | EPR-TSTF Aug 4",
+            "verified": true
+          },
+          {
+            "claim": "Project Atom Load Interconnection 300 MW with expected in-service date 6/1/2028",
+            "quote": "June 2026 | 51364 | Project Atom Load\nInterconnection | West | ITCM | IA/Zone 3 | 300 | 6/1/2028 | Under Study",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -8112,6 +8852,106 @@
           {
             "claim": "CAISO and PACE areas passed 100 percent of the time the resource sufficiency evaluation while PACW passed over 97 percent of the time",
             "quote": "The CAISO and PACE areas passed 100 percent of the time the resource sufficiency evaluation while PACW passed over 97 percent of the time",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Pre-Market Simulation Training for Inter-Scheduling Coordinators (SCs) Trades Extended Day-Ahead Market (EDAM) Enhancements 2026",
+        "filename": "presentation-pre-market-simulation-training-for-inter-scheduling-coordinators-scs-trades-extended-day-ahead-market-edam-enhancements-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-pre-market-simulation-training-for-inter-scheduling-coordinators-scs-trades-extended-day-ahead-market-edam-enhancements-2026.pdf",
+        "posted_date": "2026-07-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Inter-SC trade mechanics in EDAM/WEIM touch settlement and bilateral procurement processes that hydro and other resource owners use to reconcile double-settlement exposures and manage revenue; the document trains SCs (scheduling coordinators, a role hydro operators typically hold) on the operational procedures for trades across the expanding regional markets.",
+        "ai_summary": "CAISO held a training session on July 7, 2026, introducing Scheduling Coordinators (SCs) participating in the Western Energy Imbalance Market (WEIM) and Extended Day-Ahead Market (EDAM) to inter-SC trade functionality for energy. Inter-SC trades are optional settlement services that allow two SCs to reconcile bilateral-procurement arrangements and \"flip the money\" to reverse double-settlement exposures, without affecting dispatch or scheduling of resources. The training covers three types of energy trades: Physical trades (PHY) backed by a generating unit, allowing submission seven days prior through 11:00 hours the day before; Aggregated Pricing Node trades (APN) at trading hubs or default load-aggregation points; and Converted Physical trades (CPT), where a PHY that exceeds the day-ahead schedule of its resource becomes a hub-based trade. Day-ahead trades are settled hourly at the resource pnode/apnode locational margin prices (Charge Code 6301); real-time trades are settled at the average of four fifteen-minute-market interval LMPs (Charge Code 6371). SCs must submit matching trades in the SIBR (Scheduling Infrastructure & Business Rules) application and continue to submit energy bids in the day-ahead and real-time markets per standard rules. A market simulation with structured scenarios is scheduled for July 20\u2013August 1, 2026, with connectivity testing July 6\u201319, 2026.",
+        "hydro_read_through": "The document does not mention hydropower, pumped storage, or run-of-river resources directly. However, inter-SC trades are a core settlement mechanism for dispatchable resources\u2014including large conventional hydro and pumped-storage plants\u2014that sell into bilateral contracts while also participating in WEIM/EDAM market-clearing. Hydro operators typically hold SC certification and use trades to manage the divergence between their contracted supply price and the nodal LMP at their resource location, a critical lever for revenue alignment across multi-zone markets. The expansion of this functionality from California ISO to WEIM and EDAM participants directly affects how hydro SCs in new member zones (PacifiCorp, Idaho Power, Puget Sound Energy, etc.) will reconcile bilateral sales with market settlement; getting the operational procedures right in simulation before the August activation date is essential to avoid settlement disputes and cash-flow mismatches on existing contracts.",
+        "source_names_hydro": false,
+        "topics": [
+          "seams-governance",
+          "price-formation",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "training date",
+            "quote": "July 7, 2026",
+            "verified": true
+          },
+          {
+            "claim": "physical trade submission window in day-ahead market",
+            "quote": "Submit beginning seven days prior to trade date and up to 11:00 hours the day before trade date",
+            "verified": false
+          },
+          {
+            "claim": "day-ahead settlement by charge code",
+            "quote": "Settled hourly based on corresponding physical resource pnode/apnode DA LMPs (CC 6301)",
+            "verified": false
+          },
+          {
+            "claim": "real-time settlement by charge code",
+            "quote": "Settled hourly based on the average of 4 FMM intervals on corresponding pnode/apnode LMPs",
+            "verified": false
+          },
+          {
+            "claim": "market simulation structured scenario dates",
+            "quote": "7/20/26 \u2013 8/1/26",
+            "verified": true
+          },
+          {
+            "claim": "connectivity testing dates",
+            "quote": "7/6/26 \u2013 7/19/26",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Radha Madrigal",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Q&A - Pre-Market Simulation Training for Inter-Scheduling Coordinator Trades - EDAM Enhancements 2026",
+        "filename": "q-a-pre-market-simulation-training-for-inter-scheduling-coordinator-trades-edam-enhancements-2026.pdf",
+        "url": "https://www.caiso.com/documents/q-a-pre-market-simulation-training-for-inter-scheduling-coordinator-trades-edam-enhancements-2026.pdf",
+        "posted_date": "2026-07-22",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "EDAM Inter-SC Trade settlement mechanics directly affect how generation resources (including hydro and storage) participate in day-ahead and real-time market settlement, matching, and bilateral transaction reporting \u2014 a core obligation for hydro operators participating in CAISO/EDAM.",
+        "ai_summary": "CAISO's Q&A document clarifies operational procedures for Inter-SC Trades (ISTs) \u2014 bilateral physical trades between scheduling coordinators in EDAM that settle through ISO processes. ISTs apply to GEN (generation) and NGR (non-generating) resources but explicitly exclude TIE-GEN resources currently; both counterparty scheduling coordinators must submit matching trade entries (name, quantity, location) or trades will appear as 'Missing Trade' in the SIBR system. Validation occurs after day-ahead market publication; trade information appears in CAISO Bill Determinants files (IST_ID and DEPEND_ON_NAME attributes) and in the SIBR Trades window for seven days. The document confirms ISTs are optional and do not replace e-tag filing requirements for interchange transactions.",
+        "hydro_read_through": "This document does not mention hydropower or pumped storage directly. However, it establishes the settlement and matching infrastructure for bilateral generation trades under EDAM \u2014 a key operational pathway for hydro owners and PSH operators managing inter-region sales or bilateral energy swaps. The specificity around matching rules, missing-trade identification, and settlement-file attributes matters because mismatches block revenue settlement; hydro operators using ISTs to market bilateral production across EDAM participants will need to coordinate with counterparties on exact trade names and locations to avoid unmatched-trade penalties in settlement.",
+        "source_names_hydro": false,
+        "topics": [
+          "seams-governance",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "ISTs apply to GEN (generation) and NGR (non-generating) resources but exclude TIE-GEN resources currently",
+            "quote": "The current implementation supports IST Trades only for physical generation (GEN) resources and does not support TIE-GEN resources. Under the current design, TIE-GEN resources are not associated with a Trading Hub, which is a requirement for IST Trades.",
+            "verified": true
+          },
+          {
+            "claim": "Validation occurs after day-ahead market publication",
+            "quote": "The validation occurs after the DAM Publishes.",
+            "verified": true
+          },
+          {
+            "claim": "Trade information appears in CAISO Bill Determinants files with IST_ID and DEPEND_ON_NAME attributes",
+            "quote": "The trade name appears in the CAISO Bill Determinants file and is listed as the IST_ID attribute...The resources listed in the Depend on trade field in SIBR will be shown in the CAISO Bill Determinants file as the DEPEND_ON_NAME attribute.",
+            "verified": false
+          },
+          {
+            "claim": "SIBR Trades window retains trade information for seven days",
+            "quote": "From a trading perspective, IST information is currently available through the Trades window in SIBR for up to seven days.",
             "verified": true
           }
         ],
@@ -8705,7 +9545,7 @@
         "title": "Agenda",
         "filename": "20260730-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260730/20260730-agenda.pdf",
-        "posted_date": "2026-07-28",
+        "posted_date": "2026-08-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This is a routine SOS meeting agenda containing administrative procedural items (approval of minutes, operational updates, tool releases, training subcommittee items, compliance updates, and future meeting dates) with no substantive market-design content touching hydro revenue, compliance obligations, or strategic options.",
         "ai_summary": null,
@@ -8753,7 +9593,7 @@
         "title": "Agenda Doc",
         "filename": "20260730-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260730/20260730-agenda-doc.docx",
-        "posted_date": "2026-07-28",
+        "posted_date": "2026-08-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This is a routine meeting agenda containing administrative logistics, governance boilerplate (antitrust, code of conduct, meeting mechanics), and brief operational updates with no substantive market-design content affecting hydro or PSH revenue, obligations, or strategic options.",
         "ai_summary": null,
@@ -9425,7 +10265,7 @@
         "title": "Item Iii \u2013 Caps Pieoug Wholesale Cost TO Customers \u2013 Presentation",
         "filename": "20260730-item-iii---caps-pieoug-wholesale-cost-to-customers---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/user-groups/pieoug/2026/20260730/20260730-item-iii---caps-pieoug-wholesale-cost-to-customers---presentation.pdf",
-        "posted_date": "2026-07-30",
+        "posted_date": "2026-08-03",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -12791,6 +13631,16 @@
       },
       {
         "rto": "ERCOT",
+        "native_id": "NPRR1292",
+        "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "BOARD",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
+      },
+      {
+        "rto": "ERCOT",
         "native_id": "NPRR1301",
         "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
         "status": "Pending",
@@ -12798,6 +13648,36 @@
         "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1319",
+        "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "BOARD",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1320",
+        "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "BOARD",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1326",
+        "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "BOARD",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
       },
       {
         "rto": "ERCOT",
@@ -12818,6 +13698,16 @@
         "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/PGRR123"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "PGRR128",
+        "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "BOARD",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/PGRR128"
       },
       {
         "rto": "ERCOT",
@@ -12983,6 +13873,16 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1292",
+            "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
             "status": "Pending",
@@ -12990,6 +13890,36 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1319",
+            "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1320",
+            "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1326",
+            "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
           {
             "rto": "ERCOT",
@@ -13010,6 +13940,16 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR123"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "PGRR128",
+            "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
           {
             "rto": "ERCOT",
@@ -13156,6 +14096,16 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1292",
+            "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
             "status": "Pending",
@@ -13163,6 +14113,36 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1319",
+            "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1320",
+            "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1326",
+            "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
           {
             "rto": "ERCOT",
@@ -13183,6 +14163,16 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR123"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "PGRR128",
+            "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
           {
             "rto": "ERCOT",
@@ -13329,6 +14319,16 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1292",
+            "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
             "status": "Pending",
@@ -13336,6 +14336,36 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1319",
+            "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1320",
+            "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1326",
+            "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
           {
             "rto": "ERCOT",
@@ -13356,6 +14386,16 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR123"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "PGRR128",
+            "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
           {
             "rto": "ERCOT",
@@ -13477,6 +14517,16 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1292",
+            "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
             "status": "Pending",
@@ -13484,6 +14534,36 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1319",
+            "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1320",
+            "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1326",
+            "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
           {
             "rto": "ERCOT",
@@ -13504,6 +14584,16 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR123"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "PGRR128",
+            "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
           {
             "rto": "ERCOT",
@@ -31066,7 +32156,7 @@
       },
       {
         "type": "agenda",
-        "title": "Draft Agenda - ISO Board of Governors - Sep 10-11, 2025",
+        "title": "Final Agenda - ISO Board of Governors - Sep 10-11, 2025",
         "filename": "agenda-iso-board-of-governors-sep-10-11-2025.pdf",
         "url": "https://www.caiso.com/documents/agenda-iso-board-of-governors-sep-10-11-2025.pdf",
         "posted_date": null,
@@ -39997,12 +41087,12 @@
   {
     "title": "SPF Meeting",
     "date": "2026-07-20",
-    "time": "10:00 a.m. - 12:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "SPF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={FA09280A-87EE-46CC-A294-701D6D364A29}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={EB1E973F-4DFF-4889-9241-C5351AF4561D}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SPF (Security and Planning Forum) is a stakeholder advisory committee focused on physical and cybersecurity, emergency preparedness, and business continuity planning\u2014topics with no bearing on hydro revenue mechanisms, participation rules, capacity/energy pricing, or strategic market-design options.",
     "issues": [],
@@ -42758,7 +43848,7 @@
         "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
         "status": "Pending",
         "stakeholder_phase": "Revision Request Consideration",
-        "committee_owner": "TAC",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
       },
@@ -42768,7 +43858,7 @@
         "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
         "status": "Pending",
         "stakeholder_phase": "Revision Request Consideration",
-        "committee_owner": "TAC",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
       },
@@ -42778,7 +43868,7 @@
         "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
         "status": "Pending",
         "stakeholder_phase": "Revision Request Consideration",
-        "committee_owner": "TAC",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
       },
@@ -42919,7 +44009,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -42929,7 +44019,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -42939,7 +44029,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -43094,7 +44184,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -43104,7 +44194,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -43114,7 +44204,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -43269,7 +44359,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -43279,7 +44369,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -43289,7 +44379,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -43434,7 +44524,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -43444,7 +44534,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -43454,7 +44544,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -43592,7 +44682,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -43602,7 +44692,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -43612,7 +44702,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -47896,7 +48986,7 @@
         "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
         "status": "Pending",
         "stakeholder_phase": "Revision Request Consideration",
-        "committee_owner": "TAC",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/PGRR128"
       },
@@ -47956,7 +49046,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48021,7 +49111,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48079,7 +49169,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48141,7 +49231,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48248,7 +49338,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48306,7 +49396,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48368,7 +49458,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48430,7 +49520,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48492,7 +49582,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48561,7 +49651,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48629,7 +49719,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48694,7 +49784,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48752,7 +49842,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48810,7 +49900,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48872,7 +49962,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -48961,7 +50051,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -49036,7 +50126,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -49153,7 +50243,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -49218,7 +50308,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -49283,7 +50373,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -49341,7 +50431,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -49403,7 +50493,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -83972,7 +85062,7 @@
         "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
         "status": "Pending",
         "stakeholder_phase": "Revision Request Consideration",
-        "committee_owner": "TAC",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
       },
@@ -83992,7 +85082,7 @@
         "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
         "status": "Pending",
         "stakeholder_phase": "Revision Request Consideration",
-        "committee_owner": "TAC",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
       },
@@ -84002,7 +85092,7 @@
         "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
         "status": "Pending",
         "stakeholder_phase": "Revision Request Consideration",
-        "committee_owner": "TAC",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
       },
@@ -84012,7 +85102,7 @@
         "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
         "status": "Pending",
         "stakeholder_phase": "Revision Request Consideration",
-        "committee_owner": "TAC",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
       },
@@ -84143,7 +85233,7 @@
             "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
           },
@@ -84163,7 +85253,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -84173,7 +85263,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -84183,7 +85273,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -84324,7 +85414,7 @@
             "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
           },
@@ -84344,7 +85434,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -84354,7 +85444,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -84364,7 +85454,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -84496,7 +85586,7 @@
             "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
           },
@@ -84516,7 +85606,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -84526,7 +85616,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -84536,7 +85626,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -84677,7 +85767,7 @@
             "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
           },
@@ -84697,7 +85787,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -84707,7 +85797,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -84717,7 +85807,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -84882,7 +85972,7 @@
             "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
           },
@@ -84902,7 +85992,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -84912,7 +86002,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -84922,7 +86012,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -85050,7 +86140,7 @@
             "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
           },
@@ -85070,7 +86160,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -85080,7 +86170,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -85090,7 +86180,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -85225,7 +86315,7 @@
             "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
           },
@@ -85245,7 +86335,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -85255,7 +86345,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -85265,7 +86355,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -85397,7 +86487,7 @@
             "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
           },
@@ -85417,7 +86507,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -85427,7 +86517,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -85437,7 +86527,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -85576,7 +86666,7 @@
             "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
           },
@@ -85596,7 +86686,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -85606,7 +86696,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -85616,7 +86706,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -85751,7 +86841,7 @@
             "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
           },
@@ -85771,7 +86861,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -85781,7 +86871,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -85791,7 +86881,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -85919,7 +87009,7 @@
             "canonical_name": "NPRR1292 \u2014 Granular Product Type for CRR TOU",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1292"
           },
@@ -85939,7 +87029,7 @@
             "canonical_name": "NPRR1319 \u2014 Clarification to Seasonal Mothball Evaluation Process",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1319"
           },
@@ -85949,7 +87039,7 @@
             "canonical_name": "NPRR1320 \u2014 Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1320"
           },
@@ -85959,7 +87049,7 @@
             "canonical_name": "NPRR1326 \u2014 Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1326"
           },
@@ -91070,7 +92160,7 @@
         "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
         "status": "Pending",
         "stakeholder_phase": "Revision Request Consideration",
-        "committee_owner": "TAC",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/PGRR128"
       },
@@ -91171,7 +92261,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -91318,7 +92408,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -91420,7 +92510,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -91571,7 +92661,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -91669,7 +92759,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -91767,7 +92857,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -91887,7 +92977,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
@@ -91996,7 +93086,7 @@
             "canonical_name": "PGRR128 \u2014 Regional Planning Group Discussion of Grid Enhancing Technologies",
             "status": "Pending",
             "stakeholder_phase": "Revision Request Consideration",
-            "committee_owner": "TAC",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR128"
           },
