@@ -52,6 +52,14 @@ def init_db(db_path=None):
             title TEXT,
             filename TEXT,
             download_url TEXT NOT NULL,
+            -- Where to send a human. download_url is a pipeline address and
+            -- is not always clickable: SPP's is a .zip plus a '#z=<entry>'
+            -- fragment that browsers drop, and SPP re-posts bundles under new
+            -- filenames so the zip URL rots. member_url holds a stable page
+            -- (SPP: the folder page, keyed by folder id) for any row whose
+            -- download_url isn't fit to hand to a member. NULL elsewhere —
+            -- consumers fall back to download_url.
+            member_url TEXT,
             local_path TEXT,
             file_size INTEGER,
             content_type TEXT,
@@ -136,20 +144,21 @@ def upsert_meeting(conn, rto, committee, title, meeting_date,
 
 def upsert_document(conn, meeting_id, rto, download_url,
                     doc_type=None, title=None, filename=None,
-                    posted_date=None):
+                    posted_date=None, member_url=None):
     """Insert or update a document record. Returns the document ID."""
     cursor = conn.cursor()
     cursor.execute("""
         INSERT INTO documents (meeting_id, rto, download_url, doc_type,
-                               title, filename, posted_date)
-        VALUES (?, ?, ?, ?, ?, ?, ?)
+                               title, filename, posted_date, member_url)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(download_url) DO UPDATE SET
             doc_type = COALESCE(excluded.doc_type, doc_type),
             title = COALESCE(excluded.title, title),
             filename = COALESCE(excluded.filename, filename),
-            posted_date = COALESCE(excluded.posted_date, posted_date)
+            posted_date = COALESCE(excluded.posted_date, posted_date),
+            member_url = COALESCE(excluded.member_url, member_url)
     """, (meeting_id, rto, download_url, doc_type, title, filename,
-          posted_date))
+          posted_date, member_url))
     conn.commit()
 
     row = cursor.execute(
@@ -194,6 +203,8 @@ def migrate_db(conn):
         row[1] for row in conn.execute("PRAGMA table_info(documents)").fetchall()
     }
     doc_additions = [
+        # Human-facing link where download_url isn't clickable (SPP zips).
+        ("member_url",                "TEXT"),
         ("extracted_text",            "TEXT"),
         ("extracted_at",              "TIMESTAMP"),
         ("hydro_relevant",            "INTEGER"),
@@ -739,6 +750,10 @@ def export_calendar_json(conn, output_path=None):
                         "title": doc["title"],
                         "filename": doc["filename"],
                         "url": doc["download_url"],
+                        # Clickable stand-in where `url` is a pipeline address
+                        # (SPP zip + '#z=' fragment). Null everywhere else; the
+                        # UI falls back to `url`.
+                        "member_url": doc["member_url"],
                         "posted_date": doc["posted_date"],
                         "hydro_relevant": bool(doc["hydro_relevant"]) if doc["hydro_relevant"] is not None else None,
                         "hydro_relevance_reason": doc["hydro_relevance_reason"],
@@ -810,6 +825,7 @@ def export_hydro_corpus(conn, json_path=None, csv_path=None):
     """
     rows = conn.execute("""
         SELECT d.id, d.rto, d.doc_type, d.title, d.filename, d.download_url,
+               d.member_url,
                d.posted_date, d.ai_summary, d.hydro_relevance_reason,
                d.hydro_read_through, d.source_names_hydro,
                d.topics, d.directness, d.evidence,
@@ -874,6 +890,11 @@ def export_hydro_corpus(conn, json_path=None, csv_path=None):
                 None if r["source_names_hydro"] is None
                 else bool(r["source_names_hydro"])),
             "url": r["download_url"],
+            # SPP's `url` is a zip + '#z=' fragment that browsers drop, and the
+            # zip filename rots when SPP re-posts the bundle. Anything putting a
+            # link in front of a member should prefer this: the folder page,
+            # keyed by folder id, which survives the re-upload. Null elsewhere.
+            "member_url": r["member_url"],
         })
 
     if json_path:
@@ -889,7 +910,7 @@ def export_hydro_corpus(conn, json_path=None, csv_path=None):
                 "doc_type", "title", "posted_date", "relevance_reason",
                 "topics", "directness", "source_names_hydro", "evidence",
                 "initiatives", "stakeholders", "ai_summary",
-                "hydro_read_through", "url"]
+                "hydro_read_through", "url", "member_url"]
         # utf-8-sig so Excel renders en-dashes etc. in summaries cleanly.
         with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
             writer = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")

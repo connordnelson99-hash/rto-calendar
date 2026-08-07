@@ -362,8 +362,14 @@ class SPPScraper(BaseRTOScraper):
                 seen.add(download_url)
 
                 if filename.lower().endswith(".zip"):
-                    documents.extend(self._zip_member_docs(download_url, filename))
+                    documents.extend(
+                        self._zip_member_docs(download_url, filename, folder_url))
                 else:
+                    # A loose file (minutes, a standalone agenda PDF) already
+                    # has a direct, clickable URL to the exact document. No
+                    # member_url — swapping that for the folder page would be
+                    # strictly worse, sending a reader to a 100-file list to
+                    # re-find something we could have linked outright.
                     title = link_text or filename
                     documents.append({
                         "download_url": download_url,
@@ -374,11 +380,17 @@ class SPPScraper(BaseRTOScraper):
                     })
         return documents
 
-    def _zip_member_docs(self, zip_url, zip_name):
+    def _zip_member_docs(self, zip_url, zip_name, folder_url=None):
         """One document row per surfaced file inside the zip. Each row's
         download_url is the zip + a '#z=<entry>' fragment (browser downloads the
         whole bundle; _download_document reads the fragment to extract that one
-        file's text). Falls back to a single bundle row if the listing fails."""
+        file's text). Falls back to a single bundle row if the listing fails.
+
+        `folder_url` rides along as member_url: the '#z=' address is for
+        extraction only, and the zip filename it points at is not durable —
+        SPP re-posts bundles under new names ("... (4).zip", "... Updated
+        Meeting Materials.zip", typo fixes) and the old URL 404s. The folder
+        page is keyed by folder id, so it survives the re-upload."""
         try:
             entries, _ = self._outer_central_dir(zip_url)
         except Exception as e:
@@ -387,6 +399,7 @@ class SPPScraper(BaseRTOScraper):
         if not entries:
             return [{
                 "download_url": zip_url,
+                "member_url": folder_url,
                 "doc_type": self._spp_doc_type(zip_name, zip_name),
                 "title": zip_name,
                 "filename": zip_name,
@@ -404,6 +417,7 @@ class SPPScraper(BaseRTOScraper):
             title = f"{inner}  [in {zip_name}]"
             rows.append({
                 "download_url": zip_url + "#z=" + quote(name, safe=""),
+                "member_url": folder_url,
                 "doc_type": self._spp_doc_type(inner, inner),
                 "title": title,
                 "filename": inner,

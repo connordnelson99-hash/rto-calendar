@@ -63,6 +63,16 @@ jobs:
         working-directory: rto-docs
         run: python run_scrapers.py --prune-text 60
 
+      - name: Backfill SPP member_url on pre-existing rows
+        # The SPP scraper now records a folder-page member_url alongside the
+        # '#z=' extraction address, but only for rows it re-reads. This fills
+        # the rows scraped before the column existed, from their meeting's
+        # folder page. Idempotent (only touches member_url IS NULL) and cheap,
+        # so it also self-heals any row a future scrape misses.
+        # Must run BEFORE the export so the JSON carries the durable links.
+        working-directory: rto-docs
+        run: python backfill_spp_member_url.py
+
       - name: Re-export calendar JSON
         working-directory: rto-docs
         run: python run_scrapers.py --export-only
