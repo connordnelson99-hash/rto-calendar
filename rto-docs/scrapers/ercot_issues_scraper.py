@@ -43,6 +43,8 @@ from html import unescape
 from pathlib import Path
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from db.database import (
@@ -120,6 +122,16 @@ class ERCOTIssuesScraper:
                 "Chrome/120.0.0.0 Safari/537.36"
             ),
         })
+        # ERCOT occasionally closes a connection without responding
+        # (observed 2026-08-07 on the vcmrr list page). urllib3 counts
+        # that as a read error and replays the GET, so a blip costs a
+        # few seconds of backoff instead of the whole scraper.
+        self.session.mount("https://", HTTPAdapter(max_retries=Retry(
+            total=3,
+            backoff_factor=1,
+            status_forcelist=(502, 503, 504),
+            allowed_methods=("GET",),
+        )))
         self._last_request_time = 0.0
 
     # ── Public entrypoint ────────────────────────────────────────
@@ -142,8 +154,17 @@ class ERCOTIssuesScraper:
 
         try:
             stubs = []
+            failed_types = []
             for rr_type in self.RR_TYPES:
-                rows = self._scrape_list(rr_type)
+                # One unreachable list page shouldn't cost the other
+                # nine types; note it and carry on. Still surfaced as a
+                # scraper failure at the end, once the rest is stored.
+                try:
+                    rows = self._scrape_list(rr_type)
+                except Exception as e:
+                    failed_types.append(rr_type)
+                    print(f"  {rr_type.upper():8} SKIPPED: {e}")
+                    continue
                 stubs.extend(rows)
                 if rows:
                     print(f"  {rr_type.upper():8} {len(rows)} listed")
@@ -198,6 +219,14 @@ class ERCOTIssuesScraper:
             print(f"\n  References: {stats['doc_matched']} doc-matched, "
                   f"{stats['meeting_matched']} meeting-matched, "
                   f"{stats['unmatched']} unmatched (external)")
+
+            if failed_types:
+                # upsert_issue commits per row, so the healthy types are
+                # already stored. Raise only to flag the gap, matching
+                # the workflow's publish-then-fail ordering.
+                raise RuntimeError(
+                    "list page(s) unreachable after retries: "
+                    + ", ".join(t.upper() for t in failed_types))
 
             duration = time.time() - start
             log_scrape(conn, self.rto_name, "issues",
