@@ -666,7 +666,25 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A generic 'Market Update' title without specific agenda items or topics disclosed provides no basis to determine whether it will address hydropower-relevant mechanisms such as revenue treatment, compliance obligations, or strategic options.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "Meeting Minutes - Market Update Aug 06, 2026",
+        "filename": "meeting-minutes-market-update-aug-06-2026.pdf",
+        "url": "https://www.caiso.com/documents/meeting-minutes-market-update-aug-06-2026.pdf",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "2026 Variable Cost Operations Review - Final Proposal and Tariff",
@@ -853,6 +871,44 @@
             "entity": "MISO",
             "role": "presenter (miso liaison)",
             "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "New Issue - Evaluation of Outage Policies in the Resource Adequacy Construct.pdf",
+        "filename": "New Issue - Evaluation of Outage Policies in the Resource Adequacy Construct.pdf",
+        "url": "https://cdn.misoenergy.org/New%20Issue%20-%20Evaluation%20of%20Outage%20Policies%20in%20the%20Resource%20Adequacy%20Construct773459.pdf",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Outage policies in MISO's resource adequacy construct directly affect how all dispatchable resources\u2014including hydro and PSH\u2014must plan and report outages, which touches compliance obligations and incentive alignment for meeting capacity commitments.",
+        "ai_summary": "MISO is evaluating its 31-day outage rule, replacement rules, and planned outage exemptions within the Resource Adequacy construct to assess whether current policies align with three intended purposes: incentivizing resources to meet capacity obligations, promoting prudent outage planning, and ensuring availability during periods of highest reliability risk. The issue relates to but is broader than prior work on RASC 2025-2A, which also addressed the 31-day rule and replacement rules. No specific resolution deadline is stated. The evaluation spans settlements, day-ahead and real-time energy and ancillary services markets, capacity accreditation rules, and operational performance standards.",
+        "hydro_read_through": "The document does not mention hydro or pumped storage directly. However, outage policies are compliance obligations affecting all dispatchable resources: how long plants can be down, which outages require replacement, and which are exempted shapes a hydro owner's operational flexibility and its accreditation treatment under capacity rules. If MISO tightens the 31-day rule or narrows exemptions, it would reduce the scheduling flexibility available to conventional and pumped-storage facilities during planned maintenance and refurbishment.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "MISO is evaluating the 31-day outage rule, replacement rules, and planned outage exemptions to assess whether current outage policies in the Resource Adequacy construct are aligned with the intended purposes: to incentivize resources to meet their capacity obligations, plan outages prudently, and be available during periods of highest reliability risk.",
+            "quote": "MISO is evaluating the 31-day outage rule, replacement rules, and planned outage exemptions to assess whether current outage policies in the Resource Adequacy construct are aligned with the intended purposes: to incentivize resources to meet their capacity obligations, plan outages prudently, and be available during periods of highest reliability risk.",
+            "verified": true
+          },
+          {
+            "claim": "The issue relates to RASC 2025-2A but is broader, also including planned outage exemptions.",
+            "quote": "Yes, the proposed issue is related to RASC 2025-2A. Both issues include the 31-day outage rule and replacement rules within scope. However, the proposed issue is broader, also including planned outage exemptions.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Leah Wolfe",
+            "entity": "MISO",
+            "role": "author",
+            "email": "lwolfe@misoenergy.org"
           }
         ]
       }
@@ -1158,7 +1214,105 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Loss of Load Expectation (LoLE) studies directly inform resource-adequacy assessments and capacity-market design that determine how hydro and storage are accredited and valued in MISO's energy market.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20260817 LOLEWG Item 01c Minutes 20260623.pdf",
+        "filename": "20260817 LOLEWG Item 01c Minutes 20260623.pdf",
+        "url": "https://cdn.misoenergy.org/20260817%20LOLEWG%20Item%2001c%20Minutes%2020260623769466.pdf",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's LOLE study directly affects seasonal capacity accreditation (ELCC/DLOL) for all resources including hydro and storage, and determines Planning Reserve Margin Requirements that shape capacity-market outcomes, revenue adequacy, and seasonal reliability obligations for NHA members.",
+        "ai_summary": "MISO's Loss of Load Expectation Working Group met June 23, 2026, to review inputs and methodology for the Planning Year 2027\u20132028 LOLE study that determines seasonal resource-adequacy targets and capacity accreditation. Key updates include: adoption of enhanced wind profiles expected to alter wind and storage ELCC values, particularly in spring; shift from annual to seasonal LOLE targets (0.1 days/year overall, 0.01 days/year seasonal floor) to reflect year-round reliability risks; and refinements to load-forecast uncertainty modeling to capture increasing winter and spring peak-demand growth. MISO projects preliminary Capacity Import Limit (CIL) and Capacity Export Limit (CEL) results for September 2026. Stakeholders were invited to provide feedback by July 7, 2026, on load modeling, wind-profile treatment, and capacity assumptions.",
+        "hydro_read_through": "Seasonal LOLE accreditation directly sets the ELCC or DLOL percentage (effective capacity credit) that conventional hydro and pumped-storage units receive in MISO's capacity auction, determining revenue from the Planning Resource Auction. The enhanced wind profiles and shifted critical-hour distributions announced here will revalue storage accreditation\u2014specifically reducing winter and spring storage DLOL percentages due to longer multi-hour high-risk periods\u2014and alter the seasonal reliability targets against which all resources' contributions are measured. If winter/spring LOLE requirements tighten, hydro's ability to serve those seasonal peaks becomes more valuable; conversely, accreditation changes directly affect how much capacity hydro can offer and at what seasonal premium.",
+        "source_names_hydro": true,
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "load-growth"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Seasonal LOLE targets: 0.1 days/year annual, 0.01 days/year seasonal minimum",
+            "quote": "MISO continues to utilize an annual LOLE target of 0.1 days/year, with seasonal minimum thresholds of 0.01 days/year",
+            "verified": true
+          },
+          {
+            "claim": "Stakeholder feedback deadline on load modeling and CIL/CEL assumptions",
+            "quote": "Stakeholders were invited to provide feedback by July 7, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Enhanced wind profiles will be adopted in PY 2027\u20132028 LOLE cycle",
+            "quote": "MISO plans to adopt these enhanced profiles in the PY 2027\u20132028 LOLE cycle, pending final review",
+            "verified": true
+          },
+          {
+            "claim": "Storage DLOL accreditation changes from enhanced wind profiles",
+            "quote": "enhanced wind profiles reduce winter and spring storage DLOL percentages, reflecting more multi-hour high-risk periods",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ryan Kelley",
+            "entity": null,
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Trey Mayeux",
+            "entity": "Cleco",
+            "role": "vice chair",
+            "email": null
+          },
+          {
+            "name": "Eric Thoms",
+            "entity": "Invenergy",
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "Amanda Jones",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Forrest Hickey",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jacob Zhang",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mike Colenso",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Neil Shah",
+            "entity": "MISO",
+            "role": "miso liaison",
+            "email": null
+          },
+          {
+            "name": "Yong Jiang",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "MISO-PJM IPSAC - August 17, 2026",
@@ -2004,6 +2158,85 @@
     "meeting_hydro_reason": "EDAM is a multi-state market-seams initiative directly affecting Western hydro participation and revenue, and congestion-revenue allocation rules shape locational scarcity signals and transmission-constraint rents that influence hydro dispatch economics and strategic positioning across the CAISO footprint and interconnected regions.",
     "issues": [],
     "documents": []
+  },
+  {
+    "title": "TAC Workshop - IMM State of the Market Report",
+    "date": "2026-08-13",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Operations Training Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08132026-TAC-Workshop-_-IMM",
+    "materials_url": "https://www.ercot.com/calendar/08132026-TAC-Workshop-_-IMM",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Independent Market Monitor's State of the Market Report for ERCOT covers energy market design, price formation, and operational mechanisms that serve as comparative benchmarks for understanding how other RTOs (including hydro-rich markets) address similar issues in ancillary services, capacity, and flexibility procurement.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "TAC Workshop - IMM State of the Market Report Agenda 2026-08-13",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/08132026-TAC-Workshop-_-IMM#agenda",
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT's State of the Market Report is a foundational market-monitor analysis covering price formation, capacity, and market performance \u2014 comparable to reports hydro-centric RTOs publish, and thus valuable as cross-market precedent and baseline for how ERCOT's storage, frequency response, and capacity mechanisms diverge from hydro-rich markets.",
+        "ai_summary": "This document is an agenda for an ERCOT TAC Workshop featuring the Independent Market Monitor's State of the Market presentation on 2026-08-13, with time for stakeholder comments and next steps. The specific report content is not included in this agenda excerpt.",
+        "hydro_read_through": "The document does not address hydropower or pumped storage directly. However, ERCOT's State of the Market Report is a regular monitor product that typically covers energy and ancillary-services price formation, capacity accreditation and performance, and storage participation \u2014 all areas where ERCOT's design differs from hydro-abundant RTOs (WECC, NYISO, PJM). Tracking the IMM's findings on frequency response procurement, scarcity pricing, and storage treatment helps contextualize what market-design choices are available to hydro-owning regions.",
+        "source_names_hydro": false,
+        "topics": [
+          "price-formation",
+          "capacity-ra",
+          "ancillary-services"
+        ],
+        "directness": "precedent",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Caitlin Smith",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jeff McDonald",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "agenda_IMM SOM tac_workshop_081326",
+        "filename": "agenda_IMM-SOM-tac_workshop_081326.docx",
+        "url": "https://www.ercot.com/files/docs/2026/08/06/agenda_IMM-SOM-tac_workshop_081326.docx",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a meeting agenda for an ERCOT TAC workshop featuring the Independent Market Monitor's State of the Market Report presentation; the agenda item titles do not disclose the content of the report or identify any market-design topics (price formation, ancillary services, capacity, storage participation, or other hydro-relevant mechanisms) that the presentation addresses.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Caitlin Smith",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Jeff McDonald",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "MDWG Net Conference",
@@ -5482,7 +5715,7 @@
         "title": "2026-08-11-13 MC A00 - Meeting Materials",
         "filename": "a00_meeting_materials.zip",
         "url": "https://www.iso-ne.com/static-assets/documents/100038/a00_meeting_materials.zip",
-        "posted_date": "2026-08-05",
+        "posted_date": "2026-08-06",
         "hydro_relevant": false,
         "hydro_relevance_reason": "Document metadata alone provides no content; with no text extracted, no mechanism touching hydropower revenue, compliance obligations, or strategic options can be identified.",
         "ai_summary": null,
@@ -5584,6 +5817,245 @@
             "name": "NESCOE",
             "entity": "New England States Committee on Electricity",
             "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-08-11-13 MC/RC/TC A02j: CAR-SA - Constellation Conceptual Amendment - Presentation",
+        "filename": "a02j_2026_08_11-13_mc_rc_tc_car-sa_constellation_conceptual_amendment_ambient_air_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100038/a02j_2026_08_11-13_mc_rc_tc_car-sa_constellation_conceptual_amendment_ambient_air_presentation.pdf",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The proposal addresses capacity accreditation for resources with temperature-dependent output reductions\u2014a mechanism that applies directly to conventional hydropower and other dispatchable resources whose summer output derates under elevated ambient conditions, affecting their seasonal capacity revenue and system responsibility shares in ISO-NE's Forward Capacity Market.",
+        "ai_summary": "Constellation proposes a Conceptual Amendment to ISO-NE's Capacity Accreditation and Responsibility (CAR-SA) mechanism for resources with known and predictable output reductions at elevated ambient temperatures. The proposal would change the treatment from a delist-bid approach to an offer-based approach using the formula: Ambient MWs = rMRI \u00d7 (Rating at 90\u00b0F \u2013 Rating at 100\u00b0F). Constellation argues this preserves current functionality and ensures a resource's capacity obligation corresponds accurately to its share of system requirements under stressed summer conditions, without double-counting ambient deratings that are excluded from both Resource Adequacy Analysis modeling and NERC GADS reporting guidance. The amendment is presented as addressing ISO's proposed CAR-SA rules and will proceed to further discussion.",
+        "hydro_read_through": "The document never names hydropower, but it addresses capacity accreditation for resources with output reductions at elevated ambient temperatures\u2014a physical characteristic conventional hydro shares with thermal units. Under ISO-NE's capacity market, a plant's seasonal-accreditation factor (rMRI) and resulting capacity obligation (Manifest Capacity Responsibility, or MRIC) determine its revenue and dispatch responsibilities; how ambient deratings are treated directly affects whether hydro is obligated to deliver more capacity than it physically can in peak-summer stress conditions, imposing financial penalties or forcing inefficient offer strategies. Constellation's proposal would scale the ambient-derate allowance with the plant's actual availability factor (rMRI) rather than capping it independently, which would restore the economic optionality of offering at true marginal cost. The outcome matters substantially to how often hydro owners must choose between overshooting their physical capability or accepting uneconomic obligation shortfalls.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "price-formation"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Ambient MWs formula: rMRI \u00d7 (Rating at 90\u00b0F \u2013 Rating at 100\u00b0F)",
+            "quote": "Ambient MWs = rMRI x (Rating at 90\u00b0F \u2013 Rating at 100\u00b0F)",
+            "verified": true
+          },
+          {
+            "claim": "Temperature-dependent output is not included in RAA modeling",
+            "quote": "The current lack of modeling capabilities that would allow for accurate representation of temperature dependency in the RAA.",
+            "verified": true
+          },
+          {
+            "claim": "NERC GADS guidance excludes ambient-condition deratings",
+            "quote": "Do not report deratings caused by ambient-related conditions",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Constellation",
+            "entity": "Constellation Energy",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2026-08-11-13 MC/RC/TC A02h CAR-SA: Impact Analysis - Market Clearing | 50/50 LOLE Split",
+        "filename": "a02h_2026_08_11-13_mc_rc_tc_car-sa_mc_ia_results_follow_up_50-50_lole_split_rev2.xlsx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100038/a02h_2026_08_11-13_mc_rc_tc_car-sa_mc_ia_results_follow_up_50-50_lole_split_rev2.xlsx",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document text could not be extracted; metadata alone (a title referencing 'Impact Analysis - Market Clearing | 50/50 LOLE Split' for CAR-SA proceeding) is insufficient to establish whether the content addresses hydro revenue, compliance obligations, or strategic options without the substantive text.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-08-11-13 MC/RC/TC A02h CAR-SA: Impact Analysis - Market Clearing | Input Data - 80/20 Demand Curve",
+        "filename": "a02h_2026_08_11-13_mc_rc_tc_car-sa_mc_ia_results_follow_up_80-20_lole_split.xlsx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100038/a02h_2026_08_11-13_mc_rc_tc_car-sa_mc_ia_results_follow_up_80-20_lole_split.xlsx",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "No text extracted from document \u2014 cannot assess content.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "2026-08-11-13 MC/RC/TC A02g.i: CAR-SA - FirstLight PFP BR - Presentation",
+        "filename": "a02g.i_2026_08_11-13_mc_rc_tc_car-sa_firstlight_pfp-br_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100038/a02g.i_2026_08_11-13_mc_rc_tc_car-sa_firstlight_pfp-br_presentation.pdf",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FirstLight proposes amendment to ISO-NE's Pay-for-Performance capacity mechanism to adjust the balancing-ratio cap governing over-performance payments for resources with capacity obligations, directly affecting how capacity revenue and performance incentives are calculated for all resource types including hydro.",
+        "ai_summary": "FirstLight proposes to amend ISO-NE's CAR-SA (Capacity Accreditation and Resource Supply Obligation - Special Accreditation) Pay-for-Performance mechanism by adjusting the Balancing Ratio (BR) cap to account for the lower fleet-wide resource rating under MRIC (Marginal Resource Impact) accreditation versus prior MCAP (Maximum Capacity) accreditation. FERC Order directed ISO-NE to cap BR at 1.0 times CSO (Capacity Supply Obligation), but FirstLight argues that BR cap of 1.0\u00d7CSO under current QC-based accreditation does not equate to the same cap under CAR-SA MRIC-based accreditation. FirstLight's preferred solution proposes a fleet-wide BR cap calculated as 1 divided by the fleetwide rMRI of CSO resources (e.g., 1/0.74 = 1.35), with resource-specific adjustments and shortfall allocation to ensure no resource's obligation exceeds its physical MCAP while maintaining sufficient funding for over-performance payments that incentivize performance beyond CSO levels. The proposal is presented to the NEPOOL Markets Committee for consideration.",
+        "hydro_read_through": "ISO-NE's accreditation transition from MCAP to MRIC-based capacity rating reduces the capacity obligation assigned to all resource types, but under a strict 1.0 BR cap this creates a structural funding gap in the Pay-for-Performance mechanism\u2014over-performance payments would be severely underfunded even though the ISO explicitly wants to incentivize performance above the lowered CSO levels. Conventional hydro and other resources benefit directly from this mechanism because the balancing ratio cap determines the ceiling on over-performance payment rates available during scarcity events; if the cap is set too low relative to the accreditation methodology change, the PPR (Pay-for-Performance Rate) effectively collapses and hydro owners lose the revenue signal to perform. FirstLight's proposed adjustment of the BR cap upward (to ~1.35 in their example) is designed to restore the performance-incentive effect across the fleet, including for hydro and other non-CSO megawatts, by matching the cap to the lower accreditation baseline rather than capping at 1.0 absolute terms.",
+        "source_names_hydro": true,
+        "topics": [
+          "capacity-ra",
+          "price-formation",
+          "mitigation-offers"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "FERC Order directed ISO-NE to cap the Balancing Ratio at 1.0",
+            "quote": "The Commission found that it was unreasonable to require a resource with a Capacity Supply Obligation (CSO) to be required to perform beyond its physical capabilities and directed ISO -NE to cap the Balancing Ratio at 1.0.",
+            "verified": true
+          },
+          {
+            "claim": "CAR-SA MRIC accreditation results in capacity accreditation levels below physical maximum output capability",
+            "quote": "Unlike the present form of Qualified Capacity -based accreditation upon which the compliance direction was based, the MRIC accreditation under CAR -SA will, in all cases, have capacity accreditation levels below their physical maximum output capability.",
+            "verified": true
+          },
+          {
+            "claim": "FirstLight's preferred BR cap formula is 1 divided by fleetwide rMRI of CSO resources; example calculation: for fleetwide rMRI of 0.74, BR cap equals 1.35",
+            "quote": "\ud835\udc35\ud835\udc45 \ud835\udc36\ud835\udc4e\ud835\udc5d = 1 / \ud835\udc39\ud835\udc59\ud835\udc52\ud835\udc52\ud835\udc61\ud835\udc64\ud835\udc56\ud835\udc51\ud835\udc52 \ud835\udc5f\ud835\udc40\ud835\udc45\ud835\udc3c \ud835\udc5c\ud835\udc53 \ud835\udc36\ud835\udc46\ud835\udc42 \ud835\udc45\ud835\udc52\ud835\udc60\ud835\udc5c\ud835\udc62\ud835\udc5f\ud835\udc50\ud835\udc52\ud835\udc60 ... Example : For a fleetwide CSO rMRI = .74, then: 1 / .74 = 1.35",
+            "verified": false
+          },
+          {
+            "claim": "Under FirstLight's preferred solution in the example scenario, effective PPR is $3,102/MWh (89% of nominal $3,500 rate)",
+            "quote": "Example PFP Funding \u2013 Existing Rules $3,102/MWh $MM; Assumes PPR of $3,500 (89% of nominal $3,500 rate)",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "FirstLight",
+            "entity": "FirstLight Power Holdings",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-08-11-13 MC/RC/TC A02g.ii: CAR-SA - FirstLight Conceptual Amendment on Risk Split - Presentation",
+        "filename": "a02g.ii_2026_08_11-13_mc_rc_tc_car-sa_firstlight_risk_split_conceptual_amendment_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100038/a02g.ii_2026_08_11-13_mc_rc_tc_car-sa_firstlight_risk_split_conceptual_amendment_presentation.pdf",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FirstLight proposes an amendment to ISO-NE's capacity auction risk split and accreditation framework that would directly affect how non-energy-limited resources (including conventional hydropower and pumped-storage facilities) are accredited and receive capacity revenue based on system LOLE conditions rather than administratively fixed parameters.",
+        "ai_summary": "FirstLight proposes that ISO-NE's Capacity Auction and Related Services (CAR-SA) accreditation and risk-split parameters be set based on actual clearing outcomes and system LOLE from prior auctions rather than administratively set values. Under the proposal, resource accreditation would be based on the LOLE implied by clearing results from the prior same-season auction, and the risk split (used to calculate seasonal Net ICR) would be derived from the ratio of LOLE between the most recent winter and summer auction clearing results. The amendment includes a transition mechanism: until a full year of auction results is available, accreditation and risk split would use administratively set parameters (ISO's current proposal), with FirstLight accepting a 50/50 LOLE-based risk split for the first year. The presentation illustrates through two examples how an administratively set risk split misaligned with actual system conditions can distort pricing signals and new-entry incentives, and shows how improved resource accreditation could lower clearing prices and system costs.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage directly. However, the amendment addresses accreditation and capacity-market revenue for non-energy-limited resources (a category encompassing most conventional hydropower and pumped-storage facilities in ISO-NE). If adopted, shifting from fixed administrative risk-split to one derived from prior-auction LOLE would change the seasonal revenue signals that drive hydro owners' capacity-market revenue and entry/exit decisions. The amendment's rationale\u2014that accreditation should reflect realistic system conditions rather than a static 50/50 split\u2014suggests that in years when actual winter/summer risk differs materially from 50/50, hydro accreditation and clearing prices would increase or decrease accordingly, making capacity revenue more volatile but more aligned with actual seasonal scarcity.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "price-formation"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Accreditation would be based on LOLE from the prior same-season auction clearing results",
+            "quote": "Accredit resources based on LOLE implied by clearing results from the prior same-season auction",
+            "verified": false
+          },
+          {
+            "claim": "Risk split would be calculated from the ratio of LOLE between most recent winter and summer auctions",
+            "quote": "Risk split (for the purposes of calculating seasonal Net ICR) is calculated based on the ratio of LOLE between clearing results from most recent winter and summer seasons' auctions",
+            "verified": true
+          },
+          {
+            "claim": "Until a full year of auction results are available, accreditation and risk split would be administratively set",
+            "quote": "Until a full year of auction results are available, accreditation and risk split would be based on administratively-set risk split (same as ISO's current proposal)",
+            "verified": false
+          },
+          {
+            "claim": "FirstLight would accept a 50/50 risk split for the first year",
+            "quote": "FirstLight would be willing to accept a 50/50 risk split for the first year",
+            "verified": true
+          },
+          {
+            "claim": "In Example #1, the reference unit would recover 82% of its cost under 50/50 risk split but full cost under 80/20 split",
+            "quote": "Reference unit would only recover ~82% of its cost and therefore does not enter the market even though the system is at criterion",
+            "verified": false
+          },
+          {
+            "claim": "Net ICR changes when storage accreditation improves: summer MRIC increases from 27,029 to 27,894 and winter increases from 23,856 to 24,647",
+            "quote": "Net ICR (MW MRIC) 27,029 23,856 ... Net ICR (MW MRIC) 27,894 24,647",
+            "verified": false
+          }
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Cal Brooks",
+            "entity": "FirstLight",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -5913,6 +6385,47 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "report",
+        "title": "05. ERCOT_IT_Report_Aug_2026_RMS",
+        "filename": "05.-ERCOT_IT_Report_Aug_2026_RMS.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/08/06/05.-ERCOT_IT_Report_Aug_2026_RMS.pptx",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine IT operations and system-availability report on MarkeTrak (ERCOT's retail customer portal) and internal IT infrastructure; it contains no market-design, price-formation, capacity accreditation, storage participation, ancillary-service procurement, or interconnection content \u2014 the core axes that affect hydro revenue, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Vikram Gupta",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "09. TX SET LP WG_update_to_RMS_20260811",
+        "filename": "09.-TX-SET-LP-WG_update_to_RMS_20260811.ppt",
+        "url": "https://www.ercot.com/files/docs/2026/08/06/09.-TX-SET-LP-WG_update_to_RMS_20260811.ppt",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document addresses retail market settlement and billing mechanics (Texas SET LP) with no bearing on hydropower revenue streams, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -7132,6 +7645,247 @@
             "entity": "Potomac Economics (IMM South)",
             "role": "presenter",
             "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "20260807 ERSC Item 04 IMM South Report.pdf",
+        "filename": "20260807 ERSC Item 04 IMM South Report.pdf",
+        "url": "https://cdn.misoenergy.org/20260807%20ERSC%20Item%2004%20IMM%20South%20Report773495.pdf",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The IMM report on MISO South market outcomes addresses energy price formation, ancillary-services cost recovery through uplift, and capacity-accreditation mechanics that directly affect the procurement and pricing of products conventionally supplied by dispatchable resources including hydro.",
+        "ai_summary": "Potomac Economics' Independent Market Monitor presents a February\u2013June 2026 performance review of MISO South, finding the market remains competitive overall but identifying several design gaps. Energy prices are dominated by gas-cost correlation; capacity costs have risen significantly in summer as excess capacity conditions have resolved (2026\u20132027 Planning Resource Auction summer prices cleared at $412.10\u2013$424.30/MW-day in Zones 8\u201310 and Zone 9 respectively). Out-of-market Revenue Sufficiency Guarantee (RSG) uplift payments, concentrated in MISO South for Voltage and Local Reliability (VLR) support in load pockets, would be better reflected in market products. The IMM recommends reaccrediting existing solar based on 4\u20137 pm output rather than 2\u20135 pm to better match evening peak reliability needs, which it estimates would have reduced existing-solar accreditation by 2.6 GW market-wide and raised summer prices by 50 percent; establishing local Short-Term Reserve requirements for load pockets to incentivize quick-start investment; and defining capacity zones reflecting electrical load pockets for more precise capacity procurement.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage. However, the report's findings on RSG uplift payments and capacity accreditation are directly relevant because conventional dispatchable resources, including hydro, are subject to the same cost-recovery and accreditation mechanics. The recommendation to replace the 2\u20135 pm solar accreditation window with 4\u20137 pm signals that MISO recognizes reliability needs persist after solar production drops steeply\u2014the window where dispatchable resources including hydro are relied upon for evening ramps and reserves. Similarly, the recommendation to establish local STR requirements and redefine capacity zones based on load pockets could increase the value of quick-start and flexible capacity resources if implemented, affecting both the ancillary-services opportunities and seasonal capacity revenue available to hydro plants in MISO South's transmission-constrained regions.",
+        "source_names_hydro": false,
+        "topics": [
+          "price-formation",
+          "ancillary-services",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "2026\u20132027 Planning Resource Auction summer prices cleared at $412.10\u2013$424.30/MW-day in Zones 8\u201310 and Zone 9",
+            "quote": "Prices averaged $116.06 to $123.12 per MW-day for the year in the South - Prices cleared at $384.10 per MW-day in Zones 8 and 10 and at $412.10 per MW-day in Zone 9 in the summer",
+            "verified": true
+          },
+          {
+            "claim": "Existing solar accreditation based on 2\u20135 pm output produces 68 percent average summer accreditation; based on 4\u20137 pm output would fall to approximately 50 percent",
+            "quote": "Existing solar accreditation is based on output in designated hours (2-5 pm), producing an average summer accreditation of 68 percent - Most reliability issues occur later (4-7 pm) when solar is dropping \u2013 average summer accreditation using these hours falls to ~50 percent",
+            "verified": true
+          },
+          {
+            "claim": "Reaccrediting solar based on 4\u20137 pm output would reduce existing solar accreditation by 2.6 GW market-wide and raise summer prices by 50 percent",
+            "quote": "Accrediting solar based on output from 4-7 pm would have reduced existing solar accreditation by 2.6 GW market-wide and raised summer prices by 50 percent",
+            "verified": true
+          },
+          {
+            "claim": "RSG payments concentrated in MISO South due to Voltage and Local Reliability support in load pockets",
+            "quote": "Voltage and Local Reliability (VLR) support in MISO South Load pockets continued to be a significant source of uplift in MISO South - RSG is concentrated in MISO South due to RSG for VLR commitments",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Erica Miller",
+            "entity": "Potomac Economics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Robert Sinclair",
+            "entity": "Potomac Economics",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20260807 ERSC Item 05 FERC Large Load Show Cause.pdf",
+        "filename": "20260807 ERSC Item 05 FERC Large Load Show Cause.pdf",
+        "url": "https://cdn.misoenergy.org/20260807%20ERSC%20Item%2005%20FERC%20Large%20Load%20Show%20Cause773492.pdf",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's motion addresses interconnection processes and transmission service for large loads, including co-located generation and flexible load arrangements that set precedent for how all dispatchable resources (including hydro and PSH) will be studied, interconnected, and operated in MISO; load-growth and interconnection standards established here will constrain or enable hydro's participation in merchant or behind-the-meter arrangements.",
+        "ai_summary": "MISO and MISO Transmission Owners filed a motion in FERC Docket EL26-70-000 requesting a 90-day abeyance (through November 16, 2026) of a Show Cause proceeding to permit development of tariff proposals addressing large-load integration. The Show Cause Order (June 18, 2026) required MISO to address rules for application processes, study procedures, Network Upgrade cost transparency, rates and terms for co-location arrangements, and transmission services for large loads, co-located loads with behind-the-meter generation, and flexible loads. MISO proposes to file section 205 tariff changes including: Zero Injection Generator Interconnection Agreement (ZGIA) for co-located generation by end of August; Interconnection Reliability Requirements (PMU, telemetry, forecasting, ramp/ride-through) for large loads; Load Addition and Resource Study (LARS) process for parallel study of generation and transmission (120-day timeline) by November 16; firm transmission service step-up option for staged energization; and non-firm large load service options. MISO will conduct six Large Load Working Group meetings between August 12 and November 16, 2026. MISO requests expedited Commission order by August 14, 2026, and a 5-day comment period (by August 10, 2026).",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage directly. However, MISO's new interconnection procedures, co-location rules, transmission service options, and reliability requirements for large loads will apply to all resources and customers serving loads through MISO, including hydro facilities seeking to participate in co-located arrangements or serve large loads. The ZGIA process and LARS framework will establish the study and operational standards governing how any generation resource (hydro, gas, wind, solar) interconnects when serving proximate load; these rules will become the baseline against which hydro owners must compete or conform for speed-to-power opportunities and cost-allocation treatment. The firm step-up and non-firm service options may create new revenue or operational pathways for flexible resources, but will be available only under whatever terms MISO establishes\u2014hydro owners must track the tariff language to understand whether flexibility value is captured or whether large-load priority preempts traditional hydro dispatch.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "load-growth",
+          "ops-compliance"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "90-day abeyance through November 16, 2026",
+            "quote": "Motion to Hold this Proceeding in Abeyance for 90 days, up to and including November 16, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Show Cause Order issued June 18, 2026",
+            "quote": "The Commission's June 18, 2026 \"Order Instituting Proceeding under Section 206 of the Federal Power Act,\"",
+            "verified": false
+          },
+          {
+            "claim": "ZGIA filing expected by end of August",
+            "quote": "MISO expects to submit the ZGIA filing by the end of August.",
+            "verified": true
+          },
+          {
+            "claim": "LARS process timeline of 120 days",
+            "quote": "The studies will be run in parallel, and will finish at approximately the same time\u2014within 120 days",
+            "verified": true
+          },
+          {
+            "claim": "LARS filing expected by November 16, 2026, or earlier",
+            "quote": "MISO will continue to develop the LARS process through the LLWG and expects to submit the LARS filing by November 16, 2026, or earlier, if feasible.",
+            "verified": true
+          },
+          {
+            "claim": "Firm step-up filing by November 16, 2026, or earlier",
+            "quote": "MISO expects to make a section 205 filing proposing Tariff revisions incorporating the firm service step-up option by November 16, 2026, or earlier, if feasible.",
+            "verified": true
+          },
+          {
+            "claim": "Six LLWG meetings scheduled between August 12 and November 16, 2026",
+            "quote": "Currently, the LLWG is scheduled to meet six times between the date of this filing and the end of the requested abeyance period including: Wednesday, August 12, 2026; Thursday, August 27, 2026; Wednesday, September 23, 2026; Thursday, October 8, 2026; Thursday, October 29, 2026; Monday, November 16, 2026",
+            "verified": false
+          },
+          {
+            "claim": "Request for expedited Commission order by August 14, 2026",
+            "quote": "MISO and the MISO Transmission Owners respectfully request that the Commission issue an order granting the requested 90-day abeyance on an expedited basis by August 14, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "Request for 5-day comment period by August 10, 2026",
+            "quote": "MISO and the MISO Transmission Owners also request that the Commission establish a 5-day comment period for this Motion\u2014i.e., by August 10, 2026.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "James C. Holsclaw",
+            "entity": "Calfee, Halter & Griswold LLP",
+            "role": "author",
+            "email": "jholsclaw@calfee.com"
+          },
+          {
+            "name": "Christopher D. Supino",
+            "entity": "Midcontinent Independent System Operator, Inc.",
+            "role": "author",
+            "email": "csupino@misoenergy.org"
+          },
+          {
+            "name": "Dawn Kaminski",
+            "entity": "Midcontinent Independent System Operator, Inc.",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Michael Kessler",
+            "entity": "Midcontinent Independent System Operator, Inc.",
+            "role": "co-author",
+            "email": "mkessler@misoenergy.org"
+          },
+          {
+            "name": "Anna Fernandez",
+            "entity": "WRIGHT & TALISMAN, P.C.",
+            "role": "co-author",
+            "email": "fernandez@wrightlaw.com"
+          },
+          {
+            "name": "Matthew J. Binette",
+            "entity": "WRIGHT & TALISMAN, P.C.",
+            "role": "co-author",
+            "email": "binette@wrightlaw.com"
+          },
+          {
+            "name": "Wendy N. Reed",
+            "entity": "WRIGHT & TALISMAN, P.C.",
+            "role": "author",
+            "email": "reed@wrightlaw.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20260807 ERSC Item 06 MISO South Operations.pdf",
+        "filename": "20260807 ERSC Item 06 MISO South Operations.pdf",
+        "url": "https://cdn.misoenergy.org/20260807%20ERSC%20Item%2006%20MISO%20South%20Operations773493.pdf",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine operations report on MISO South system peak demand, weather conditions, heat events, and emergency procedures during April\u2013July 2026; it contains no market-design rule changes, pricing mechanisms, capacity or ancillary-service accreditation, or other developments that would alter revenue, compliance obligations, or strategic options for hydropower or pumped-storage operators.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260807 ERSC Item 07 Entergy's Presentaiton on LARS.pdf",
+        "filename": "20260807 ERSC Item 07 Entergys Presentaiton on LARS.pdf",
+        "url": "https://cdn.misoenergy.org/20260807%20ERSC%20Item%2007%20Entergys%20Presentaiton%20on%20LARS773494.pdf",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses MISO's Load Addition Resource Study (LARS) \u2014 a new parallel study and interconnection process for large loads paired with generation, which directly affects how generation including potential co-located resources can participate in interconnection and transmission planning, and how resource developers secure injection rights.",
+        "ai_summary": "MISO has proposed the Load Addition Resource Study (LARS), a 120-day parallel study process that evaluates large load and associated generation together using aligned assumptions, rather than sequentially. The proposal requires a minimum load size of 250+ MW per study cycle, with up to 10 load-generation pairs per cycle; a $250,000 nonrefundable D1 application fee; and generation nameplate capped at 150% of identified load need. Generation must be geographically aligned to the load (same load resource zone but not co-located), have firm offtake agreements, and achieve commercial operation within 3 years. LARS outcomes include MTEP-approved transmission for reliable load withdrawal, allocation of generation injection rights (GIA), and a coordinated set of network upgrades. Entergy's presentation to the ERSC on August 7, 2026 supports the alignment concept but questions the 250 MW threshold basis, notes securitization requirements may exceed the proposed M2 deposit of $30,000/MW, and proposes relaxing the 150% nameplate cap when renewable energy or utility-scale battery energy storage systems are used to complement traditional generation.",
+        "hydro_read_through": "The document does not name hydropower or pumped storage. However, LARS affects the strategic option of co-location and generation-serving-load models \u2014 a pathway where on-site or near-site generation (which could include small/medium hydro or pumped storage) serves a large, firm load with limited or no grid injection. The 120-day parallel study and streamlined GIA process could make such arrangements more economically viable by avoiding separate, cascading interconnection queues. The proposed 150% nameplate ceiling and the 'firm offtake agreement' requirement shape whether energy-limited resources like hydro fit the model. Entergy's request to raise the nameplate ceiling for renewable and BESS resources suggests the 150% rule may constrain resources with seasonal or variable output \u2014 a category that could include run-of-river or seasonal hydro if enrolled in such paired-load arrangements.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "load-growth",
+          "transmission"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "120-day parallel study process",
+            "quote": "\u2022 Both studies target completion at approximately the same time - within 120 days.",
+            "verified": false
+          },
+          {
+            "claim": "250+ MW minimum load threshold",
+            "quote": "Load size: 250+ MW minimum threshold",
+            "verified": true
+          },
+          {
+            "claim": "$250,000 nonrefundable application fee (D1)",
+            "quote": "$250,000 nonrefundable application fee (D1)",
+            "verified": true
+          },
+          {
+            "claim": "150% maximum generation nameplate",
+            "quote": "Generation nameplate is max 150% of identified load need",
+            "verified": true
+          },
+          {
+            "claim": "$30,000/MW M2 payment for Study Deposit (D2)",
+            "quote": "M2 payment is $30,000/MW",
+            "verified": true
+          },
+          {
+            "claim": "10 load-generation pairs per cycle",
+            "quote": "Cycle size: 10 load-generation pairs",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Sam Mabry",
+            "entity": "Entergy",
+            "role": "presenter",
+            "email": "smabry1@entergy.com"
           }
         ]
       }
@@ -8587,6 +9341,23 @@
         "evidence": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2026-08-06 PC Composite Materials",
+        "filename": "npc-2026-08-06-composite4.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100038/npc-2026-08-06-composite4.pdf",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -9299,6 +10070,102 @@
             "name": "Evan Neel",
             "entity": "Lancium",
             "role": "plwg co-vice chair nominee",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "vote",
+        "title": "ROS 20260806 Ballot Combined",
+        "filename": "ROS-20260806-Ballot-Combined.xls",
+        "url": "https://www.ercot.com/files/docs/2026/08/06/ROS-20260806-Ballot-Combined.xls",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a ballot package for ERCOT's Reliability and Operations Subcommittee with no extracted text content; without substantive text, it is impossible to determine whether it addresses energy pricing, ancillary services, capacity accreditation, storage participation, or other mechanisms affecting hydropower revenue, obligations, or strategy.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "vote",
+        "title": "ROS 20260806 Ballot PGRR144",
+        "filename": "ROS-20260806-Ballot-PGRR144.xls",
+        "url": "https://www.ercot.com/files/docs/2026/08/06/ROS-20260806-Ballot-PGRR144.xls",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a ballot item (PGRR144) with no extracted text, making its substantive content inaccessible; without visibility into the proposal's subject matter, hydro relevance cannot be assessed.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "vote",
+        "title": "ROS 20260806 Ballot 2027 AS Methodology",
+        "filename": "ROS-20260806-Ballot-2027-AS-Methodology.xls",
+        "url": "https://www.ercot.com/files/docs/2026/08/06/ROS-20260806-Ballot-2027-AS-Methodology.xls",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT ancillary-services methodology revision affects how reserves and frequency response are procured and valued \u2014 a direct precedent for how other RTOs including those with hydro fleets design AS markets and set compensation signals that hydro suppliers depend on.",
+        "ai_summary": "ERCOT Reliability and Operations Subcommittee is voting on a 2027 Ancillary Services Methodology ballot. The document title indicates it is a vote on methodology changes, but the document text was not extracted, so specific proposals, affected service categories, effective dates, and voting outcomes cannot be determined from the source material provided.",
+        "hydro_read_through": "Although ERCOT has no hydro fleet, its ancillary-services design\u2014particularly how it values regulation, reserves, and frequency-response products\u2014sets precedent watched by hydro-rich RTOs. Methodological changes to AS procurement or pricing in ERCOT may signal design patterns (e.g., compensation mechanisms, product definitions, qualification thresholds) that could migrate to markets where hydro is a major AS supplier. The document does not address hydro directly, and without the extracted text the specific direction of change cannot be assessed.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services"
+        ],
+        "directness": "precedent",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "08. PDCWG-Report-to-ROS_080626",
+        "filename": "08.-PDCWG-Report-to-ROS_080626.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/08/06/08.-PDCWG-Report-to-ROS_080626.pptx",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT comparison content on frequency response and inertia management in a high-renewable-penetration grid \u2014 directly analogous to challenges hydro owners face in markets relying on variable renewables, and a reference point for how ERCOT procures and measures fast-frequency-response products that hydro supplies elsewhere.",
+        "ai_summary": "The PDCWG report to ERCOT's Reliability and Operations Subcommittee (August 6, 2026) documents ERCOT's frequency-control performance and inertia dynamics over a 10-year span. Key findings: CPS1 performance at 181.97% on a 12-month rolling average; minimum synchronous inertia declining from 143 GW\u00b7s in 2016 to 114.7 GW\u00b7s in 2026, measured at moments of peak non-synchronous generation penetration reaching 81% of system load in March 2026; Fast Frequency Response (FFR) awards increasing from 0 MW in prior years to 430 MW by March 2026. The report presents analysis of disturbances, frequency profiles, time-error corrections, and energy generation from wind and solar across the decade.",
+        "hydro_read_through": "This document does not address hydropower directly. It illustrates the operational and stability challenges ERCOT faces as non-synchronous renewables grow, which mirrors conditions hydro-rich RTOs are entering. The declining minimum inertia (114.7 GW\u00b7s) despite growing load, and the rising FFR awards (430 MW), show how ERCOT is compensating for loss of synchronous support. Hydro owners in other regions should note how ERCOT structures and prices frequency-response products \u2014 the FFR mechanism is an alternative model for monetizing the fast-ramping capability conventional hydro provides, and comparison across RTOs can inform whether similar mechanisms could expand hydro revenue in markets without dedicated inertia or FFR markets.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "ops-compliance"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "CPS1 Performance Current 12-Month Rolling Average: 181.97%",
+            "quote": "CPS1 Performance\nCurrent 12-Month Rolling Average: 181.97%",
+            "verified": true
+          },
+          {
+            "claim": "Minimum synchronous inertia 114.7 GW\u00b7s in March 2026 at system load of 48,013 MW with 81% non-synchronous generation",
+            "quote": "2026*03/1412:00 PM | 114.7 | 48,013 | 81",
+            "verified": false
+          },
+          {
+            "claim": "FFR awards of 430 MW by March 2026",
+            "quote": "FFR Award | N/A | N/A | N/A | N/A | 0 | 0 | 0 | 0 | 134 | 298 | 430",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Paul Messmann",
+            "entity": "ERCOT",
+            "role": "chair",
             "email": null
           }
         ]
@@ -11066,6 +11933,38 @@
         "directness": null,
         "evidence": [],
         "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "matrix",
+        "title": "Item 07 2 \u2013 Options \u2013 Packages Matrix \u2013 PJM Energy Storage Resource Model Enhancements \u2013 852026 \u2013 Post Meeting",
+        "filename": "20260805-item-07-2---options--packages-matrix---pjm-energy-storage-resource-model-enhancements---852026---post-meeting.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260805/20260805-item-07-2---options--packages-matrix---pjm-energy-storage-resource-model-enhancements---852026---post-meeting.xls",
+        "posted_date": "2026-08-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM energy storage resource model enhancements are a direct mechanism governing how pumped-storage hydro and other storage resources participate in markets, set state-of-charge rules, receive accreditation, and compete for revenue through energy and ancillary-services pricing.",
+        "ai_summary": "PJM Market Implementation Committee reviewed an options/packages matrix for Energy Storage Resource Model Enhancements as of August 5, 2026 (post-meeting status). The document is a matrix artifact presenting proposal variants; no specific decisions, vote dates, or next steps are legible from the extracted text.",
+        "hydro_read_through": "While the document text does not name hydro or pumped storage, energy-storage modeling enhancements in an RTO tariff directly affect how PSH participates in markets \u2014 including charging treatment, state-of-charge rules, accreditation as a capacity resource, and eligibility for ancillary-service revenue. The options matrix format suggests PJM is evaluating design alternatives that will bind PSH participation going forward; the specifics of whichever package is adopted will reshape PSH revenue and compliance obligations.",
+        "source_names_hydro": false,
+        "topics": [
+          "storage",
+          "capacity-ra",
+          "price-formation"
+        ],
+        "directness": "direct",
+        "evidence": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "0a48ab03-08ee-4411-84ef-690798fa30cf",
+            "canonical_name": "PJM Energy Storage Resource Model Enhancements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=0a48ab03-08ee-4411-84ef-690798fa30cf"
+          }
+        ],
         "stakeholders": []
       }
     ]
@@ -15642,7 +16541,7 @@
         "title": "Item 02 \u2013 July 2026 Operations Summary",
         "filename": "20260730-item-02---july-2026-operations-summary.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20260730/20260730-item-02---july-2026-operations-summary.pdf",
-        "posted_date": "2026-07-28",
+        "posted_date": "2026-08-06",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document is a routine monthly operations summary listing specific grid events and emergencies (load management, transmission security, outages) in July 2026 with no market design, tariff, or rule change content affecting hydro revenue, obligations, or strategic options.",
         "ai_summary": null,
@@ -16080,7 +16979,7 @@
         "title": "Comment Template - Market Seams Workshop - Jul 31, 2026",
         "filename": "comment-template-market-seams-workshop-jul-31-2026.docx",
         "url": "https://www.caiso.com/documents/comment-template-market-seams-workshop-jul-31-2026.docx",
-        "posted_date": "2026-07-30",
+        "posted_date": "2026-07-31",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This is a procedural template for submitting comments to a market-seams workshop; it contains no substantive market-design proposals, rules, or findings that would affect hydro revenue, obligations, or strategic options.",
         "ai_summary": "CAISO hosted a Market Seams Workshop on July 31, 2026, and is soliciting stakeholder feedback via this comment template on workshop content, format, and suggestions for future seams discussions. The workshop addresses market governance and interregional coordination\u2014core to how Western hydro operators choose between EDAM, WEIM, and standalone RTO participation and how their resource is priced and transmitted across seams. Comments are due August 14, 2026, to ISOStakeholderAffairs@caiso.com. NHA members with multi-RTO portfolios (especially in the Pacific Northwest and California) will assess how CAISO's seams approach affects their bidding, transmission access, and revenue across markets.",
@@ -16128,12 +17027,12 @@
   {
     "title": "PIEOUG Meeting",
     "date": "2026-07-30",
-    "time": "1:00 p.m. - 5:00 p.m.",
+    "time": "1:00 p.m. - 3:00 p.m.",
     "rto": "PJM",
     "committee": "PIEOUG",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={DD0E2642-AB8B-46FE-A798-99259751AF23}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={4FC4550C-D370-46FC-9381-9801B914D7B7}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "PIEOUG (PJM Industrial End-User Roundtable) focuses on large industrial customer concerns such as procurement, pricing transparency, and grid access for load; it does not address resource participation models, market design, or operational rules affecting hydropower and storage operators.",
     "issues": [],
@@ -41384,6 +42283,20 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Planning standards updates at CAISO often address reliability, transmission requirements, and resource-adequacy assumptions that directly affect hydro and PSH participation, revenue, and deliverability.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Distributed Resources Subcommittee Meeting",
+    "date": "2026-07-27",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Distributed Resources Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={6C4B355C-CF57-48B2-B1B7-1919F5786C45}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM's Distributed Resources Subcommittee likely addresses participation models, interconnection standards, and market rules for smaller hydro and hybrid resources under FERC Order 2222 and related frameworks that affect NHA members' strategic options for fleet deployment and revenue capture.",
     "issues": [],
     "documents": []
   },
