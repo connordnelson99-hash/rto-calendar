@@ -2,11 +2,36 @@
 """
 NYISO (New York ISO) Document Scraper
 
-Like ISO-NE, NYISO is scrapeable with plain `requests` — no Playwright.
+NYISO is scrapeable with plain `requests` once past the front door.
 The site is Liferay 7.4, and every committee/working-group page embeds a
 React "Committee File Browser" backed by a public REST API under
 /o/committeefile/. The API needs no login — just the session cookies and
 the page's Liferay CSRF token (guest auth token).
+
+── The AWS WAF challenge (added by NYISO ~2026-07-09) ──────────────────────
+
+nyiso.com sits behind CloudFront with an AWS WAF Challenge rule. From a
+scored-bot network — GitHub's Azure runner range, for one — every page
+returns HTTP 202 with `X-Amzn-Waf-Action: challenge` and a 2.4 KB stub that
+runs `window.awsWafCookieDomainList` JavaScript, instead of the real ~160 KB
+page. Solve the JS and it sets an `aws-waf-token` cookie; every later
+request carrying that cookie gets served normally.
+
+`requests` cannot run JavaScript, so it stored the stub and found none of
+the three markers. That read as "no meetings" and NYISO silently left the
+calendar for 30 days (2026-07-09 to 2026-08-07). Diagnosed by probing from a
+runner: 0/12 handshakes across 3 committees x 4 request shapes, every one
+`X-Amzn-Waf-Action: challenge`. Not a block and not a markup change — no
+header or cache trick moves it, because the challenge wants JS executed.
+
+So: load ONE page in Playwright, let Chromium solve the challenge, lift the
+cookies into the requests session, and run the remaining ~75 API calls the
+fast way. One browser launch per run, not per committee. A workstation IP
+usually is not challenged at all, in which case this never fires.
+
+This is best-effort. AWS WAF can escalate Challenge to CAPTCHA, which
+headless Chromium will not clear, and headless is itself fingerprintable.
+If the handoff stops working the scraper raises rather than going quiet.
 
 ── Architecture (confirmed via live probe + Playwright capture 2026-06-05) ──
 
@@ -163,6 +188,10 @@ class NYISOScraper(BaseRTOScraper):
         # date (YYYY-MM-DD) -> [(summary, time_str), ...], built once from
         # the iCal feeds. None until first use; {} if feeds were unreachable.
         self._ical_index = None
+        # One WAF challenge solve per run, at most. False until attempted;
+        # the attempt is not retried whether it worked or not, since a second
+        # browser launch against the same rule would fail the same way.
+        self._waf_attempted = False
 
     # ── Phase 1: meetings ────────────────────────────────────────
 
@@ -194,11 +223,14 @@ class NYISOScraper(BaseRTOScraper):
         # This went unnoticed for 30 days (2026-07-09 to 2026-08-07): every
         # run logged "success, 0 events" and NYISO quietly left the calendar.
         if not self._handshake:
+            hint = ("the AWS WAF challenge was not cleared (escalated to "
+                    "CAPTCHA, or headless Chromium got fingerprinted)"
+                    if self._waf_attempted else
+                    "nyiso.com served no portlet markup and did not look "
+                    "challenged, so suspect a site change")
             raise RuntimeError(
                 f"no file-browser handshake on any of "
-                f"{len(self.COMMITTEE_PAGES)} committee pages — nyiso.com is "
-                f"serving pages without the portlet markup (bot filter on this "
-                f"IP, or a site change)")
+                f"{len(self.COMMITTEE_PAGES)} committee pages — {hint}")
 
         print(f"  {len(meetings)} NYISO meetings in window")
         return meetings
@@ -356,6 +388,78 @@ class NYISOScraper(BaseRTOScraper):
         ap = "AM" if h < 12 else "PM"
         return f"{h % 12 or 12}:{minute} {ap}"
 
+    # ── AWS WAF challenge ────────────────────────────────────────
+
+    @staticmethod
+    def _is_waf_challenge(resp, html):
+        """Is this the WAF's JS challenge stub rather than a real page?
+
+        The header is authoritative when present; the body marker covers the
+        case where CloudFront strips it. Deliberately not keyed on status
+        alone: the challenge answers 202, but so could something else.
+        """
+        if resp.headers.get("X-Amzn-Waf-Action", "").lower() == "challenge":
+            return True
+        return "awsWafCookieDomainList" in html or "window.awsWafCookie" in html
+
+    def _solve_waf_challenge(self):
+        """Run the challenge JS in Chromium and lift its cookies into the
+        requests session. Returns True if the browser reached a real page.
+
+        Everything after this point is plain `requests` again — this exists
+        only to obtain the aws-waf-token cookie.
+        """
+        try:
+            from playwright.sync_api import sync_playwright
+        except ImportError:
+            print("    WAF challenge detected but Playwright is not installed "
+                  "— cannot solve; NYISO will be skipped this run")
+            return False
+
+        url = f"{self.BASE_URL}/{self.COMMITTEE_PAGES[0][1]}"
+        print(f"    WAF challenge detected; solving in Chromium via {url}")
+        try:
+            with sync_playwright() as pw:
+                browser = pw.chromium.launch(headless=True)
+                ctx = browser.new_context(
+                    user_agent=self.session.headers.get("User-Agent"))
+                page = ctx.new_page()
+                page.goto(url, wait_until="networkidle", timeout=60000)
+
+                # The stub swaps itself for the real page once the token is
+                # set, so wait on the markers rather than on a fixed delay.
+                solved = False
+                for _ in range(12):
+                    content = page.content()
+                    if (self._AUTH_TOKEN_RE.search(content)
+                            and self._PORTLET_RE.search(content)):
+                        solved = True
+                        break
+                    page.wait_for_timeout(2500)
+
+                cookies = ctx.cookies()
+                browser.close()
+        except Exception as e:
+            print(f"    WAF challenge solve failed: {e}")
+            return False
+
+        named = {c["name"] for c in cookies}
+        for c in cookies:
+            if "nyiso.com" in c.get("domain", ""):
+                self.session.cookies.set(
+                    c["name"], c["value"], domain=c["domain"].lstrip("."),
+                    path=c.get("path", "/"))
+
+        if not solved:
+            # No token means the rule escalated past what headless can clear.
+            print(f"    WAF challenge NOT solved (cookies seen: "
+                  f"{sorted(named) or 'none'})")
+            return False
+
+        print(f"    WAF challenge solved; carried {len(named)} cookie(s) into "
+              f"the session ({'aws-waf-token' if 'aws-waf-token' in named else 'no aws-waf-token'})")
+        return True
+
     # ── Helpers ──────────────────────────────────────────────────
 
     def _get_handshake(self, slug):
@@ -375,6 +479,20 @@ class NYISOScraper(BaseRTOScraper):
         except Exception as e:
             print(f"    [{slug}] page fetch failed: {e}")
             return None
+
+        # Challenged? Solve it once in a browser, then retry this page. The
+        # token cookie covers every later request, so only the first
+        # challenged committee pays for the browser launch.
+        if self._is_waf_challenge(resp, html) and not self._waf_attempted:
+            self._waf_attempted = True
+            if self._solve_waf_challenge():
+                try:
+                    self._polite_delay()
+                    resp = self.session.get(url, timeout=30)
+                    html = resp.text
+                except Exception as e:
+                    print(f"    [{slug}] page refetch failed: {e}")
+                    return None
 
         tok = self._AUTH_TOKEN_RE.search(html)
         plid = self._PLID_RE.search(html)
