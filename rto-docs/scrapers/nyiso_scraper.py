@@ -184,6 +184,22 @@ class NYISOScraper(BaseRTOScraper):
             except Exception as e:
                 print(f"    [{name}] error: {e}")
 
+        # Zero meetings is a legitimate result for a quiet window, so it can't
+        # be an error on its own. Zero HANDSHAKES cannot be: it means not one
+        # of 25 committee pages served the file browser, which is the site
+        # refusing to talk to us, not NYISO holding no meetings. Raise so the
+        # run writes the failure marker and emails, the way CAISO and ISO-NE
+        # already do when a bot filter blocks the runner IP.
+        #
+        # This went unnoticed for 30 days (2026-07-09 to 2026-08-07): every
+        # run logged "success, 0 events" and NYISO quietly left the calendar.
+        if not self._handshake:
+            raise RuntimeError(
+                f"no file-browser handshake on any of "
+                f"{len(self.COMMITTEE_PAGES)} committee pages — nyiso.com is "
+                f"serving pages without the portlet markup (bot filter on this "
+                f"IP, or a site change)")
+
         print(f"  {len(meetings)} NYISO meetings in window")
         return meetings
 
@@ -354,7 +370,8 @@ class NYISOScraper(BaseRTOScraper):
         url = f"{self.BASE_URL}/{slug}"
         try:
             self._polite_delay()
-            html = self.session.get(url, timeout=30).text
+            resp = self.session.get(url, timeout=30)
+            html = resp.text
         except Exception as e:
             print(f"    [{slug}] page fetch failed: {e}")
             return None
@@ -363,7 +380,16 @@ class NYISOScraper(BaseRTOScraper):
         plid = self._PLID_RE.search(html)
         portlet = self._PORTLET_RE.search(html)
         if not (tok and plid and portlet):
-            print(f"    [{slug}] no file-browser handshake on page")
+            # Say WHAT came back, not just that it didn't parse. A bot filter
+            # on the runner IP and a Liferay markup change both land here, and
+            # the status + body size tells them apart from the CI log alone:
+            # a healthy committee page is HTTP 200 at roughly 160 KB.
+            missing = ",".join(n for n, m in (("authToken", tok),
+                                              ("plid", plid),
+                                              ("portletId", portlet)) if not m)
+            print(f"    [{slug}] no file-browser handshake on page "
+                  f"(HTTP {resp.status_code}, {len(html)} bytes, "
+                  f"missing: {missing})")
             return None
 
         hs = {
