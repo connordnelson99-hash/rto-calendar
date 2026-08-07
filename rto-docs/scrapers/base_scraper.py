@@ -143,6 +143,7 @@ class BaseRTOScraper(ABC):
                         title=doc.get("title"),
                         filename=doc.get("filename"),
                         posted_date=doc.get("posted_date"),
+                        member_url=doc.get("member_url"),
                     )
 
                     # Phase 3: Download + extract text

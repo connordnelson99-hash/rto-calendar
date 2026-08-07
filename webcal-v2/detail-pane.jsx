@@ -466,7 +466,7 @@ const DocCard = ({ d, event, onOpenSummary }) => {
   const openSummary = () => { if (d.ai_summary) onOpenSummary(d); };
   const openPdf = (ev) => {
     ev.stopPropagation();
-    const url = d.url || event.sourceUrl;
+    const url = d.member_url || d.url || event.sourceUrl;
     if (url) window.open(url, "_blank", "noopener");
   };
   const clickable = !!d.ai_summary;
@@ -530,7 +530,10 @@ const DocCard = ({ d, event, onOpenSummary }) => {
 // (findRelatedDocs) — no API calls, no export round-trip.
 const RelatedDocCard = ({ r, anchorDate }) => {
   const od = r.doc;
-  const openPdf = () => { if (od.url) window.open(od.url, "_blank", "noopener"); };
+  const openPdf = () => {
+    const u = od.member_url || od.url;
+    if (u) window.open(u, "_blank", "noopener");
+  };
   const dayGap = Math.round(daysBetweenIso(r.ev.date, anchorDate));
   return (
     <div className="cmp-card" onClick={openPdf} title="Open source PDF">
@@ -560,7 +563,7 @@ const DocSummaryModal = ({ doc, event, onClose }) => {
   const related = findRelatedDocs(doc, event);
   const columns = groupRelatedByRto(related);
   const openPdf = () => {
-    const url = doc.url || event.sourceUrl;
+    const url = doc.member_url || doc.url || event.sourceUrl;
     if (url) window.open(url, "_blank", "noopener");
   };
   return (
@@ -935,7 +938,7 @@ window.DetailPane = DetailPane;
 const DocReader = ({ doc, event, onClose }) => {
   if (!doc) return null;
 
-  const sourceUrl = doc.url || event.sourceUrl;
+  const sourceUrl = doc.member_url || doc.url || event.sourceUrl;
   const openSource = () => {
     if (sourceUrl) window.open(sourceUrl, "_blank", "noopener");
   };

@@ -257,6 +257,11 @@
         title: d.title,
         filename: d.filename,
         url: d.url,
+        // Durable human-facing link where `url` is a pipeline address rather
+        // than something you can hand a member (SPP: a zip plus a '#z='
+        // fragment, under a filename that rots). Null for every other RTO —
+        // consumers fall back to `url`.
+        member_url: d.member_url || null,
         posted_date: d.posted_date,
         hydro_relevant: d.hydro_relevant === true,
         hydro_relevance_reason: d.hydro_relevance_reason || null,
@@ -547,7 +552,14 @@
               .join("; ");
             if (iNames) out.push(`- **Initiatives touched:** ${iNames}`);
           }
-          if (d.url) out.push(`- **URL:** ${d.url}`);
+          // member_url first: this line ends up in a member email, and SPP's
+          // `url` is a pipeline address, not a link. It carries a '#z=<entry>'
+          // fragment that browsers drop (so a click fetches the whole bundle,
+          // not the named paper), and the zip filename it points at rots when
+          // SPP re-posts the bundle. member_url is the folder page, keyed by
+          // folder id, which survives that. Null for every other RTO.
+          const memberLink = d.member_url || d.url;
+          if (memberLink) out.push(`- **URL:** ${memberLink}`);
           out.push("");
 
           // Summary and read-through are emitted under separate headings, and
