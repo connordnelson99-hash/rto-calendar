@@ -8,11 +8,24 @@ three Liferay markers the scraper needs (authToken, plid, portletId). The
 same pages parse fine from a workstation on any request shape, so the
 difference is the environment, not the markup.
 
-Three explanations fit what CI logged, and they need different fixes:
+ANSWERED 2026-08-07 from run 31204346374: hypothesis D. Every one of 12
+probes came back HTTP 202, 2451 bytes, `X-Amzn-Waf-Action: challenge`, from
+egress 20.55.117.34 (Azure, where GitHub runners live). Kept and extended
+because it is the tool for the next time this changes — a rule escalating
+from challenge to captcha, or the block lifting, both show up here first.
+
+Four explanations, and they need different fixes:
 
   A. Hard block on the runner IP (CloudFront/WAF rejecting the ASN).
-     Signature: every variant fails, usually 4xx with a tiny body.
+     Signature: every variant fails, no WAF action header.
      Fix: different egress. No header change will help.
+
+  D. AWS WAF Challenge  ← what is actually happening.
+     Signature: HTTP 202, ~2.4 KB body, X-Amzn-Waf-Action: challenge,
+     body running window.awsWafCookie JS. Not a refusal — WAF wants the
+     client to execute JS and earn an aws-waf-token cookie.
+     Fix: solve once in Playwright, hand the cookie to requests.
+     If it ever reads `captcha`, headless Chromium will not clear it.
 
   B. CloudFront cache artifact — the runner's edge POP holds an anonymous
      copy rendered without a session, so the per-session authToken is
@@ -90,6 +103,21 @@ def egress_ip():
     return "(unavailable)"
 
 
+def waf_action(resp, body):
+    """AWS WAF's verdict on this request, if it had one.
+
+    This is the distinction the first version of this script missed: it only
+    counted successes, so a solvable JS challenge and an outright refusal
+    both came out as "hard block". They need completely different fixes.
+    """
+    hdr = resp.headers.get("X-Amzn-Waf-Action", "").lower()
+    if hdr:
+        return hdr
+    if "awsWafCookieDomainList" in body or "window.awsWafCookie" in body:
+        return "challenge"
+    return ""
+
+
 def probe(slug, label, headers, bust):
     url = f"https://www.nyiso.com/{slug}"
     if bust:
@@ -101,7 +129,7 @@ def probe(slug, label, headers, bust):
         r = s.get(url, timeout=30)
     except Exception as e:
         print(f"    {label:18} EXCEPTION {type(e).__name__}: {e}")
-        return False
+        return False, ""
 
     body = r.text
     marks = {
@@ -111,10 +139,11 @@ def probe(slug, label, headers, bust):
     }
     ok = all(marks.values())
     missing = ",".join(k for k, v in marks.items() if not v) or "-"
+    waf = waf_action(r, body)
 
     print(f"    {label:18} HTTP {r.status_code}  {len(body):>7} bytes  "
           f"x-cache={r.headers.get('X-Cache', '-'):<22} "
-          f"server={r.headers.get('Server', '-'):<12} "
+          f"waf={waf or '-':<10} "
           f"handshake={'YES' if ok else 'no'}  missing={missing}")
 
     if not ok:
@@ -126,7 +155,7 @@ def probe(slug, label, headers, bust):
                   "Retry-After", "X-Amzn-Waf-Action"):
             if h in r.headers:
                 print(f"      {h}: {r.headers[h]}")
-    return ok
+    return ok, waf
 
 
 def main():
@@ -138,11 +167,15 @@ def main():
     print()
 
     wins = {label: 0 for label, _, _ in VARIANTS}
+    actions = set()
     for slug in SLUGS:
         print(f"  /{slug}")
         for label, headers, bust in VARIANTS:
-            if probe(slug, label, headers, bust):
+            got, waf = probe(slug, label, headers, bust)
+            if got:
                 wins[label] += 1
+            if waf:
+                actions.add(waf)
             time.sleep(1.5)
         print()
 
@@ -154,11 +187,22 @@ def main():
     print()
 
     total = sum(wins.values())
-    if total == 0:
+    if actions:
+        print(f"  AWS WAF action seen: {', '.join(sorted(actions))}")
+        print()
+
+    if total == 0 and "challenge" in actions:
+        print("  VERDICT: hypothesis D — AWS WAF JS challenge. NOT a block:")
+        print("  WAF is asking the client to run JavaScript and earn an")
+        print("  aws-waf-token cookie. requests cannot, so it stores the stub.")
+        print("  Fix: solve it once in Playwright and hand the cookie to the")
+        print("  requests session (nyiso_scraper._solve_waf_challenge).")
+        print("  If this shows 'captcha' instead, headless will not clear it.")
+    elif total == 0:
         print("  VERDICT: hypothesis A — hard block on this IP. No request")
-        print("  shape gets through, so headers cannot fix it. Options are a")
-        print("  different egress (self-hosted runner, proxy) or asking NYISO")
-        print("  to allow the range.")
+        print("  shape gets through and WAF is not asking for anything, so")
+        print("  headers cannot fix it. Options are a different egress")
+        print("  (self-hosted runner, proxy) or asking NYISO to allow it.")
     elif wins["scraper-default"] == len(SLUGS):
         print("  VERDICT: nothing reproduced here — the runner reached NYISO")
         print("  fine this time. Either the block lifted or it is")
