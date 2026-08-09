@@ -350,6 +350,62 @@
     "documents": []
   },
   {
+    "title": "NEPOOL Budget and Finance Subcommittee",
+    "date": "2026-08-25",
+    "time": "2:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Budget and Finance Subcommittee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160994",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Budget and Finance Subcommittee meetings cover administrative budgeting, cost allocation, and operational funding rather than market-design rules, tariff mechanics, or revenue-impacting mechanisms that affect hydropower operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "MISO SUGAR Rush Working Session - August 25, 2026",
+    "date": "2026-08-25",
+    "time": "1:00 PM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Other Workshops",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/cb6251f2b92747c4836123a9043461d5.aspx",
+    "materials_url": "https://www.misoenergy.org/link/cb6251f2b92747c4836123a9043461d5.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "SUGAR Rush appears to be a MISO-specific operational or IT initiative without clear connection to hydropower revenue, compliance obligations, or strategic options; without access to the agenda, it likely falls outside market-design, pricing, and participation frameworks that affect hydro operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Pre-Dispatch Training",
+    "date": "2026-08-25",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Steady State Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08252026-Pre_Dispatch-Training",
+    "materials_url": "https://www.ercot.com/calendar/08252026-Pre_Dispatch-Training",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Pre-Dispatch Training is routine operational IT and dispatch logistics training with no bearing on market design, pricing mechanisms, storage rules, or strategic options affecting hydropower and pumped-storage operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "OWG Meeting",
+    "date": "2026-08-25",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Operations Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/08252026-OWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/08252026-OWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "ERCOT Operations Working Group meetings typically address operational and technical implementation details (IT systems, outage coordination, dispatch procedures, training) rather than market-design topics affecting hydropower revenue, compliance, or strategic positioning; Texas has no significant hydropower fleet and the meeting title suggests routine operations rather than cross-market-relevant topics like frequency response, storage participation, or price-formation mechanisms.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Demand Response (DR) and Load Modifying Resource (LMR) Reforms Workshop - August 24, 2026",
     "date": "2026-08-24",
     "time": "9:00 AM - 1:00 PM",
@@ -445,6 +501,222 @@
         "stakeholders": []
       }
     ]
+  },
+  {
+    "title": "Interconnection Process Subcommittee Meeting",
+    "date": "2026-08-24",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "Interconnection Process Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Interconnection Process Subcommittee addresses queue reform, interconnection service terms, surplus capacity, and uprates\u2014all critical to hydro plant viability and participation in PJM markets, especially given ongoing FERC Order 2023 implementation affecting generation interconnection timelines and deliverability standards.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "MC Information Webinar Meeting",
+    "date": "2026-08-24",
+    "time": "1:00 p.m. - 5:00 p.m.",
+    "rto": "PJM",
+    "committee": "MC Information Webinar",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "An 'MC Information Webinar' with no specified agenda is a generic administrative meeting likely covering routine committee procedures, logistics, or training rather than substantive market-design discussions affecting hydro revenue, obligations, or strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Extended Day-Ahead Market (EDAM) Market Performance",
+    "date": "2026-08-24",
+    "time": "1:00 PM - 3:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Extended Day-Ahead Market (EDAM) Performance",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-edam-market-performance-aug-24-2026-0100-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/extended-day-ahead-market-edam-market-performance",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "EDAM is a foundational market-seams and governance choice for NHA members in the West, and a performance review would address pricing, participation rules, and strategic integration options affecting hydro revenue and market optionality in the CAISO footprint and beyond.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "comment",
+        "title": "Comments - WPTF - Extended Day-ahead Market (EDAM) Market Performance - Jun 25, 2026",
+        "filename": "comments-wptf-extended-day-ahead-market-edam-market-performance-jun-25-2026.pdf",
+        "url": "https://www.caiso.com/documents/comments-wptf-extended-day-ahead-market-edam-market-performance-jun-25-2026.pdf",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "EDAM market-design mechanics and performance reporting directly affect hydro's market revenue through energy price formation, resource participation rules, and multi-BAA market power mitigation affecting hydro's scarcity and capacity pricing in CAISO and partner balancing authorities.",
+        "ai_summary": "Western Power Trading Forum (WPTF) submitted comments on CAISO's May 2026 EDAM Monthly Performance Report, presented June 25, 2026. WPTF requests expanded reporting in future iterations on four areas: deployment scenarios' impact on congestion and real-time alignment; frequency and magnitude of BAA-level market power mitigation in PACE and PACW balancing authorities with pre/post-mitigation price comparisons; negative Reliability Capacity Up (RCU) and Reliability Capacity Down (RCD) clearing prices, which WPTF states were \"not an intended outcome of the policy design\" and should be addressed through reformulating requirement constraints; and clarification of how the EDAM Net Export Constraint applies to contracted transfers across external interties and internal BAA boundaries. WPTF emphasizes that performance reporting will become \"an important tool for evaluating whether EDAM is achieving its intended policy objectives.\"",
+        "hydro_read_through": "This document does not mention hydropower or pumped storage. However, WPTF's focus on deployment-scenario design, BAA-level mitigation frequency in partner balancing authorities, and negative RCU/RCD prices is directly relevant to hydro owners. Deployment scenarios affect day-ahead energy dispatch and pricing\u2014a primary hydro revenue stream. Negative reliability-capacity prices misrepresent the value of capacity provision and could depress revenue for dispatchable resources like hydro that are called upon for reliability. BAA-level mitigation in PACE and PACW matters because those authorities are expanding EDAM participation and any mitigation applied to hydro exports from CAISO into those regions would reduce realized energy revenue. The Net Export Constraint design is material to hydro's ability to contract firm deliveries across the EDAM footprint.",
+        "source_names_hydro": false,
+        "topics": [
+          "price-formation",
+          "capacity-ra",
+          "seams-governance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "EDAM Performance Report presented June 25, 2026",
+            "quote": "Monthly Extended Day-Ahead Market (EDAM) Performance Report for May 2026 and thanks CAISO staff for developing this new reporting process. WPTF believes these reports will become an important tool for evaluating whether EDAM is achieving its intended policy objectives",
+            "verified": false
+          },
+          {
+            "claim": "BAA-level market power mitigation affecting PACE and PACW",
+            "quote": "The frequency with which resources in PACE and PACW are mitigated in the day-ahead market due to BAA-level market power mitigation",
+            "verified": false
+          },
+          {
+            "claim": "Negative RCU and RCD clearing prices documented as unintended outcome",
+            "quote": "Paying resources to provide reliability capacity was not an intended outcome of the policy design",
+            "verified": true
+          },
+          {
+            "claim": "Comment submission deadline July 10, 2026",
+            "quote": "Submissions are requested by close of business on July 10, 2026",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Carrie Bentley",
+            "entity": "Western Power Trading Forum",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "Comments - Southern California Edison - Extended Day-ahead Market (EDAM) Market Performance - Jun 25, 2026",
+        "filename": "comments-southern-california-edison-extended-day-ahead-market-edam-market-performance-jun-25-2026.pdf",
+        "url": "https://www.caiso.com/documents/comments-southern-california-edison-extended-day-ahead-market-edam-market-performance-jun-25-2026.pdf",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "SCE's comments on EDAM performance touch price formation (MEC convergence, transfer revenue, GHG cost treatment), ancillary-services procurement (IR and RC bidding and conversion), and interregional seams governance (WEIM/EDAM transfer capacity and market interaction), all mechanisms affecting hydro revenue and strategic options in the Western market.",
+        "ai_summary": "Southern California Edison submitted comments on CAISO's May 2026 EDAM Performance Report (presented June 25, 2026) requesting additional data and analysis on several market mechanics: transfer capacity availability in EDAM and WEIM markets; treatment of GHG costs in Imbalance Reserve (IR) and Regulation Capacity (RC) procurement; correlation between transfer revenue (marginal energy cost differences across balancing-authority areas) and GHG prices; the volume of $0-bid IR and $55-bid RC; and the real-time utilization of IR, including the percentage converted to Flexible Ramping Product and Energy by hour. SCE also questioned whether convergence bidding in CAISO drives price convergence in other EDAM balancing-authority areas when transfer capacity is sufficient versus congestion-constrained, and whether differences in Intra-day Financials Market versus real-time prices correlate with available transfer capacity.",
+        "hydro_read_through": "This document does not directly name hydropower or pumped storage. However, SCE's questions about GHG cost treatment in IR and RC procurement, MEC convergence across EDAM balancing areas, transfer-revenue dynamics, and the interplay between transfer capacity and price differences are central to how hydro revenue gets captured in EDAM's cross-market design. For hydro owners in California and WEIM, the answers to SCE's questions about GHG attribution in reserve pricing and how often and by how much locational energy prices diverge will materially affect both energy and ancillary-service revenue, and the transfer-capacity and congestion-driven price-wedge analysis directly determines the scarcity value hydro can monetize across the seam.",
+        "source_names_hydro": false,
+        "topics": [
+          "price-formation",
+          "ancillary-services",
+          "seams-governance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "May 2026 EDAM Performance Report meeting held June 25, 2026",
+            "quote": "the June 25th EDAM May Performance Report",
+            "verified": true
+          },
+          {
+            "claim": "IR bids at $0 are very small in CAISO per slide 19",
+            "quote": "Slide 19 shows the amount of $0 bid IR to be very small in the CAISO",
+            "verified": true
+          },
+          {
+            "claim": "RC bids inserted at $55 level shown on slide 23",
+            "quote": "slide 23? Further, can the CAISO please provide data for RC bids as to how many are having bids inserted at the $55 level",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Stephen Keehn",
+            "entity": "Southern California Edison (SCE)",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "comment",
+        "title": "Comments - PG&E - Extended Day-ahead Market (EDAM) Market Performance - Jun 25, 2026",
+        "filename": "comments-pg-e-extended-day-ahead-market-edam-market-performance-jun-25-2026.pdf",
+        "url": "https://www.caiso.com/documents/comments-pg-e-extended-day-ahead-market-edam-market-performance-jun-25-2026.pdf",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "EDAM is a cross-ISO market seam mechanism critical to hydro deliverability and revenue, and this comment directly raises operational and settlement transparency issues that affect price formation, imbalance-reserve accreditation, and real-time market volatility \u2014 all material to hydro scheduling and revenue realization.",
+        "ai_summary": "Pacific Gas and Electric submitted comments on the CAISO May 2026 EDAM Performance Report (meeting held June 25, 2026), raising seven questions on settlement transparency, platform scalability, congestion-price reporting in the PACW transmission zone, imbalance-reserve (IR) and resource-clearing (RC) procurement accuracy, and real-time price volatility. PG&E requests greater transparency on settlement-related issues and their upstream origins; faster turnaround on issue-specific responses; clarification on root causes of congestion or lack thereof in May; detailed breakdowns of capacity awarded IR only, RC only, both, or neither to assess contribution of new products relative to all real-time resources; and frequency comparison of FMM and RTD intervals at or above $1,000/MWh against pre-EDAM periods. The submission was due July 10, 2026 per the template instructions (note: metadata shows July 10, 2025, which appears to be an extraction error; meeting was June 25, 2026).",
+        "hydro_read_through": "EDAM is the operational and revenue framework for hydro generators exporting from the West; settlement accuracy, congestion pricing signals, and imbalance-reserve adequacy directly shape real-time revenue and dispatch incentives for flexible resources like hydro. PG&E's questions on IR procurement versus realized forecast error are especially relevant because hydro owners depend on accurate IR quantities to hedge their own ramping uncertainty and exposure to real-time prices\u2014if procured IR is insufficient, hydro faces higher balancing costs. The request for granular capacity-award breakdowns and price-volatility trends identifies whether real-time markets are functioning efficiently under EDAM or whether technical/operational issues are creating artificial scarcity and uplift; this matters enormously to revenue stability.",
+        "source_names_hydro": false,
+        "topics": [
+          "seams-governance",
+          "price-formation",
+          "ancillary-services"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Meeting held June 25, 2026",
+            "quote": "Monthly Extended Day-Ahead Market (EDAM) May Performance Report meeting that was held on June 25, 2026",
+            "verified": false
+          },
+          {
+            "claim": "Submission deadline July 10, 2026 per template",
+            "quote": "Submissions are requested by close of business on July 10, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "No congestion from PACW transmission constraints during May 2026",
+            "quote": "The congestion price impact report indicates there was no congestion sourced from PACW transmission constraints during May 2026.",
+            "verified": true
+          },
+          {
+            "claim": "Request for frequency of prices at or above $1,000/MWh in FMM and RTD",
+            "quote": "Can CAISO provide the frequency of FMM and RTD intervals with prices at or above $1,000/MWh",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Alina Dmello",
+            "entity": "Pacific Gas and Electric",
+            "role": "author",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Intertie Schedule Modeling Enhancements",
+    "date": "2026-08-24",
+    "time": "9:00 AM - 1:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Intertie schedule modeling enhancements",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/intertie-schedule-modeling-enhancements-aug-24-2026-0900-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Intertie-Schedule-Modeling-Evolution",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Intertie scheduling and modeling directly affects hydro deliverability, interregional transfer capability, and the strategic value of transmission-constrained hydro resources in CAISO and neighboring regions, which is central to hydro operators' revenue and market participation opportunities.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Market Simulation - Extended Day-Ahead Market (EDAM) Enhancements 2026 - Inter-Scheduling Coordinator (Inter-SC) Trades",
+    "date": "2026-08-24",
+    "time": "9:00 AM - 10:00 AM PT",
+    "rto": "CAISO",
+    "committee": "Market simulation",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/market-simulation-extended-day-ahead-market-edam-enhancements-2026-inter-scheduling-coordinator-inter-sc-trades-aug-24-2026-0900-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/market-simulation",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "EDAM market design enhancements, particularly Inter-SC trades functionality, directly affect hydro and PSH revenue through energy trading, pricing, and transmission utilization rules in the Western multiregional market where NHA members actively participate.",
+    "issues": [],
+    "documents": []
   },
   {
     "title": "MSC Zoom Meeting - Hosted by WIEB",
@@ -824,7 +1096,7 @@
     "date": "2026-08-19",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Reliability Committee",
+    "committee": "Transmission Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=160123",
     "materials_url": null,
@@ -1067,7 +1339,7 @@
   {
     "title": "Markets and Reliability Committee Meeting",
     "date": "2026-08-19",
-    "time": "9:00 a.m. - 12:30 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "Markets and Reliability Committee",
     "source_url": "https://www.pjm.com/calendar",
@@ -1139,7 +1411,7 @@
     "date": "2026-08-18",
     "time": "1:00 PM",
     "rto": "ISO-NE",
-    "committee": "Transmission Committee",
+    "committee": "Reliability Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=160122",
     "materials_url": null,
@@ -1301,7 +1573,7 @@
   {
     "title": "SPF Meeting",
     "date": "2026-08-17",
-    "time": "10:00 a.m. - 12:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "SPF",
     "source_url": "https://www.pjm.com/calendar",
@@ -1612,11 +1884,30 @@
     "committee": "TOA-AC Special Session - Public Materials Only (No Registration)",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={3425ABBC-B74B-4476-8B4B-87EE60E5376D}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A TOA-AC (Transmission Operations and Attestation - Advisory Committee) special session with no details indicating discussion of transmission rules, market-design changes, or reliability standards affecting hydropower revenue, obligations, or strategic options is too generic to assess as relevant; without an agenda the title alone provides no evidence of hydro-material content.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260817-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/toa-ac/2026/20260817/20260817-agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-08-06",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Market Simulation - Extended Day-Ahead Market (EDAM) Enhancements 2026 - Inter-Scheduling Coordinator (Inter-SC) Trades",
@@ -8491,6 +8782,140 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "2026 Settlement C Tracking",
+        "filename": "20260810-2026-settlement-c-tracking.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/mss/2026/20260810/20260810-2026-settlement-c-tracking.pdf",
+        "member_url": null,
+        "posted_date": "2026-08-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Settlement C Adjustments are routine billing-administration reconciliations with no bearing on hydro revenue streams, compliance obligations, or strategic market-design options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Sean Flamm",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "sean.flamm@pjm.com"
+          },
+          {
+            "name": "Susan Kenney",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Susan.Kenney@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Regulation Phase 2 Settlement Impacts",
+        "filename": "20260810-regulation-phase-2-settlement-impacts.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/mss/2026/20260810/20260810-regulation-phase-2-settlement-impacts.pdf",
+        "member_url": null,
+        "posted_date": "2026-08-06",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM's Regulation Redesign Phase 2 directly changes how hydroelectric resources calculate and receive settlement compensation for regulation service \u2014 a core ancillary-services revenue stream hydro supplies, especially the opportunity-cost methodology that determines whether hydro is adequately paid for its service.",
+        "ai_summary": "PJM Regulation Redesign Phase 2, approved by FERC on June 14, 2024, splits the single-signal bidirectional Regulation product into two separate products\u2014RegUp and RegDn\u2014each with distinct requirements, offers, clearing prices, and settlements, effective December 1, 2026. Key changes include bifurcated performance metrics and clearing-price credits (both capability and mileage components) by product type; separate opportunity-cost calculation for RegUp and RegDn, with a single intra-commitment opportunity cost accounting for both assignments and 'Regulation signal bias' (energy produced while providing regulation); and new MSRS settlement reports including a dedicated 'Regulation Hydro Opportunity Cost Details' report for hydro units. The settlement changes take effect December 1, 2026, with the first billing statement issued January 8, 2027, following sandbox testing in August\u2013September 2026 and education sessions in October\u2013November 2026.",
+        "hydro_read_through": "Hydro operators in PJM depend on regulation revenue, which is highly sensitive to how opportunity costs are calculated and whether deployment actually compensates them for forgone energy sales. Phase 2's bifurcation of RegUp and RegDn signals means hydro must now offer separately for each direction and will be paid separate clearing prices and opportunity-cost credits for each, potentially improving precision in compensation but requiring operational and bidding-system changes. The explicit treatment of 'Regulation signal bias' in opportunity-cost settlement is significant for hydro because it recognizes that regulation activity produces or consumes energy incidentally\u2014a design nuance that directly affects how much uplift hydro receives when it isn't compensated by the clearing prices alone.",
+        "source_names_hydro": true,
+        "topics": [
+          "ancillary-services",
+          "price-formation",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "FERC Approval on June 14, 2024",
+            "quote": "FERC Approval on\nJune 14, 2024",
+            "verified": true
+          },
+          {
+            "claim": "Phase 2 go-live date of December 1, 2026",
+            "quote": "*FERC approved Phase 2 go-live date of Dec 1, 2026",
+            "verified": true
+          },
+          {
+            "claim": "December 2026 Bill Issued January 8, 2027",
+            "quote": "December 2026 Bill Issued (First billing statement containing Phase 2 changes) January 8, 2027",
+            "verified": true
+          },
+          {
+            "claim": "MSRS Report Documentation Available May 2026",
+            "quote": "MSRS Report Documentation Available May 2026",
+            "verified": true
+          },
+          {
+            "claim": "MSRS Train (Sandbox) Opens for Testing August / September 2026",
+            "quote": "MSRS Train (Sandbox) Opens for Testing August / September 2026",
+            "verified": true
+          },
+          {
+            "claim": "Manual 28 changes presented at MIC/MRC September / October 2026",
+            "quote": "Manual 28 changes presented at MIC/MRC September / October 2026",
+            "verified": true
+          },
+          {
+            "claim": "Special education sessions covering all Regulation Redesign areas October / November 2026",
+            "quote": "Special education sessions covering all Regulation Redesign areas October / November 2026",
+            "verified": true
+          },
+          {
+            "claim": "RegUp and RegDn products each with distinct requirements, clearing prices and settlement",
+            "quote": "Bifurcate one signal bidirectional to two products, RegUp and RegDn, each with its own requirement, clearing price and settlement.",
+            "verified": true
+          },
+          {
+            "claim": "Regulation signal bias accounted for in intra-commitment opportunity cost",
+            "quote": "the settlements calculated intra-commitment opportunity cost will also account for the amount of energy produced while providing Regulation, referred to as \"Regulation signal bias.\"",
+            "verified": false
+          },
+          {
+            "claim": "New Regulation Hydro Opportunity Cost Details report",
+            "quote": "Regulation Hydro Opportunity Cost Details\nCalculations",
+            "verified": false
+          },
+          {
+            "claim": "Hydro details moved to new Hydro report",
+            "quote": "\u2022 Hydro details (Avg LMP, RT LMP) moved to new Hydro report",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Nick DiSciullo",
+            "entity": "PJM",
+            "role": "sme/presenter",
+            "email": "nicholas.disciullo@pjm.com"
+          },
+          {
+            "name": "Sean Flamm",
+            "entity": "PJM",
+            "role": "secretary",
+            "email": "sean.flamm@pjm.com"
+          },
+          {
+            "name": "Sravani Zangam",
+            "entity": "PJM",
+            "role": "sme/presenter",
+            "email": "sravani.zangam@pjm.com"
+          },
+          {
+            "name": "Susan Kenney",
+            "entity": "PJM",
+            "role": "facilitator",
+            "email": "susan.kenney@pjm.com"
+          }
+        ]
       }
     ]
   },
@@ -8543,6 +8968,35 @@
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260810/20260810-agenda-doc.docx",
         "member_url": null,
         "posted_date": "2026-08-05",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "064a0b1b-aeda-4f5b-87b8-82b5759fb6b5",
+            "canonical_name": "Critical Issue Fast Path (CIFP) - Reliability Backstop Procurement",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "packages",
+            "committee_owner": "other",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=064a0b1b-aeda-4f5b-87b8-82b5759fb6b5"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "PJM And Cra Reliability Backstop Procurement Presentation",
+        "filename": "20260810-pjm-and-cra-reliability-backstop-procurement-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260810/20260810-pjm-and-cra-reliability-backstop-procurement-presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-08-07",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -8820,7 +9274,7 @@
         "filename": "20260810-item-04h---product-roadmap---pjm-tools-security-updates.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20260810/20260810-item-04h---product-roadmap---pjm-tools-security-updates.pdf",
         "member_url": null,
-        "posted_date": "2026-08-05",
+        "posted_date": "2026-08-06",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -8838,7 +9292,7 @@
         "filename": "20260810-item-05a---general-updates.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20260810/20260810-item-05a---general-updates.pdf",
         "member_url": null,
-        "posted_date": "2026-08-05",
+        "posted_date": "2026-08-06",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -20331,6 +20785,24 @@
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260730/20260730-item-03---show-cause-for-large-loads-conceptual-approach---presentation.pdf",
         "member_url": null,
         "posted_date": "2026-07-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "vote",
+        "title": "Co Located Load Order Workshop Stakeholder Feedback Poll Responses Received By 8 6 26",
+        "filename": "20260730-co-located-load-order-workshop-stakeholder-feedback-poll-responses-received-by-8-6-26.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260730/20260730-co-located-load-order-workshop-stakeholder-feedback-poll-responses-received-by-8-6-26.pdf",
+        "member_url": null,
+        "posted_date": "2026-08-07",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
