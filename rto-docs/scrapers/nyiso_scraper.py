@@ -175,8 +175,11 @@ class NYISOScraper(BaseRTOScraper):
 
     _AUTH_TOKEN_RE = re.compile(r"authToken\s*=\s*'([^']+)'")
     _PLID_RE = re.compile(r"plid=([0-9]+)")
+    # Instance ids are mixed case — EGCWG's is 'p08vuhz7yhE1'. A lowercase-only
+    # class silently dropped that committee from the calendar entirely, since a
+    # failed match here is indistinguishable from a page with no file browser.
     _PORTLET_RE = re.compile(
-        r"portletId:\s*'([^']+committee_file_browser_INSTANCE_[a-z0-9]+)'"
+        r"portletId:\s*'([^']+committee_file_browser_INSTANCE_[A-Za-z0-9]+)'"
     )
 
     def __init__(self):
@@ -231,6 +234,10 @@ class NYISOScraper(BaseRTOScraper):
             raise RuntimeError(
                 f"no file-browser handshake on any of "
                 f"{len(self.COMMITTEE_PAGES)} committee pages — {hint}")
+
+        # Only after the site is known reachable — no point fetching feeds on
+        # a run that is about to fail anyway.
+        meetings.extend(self._ical_meetings(start_date, end_date, meetings))
 
         print(f"  {len(meetings)} NYISO meetings in window")
         return meetings
@@ -332,6 +339,71 @@ class NYISOScraper(BaseRTOScraper):
         return documents
 
     # ── iCal time enrichment ─────────────────────────────────────
+
+    def _ical_meetings(self, start_date, end_date, already):
+        """Schedule-only meetings from the iCal feeds, for dates the
+        committeefile API cannot know about yet.
+
+        The API is a document-folder API: a meeting appears only once its
+        materials folder exists, and NYISO creates that folder just before
+        the meeting. So it fills the past well and the future barely — on
+        2026-08-10 it had 5 past meetings in window and 2 future, where every
+        other RTO ran roughly half and half. The iCal feeds carry the actual
+        schedule, so read meetings from them too.
+
+        These rows carry no _folder_id, so scrape_meeting_documents returns
+        nothing for them and they show as a meeting with no materials yet.
+        When NYISO does post the folder, the API path picks the same meeting
+        up and upsert_meeting's (rto, title, meeting_date) key merges the two,
+        attaching documents to the row that is already there.
+
+        A SUMMARY often combines co-scheduled groups ("ICAP/MIWG/PRLWG"), so
+        one event can yield several committee meetings. Anything matching no
+        known committee is skipped and counted — NYSRC is a separate
+        organisation, not one of NYISO's committees.
+        """
+        if self._ical_index is None:
+            self._ical_index = self._build_ical_index()
+        if not self._ical_index:
+            return []
+
+        seen = {(m["committee"], m["meeting_date"]) for m in already}
+        out, skipped = [], set()
+        for date, events in self._ical_index.items():
+            if not (start_date <= date <= end_date):
+                continue
+            for summary, time_str in events:
+                tokens = {t.upper() for t in re.split(r"[^A-Za-z0-9\-]+", summary) if t}
+                matched = False
+                for name, ctokens in self.ICAL_TOKENS.items():
+                    if not tokens & {c.upper() for c in ctokens}:
+                        continue
+                    matched = True
+                    if (name, date) in seen:
+                        continue
+                    seen.add((name, date))
+                    page_url = f"{self.BASE_URL}/{dict(self.COMMITTEE_PAGES)[name]}"
+                    out.append({
+                        "title": name,
+                        "meeting_date": date,
+                        "meeting_time": time_str,
+                        "committee": name,
+                        "source_url": self.CALENDAR_URL,
+                        "detail_url": page_url,
+                        "materials_url": page_url,
+                        # No _folder_id: nothing posted yet.
+                        "_slug": dict(self.COMMITTEE_PAGES)[name],
+                    })
+                if not matched:
+                    skipped.add(summary)
+
+        if out:
+            print(f"    [iCal] {len(out)} scheduled meeting(s) with no "
+                  f"materials folder yet")
+        if skipped:
+            print(f"    [iCal] {len(skipped)} event(s) matched no known "
+                  f"committee, skipped: {', '.join(sorted(skipped)[:6])}")
+        return out
 
     def _ical_time(self, committee, date):
         """Return a 'H:MM AM - H:MM PM' (ET) string for this committee+date
