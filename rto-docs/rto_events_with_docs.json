@@ -14,6 +14,34 @@
     "documents": []
   },
   {
+    "title": "Q4 ECCWG Net Conference",
+    "date": "2026-11-17",
+    "time": "11:00 AM - 12:00 PM CT",
+    "rto": "SPP",
+    "committee": "Enhanced Curtailment Calculator Working Group",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/q4-eccwg-net-conference-20261117/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=200401",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "MDWG Net Conference",
+    "date": "2026-11-17",
+    "time": "10:00 AM - 5:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Design Working Group",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-design-working-group-net-conference-20261117/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=370765",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MRATF Net Conference",
     "date": "2026-11-16",
     "time": "12:00 PM - 4:00 PM CT",
@@ -336,6 +364,81 @@
     "documents": []
   },
   {
+    "title": "SOS Meeting",
+    "date": "2026-09-02",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "SOS",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Budget & Priorities Working Group",
+    "date": "2026-09-02",
+    "time": "10:00 AM - 2:00 PM",
+    "rto": "NYISO",
+    "committee": "Budget & Priorities Working Group",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/bpwg",
+    "materials_url": "https://www.nyiso.com/bpwg",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Planning Subcommittee (PSC) -September 2, 2026",
+    "date": "2026-09-02",
+    "time": "9:00 AM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Planning Subcommittee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/514522ca695841fb910a4fa3b56b0b85.aspx",
+    "materials_url": "https://www.misoenergy.org/link/514522ca695841fb910a4fa3b56b0b85.aspx",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20260902 PSC Item 01c Minutes 20260722",
+        "filename": "20260902 PSC Item 01c Minutes 20260722.pdf",
+        "url": "https://cdn.misoenergy.org/20260902%20PSC%20Item%2001c%20Minutes%2020260722772469.pdf",
+        "member_url": null,
+        "posted_date": "2026-07-31",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "WMS Meeting",
+    "date": "2026-09-02",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Wholesale Market Subcommittee",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/09022026-WMS-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/09022026-WMS-Meeting",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MCUF Net Conference",
     "date": "2026-09-01",
     "time": "2:00 PM - 5:00 PM CT",
@@ -447,6 +550,20 @@
     "source_url": "https://www.ercot.com/calendar",
     "detail_url": "https://www.ercot.com/calendar/09012026-RMS-Meeting",
     "materials_url": "https://www.ercot.com/calendar/09012026-RMS-Meeting",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Interconnection Customer User Group",
+    "date": "2026-09-01",
+    "time": "1:00 PM - 2:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Interconnection Customer User Group",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-sep-01-2026-0100-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/interconnection-customer-user-group",
     "meeting_hydro_relevant": null,
     "meeting_hydro_reason": null,
     "issues": [],
@@ -4042,7 +4159,7 @@
   {
     "title": "Markets and Reliability Committee Meeting",
     "date": "2026-08-19",
-    "time": "9:00 a.m. - 1:40 p.m.",
+    "time": "3:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "Markets and Reliability Committee",
     "source_url": "https://www.pjm.com/calendar",
@@ -4054,7 +4171,7 @@
     "documents": [
       {
         "type": "agenda",
-        "title": "Agenda",
+        "title": "Markets and Reliability Committee Agenda",
         "filename": "20260819-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20260819/20260819-agenda.pdf",
         "member_url": null,
@@ -4889,6 +5006,24 @@
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20260819/20260819-item-08b---3-manual-18-revisions---redline.pdf",
         "member_url": null,
         "posted_date": "2026-08-12",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Markets and Reliability Committee Agenda",
+        "filename": "20260819-agenda.ashx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20260819/20260819-agenda.ashx",
+        "member_url": null,
+        "posted_date": null,
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -5852,7 +5987,7 @@
   {
     "title": "CLLSCO Meeting",
     "date": "2026-08-18",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "3:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "CLLSCO",
     "source_url": "https://www.pjm.com/calendar",
@@ -6139,7 +6274,7 @@
     "date": "2026-08-18",
     "time": "1:30 PM",
     "rto": "ISO-NE",
-    "committee": "Reliability Committee",
+    "committee": "Transmission Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=160122",
     "materials_url": null,
@@ -8427,7 +8562,7 @@
   {
     "title": "TOA-AC Special Session - Public Materials Only (No Registration) Meeting",
     "date": "2026-08-17",
-    "time": "9:00 a.m. - 10:00 a.m.",
+    "time": "3:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "TOA-AC Special Session - Public Materials Only (No Registration)",
     "source_url": "https://www.pjm.com/calendar",
@@ -9638,12 +9773,12 @@
   {
     "title": "SRRTEP-S Meeting",
     "date": "2026-08-13",
-    "time": "10:00 a.m. - 12:00 p.m.",
+    "time": "1:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "SRRTEP-S",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={D7B2634C-DEE1-47F3-B766-7ED46CF49C40}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={F3C26FDD-7013-4728-9377-87582BD459A2}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-S (State Reliability Response and Training Exercise Program - Stakeholder) is primarily an operational/training exercise committee with no inherent connection to market-design rules, rate structures, capacity accreditation, or revenue mechanisms that affect hydropower and pumped-storage operators.",
     "issues": [],
@@ -11019,6 +11154,36 @@
       },
       {
         "rto": "ERCOT",
+        "native_id": "NPRR1329",
+        "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1331",
+        "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1332",
+        "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
+        "status": "Pending",
+        "stakeholder_phase": "Impact Analysis Consideration",
+        "committee_owner": "PRS",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
+      },
+      {
+        "rto": "ERCOT",
         "native_id": "NPRR1335",
         "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
         "status": "Pending",
@@ -11026,6 +11191,26 @@
         "committee_owner": "TAC",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1336",
+        "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1337",
+        "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
       },
       {
         "rto": "ERCOT",
@@ -11046,6 +11231,36 @@
         "committee_owner": "TAC",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1341",
+        "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1342",
+        "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1344",
+        "canonical_name": "NPRR1344 \u2014 Move OBD to Section 19 \u2013 Texas Market Test Plan",
+        "status": "Pending",
+        "stakeholder_phase": "Revision  Request Consideration",
+        "committee_owner": "TAC",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1344"
       }
     ],
     "documents": [
@@ -11107,6 +11322,36 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1329",
+            "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1331",
+            "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1332",
+            "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
             "status": "Pending",
@@ -11114,6 +11359,26 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1336",
+            "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1337",
+            "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           },
           {
             "rto": "ERCOT",
@@ -11134,6 +11399,36 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1341",
+            "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1342",
+            "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1344",
+            "canonical_name": "NPRR1344 \u2014 Move OBD to Section 19 \u2013 Texas Market Test Plan",
+            "status": "Pending",
+            "stakeholder_phase": "Revision  Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1344"
           }
         ],
         "stakeholders": [
@@ -11242,6 +11537,36 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1329",
+            "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1331",
+            "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1332",
+            "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
             "status": "Pending",
@@ -11249,6 +11574,26 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1336",
+            "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1337",
+            "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           },
           {
             "rto": "ERCOT",
@@ -11269,6 +11614,36 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1341",
+            "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1342",
+            "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1344",
+            "canonical_name": "NPRR1344 \u2014 Move OBD to Section 19 \u2013 Texas Market Test Plan",
+            "status": "Pending",
+            "stakeholder_phase": "Revision  Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1344"
           }
         ],
         "stakeholders": [
@@ -11359,6 +11734,36 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1329",
+            "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1331",
+            "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1332",
+            "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
             "status": "Pending",
@@ -11366,6 +11771,26 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1336",
+            "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1337",
+            "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           },
           {
             "rto": "ERCOT",
@@ -11386,6 +11811,36 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1341",
+            "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1342",
+            "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1344",
+            "canonical_name": "NPRR1344 \u2014 Move OBD to Section 19 \u2013 Texas Market Test Plan",
+            "status": "Pending",
+            "stakeholder_phase": "Revision  Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1344"
           }
         ],
         "stakeholders": [
@@ -11441,6 +11896,36 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1329",
+            "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1331",
+            "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1332",
+            "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
             "status": "Pending",
@@ -11448,6 +11933,26 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1336",
+            "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1337",
+            "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           },
           {
             "rto": "ERCOT",
@@ -11468,6 +11973,36 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1341",
+            "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1342",
+            "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1344",
+            "canonical_name": "NPRR1344 \u2014 Move OBD to Section 19 \u2013 Texas Market Test Plan",
+            "status": "Pending",
+            "stakeholder_phase": "Revision  Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1344"
           }
         ],
         "stakeholders": []
@@ -11525,6 +12060,36 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1329",
+            "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1331",
+            "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1332",
+            "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
             "status": "Pending",
@@ -11532,6 +12097,26 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1336",
+            "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1337",
+            "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           },
           {
             "rto": "ERCOT",
@@ -11552,6 +12137,36 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1341",
+            "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1342",
+            "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1344",
+            "canonical_name": "NPRR1344 \u2014 Move OBD to Section 19 \u2013 Texas Market Test Plan",
+            "status": "Pending",
+            "stakeholder_phase": "Revision  Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1344"
           }
         ],
         "stakeholders": [
@@ -11685,6 +12300,36 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1329",
+            "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1331",
+            "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1332",
+            "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
             "status": "Pending",
@@ -11692,6 +12337,26 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1336",
+            "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1337",
+            "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           },
           {
             "rto": "ERCOT",
@@ -11712,6 +12377,36 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1341",
+            "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1342",
+            "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1344",
+            "canonical_name": "NPRR1344 \u2014 Move OBD to Section 19 \u2013 Texas Market Test Plan",
+            "status": "Pending",
+            "stakeholder_phase": "Revision  Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1344"
           }
         ],
         "stakeholders": [
@@ -11821,6 +12516,36 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1329",
+            "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1331",
+            "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1332",
+            "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
             "status": "Pending",
@@ -11828,6 +12553,26 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1336",
+            "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1337",
+            "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           },
           {
             "rto": "ERCOT",
@@ -11848,6 +12593,36 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1341",
+            "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1342",
+            "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1344",
+            "canonical_name": "NPRR1344 \u2014 Move OBD to Section 19 \u2013 Texas Market Test Plan",
+            "status": "Pending",
+            "stakeholder_phase": "Revision  Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1344"
           }
         ],
         "stakeholders": [
@@ -11897,6 +12672,36 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1329",
+            "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1331",
+            "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1332",
+            "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
             "status": "Pending",
@@ -11904,6 +12709,26 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1336",
+            "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1337",
+            "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           },
           {
             "rto": "ERCOT",
@@ -11924,6 +12749,36 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1341",
+            "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1342",
+            "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1344",
+            "canonical_name": "NPRR1344 \u2014 Move OBD to Section 19 \u2013 Texas Market Test Plan",
+            "status": "Pending",
+            "stakeholder_phase": "Revision  Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1344"
           }
         ],
         "stakeholders": []
@@ -11966,6 +12821,36 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1329",
+            "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1331",
+            "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1332",
+            "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
             "status": "Pending",
@@ -11973,6 +12858,26 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1336",
+            "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1337",
+            "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           },
           {
             "rto": "ERCOT",
@@ -11993,6 +12898,36 @@
             "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1341",
+            "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1342",
+            "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1344",
+            "canonical_name": "NPRR1344 \u2014 Move OBD to Section 19 \u2013 Texas Market Test Plan",
+            "status": "Pending",
+            "stakeholder_phase": "Revision  Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1344"
           }
         ],
         "stakeholders": []
@@ -17105,12 +18040,12 @@
   {
     "title": "DTS Meeting",
     "date": "2026-08-11",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 10:00 a.m.",
     "rto": "PJM",
     "committee": "DTS",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0A57EEDF-73A1-4F67-A42D-A0B44CF3B9CE}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={35602BAE-628F-43CD-B60F-05B1731D93E0}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "DTS (Demand and Transmission Study) meetings typically address grid planning, demand forecasting, and transmission adequacy without agenda specifics that would indicate discussion of hydropower revenue mechanisms, storage participation rules, or market-design changes affecting hydro operations.",
     "issues": [],
@@ -18036,12 +18971,12 @@
   {
     "title": "MSS Meeting",
     "date": "2026-08-10",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "10:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "MSS",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0A57EEDF-73A1-4F67-A42D-A0B44CF3B9CE}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={D7B2634C-DEE1-47F3-B766-7ED46CF49C40}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "PJM Markets and Settlements Subcommittee (MSS) addresses energy pricing, ancillary services, capacity accreditation, and market-participation rules that directly affect hydropower and pumped-storage revenue, compliance, and strategic options.",
     "issues": [],
@@ -66420,8 +67355,8 @@
         "native_id": "NPRR1331",
         "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
         "status": "Pending",
-        "stakeholder_phase": "Impact Analysis Consideration",
-        "committee_owner": "PRS",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
       },
@@ -66460,8 +67395,8 @@
         "native_id": "NPRR1341",
         "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
         "status": "Pending",
-        "stakeholder_phase": "Impact Analysis Consideration",
-        "committee_owner": "PRS",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
       },
@@ -66470,8 +67405,8 @@
         "native_id": "NPRR1342",
         "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
         "status": "Pending",
-        "stakeholder_phase": "Language Consideration",
-        "committee_owner": "PRS",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
       },
@@ -66582,8 +67517,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -66622,8 +67557,8 @@
             "native_id": "NPRR1341",
             "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
           },
@@ -66632,8 +67567,8 @@
             "native_id": "NPRR1342",
             "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
           },
@@ -66758,8 +67693,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -66798,8 +67733,8 @@
             "native_id": "NPRR1341",
             "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
           },
@@ -66808,8 +67743,8 @@
             "native_id": "NPRR1342",
             "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
           },
@@ -66934,8 +67869,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -66974,8 +67909,8 @@
             "native_id": "NPRR1341",
             "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
           },
@@ -66984,8 +67919,8 @@
             "native_id": "NPRR1342",
             "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
           },
@@ -67100,8 +68035,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -67140,8 +68075,8 @@
             "native_id": "NPRR1341",
             "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
           },
@@ -67150,8 +68085,8 @@
             "native_id": "NPRR1342",
             "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
           },
@@ -67259,8 +68194,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -67299,8 +68234,8 @@
             "native_id": "NPRR1341",
             "canonical_name": "NPRR1341 \u2014 Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1341"
           },
@@ -67309,8 +68244,8 @@
             "native_id": "NPRR1342",
             "canonical_name": "NPRR1342 \u2014 Mitigated Offer Caps for Contract for Capacity Resources",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1342"
           },
@@ -108870,8 +109805,8 @@
         "native_id": "NPRR1329",
         "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
         "status": "Pending",
-        "stakeholder_phase": "Impact Analysis Consideration",
-        "committee_owner": "PRS",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
       },
@@ -108880,8 +109815,8 @@
         "native_id": "NPRR1331",
         "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
         "status": "Pending",
-        "stakeholder_phase": "Impact Analysis Consideration",
-        "committee_owner": "PRS",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
       },
@@ -108890,7 +109825,7 @@
         "native_id": "NPRR1332",
         "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
         "status": "Pending",
-        "stakeholder_phase": "Language Consideration",
+        "stakeholder_phase": "Impact Analysis Consideration",
         "committee_owner": "PRS",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
@@ -108930,8 +109865,8 @@
         "native_id": "NPRR1336",
         "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
         "status": "Pending",
-        "stakeholder_phase": "Language Consideration",
-        "committee_owner": "PRS",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
       },
@@ -108940,8 +109875,8 @@
         "native_id": "NPRR1337",
         "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
         "status": "Pending",
-        "stakeholder_phase": "Language Consideration",
-        "committee_owner": "PRS",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
       }
@@ -109042,8 +109977,8 @@
             "native_id": "NPRR1329",
             "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
           },
@@ -109052,8 +109987,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -109062,7 +109997,7 @@
             "native_id": "NPRR1332",
             "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
@@ -109102,8 +110037,8 @@
             "native_id": "NPRR1336",
             "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
           },
@@ -109112,8 +110047,8 @@
             "native_id": "NPRR1337",
             "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           }
@@ -109224,8 +110159,8 @@
             "native_id": "NPRR1329",
             "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
           },
@@ -109234,8 +110169,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -109244,7 +110179,7 @@
             "native_id": "NPRR1332",
             "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
@@ -109284,8 +110219,8 @@
             "native_id": "NPRR1336",
             "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
           },
@@ -109294,8 +110229,8 @@
             "native_id": "NPRR1337",
             "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           }
@@ -109397,8 +110332,8 @@
             "native_id": "NPRR1329",
             "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
           },
@@ -109407,8 +110342,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -109417,7 +110352,7 @@
             "native_id": "NPRR1332",
             "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
@@ -109457,8 +110392,8 @@
             "native_id": "NPRR1336",
             "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
           },
@@ -109467,8 +110402,8 @@
             "native_id": "NPRR1337",
             "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           }
@@ -109579,8 +110514,8 @@
             "native_id": "NPRR1329",
             "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
           },
@@ -109589,8 +110524,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -109599,7 +110534,7 @@
             "native_id": "NPRR1332",
             "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
@@ -109639,8 +110574,8 @@
             "native_id": "NPRR1336",
             "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
           },
@@ -109649,8 +110584,8 @@
             "native_id": "NPRR1337",
             "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           }
@@ -109785,8 +110720,8 @@
             "native_id": "NPRR1329",
             "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
           },
@@ -109795,8 +110730,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -109805,7 +110740,7 @@
             "native_id": "NPRR1332",
             "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
@@ -109845,8 +110780,8 @@
             "native_id": "NPRR1336",
             "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
           },
@@ -109855,8 +110790,8 @@
             "native_id": "NPRR1337",
             "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           }
@@ -109954,8 +110889,8 @@
             "native_id": "NPRR1329",
             "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
           },
@@ -109964,8 +110899,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -109974,7 +110909,7 @@
             "native_id": "NPRR1332",
             "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
@@ -110014,8 +110949,8 @@
             "native_id": "NPRR1336",
             "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
           },
@@ -110024,8 +110959,8 @@
             "native_id": "NPRR1337",
             "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           }
@@ -110130,8 +111065,8 @@
             "native_id": "NPRR1329",
             "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
           },
@@ -110140,8 +111075,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -110150,7 +111085,7 @@
             "native_id": "NPRR1332",
             "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
@@ -110190,8 +111125,8 @@
             "native_id": "NPRR1336",
             "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
           },
@@ -110200,8 +111135,8 @@
             "native_id": "NPRR1337",
             "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           }
@@ -110303,8 +111238,8 @@
             "native_id": "NPRR1329",
             "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
           },
@@ -110313,8 +111248,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -110323,7 +111258,7 @@
             "native_id": "NPRR1332",
             "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
@@ -110363,8 +111298,8 @@
             "native_id": "NPRR1336",
             "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
           },
@@ -110373,8 +111308,8 @@
             "native_id": "NPRR1337",
             "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           }
@@ -110483,8 +111418,8 @@
             "native_id": "NPRR1329",
             "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
           },
@@ -110493,8 +111428,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -110503,7 +111438,7 @@
             "native_id": "NPRR1332",
             "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
@@ -110543,8 +111478,8 @@
             "native_id": "NPRR1336",
             "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
           },
@@ -110553,8 +111488,8 @@
             "native_id": "NPRR1337",
             "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           }
@@ -110659,8 +111594,8 @@
             "native_id": "NPRR1329",
             "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
           },
@@ -110669,8 +111604,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -110679,7 +111614,7 @@
             "native_id": "NPRR1332",
             "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
@@ -110719,8 +111654,8 @@
             "native_id": "NPRR1336",
             "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
           },
@@ -110729,8 +111664,8 @@
             "native_id": "NPRR1337",
             "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           }
@@ -110828,8 +111763,8 @@
             "native_id": "NPRR1329",
             "canonical_name": "NPRR1329 \u2014 Resource Entity Requirements for Self-Limiting Facilities",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1329"
           },
@@ -110838,8 +111773,8 @@
             "native_id": "NPRR1331",
             "canonical_name": "NPRR1331 \u2014 Unannounced Generation Capacity Testing",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1331"
           },
@@ -110848,7 +111783,7 @@
             "native_id": "NPRR1332",
             "canonical_name": "NPRR1332 \u2014 Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1332"
@@ -110888,8 +111823,8 @@
             "native_id": "NPRR1336",
             "canonical_name": "NPRR1336 \u2014 Language Clean-up for NPRR1188 Implementation",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1336"
           },
@@ -110898,8 +111833,8 @@
             "native_id": "NPRR1337",
             "canonical_name": "NPRR1337 \u2014 ERS Enhancements",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1337"
           }
