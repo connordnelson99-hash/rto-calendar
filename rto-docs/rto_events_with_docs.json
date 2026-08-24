@@ -1,5 +1,19 @@
 [
   {
+    "title": "MORWG Net Conference",
+    "date": "2026-11-24",
+    "time": "11:00 AM - 3:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Operations and Reliability Working Group",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-operations-and-reliability-working-group-net-conference-20261124/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=370774",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MTWG Net Conference",
     "date": "2026-11-23",
     "time": "12:00 PM - 4:00 PM CT",
@@ -364,6 +378,34 @@
     "documents": []
   },
   {
+    "title": "NEPOOL Markets Committee Meeting",
+    "date": "2026-09-09",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Markets Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160103",
+    "materials_url": null,
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Large Load Working Group (LLWG) - September 9, 2026",
+    "date": "2026-09-09",
+    "time": "9:00 AM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Large Load Working Group",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/2ef60caa431f41cebba10fb9f9577881.aspx",
+    "materials_url": "https://www.misoenergy.org/link/2ef60caa431f41cebba10fb9f9577881.aspx",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MDWG Face-To-Face",
     "date": "2026-09-08",
     "time": "1:00 PM - 5:00 PM MT",
@@ -442,6 +484,20 @@
     "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
     "detail_url": "https://www.misoenergy.org/link/ba0fc7018cce4fc99325170acc0593bd.aspx",
     "materials_url": "https://www.misoenergy.org/link/ba0fc7018cce4fc99325170acc0593bd.aspx",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Comments due - Extended Day-Ahead Market (EDAM) Market Performance Meeting",
+    "date": "2026-09-08",
+    "time": null,
+    "rto": "CAISO",
+    "committee": "Extended Day-Ahead Market (EDAM) Performance",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/comments-due-extended-day-ahead-market-edam-market-performance-meeting-sep-08-2026-1200-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/extended-day-ahead-market-edam-market-performance",
     "meeting_hydro_relevant": null,
     "meeting_hydro_reason": null,
     "issues": [],
@@ -5364,8 +5420,49 @@
     "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Intertie-Schedule-Modeling-Evolution",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Intertie scheduling and modeling directly affects hydro deliverability, interregional transfer capability, and the strategic value of transmission-constrained hydro resources in CAISO and neighboring regions, which is central to hydro operators' revenue and market participation opportunities.",
-    "issues": [],
-    "documents": []
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "f0d1663c-df1a-44c3-bea5-d3d5b1a63fa1",
+        "canonical_name": "Intertie schedule modeling enhancements",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Intertie-Schedule-Modeling-Evolution"
+      }
+    ],
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - Intertie Schedule Modeling Enhancements - Aug 24, 2026",
+        "filename": "Presentation-Intertie-Schedule-Modeling-Enhancements-Aug-24-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Presentation-Intertie-Schedule-Modeling-Enhancements-Aug-24-2026.pdf",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "f0d1663c-df1a-44c3-bea5-d3d5b1a63fa1",
+            "canonical_name": "Intertie schedule modeling enhancements",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Intertie-Schedule-Modeling-Evolution"
+          }
+        ],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Market Simulation - Extended Day-Ahead Market (EDAM) Enhancements 2026 - Inter-Scheduling Coordinator (Inter-SC) Trades",
