@@ -1037,7 +1037,53 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Market seams discussions directly affect hydro owners' strategic options regarding participation in CAISO versus EDAM/WEIM, interregional transfer capability, and deliverability of hydro resources across seams.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "comment",
+        "title": "Comments - The Energy Authority - Joint Market Seams Workshop - Aug 18, 2026",
+        "filename": "comments-the-energy-authority-joint-market-seams-workshop-aug-18-2026.pdf",
+        "url": "https://www.caiso.com/documents/comments-the-energy-authority-joint-market-seams-workshop-aug-18-2026.pdf",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Market seams coordination between CAISO and SPP directly affects transmission interoperability, operational efficiency, and multi-market dispatch of hydro and other dispatchable resources across regional boundaries, particularly addressing Unscheduled Flow Mitigation Plan coordination and Remedial Action Scheme interactions.",
+        "ai_summary": "The Energy Authority submits comments on CAISO's Joint Market Seams Workshop held August 18, 2026, in which CAISO and SPP staff presented operational coordination capabilities and challenges. The commenter supports future exploration of Remedial Action Scheme coordination and minimum generation requirements, and requests expanded focus on Unscheduled Flow Mitigation Plan coordination as market and balancing authority responsibilities evolve. The commenter proposes a follow-up session after a planned transactional seams workshop and joint FERC report to review outcomes and establish a plan for future seams coordination work, arguing that aligned market design changes could improve grid efficiency without requiring intensive prior agreements.",
+        "hydro_read_through": "The document never mentions hydropower or pumped storage directly. However, seams coordination between CAISO and SPP is strategically important to hydro operators because it governs how real-time dispatch, flow mitigation, and remedial actions are coordinated across the two largest western RTOs\u2014affecting the deliverability and operational value of hydro resources that export power between regions. Improvements to Unscheduled Flow coordination and Remedial Action Schemes could expand the economic dispatch space available to hydro and reduce transmission constraints that currently limit interregional hydro trading.",
+        "source_names_hydro": false,
+        "topics": [
+          "seams-governance",
+          "transmission",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Workshop held August 18, 2026",
+            "quote": "This template has been created for submission of stakeholder comments on the Market Seams Workshop that was held on August 18, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "Comment submission date September 2, 2026",
+            "quote": "Dan Williams, The Energy Authority 9/2/2026",
+            "verified": true
+          },
+          {
+            "claim": "Requested exploration of Remedial Action Scheme coordination and Unscheduled Flow Mitigation Plan coordination",
+            "quote": "We support that idea. We would also like to see additional time spent on how Unscheduled Flow Mitigation Plan coordination is being handled or planned to be handled as markets and BA responsibilities evolve.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Dan Williams",
+            "entity": "The Energy Authority",
+            "role": "author",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Comments due - BPM Proposed Revision Requests",
@@ -1387,7 +1433,255 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Resource adequacy task force in Markets+ (SPP's multi-RTO governance expansion) directly addresses seasonal energy adequacy, capacity accreditation, and participation rules for hydro and storage resources across a multi-state footprint where hydropower's strategic value to regional reliability is material.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "04.Load Exclusion MIR SPP Recommendation REV 0811.pptx  [in MRATF Meeting Materials 20260914.zip]",
+        "filename": "04.Load Exclusion MIR SPP Recommendation REV 0811.pptx",
+        "url": "https://www.spp.org/Documents/77691/MRATF%20Meeting%20Materials%2020260914.zip#z=09142026%20MRATF%2F04.Load%20Exclusion%20MIR%20SPP%20Recommendation%20REV%200811.pptx",
+        "member_url": "https://www.spp.org/spp-documents-filings/?id=370801",
+        "posted_date": "2026-09-14",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Markets+ load-inclusion rules directly affect hydro's must-offer obligations and the RA program that governs dispatch and revenue accreditation for all Resources in Markets+, including conventional and pumped-storage hydro assets.",
+        "ai_summary": "Markets+ staff recommends approval of MIR91-R to require that all load in the Markets+ footprint be registered and represented in the Western Resource Adequacy Program (WRAP), closing a misalignment where WRAP BPM 103 permits load exclusion from both Forward Showing and Operations. MIR91-R addresses the issue through tariff revision only, requiring compliance with the principle that all Markets+ load must be in WRAP; staff also commits to addressing more structural solutions if load exclusion issues persist in WRAP BPM itself. The recommendation was discussed in the May and July 2026 MRATF meetings and presented in August 2026.",
+        "hydro_read_through": "The document does not mention hydropower or storage directly. However, resource-adequacy programs set the obligation to offer and the accreditation baseline that governs capacity and energy revenue for all dispatchable resources in the footprint, including hydro and PSH. Closing loopholes that allow load to escape WRAP tightens the RA stack and potentially raises scarcity signals that benefit peaking and flexible resources; conversely, it clarifies must-offer and settlement obligations for all participants, including hydro operators whose dispatch and revenue depend on accurate load and RA compliance across the entire footprint.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "seams-governance",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "WRAP BPM 103 allows load to be excluded from both Forward Showing and Operations",
+            "quote": "WRAP Business Practice Manual (BPM) 103 allows for load to be excluded from both the Forward Showing and Operations program if it is metered",
+            "verified": true
+          },
+          {
+            "claim": "MIR74-R was first discussed in May 2026 and both MIRs in July 2026",
+            "quote": "MIR74-R was first discussed in the May MRATF meeting; both MIRS were discussed in the July MRATF meeting",
+            "verified": true
+          },
+          {
+            "claim": "MIR91-R was first proposed in March 2026 and discussed again in June 2026",
+            "quote": "Two proposals were separately brought by MRATF members to address this issue: MIR74-R (March 2026) and MIR91-R (June 2026)",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "05.MIR93R Crow derate education.pptx  [in MRATF Meeting Materials 20260914.zip]",
+        "filename": "05.MIR93R Crow derate education.pptx",
+        "url": "https://www.spp.org/Documents/77691/MRATF%20Meeting%20Materials%2020260914.zip#z=09142026%20MRATF%2F05.MIR93R%20Crow%20derate%20education.pptx",
+        "member_url": "https://www.spp.org/spp-documents-filings/?id=370801",
+        "posted_date": "2026-09-14",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document describes Markets+ must-offer protocol changes affecting how ambient-capacity derates are reported and used in the Day-Ahead and Real-Time fleet-performance calculations that set each resource's must-offer obligation \u2014 a direct change to compliance obligations and the rules governing resource-availability data submission.",
+        "ai_summary": "Markets+ Initiative Request 93-Revised (MIR93-R) establishes a new parameter in the Market User Interface (MUI) to capture hourly ambient-capacity adjustments\u2014forced-outage reductions caused by high air temperatures or humidity\u2014that cannot be accommodated in the existing CROW outage-management system due to volume constraints. Ambient derates are defined as forced outages under the must-offer framework and feed into the Fleet Performance calculation used to set must-offer ceilings in the Day-Ahead Market and obligations in Real-Time. SPP received comments from Puget Sound Energy (expressing concerns about dual outage-entry systems) and Salt River Project (requesting confirmation of API availability and a single submission location); SPP's response supports SRP's proposal and recommends that all ambient derates be submitted via MUI as an Ambient Capacity Adjustment, while longer-term forced outages and derates continue through CROW. MIR93-R was posted July 29, 2026, with comment deadline August 18, 2026, and was approved by MIGTF on August 13, 2026; MRATF review is scheduled for September 14, 2026, with MORWG and MDWG reviews on November 10, 2026.",
+        "hydro_read_through": "Although this document does not mention hydro directly, conventional hydropower and pumped-storage plants that must offer into Markets+ will be subject to these must-offer obligations and fleet-performance adjustments. The MIR establishes where and how generators report the ambient derates that reduce their available capacity \u2014 a core compliance requirement \u2014 and which data system (MUI vs. CROW) handles frequent vs. long-term adjustments. For run-of-river and other thermally sensitive units, the hourly granularity of the MUI pathway and the definition of ambient adjustment as a forced outage (rather than a discretionary derating) directly shapes how their dispatch obligations and opportunity-cost modeling for mitigation purposes will account for unavailability. The requirement to submit real-time MAXECOL (maximum economic capacity operating limit) alongside ambient adjustments means ambient constraints will be explicitly visible to the market operator's dispatch and must-offer calculations.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance",
+          "capacity-ra",
+          "seams-governance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "MIR93-R was posted July 29, 2026",
+            "quote": "MIR93 was posted on July 29, 2026",
+            "verified": true
+          },
+          {
+            "claim": "comment deadline August 18, 2026",
+            "quote": "comments were due August 18, 2026",
+            "verified": true
+          },
+          {
+            "claim": "approved by MIGTF on August 13, 2026",
+            "quote": "Final MIR92-R was approved by MIGTF on 08/13/2026",
+            "verified": true
+          },
+          {
+            "claim": "MRATF review scheduled for September 14, 2026",
+            "quote": "MRATF\n09/14",
+            "verified": true
+          },
+          {
+            "claim": "MORWG and MDWG reviews scheduled for November 10, 2026",
+            "quote": "MORWG\n11/10\nMDWG\n11/10",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Puget Sound Energy",
+            "entity": "Puget Sound Energy",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Gentry Crowson",
+            "entity": "SPP",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Salt River Project",
+            "entity": "Salt River Project",
+            "role": "commenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "06.MIR36.1-R HP Exports - MRATF - 20260914.pptx  [in MRATF Meeting Materials 20260914.zip]",
+        "filename": "06.MIR36.1-R HP Exports - MRATF - 20260914.pptx",
+        "url": "https://www.spp.org/Documents/77691/MRATF%20Meeting%20Materials%2020260914.zip#z=09142026%20MRATF%2F06.MIR36.1-R%20HP%20Exports%20-%20MRATF%20-%2020260914.pptx",
+        "member_url": "https://www.spp.org/spp-documents-filings/?id=370801",
+        "posted_date": "2026-09-14",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Markets+ export protocol clarifications directly affect how hydropower resources in the WRAP footprint (including those outside Markets+ borders) can bid inter-regional sales and count toward resource-adequacy and must-offer obligations\u2014a core revenue and compliance mechanism for Western hydro owners choosing WRAP participation.",
+        "ai_summary": "MIR36.1-R clarifies Markets+ protocols for High Priority Export Interchange Transactions, targeting November MPEC approval after September votes at MDWG (Sept 8), MRATF (Sept 14), and MORWG (Sept 30). The proposal adds language governing Resource Hub exports, ties export MW to seasonal surplus caps (the difference between Total QCC and Forward Showing Obligation), requires e-tag tagging of seasonal-surplus transactions with resource source identification, and removes an attestation requirement from Section 9.1.14. High Priority exports are designed to integrate with the Western Resource Adequacy Program (WRAP) framework and do not count toward must-offer obligations; they are curtailed first if the system is in shortage.",
+        "hydro_read_through": "This document does not mention hydropower directly, but it specifies the operational and registration mechanics for inter-regional exports under Markets+ governance in coordination with WRAP. For a hydropower owner exporting seasonal surplus across Regional Boundaries, the clarifications matter because they define how export transactions are tagged, capped by seasonal-surplus formulas, and prioritized in shortage\u2014these are the conditions under which export revenue is realized and how export supply obligations interact with regional adequacy showings. The export-protocol changes also signal ongoing coordination between Markets+ and WRAP governance; a hydro owner's choice to participate in WRAP or Markets+ is downstream of how these rules align or diverge.",
+        "source_names_hydro": false,
+        "topics": [
+          "seams-governance",
+          "capacity-ra",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "MRATF vote scheduled for September 14",
+            "quote": "MRATF \u2013 Sept 14",
+            "verified": true
+          },
+          {
+            "claim": "MDWG vote scheduled for September 8",
+            "quote": "MDWG \u2013 Sept 8",
+            "verified": true
+          },
+          {
+            "claim": "MORWG vote scheduled for September 30",
+            "quote": "MORWG \u2013 Sept 30",
+            "verified": true
+          },
+          {
+            "claim": "November MPEC targeted for approval",
+            "quote": "Targeting November MPEC",
+            "verified": true
+          },
+          {
+            "claim": "Export MW is limited to seasonal surplus cap (difference of Total QCC minus Forward Showing Obligation)",
+            "quote": "Can't exceed cap (difference of Total QCC \u2013 Forward Showing Obligation)",
+            "verified": true
+          },
+          {
+            "claim": "High Priority exports do not count toward must-offer obligations",
+            "quote": "Does not count towards Must-Offer obligations",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Dan Kheloussi",
+            "entity": "SPP Markets+",
+            "role": "presenter, author",
+            "email": "dkheloussi@spp.org"
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "09142026_MRATF Agenda.docx  [in MRATF Meeting Materials 20260914.zip]",
+        "filename": "09142026_MRATF Agenda.docx",
+        "url": "https://www.spp.org/Documents/77691/MRATF%20Meeting%20Materials%2020260914.zip#z=09142026%20MRATF%2F09142026_MRATF%20Agenda.docx",
+        "member_url": "https://www.spp.org/spp-documents-filings/?id=370801",
+        "posted_date": "2026-09-14",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Resource adequacy task-force meeting covering SPP Markets+ design proposals (load exclusions, capacity derate, export system sales, and must-offer rules) that directly affect how dispatchable and storage resources participate in the RTO and how their capacity is valued.",
+        "ai_summary": "SPP Markets+ Resource Adequacy Task Force meeting (MRATF) scheduled for September 14, 2026, covering approval of four major implementation requests: MIR91-R on WRAP capacity-requirement treatment for Markets+ loads (comment deadline 7/20/2026; November MPEC goal); MIR74-R on must-offer ceiling load exclusions (comment deadline 4/20/2026; November MPEC goal); MIR93-R on ambient capacity derate parameter (comment deadline 8/18/2026; November MPEC goal); and MIR36.1-R on export-system sales design (comment deadline 6/24/2026; November MPEC goal). Also includes MRAWG update and poll to reschedule November 2026 meeting to November 19th.",
+        "hydro_read_through": "The document does not mention hydropower or storage directly. However, the MRATF is the technical forum for Markets+ resource-adequacy design, and the four MIRs under approval would reshape how dispatchable resources and storage are treated in capacity showing, must-offer rules, rating calculations, and export participation\u2014all mechanisms that drive capacity-revenue streams for conventional and pumped-storage hydro operating in or selling into Markets+.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "seams-governance",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "MIR91-R comment deadline 7/20/2026; November MPEC goal",
+            "quote": "MIR posted 6/29/2026; Comment deadline 7/20/2026; goal is November MPEC",
+            "verified": true
+          },
+          {
+            "claim": "MIR74-R comment deadline 4/20/2026; November MPEC goal",
+            "quote": "MIR posted 3/30/2026; Comment deadline 4/20/2026; goal is November MPEC",
+            "verified": true
+          },
+          {
+            "claim": "MIR93-R comment deadline 8/18/2026; November MPEC goal",
+            "quote": "MIR posted 7/29/2026; Comment deadline 8/18/2026; goal is November MPEC",
+            "verified": true
+          },
+          {
+            "claim": "MIR36.1-R comment deadline 6/24/2026; November MPEC goal",
+            "quote": "MIR posted 6/4/2026; Comment deadline: 6/24/26; goal is November MPEC",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "MRATF 0914.pptx  [in MRATF Meeting Materials 20260914.zip]",
+        "filename": "MRATF 0914.pptx",
+        "url": "https://www.spp.org/Documents/77691/MRATF%20Meeting%20Materials%2020260914.zip#z=09142026%20MRATF%2FMRATF%200914.pptx",
+        "member_url": "https://www.spp.org/spp-documents-filings/?id=370801",
+        "posted_date": "2026-09-14",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses a Markets+ Resource Adequacy Task Force meeting where a new Public Power sector representative is being confirmed \u2014 direct engagement with the governance structure of Markets+, which is a strategic-options issue for NHA members choosing between EDAM/WEIM/Markets+ participation and membership models.",
+        "ai_summary": "The M+ Resource Adequacy Task Force (MRATF) held a public meeting on September 14, 2026. MRATF solicited nominations for open roster seats (up to two Independent sector vacancies and one Public Power vacancy) with a deadline of August 10, 2026. After review, MRATF leadership selected Jerret Fischer of Salt River Project to fill the open Public Power vacancy. The document notes that MRATF seeks confirmation of this seat from the Markets Development Working Group (MDWG).",
+        "hydro_read_through": "This document does not address hydro directly. However, the formation and governance of the Markets+ Resource Adequacy Task Force is material to NHA members evaluating whether to join Markets+ versus competing market platforms (EDAM/WEIM). The MRATF's composition and decision-making structure will shape how resource-adequacy rules \u2014 which affect hydro capacity accreditation, seasonal revenue, and dispatch obligations \u2014 are developed in the Markets+ footprint. Tracking membership and leadership changes in these committees helps NHA assess the voice available to its members and the direction of Markets+ product design.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "seams-governance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Nominations were due on 08/10 and MRATF selected Jerret Fischer of Salt River Project to fill the Public Power vacancy",
+            "quote": "On 07/28 MRATF solicited nominations for the following open roster seats: up to two vacancies in the Independent sector for voting representation and one Public Power sector vacancy\nNominations were due on 08/10\nSPP received two nominations for the Public Power sector and zero submissions for the IND sector.\nAfter review of the submissions, MRATF leadership selected Jerret Fischer of Salt River Project to fill the open Public Power vacancy",
+            "verified": true
+          },
+          {
+            "claim": "Meeting date September 14, 2026",
+            "quote": "M+ Resource Adequacy Task Force\nSeptember 14, 2026",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jerret Fischer",
+            "entity": "Salt River Project",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "NEPOOL Membership Subcommittee Meeting",
@@ -1485,7 +1779,63 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "HR and Governance Committee meetings address internal personnel and corporate management matters unrelated to market design, operations, or strategic energy policy affecting hydropower or storage participation.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "HR & Governance Committee Meeting Agenda 2026-09-14",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/09142026-HR-_-Governance-Committee#agenda",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a governance and HR agenda with no bearing on hydropower revenue streams, compliance obligations, or strategic market-design options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Mike Meyer",
+            "entity": null,
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Brandon Gleason",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chad V. Seely",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mahesh Puducheri",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mark Miner",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Eddie Capistran",
+            "entity": "Meridian Compensation Partners",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Finance & Audit Committee Meeting",
@@ -1767,7 +2117,154 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A Human Resources Committee meeting addresses corporate personnel, compensation, and organizational administration\u2014topics that do not touch energy market design, pricing mechanisms, hydro revenue streams, operating standards, or strategic options affecting hydropower operators.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "20260910 Human Resources Committee of the BOD Item 02 Agenda.pdf",
+        "filename": "20260910 Human Resources Committee of the BOD Item 02 Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20260910%20Human%20Resources%20Committee%20of%20the%20BOD%20Item%2002%20Agenda779831.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a human resources committee agenda addressing internal personnel matters (incentive plans, calendar administration) with no bearing on hydropower revenue streams, compliance obligations, or strategic market-design options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Allegra Nottage",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mark Johnson",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ted Vatnsdal",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "20260910 Human Resources Committee of the BOD Item 03 Minutes 20260611.pdf",
+        "filename": "20260910 Human Resources Committee of the BOD Item 03 Minutes 20260611.pdf",
+        "url": "https://cdn.misoenergy.org/20260910%20Human%20Resources%20Committee%20of%20the%20BOD%20Item%2003%20Minutes%2020260611779832.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is an internal Human Resources Committee meeting minutes addressing employee compensation, health benefits, succession planning, and executive staffing \u2014 none of which touches hydro revenue streams, compliance obligations, or strategic options in market design.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Allegra Nottage",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Andre T. Porter",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "John R. Bear",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mark S. Johnson",
+            "entity": "MISO",
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "Mark Wyatt",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nickie Snyder",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20260910 Human Resources Committee of the BOD Item 04 YTD 2026 STI Plan Performance.pdf",
+        "filename": "20260910 Human Resources Committee of the BOD Item 04 YTD 2026 STI Plan Performance.pdf",
+        "url": "https://cdn.misoenergy.org/20260910%20Human%20Resources%20Committee%20of%20the%20BOD%20Item%2004%20YTD%202026%20STI%20Plan%20Performance779828.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is MISO's internal Short-Term Incentive Plan performance scorecard for executive compensation, covering operational metrics and strategic-pillar goals with no bearing on hydropower revenue streams, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260910 Human Resources Committee of the BOD Item 05 2027 STI Plan Draft.pdf",
+        "filename": "20260910 Human Resources Committee of the BOD Item 05 2027 STI Plan Draft.pdf",
+        "url": "https://cdn.misoenergy.org/20260910%20Human%20Resources%20Committee%20of%20the%20BOD%20Item%2005%202027%20STI%20Plan%20Draft779829.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is an internal MISO human-resources incentive-compensation plan for executive officers; it contains no market-design mechanisms, tariff rules, or compliance obligations that affect hydro or PSH revenue, participation, or strategic options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260910 Human Resources Committee of the BOD Item 06 2026 HRC Calendar.pdf",
+        "filename": "20260910 Human Resources Committee of the BOD Item 06 2026 HRC Calendar.pdf",
+        "url": "https://cdn.misoenergy.org/20260910%20Human%20Resources%20Committee%20of%20the%20BOD%20Item%2006%202026%20HRC%20Calendar779830.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is an internal HR committee calendar showing meeting dates and compensation-review agenda items; it contains no market-design content, no discussion of resource rules, pricing, dispatch, ancillary services, capacity accreditation, storage participation, interconnection, transmission, or any other revenue, obligation, or strategic mechanism relevant to hydropower or PSH operators.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Technology Committee of the Board of Directors - September 10, 2026",
@@ -1995,7 +2492,7 @@
       },
       {
         "type": "vote",
-        "title": "2b ACENY Motion",
+        "title": "2b ACENY Motion 1",
         "filename": "NYISO%20Amended%20Motion%202026.pdf",
         "url": "https://www.nyiso.com/documents/20142/59006557/NYISO%20Amended%20Motion%202026.pdf",
         "member_url": null,
@@ -2053,6 +2550,89 @@
             "name": "Matt Antonio",
             "entity": null,
             "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "vote",
+        "title": "2b Motion 2",
+        "filename": "091026%20MC%20Motion%202.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59006557/091026%20MC%20Motion%202.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The appeal concerns the Transition Cluster Study 2026 report, which directly addresses resource-adequacy and seasonal energy-adequacy planning in NYISO \u2014 a strategic issue for hydro owners assessing system scarcity, seasonal accreditation value, and interconnection sequencing.",
+        "ai_summary": "The NYISO Management Committee granted an appeal by Alliance for Clean Energy New York (ACE NY) of the NYISO Operating Committee's August 17, 2026 approval of the Transition Cluster Study 2024 Report. The appeal was filed by ACE NY on August 31, 2026. The document does not specify next steps, timeline for reconsideration, or the substantive grounds of the appeal.",
+        "hydro_read_through": "The Transition Cluster Study informs NYISO's resource-adequacy outlook and interconnection queue sequencing \u2014 both shape the value of existing hydro plants and the prospects for new resource entry. The appeal grants ACE NY a venue to contest study assumptions or findings; depending on what the appeal challenges (seasonal resource assumptions, load forecasts, or transmission constraints), it could affect how NYISO values hydro's seasonal and locational contributions to resource adequacy.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "seams-governance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Appeal filed by ACE NY on August 31, 2026",
+            "quote": "ACE NY's Notice of Appeal submitted to the MC on August 31, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Operating Committee approved Transition Cluster Study 2024 Report on August 17, 2026",
+            "quote": "NYISO Operating Committee's August 17, 2026 approval of the Transition Cluster Study 2024 Report",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Alliance for Clean Energy New York",
+            "entity": "ACE NY",
+            "role": "appellant",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "vote",
+        "title": "2c Motion 3",
+        "filename": "091026%20MC%20Motion%203.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59006557/091026%20MC%20Motion%203.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The Management Committee is vacating and remanding to the Operating Committee a Transition Cluster Study that directly affects capacity accreditation and resource qualification for all resources, including hydro and pumped storage, which are accredited through non-energy-limited-resource pathways.",
+        "ai_summary": "The NYISO Management Committee on September 10, 2026, vacated the Operating Committee's August 17, 2026 approval of the Transition Cluster Study 2024 Report and remanded it to the Operating Committee for reconsideration of issues raised by appellants Alliance for Clean Energy New York and NextEra Resources, LLC. No specific next-step timeline or vote date is stated in the motion.",
+        "hydro_read_through": "The document does not mention hydro or pumped storage directly. Transition Cluster Studies in NYISO govern how resources are classified for capacity-accreditation and participation rules; remand and reconsideration of the 2024 report could alter accreditation criteria or qualification pathways that determine how conventional hydro and pumped-storage resources are modeled for capacity revenue and seasonal accreditation, though the motion itself does not specify which changes are under appeal.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "August 17, 2026 approval date",
+            "quote": "August 17, 2026 approval of the",
+            "verified": true
+          },
+          {
+            "claim": "September 10, 2026 Management Committee meeting",
+            "quote": "September 10, 2026 Meeting",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Alliance for Clean Energy New York",
+            "entity": "Alliance for Clean Energy New York",
+            "role": "appellant",
+            "email": null
+          },
+          {
+            "name": "NextEra Resources, LLC",
+            "entity": "NextEra Resources, LLC",
+            "role": "appellant",
             "email": null
           }
         ]
@@ -2406,6 +2986,158 @@
         ],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260909 LLWG Item 04 Telemetry and PMU Requirements (LLWG-2026-4C).pdf",
+        "filename": "20260909 LLWG Item 04 Telemetry and PMU Requirements (LLWG-2026-4C).pdf",
+        "url": "https://cdn.misoenergy.org/20260909%20LLWG%20Item%2004%20Telemetry%20and%20PMU%20Requirements%20%28LLWG-2026-4C%29779861.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large computational loads are creating new telemetry and PMU requirements that will affect system stability monitoring, visibility rules, and reliability standards that apply across MISO resources\u2014setting operational compliance and metering obligations for all participants on the system where generators and storage operate.",
+        "ai_summary": "MISO's Large Load Working Group approved detailed telemetry and Phasor Measurement Unit (PMU) requirements for computational loads connected after December 4, 2026, codified in BPM-032 and RTO-SPEC-006. Computational loads must install PMU-capable equipment at the transmission-owner side of the Point of Withdrawal, synchronized to satellite clock (GPS), sampling at 60 samples per second with continuous streaming to MISO, and complying with IEEE/IEC 60255-118-1-2018 and IEEE C37.118.2-2024 standards. Large loads with Service Commencement Date on or before December 4, 2026, are grandfathered; those after that date must provide ICCP telemetry and PMU data by the later of service commencement or September 1, 2027. The Transmission Owner installs equipment at the Transmission Customer's expense, consistent with FERC's Show Cause Order. MISO seeks feedback on telemetry and PMU requirements by September 23, 2026.",
+        "hydro_read_through": "The document does not mention hydropower or storage. However, the telemetry and PMU standards it establishes apply to the bulk-power system generally; generators and storage resources on the same network where large computational loads operate will be subject to the same real-time visibility, metering-grade telemetry, and synchronization requirements. These operational compliance and metering rules\u2014particularly the 60-samples-per-second PMU streaming and ICCP data protocol\u2014set precedent for how MISO will treat dispatchable resources' operational data going forward and may inform future resource-type-neutral reliability or settlement requirements affecting all participants.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "ops-compliance"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "Grandfathering and transition effective date: Service Commencement Date on or prior to December 4, 2026, exempts from requirements; date after that date requires compliance by the later of service commencement or September 1, 2027",
+            "quote": "Large Loads with a Service Commencement Date on or prior to December 4, 2026 are exempt from Telemetry and PMU requirements. Large Loads with a Service Commencement Date after December 4, 2026 are required to provide ICCP Telemetry and PMU data to MISO prior to the later of the Service Commencement Date of the Computational Load, or September 1, 2027.",
+            "verified": true
+          },
+          {
+            "claim": "PMU sampling rate requirement: 60 samples per second for computational loads",
+            "quote": "Data needs to be recorded at least at 60 samples per second and support continuous streaming of data to MISO.",
+            "verified": true
+          },
+          {
+            "claim": "Measurement standards: IEEE/IEC 60255-118-1-2018 and IEEE C37.118.2-2024",
+            "quote": "The PMU shall comply to the below standards. Measurement requirements per IEEE/IEC 60255-118-1-2018 Communication requirements per IEEE C37.118.2-2024",
+            "verified": false
+          },
+          {
+            "claim": "Feedback deadline: September 23, 2026",
+            "quote": "MISO requests feedback on the Telemetry requirements in BPM-032, RTO-SPEC-006 and Large Load BPM-032 PMU section by September 23, 2026",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20260909 LLWG Item 05 Cost Shifting Risk Among Tx Customers Cost Transparency (LLWG-2026-8).pdf",
+        "filename": "20260909 LLWG Item 05 Cost Shifting Risk Among Tx Customers Cost Transparency (LLWG-2026-8).pdf",
+        "url": "https://cdn.misoenergy.org/20260909%20LLWG%20Item%2005%20Cost%20Shifting%20Risk%20Among%20Tx%20Customers%20Cost%20Transparency%20%28LLWG-2026-8%29779833.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large load interconnection and transmission cost allocation affects hydro's deliverability and strategic positioning as data centers and industrial loads co-locate in MISO; transparency on Network Upgrades triggered by eligible customers is a downstream transmission-planning signal that affects hydro's revenue opportunity and transmission-service costs.",
+        "ai_summary": "MISO's Large Load Working Group is implementing a FERC-mandated cost-transparency dashboard to track aggregate proposed large load additions by transmission pricing zone and the planned network upgrades needed to serve those loads, with cost estimates and searchability. The dashboard is in preliminary draft form. MISO requests stakeholder feedback by Wednesday September 16, 2026, on whether the draft dashboard meets FERC's objectives. The document does not name the data-center or industrial loads themselves or commit to implementation timing beyond the feedback deadline.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage. However, the transparency dashboard on large load additions and triggered network upgrades creates visibility into where transmission congestion is most likely to develop\u2014information that hydro owners need to assess their own deliverability constraints and the scarcity value of their output. When large loads anchor transmission investment in specific zones, they reshape the locational price signals and transfer capability that determine which existing hydro plants become bottleneck-constrained; tracking this helps hydro operators anticipate changes to their revenue-at-node.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "transmission",
+          "interconnection"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "Feedback deadline of Wednesday September 16, 2026",
+            "quote": "MISO requests feedback on Cost Transparency and Cost Shifting (LLWG-2026-8) by Wednesday\nSeptember 16, 2026.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "20260909 LLWG Item 03 Liaison Report.pdf",
+        "filename": "20260909 LLWG Item 03 Liaison Report.pdf",
+        "url": "https://cdn.misoenergy.org/20260909%20LLWG%20Item%2003%20Liaison%20Report779834.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's large-load integration procedures and reserve-product enhancements (LLWG-2026-2, LLWG-2026-6) will shape how dispatchable resources including hydropower are called upon to support new high-load customers, altering revenue and dispatch obligations for existing generators.",
+        "ai_summary": "MISO's Large Load Working Group is developing interconnection, operational, and market rules to accelerate integration of large new loads into the transmission system. Key active issues include: ZGIA (zero-injection co-location of load and generator, tariff filed 8/18, BPM finalized Q4); firm and non-firm transmission service pathways (tariff filings Q4 2026 and October 2026); Large Load Addition Resource Study process to concurrently study loads and associated generation (feedback request by September 10); operational forecasting and telemetry requirements (components filed with interconnection rules, remaining to BPM by December 2026); and reserve product enhancements to integrate large loads (feedback request by September 17, analysis to continue in Q4). FERC show-cause orders on non-firm transmission service and cost shifting among transmission customers drive several filings proposed for November 2026. Next LLWG meeting is September 23, 2026.",
+        "hydro_read_through": "The document does not mention hydropower, but large-load integration rules matter to conventional hydro generators because they determine how new demand is connected, what operational and forecasting requirements generators must meet to serve new loads, and how reserve and energy products are valued when loads are added to constrained areas. Reserve product enhancements (LLWG-2026-2) and the concurrent study of loads with generation (LARS) may create new revenue streams for flexible resources, but they also set service expectations and metering/settlement protocols that existing hydro will be subject to. Cost-shifting rules and firm-service step-up processes affect the transmission revenue and delivery obligations hydropower plants face in areas absorbing large new loads.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "interconnection",
+          "ancillary-services"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "ZGIA tariff filed 8/18, BPM finalized Q4",
+            "quote": "\u2022 Tariff Filed 8/18 \u2022 BPM Finalized Q4",
+            "verified": true
+          },
+          {
+            "claim": "Firm Service Step Up tariff filing October 2026",
+            "quote": "October 2026",
+            "verified": true
+          },
+          {
+            "claim": "Non-Firm Transmission Service tariff filing Q4 2026",
+            "quote": "Q4 2026",
+            "verified": true
+          },
+          {
+            "claim": "LARS feedback request by September 10",
+            "quote": "Please respond to Feedback Request by September 10",
+            "verified": true
+          },
+          {
+            "claim": "Large Load Reserve Product Enhancements feedback request by September 17",
+            "quote": "Please respond to Feedback Request by September 17",
+            "verified": true
+          },
+          {
+            "claim": "Cost Shifting Among Transmission Customers tariff filing proposed November 2026",
+            "quote": "FERC Filing Proposed November 2026",
+            "verified": true
+          },
+          {
+            "claim": "Large Load Application and Study Process tariff filing proposed November 2026",
+            "quote": "FERC Filing Proposed November 2026",
+            "verified": true
+          },
+          {
+            "claim": "Next LLWG meeting September 23, 2026",
+            "quote": "Next meeting 9/23 LLWG",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kristian Doty",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mike Mattox",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Ryan Darrah",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "rdarrah@misoenergy.org"
+          }
+        ]
       }
     ]
   },
@@ -3568,7 +4300,7 @@
         "filename": "a00_meeting_materials.zip",
         "url": "https://www.iso-ne.com/static-assets/documents/100039/a00_meeting_materials.zip",
         "member_url": null,
-        "posted_date": "2026-09-02",
+        "posted_date": "2026-09-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "Document metadata indicates this is a meeting-materials cover sheet with no extracted text content; unable to assess substantive agenda items, proposals, or decisions.",
         "ai_summary": null,
@@ -4438,6 +5170,627 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "2026-09-08-10 MC/RC/TC A04c.i - CAR-SA: IA Follow Ups - Resource Accreditation Modeling",
+        "filename": "a04c.i_mc-rc-tc_2026_09_08-10_car-sa_ram-ia_followups.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/a04c.i_mc-rc-tc_2026_09_08-10_car-sa_ram-ia_followups.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ISO-NE's seasonal/accreditation resource-accreditation modeling (CAR-SA) directly affects how conventional hydro and energy-storage resources will be accredited and priced in the forward capacity market, determining their seasonal capacity revenue and participation rules under a Q2 2027 proposed effective date.",
+        "ai_summary": "ISO-NE's Capacity Auction Reforms\u2014Seasonal/Accreditation (CAR-SA) proposal revises how resources are accredited in the capacity market, with a proposed effective date of Q2 2027. The document presents follow-up sensitivity analyses requested by stakeholders: (1) re-modeling energy-storage accreditation at storage penetration levels comparable to PJM's 2028/29 Base Residual Auction (~3.5% of total capacity), showing that a 4-hour battery would achieve approximately 62% accreditation in winter and 82% in summer under those assumptions\u2014exceeding PJM's observed 59% annual value; and (2) alternative modeling of external-area tie benefits and NECEC energy contributions proposed by a storage-stakeholder group, which sensitivity cases show would increase Net ICR requirements (e.g., ~1,000 MW in summer and ~620 MW in winter) but with limited impacts on most resource-accreditation values. The document notes that Daily/Weekly Hydro resources in the NTBC achieve rMRI (resource-accreditation) values of 94.8% (summer) and 96.1% (winter), while Energy Storage Resources achieve 56.1% (summer) and 24.9% (winter). ISO-NE states it does not support adopting the storage-stakeholder alternative modeling approach in the base design and indicates next steps include continued stakeholder feedback by September 21, 2026, tariff redline review, and design finalization targeted for October 2026.",
+        "hydro_read_through": "Conventional hydro owners should track this because the CAR-SA accreditation framework will determine their seasonal capacity revenue in ISO-NE's forward capacity market under the new rules launching in Q2 2027. The modeling shows that daily/weekly hydro resources receive high rMRI accreditation (95\u201396%), but the document reveals ISO-NE is still working through how energy-storage resources will be treated\u2014a neighboring-technology design that affects both the accreditation baseline against which hydro is measured and the penetration assumptions that influence all resource accreditation outcomes. The alternative-modeling sensitivity analyses requested by storage stakeholders (which would lower assumed tie benefits and imports) could materially increase ISO-NE's Net ICR requirements, which would in turn affect the scarcity and seasonal-accreditation dynamics that hydro leverages for revenue. For pumped-storage operators, this document is the front-line impact analysis showing how PSH will be accredited under CAR-SA (24.9% winter, 56.1% summer in the base case) and how changes to external-area modeling could shift those values upward; the storage group's proposal did not receive ISO support, but the sensitivity results demonstrate the sensitivity of PSH revenue to tie-benefits methodology\u2014a risk worth monitoring as tariff language is finalized.",
+        "source_names_hydro": true,
+        "topics": [
+          "capacity-ra",
+          "storage"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Proposed Effective Date: Q2 2027",
+            "quote": "Proposed Effective Date: Q2 2027",
+            "verified": true
+          },
+          {
+            "claim": "4-hour battery at PJM-comparable storage penetration (~3.5%) would achieve 62% winter and 82% summer accreditation",
+            "quote": "In this sensitivity, where the storage's share of capacity is assumed equivalent to that observed in PJM, a 4-hour energy storage resource would have an rMRI of 82% in the summer and 62% in the winter",
+            "verified": true
+          },
+          {
+            "claim": "PJM's 2028/29 BRA 4-hour battery accreditation was 59% annual",
+            "quote": "In PJM, a 4-hour battery had an annual accreditation value of 59%",
+            "verified": true
+          },
+          {
+            "claim": "Daily/Weekly Hydro summer rMRI 94.8%",
+            "quote": "Daily/Weekly Hydro 1,067 94.8% 95.0% 95.2% 95.2%",
+            "verified": true
+          },
+          {
+            "claim": "Daily/Weekly Hydro winter rMRI 96.1%",
+            "quote": "Daily/Weekly Hydro 1,060 96.1% 96.3% 96.1% 96.4%",
+            "verified": true
+          },
+          {
+            "claim": "Energy Storage Resources summer rMRI 56.1%",
+            "quote": "Energy Storage Resources 3,877 56.1% 55.9% 55.0% 55.0%",
+            "verified": true
+          },
+          {
+            "claim": "Energy Storage Resources winter rMRI 24.9%",
+            "quote": "Energy Storage Resources 3,875 24.9% 26.2% 26.4% 29.7%",
+            "verified": true
+          },
+          {
+            "claim": "Alternative tie benefits modeling increases summer Net ICR by approximately 1,000 MW",
+            "quote": "Increases Net ICR by approximately 1,000 MW, primarily driven by the reduction in assumed on-peak tie benefits from 1,795 MW in the ISO analysis to 1,000 MW",
+            "verified": true
+          },
+          {
+            "claim": "Alternative tie benefits modeling increases winter Net ICR by approximately 620 MW",
+            "quote": "Increases Net ICR by approximately 620 MW, primarily driven by the reduction in assumed on-peak tie benefits from 555 MW in the ISO analysis to 0 MW",
+            "verified": true
+          },
+          {
+            "claim": "Feedback deadline September 21, 2026",
+            "quote": "If you have any further questions on the CAR-SA follow-up answers provided, please reach out to Jasleen Singh (jsingh@iso-ne.com) or Dan Patnaude (dpatnaude@iso-ne.com) by September 21, 2026",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Chris Geissler",
+            "entity": "ISO-NE",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Dan Patnaude",
+            "entity": "ISO-NE",
+            "role": "contact",
+            "email": "dpatnaude@iso-ne.com"
+          },
+          {
+            "name": "Fei Zeng",
+            "entity": "ISO-NE",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Jasleen Singh",
+            "entity": "ISO-NE",
+            "role": "contact",
+            "email": "jsingh@iso-ne.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "2026-09-08-10 MC/RC/TC A04d - CAR-SA: Updated AG Firm Capacity Memo",
+        "filename": "a04d_mc-rc-tc_2026_09_08-10_car-sa_updated_ag_firm_capacity_memo.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/a04d_mc-rc-tc_2026_09_08-10_car-sa_updated_ag_firm_capacity_memo.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This memo defines specifications for gas-only resources to qualify as 'Firm Capacity' in ISO-NE's capacity market, which sets a direct precedent for how use-limited, fuel-constrained resources are accredited and compensated\u2014a canonical issue for conventional hydro and pumped-storage operators that face similar mitigation rules and accreditation frameworks.",
+        "ai_summary": "ISO-NE's Analysis Group has updated specifications for natural gas resources electing 'Firm Capacity' designation under Capacity Auction Reform (CAR), exempt from the region's gas-infrastructure constraint in the capacity auction. The memo (version 4, dated September 3, 2026, prepared for the September 8, 2026 Markets Committee meeting) prescribes two pathways: (1) pipeline gas requiring firm transportation service for 16 hours daily throughout the three-month Winter Contract Period (December\u2013February), with receipt points specified outside New England on five named pipelines (Algonquin, Tennessee, Iroquois, PNGTS, Maritimes & Northeast) and delivery in-path to the resource; or (2) LNG terminal contracts requiring a minimum 15-day peaking contract with Maximum Daily Quantity sufficient to sustain elected capacity for 16 hours per day. Gas-only resources may designate partial Firm Capacity up to their Marginal Reliability Impact capacity, and pipeline-service holders may sell firm rights after day-ahead market commitment provided they retain service to support their day-ahead bids and capacity supply obligations; LNG contracts have no use restrictions. Market participants must submit contracts and a signed officer affidavit to ISO-NE to qualify. The document evaluates the 15-day LNG requirement using ISO-NE resource adequacy modeling, historical Algonquin spot prices, and historical LNG sendout data.",
+        "hydro_read_through": "The document does not mention hydro or pumped storage. However, the structure mirrors rules applied to hydro and PSH under market-power mitigation and accreditation frameworks: resources are accredited for seasonal capacity based on ability to supply fuel under tight conditions, required to furnish contracts and attestations proving that capability, and penalized if they cannot deliver when committed. Hydro owners facing similar constraints under ISO-NE accreditation (energy-limited accreditation, seasonal MRI calculations) should recognize this Firm Capacity design as a reference case for how RTOs structure fuel/water reliability requirements. If PSH or run-of-river resources were required to pre-contract energy availability on similar terms, their accreditation would depend on whether ISO-NE views the pipeline/LNG framework as a single model extended to storage or as resource-specific.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "mitigation-offers",
+          "ops-compliance"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "Winter Contract Period defined as three months: December, January, and February",
+            "quote": "A resource electing as Firm Capacity must meet the required specifications for a three-month winter contract period, including December, January and February (\"Winter Contract Period\").",
+            "verified": false
+          },
+          {
+            "claim": "16-hour daily requirement for pipeline and LNG firm capacity",
+            "quote": "Resources relying on pipeline gas for Firm Capacity must secure firm gas transportation rights for every day in the three-month Winter Contract Period in a quantity sufficient to power the elected Firm Capacity for 16 hours per day.",
+            "verified": true
+          },
+          {
+            "claim": "LNG peaking contract duration of 15 days with MDQ for 16 hours per day",
+            "quote": "Resources electing as Firm Capacity will be required to procure gas supply through an LNG contract for a minimum duration of 15 days during the Winter Contract Period with an MDQ sufficient to sustain full operations of elected capacity for 16 hours per day.",
+            "verified": true
+          },
+          {
+            "claim": "Five named pipelines serving ISO-NE with specified receipt points",
+            "quote": "ISO-NE is served primarily by five major interstate pipelines, with the tariff for each pipeline defining its firm service rate classes: Algonquin Gas Pipeline (\"Algonquin\"), Iroquois Gas Transmission System (\"Iroquois\"), Tennessee Gas Pipeline (\"TGP\" or \"Tennessee\"), Maritimes & Northeast (\"M&N\"), and Portland Natural Gas Transmission System (\"PNGTS\").",
+            "verified": false
+          },
+          {
+            "claim": "Required receipt points for each pipeline",
+            "quote": "Algonquin: Ramapo; Tennessee: Receipt points in TGP Zone 5; Iroquois: Wright; PNGTS: Iroquois (on TransCanada).",
+            "verified": false
+          },
+          {
+            "claim": "LNG contract commodity charge limits for call option contracts",
+            "quote": "the commodity charge must be no more than, the greater of: 125% of the average of the Intercontinental Exchange Algonquin Citygates Fixed Price Future (ALG) for December, January and February as of the date the LNG supply contract is executed and $25 / MMBtu; (2) for contracts with an indexed commodity charge, the commodity charge must be no more than 300% of the published Platts Gas Daily average price",
+            "verified": false
+          }
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Analysis Group",
+            "entity": "Analysis Group, Inc.",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "tariff",
+        "title": "2026-09-08-10 MC/RC/TC A04m - CAR-SA: Tariff Review - Redlines - Section I",
+        "filename": "a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_i.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_i.docx",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a tariff definitions and rules-of-construction section containing boilerplate language about how to interpret contract terms, asset registration processes, and general capacity-market definitions; it does not address pricing mechanisms, accreditation rules, ancillary services procurement, flexibility products, mitigation rules, interconnection procedures, or any strategic option that would require a hydro or PSH owner to act or adjust revenue expectations.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "2026-09-08-10 MC/RC/TC A04m - CAR-SA: Tariff Review - Redlines - Section III.1",
+        "filename": "a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_iii.1.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_iii.1.docx",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This tariff document codifies ISO-NE's capability auditing and settlement procedures for all generator types, including explicit treatment of conventional hydro and reversible hydroelectric storage, which directly affects how hydro operators must demonstrate and prove their capacity and operational performance in the market.",
+        "ai_summary": "ISO-NE's tariff section III.1 establishes market-operation procedures, dispatch rules, and capability-auditing requirements for all resources in the New England Control Area. The document names three hydro types explicitly: \"Non-intermittent daily cycle hydro\", \"Hydro-Conventional Daily Pondage\", \"Hydro-Conventional Run of River\", \"Hydro-Conventional Weekly\", and \"Hydraulic Turbine \u2013 Reversible (Electric Storage)\" \u2014 each assigned specific claimed-capability audit durations (2 hours for establish audits, 2 hours for seasonal audits). Conventional hydro resources are exempt from the establish claimed-capability audit requirement for newly commercial units, whereas reversible (pumped-storage) units must complete audits. The tariff specifies that seasonal claimed-capability audits will no longer occur after August 31, 2027, and codifies rules for supply-offer modifications, real-time dispatch, self-scheduling of intermittent hydro, and treatment of limited-energy resources in dispatch optimization.",
+        "hydro_read_through": "Hydro operators in New England face direct changes to their compliance and capacity-accreditation obligations. The phase-out of seasonal claimed-capability audits (cessation date August 31, 2027) simplifies the audit calendar but may affect how seasonal capability is proven and valued in capacity markets \u2014 operators should verify that alternative accreditation paths are finalized before the deadline. The document's explicit naming of hydro types and assignment of audit durations (2 hours) establishes the testing load for pumped-storage and conventional-pondage/run-of-river units; treatment of intermittent hydro as a dispatchable or non-dispatchable resource, including the option to elect dispatch-as-DNE or DDP status for units able to operate within a dispatchable range, creates new strategic choices for variable hydro generators on whether to participate in real-time energy markets or self-schedule at forecast output.",
+        "source_names_hydro": true,
+        "topics": [
+          "capacity-ra",
+          "ops-compliance",
+          "storage"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Claimed Capability Audits and Seasonal DR Audits shall no longer occur after August 31, 2027",
+            "quote": "Claimed Capability Audits and Seasonal DR Audits shall no longer occur after August 31, 2027.",
+            "verified": true
+          },
+          {
+            "claim": "Hydro-Conventional resources require 2-hour audit duration for establish claimed-capability audits",
+            "quote": "| Hydro-Conventional Daily Pondage Hydro-Conventional Run of River Hydro-Conventional Weekly | 2 |",
+            "verified": true
+          },
+          {
+            "claim": "Hydro-Conventional resources require 2-hour audit duration for seasonal claimed-capability audits",
+            "quote": "| Hydro-Conventional Weekly | 2 |",
+            "verified": true
+          },
+          {
+            "claim": "Hydraulic Turbine \u2013 Reversible (Electric Storage) requires 2-hour audit duration",
+            "quote": "| Hydraulic Turbine \u2013 Reversible (Electric Storage) Hydraulic Turbine \u2013 Other | 2 |",
+            "verified": true
+          },
+          {
+            "claim": "Non-intermittent daily cycle hydro are exempt from establish claimed-capability audit requirement for newly commercial units",
+            "quote": "An Establish Claimed Capability Audit will be scheduled by the ISO within five Business Days of the commercial operation date for all Generator Assets except: Non-intermittent daily cycle hydro;",
+            "verified": true
+          },
+          {
+            "claim": "Hydro intermittent power resources may elect to be dispatched as DDP Dispatchable Resource if capable of operating within dispatchable range",
+            "quote": "A Market Participant with a hydro Intermittent Power Resource that is able to operate within a dispatchable range and is capable of responding to Dispatch Instructions to increase or decrease output within its dispatchable range may elect to have that resource dispatched as a DDP Dispatchable Resource.",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "2026-09-08-10 MC/RC/TC A04m - CAR-SA: Tariff Review - Redlines - Section III.3",
+        "filename": "a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_iii.3.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_iii.3.docx",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a tariff redline document on metering, settlement, billing intervals, and data reconciliation procedures \u2014 routine market administration that does not touch revenue formation, ancillary-service pricing, capacity accreditation, storage participation, mitigation rules, or any other substantive market-design axis affecting hydro or PSH owners.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "2026-09-08-10 MC/RC/TC A04m - CAR-SA: Tariff Review - Redlines - Section III.10",
+        "filename": "a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_iii.10.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_iii.10.docx",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This tariff section governs ISO-NE's settlement rules for real-time reserves (spinning, non-spinning, and operating reserves), which directly affect how dispatchable resources including conventional hydropower and storage are credited and charged for reserve provision and obligations.",
+        "ai_summary": "ISO-NE tariff Section III.10 establishes the settlement framework for real-time reserves. Resources receiving Real-Time Reserve Designations are credited hourly for provision of Ten-Minute Spinning Reserve, Ten-Minute Non-Spinning Reserve, and Thirty-Minute Operating Reserve based on Reserve Quantity For Settlement (adjusted downward post-facto for actual capability) multiplied by the Real-Time Reserve Clearing Price. Real-Time Reserve Charges are allocated to Market Participants based on their Real-Time Load Obligation adjusted for Dispatchable Asset Related Demand, with charges apportioned across load zones using reserve-clearing-price ratios. Forward Reserve Obligation Charges prevent double-compensation for MWs satisfying forward obligations. The tariff defines how demand-response resources (including Demand Response Distributed Energy Resource Aggregations) are treated in these settlements, with avoided distribution losses applied to qualifying demand-response MWs.",
+        "hydro_read_through": "This document does not mention hydropower or storage explicitly; it addresses the settlement rules applicable to all dispatchable resources providing real-time reserves. Conventional hydropower and pumped storage are typically major suppliers of Ten-Minute Spinning Reserve and Thirty-Minute Operating Reserve in ISO-NE and rely on the clearing-price and obligation-charge mechanics established here for revenue stability and cost allocation. The tariff's post-hoc adjustment of Reserve Quantity For Settlement \"to account for actual reserve capability based on Metered Quantity\" may require particular attention from hydro operators with variable actual output; the rules on how Forward Reserve Obligations interact with real-time credits will directly affect how hydro/storage owners model hedging and operational decisions around reserve commitment.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "ops-compliance",
+          "price-formation"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Real-Time Reserve Designation values adjusted downward after the fact to account for actual reserve capability based on Metered Quantity For Settlement.",
+            "quote": "The Reserve Quantity For Settlement values will equal the corresponding Real-Time Reserve Designation values, adjusted downward after the fact to account for actual reserve capability based on Metered Quantity For Settlement.",
+            "verified": true
+          },
+          {
+            "claim": "Reserve products: Ten-Minute Spinning Reserve, Ten-Minute Non-Spinning Reserve, and Thirty-Minute Operating Reserve.",
+            "quote": "Reserve Quantity For Settlement values will equal the corresponding Real-Time Reserve Designation values, adjusted downward after the fact to account for actual reserve capability based on Metered Quantity For Settlement. The Reserve Quantity For Settlement shall consist of a MW value, in no case less than zero, for each Operating Reserve product: Ten-Minute Spinning Reserve, Ten-Minute Non-Spinning Reserve, and Thirty-Minute Operating Reserve.",
+            "verified": false
+          },
+          {
+            "claim": "Settlement interval is five minutes.",
+            "quote": "For purposes of this Section III.10, unless otherwise expressly stated, the settlement interval is five minutes.",
+            "verified": true
+          },
+          {
+            "claim": "Demand Response Resources and Demand Response Distributed Energy Resource Aggregations receive avoided peak distribution losses adjustment.",
+            "quote": "where any portion of Reserve Quantity For Settlement provided by either a Demand Response Resource, other than MWs associated with Net Supply, or a Demand Response Distributed Energy Resource Aggregation, other than MWs associated with energy injection, is increased by average avoided peak distribution losses",
+            "verified": true
+          },
+          {
+            "claim": "Forward Reserve Obligation Charge prevents compensation for Real-Time Operating Reserve MWs provided to satisfy a Forward Reserve Obligation.",
+            "quote": "For each Market Participant with a Forward Reserve Obligation, the ISO will determine a Forward Reserve Obligation Charge for each settlement interval such that a Market Participant will not receive compensation for Real-Time Operating Reserve MWs provided to satisfy a Forward Reserve Obligation.",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "2026-09-08-10 MC/RC/TC A04m - CAR-SA: Tariff Review - Redlines - Section III.12",
+        "filename": "a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_iii.12.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_iii.12.docx",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This tariff revision directly governs the calculation of capacity requirements, resource adequacy accreditation, and marginal reliability impact (MRI) values for all capacity resources \u2014 including Energy-Limited Generating Capacity Resources and Energy Storage Generating Capacity Resources, which define how conventional hydropower and pumped-storage hydro are valued and cleared in ISO-NE's capacity market.",
+        "ai_summary": "ISO-NE's Markets Committee is reviewing tariff redlines to Section III.12 (Calculation of Capacity Requirements), which establishes the methodology for computing the Installed Capacity Requirement, Relative MRI values for all resource types including Energy-Limited Generating Capacity Resources and Energy Storage Generating Capacity Resources, Local Sourcing Requirements, Maximum Capacity Limits, and tie benefits with neighboring control areas. Key changes include: (1) revision of the Loss of Load Expectation (LOLE) standard from 0.1 day/year to 0.05 day per Capacity Commitment Period for New England and New York, while maintaining 0.1 day/year for Quebec and Maritimes; (2) explicit MRI calculation methodologies for Energy-Limited Generating Capacity Resources (increasing both Seasonal Maximum Capability and Daily Maximum Usable Energy proportionally) and Energy Storage Generating Capacity Resources (increasing Seasonal Maximum Capability, charging/pumping capability, and storage capacity proportionally); (3) revised tie-benefits calculations and procedures for adding/removing capacity across interconnected control areas to meet LOLE standards; and (4) application of these rules to the third annual reconfiguration auction for the Capacity Commitment Period beginning June 1, 2027. The document reflects a shift toward seasonal capacity accreditation and updated LOLE thresholds.",
+        "hydro_read_through": "This document never mentions hydropower or pumped storage directly. However, it establishes the core accreditation and MRI-valuation framework that determines seasonal capacity revenue for both conventional hydro (as Energy-Limited Generating Capacity Resources subject to daily maximum usable energy constraints) and pumped-storage facilities (as Energy Storage Generating Capacity Resources evaluated on charging capability, storage capacity, and discharge capability together). The tightening of the LOLE standard from 0.1 to 0.05 days per Capacity Commitment Period for New England increases the stringency of resource adequacy, which raises the scarcity value of reliable capacity, benefiting dispatchable resources; the explicit treatment of energy-limited and storage resources' proportional changes in capability dimensions signals ISO-NE's refinement of how seasonal and duration constraints are modeled, which directly affects how hydro and PSH MRI values are calculated and hence their capacity-market clearing prices. Changes to tie-benefits calculations and external interface limits could also affect the accreditation or seasonal requirement for resources located near transmission constraints.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "transmission"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "LOLE standard revised from 0.1 day/year to 0.05 day per Capacity Commitment Period for New England",
+            "quote": "the probability of disconnecting non-interruptible customers due to resource deficiency, on average, will be no more than once in ten years. Compliance with this resource adequacy planning criterion shall be evaluated probabilistically, such that the Loss of Load Expectation (\"LOLE\") of disconnecting non-interruptible customers due to resource deficiencies shall be no more than 0.1 day each yearno more than .05 day each Capacity Commitment Period.",
+            "verified": true
+          },
+          {
+            "claim": "Energy-Limited Generating Capacity Resources MRI calculated by increasing both Seasonal Maximum Capability and Daily Maximum Usable Energy proportionally",
+            "quote": "The resource-specific MRI of an Energy-Limited Generating Capacity Resource (whether represented individually or as an aggregation) shall be determined by increasing the resource's Seasonal Maximum Capability by a small MW amount and the resource's Daily Maximum Usable Energy by a proportional amount, and then measuring the resulting change in the system's expected unserved energy.",
+            "verified": true
+          },
+          {
+            "claim": "Energy Storage Generating Capacity Resources MRI calculated by increasing Seasonal Maximum Capability, charging capability, and storage capacity proportionally",
+            "quote": "The resource-specific MRI of an Energy Storage Generating Capacity Resource (whether represented individually or as an aggregation) shall be determined by increasing the resource's Seasonal Maximum Capability by a small MW amount, and increasing both the (1) maximum charging capability or pumping capability and (2) maximum storage capacity by a proportional amount, and then measuring the resulting change in the system's expected unserved energy.",
+            "verified": true
+          },
+          {
+            "claim": "New York LOLE standard set to 0.05 day per Capacity Commitment Period",
+            "quote": "the New England Control Area shall be brought to 0.05 days per Capacity Commitment Period LOLE, the New York Control Area shall be brought to 0.05 days per Capacity Commitment Period LOLE",
+            "verified": false
+          },
+          {
+            "claim": "Quebec and Maritimes LOLE standard set to 0.1 day/year",
+            "quote": "the Quebec Control Area shall be brought to 0.1 days per year LOLE, and each neighboringthe Maritimes Control Area shall be brought to 0.1 days per year LOLE",
+            "verified": true
+          },
+          {
+            "claim": "Application to third annual reconfiguration auction for Capacity Commitment Period beginning June 1, 2027",
+            "quote": "Prior to the third annual reconfiguration auction conducted pursuant to Section III.13.4.2.1.2.2 for the Capacity Commitment Period beginning on June 1, 2027, the ISO shall calculate an Installed Capacity Requirement",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "2026-09-08-10 MC/RC/TC A04m - CAR-SA: Tariff Review - Redlines - Section III.15",
+        "filename": "a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_iii.15.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_iii.15.docx",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ISO-NE is replacing its annual forward capacity market with a new seasonal (summer/winter) capacity-market structure effective June 1, 2028, which will affect how capacity revenue is accrued and accredited for all resources including hydro and storage, and this redlined tariff section establishes the auction mechanics, qualification process, and payment rules that hydro owners must navigate.",
+        "ai_summary": "ISO-NE's Section III.15 establishes a new Annual Seasonal Capacity Market with two separate capacity-commitment periods per year\u2014Summer and Winter\u2014replacing the current Forward Capacity Market beginning June 1, 2028. Resources must qualify through a Seasonal Capacity Auction with submission deadlines in December/February (Summer) and June (Winter), qualification demonstration in March/April and September respectively, and auctions in April/May and October. The tariff specifies qualification rules (Section III.15.2-3), auction conduct (Section III.15.4), monthly reconfiguration and bilateral trading (Sections III.15.5-6), capacity performance and payment mechanisms (Section III.15.7-8), and publication of auction data (Section III.15.9). A transition rule applies to resources with prior Forward Capacity Market awards through April 30, 2030, using a blended \"Transition Seasonal MRI Capacity\" formula that gradually weights toward full seasonal accreditation. Energy storage resources receive special Relative MRI adjustments in winter qualification. Non-commercial resources under critical path schedule monitoring must report quarterly on project milestones and face termination if milestones slip more than two years (Section III.15.A).",
+        "hydro_read_through": "The document does not mention hydro, hydropower, pumped storage, or PSH. However, conventional hydro and pumped-storage facilities are 'Capacity Resources' subject to this seasonal accreditation and auction structure, meaning their revenue model is shifting from a single annual capacity product to separate summer and winter capacity obligations and payments. The seasonal split requires hydro and storage operators to re-qualify twice annually and could alter the accreditation level (Seasonal MRI Capacity or its transition-period proxy) that governs seasonal capacity revenue; the mechanics here\u2014qualification deadlines, demonstration requirements, zonal interface limits, clearing prices by season\u2014set the frame for how seasonal scarcity in each season will be priced and compensated. For new resources or existing resources expanding, the critical path schedule and interconnection deliverability rules (Section III.15.A, including Section III.15.A.1.2(ix) transmission-upgrade documentation) apply directly. The transition rules (Section III.15.B) blend old and new accreditation for two years, so owners need to understand how the QC-to-MCap ratio and rMRI for storage affect their effective capacity credit in each of the first four transition auctions.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "effective June 1, 2028",
+            "quote": "For all Capacity Commitment Periods beginning on or after June 1, 2028, there shall be two Capacity Commitment Periods each year",
+            "verified": true
+          },
+          {
+            "claim": "Summer and Winter Capacity Commitment Periods",
+            "quote": "a Summer Capacity Commitment Period and a Winter Capacity Commitment Period",
+            "verified": true
+          },
+          {
+            "claim": "Qualification Data Submission Deadline for Summer Capacity Auction: December/February",
+            "quote": "the Qualification Data Submission Deadline for the Annual Summer Capacity Auction shall occur during the month of DecemberFebruary",
+            "verified": true
+          },
+          {
+            "claim": "Capacity Demonstration Deadline for Summer: April/March",
+            "quote": "the Capacity Demonstration Deadline for the Annual Summer Capacity Auction shall occur during the month of AprilMarch",
+            "verified": true
+          },
+          {
+            "claim": "Annual Summer Capacity Auction: May/April",
+            "quote": "the Annual Summer Capacity Auction shall occur during the month of MayApril",
+            "verified": true
+          },
+          {
+            "claim": "Qualification Data Submission Deadline for Winter: June",
+            "quote": "the Qualification Data Submission Deadline for the Winter Capacity Auction shall occur during the month of June",
+            "verified": true
+          },
+          {
+            "claim": "Capacity Demonstration Deadline for Winter: September",
+            "quote": "the Capacity Demonstration Deadline for the Winter Capacity Auction shall occur during the month of September",
+            "verified": true
+          },
+          {
+            "claim": "Winter Capacity Auction: October",
+            "quote": "the Winter Capacity Auction shall occur during the month of October",
+            "verified": true
+          },
+          {
+            "claim": "Transition Seasonal MRI Capacity formula uses one-third/two-thirds weights through April 30, 2029",
+            "quote": "For each Seasonal Capacity Auction for a Capacity Commitment Period occurring between June 1, 2028 and April 30, 2029, a resource's Transition Seasonal MRI Capacity shall equal the sum of one-third of the resource's Seasonal MRI Capacity and two-thirds of the resource's Seasonal Estimated QC",
+            "verified": true
+          },
+          {
+            "claim": "Transition Seasonal MRI shifts to two-thirds/one-third through April 30, 2030",
+            "quote": "For each Seasonal Capacity Auction for a Capacity Commitment Period occurring between May 1, 2029 and April 30, 2030, a resource's Transition Seasonal MRI Capacity shall equal two-thirds of the resource's Seasonal MRI Capacity and one-third of the resource's Seasonal Estimated QC",
+            "verified": true
+          },
+          {
+            "claim": "Critical path schedule reporting quarterly, with termination if milestone slips more than two years",
+            "quote": "if, as a result of milestone date revisions, the date by which a resource will have achieved all its critical path schedule milestones is more than two years after the beginning of the Capacity Commitment Period for which the resource first received a Capacity Supply Obligation, then the ISO, after consultation with the Lead Market Participant, shall have the right, through a filing with the Commission, to terminate the resource's status on critical path schedule monitoring",
+            "verified": true
+          },
+          {
+            "claim": "CTRs for Pool-Planned Units expire December 31, 2040",
+            "quote": "Allocation of CTRs as described in this Section shall expire on December 31, 2040",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "2026-09-08-10 MC/RC/TC A04m - CAR-SA: Tariff Review - Redlines - Section III.F",
+        "filename": "a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_iii.f.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/a04m_mc-rc-tc_2026_09_08-10_car-sa_tariff_redlines_section_iii.f.docx",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This tariff redline document updates Net Commitment Period Compensation (NCPC) accounting rules for ISO-NE, affecting how Generator Assets and Storage DARDs recover make-whole and opportunity-cost credits, directly governing a key revenue stream for use-limited resources like hydro and pumped storage.",
+        "ai_summary": "ISO-NE's tariff revision to Section III.F (Net Commitment Period Compensation Accounting) redefines NCPC credit eligibility, calculation methodology, and cost allocation for Generator Assets, Demand Response Resources, and Storage DARDs across day-ahead and real-time markets. The document specifies credit calculations for fast-start generators, continuous storage assets, and binary storage DARDs based on comparisons of committed costs against cleared revenues, with separate treatment for lost-opportunity-cost credits in real-time dispatch. Cost allocation is detailed by resource type, load-zone deviations, and special provisions for Local Second Contingency Protection resources, with monthly reporting requirements (zonal aggregates within 20 days, resource-specific detail within 90 days, operator-initiated commitments within 30 days). The redlines represent ongoing tariff adjustments to NCPC policy but do not specify an active vote date or comment deadline in this excerpt.",
+        "hydro_read_through": "This document does not mention hydropower or pumped storage directly. However, conventional hydro and PSH are Generator Assets or Storage DARDs subject to these NCPC rules, and the detailed revisions to cost-recovery mechanics\u2014especially for continuous storage assets, lost-opportunity-cost pricing, and state-of-charge management of storage DARDs\u2014set the make-whole framework on which PSH and hydro revenue depends. The allocation rules for deviations and Local Second Contingency Protection charges also affect how costs flow back to load, influencing the real-time scarcity pricing environment hydro operators face. Hydro owners should track whether these redlines increase or narrow opportunity-cost crediting, as that directly impacts the financial incentive for commitment and dispatch compliance.",
+        "source_names_hydro": false,
+        "topics": [
+          "price-formation",
+          "storage",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Monthly reporting: zonal NCPC by 20 days, resource-specific by 90 days, operator-initiated commitments by 30 days after month-end.",
+            "quote": "no later than 20 days after the end of the month, the ISO shall post, in a machine-readable format on a publicly accessible portion of its website, a report indicating the aggregate dollar amount of NCPC Credits by category paid to the resources located in each Load Zone for each day during that month.",
+            "verified": true
+          },
+          {
+            "claim": "Real-time NCPC credits are calculated at five-minute intervals.",
+            "quote": "For purposes of this Section III.F.2.2, unless otherwise expressly stated, costs and revenues shall be calculated at a five-minute interval.",
+            "verified": true
+          },
+          {
+            "claim": "Deviations below 5% of cleared energy or 5 MWh are treated as zero.",
+            "quote": "If the deviation calculated above is less than or equal to 5% of cleared Day-Ahead Energy Market MWh or less than or equal to 5 MWh, then deviation = 0.",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "2026-09-08-10 MC/RC/TC A04i.ii - CAR-SA: FirstLight Conceptual Amendment - Risk Split - Presentation",
+        "filename": "a04_i_firstlight_car_sa_september_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/a04_i_firstlight_car_sa_september_presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FirstLight proposes to reset ISO-NE's seasonal capacity-market risk split based on prior-auction LOLE clearing results rather than an administratively fixed 50-50 split, directly affecting how the Installed Capacity Requirement is calculated and thus the accreditation and capacity revenue for all resources including those serving as use-limited or seasonal suppliers.",
+        "ai_summary": "FirstLight Resources proposes a conceptual amendment to ISO-NE's Capacity Accreditation Rules\u2014Seasonal Adjustments (CAR-SA) that would set the seasonal risk split between summer and winter using Loss of Load Expectation (LOLE) levels from the most recent historical auctions' clearing points, adjusted for deactivations and new resources, rather than the ISO's current proposal of a static 50-50 split. The amendment would allocate the 0.1 LOLE system target proportionally to summer and winter based on actual historical system conditions; FirstLight presents two implementation options: one that adjusts for deactivations and new resources, and a simplified version using only prior-season clearing LOLE without those adjustments. The proposal argues this approach aligns pricing signals and resource-accreditation signals with real system conditions, improves new-entry incentives, enhances auction transparency, and allows automatic adaptation as the system evolves. FirstLight removed from this proposal a separate element from its earlier version that would have changed the accreditation point assumption itself, deferring that discussion.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage. However, the amendment directly affects how ISO-NE splits the 0.1 LOLE resource-adequacy target between seasons, which in turn governs the seasonal capacity revenue available to all resources, including conventional hydro and pumped-storage facilities that participate in ISO-NE's capacity market. Because hydro and storage often have different seasonal supply capabilities (e.g., higher availability in winter or spring depending on water conditions), an administratively fixed 50-50 risk split can distort their accreditation values and seasonal capacity-market clearing prices relative to what those resources actually need to supply. Moving the seasonal split to track actual historical system risk would realign accreditation mechanics with real seasonal scarcity conditions, affecting how much capacity revenue a hydro owner can expect in each season and what dispatch incentives that revenue stream creates.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "risk split 75% summer / 25% winter in illustrative example",
+            "quote": "Risk Split (summer -to-winter) 75/25",
+            "verified": true
+          },
+          {
+            "claim": "0.1 LOLE system target",
+            "quote": "The Seasonal Risk Target for each Capacity Commitment Period shall be equal to the product of the relevant Seasonal Risk Split times 0.1 days.",
+            "verified": true
+          },
+          {
+            "claim": "amendment removes prior proposal to change accreditation point assumption",
+            "quote": "FirstLight's current proposal no longer includes changing the \"at criterion\" assumption. The proposed amendment would now simply use prior seasons' clearing results to allocate the 0.1 LOLE target between seasons.",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Cal Brooks",
+            "entity": "FirstLight Resources",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -4917,6 +6270,71 @@
         "evidence": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2 FERC Large Load Order",
+        "filename": "09-08-2026%20FERC%20Show%20Cause%20Order%20on%20Large%20and%20Co-Located%20Loads.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59022268/09-08-2026%20FERC%20Show%20Cause%20Order%20on%20Large%20and%20Co-Located%20Loads.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FERC Show Cause Order on large and co-located load integration, with proposed tariff amendments to withdrawal service rules and co-located resource arrangements that will affect how generation resources (including hydro and storage) can partner with or serve large loads and be accredited for capacity and dispatch.",
+        "ai_summary": "NYISO is developing tariff proposals in response to FERC's June 18, 2026 Show Cause Order (EL26-69) requiring the RTO to address large and co-located load integration. The presentation covers market design updates for three withdrawal service tiers: Firm Withdrawal Service (FWS, no market bidding required), Partial Firm Withdrawal Service (PFWS, bidding required with 5% tolerance band), and Non-Firm Withdrawal Service (NFWS, bidding required); proposed buyer-side mitigation exclusions for new generation partnering with large loads to offset resource adequacy impact; enhanced DER baseline measurement using \"meter-before-meter-after\" methodology for the first hour of dispatch; co-located resource telemetry, metering, and 15-year term requirements; and draft MST and OATT redlines. NYISO requested and received an abeyance from FERC on August 14, 2026 to develop stakeholder input, with a Section 205 tariff filing due by November 16, 2026, subject to BIC, OC, and MC votes scheduled for October 2026.",
+        "hydro_read_through": "The document does not mention hydro or pumped storage directly. However, the rules governing co-located resource arrangements, partner generator exclusions from buyer-side mitigation, and 15-year commitment terms for generators serving large loads will apply to any hydro or PSH facility seeking to partner with or be co-located with a large load to provide firm capacity or energy service. The treatment of partner resources' state-of-charge telemetry and billing within CLR metering rules may create operational and settlement complications for PSH in particular; the 15-year lockup for capacity-accreditation eligibility could constrain exit options for PSH units with shorter economic lives or seasonal dispatch flexibility. The deviation charges based on regulation capacity prices and the exclusion of NFWS loads from peak-load forecasts will change how co-located generation calculates real-time imbalance costs and forecast assumptions.",
+        "source_names_hydro": false,
+        "topics": [
+          "hybrids-der",
+          "load-growth",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "FERC Show Cause Order issued June 18, 2026 on large and co-located load integration (EL26-69)",
+            "quote": "On June 18, 2026, FERC issued Show Cause Orders to each FERC-jurisdictional RTO/ISO and their FERC-jurisdictional Transmission Owner (\"TO\") members on the topic of large and co-located load integration (EL26-69)",
+            "verified": false
+          },
+          {
+            "claim": "FERC granted abeyance on August 14, 2026",
+            "quote": "FERC granted the NYISO's, the NYTOs', and the Non-Incumbent TOs' motions for abeyance on August 14, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Section 205 tariff filing due November 16, 2026",
+            "quote": "Accordingly, NYISO will work with stakeholders to further develop design and tariff language for the Section 205 filing which is due by November 16, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Deviation charge tolerance band of 5% of facility's Withdrawal Scheduling Limit",
+            "quote": "There will be a tolerance band of 5% of a facility's Withdrawal Scheduling Limit, measured from the basepoint, for both over-withdrawals and under-withdrawals",
+            "verified": false
+          },
+          {
+            "claim": "Co-located/partner generation 15-year term requirement before transition from FWS to NFWS",
+            "quote": "NYISO proposes a 15-year term requirement for Resources that partner or co-locate with Large Loads as a means of allowing that Load to take FWS",
+            "verified": false
+          },
+          {
+            "claim": "Proposed deviation charge calculated based on Regulation Capacity clearing prices with $200/MWh bid cap",
+            "quote": "The proposed deviation charge will be calculated based on Regulation Capacity clearing prices, as is the procedure today for existing deviation charges",
+            "verified": true
+          },
+          {
+            "claim": "6-second real-time telemetry required for all CLR components",
+            "quote": "All CLR components will need to provide 6-second Real-Time telemetry",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Afreen Vahora",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -6748,7 +8166,7 @@
         "filename": "20260904 WSPM Item 04b Review of Proposed Reliability Projects_MP_OTP_MPCN.pdf",
         "url": "https://cdn.misoenergy.org/20260904%20WSPM%20Item%2004b%20Review%20of%20Proposed%20Reliability%20Projects_MP_OTP_MPCN779340.pdf",
         "member_url": null,
-        "posted_date": "2026-09-01",
+        "posted_date": "2026-09-04",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This is a routine MTEP26 transmission-planning project briefing covering aging infrastructure and local reliability work on distribution and lower-voltage transmission assets, with no price-formation, ancillary-service design, capacity-market, storage-participation, or market-structure content affecting hydro revenue or compliance.",
         "ai_summary": null,
@@ -7061,6 +8479,73 @@
             "entity": "MISO",
             "role": "contact",
             "email": "PlanningModeling@misoenergy.org"
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "20260904 WSPM Item 01c Agenda UPDATED",
+        "filename": "20260904 WSPM Item 01c Agenda_UPDATED.pdf",
+        "url": "https://cdn.misoenergy.org/20260904%20WSPM%20Item%2001c%20Agenda_UPDATED778508.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a meeting agenda for MISO's West Subregional Planning Meeting covering interconnection studies and transmission reliability planning; it does not address hydro revenue streams, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Adam Meyer",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Avneet Kaur",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Elijah Rachell",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Greg Plauck",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joseph Dunn",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nick Gaither",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ryan Hay",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Zheng Zhou",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
           }
         ]
       }
@@ -10126,7 +11611,7 @@
         "filename": "20260903 ESPM Item 04b Review of Proposed Reliability Projects_ITCT.pdf",
         "url": "https://cdn.misoenergy.org/20260903%20ESPM%20Item%2004b%20Review%20of%20Proposed%20Reliability%20Projects_ITCT779169.pdf",
         "member_url": null,
-        "posted_date": "2026-09-02",
+        "posted_date": "2026-09-03",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document presents technical transmission-system reliability projects (reconfigurations, conductor upgrades, station expansions) that are not governed by RTO market rules and do not touch hydro revenue mechanisms, participation models, compliance obligations, or strategic optionality in markets. The MTEP is transmission planning, not market design.",
         "ai_summary": null,
@@ -14608,12 +16093,12 @@
   {
     "title": "Special Tech Change Forum - Demo of Voting Application Enhancements Meeting",
     "date": "2026-08-31",
-    "time": "1:00 p.m. - 2:00 p.m.",
+    "time": "9:00 a.m. - 11:00 a.m.",
     "rto": "PJM",
     "committee": "Special Tech Change Forum - Demo of Voting Application Enhancements",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7F678354-E850-4579-B7A7-84BCA914B17B}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={5EDA1108-FB6F-4ACD-B329-844457BF9F1F}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A demo of voting-application software enhancements is IT/operational infrastructure with no bearing on market-design rules, pricing mechanisms, participation models, or compliance obligations affecting hydropower revenue or strategy.",
     "issues": [],
@@ -17861,6 +19346,77 @@
         "stakeholders": [
           {
             "name": "Charles River Associates",
+            "entity": "Charles River Associates",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 04 \u2013 Charles River Associates Review Of Data Center Forecast Methodology",
+        "filename": "20260826-item-04---charles-river-associates-review-of-data-center-forecast-methodology.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260826/20260826-item-04---charles-river-associates-review-of-data-center-forecast-methodology.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-04",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Data center load growth is a major strategic driver of PJM transmission and generation planning, directly affecting the supply-demand balance that determines scarcity pricing, capacity accreditation, and the value of dispatchable and flexible resources like hydropower.",
+        "ai_summary": "Charles River Associates presented PJM's independent forecast of data center capacity and peak demand for 2027\u20132047, using reconciled top-down and bottom-up methodologies. The unconstrained forecast shows 17% compound annual growth through 2032, then 3% thereafter, split among non-AI (6% and 4% YoY), AI training (10% and -2%), and AI inference (75% and 6% YoY). Physical constraints\u2014semiconductors, critical metals, power availability, generation queues, transmission, and gas infrastructure\u2014are modeled to cap growth; most constraints are national or global, though PJM-specific queue rules and market design apply. The bottom-up approach allocates projects across PJM zones by developer readiness and siting criteria (regulatory support, legacy presence, cost, resilience, fiber, water). Live markets include Dominion, PSEG, ComEd, AEP, and others; high-potential emerging markets include ATSI, DUQ, and DAYTON. Zonal attractiveness scores weight state/local policy support (multiplier 4), legacy presence (3), development cost (2), resilience (2), fiber (2), and water (1). Hourly load profiles are anchored to LBNL data-center load-shape generator; ramp rates vary by project size and timing. Next steps include EDC/LSE submissions due Sept. 4, individual meetings through October, and final results due Oct. 14.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage directly. However, the forecast is foundational to PJM's transmission and resource adequacy planning, and massive load growth from data centers\u2014especially 17% CAGR through 2032\u2014will sharply increase peak demand, load factors, and scarcity pricing across the PJM footprint. This scarcity benefits every dispatchable generator including hydro, and raises the marginal value of flexibility and ramping capability hydro naturally supplies. The forecast also flags transmission, interconnection queue, and generation retirement constraints as binding in certain zones; hydro owners with transmission-constrained plants or those competing for limited interconnection bandwidth should track which zones face the severest physical limits.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "capacity-ra",
+          "transmission"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "17% compound annual growth through 2032, then 3% thereafter",
+            "quote": "Pre-2032 17% CAGR, Post-2032 3% CAGR",
+            "verified": false
+          },
+          {
+            "claim": "AI training growth of 10% YoY pre-2032, declining to -2% post-2032",
+            "quote": "- AI Training Demand +10% YoY\n- AI Training Demand -2% YoY",
+            "verified": false
+          },
+          {
+            "claim": "AI inference growth of 75% YoY pre-2032 and 6% YoY post-2032",
+            "quote": "- AI Inference Demand +75% YoY (small base number)\n- AI Inference Demand +6% YoY (large base number)",
+            "verified": false
+          },
+          {
+            "claim": "Non-AI demand growth 6% YoY pre-2032 and 4% post-2032",
+            "quote": "- Non-AI Demand +6% YoY\n- Non-AI Demand +4% YoY",
+            "verified": false
+          },
+          {
+            "claim": "State/local regulatory support weighted at importance multiplier 4",
+            "quote": "Category Importance X Multiplier 1 = Lowest, 5 = Highest | 4",
+            "verified": false
+          },
+          {
+            "claim": "Sept. 4 deadline for LDE form submissions",
+            "quote": "Sept 4 LDE form submissions due",
+            "verified": true
+          },
+          {
+            "claim": "Oct. 14 final results at LAS meeting",
+            "quote": "Oct 14 Final results at LAS meeting",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Margarita Patria",
+            "entity": "Charles River Associates",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Oliver Stover",
             "entity": "Charles River Associates",
             "role": "presenter",
             "email": null
@@ -30830,7 +32386,7 @@
     "date": "2026-08-19",
     "time": "1:30 PM",
     "rto": "ISO-NE",
-    "committee": "Transmission Committee",
+    "committee": "Reliability Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=160123",
     "materials_url": null,
@@ -101586,11 +103142,11 @@
         "url": "https://www.ferc.gov/news-events/news/summaries-july-2026-commission-meeting",
         "member_url": null,
         "posted_date": "2026-07-16",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a FERC Commission meeting agenda summary with no extracted text content \u2014 it carries no substantive information about any market design mechanism, rule proposal, or compliance deadline.",
         "ai_summary": null,
         "hydro_read_through": null,
-        "source_names_hydro": null,
+        "source_names_hydro": false,
         "topics": [],
         "directness": null,
         "evidence": [],
@@ -101619,13 +103175,17 @@
         "url": "https://www.ferc.gov/news-events/news/ferc-fast-tracks-reviews-accelerate-actions-hydropower-projects",
         "member_url": null,
         "posted_date": "2026-07-16",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FERC announcement of expedited review processes for hydropower projects directly affects licensing, relicensing, and environmental-compliance timelines that intersect market participation and strategic options for hydro owners.",
+        "ai_summary": "FERC issued a press release on 2026-07-16 announcing fast-tracked reviews to accelerate actions at hydropower projects. The document's text was not extracted, so specific deadlines, procedures, affected project categories, or next steps cannot be determined from the available content.",
+        "hydro_read_through": "Licensing and relicensing timelines directly govern when existing hydropower plants can be retired, uprated, or returned to service\u2014each affecting the fleet's available capacity, revenue duration, and strategic options. Expedited FERC review processes would shorten the path from permitting to operations, potentially accelerating the return of mothballed assets to the market or enabling capacity additions at existing sites; conversely, compressed timelines may tighten the window for environmental or stakeholder input. NHA members operating under existing licenses or pursuing relicensing would need to know the scope and timeline of these accelerated pathways.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "water-hydrology",
+          "ferc-policy"
+        ],
+        "directness": "direct",
         "evidence": [],
         "issues": [],
         "stakeholders": []
@@ -101652,13 +103212,17 @@
         "url": "https://www.ferc.gov/news-events/news/ferc-orders-western-grid-operators-deliver-joint-report-grid-coordination",
         "member_url": null,
         "posted_date": "2026-07-16",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FERC ordered Western grid operators to jointly report on grid coordination, which directly touches strategic options for hydro participation in interregional transmission planning, market governance choices (EDAM/WEIM/Markets+), and resource adequacy mechanisms across Western RTOs.",
+        "ai_summary": "FERC issued an order on July 16, 2026 directing Western grid operators to deliver a joint report on grid coordination. The order affects operators in the Western Interconnect and relates to coordination of grid operations and market design across regional boundaries. The document is a press release announcing this directive; the substantive details of what the report must address and any deadline for submission are not present in the extracted text.",
+        "hydro_read_through": "Although the document does not name hydropower or pumped storage, Western hydro owners depend critically on interregional coordination for energy exports, capacity accreditation across seams, and the governance architecture (EDAM vs. WEIM vs. remaining independent RTOs) that determines which markets their output reaches and how. A FERC directive to Western operators on grid coordination likely addresses transmission planning, reserve-sharing, and/or RTO participation rules \u2014 all of which reshape hydro's revenue and strategic options. The actual scope and deadlines are needed to assess the magnitude of the effect.",
+        "source_names_hydro": false,
+        "topics": [
+          "seams-governance",
+          "transmission",
+          "capacity-ra"
+        ],
+        "directness": "direct",
         "evidence": [],
         "issues": [],
         "stakeholders": []
@@ -101685,11 +103249,11 @@
         "url": "https://www.ferc.gov/news-events/news/ferc-issues-supplemental-notice-commission-led-technical-conference-pjm-governance",
         "member_url": null,
         "posted_date": "2026-07-16",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a press release announcing a technical conference on PJM governance and stakeholder reforms. The document text was not extracted and cannot be evaluated for content; the title alone does not identify any specific market-design mechanism, revenue stream, obligation, or strategic option affecting hydropower or pumped-storage facilities.",
         "ai_summary": null,
         "hydro_read_through": null,
-        "source_names_hydro": null,
+        "source_names_hydro": false,
         "topics": [],
         "directness": null,
         "evidence": [],
