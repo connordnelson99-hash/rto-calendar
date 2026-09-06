@@ -350,6 +350,160 @@
     "documents": []
   },
   {
+    "title": "SPF Meeting",
+    "date": "2026-09-22",
+    "time": "1:00 p.m. - 3:00 p.m.",
+    "rto": "PJM",
+    "committee": "SPF",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "SPF (Strategic Pathways Forward) is a long-range planning and strategic visioning committee focused on future business and organizational strategy rather than near-term market-design mechanisms, revenue rules, or compliance obligations that directly affect hydro operations.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Finance Committee Meeting",
+    "date": "2026-09-22",
+    "time": "3:00 p.m. - 5:00 p.m.",
+    "rto": "PJM",
+    "committee": "Finance Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Finance Committee meetings typically address corporate finance, budgeting, audit, and governance matters unrelated to market-design rules, revenue mechanisms, or compliance obligations that affect hydropower operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "NEPOOL Budget and Finance Subcommittee",
+    "date": "2026-09-22",
+    "time": "2:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Budget and Finance Subcommittee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160995",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Budget and Finance Subcommittee meetings typically address corporate governance, budgeting allocation, and administrative cost distribution rather than market-design rules, rate structure, or operational policies that affect hydro revenue or compliance.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Installed Capacity Working Group",
+    "date": "2026-09-22",
+    "time": "10:00 AM - 2:00 PM",
+    "rto": "NYISO",
+    "committee": "Installed Capacity Working Group",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/icapwg",
+    "materials_url": "https://www.nyiso.com/icapwg",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Installed Capacity Working Group addresses capacity-market design, accreditation, and reserve-margin rules that directly affect hydro's ELCC rating, seasonal capacity value, and revenue in NYISO's ICAP market.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Market Issues Working Group",
+    "date": "2026-09-22",
+    "time": "10:00 AM - 2:00 PM",
+    "rto": "NYISO",
+    "committee": "Market Issues Working Group",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/miwg",
+    "materials_url": "https://www.nyiso.com/miwg",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "NYISO's Market Issues Working Group regularly addresses energy price formation, ancillary services, capacity accreditation, and storage participation rules that directly affect hydro and PSH revenue and compliance in a hydropower-significant grid.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Price-Responsive Load Working Group",
+    "date": "2026-09-22",
+    "time": "10:00 AM - 2:00 PM",
+    "rto": "NYISO",
+    "committee": "Price-Responsive Load Working Group",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/prlwg",
+    "materials_url": "https://www.nyiso.com/prlwg",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Price-Responsive Load Working Group addresses demand-side management and customer response to pricing signals, which does not directly touch hydropower revenue mechanisms, compliance obligations, or strategic optionality for hydro operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Balancing Authority Committee (BAC) - September 22, 2026",
+    "date": "2026-09-22",
+    "time": "9:00 AM - 11:00 AM",
+    "rto": "MISO",
+    "committee": "Balancing Authority Committee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/31773ea2f2214fca8962b141851edb15.aspx",
+    "materials_url": "https://www.misoenergy.org/link/31773ea2f2214fca8962b141851edb15.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Balancing Authority Committee oversees real-time operations, dispatch, and reliability standards that directly affect hydro participation in MISO's energy and ancillary-services markets, including ramping, frequency response, and must-offer compliance rules.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "2027 Annual ARR Registration Workshop - September 22, 2026",
+    "date": "2026-09-22",
+    "time": "9:00 AM - 10:00 AM",
+    "rto": "MISO",
+    "committee": "Annual Auction Revenue Rights Allocation",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/126c9942cb3d41a1adf8ab2ef38f9302.aspx",
+    "materials_url": "https://www.misoenergy.org/link/126c9942cb3d41a1adf8ab2ef38f9302.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "ARR allocation workshops address financial hedging instruments and transmission-congestion rights for financial traders, not the operational, market-design, or revenue-mechanism issues that affect hydro owners' dispatch decisions, capacity accreditation, ancillary-service pricing, or strategic resource planning.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "RPG Meeting",
+    "date": "2026-09-22",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Regional Planning Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/09222026-RPG-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/09222026-RPG-Meeting",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ERCOT Regional Planning Group meetings address transmission planning, resource adequacy, and reliability assessments that serve as cross-market comparison points for how non-hydro-dominant RTOs approach capacity, flexibility, and energy-security mechanisms relevant to storage and dispatchable resources.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "TXSETLP Meeting",
+    "date": "2026-09-22",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Texas Standard Electronic Transactions/Load Profiling Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/09222026-TXSETLP-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/09222026-TXSETLP-Meeting",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Texas Standard Electronic Transactions and Load Profiling Working Group meetings address retail-market data exchange, billing mechanics, and customer-meter profiling\u2014not market design, revenue formation, or operational rules affecting hydro or storage resources.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "PLWG Meeting",
+    "date": "2026-09-22",
+    "time": null,
+    "rto": "ERCOT",
+    "committee": "Planning Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/09222026-PLWG-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/09222026-PLWG-Meeting",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ERCOT Planning Working Group meetings address resource adequacy, transmission planning, and reliability mechanisms including storage and flexibility products that serve as cross-market comparison points for hydro participation models and capacity/RA constructs used in hydro-rich RTOs.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Electric System Planning Working Group",
     "date": "2026-09-21",
     "time": "10:00 AM - 2:00 PM",
@@ -3051,16 +3205,702 @@
   {
     "title": "Operating Committee Meeting",
     "date": "2026-09-10",
-    "time": "9:00 a.m. - 2:00 p.m.",
+    "time": "9:00 a.m. - 11:00 a.m.",
     "rto": "PJM",
     "committee": "Operating Committee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={406EC983-9738-4969-9001-21EC19A37291}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "PJM Operating Committee meetings regularly address dispatch, ancillary services, operating standards, metering/settlement changes, and reliability mechanisms that directly affect hydro and storage resource operations and revenue.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260910-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260910/20260910-agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-04",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The agenda includes a first-read item on Manual 12: Balancing Operations conforming revisions addressing Regulation Market Design Phase 2, which directly affects how PJM's regulation ancillary-services market will function\u2014a core revenue stream for conventional hydropower and pumped-storage facilities.",
+        "ai_summary": "PJM Operating Committee agenda for September 10, 2026 includes a first-read presentation by Ilyana Dropkin on conforming revisions to Manual 12: Balancing Operations to address Regulation Market Design Phase 2 (Docket # ER25-1095). The document does not specify next steps, vote dates, or detailed mechanics of the proposed changes; it is an informational agenda item listing what will be discussed.",
+        "hydro_read_through": "Regulation is a core ancillary service that conventional hydropower and pumped-storage facilities typically supply; changes to the regulation market design architecture and manual procedures will alter how these facilities are dispatched, priced, and settled for that service. The document does not detail what Phase 2 changes entail, but the first-read format signals this is an active tariff/rule proceeding moving through PJM's approval process, making the manual conformance substantive for hydro owners' bid and dispatch strategies.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Regulation Market Design Phase 2 update scheduled in Manual 12: Balancing Operations at September 10, 2026 Operating Committee, 9:15\u20139:30 a.m.",
+            "quote": "Manual 12: Balancing Operations (9:15 \u2013 9:30)\nIlyana Dropkin, PJM, will provide an update regarding conforming revisions to Manual 12: Balancing Operation addressing regulation market design Phase 2 (Docket # ER25-1095).",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3f1658d3-7eae-4bba-9633-b64e9f724e84",
+            "canonical_name": "Regulation Market Design",
+            "status": "awaiting implementation & ferc approval",
+            "stakeholder_phase": "completed",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3f1658d3-7eae-4bba-9633-b64e9f724e84"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "David Kimmel",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ilyana Dropkin",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jim Gluck",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jim Snow",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Lauren Strella Wahba",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Paul Dajewski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ross Kelly",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Timothy Smoker",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20260910-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260910/20260910-agenda-doc.docx",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 12 conforming revisions for Regulation Market Design Phase 2 and Primary Frequency Response performance updates address ancillary-services revenue and compliance obligations central to hydro owners' market participation.",
+        "ai_summary": "PJM Operating Committee meeting agenda for September 10, 2026, includes a First Read on Manual 12: Balancing Operations conforming revisions addressing regulation market design Phase 2 (Docket # ER25-1095), presented by Ilyana Dropkin. The agenda also includes a Regulation Performance Update and Primary Frequency Response Update. Materials are due to the secretary by 5:00 p.m. EPT on the published deadline dates, with future meetings scheduled for October 8, November 5, and December 3, 2026.",
+        "hydro_read_through": "Conventional hydro and pumped-storage facilities are major suppliers of regulation and primary frequency response in PJM. Changes to regulation market design Phase 2 and updates to frequency response performance standards would directly affect how these resources are valued, settled, and dispatched in PJM's ancillary-services markets. The Primary Frequency Response update suggests ongoing refinement of frequency-response accreditation and performance metrics, which shapes revenue and compliance risk for hydro generators.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Regulation market design Phase 2 conforming revisions addressing Docket # ER25-1095",
+            "quote": "Ilyana Dropkin, PJM, will provide an update regarding conforming revisions to Manual 12: Balancing Operation addressing regulation market design Phase 2 (Docket # ER25-1095).",
+            "verified": true
+          },
+          {
+            "claim": "September 10, 2026 meeting date",
+            "quote": "September 10, 2026\n9:00 a.m. \u2013 11:00 a.m. EPT",
+            "verified": true
+          },
+          {
+            "claim": "Materials due 5:00 p.m. EPT deadline",
+            "quote": "5:00 p.m. EPT deadline*",
+            "verified": true
+          },
+          {
+            "claim": "October 8, 2026 future meeting",
+            "quote": "October 8, 2026",
+            "verified": true
+          },
+          {
+            "claim": "November 5, 2026 future meeting",
+            "quote": "November 5, 2026",
+            "verified": true
+          },
+          {
+            "claim": "December 3, 2026 future meeting",
+            "quote": "December 3, 2026",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3f1658d3-7eae-4bba-9633-b64e9f724e84",
+            "canonical_name": "Regulation Market Design",
+            "status": "awaiting implementation & ferc approval",
+            "stakeholder_phase": "completed",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3f1658d3-7eae-4bba-9633-b64e9f724e84"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "David Kimmel",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ilyana Dropkin",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jim Gluck",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jim Snow",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Lauren Strella Wahba",
+            "entity": "PJM",
+            "role": "author, presenter",
+            "email": null
+          },
+          {
+            "name": "Ross Kelly",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Timothy Smoker",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "Draft Minutes \u2013 OC \u2013 862026",
+        "filename": "20260910-draft-minutes---oc---862026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260910/20260910-draft-minutes---oc---862026.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a set of draft meeting minutes listing administrative items (antitrust/code-of-conduct announcements, operating metrics, security briefings, weather updates, and compliance reports) and attendance rosters; it contains no substantive content on market design, participation rules, revenue mechanisms, compliance obligations, or strategic developments affecting hydropower or pumped-storage operators.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Brian Starling",
+            "entity": "Dominion",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "David Kimmel",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joe Callis",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Lauren Strella Wahba",
+            "entity": "PJM Interconnection",
+            "role": "secretary",
+            "email": null
+          },
+          {
+            "name": "Madalin How",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Matt Wharton",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Paul Dajewski",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Timothy Smoker",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 02 \u2013 1 Manual 12 \u2013 Revision 58 \u2013 Presentation",
+        "filename": "20260910-item-02---1-manual-12---revision-58---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260910/20260910-item-02---1-manual-12---revision-58---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 12 Revision 58 confirms changes to PJM's regulation market redesign (Phase II), introducing Regulation-Up and Regulation-Down products \u2014 ancillary services that hydro facilities commonly supply for revenue; the revision updates operational procedures that govern how these products are dispatched and assigned.",
+        "ai_summary": "PJM Manual 12, Revision 58 (effective 12/01/2026) documents operational changes to accommodate two new regulation market products: Regulation-Up and Regulation-Down. The revision updates language in Sections 3.1.2, 3.1.3, 4.3, and 4.4; removes the Resource Dispatching Exhibit and Regulation Assignment Exhibit; and updates the PJM Member Interface Exhibit and Assigned Regulation Exhibit to reflect the new products. A sentence related to synchronized reserves and regulation in Section 4.1.2 was also removed. The manual is undergoing first read at the Operating Committee on September 10, 2026, with State and Organization Committee (SOS) first review scheduled for September 2, 2026, and Member Resource Committee (MRC) first read on September 24, 2026.",
+        "hydro_read_through": "While this document does not mention hydro by name, conventional hydropower and pumped-storage facilities are primary suppliers of regulation services in PJM. The split of regulation into separate up and down products changes how dispatch assignments work and will affect the bidding and settlement mechanics that determine regulation revenue for these resources. Owners need to understand the new product definitions and assignment logic to evaluate how their facilities' regulation-market participation will operate post-implementation.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Effective date 12/01/2026",
+            "quote": "Revision 58 (12/01/2026): Confirming Changes to Regulation Redesign Phase II",
+            "verified": true
+          },
+          {
+            "claim": "Operating Committee first read on September 10, 2026",
+            "quote": "September 10, 2026",
+            "verified": true
+          },
+          {
+            "claim": "SOS first review on September 2, 2026",
+            "quote": "September 2, 2026",
+            "verified": false
+          },
+          {
+            "claim": "MRC first read on September 24, 2026",
+            "quote": "September 24, 2026",
+            "verified": false
+          }
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3f1658d3-7eae-4bba-9633-b64e9f724e84",
+            "canonical_name": "Regulation Market Design",
+            "status": "awaiting implementation & ferc approval",
+            "stakeholder_phase": "completed",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3f1658d3-7eae-4bba-9633-b64e9f724e84"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Ilyana Dropkin",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Ilyana.Dropkin@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 02 \u2013 2 Manual 12 \u2013 Revision 58 \u2013 Executive Summary",
+        "filename": "20260910-item-02---2-manual-12---revision-58---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260910/20260910-item-02---2-manual-12---revision-58---executive-summary.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Regulation product redesign (Phase II) revises how PJM will procure and price regulation-up and regulation-down, two ancillary services that hydropower units routinely supply for revenue.",
+        "ai_summary": "PJM Manual 12 (Balancing Operations) Revision 58 implements Regulation Redesign Phase II under Docket No. ER24-1772-000, effective December 1, 2026. The revision introduces two new market products\u2014Regulation-Up and Regulation-Down\u2014replacing the previous single regulation product, and updates manual sections 2.1.2, 3.1.2, 3.1.3, 4.1.2, 4.3, and 4.4 to reflect the new product structure. Exhibits including Resource Dispatching, Regulation Assignment, and PJM Member Interface are revised or removed to accommodate the two-product model. The revision path runs through SOS, OC, and MRC committees, with MRC first read on 09/24/2026 and voting on 10/28/2026.",
+        "hydro_read_through": "Hydropower and pumped-storage units are major suppliers of regulation service in PJM. The shift from a single regulation product to separate Regulation-Up and Regulation-Down products will alter how these assets are dispatched, priced, and compensated for frequency regulation. This redesign may change the marginal value hydro can capture from regulation supply and could affect unit commitment and real-time dispatch decisions; the revised assignment and dispatch logic will determine whether the two-product structure advantages or disadvantages their participation relative to other technologies.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "effective date 12/01/2026",
+            "quote": "Effective Date 12/01/2026",
+            "verified": true
+          },
+          {
+            "claim": "Docket No. ER24-1772-000",
+            "quote": "Docket No. ER24-1772-000",
+            "verified": true
+          },
+          {
+            "claim": "MRC first read date 09/24/2026",
+            "quote": "MRC 1st read date: 09/24/2026",
+            "verified": true
+          },
+          {
+            "claim": "MRC voting date 10/28/2026",
+            "quote": "MRC voting date: 10/28/2026",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3f1658d3-7eae-4bba-9633-b64e9f724e84",
+            "canonical_name": "Regulation Market Design",
+            "status": "awaiting implementation & ferc approval",
+            "stakeholder_phase": "completed",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3f1658d3-7eae-4bba-9633-b64e9f724e84"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "Item 02 \u2013 3 Manual 12 \u2013 Revision 58 \u2013 Redline",
+        "filename": "20260910-item-02---3-manual-12---revision-58---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260910/20260910-item-02---3-manual-12---revision-58---redline.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Revision 58 introduces new regulation market products (Regulation-Up and Regulation-Down) and updates PJM's ancillary service qualification and performance-scoring rules \u2014 a direct change to how regulating resources including conventional hydro and other dispatchable units participate in the regulation market and earn ancillary service revenue.",
+        "ai_summary": "PJM Manual 12 Revision 58 (effective December 1, 2026) restructures the Regulation market into two separate products: Regulation-Up and Regulation-Down. The manual defines qualification testing, certification thresholds (75 percent or better per product over two consecutive tests), and a rolling-average disqualification threshold (below 40 percent historic performance score) requiring re-qualification. Regulating resources must achieve two consecutive scores of 75 percent or above per product to certify; certification requires either one self-administered test and one PJM-administered test, or two PJM-administered tests. Performance scores are calculated every 10 seconds by the Performance Score Calculation Engine (PSCE) and averaged over 30-minute intervals. A Regulation test lasts 40 minutes and evaluates accuracy in following the AGC signal.",
+        "hydro_read_through": "Conventional hydropower is a primary provider of regulation service in PJM; this revision restructures how PJM measures and certifies regulating capability and formalizes a two-product market (separate up and down regulation). Hydro operators must now test and certify independently for each product (RegUp and RegDn) rather than a single regulation offering, and performance qualification rules are tightened with a 40 percent disqualification floor and a strict rolling-average calculation. The new split-product structure and tighter performance scoring could fragment the addressable market and raise the operational and administrative burden on hydro owners who supply regulation, while also potentially increasing the precision with which PJM can match hydro's flexibility to system needs.",
+        "source_names_hydro": true,
+        "topics": [
+          "ancillary-services"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Revision 58 effective December 1, 2026",
+            "quote": "Effective Date: December 1, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Introduction of two new market products, Regulation-Up and Regulation-Down",
+            "quote": "Revised language to accommodate two new market products, Regulation-Up and Regulation-Down in Sections 3.1.2, 3.1.3, 4.3 and 4.4.",
+            "verified": true
+          },
+          {
+            "claim": "Certification threshold of 75 percent or better per product",
+            "quote": "A resource may be certified only after it achieves two consecutive scores of 75 percent or above per product, RegUp or RegDn.",
+            "verified": true
+          },
+          {
+            "claim": "Disqualification threshold of 40 percent historic performance score",
+            "quote": "When the historical performance score falls below 40 percent per product, RegUp or RegDn, PJM will notify the resource owner and the resource will no longer be eligible to offer into the Regulation market for that product.",
+            "verified": true
+          },
+          {
+            "claim": "Regulation test duration of 40 minutes",
+            "quote": "The Regulation test is run during a continuous 40-minute period",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "3f1658d3-7eae-4bba-9633-b64e9f724e84",
+            "canonical_name": "Regulation Market Design",
+            "status": "awaiting implementation & ferc approval",
+            "stakeholder_phase": "completed",
+            "committee_owner": "mrc",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=3f1658d3-7eae-4bba-9633-b64e9f724e84"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Paul Dajewski",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04 \u2013 Security Update \u2013 Presentation",
+        "filename": "20260910-item-04---security-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260910/20260910-item-04---security-update---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a cybersecurity briefing covering threat monitoring, CISA guidance, and security alert procedures \u2014 topics with no bearing on hydro revenue formation, participation rules, capacity accreditation, storage treatment, or strategic market options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jim Gluck",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "jim.gluck@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 05 \u2013 Regulation Performance Update \u2013 Presentation",
+        "filename": "20260910-item-05---regulation-performance-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260910/20260910-item-05---regulation-performance-update---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document reports on PJM regulation-service performance including hydro and storage units' compliance scores and qualified capacity, bearing directly on hydro revenue from regulation (an ancillary service PJM procures), and the tracking methodology itself (RMMCP pricing mechanics) affects how that revenue is cleared and priced.",
+        "ai_summary": "PJM presented a Regulation Performance Update showing performance metrics for regulation suppliers including Hydro, CT, DSR, Steam, and Energy Storage units. As of August 2026, Hydro had a 90% average performance score with 947 MW qualified for regulation. On October 1, 2025, PJM renamed Regulation Market Performance Clearing Price (RMPCP) to Regulation Market Mileage Clearing Price (RMMCP) and replaced Average Mileage Ratio with Average Regulation Mileage. Regulation Requirement Effective Megawatts will be presented at the October Operating Committee meeting. The document includes data through August 24, 2026, tracking automatic regulation-pegging signal duration and monthly market trends.",
+        "hydro_read_through": "Hydro operators' regulation revenue depends directly on the clearing-price mechanics (now RMMCP instead of RMPCP) and the mileage-based accreditation shown here; the August 2026 performance score of 90% and 947 MW qualified capacity tell individual hydro owners how their regulation service is being measured relative to competing technologies (CT at 86%, Storage at 94%), which affects both compliance risk and dispatch economics. The shift from a ratio-based to absolute-mileage framework (effective 10/1/2025) changes how regulation capability is quantified, potentially affecting offer strategies and capacity accreditation going forward.",
+        "source_names_hydro": true,
+        "topics": [
+          "ancillary-services",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Regulation Market Performance Clearing Price renamed to Regulation Market Mileage Clearing Price on 10/1/2025",
+            "quote": "Regulation Market Mileage Clearing Price (RMMCP) on 10/1/2025",
+            "verified": true
+          },
+          {
+            "claim": "Average Mileage Ratio went away and Average Regulation Mileage began on 10/1/2025",
+            "quote": "Average Mileage Ratio went away. Average Regulation Mileage began on 10/1/2025",
+            "verified": true
+          },
+          {
+            "claim": "Hydro average performance score 90% in August 2026",
+            "quote": "Avg. Performance Score (8/2026) | 90%",
+            "verified": true
+          },
+          {
+            "claim": "Hydro qualified MW at 947 MW as of August 2026",
+            "quote": "Regulation Qualified MW (8/2026) | 947 MW",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ilyana Dropkin",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Ilyana.Dropkin@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 08 \u2013 Reliability Compliance Update \u2013 Presentation",
+        "filename": "20260910-item-08---reliability-compliance-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260910/20260910-item-08---reliability-compliance-update---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-04",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Load-growth developments, particularly data-center interconnection standards and computational-load integration requirements, affect transmission and system stability in ways that reshape the operational and interconnection landscape available to existing hydro resources and may alter scarcity signals and revenue.",
+        "ai_summary": "PJM presents NERC's Project 2026-02 Computational Loads, a standards-development initiative addressing reliability risks from large loads (data centers, crypto mining) connecting to the bulk-power system at unprecedented scale. The project will develop three new Computational Load standards\u2014CLO-001-1 (Interconnection, Studies, and Modeling), CLO-002-1 (Operational Data and Communications), and CLO-003-1 (Protection Coordination and Disturbance Monitoring)\u2014and propose new registered-entity types (Computational Load Owner and Computational Load Operator) under NERC's Rules of Procedure. Comment deadline on proposed ROP revisions is September 18, 2026. The presentation also announces a Data Center Load Modeling Workshop on September 15\u201316, 2026, a SAR on Computational Load Disturbance Performance (comment period August 26 \u2013 September 24, 2026), and several other NERC standards activities, including modernization of standards processes and discontinuation of lower-priority standards projects under the current framework.",
+        "hydro_read_through": "The document does not address hydropower or pumped-storage resources directly. However, the large-load integration standards and interconnection requirements being developed will reshape transmission constraints, interconnection queues, and system-stability obligations that existing hydro facilities must navigate. Data-center clustering and demand growth in particular can increase scarcity in specific transmission corridors, raising the value of flexible, dispatchable resources already on the grid\u2014a strategic-options shift that benefits hydro owners where load growth occurs. Conversely, large-load ride-through and disturbance-performance requirements may establish operating standards that hydro as a synchronous resource will eventually face alongside or as a comparison point; monitoring how those requirements are framed (and whether they advantage fast-acting synthetic inertia or renewable sources) is material to hydro's long-term operational envelope.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "ops-compliance",
+          "interconnection"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "Comment deadline on proposed NERC ROP revisions for Computational Load Owner and Computational Load Operator entity types",
+            "quote": "August 19, 2026 to September 18, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Data Center Load Modeling Workshop dates",
+            "quote": "September 15, & 16, 2026 12:00 p.m. - 5:00 p.m. Eastern",
+            "verified": true
+          },
+          {
+            "claim": "RSTC SAR comment period for Computational Load Disturbance Performance",
+            "quote": "August 26 \u2013 September 24, 2026",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Elsa Prince",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Elizabeth Davis",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Elizabeth.Davis@pjm.com"
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Gizella.Mali@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 09 \u2013 Preliminary 2027 Capital Project Budget \u2013 Presentation",
+        "filename": "20260910-item-09---preliminary-2027-capital-project-budget---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260910/20260910-item-09---preliminary-2027-capital-project-budget---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-04",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is PJM's internal capital-budgeting presentation for IT infrastructure, applications, facilities, and system modernization \u2014 it contains no market-design changes, pricing mechanisms, resource accreditation rules, compliance obligations, or strategic options affecting hydropower or pumped-storage revenue, operations, or participation.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jim Snow",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "James.Snow@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 10 \u2013 Dlr Updates \u2013 Informational Only Posting",
+        "filename": "20260910-item-10---dlr-updates---informational-only-posting.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260910/20260910-item-10---dlr-updates---informational-only-posting.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-04",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is an informational report on PJM's Dynamic Line Rating (DLR) facility implementation schedule\u2014a transmission-operations tool for real-time capacity management. It does not address hydro or PSH revenue mechanisms, participation rules, accreditation, or compliance obligations, nor does it affect strategic options available to hydro owners.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "PJM Transmission Operations",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "DynamicLineRatingsTm@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 11 \u2013 Synchronous Reserve Update \u2013 Informational Only Posting",
+        "filename": "20260910-item-11---synchronous-reserve-update---informational-only-posting.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260910/20260910-item-11---synchronous-reserve-update---informational-only-posting.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-04",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Synchronous reserve (a spinning-reserve ancillary service hydro commonly supplies) performance, penalties, and response metrics directly affect hydro operators' compliance obligations and revenue\u2014the document reports Q1 2026 performance by resource category and penalty administration.",
+        "ai_summary": "PJM's 2026 second-quarter Synchronized Reserve Performance report shows aggregate Q1 performance data for generation and Demand-Side Response (DSR) resources by zone (RTO and MAD). In Q1, generation resources provided 8,637 MW of response against 17,808 MW assigned (48% performance), and DSR resources provided 2,057 MW against 3,118 MW assigned (66% performance). For events lasting ten minutes or longer, generation achieved 69% performance and DSR 78%. Total Synchronized Reserve penalties for Q1 were $330,002.60; April, May, and June incurred no additional penalties. The document is informational only and presents year-to-date and quarterly breakdowns.",
+        "hydro_read_through": "The document does not name hydropower or pumped storage directly. Synchronous reserve is a core ancillary service supplied by conventional hydro and some pumped-storage resources, and this performance report establishes the standard by which hydro operators' reserve response is measured and penalized in PJM. The 48% performance rate for generation resources (the category in which hydro would sit) and the penalty amounts indicate the revenue risk and compliance cost that hydro owners face when reserve events occur; understanding this baseline performance helps hydro operators assess their own reserve-delivery strategy and the penalty exposure for the wider fleet.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Q1 generation response 48% of assignment (8,637 MW response against 17,808 MW assigned)",
+            "quote": "2026 Q1 | 8,637 | 17,808 | 48%",
+            "verified": true
+          },
+          {
+            "claim": "Q1 DSR response 66% of assignment (2,057 MW response against 3,118 MW assigned)",
+            "quote": "2,057 | 3,118 | 66%",
+            "verified": true
+          },
+          {
+            "claim": "Ten-minute or greater events: generation 69% performance, DSR 78% performance",
+            "quote": "2026 Q1 | 1,333 | 1,938 | 69% | 499 | 643 | 78%",
+            "verified": true
+          },
+          {
+            "claim": "Q1 Synchronized Reserve penalties $330,002.60",
+            "quote": "Q1 | 330,002.60",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Kimmel",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "David.Kimmel@pjm.com"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Assembly Bill 825 California Job Study",
@@ -3969,7 +4809,7 @@
   {
     "title": "Market Implementation Committee Meeting",
     "date": "2026-09-09",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 2:30 p.m.",
     "rto": "PJM",
     "committee": "Market Implementation Committee",
     "source_url": "https://www.pjm.com/calendar",
@@ -4130,6 +4970,1276 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260909-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-04",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The agenda lists multiple items affecting hydro/PSH market participation: hybrid-resource market rules, regulation redesign, energy-storage resource model enhancements (opportunity-cost offers), and dual-fuel scheduling requirements \u2014 all touching revenue recognition, resource participation models, and compliance obligations for dispatchable and storage resources.",
+        "ai_summary": "PJM's Market Implementation Committee meeting (September 9, 2026) agenda includes: (1) endorsement of a Problem Statement & Issue Charge for Hybrid Resources Market Model Selection affecting market participation rule changes; (2) conforming Manual revisions to Manuals 11 and 28 for Regulation Redesign Phase 2, with endorsement requested at the next meeting; (3) Phase 2 of Resource Scheduling Prior to the Day-Ahead Energy Market, seeking endorsement at next meeting; (4) DISRS Charter Review revisions for endorsement at next meeting; (5) 2027 preliminary capital projects budget review; (6) July 4th, 2026 heat-wave analysis; (7) Dual Fuel Schedule Requirements design and solution options for extreme cold-weather capability; and (8) PJM Energy Storage Resource Model Enhancements addressing opportunity-cost options for energy-storage-resource cost offers, with discussion of design components and solution options. Lunch break 12:00\u20131:00 p.m.; meeting runs 9:00 a.m.\u20132:30 p.m. EPT.",
+        "hydro_read_through": "Although the agenda does not name hydropower or pumped storage, it flags four mechanisms directly affecting dispatchable and storage-resource owners: hybrid-resource participation rules (relevant to co-located hydro-battery configurations), regulation-market redesign (regulation is a core hydro ancillary-services product), energy-storage opportunity-cost offer development (the chronic pricing challenge for use-limited resources like PSH), and dual-fuel scheduling requirements (applicable to any resource with must-offer obligations during reliability events). The regulation redesign and storage cost-offer enhancements are the highest-leverage items for PSH revenue and compliance.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "storage",
+          "hybrids-der"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Hybrid Resources Market Model Selection endorsement requested at this meeting",
+            "quote": "Maria Belenky, PJM, will present a Problem Statement & Issue Charge to discuss market participation rule changes for Hybrid Resources. The committee will be asked to approve the issue charge at this meeting.",
+            "verified": true
+          },
+          {
+            "claim": "Manual revisions for Regulation Redesign Phase 2 conforming changes to Manual 11 and Manual 28, endorsement at next meeting",
+            "quote": "Joey Tutino and Suzanne Coyne, PJM, will present conforming changes to Manual 11: Energy & Ancillary Services Market Operations and Manual 28: Operating Agreement Accounting as part of Regulation Redesign Phase 2. The committee will be asked to endorse the revisions at the next meeting.",
+            "verified": true
+          },
+          {
+            "claim": "PJM Energy Storage Resource Model Enhancements addressing opportunity-cost options for energy-storage-resource cost offers",
+            "quote": "Maria Belenky, PJM, will present analysis regarding opportunity costs options for Energy Storage Resources cost offers. Jason Shoemaker, PJM, will lead a discussion on design components & solution options within the matrix.",
+            "verified": false
+          },
+          {
+            "claim": "Dual Fuel Schedule Requirements discussion on design components for extreme cold weather operations",
+            "quote": "Kevin Hatch, PJM, will review design components and solution options present dual fuel operations to address concerns with dual fuel capability during extreme cold weather events.",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
+            "canonical_name": "Dual Fuel Schedule Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "0a48ab03-08ee-4411-84ef-690798fa30cf",
+            "canonical_name": "PJM Energy Storage Resource Model Enhancements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=0a48ab03-08ee-4411-84ef-690798fa30cf"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Joel Luna",
+            "entity": "Monitoring Analytics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jim Snow",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joey Tutino",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joseph Ciabattoni",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kevin Hatch",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Maria Belenky",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Monica Burkett",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "author, presenter",
+            "email": null
+          },
+          {
+            "name": "Suzanne Coyne",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20260909-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-agenda-doc.docx",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The agenda covers regulation redesign (Phase 2), energy-storage resource model enhancements, hybrid resources market participation rules, and resource scheduling mechanics\u2014each directly affects hydro and PSH revenue streams, participation models, and compliance obligations in PJM.",
+        "ai_summary": "PJM's Market Implementation Committee meeting (September 9, 2026) will address four items of direct relevance to dispatchable and storage resources: (1) Manual conforming changes for Regulation Redesign Phase 2, affecting Manuals 11 and 28 on ancillary-services market operations and accounting; (2) a solution proposal for Resource Scheduling Prior to the Day-Ahead Energy Market (Phase 2), to be endorsed at the next meeting; (3) Hybrid Resources Market Model Selection, with an issue charge and problem statement on participation rule changes for hybrid resources, requested for approval; and (4) PJM Energy Storage Resource Model Enhancements, including analysis of opportunity-cost treatment, with design components and solution options to be discussed. The committee will also review the Distributed Resources Subcommittee charter revisions and a July 4th, 2026 heat-wave analysis.",
+        "hydro_read_through": "Although the document does not name hydropower or pumped storage explicitly, the agenda directly addresses mechanisms that govern their revenue and operational rules: regulation-redesign manual updates affect how ancillary-service products are defined and compensated; energy-storage-model enhancements, especially opportunity-cost analysis, are the core issue determining whether PSH can recover its dynamic value and avoid underpricing in real-time dispatch; hybrid-resource rules determine whether hydro can co-locate with solar or wind and participate as a stacked unit; and resource-scheduling changes affect when and how dispatchable units can commit generation to the day-ahead market, altering their revenue opportunity and integration constraints.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "storage",
+          "hybrids-der"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Regulation Redesign Phase 2 manual revisions to Manuals 11 and 28 on ancillary services and accounting, with endorsement requested at next meeting",
+            "quote": "Manual Revisions for Regulation Redesign Phase 2 (9:20 \u2013 9:50)\nJoey Tutino and Suzanne Coyne, PJM, will present conforming changes to Manual 11: Energy & Ancillary Services Market Operations and Manual 28: Operating Agreement Accounting as part of Regulation Redesign Phase 2.\nThe committee will be asked to endorse the revisions at the next meeting.",
+            "verified": true
+          },
+          {
+            "claim": "Resource Scheduling Prior to the Day-Ahead Energy Market Phase 2 proposal, to be endorsed at next meeting",
+            "quote": "Resource Scheduling Prior to the Day-Ahead Energy Market - Phase 2 (9:50 \u2013 10:20)\nJoel Luna, Monitoring Analytics, will provide a First Read of a solution proposal regarding Phase 2 of the Resource Scheduling Prior to the Day-Ahead Energy Market issue.\nThe committee will be asked to endorse the proposal at the next meeting.",
+            "verified": true
+          },
+          {
+            "claim": "Hybrid Resources Market Model Selection issue charge on participation rule changes, requested for approval at this meeting",
+            "quote": "Hybrid Resources Market Model Selection (9:05 \u2013 9:20)\nMaria Belenky, PJM, will present a Problem Statement & Issue Charge to discuss market participation rule changes for Hybrid Resources.\nThe committee will be asked to approve the issue charge at this meeting.",
+            "verified": true
+          },
+          {
+            "claim": "PJM Energy Storage Resource Model Enhancements analysis on opportunity costs, with design and solution options discussion",
+            "quote": "PJM Energy Storage Resource Model Enhancements (1:00 \u2013 2:30)\nMaria Belenky, PJM, will present analysis regarding opportunity costs for Energy Storage Resources.\nJason Shoemaker, PJM, will lead a discussion on design components & solution options within the matrix.",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
+            "canonical_name": "Dual Fuel Schedule Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "0a48ab03-08ee-4411-84ef-690798fa30cf",
+            "canonical_name": "PJM Energy Storage Resource Model Enhancements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=0a48ab03-08ee-4411-84ef-690798fa30cf"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Joel Luna",
+            "entity": "Monitoring Analytics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Brian Chmielewski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jim Snow",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joey Tutino",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kevin Hatch",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Maria Belenky",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Monica Burkett",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "author; presenter",
+            "email": null
+          },
+          {
+            "name": "Suzanne Coyne",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Informational Only \u2013 Interregional Coordination Update",
+        "filename": "20260909-informational-only---interregional-coordination-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-informational-only---interregional-coordination-update.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Interregional coordination mechanics, including Parallel Flow Visualization (PFV) as a replacement for Freeze Date and Energy Storage Resource considerations in market-flow calculation, affect how multi-RTO dispatch and congestion settlement treats dispatchable and storage resources, setting precedent for how hydro participates in coordinated markets.",
+        "ai_summary": "PJM's Congestion Management Process (CMP) working group is evaluating Parallel Flow Visualization (PFV), an Eastern Interconnect solution using Generation-to-Load (GTL) flow concepts to replace the Freeze Date method for establishing firm market-flow entitlements in multi-RTO settlements. PFV leverages NAESB WEQ-008 v3.3 standard Generator Prioritization Schedules (GPS) to assign transmission relief obligations during congestion. The CMPWG is also reviewing Energy Storage Resource Considerations in Market Flow Calculation, FERC Order 881 impacts to flowgate allocation, and Firm Flow Limit methodology. Next CMP meeting is scheduled for October 14, 2026. PJM-MISO and PJM-NYISO market-to-market coordination metrics and a paused PJM-TVA Emergency Energy Agreement are also reported.",
+        "hydro_read_through": "The document does not mention hydropower or pumped-storage facilities directly. However, the shift from Freeze Date to Parallel Flow Visualization for interregional congestion settlement directly affects how dispatchable resources\u2014including conventional hydro and pumped storage\u2014are credited or charged in multi-RTO market operations. Hydro and PSH operators depend on accurate market-flow entitlement calculations to determine their nodal value and congestion revenues; PFV's use of Generator Prioritization Schedules could materially change those settlements compared to the prior Freeze Date methodology. The concurrent review of Energy Storage Resource Considerations in Market Flow Calculation may also establish precedent for how state-of-charge and storage dispatch constraints are treated in interregional settlements, affecting PSH operators' charging and discharging economics.",
+        "source_names_hydro": false,
+        "topics": [
+          "transmission",
+          "seams-governance",
+          "storage"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "Next CMP meeting scheduled for October 14, 2026",
+            "quote": "Oct 14, 2026\nNext CMP\nCouncil meeting",
+            "verified": false
+          },
+          {
+            "claim": "Parallel Flow Visualization (PFV) uses NAESB WEQ-008 version 3.3 standard",
+            "quote": "leveraging the Generator Prioritization Method and associated\nGenerator Prioritization Schedules (GPS) to establish Firm Market Flow entitlements for\nuse in M2M settlements vs the Freeze Date method.\n\u2022 The GPS data submission to the IDC is required of the RTO/ISO (i.e. all the market entities\nhave designated this methodology under the NAESB standard)",
+            "verified": false
+          },
+          {
+            "claim": "PFV replaces Freeze Date method for firm market-flow entitlements",
+            "quote": "GTL Priorities \u2013 GTL incorporates new methods to establish transmission priority of a\ngenerator. (established under v3.3 of the NAESB WEQ-008 TLR standard)\n\u2022 Specifically looking to leverage the Generator Prioritization Method and associated\nGenerator Prioritization Schedules (GPS) to establish Firm Market Flow entitlements for\nuse in M2M settlements vs the Freeze Date method.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Chris Moran",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Christopher.Moran@pjm.com"
+          },
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "author",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "co-author",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Informational Only \u2013 Stability Limit Report \u2013 August 2026",
+        "filename": "20260909-informational-only---stability-limit-report---august-2026.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-informational-only---stability-limit-report---august-2026.xlsx",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "A stability-limit report on grid voltage and dynamic performance contains no information about hydro or PSH revenue streams, compliance obligations, strategic options, or market design\u2014it is an engineering/operations assessment outside the market-design scope.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "issue-charge",
+        "title": "Item 01 1 \u2013 Hybrid Resources Market Model Selection \u2013 Problem Statement",
+        "filename": "20260909-item-01-1---hybrid-resources-market-model-selection---problem-statement.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-01-1---hybrid-resources-market-model-selection---problem-statement.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Market classification rules for mixed-technology facilities (solar + battery hybrids) using Surplus Interconnection Service affect how co-located resources obtain capacity accreditation and ancillary-services treatment, setting precedent for how multi-component plants at one interconnection point would be modeled for any technology including pumped storage.",
+        "ai_summary": "PJM's current rules require mixed-technology facilities (MTF) that participate in the capacity market as a Hybrid Resource to also operate as a single hybrid unit in the Energy and Ancillary Services Markets. PJM has identified this requirement as presenting challenges: coordinating two technologies to operate as a single market unit is technically difficult, and when MTF components have different offtakers, allocating credits and charges becomes impractical. The problem is acute for projects using Surplus Interconnection Service (SIS), where a co-located resource (e.g., a battery added to an existing solar site) cannot obtain its own Capacity Interconnection Rights (CIRs) and must instead become a Hybrid Resource to leverage the existing project's CIRs and increase the site's UCAP. PJM states the hybrid requirement limits SIS as a tool for rapid capacity addition and is inconsistent with how non-MTF resources are treated, and signals it should review whether MTF capacity-market hybrids should be permitted to operate as separate units in the Energy and Ancillary Services Markets.",
+        "hydro_read_through": "The document does not address hydropower or pumped storage directly. However, the underlying issue\u2014whether a resource with multiple components at one interconnection point must operate as a single market unit or can bid separately in different markets\u2014would apply to any mixed-technology plant, including pumped storage co-located with solar or wind or operating alongside transmission assets. If PJM allows hybrid resources to separate their capacity-market and energy/AS-market participation, similar flexibility could eventually extend to PSH projects, affecting how they accrue capacity revenue, how their charging and generating modes are settled, and how their ancillary-services capability would be accredited. Conversely, the document illustrates a design challenge that arises whenever different technologies share a POI: how to allocate market revenues, charges, and AS obligations fairly when they have different operational profiles and different offtakers.",
+        "source_names_hydro": false,
+        "topics": [
+          "hybrids-der",
+          "capacity-ra",
+          "interconnection"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "MTF must operate as hybrid in both capacity and Energy/Ancillary Services Markets under existing rules, creating technical and practical challenges",
+            "quote": "The existing requirement that a facility that participates in the capacity market as a Hybrid Resource must also operate as a Hybrid Resource in the Energy and Ancillary Services Markets is presenting challenges. Operating a Hybrid Resource is very complex and may not be viable in certain situations. PJM has heard from stakeholders that coordinating two technologies to operate as a single market unit is technically difficult.",
+            "verified": true
+          },
+          {
+            "claim": "SIS projects cannot obtain CIRs independently and must use Hybrid Resource model to leverage existing resource's CIRs",
+            "quote": "Because the surplus resource cannot obtain its own CIRs through SIS, becoming a Hybrid Resource with the existing project at the POI is the only path for the surplus project to obtain capacity value today. For example, a battery that is being added to a POI with solar must be accredited as a Hybrid Resource in order to leverage the solar resource's CIRs and increase the UCAP of the POI.",
+            "verified": true
+          },
+          {
+            "claim": "PJM rule is inconsistent with how non-MTF resources are treated",
+            "quote": "Moreover, the rule is inconsistent with how non-MTF are treated. Generally, PJM permits one capacity market unit to be represented by multiple units in the Energy and Ancillary Service Markets.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 01 2 \u2013 Hybrid Resources Market Model Selection \u2013 Issue \u2013 Charge \u2013 Redline",
+        "filename": "20260909-item-01-2---hybrid-resources-market-model-selection---issue--charge---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-01-2---hybrid-resources-market-model-selection---issue--charge---redline.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM proposes to decouple Hybrid Resource classification across capacity and energy/ancillary-services markets, directly affecting how mixed-technology facilities\u2014including run-of-river paired with storage, or storage co-located with conventional generation\u2014participate in capacity accreditation and ancillary-services procurement; this rule change affects revenue streams and compliance obligations for multi-component hydro projects and PSH facilities.",
+        "ai_summary": "PJM staff is addressing a constraint in the Hybrid Resource framework: the requirement that mixed-technology facilities modeled as Hybrid Resources in the capacity market must also operate as Hybrid Resources in energy and ancillary-services markets is limiting capacity participation, particularly for resources interconnecting via Surplus Interconnection Service (SIS) that lack their own Capacity Interconnection Rights (CIRs). The Issue Charge proposes to examine whether Mixed Technology Facilities may be accredited and participate in capacity as a Hybrid Resource while operating independently in energy and ancillary-services markets. Key work includes identifying whether differentiated classification is warranted and tracing downstream impacts (must-offer requirements, performance assessment, settlement). The work is assigned to the Market Implementation Committee at Medium priority with Immediate Near Term timing and Monthly meeting frequency. Expected deliverables are market rules facilitating differentiated classification, with corresponding tariff revisions to follow MRC and MC review.",
+        "hydro_read_through": "The document does not mention hydro or pumped storage directly. However, any multi-component facility combining conventional hydro or PSH with other generation (e.g., run-of-river hydro plus battery storage, or PSH with solar) would be modeled as a Hybrid Resource under PJM rules. This proposal could allow such facilities to secure capacity accreditation as a unified hybrid unit while operating each component independently in energy and ancillary-services markets\u2014potentially improving revenue certainty from capacity payments while retaining operational and offer flexibility in real-time markets. For SIS-interconnected projects without dedicated CIRs, decoupling could unlock capacity value that is now unavailable. The work will also clarify how must-offer rules, performance assessment, and settlement flows would apply under differentiated classification, which matters for hedging and compliance planning.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "hybrids-der",
+          "interconnection"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Surplus Interconnection Service (SIS) resources lack CIRs and must become Hybrid Resources to obtain capacity value",
+            "quote": "Because SIS resources do not have their own CIRs, they must become a Hybrid Resource with the existing technology to obtain capacity value.",
+            "verified": true
+          },
+          {
+            "claim": "Hybrid Resource requirement limits potential of SIS process to yield capacity at time of deep capacity need",
+            "quote": "The requirement that projects modeled as a Hybrid Resource operate as a Hybrid Resource in the Energy and AS Markets or not receive capacity value at all, is limiting the potential of the SIS process to yield additional UCAP for the PJM region at a time when new capacity is deeply needed.",
+            "verified": true
+          },
+          {
+            "claim": "Work priority and timeline: Medium priority, Immediate Near Term, Monthly meeting frequency",
+            "quote": "Priority Level Timing Meeting Frequency\\n\u2612 Medium \u2610 Near Term \u2612 Monthly",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 02 1 \u2013 Regulation Redesign Phase 2 \u2013 Manual 11 Revisions \u2013 Presentation",
+        "filename": "20260909-item-02-1---regulation-redesign-phase-2---manual-11-revisions---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-02-1---regulation-redesign-phase-2---manual-11-revisions---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Regulation Redesign Phase 2 in PJM revises the manual governing how regulation-up and regulation-down (ancillary services that hydropower commonly supplies) are defined, offered, and priced, directly affecting hydro revenue and compliance for regulation participation.",
+        "ai_summary": "PJM's Manual 11 Regulation Redesign Phase 2 updates the operating manual to implement new two-product regulation paradigm (RegUp/RegDn) while preserving existing language. Key changes include clarifying target and effective times for ancillary service products (Section 2.5.3.5), updating regulation range limits for both RegUp and RegDn (Section 3.2.6), and adding detail on how stability limits apply to each product (Section 2.18). A new subsection (3.7.2.2) addresses product bidirectionality and symmetry. First Read at Market Implementation Committee on 9/9/2026, with endorsement deadline of 10/28/2026 for Market Buyers, Market Sellers, and Capacity Service Providers (CSPs). Subsequent MRC First Read 9/24/2026 and endorsement deadline 10/28/2026. Staff communications deadline 12/1/2026 prior to implementation.",
+        "hydro_read_through": "Hydropower operators bid into PJM's regulation market and are typically significant suppliers of both regulation-up and regulation-down. Changes to how range limits, offer rules, and stability constraints apply separately to RegUp versus RegDn will affect how hydro units must structure bids, what revenue they can realize per product, and compliance obligations in manual operations. The new product bidirectionality framework may create different marginal-cost and symmetry requirements that alter the economics of regulation vs. energy dispatch.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "endorsement deadline 10/28/2026",
+            "quote": "Review changes prior to endorsement. 10/28",
+            "verified": true
+          },
+          {
+            "claim": "staff communications deadline 12/1/2026",
+            "quote": "Communicate to staff about changes to Manual 11 prior to go-live. 12/1",
+            "verified": false
+          },
+          {
+            "claim": "First Read at MIC 9/9/2026",
+            "quote": "MIC First Read September 9, 2026",
+            "verified": false
+          },
+          {
+            "claim": "MRC endorsement deadline 10/28/2026",
+            "quote": "MRC Endorsement October 28, 2026",
+            "verified": false
+          },
+          {
+            "claim": "new subsection 3.7.2.2 on Product Bidirectionality and Symmetry",
+            "quote": "Addition of one new subsection to discuss the new concept of Product Bidirectionality and Symmetry. Section 3.7.2.2",
+            "verified": true
+          },
+          {
+            "claim": "updates to regulation range limits for two products (3.2.6)",
+            "quote": "Updates to Regulation Range Limits for two products 3.2.6",
+            "verified": true
+          },
+          {
+            "claim": "affected parties include Market Buyers, Market Sellers, CSPs",
+            "quote": "Who May Be Affected | | Market Buyers, Market Sellers, CSPs",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "author",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Joseph Tutino",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Joseph.Tutino@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "manual",
+        "title": "Item 02 2 \u2013 Regulation Redesign Phase 2 \u2013 Manual 11 Revisions \u2013 Redline",
+        "filename": "20260909-item-02-2---regulation-redesign-phase-2---manual-11-revisions---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-02-2---regulation-redesign-phase-2---manual-11-revisions---redline.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This manual revision implements PJM's Regulation Redesign Phase 2 (FERC ER24-1772), which directly affects how hydro and other fast-ramping resources are priced and procured for regulation ancillary services \u2014 a core hydro revenue stream.",
+        "ai_summary": "PJM Manual 11 Revision 138 (effective December 1, 2026) incorporates Regulation Redesign Phase 2 updates filed under FERC Docket ER24-1772. The revision modifies regulation market business rules, requirements, market power mitigation, mileage calculations, lost opportunity cost methodology, market clearing and pricing, and regulation market operations across multiple sections (2.1.5, 2.4, 2.5.1, 2.5.3.2, 2.5.3.5, 2.7, 2.18, Section 3, Sections 4.4, 4.4.3, 4.4.3.1, 4.4.4, 4.4.5, 5.1, 5.2.4, 5.2.7.2, 9.1.1). The manual also contains provisions governing Energy Storage Resource participation models, Hybrid Resource operational modes, and Pumped Storage modeling (Attachment B), establishing how mixed-technology and storage facilities can participate in energy and ancillary services markets.",
+        "hydro_read_through": "Regulation is a major revenue source for hydropower's fast-ramping capability, and Regulation Redesign Phase 2 restructures how regulation is valued, procured, and settled \u2014 changes that will directly affect how much hydro operators earn from regulation service offerings. The manual's updates to lost opportunity cost methodology and regulation market clearing and pricing mechanics are especially material because opportunity-cost recovery is chronically under-designed for use-limited resources like hydro. The inclusion of Pumped Storage modeling and Energy Storage Resource participation rules signals that PJM is clarifying how storage facilities (including PSH) commit and operate in energy and ancillary-services markets, which affects their scheduling flexibility and revenue stacking.",
+        "source_names_hydro": true,
+        "topics": [
+          "ancillary-services",
+          "price-formation",
+          "storage"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Regulation Redesign Phase 2 updates filed under FERC Docket ER24-1772, effective December 1, 2026",
+            "quote": "Regulation Redesign Phase 2 Updates - FERC Docket ER24-1772 (Sections 2.1.5, 2.4, 2.5.1, 2.5.3.2, 2.5.3.5, 2.7, 2.18, Section 3, Sections 4.4, 4.4.3, 4.4.3.1, 4.4.4, 4.4.5, 5.1, 5.2.4, 5.2.7.2, 9.1.1)",
+            "verified": true
+          },
+          {
+            "claim": "Effective date December 1, 2026",
+            "quote": "Revision: 138, Effective Date: 12/01/2026",
+            "verified": true
+          },
+          {
+            "claim": "Approval date July 28, 2026",
+            "quote": "Approval Date: 07/28/2026",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Brian Chmielewski",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Joe Ciabattoni",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 02 3 \u2013 Regulation Redesign Phase 2 \u2013 Manual 28 Revisions \u2013 Presentation",
+        "filename": "20260909-item-02-3---regulation-redesign-phase-2---manual-28-revisions---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-02-3---regulation-redesign-phase-2---manual-28-revisions---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 28 Phase 2 updates PJM's regulation market clearing prices, lost opportunity cost credits, and settlement mechanics\u2014directly affecting how hydro resources' regulation service revenues are calculated and paid, with explicit treatment of hydro opportunity-cost methodology.",
+        "ai_summary": "PJM Manual 28 Regulation Market Redesign Phase 2 updates the regulation-service credit and charging formulas to separately account for RegUp and RegDn product types. Key changes include: (1) Regulation Clearing Price and Mileage credits calculated separately by product type for each five-minute interval with a 0.25 minimum performance-score floor; (2) Lost Opportunity Cost credit revised to handle both RegUp and RegDn products, with distinct intra-commitment opportunity-cost calculations for hydro resources (using bias-adjusted deviation MW) versus non-hydro resources (using bias-adjusted tracking regulation set point); (3) new Regulation Obligation and Regulation Clearing Price Charge sections reflecting hourly obligations and product-type specific charges; (4) consolidation of opportunity-cost methodologies including shoulder-interval treatment. The document notes Manual 28 updates must be communicated to PJM Members and Market Participants by 12/1/2026. MIC First Read is scheduled for 9/9/2026, MRC First Read for 9/24/2026, MIC Endorsement for 10/7/2026, and MRC Endorsement for 10/28/2026.",
+        "hydro_read_through": "Hydro plants provide regulation services in PJM and are subject to these clearing-price and lost-opportunity-cost calculations. The new manual explicitly distinguishes hydro intra-commitment opportunity-cost treatment from non-hydro resources, using deviation MW rather than set-point tracking\u2014this recognition matters because hydro's variable output and operational flexibility create opportunity costs structurally different from dispatchable thermal units. The performance-score floors and product-type-specific credit mechanics will directly affect monthly regulation revenues and the uplift crediting hydro receives when clearing prices fall short of its offers plus opportunity costs. Owners should track the October endorsement timeline to understand final rule mechanics before implementation.",
+        "source_names_hydro": true,
+        "topics": [
+          "ancillary-services",
+          "price-formation",
+          "mitigation-offers"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Communication deadline to PJM Members and Market Participants",
+            "quote": "Communicate Manual 28 updates to 12/1/2026 PJM Members and Market Participants impacted staff",
+            "verified": true
+          },
+          {
+            "claim": "Regulation credits calculated for each five-minute interval with performance-score floor",
+            "quote": "Calculated for each five-minute interval \u2022 If actual five-minute performance score by product type < 0.25, credit = $0.",
+            "verified": false
+          },
+          {
+            "claim": "Hydro-specific intra-commitment opportunity-cost calculations",
+            "quote": "Hydro Resources: Bias adjusted deviation MW and intra-commitment opportunity cost",
+            "verified": true
+          },
+          {
+            "claim": "MIC First Read date",
+            "quote": "September MIC First Read September 9, 2026",
+            "verified": true
+          },
+          {
+            "claim": "MRC First Read date",
+            "quote": "MRC First Read September 24, 2026",
+            "verified": false
+          },
+          {
+            "claim": "MIC Endorsement date",
+            "quote": "October MIC Endorsement October 7, 2026",
+            "verified": true
+          },
+          {
+            "claim": "MRC Endorsement date",
+            "quote": "MRC Endorsement October 28, 2026",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          },
+          {
+            "name": "Suzanne Coyne",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Suzanne.Coyne@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "manual",
+        "title": "Item 02 4 \u2013 Regulation Redesign Phase 2 \u2013 Manual 28 Revisions \u2013 Redline",
+        "filename": "20260909-item-02-4---regulation-redesign-phase-2---manual-28-revisions---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-02-4---regulation-redesign-phase-2---manual-28-revisions---redline.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 28 governs PJM's settlement and accounting for Regulation (a core ancillary service that hydro and PSH typically supply), and this revision reflects material changes to Regulation market design including separate RegUp and RegDn products, updated credit and charge formulas, and lost-opportunity-cost calculations \u2014 all of which directly affect hydro/PSH revenue and settlement mechanics.",
+        "ai_summary": "PJM Manual 28 (Revision 105, effective 2026-12-01) incorporates Regulation Market Redesign Phase 2 conforming changes filed under ER24-1772. Section 4 (Regulation Accounting) is substantially revised to reflect new market structure: Regulation credits and charges are now calculated separately by product type (RegUp and RegDn), including updates to Regulation Market Clearing Price (RMCCP) and Regulation Market Mileage Clearing Price (RMMCP) credit calculations; Regulation Lost Opportunity Cost credits now account for multiple product types; and a new Section 4.3.1 defines Regulation Obligation and Adjusted Obligation calculations with illustrative examples for intra-commitment opportunity costs and shoulder opportunity-cost calculations using tracking Regulation set points. Section 5.2.6.4 and 5.2.8 remove a marginal benefit factor reference missed in Phase 1 updates. Section 19.2.3 (Secondary Reserve) sets opportunity cost to $0 for resources committed and cleared as off-line.",
+        "hydro_read_through": "Conventional hydro and pumped-storage resources are among PJM's principal Regulation suppliers, and this revision materially reshapes how Regulation revenue is calculated and allocated. The shift to separate RegUp/RegDn products changes the pricing surface hydro faces for each directional service; the new lost-opportunity-cost formulas, particularly the intra-commitment calculations and set-point-based shoulder costs, will alter the make-whole payments that compensate hydro for unrecovered energy costs. How hydro's variable output interacts with the new tracking set-point methodology and whether the RegUp/RegDn split affects hydro's effective accreditation or must-offer obligations are design details hydro operators will need to verify against the full ER24-1772 docket and updated tariff language.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "price-formation",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Revision 105 effective 2026-12-01",
+            "quote": "Revision: 105\nEffective Date: December 1, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Regulation Market Redesign Phase 2 conforming changes (ER24-1772)",
+            "quote": "Regulation Market Redesign Phase 2 conforming changes (ER24-1772)",
+            "verified": true
+          },
+          {
+            "claim": "Updated Regulation Market Clearing Price credit calculations for RegUp and RegDn",
+            "quote": "Updated Regulation Market Clearing Price credit calculations for each product type\n(RegUp and RegDn)",
+            "verified": true
+          },
+          {
+            "claim": "Updated Regulation Lost Opportunity Cost credit calculations to account for multiple product types",
+            "quote": "Updated Regulation Lost Opportunity Cost credit calculations to account for multiple\nproduct types (RegUp and RegDn)",
+            "verified": true
+          },
+          {
+            "claim": "Added calculations for intra-commitment opportunity costs",
+            "quote": "Added calculations and illustrative examples for intra-commitment opportunity costs",
+            "verified": true
+          },
+          {
+            "claim": "Replaced set point calculation with tracking Regulation set point for shoulder opportunity cost calculations",
+            "quote": "Replaced set point calculation with the tracking Regulation set point for shoulder\nopportunity cost calculations",
+            "verified": true
+          },
+          {
+            "claim": "Created new Section 4.3.1 describing Regulation Obligation and Adjusted Obligation calculations",
+            "quote": "Created new Section 4.3.1 describing Regulation Obligation and Adjusted Obligation\ncalculations",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Market Settlements Development Department",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Susan Kenney",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 02 5 \u2013 Regulation Redesign Phase 2 \u2013 Manual Revisions \u2013 Executive Summary",
+        "filename": "20260909-item-02-5---regulation-redesign-phase-2---manual-revisions---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-02-5---regulation-redesign-phase-2---manual-revisions---executive-summary.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM regulation market redesign Phase 2 conforming changes affect the ancillary-services revenue stream hydro supplies (regulation up/down products), their pricing, credit/charge calculations, and product-level bidding rules that apply to all suppliers including conventional generators.",
+        "ai_summary": "PJM Manual 11 (Energy & Ancillary Services Market Operations) and Manual 28 (Operating Agreement Accounting) are being updated to conform to FERC Order ER24-1772, Regulation Market Redesign Phase 2, effective December 1, 2026. The changes span 20+ sections and include: separation of RegUp and RegDn product concepts throughout; relocation of marginal resource and clearing-price references; new Product Bidirectionality and Symmetry functionality; revised Regulation Range Limits; updated cost and price-based offer rules; and revised Regulation Market Clearing Price and Regulation Lost Opportunity Cost credit/charge calculations for each product type and commitment scenarios. Manual 28 also adds intra-commitment opportunity-cost calculations and describes Regulation Obligation adjustments. The MIC holds its first read on September 9, 2026, with endorsement scheduled for October 7, 2026; MRC first read is September 24, 2026, and voting is October 28, 2026.",
+        "hydro_read_through": "The document does not name hydro or pumped storage specifically. However, regulation is a core ancillary service that conventional hydropower and pumped-storage units typically supply in PJM. The redesign splits regulation into directional products (up and down) with separate clearing prices and opportunity-cost settlements, and introduces new product-level bidding mechanics (bidirectionality and symmetry functionality). For a hydro owner, these changes directly affect: (1) how their regulation revenue is calculated and credited/charged under the two-product framework, (2) what their offer requirements and range limits are now that regulation is no longer a single product, and (3) how lost-opportunity costs (a critical hydro compensation issue due to energy constraints) are computed across commitment periods and opportunity-cost windows. The mechanics of the credit/charge split and the intra-commitment opportunity-cost treatment are material to reserve-margin calculations and revenue realization for energy-limited resources.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "price-formation",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Effective Date 12/1/2026",
+            "quote": "Effective Date 12/1/2026",
+            "verified": true
+          },
+          {
+            "claim": "MIC 1st Read: 9/9/2026",
+            "quote": "MIC: 1st Read: 9/9/2026",
+            "verified": true
+          },
+          {
+            "claim": "MIC Endorse: 10/7/2026",
+            "quote": "MIC Endorse: 10/7/2026",
+            "verified": true
+          },
+          {
+            "claim": "MRC 1st read date: 9/24/2026",
+            "quote": "MRC 1st read date: 9/24/2026",
+            "verified": true
+          },
+          {
+            "claim": "MRC voting date: 10/28/2026",
+            "quote": "MRC voting date: 10/28/2026",
+            "verified": true
+          },
+          {
+            "claim": "FERC Order ER24-1772, Phase 2 changes",
+            "quote": "ER24-1772, Phase 2 changes effective 12/1/2026",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "proposal",
+        "title": "Item 03 1 \u2013 Resource Scheduling Prior TO The Day Ahead Energy Market \u2013 Phase 2 \u2013 Proposal",
+        "filename": "20260909-item-03-1---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-2---proposal.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-03-1---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-2---proposal.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM's advanced scheduling proposal directly affects how use-limited resources (gas plants and units at risk) are committed, priced, and settled\u2014a precedent model for how storage and other constrained resources would be treated in commitment processes and uplift allocation, with offer structures and settlement mechanics that set a template for future rules affecting dispatchable and storage resources.",
+        "ai_summary": "PJM and Monitoring Analytics propose an advanced scheduling process (Phase 2) for committing units at risk of operating constraints up to two days before the day-ahead market. Units identified as at-risk (by self-identification or PJM assessment, based on cold-weather operating limits or gas-procurement risk) must provide binding Indicative Offers to participate; those offers cap uplift payments. The commitment process uses a multi-day optimization model incorporating PJM load forecasts, generation availability, gas procurement costs, cold-weather limits, and demand-response availability. Units committed in advance must reflect actual gas prices paid (not forecasted prices) for the committed volume in their day-ahead and real-time offers, and settle on actual fuel costs. Uplift is calculated for the entire commitment period (potentially multiple days, no longer segmented daily) and allocated as reliability charges to real-time load plus exports. When PJM reduces or cancels a committed unit for reliability, unrecovered fuel costs are included in uplift. The proposal is in discussion phase at the September 2026 Market Implementation Committee; prior stakeholder feedback in August MIC prompted these refinements on timing, offer requirements, and settlement mechanics.",
+        "hydro_read_through": "This document does not mention hydro or pumped storage directly. However, the advanced scheduling model sets a precedent for how use-limited and commitment-constrained resources are treated in PJM: it establishes offer-binding mechanics (Indicative Offers cap uplift), multi-day commitment optimization, and uplift allocation to real-time load plus exports. If applied to or extended to storage resources, this framework would determine how pumped-storage charging states, must-run or must-stay-online commitments, and multi-day operating windows are reflected in offers and how unrecovered opportunity costs are recovered. The settlement example showing unrecovered fuel costs as a cost component in uplift (Example 5) is a model any future storage participation rule would either adopt or reject; similar multi-day commitment windows could apply to pumped-storage plants operating in sustained discharge or charge modes.",
+        "source_names_hydro": false,
+        "topics": [
+          "price-formation",
+          "ops-compliance",
+          "mitigation-offers"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "Commitment process timeline: announcement on day D-2, offer data deadline day D-2, posting on day D-2, with day-ahead offer deadline on day D-1 and posting on day D-1.",
+            "quote": "18:00 Advanced Commitment Emergency Procedure PJM will announce that advanced scheduling will be made starting with day D. 15:00 Advanced Commitment Offer Data Deadline Market Sellers must update offer data. D -2 18:00 Advanced Commitment Posting Deadline PJM posts results of advanced schedule.",
+            "verified": false
+          },
+          {
+            "claim": "Units at risk must provide Indicative Offers; self-identified units are mandated, while units identified as at-risk by PJM may provide them optionally.",
+            "quote": "Units that self identify as at risk will have to submit an Indicative Offer.",
+            "verified": true
+          },
+          {
+            "claim": "If no Indicative Offer is provided by a PJM-identified at-risk unit, it will be committed last in the supply stack.",
+            "quote": "If an Indicative Offer is not provided, unit will be placed at the end of the supply stack.",
+            "verified": true
+          },
+          {
+            "claim": "Uplift calculation uses the lesser of Indicative Offer or Final Offer for self-identified units.",
+            "quote": "Uplift is limited to the lesser of the Committed Offer and Final Offer. Committed Offer: The Indicative Offer (for self identified units), if provided, in effect at the time the resource receives the advance scheduling instruction",
+            "verified": false
+          },
+          {
+            "claim": "Unrecovered gas costs resulting from PJM reduction or cancellation for reliability are included as a cost component in uplift.",
+            "quote": "When reduced or cancelled by PJM for reliability, Market Sellers will provide PJM/IMM calculations of any resultant fuel loss calculations including supporting documentation.",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Joel Romero Luna",
+            "entity": "PJM/Monitoring Analytics",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "matrix",
+        "title": "Item 03 2 \u2013 Options \u2013 Packages Matrix \u2013 Resource Scheduling Prior TO The Day Ahead Energy Market \u2013 Phase 2 \u2013 992026",
+        "filename": "20260909-item-03-2---options--packages-matrix---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-2---992026.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-03-2---options--packages-matrix---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-2---992026.xls",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a matrix of procedural options for scheduling resources prior to the day-ahead energy market in PJM Phase 2; no text was extracted, and the title alone does not establish whether it addresses hydro revenue mechanisms, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04 1 \u2013 DISRS Charter Review \u2013 Presentation",
+        "filename": "20260909-item-04-1---disrs-charter-review---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-04-1---disrs-charter-review---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a procedural charter review for PJM's Distributed Resources Subcommittee (DISRS), addressing governance structure and administrative language alignment; it does not substantively address any mechanism affecting hydropower revenue, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Monica Burkett",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Monica.Burkett@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Item 04 2 \u2013 DISRS Charter \u2013 Redline",
+        "filename": "20260909-item-04-2---disrs-charter---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-04-2---disrs-charter---redline.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "DISRS Charter establishes a PJM subcommittee that explicitly covers energy storage technologies, hybrid resources, and inverter-based resources \u2014 all key participation pathways for pumped storage and co-located hydro \u2014 and will review ongoing wholesale market participation rules, rate-setting procedures, and interconnection matters affecting those resources.",
+        "ai_summary": "PJM's Distributed Resources Subcommittee (DISRS) is an ongoing subcommittee of the Market Implementation Committee, established November 2, 2022, with a mission to investigate and resolve issues related to distributed resources and inverter-based resources in PJM wholesale markets. The subcommittee's scope includes demand response, behind-the-meter generation, energy efficiency, and inverter-based resources (defined as resources using power electronics to convert DC-to-AC), specifically naming wind, solar, energy storage technologies, and hybrid resources. DISRS will recommend enhancements to PJM rules, systems, and procedures affecting these resources' market participation, and reports to the MIC; issues with transmission or operational implications may be vetted through the Planning Committee or Operating Committee. The subcommittee is non-voting, meets monthly or as workload requires, and operates under Manual 34 stakeholder process protocols.",
+        "hydro_read_through": "Although the document does not mention hydropower or pumped storage directly, DISRS's charter explicitly covers energy storage technologies and hybrid resources\u2014categories under which pumped storage and co-located hydro installations participate in PJM markets. As the subcommittee develops and recommends enhancements to market rules, participation models, and interconnection procedures for storage and inverter-based hybrids, changes to cost-allocation, dispatch treatment, or must-offer requirements could directly affect how PSH competes for energy and ancillary-service revenue and whether co-located hydro can serve behind-the-meter load or stack services. The charter's scope\u2014wholesale market participation, rate-setting procedures, and transmission vetting\u2014directly overlaps the mechanisms through which hydro owners access markets.",
+        "source_names_hydro": false,
+        "topics": [
+          "hybrids-der",
+          "storage",
+          "interconnection"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "DISRS established November 2, 2022",
+            "quote": "The Distributed Resources Subcommittee (DISRS) is an ongoing subcommittee established by the Market Implementation Committee (MIC) at its November 2, 2022 meeting.",
+            "verified": true
+          },
+          {
+            "claim": "scope includes energy storage technologies and hybrid resources",
+            "quote": "This includes, but is not limited to, resource types such as wind, solar photovoltaics, energy storage technologies, and hybrid resources.",
+            "verified": true
+          },
+          {
+            "claim": "subcommittee meets monthly or as determined by workload",
+            "quote": "The subcommittee is expected to meet monthly, or as determined by the workload of the subcommittee or the discretion of the chair.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 05 \u2013 2027 Preliminary PJM Capital Projects Budget",
+        "filename": "20260909-item-05---2027-preliminary-pjm-capital-projects-budget.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-05---2027-preliminary-pjm-capital-projects-budget.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is an RTO internal capital budget allocation and IT systems planning\u2014it describes PJM administrative spending on facilities, software refreshes, and infrastructure upgrades with no connection to any hydro or PSH revenue stream, compliance obligation, or strategic option.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Jim Snow",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "James.Snow@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 06 \u2013 July 4th Heat Wave Review \u2013 Imm",
+        "filename": "20260909-item-06---july-4th-heat-wave-review---imm.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-06---july-4th-heat-wave-review---imm.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Post-event analysis of a major heat-wave and capacity-performance event during which committed capacity and market instruments failed to meet load-plus-reserves requirements, directly addressing resource adequacy and the performance of capacity commitments that are central to hydro and PSH revenue accreditation and revenue sufficiency.",
+        "ai_summary": "PJM experienced a July 2\u20135, 2026 heat wave with peak temperatures reaching 104\u00b0F and 102\u00b0F in Newark and Philadelphia, respectively. PJM set an all-time record peak load of 162,221 MWh on July 2 at 17:45 (exceeding the 2025 record of 160,158 MWh), coupled with record day-ahead and real-time locational marginal prices (averaging $268/MWh and $396/MWh for July 1\u20133, respectively, versus $160/MWh and $215/MWh for the June 20\u2013July 5 baseline). Critically, PJM's RPM/FRR committed capacity failed to meet load-plus-reserves requirements for a second consecutive year; on July 2, committed capacity Performance fell short by 1.5 GW at peak load (17:45) and 0.5 GW at minimum 30-minute reserves (19:25), and uncommitted capacity was required to prevent shortfalls. Uplift costs were $65.5 million over the 7-day event period. This post-event review by Monitoring Analytics (presented to PJM's Market Implementation Committee on September 9, 2026) documents generator outages, ambient derates, and emergency procedure activations across PJM's footprint and constituent utilities.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage directly. However, the report's central finding\u2014that committed capacity (measured through RPM/FRR) twice failed to bridge the gap between load and operating reserves during extreme weather\u2014signals a core market-design risk for hydro owners. Conventional hydro and PSH are foundational to PJM's reserves and ramping capability and are accredited for capacity through the same RPM/FRR framework shown to have been insufficient during the heat wave. If PJM's capacity market or accreditation mechanics are reformed in response to this gap, the changes could affect how hydro's seasonal and fast-response capacity is valued, how performance penalties or bonus mechanisms work during stress events, and whether the market design begins to price intra-hour ramping or flexibility more explicitly. The fact that uncommitted capacity was needed to meet reserves suggests that either the capacity commitment underestimated resource availability during stress, or that resources with flexible offer/commitment strategies (potentially including PSH) had strategic margin that could influence future accreditation or commitment rules.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "price-formation"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "July 2 peak load record of 162,221 MWh, exceeding 2025 record of 160,158 MWh",
+            "quote": "Highest load ever served by PJM: 162,221 MWh. Exceeded 2025 record of 160,158 MWh.",
+            "verified": false
+          },
+          {
+            "claim": "Peak temperatures during heat wave reaching 104\u00b0F in Newark and 102\u00b0F in Philadelphia",
+            "quote": "Newark 89 90 96 104 102 98 84\nPhiladelphia 89 90 97 102 102 101 93",
+            "verified": true
+          },
+          {
+            "claim": "RTO day-ahead LMP averaged $268/MWh July 1\u20133 versus $160/MWh for June 20\u2013July 5 period",
+            "quote": "RTO DA LMP averaged:\n\u2022 Jun 20 \u2013 Jul 5: $160/MWh / Jul 1 \u2013 Jul 3: $268/MWh",
+            "verified": true
+          },
+          {
+            "claim": "RTO real-time LMP averaged $396/MWh July 1\u20133 versus $215/MWh for June 20\u2013July 5 period",
+            "quote": "RTO RT LMP averaged:\n\u2022 Jun 20 \u2013 Jul 5: $215/MWh / Jul 1 \u2013 Jul 3: $396/MWh",
+            "verified": true
+          },
+          {
+            "claim": "Uplift costs of $65.5 million for the 7-day period",
+            "quote": "Uplift costs were $65.5 million for the 7 day period.",
+            "verified": true
+          },
+          {
+            "claim": "Committed capacity fell short by 1.5 GW at peak load (17:45) on July 2",
+            "quote": "1.5 GW",
+            "verified": true
+          },
+          {
+            "claim": "Committed capacity fell short by 0.5 GW at minimum 30-minute reserves (19:25) on July 2",
+            "quote": "0.5 GW",
+            "verified": true
+          },
+          {
+            "claim": "RPM/FRR committed capacity failed to meet PJM needs for a second consecutive year",
+            "quote": "For a second year, the capacity MW committed by PJM via RPM/FRR were not enough to cover PJM needs (load plus reserves).",
+            "verified": true
+          },
+          {
+            "claim": "Absent uncommitted capacity, PJM did not have enough resources to meet load plus reserves",
+            "quote": "Absent uncommitted capacity, PJM did not have enough resources to meet load plus reserves.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Monitoring Analytics, LLC",
+            "entity": "Monitoring Analytics, LLC",
+            "role": "author",
+            "email": "MA@monitoringanalytics.com"
+          },
+          {
+            "name": "Joel Romero Luna",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 07 1 \u2013 Dual Fuel Operations \u2013 Presentation",
+        "filename": "20260909-item-07-1---dual-fuel-operations---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-07-1---dual-fuel-operations---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-04",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM's rule for fuel-preservation emergency procedures during extreme events affects how dual-fuel and other dispatchable resources compete with and against each other during scarcity periods, establishing a precedent for how operational constraints on different fuel types shape energy pricing and reserve adequacy during resource-limited conditions.",
+        "ai_summary": "PJM has codified procedures in Manual 13 Section 3.5 to allow dual-fuel capable combustion turbines to be placed in Maximum Emergency status during long-duration extreme events (extended cold weather, blizzards, flooding, hurricane damage lasting >72 hours, physical or cyber events) to preserve onsite oil inventory. Previously, maximum emergency status was limited to 16 hours of onsite fuel; PJM updated this to 32 hours during Winter Storm Fern (January 2026) to ensure units could serve peak loads during extended cold weather. The initiative expands the unit-level fuel-preservation trigger to schedule-level controls, allowing dual-fuel CTs to run on gas at higher economic cost to conserve oil for future peak periods. PJM Dispatch will initiate the procedure via Emergency Procedure posting and All Call, with communications via SOS conference calls and Pardot messages, with trigger duration (e.g., 32 hours) specified per event.",
+        "hydro_read_through": "The document does not address hydropower or pumped storage directly. However, the rule establishes that during extended emergencies with fuel-supply uncertainty, dual-fuel dispatchable resources can be given operational protection to preserve their use-limited fuel for peak periods\u2014a precedent highly relevant to how pumped-storage hydro, with similarly constrained energy-limited operations, would be treated under comparable scarcity conditions. If PJM extends similar protections to energy-limited resources more broadly, it could establish that PSH and conventional hydro can request analogous schedule-level emergency status to conserve stored energy or water availability for peak demand, changing the revenue dynamics of flexibility products and ancillary-service procurement during extended tight-supply events.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance",
+          "ramping-flexibility"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "Updated maximum emergency criteria from 16 hours to 32 hours to conserve onsite fuel during Winter Storm Fern (January 2026)",
+            "quote": "Max emergency criteria updated from 16 hours to 32 hours to conserve onsite fuel for oil fired CTs ensuring the units are available to serve load during peak periods during extended extreme cold weather operations. (M-13 Section 3.5 )",
+            "verified": true
+          },
+          {
+            "claim": "Long-duration extreme events include extended cold weather, long-duration blizzard/icing, wide-area flooding, hurricane damage lasting >72 hours, and physical/cyber events",
+            "quote": "Extended Cold Weather\nLong-Duration Blizzard and/or Icing Conditions Wide-Area Flooding\nImpacts of Extreme Weather (i.e Hurricane Damage) expected to last more than 72 hours\nPhysical or Cyber Events",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
+            "canonical_name": "Dual Fuel Schedule Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Kevin Hatch",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Kevin.Hatch@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "matrix",
+        "title": "Item 07 2 \u2013 Options \u2013 Packages Matrix \u2013 Dual Fuel Schedule Requirements \u2013 992026",
+        "filename": "20260909-item-07-2---options--packages-matrix---dual-fuel-schedule-requirements---992026.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-07-2---options--packages-matrix---dual-fuel-schedule-requirements---992026.xls",
+        "member_url": null,
+        "posted_date": "2026-09-04",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a matrix of dual-fuel schedule options for generator compliance; it addresses scheduling and operational requirements for a specific resource type and contains no discussion of energy pricing, ancillary services, capacity accreditation, storage participation, interconnection rules, transmission planning, resource adequacy, or any other mechanism affecting hydropower or pumped-storage revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
+            "canonical_name": "Dual Fuel Schedule Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 08 1 \u2013 PJM Energy Storage Resource Model Enhancements \u2013 Esr Cost Offer \u2013 Presentation",
+        "filename": "20260909-item-08-1---pjm-energy-storage-resource-model-enhancements---esr-cost-offer---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-08-1---pjm-energy-storage-resource-model-enhancements---esr-cost-offer---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM is establishing new cost-offer rules for Energy Storage Resources (ESRs) that directly parallel the opportunity-cost and state-of-charge management issues central to pumped-storage hydro's revenue optimization and mitigation-offer mechanics.",
+        "ai_summary": "PJM's Market Design Specialist Maria Belenky presented enhancements to the ESR participation model focused on allowing opportunity-cost accounting in cost offers. The document proposes a day-ahead cost offer cap of $1,000/MWh (aligned to the price-based soft offer cap) and a real-time cost offer cap calculated as the maximum of incremental energy cost and opportunity cost, capped at $2,000/MWh. The real-time opportunity cost is defined as the maximum day-ahead LMP at the applicable pnode, capped at $2,000. PJM considered but rejected alternative approaches (historical LMP averaging, market-power-run LMPs, statistical modeling) and alternatives for real-time opportunity cost (Nth-highest DA LMP, average of N-highest DA LMP). The presentation notes that opportunity-cost methodology may be codified in Manual 15 as a default or managed through the Fuel Cost Policy. Next steps and vote schedule were not stated in the materials.",
+        "hydro_read_through": "Pumped-storage hydro faces identical chronological dispatch challenges as batteries: short-run economic dispatch does not optimize long-run state-of-charge management when opportunity cost cannot be bid. Although this presentation addresses only ESRs generically (not PSH specifically), PJM's proposed framework\u2014explicit opportunity-cost offers tied to day-ahead and real-time LMPs, with caps to prevent market power while preserving arbitrage value\u2014would set direct precedent for any parallel PSH cost-offer reform. The methodology choices (max DA LMP vs. inventory-based charging cost, soft caps vs. adders, emergency-condition triggers) would likely influence how PJM addresses the same problem in pumped-storage rules.",
+        "source_names_hydro": true,
+        "topics": [
+          "storage",
+          "price-formation",
+          "mitigation-offers"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Day-ahead cost offer cap of $1,000/MWh",
+            "quote": "A uniform cap of $1,000/MWh corresponding to the price-based soft offer cap may be reasonable to fully realize the reliability and market efficiency benefits of ESRs.",
+            "verified": true
+          },
+          {
+            "claim": "Real-time cost offer cap of $2,000/MWh",
+            "quote": "Cost Offer Cap = Max(Incremental Energy Cost, Opportunity Cost), capped at $2,000",
+            "verified": true
+          },
+          {
+            "claim": "Real-time opportunity cost defined as maximum DA LMP at applicable pnode, capped at $2,000",
+            "quote": "Maximum DA LMP at applicable pnode, capped at $2,000",
+            "verified": false
+          }
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "0a48ab03-08ee-4411-84ef-690798fa30cf",
+            "canonical_name": "PJM Energy Storage Resource Model Enhancements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=0a48ab03-08ee-4411-84ef-690798fa30cf"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Jason.Shoemaker@pjm.com"
+          },
+          {
+            "name": "Maria Belenky",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Maria.Belenky@pjm.com"
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Stefan.Starkov@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "matrix",
+        "title": "Item 08 2 \u2013 Options \u2013 Packages Matrix \u2013 PJM Energy Storage Resource Model Enhancements \u2013 992026",
+        "filename": "20260909-item-08-2---options--packages-matrix---pjm-energy-storage-resource-model-enhancements---992026.xls",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-item-08-2---options--packages-matrix---pjm-energy-storage-resource-model-enhancements---992026.xls",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document lays out design options for PJM's Energy Storage Resource Model\u2014a set of rules that would directly govern pumped-storage hydropower participation, revenue recognition, and operational requirements in PJM's markets.",
+        "ai_summary": "PJM's Market Implementation Committee is evaluating a matrix of design options for enhanced Energy Storage Resource (ESR) modeling. The document presents multiple packages addressing how storage resources (including state-of-charge rules, charging-period treatment, and ancillary-service stacking) would be modeled and compensated. No vote date, status, or next-step milestone is extracted from the available text.",
+        "hydro_read_through": "Although the document text does not name hydropower or pumped storage explicitly, PJM's Energy Storage Resource model directly governs how pumped-storage facilities participate in energy and ancillary-service markets, set state-of-charge limits, and stack ancillary-service revenue. The options matrix will determine whether PSH can be charged at favorable prices, whether charging and discharging are separately compensated, and how operating constraints are enforced\u2014all critical to PSH revenue and operational flexibility in PJM.",
+        "source_names_hydro": false,
+        "topics": [
+          "storage",
+          "price-formation",
+          "ancillary-services"
+        ],
+        "directness": "direct",
+        "evidence": [],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "0a48ab03-08ee-4411-84ef-690798fa30cf",
+            "canonical_name": "PJM Energy Storage Resource Model Enhancements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "design",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=0a48ab03-08ee-4411-84ef-690798fa30cf"
+          }
+        ],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "MIC Work Plan",
+        "filename": "20260909-mic-work-plan.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20260909/20260909-mic-work-plan.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This MIC work plan schedules review and enhancement of multiple market-design rules governing energy pricing, ancillary services procurement, capacity accreditation, storage modeling, and settlement mechanics\u2014all of which affect hydro and pumped-storage revenue and compliance obligations.",
+        "ai_summary": "The PJM Market Implementation Committee's 2026 work plan lists active issues and periodic manual reviews spanning the calendar year. Active items include energy-storage-resource-model enhancements, flexible-resource lost-opportunity-cost eligibility, offer-verification exception timelines, fuel-cost policy clarifications, and real-time secondary-reserve opportunity-cost calculations for offline generation. Periodic manual reviews cover Manual 11 (Energy and Ancillary Services Market Operations; next review due March 2027), Manual 18 (PJM Capacity Market; next review due August 2028), Manual 29 (Billing; next review due December 2026), and others. Manual 18B (Energy Efficiency Measurement and Verification) is being retired June 2026. Recurring items include Cost Development Subcommittee updates, Distributed Resources Subcommittee updates, and interregional coordination. No comment deadline or action date is stated in the work plan itself.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage specifically. However, the work plan schedules PJM reviews of multiple foundational manuals that govern hydro and PSH market participation: the ancillary-services manual, capacity-market accreditation, and billing/settlement rules affect how a hydro owner or PSH facility gets credited and compensated. The energy-storage-resource-model enhancement is particularly material to pumped-storage facilities seeking to participate in PJM's markets. The lost-opportunity-cost eligibility issue and secondary-reserve opportunity-cost calculations are settlement mechanisms that directly affect revenue for use-limited and storage resources. A hydro owner should monitor these reviews to understand PJM's direction on accreditation, storage treatment, and how opportunity costs are recognized.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "ancillary-services",
+          "storage"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Manual 11 (Energy and Ancillary Services Market Operations) next review due March 2027",
+            "quote": "Manual 11: Energy and Ancillary Services Market Operations\nNext Review due March 2027",
+            "verified": false
+          },
+          {
+            "claim": "Manual 18 (PJM Capacity Market) next review due August 2028",
+            "quote": "Manual 18: PJM Capacity Market\nNext Review due August 2028",
+            "verified": true
+          },
+          {
+            "claim": "Manual 29 (Billing) next review due December 2026",
+            "quote": "Manual 29: Billing\nNext Review due December 2026",
+            "verified": true
+          },
+          {
+            "claim": "Manual 18B (Energy Efficiency Measurement and Verification) being retired June 2026",
+            "quote": "Manual 18B: Energy Efficiency Measurement and\nVerification\nManual being retired June 2026",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -9816,7 +11926,7 @@
         "filename": "20260908-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260908/20260908-agenda.pdf",
         "member_url": null,
-        "posted_date": "2026-09-01",
+        "posted_date": "2026-09-02",
         "hydro_relevant": true,
         "hydro_relevance_reason": "The agenda addresses Manual 21B review (generating capability rules), fuel switching for interconnected generation projects, storage-as-transmission asset treatment, and large-load ride-through standards \u2014 all of which establish compliance obligations and revenue-participation rules affecting dispatchable and storage resources.",
         "ai_summary": "PJM Planning Committee meeting on September 8, 2026 (9:00 a.m.\u201312:00 p.m. EPT) will consider two endorsements: (1) fuel switching for projects with Generator Interconnection Agreements, presented by Christina Catalano and Brian Lynn (PJM) with a problem statement from Justin Radl (Invenergy), with committee approval requested; and (2) Manual 21B periodic review updates on rules for determining generating capability, presented by Joshua Bruno (PJM), with committee endorsement requested. The meeting will also receive informational updates on large-load ride-through manual and tariff revisions (PJM's response to a June 18, 2026 show-cause order), storage-as-transmission asset updates, and reliability compliance activities. Materials are due to the secretary by Thursday, September 24, 2026 at 5:00 p.m. EPT.",
@@ -9913,7 +12023,7 @@
         "filename": "20260908-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260908/20260908-agenda-doc.docx",
         "member_url": null,
-        "posted_date": "2026-09-01",
+        "posted_date": "2026-09-02",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Manual 21B Periodic Review and Fuel Switching for Projects with GIA both touch interconnection rules and generation capability determination that apply to hydro and storage resources generally; Large Load Ride Through and Storage as a Transmission Asset affect hydro's market positioning and transmission value.",
         "ai_summary": "PJM Planning Committee is meeting September 8, 2026 to endorse two rule changes: (1) Manual 21B updates to the PJM Rules and Procedures for Determination of Generating Capability as part of its periodic review (Joshua Bruno presenting for endorsement); (2) an Issue Charge on Fuel Switching for Projects with GIA, with post-agreement fuel-change positions from Invenergy and PJM (committee asked to approve at this meeting). The committee will also receive informational updates on proposed manual and tariff revisions for large computation load ride-through requirements responding to FERC's June 18, 2026 show cause order, and a progress update on the previously approved Storage as a Transmission Asset package (Jeff Schmitt). Future Planning Committee meetings are scheduled for October 6, 2026 (materials due September 24, 5:00 p.m. EPT), November 3, 2026 (materials due October 22, 5:00 p.m. EPT), and December 1, 2026 (materials due November 19, 5:00 p.m. EPT).",
@@ -10217,7 +12327,7 @@
         "filename": "20260908-item-05---1-large-load-ride-through---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260908/20260908-item-05---1-large-load-ride-through---presentation.pdf",
         "member_url": null,
-        "posted_date": "2026-09-01",
+        "posted_date": "2026-09-03",
         "hydro_relevant": true,
         "hydro_relevance_reason": "PJM's voltage and frequency ride-through requirements for large computational loads will set operational and grid-interaction standards that apply to all synchronous dispatchable resources, including run-of-river and conventional hydroelectric plants, affecting their obligation to sustain output during system disturbances and potentially their cost of compliance.",
         "ai_summary": "PJM proposes new voltage and frequency ride-through requirements for Large Computational Loads (LCLs), including: a voltage ride-through envelope with power-consumption rules during voltage disturbances, post-fault active power recovery requirements, and a frequency ride-through envelope requiring LCLs to maintain pre-disturbance power within 10% during frequency deviations. The proposal responds to FERC's June 18, 2026 Section 206 Show Cause Order (EL26-67-000) requiring PJM to address large-load integration gaps and reliability impacts. PJM targets a filing to FERC in November 2026, with stakeholder review and design-envelope endorsement planned for Q1 2027 and Q2/Q3 2027. The presentation compares PJM's envelope to ERCOT, MISO, NERC Large Load Working Group, Dominion, and AEP requirements.",
@@ -10469,7 +12579,7 @@
         "filename": "20260908-item-08---reliability-compliance-update---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260908/20260908-item-08---reliability-compliance-update---presentation.pdf",
         "member_url": null,
-        "posted_date": "2026-09-01",
+        "posted_date": "2026-09-04",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Load-growth drivers (data centers, crypto mining) are creating scarcity that raises the value of flexible, dispatchable resources like hydro and PSH; new NERC reliability standards for computational loads will establish operating and interconnection requirements that hydro plants may need to meet in parallel and that set precedent for how dispatchable synchronous units interface with large new loads.",
         "ai_summary": "NERC is developing three new Computational Load standards (CLO-001-1, CLO-002-1, CLO-003-1) addressing interconnection, operations, protection, and disturbance monitoring for large computational loads (data centers, crypto mining) connecting to the Bulk Power System. The standards are in initial balloting and non-binding poll phases, with comment deadlines of 9/18/26. NERC is also proposing revisions to its Rules of Procedure to create two new registered entity types\u2014Computational Load Owner and Computational Load Operator\u2014with a 30-day public comment period running from 8/19/26 to 9/18/26. The effort follows a July FERC order and is part of NERC's Large Loads Action Plan. PJM is distributing this update to its Planning Committee and has scheduled a Data Center Load Modeling Workshop (9/15\u201316/26) and SAR comment period (8/26\u20139/24/26) to support industry engagement.",
@@ -10532,6 +12642,88 @@
             "entity": "PJM",
             "role": "presenter",
             "email": "Gizella.Mali@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03 A \u2013 1 Fuel Switching Education \u2013 Presentation",
+        "filename": "20260908-item-03-a---1-fuel-switching-education---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260908/20260908-item-03-a---1-fuel-switching-education---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-04",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document defines PJM's Necessary Study process for generator modifications, which directly affects the interconnection and deliverability obligations hydro and other dispatchable resources face when modifying installed equipment or fuel composition.",
+        "ai_summary": "PJM's Necessary Study process evaluates whether modifications to a project developer's generator characteristics (e.g., turbine model, electrical specifications, inverter type) constitute a permanent material impact on the transmission system or a Material Modification. If a Necessary Study finds material impact, the developer must either withdraw the modification or submit a New Service Request. More impactful changes\u2014including fuel-type changes, increases in maximum facility output (MFO), and point-of-interconnection (POI) changes\u2014fall outside the Necessary Study scope and require a New Service Request. Limited changes are permitted at decision points, including removal of a fuel type from multi-fuel requests if reduction rules are met at Decision Points I or II. The presentation references PJM Tariff Part IX, Subpart B, Appendix 2, Section 3 and Part IX, Subpart G.",
+        "hydro_read_through": "While the document does not mention hydro directly, it establishes how PJM treats equipment and configuration changes at interconnected generation facilities. Hydro operators considering upgrades to turbine-generator units, changes to step-up transformer ratings, or other electrical-equipment swaps would fall under these Necessary Study rules, affecting project lead times and modification costs. Fuel-type changes (e.g., converting a dual-fuel capable plant's operational mode or retrofitting) trigger a full New Service Request rather than a streamlined study, meaning hydro owners rehabbing or rerating existing facilities need to understand which modifications stay within Necessary Study scope versus requiring re-queuing.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection"
+        ],
+        "directness": "direct",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Christina Catalano",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Christina.Catalano@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Item 03 C \u2013 1 Fuel Switching \u2013 Informational Only",
+        "filename": "20260908-item-03-c---1-fuel-switching---informational-only.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/pc/2026/20260908/20260908-item-03-c---1-fuel-switching---informational-only.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-04",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Interconnection queue process and fuel-type change rules directly affect how generation projects\u2014including hydro and storage\u2014advance through PJM's study cycles and meet service-agreement milestones, touching strategic options for resource development and interconnection timing.",
+        "ai_summary": "PJM's Planning Committee reviewed an informational presentation on post-agreement fuel-type changes in the interconnection process. Invenergy had proposed permitting fuel-type changes after an interconnection agreement is executed based on Necessary Study results. PJM staff recommended against allowing such changes, arguing that fuel type is a fundamental term of executed agreements affecting power factor, equipment configuration, and Schedule H requirements; that post-agreement changes would require extensive restudy across all three modalities (Load Flow, Short Circuit, Stability) and would subject previous RTEP series to materiality review; and that projects seeking fuel-type changes should instead enter the next applicable cycle. The document illustrates that PJM presently has projects in suspended status as far back as the AB1 queue, and that accommodating fuel changes could require restudy of approximately 24\u201336+ model/analysis sets across multiple queues and cycles.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage directly. However, the interconnection queue and fuel-type-change rules apply to all generation and storage resources entering PJM's system. For hydro and PSH owners, the decision affects how easily they can modify project parameters (fuel type serving as proxy for operational characteristics) after committing to an interconnection agreement\u2014a constraint on development flexibility when market conditions or site conditions change. The requirement to complete restudy across all load profiles and network models also sets precedent for how deeply PJM scrutinizes modifications to any use-limited resource, which matters to PSH projects that may need to adjust operating parameters post-agreement.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "storage"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Post-agreement fuel changes constitute a new project and should not jump ahead of other active projects; implementing the change would adversely impact PJM's administration of the interconnection process.",
+            "quote": "The proposed post-agreement fuel changes constitute a new project and should not be permitted to jump ahead of other active projects. Implementing the change would adversely impact: \u2013 PJM's administration of the interconnection process \u2013 Other active projects",
+            "verified": false
+          },
+          {
+            "claim": "Every fuel-type-change request would require restudy, with most changes requiring restudy across all three modalities (Load Flow, Short Circuit, Stability).",
+            "quote": "Extensive Restudy: Every request would require restudy, with most changes requiring restudy across all three modalities (Load Flow, Short Circuit, Stability).",
+            "verified": true
+          },
+          {
+            "claim": "Fuel type is a fundamental term of the executed agreement affecting power factor requirements, equipment configuration, and Schedule H requirements.",
+            "quote": "The fuel type is a fundamental term of that agreement. Fuel type impacts power factor requirements, equipment configuration, and Schedule H requirements",
+            "verified": false
+          },
+          {
+            "claim": "PJM presently has projects in EP or suspended status as far back as the AB1 Queue and could request a fuel change, potentially requiring restudy of 24\u201336+ model/analysis sets.",
+            "quote": "PJM presently has projects in EP or suspended status as far back as the AB1 Queue. These projects could request a fuel change by the proposal of the Issue Charge. This would require PJM to reopen and study the change for materiality against: \u00a7 All Queues between AB1-AG1 (including fast lane) ~ 10 Queues \u00a7 TC1 and TC2 ~ 2 Cycles \u00a7 Soon, C01 ~ 1 Cycles \u00a7 Any RTEP series conducted after agreements for the specific queue position (variable by project/agreement timing) \u00a7 Potential Stability and Short Circuit restudies That's a potential restudy of ~24-36+ model/analysis sets when considering Summer, Winter, and Light Load models.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Invenergy",
+            "entity": "Invenergy",
+            "role": "sponsor",
+            "email": null
+          },
+          {
+            "name": "Brian Lynn",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Brian.Lynn@pjm.com"
           }
         ]
       }
@@ -10713,7 +12905,7 @@
         "filename": "20260908-item-05---aps-supplemental-projects.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260908/20260908-item-05---aps-supplemental-projects.pdf",
         "member_url": null,
-        "posted_date": "2026-08-28",
+        "posted_date": "2026-09-01",
         "hydro_relevant": true,
         "hydro_relevance_reason": "Load-growth strategy and transmission planning affect hydro's revenue potential through interregional transfer capability and scarcity signals; three large supplemental customer connections (900 MW, 1000 MW) in APS zone are strategically relevant to existing resource dispatch and revenue adequacy.",
         "ai_summary": "FirstEnergy's Transmission Expansion Advisory Committee presented three supplemental customer-connection projects in the APS transmission zone on September 8, 2026. Need APS-2026-044 requests 230 kV service for ~165 MW load near Sage Substation (in-service September 14, 2031); Need APS-2026-057 requests 138 kV service for ~900 MW load near Hatfield Substation with phased loading (initial 300 MW in 2033, ramping to 900 MW by 2034, in-service September 1, 2033); and two solutions meetings addressed APS-2026-039 (368 MW, 230 kV at ~$8.02M, projected April 12, 2032) and APS-2026-041 (1000 MW, 230 kV at $54.99M, projected November 8, 2032). Stakeholders must submit comments within 10 days of each phase to inform the next step of the M-3 process prior to Local Plan submission to PJM for RTEP integration.",
@@ -10894,6 +13086,570 @@
         "evidence": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20260908-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260908/20260908-agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a PJM Transmission Expansion Advisory Committee agenda announcing meeting logistics, regional transmission planning updates, and utility supplemental projects; it contains no content on hydropower or pumped-storage revenue mechanisms, compliance obligations, strategic options, or market-design rules.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jeffrey Goldberg",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Matthew Bernstein",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Nicolae Dumitriu",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Saravana Kumar Rajendran",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stanley Sliwa",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Susan McGill",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20260908-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260908/20260908-agenda-doc.docx",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a standard TEAC meeting agenda addressing transmission planning supplemental projects, interregional coordination, generator deactivations, and utility project updates\u2014administrative and operational transmission-planning matters with no bearing on hydropower revenue (price formation, ancillary services, capacity accreditation), compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jeffrey Goldberg",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Matthew Bernstein",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Nicolae Dumitriu",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Saravana Kumar Rajendran",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stanley Sliwa",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Susan McGill",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Informational Only \u2013 M 3 Process Needs Status",
+        "filename": "20260908-informational-only---m-3-process-needs-status.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260908/20260908-informational-only---m-3-process-needs-status.xlsx",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is titled as a status update on PJM's M3 transmission-planning process but contains no extracted text; without content, relevance cannot be assessed, but the title suggests administrative process reporting rather than substantive market-design changes affecting hydro revenue, obligations, or strategic options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 01 \u2013 1 \u2013 Ohio State Agreement Approach Request",
+        "filename": "20260908-item-01---1---ohio-state-agreement-approach-request.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260908/20260908-item-01---1---ohio-state-agreement-approach-request.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document concerns PJM transmission expansion for a specific technology-campus project in Ohio (with natural-gas generation) under the State Agreement Approach; it does not address hydro or PSH revenue mechanisms, compliance obligations, or strategic options.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Eric Hsia",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Eric.Hsia@pjm.com"
+          },
+          {
+            "name": "Matthew Bernstein",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Matthew.Bernstein@pjm.com"
+          },
+          {
+            "name": "Susan McGill",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Susan.McGill@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Item 01 \u2013 2 \u2013 Ohio Request TO Use The Saa Process",
+        "filename": "20260908-item-01---2---ohio-request-to-use-the-saa-process.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260908/20260908-item-01---2---ohio-request-to-use-the-saa-process.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large-scale data-center and power-generation development requiring transmission expansion directly raises strategic value of existing generation resources through load-growth-driven scarcity and establishes a precedent for state-directed transmission investment pathways via PJM's Operating Agreement that hydro owners should track for their own interconnection and transmission-planning rights.",
+        "ai_summary": "Ohio's Public Utilities Commission requests PJM initiate the State Agreement Approach (SAA) to facilitate transmission infrastructure supporting a 10 GW data-center and power-generation project by SoftBank and SB Energy at Portsmouth, Ohio. The project includes 9.2 GW of new natural gas generation, 10 GW of data-center development, and $4.2 billion in new transmission investment including 756-kilovolt infrastructure, with SB Energy committed to pay transmission costs while making excess capacity available to the grid. The SAA pathway allows Ohio to partner with PJM to implement transmission solutions aligned with state public-policy objectives under Ohio Revised Code 4928.02. Cost allocation and recovery details are subject to regulatory proceedings before PUCO, and any federal filing requires PUCO authorization.",
+        "hydro_read_through": "Although the document does not mention hydropower or storage, the 10 GW synchronized load injection at a single location materially shifts the regional scarcity profile and transmission-constraint topology, increasing the locational value of existing generation\u2014including hydro\u2014that can serve or relieve that load. More strategically, the SAA precedent demonstrates PJM's willingness to accommodate state-sponsored transmission investment for large industrial loads; hydro owners seeking similar state-partnership pathways for transmission enabling their interconnection or uprate projects should monitor whether PUCO's authorization and FERC's SAA filing establish templates for alternative developer-led transmission investment that could apply to other generating resources.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "transmission",
+          "interconnection"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "10 GW data-center development with 9.2 GW new natural gas generation",
+            "quote": "SoftBank Group and SB Energy will build 10 gigawatts (GW) of new power generation, including at least 9.2 GW of new natural gas generation, to power 10 GW of data center development at the former Portsmouth Gaseous Diffusion Plant in Pike County, Ohio",
+            "verified": true
+          },
+          {
+            "claim": "$4.2 billion new transmission investment including 756-kilovolt infrastructure",
+            "quote": "SB Energy and AEP Ohio have partnered to build $4.2 billion in new transmission, including 756-kilovolt infrastructure",
+            "verified": true
+          },
+          {
+            "claim": "$40 million Community Benefits Agreement commitment",
+            "quote": "investing $40 million through a Community Benefits Agreement to support the surrounding Ohio communities",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Asim Z. Haque",
+            "entity": "PJM Interconnection",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "David E. Mills",
+            "entity": "PJM Interconnection",
+            "role": "recipient",
+            "email": null
+          },
+          {
+            "name": "Jason P. Connell",
+            "entity": "PJM Interconnection",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Daniel R. Conway",
+            "entity": "Public Utilities Commission of Ohio (PUCO)",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Dennis P. Deters",
+            "entity": "Public Utilities Commission of Ohio (PUCO)",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "John D. Williams",
+            "entity": "Public Utilities Commission of Ohio (PUCO)",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Lawrence K. Friedeman",
+            "entity": "Public Utilities Commission of Ohio (PUCO)",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Sarah J. Parrot",
+            "entity": "Public Utilities Commission of Ohio (PUCO)",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 02 \u2013 Interregional Planning Update",
+        "filename": "20260908-item-02---interregional-planning-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260908/20260908-item-02---interregional-planning-update.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Interregional transmission planning affects hydro's ability to export energy and participate across market seams, and PJM's coordination with neighboring RTOs (MISO, New York, New England) through IPSAC touches cross-market revenue and deliverability.",
+        "ai_summary": "PJM Transmission Expansion Advisory Committee received an interregional planning update covering three interregional coordination forums: EIPC (Energy Infrastructure Planning Council), IPSAC between PJM and MISO with a scheduled meeting October 2, 2026 (2 PM \u2013 4 PM ET), and IPSAC between PJM and the New York & New England region with a meeting date to be determined. The document provides an overview of interregional planning activities and points of contact but does not detail specific transmission projects, proposals, or hydro-relevant outcomes.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage. However, interregional transmission planning and seams coordination between PJM and neighboring RTOs affect the market footprint within which hydro operates, its access to neighboring load centers, and the locational value of hydro generation. Changes to interregional transfer capability or market design at seams can shift the scarcity signals and revenue opportunities available to hydro owners serving into PJM or exporting to adjacent regions.",
+        "source_names_hydro": false,
+        "topics": [
+          "transmission",
+          "seams-governance"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "IPSAC \u2013 PJM / MISO meeting scheduled October 2, 2026 (2 PM \u2013 4 PM ET)",
+            "quote": "October 2, 2026 (2 PM \u2013 4 PM ET) IPSAC meeting",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Eric Hsia",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Eric.Hsia@pjm.com"
+          },
+          {
+            "name": "Jeffrey Goldberg",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Jeffrey.Goldberg@pjm.com"
+          },
+          {
+            "name": "Matthew Bernstein",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Matthew.Bernstein@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 03 \u2013 Generation Deactivation Notification Update",
+        "filename": "20260908-item-03---generation-deactivation-notification-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260908/20260908-item-03---generation-deactivation-notification-update.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Generation deactivation processes touch resource adequacy and retirement/mothball decisions, which alter scarcity economics and transmission deliverability for remaining resources\u2014a strategic lever hydro operators monitor for market-value signaling and long-term system adequacy.",
+        "ai_summary": "PJM presented Q2 and Q3 2026 generation deactivation notifications to the Transmission Expansion Advisory Committee on September 8, 2026. Two units at West Lorain (50 MW and 51 MW) requested deactivation effective June 1, 2030, with PJM reliability analysis finding no impacts. Cardinal Unit 3 (620 MW) requested deactivation effective January 1, 2029, with PJM reliability analysis underway. PJM does not approve deactivations but identifies reliability concerns; when adverse impacts are projected, the generation owner may file a Cost of Service Recovery Rate (CSRR) at FERC or accept a Deactivation Avoidable Cost Credit (DACC) under the tariff to extend operations until transmission upgrades are complete.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage. However, large synchronous-resource retirements reshape the scarcity profiles and transmission congestion conditions hydro operators face in forward markets\u2014particularly when deactivations are deferred pending network upgrades, which can accelerate scarcity signals and raise real-time locational rents for dispatchable resources in constrained zones. PJM's DACC and CSRR mechanisms also set a governance precedent for how the system manages retirements affecting regional adequacy, relevant to long-term strategic planning by hydro owners in PJM's footprint.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "transmission"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "West Lorain A requested deactivation effective June 1, 2030; West Lorain B requested deactivation effective June 1, 2030",
+            "quote": "West Lorain A | 50 | ATSI | June 19, 2026 | June 1, 2030 | Reliability analysis complete. No impacts identified. | West Lorain B | 51 | ATSI | June 19, 2026 | June 1, 2030 | Reliability analysis complete. No impacts identified.",
+            "verified": false
+          },
+          {
+            "claim": "Cardinal Unit 3 (620 MW) requested deactivation effective January 1, 2029",
+            "quote": "Cardinal Unit 3 | 620 | AEP | July 22, 2026 | Jan 1, 2029 | Reliability analysis underway.",
+            "verified": true
+          },
+          {
+            "claim": "Generation owners may file Cost of Service Recovery Rate (CSRR) at FERC or accept Deactivation Avoidable Cost Credit (DACC)",
+            "quote": "The Generation Owner may elect to support system reliability by operating until necessary network upgrades are completed by either filing its proposed Cost of Service Recovery Rate (CSRR) at FERC or accepting the Deactivation Avoidable Cost Credit (DACC) provided in the Tariff.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Eric Hsia",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Eric.Hsia@pjm.com"
+          },
+          {
+            "name": "Matthew Bernstein",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Matthew.Bernstein@pjm.com"
+          },
+          {
+            "name": "Saravana Kumar Rajendran",
+            "entity": "PJM",
+            "role": "author",
+            "email": "Saravanakumar.Rajendran@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 04 \u2013 Market Efficiency Update",
+        "filename": "20260908-item-04---market-efficiency-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260908/20260908-item-04---market-efficiency-update.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-03",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission expansion planning and congestion modeling directly affect deliverability of hydro's energy output and revenues from locational price signals; congestion savings and line expansion timing alter the value of hydro resource locations and market-clearing dynamics.",
+        "ai_summary": "PJM's 2026/27 Market Efficiency cycle models 2031 grid conditions to identify transmission congestion drivers and evaluate reliability upgrades. The preliminary base case, posted September 2, 2026, identified 62 constraints with annual congestion exceeding $1M and binding hours greater than 25, distributed across COMED, PJM West, MAAC, DOM, and interregional tie lines; 14 of these overlap with 2026W1 reliability violations. PJM is soliciting stakeholder feedback through October 2026 and will identify final congestion drivers by January\u2013February 2027, leading to a proposal window February\u2013May 2027 and board approval targeted for October\u2013December 2027. Acceleration analysis of approved RTEP reliability projects shows planned enhancements reducing 2027 congestion by more than $1.1 billion when compared to current topology.",
+        "hydro_read_through": "The document does not mention hydro or pumped storage directly. However, transmission congestion patterns and planned relief drive the locational economics of hydro dispatch: areas with projected congestion (e.g., COMED, DOM, MAAC interfaces) are where hydro's ability to respond to real-time price signals and locational scarcity will have the highest revenue impact. The acceleration analysis and timeline for proposing solutions affect when transmission bottlenecks constraining hydro's delivery of energy will be relieved, and therefore when scarcity rents in congested zones will persist or diminish. Hydro owners in the PJM footprint should monitor which constraints identified here pass the proposal phase, as those decisions will reshape their economic dispatch options over the 2027\u20132031 horizon.",
+        "source_names_hydro": false,
+        "topics": [
+          "transmission",
+          "price-formation"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Preliminary base case posted September 2, 2026",
+            "quote": "PJM posted an updated preliminary 2026/2027 ME Base Case database (2031 modeled year) on September 2, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "62 constraints with annual congestion exceeding $1M and binding hours greater than 25",
+            "quote": "In the 2031 preliminary simulation, 62 constraints have congestion greater than $1M and binding hours greater than 25.",
+            "verified": true
+          },
+          {
+            "claim": "Stakeholder feedback through October 2026",
+            "quote": "Solicit feedback from stakeholders by September 2026.",
+            "verified": true
+          },
+          {
+            "claim": "Identify congestion drivers November\u2013December 2026",
+            "quote": "Identify Congestion Drivers November \u2013 December 2026",
+            "verified": true
+          },
+          {
+            "claim": "Final base case and congestion drivers January\u2013February 2027",
+            "quote": "Post Final Base Case and Target Congestion Drivers January \u2013 February 2027",
+            "verified": false
+          },
+          {
+            "claim": "Proposal window February\u2013May 2027",
+            "quote": "Long Term Proposal Window February \u2013 May 2027",
+            "verified": true
+          },
+          {
+            "claim": "Board approval October\u2013December 2027",
+            "quote": "TEAC Reviews and Board Approval October \u2013 December 2027",
+            "verified": true
+          },
+          {
+            "claim": "RTEP enhancements reduce 2027 congestion by more than $1.1 billion",
+            "quote": "RTEP enhancements that are approved but not yet in service account for more than a $1.1 billion reduction in congestion when comparing the 2027 simulations with the 2026 ASIS and 2031 RTEP topologies.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Eric Hsia",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Eric.Hsia@pjm.com"
+          },
+          {
+            "name": "Matthew Bernstein",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Matthew.Bernstein@pjm.com"
+          },
+          {
+            "name": "Nicolae Dumitriu",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Nicolae.Dumitriu@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 11 \u2013 Reliability Analysis Update",
+        "filename": "20260908-item-11---reliability-analysis-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260908/20260908-item-11---reliability-analysis-update.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Transmission planning and expansion directly affects hydro deliverability, interregional transfer capability, and the strategic value of existing and proposed hydro plants; PJM's 2026 RTEP reliability analysis identifies near-term transmission needs that shape the economic and operational context for hydro owners in the footprint.",
+        "ai_summary": "PJM's Reliability Analysis Update for the 2026 RTEP Window 1 process identifies near-term transmission reliability needs across the PJM footprint to be addressed through a competitive proposal window. Window 1 opened July 20, 2026, and closes October 12, 2026 (extended three weeks from original date); problem statement was updated August 21, 2026, following a ComEd load forecast reduction of 1.3 GW for 2031 and 3.3 GW for 2034. Major reliability issues include ComEd zone overloads at 345 kV and 138 kV levels and failure to meet Capacity Emergency Transfer Objective (CETO); Dominion zone local violations including Elmont transformer overload and end-of-life criteria issues; AEP zone 138 kV overloads around Beatty substation; and ATSI zone load-loss constraints at North Star Steel. Window summary and solutions proceed to TEAC review November 2026\u2013January 2027, with Board approvals targeted for Q1 2027.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage; however, transmission expansion needs and transmission-constraint relief directly affect hydro's capability to deliver energy and ancillary services from existing and potential hydroelectric resources in the PJM footprint. Overloads and CETO failures in zones like ComEd, PECO, and others constrain the dispatch and pricing of all generation within those zones; alleviating these constraints through the competitive 2026 RTEP process may open additional revenue opportunities for hydro plants' energy and reserves products by reducing transmission congestion and nodal-price separation, or conversely, competitive non-transmission solutions (such as distributed energy resources or storage) may absorb the need and limit hydro's role.",
+        "source_names_hydro": false,
+        "topics": [
+          "transmission",
+          "load-growth",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Window 1 opens July 20, 2026, closes October 12, 2026 (extended three weeks)",
+            "quote": "2026 RTEP proposal Window 1 opened on July 20th, 2026, and will close on October 12, 2026 (extending the 2026 RTEP Window for three weeks from the original closing date)",
+            "verified": true
+          },
+          {
+            "claim": "ComEd load forecast reduction of 1.3 GW for 2031 and 3.3 GW for 2034",
+            "quote": "1.3GW load reduction for 2031; 3.3GW load reduction for 2034",
+            "verified": true
+          },
+          {
+            "claim": "Updated files posted August 21, 2026",
+            "quote": "Updated Window 1 files/results and window problem statement were reposted on August 21st to reflect ComEd load forecast update",
+            "verified": true
+          },
+          {
+            "claim": "Window summary and solutions to TEAC starting November 2026 through January 2027, Board approval Q1 2027",
+            "quote": "Window summary and solutions to be brought forward to the TEAC starting in November 2026 through January 2027 \u2022 Board approvals in Quarter 1 of 2027",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Eric Hsia",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Eric.Hsia@pjm.com"
+          },
+          {
+            "name": "Matthew Bernstein",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Matthew.Bernstein@pjm.com"
+          },
+          {
+            "name": "Stan Sliwa",
+            "entity": "PJM",
+            "role": "author",
+            "email": "Stanley.Sliwa@pjm.com"
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM",
+            "role": "author",
+            "email": "Wenzheng.Qiu@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "Minutes",
+        "filename": "20260908-minutes.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20260908/20260908-minutes.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-02",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a meeting attendance and agenda sheet for PJM's Transmission Expansion Advisory Committee. It documents supplemental transmission projects, interregional planning updates, generator deactivations, market efficiency, and reliability analysis, none of which involve hydro-specific revenue mechanisms, storage participation rules, ancillary-service accreditation, or strategic options affecting hydro owners.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jeffrey Goldberg",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nicolae Dumitriu",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Saravana Kumar Rajendran",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stanley Sliwa",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Wenzheng Qiu",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
