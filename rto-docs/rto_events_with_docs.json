@@ -1,5 +1,19 @@
 [
   {
+    "title": "MDWG Face-To-Face",
+    "date": "2026-12-08",
+    "time": "11:00 AM - 5:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Design Working Group",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-design-working-group-face-to-face-20261208-09/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=370765",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The SPP Markets+ Design Working Group face-to-face meeting will likely address market design, participation rules, and tariff development for the proposed consolidated RTO, which is highly relevant to NHA members evaluating membership in Markets+ and comparing it to WEIM/EDAM alternatives, and to understanding how market rules for energy, capacity, ancillary services, and storage will be structured.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MGHGTF Net Conference",
     "date": "2026-12-03",
     "time": "11:00 AM - 3:00 PM CT",
@@ -350,6 +364,109 @@
     "documents": []
   },
   {
+    "title": "Environmental Advisory Group Meeting",
+    "date": "2026-09-24",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Environmental Advisory Group",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160191",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Environmental Advisory Group typically addresses environmental compliance, sustainability reporting, and ecological policy rather than market design, pricing mechanisms, participation rules, or operational obligations that directly affect hydropower revenue and strategy.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Consumer Liaison Group Meeting",
+    "date": "2026-09-24",
+    "time": "4:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Consumer Liaison Group",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=159983",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Consumer Liaison Group meetings address retail-market mechanics, customer engagement, and consumer affairs\u2014outside the market-design axes (revenue, obligations, strategic options) that affect hydro and PSH owners and operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Billing, Accounting & Credit Policy Working Group",
+    "date": "2026-09-24",
+    "time": "9:00 AM - 10:00 AM",
+    "rto": "NYISO",
+    "committee": "Billing, Accounting & Credit Policy Working Group",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/bacwg",
+    "materials_url": "https://www.nyiso.com/bacwg",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Billing, Accounting & Credit Policy Working Group agendas typically address settlement administration, credit mechanics, and operational accounting \u2014 routine functions that do not affect revenue structures, compliance obligations, or strategic options for hydro and PSH operators.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Reliable Operations Working Group (ROWG-Closed) - September 24, 2026",
+    "date": "2026-09-24",
+    "time": "12:00 PM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Reliable Operations Working Group",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/d33cc4771516401e81718d6abe0be97a.aspx",
+    "materials_url": "https://www.misoenergy.org/link/d33cc4771516401e81718d6abe0be97a.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A closed Reliable Operations Working Group meeting focused on day-to-day operational reliability matters typically addresses transmission topology, outage coordination, and dispatch procedures rather than market design, revenue, or strategic participation mechanisms that affect hydropower owners.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Batch 1+ and Comprehensive Transmission Planning Workshop #2",
+    "date": "2026-09-24",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Operations Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/09242026-Batch-1_-and-Comprehensive",
+    "materials_url": "https://www.ercot.com/calendar/09242026-Batch-1_-and-Comprehensive",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "ERCOT transmission planning workshops address grid infrastructure and operations in a region with no meaningful hydropower or pumped-storage fleet, and without explicit focus on market-design topics (ancillary services, energy pricing, storage participation, capacity mechanisms) that would provide cross-market reference value for NHA analysis.",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Batch 1+ and Comprehensive Transmission Planning Workshop #2 Agenda 2026-09-24",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/09242026-Batch-1_-and-Comprehensive#agenda",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a meeting agenda for ERCOT's Batch 1+ and Comprehensive Transmission Planning Workshop with no substantive content describing market design, pricing rules, participation models, or resource-adequacy mechanisms that would affect hydro or PSH owners.",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "TWG Meeting",
+    "date": "2026-09-24",
+    "time": "2:00 PM",
+    "rto": "ERCOT",
+    "committee": "Technology Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/09242026-TWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/09242026-TWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Technology Working Group meetings typically address IT infrastructure, system operations tools, and technical logistics rather than market-design mechanisms affecting hydro revenue, compliance, or strategic options.",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Risk Management Committee Meeting",
     "date": "2026-09-23",
     "time": "1:00 p.m. - 4:00 p.m.",
@@ -444,6 +561,20 @@
     "materials_url": "https://www.ercot.com/calendar/09232026-OWG-Meeting-_-Webex",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "ERCOT Operations Working Group meetings address reliability standards, frequency response, dispatch protocols, and grid operations that set precedent for how storage and flexibility resources (including hydro analogues) participate in markets across regions\u2014relevant for cross-market comparative analysis.",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "2026-2027 Transmission Planning Process",
+    "date": "2026-09-23",
+    "time": "9:00 AM - 4:00 PM PT",
+    "rto": "CAISO",
+    "committee": "2026-2027 Transmission planning process",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/2026-2027-transmission-planning-process-sep-23-2026-0900-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/2026-2027-Transmission-planning-process",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "CAISO's transmission planning process directly affects hydropower deliverability, interregional transfer capability, and identification of storage-as-transmission alternatives that reshape revenue opportunities for existing and prospective hydro and pumped-storage resources.",
     "issues": [],
     "documents": []
   },
@@ -2467,7 +2598,151 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A Board of Directors meeting with no specified agenda items is unlikely to contain market-design content relevant to hydropower revenue, compliance, or strategic options; ERCOT board meetings typically address corporate governance, organizational matters, and routine oversight rather than the specific market mechanisms (frequency response, storage participation, capacity accreditation, price formation) that NHA tracks.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Board of Directors Meeting Agenda 2026-09-14",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/09142026-Board-of-Directors-Meeting#agenda",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT's energy storage resource state-of-charge treatment, generation firming, mitigated offer caps, and ancillary services capacity monitoring set precedent for how storage (including PSH where it operates on other RTOs) is accredited and participates in energy and AS markets; this is comparable to hydro-market design across RTOs.",
+        "ai_summary": "ERCOT Board agenda for September 14\u201315, 2026 includes ten consent-agenda items and one TAC item with direct or indirect bearing on storage, energy attributes, and ancillary services: NPRR1326 adds Energy Storage Resource state-of-charge information to the Ancillary Services Capacity Monitor; NPRR1328 establishes a Generation Firming Program (marked URGENT); NPRR1329 addresses Resource Entity Requirements for Self-Limiting Facilities; NPRR1342 addresses Mitigated Offer Caps for Contract for Capacity Resources (marked URGENT); COPMGRR051, LPGRR076, NOGRR273, PGRR123, RMGRR182, RRGRR038, SMOGRR031, and VCMRR043 are all related to NPRR1264, Creation of a New Energy Attribute Certificate Program; PGRR144 on Dynamic Model Submission requirements for Large Loads is a non-unanimous TAC recommendation; and the Board will vote on 2027 ERCOT Methodologies for Determining Minimum Ancillary Service Requirements. The agenda does not state vote dates or outcomes beyond the meeting dates themselves (September 14\u201315, 2026).",
+        "hydro_read_through": "This document does not address hydro directly. However, ERCOT's storage-of-charge accreditation (NPRR1326), self-limiting-facility rules (NPRR1329), and offer-cap regimes (NPRR1342) establish how energy-limited and use-constrained resources participate in capacity and ancillary services markets. These rules parallel the mechanisms that affect pumped-storage participation in other RTOs and inform how storage-accreditation design can constrain or enable PSH revenue opportunities. The Energy Attribute Certificate program (NPRR1264 suite) also signals how ERCOT will track and value clean energy attributes, relevant to understanding divergence in EAC treatment across market footprints that NHA members export into or consider for future investment. The Generation Firming Program may also set a model for how RTOs define and compensate dispatchable resources during scarcity.",
+        "source_names_hydro": false,
+        "topics": [
+          "storage",
+          "ancillary-services",
+          "capacity-ra"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "NPRR1326 adds Energy Storage Resource state-of-charge information to Ancillary Services Capacity Monitor",
+            "quote": "NPRR1326, Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
+            "verified": true
+          },
+          {
+            "claim": "NPRR1328 establishes Generation Firming Program marked URGENT",
+            "quote": "NPRR1328, Establishment of Generation Firming Program \u2013 URGENT",
+            "verified": true
+          },
+          {
+            "claim": "NPRR1329 addresses Resource Entity Requirements for Self-Limiting Facilities",
+            "quote": "NPRR1329, Resource Entity Requirements for Self-Limiting Facilities",
+            "verified": true
+          },
+          {
+            "claim": "NPRR1342 addresses Mitigated Offer Caps for Contract for Capacity Resources marked URGENT",
+            "quote": "NPRR1342, Mitigated Offer Caps for Contract for Capacity Resources \u2013 URGENT",
+            "verified": true
+          },
+          {
+            "claim": "NPRR1264 suite creates Energy Attribute Certificate Program (eight related implementation records)",
+            "quote": "COPMGRR051, Related to NPRR1264, Creation of a New Energy Attribute Certificate Program",
+            "verified": true
+          },
+          {
+            "claim": "Meeting dates are September 14\u201315, 2026",
+            "quote": "Meeting date: 2026-09-14",
+            "verified": false
+          },
+          {
+            "claim": "Board will vote on 2027 ERCOT Methodologies for Determining Minimum Ancillary Service Requirements",
+            "quote": "2027 ERCOT Methodologies for Determining Minimum Ancillary Service Requirements",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Doug Lewin",
+            "entity": null,
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Eduardo De Varona",
+            "entity": "CenterPoint Energy Inc.",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Bryan Sams",
+            "entity": "Constellation Energy Generation",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chad V. Seely",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dan Woodfin",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jeff Billo",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Keith Collins",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kristi Hobbs",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nitika Mago",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Pablo Vegas",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Rebecca Zerwas",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Bob Helton",
+            "entity": "Engie North America Inc.",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Eric Schubert",
+            "entity": "Google",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kris Koellner",
+            "entity": "Lower Colorado River Authority (LCRA TSC)",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "2026 ISO Planning Standards",
@@ -11753,6 +12028,77 @@
             "entity": "NYISO",
             "role": "presenter",
             "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "2b Patriot Forge Stakeholder Feedback - September 3, 2026",
+        "filename": "Patriot%20Forge%20PA,%20LLC%20Stakeholder%20Feedback%20(September%203,%202026).pdf",
+        "url": "https://www.nyiso.com/documents/20142/59022268/Patriot%20Forge%20PA,%20LLC%20Stakeholder%20Feedback%20(September%203,%202026).pdf",
+        "member_url": null,
+        "posted_date": "2026-09-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large load integration procedures and queue reform directly affect hydro's strategic ability to participate in co-located generation arrangements and influence transmission planning, deliverability, and interconnection timing that shapes hydro asset value and power-purchase economics.",
+        "ai_summary": "Patriot Forge PA, LLC (a 350 MW data-center large load in Tioga County, Pennsylvania with co-located on-site generation) submits feedback on NYISO's preliminary transition plan for converting pending Section 3.9 load interconnection requests into a new Bulk Electric Large Load (BELL) study process. NYISO's proposed plan sorts projects into three groups based on whether their System Impact Study scope was approved by the Operating Committee before June 18, 2026; projects in Group C (failing that condition) would be withdrawn from the queue and required to reapply through BELL-1, with the assessment concluding no earlier than July 2028. Patriot Forge proposes a Conditional Transition Entry provision allowing pending projects with executed study agreements, paid deposits, and complete modeling data to enter the transitional BELL-0 study with their System Impact Study proceeding in parallel, with a December 31, 2027 completion deadline or automatic transfer to BELL-1 with credit for completed work. The proposal cites FERC Show Cause Orders (195 FERC \u00b6 61,216 and 196 FERC \u00b6 61,130, both 2026) directing NYISO to minimize disruption to existing commercial arrangements and accommodate ongoing agreements nearing completion. Patriot Forge notes that removal from queue and re-entry through BELL-1 could delay interconnection agreement execution by 10\u201313 months and impose approximately $410,000 in additional fees at the 200\u2013500 MW tier, with lead times for large power transformers reported at 128\u2013144 weeks. NYISO's September 1, 2026 Reliability Needs Assessment base case projects a statewide resource adequacy deficiency starting in 2033 of approximately 200 MW, growing to greater than 1,800 MW by 2036, not driven by internal transmission constraints but by insufficient statewide supply.",
+        "hydro_read_through": "This document does not mention hydropower or pumped storage directly. However, the transition plan and conditional-entry proposal affect hydro owners' strategic options in three ways: (1) load-integration rules determine transmission-planning base cases and network-upgrade cost allocation, which reshape interconnection timelines and capital requirements for any co-located or nearby hydro facility or PSH project seeking to participate in the NYISO market; (2) the sequencing of large loads into firm withdrawal service and paired generation affects the resource-adequacy constraint hydro faces\u2014accelerating new supply via fast-tracked interconnection reduces scarcity pressure on existing hydro, while delays defer that supply and could prolong tight conditions; and (3) the procedural milestone choice (calendar-based committee dates vs. applicant-controlled readiness) establishes precedent for how interconnection queues will treat pending projects generally, potentially influencing whether any future hydro or storage project relies on queue standing achieved before or after a rule change.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "load-growth",
+          "transmission"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "FERC Show Cause Order directing NYISO to provide reasonable implementation period to minimize disruption to existing commercial arrangements",
+            "quote": "ensure minimal disruption to such existing commercial arrangements,\" in a proceeding FERC stated \"is not intended to disrupt existing commercial arrangements, but rather to establish prospective reforms.\" N.Y. Indep. Sys. Operator, Inc., 195 FERC \u00b6 61,216 at P 5 (2026)",
+            "verified": true
+          },
+          {
+            "claim": "Group C projects face withdrawal from queue; BELL-1 assessment concludes no earlier than July 2028",
+            "quote": "will be withdrawn from the queue\" and may reapply for BELL-1. That approach is contrary to the direction of the Federal Energy Regulatory Commission",
+            "verified": true
+          },
+          {
+            "claim": "Patriot Forge proposes December 31, 2027 deadline for System Impact Study report approval",
+            "quote": "and in any event no later than December 31, 2027 (extended day-for-day with any extension of the Assessment of Load Integration beyond January 2028)",
+            "verified": true
+          },
+          {
+            "claim": "Group C re-entry would cost 10\u201313 months delay relative to current Section 3.9 process reporting in mid-2027",
+            "quote": "Against the current process, under which a report approved in mid-2027 proceeds directly to a Facilities Study, re-entry through BELL-1 costs ten to thirteen months.",
+            "verified": true
+          },
+          {
+            "claim": "Estimated additional fees and costs for Group C re-entry at 200\u2013500 MW tier approximately $410,000",
+            "quote": "Re-entry also carries roughly $410,000 in new application fees and study deposits at the 200 to 500 MW tier and monthly invoices for a second study",
+            "verified": true
+          },
+          {
+            "claim": "Lead times for large power transformers reported at 128\u2013144 weeks; analysts report lead times up to four years",
+            "quote": "a recent survey put lead times for large power transformers at 128 to 144 weeks1 and analysts report lead times of up to four years.2",
+            "verified": false
+          },
+          {
+            "claim": "NYISO 2026 Reliability Needs Assessment base case projects deficiency starting 2033 of approximately 200 MW, growing to greater than 1,800 MW by 2036",
+            "quote": "the base case \"exceeds the state's resource adequacy criterion starting in 2033 with a deficiency of approximately 200 MW and gets worse through 2036 with a deficiency greater than 1,800 MW,\" and the deficiency \"is not driven by internal transmission constraints but rather is an issue of insufficient statewide supply to meet projected demand\"",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kirk Dixon",
+            "entity": "New York Independent System Operator, Inc.",
+            "role": "contact",
+            "email": "kdixon@nyiso.com"
+          },
+          {
+            "name": "Drew Dorn",
+            "entity": "Patriot Forge PA, LLC",
+            "role": "author",
+            "email": "drew@dornhlds.com"
           }
         ]
       }
