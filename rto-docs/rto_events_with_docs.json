@@ -336,6 +336,20 @@
     "documents": []
   },
   {
+    "title": "MSUF Net Conference",
+    "date": "2026-10-08",
+    "time": "3:00 PM - 5:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Settlements User Forum",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-settlements-user-forum-net-conference-20261008/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=575244",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MDWG Net Conference",
     "date": "2026-10-07",
     "time": "11:00 AM - 5:00 PM CT",
@@ -362,6 +376,86 @@
     "meeting_hydro_reason": "A settlements user forum focused on procedural and technical settlement administration does not typically address market-design issues affecting hydro revenue, obligations, or strategic options.",
     "issues": [],
     "documents": []
+  },
+  {
+    "title": "NEPOOL Markets Committee Meeting",
+    "date": "2026-10-07",
+    "time": "1:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Markets Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160106",
+    "materials_url": null,
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Planning Advisory Committee (PAC) - October 7, 2026",
+    "date": "2026-10-07",
+    "time": "9:00 AM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Planning Advisory Committee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/81c8b7a94e5042ee9ac45c1687d3e22a.aspx",
+    "materials_url": "https://www.misoenergy.org/link/81c8b7a94e5042ee9ac45c1687d3e22a.aspx",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20261007 PAC Item 01c Minutes 20260826.pdf",
+        "filename": "20261007 PAC Item 01c Minutes 20260826.pdf",
+        "url": "https://cdn.misoenergy.org/20261007%20PAC%20Item%2001c%20Minutes%2020260826782534.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "WMS Meeting",
+    "date": "2026-10-07",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Wholesale Market Subcommittee",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/10072026-WMS-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/10072026-WMS-Meeting",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "04. DRAFT Minutes WMS 20260805",
+        "filename": "04.-DRAFT-Minutes-WMS-20260805.doc",
+        "url": "https://www.ercot.com/files/docs/2026/09/17/04.-DRAFT-Minutes-WMS-20260805.doc",
+        "member_url": null,
+        "posted_date": "2026-09-17",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "MCUF Face-To-Face",
@@ -593,6 +687,34 @@
     ]
   },
   {
+    "title": "California ISO Stakeholder Symposium - Networking Reception",
+    "date": "2026-10-06",
+    "time": "5:00 PM - 7:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Stakeholder Symposium",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/california-iso-stakeholder-symposium-networking-reception-oct-06-2026-0500-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/events/stakeholder-symposium",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "California ISO Stakeholder Symposium",
+    "date": "2026-10-06",
+    "time": "7:30 AM - 5:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Stakeholder Symposium",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/california-iso-stakeholder-symposium-oct-06-2026-0730-am",
+    "materials_url": "https://www.caiso.com/meetings-events/events/stakeholder-symposium",
+    "meeting_hydro_relevant": null,
+    "meeting_hydro_reason": null,
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Cost Development Subcommittee Meeting",
     "date": "2026-10-05",
     "time": "9:00 a.m. - 11:00 a.m.",
@@ -744,7 +866,26 @@
     "meeting_hydro_relevant": null,
     "meeting_hydro_reason": null,
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "2026-10-02 PC Initial Notice",
+        "filename": "npc-2026-10-02-initial.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/npc-2026-10-02-initial.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Transmission Owners Compliance Task Team (TOCTT) - October 2, 2026",
@@ -1861,6 +2002,24 @@
           }
         ],
         "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 02 \u2013 Market Monitoring Report \u2013 Presentation",
+        "filename": "item-02---market-monitoring-report---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260928-web/item-02---market-monitoring-report---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -2143,6 +2302,42 @@
         "url": "https://www.iso-ne.com/static-assets/documents/100039/clg_meeting_agenda_09_24_2026.pdf",
         "member_url": null,
         "posted_date": "2026-09-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "2026-09-24 \u2013 Panel Presentation",
+        "filename": "clg_meeting_mcbride_iso_new_england_panel_presentation_9_24_2026.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/clg_meeting_mcbride_iso_new_england_panel_presentation_9_24_2026.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "2026-09-24 \u2013 ISO New England Update",
+        "filename": "clg_meeting_johnson_iso_new_england_update_presentation_09_24_26.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100039/clg_meeting_johnson_iso_new_england_update_presentation_09_24_26.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-21",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -4883,7 +5078,26 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "ARR allocation workshops address financial hedging instruments and transmission-congestion rights for financial traders, not the operational, market-design, or revenue-mechanism issues that affect hydro owners' dispatch decisions, capacity accreditation, ancillary-service pricing, or strategic resource planning.",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "20260922 ARR Registration Workshop - 2027 Part 1 Materials.pdf",
+        "filename": "20260922 ARR Registration Workshop - 2027 Part 1 Materials.pdf",
+        "url": "https://cdn.misoenergy.org/20260922%20ARR%20Registration%20Workshop%20-%202027%20Part%201%20Materials782930.pdf",
+        "member_url": null,
+        "posted_date": "2026-09-21",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "RPG Meeting",
@@ -5456,6 +5670,24 @@
         "url": "https://www.ercot.com/files/docs/2026/09/18/MPSP_IAM-Workshop-20260921.pptx",
         "member_url": null,
         "posted_date": "2026-09-18",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "MPSP_IAM Workshop 20260921",
+        "filename": "MPSP_IAM-Workshop-20260921.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/09/21/MPSP_IAM-Workshop-20260921.pptx",
+        "member_url": null,
+        "posted_date": "2026-09-21",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "ai_summary": null,
@@ -15354,12 +15586,12 @@
   {
     "title": "Tech Change Forum Meeting",
     "date": "2026-09-14",
-    "time": "1:00 p.m. - 3:00 p.m.",
+    "time": "1:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "Tech Change Forum",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C5B80F10-0947-498C-B0FB-FD8B34295C1A}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={95EB722E-2682-431E-901B-32B0AD0BD63A}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The Tech Change Forum title and agenda indicate it addresses general technology and IT operational changes rather than market-design mechanisms (pricing, products, accreditation, participation rules, or compliance obligations) that directly affect hydropower revenue, obligations, or strategic options.",
     "issues": [],
@@ -15603,12 +15835,12 @@
   {
     "title": "ISAC Meeting",
     "date": "2026-09-14",
-    "time": "3:00 p.m. - 4:00 p.m.",
+    "time": "1:00 p.m. - 3:00 p.m.",
     "rto": "PJM",
     "committee": "ISAC",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0B398F12-2B6E-46EB-8841-B9B5BEA9104A}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C5B80F10-0947-498C-B0FB-FD8B34295C1A}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "ISAC (Integrated System Advisory Council) is PJM's broad stakeholder forum that addresses general organizational and governance matters rather than specific market-design mechanisms affecting hydropower revenue, obligations, or strategic options; without a documented agenda showing treatment of energy pricing, ancillary services, storage participation, capacity accreditation, or transmission planning, a generic ISAC meeting title provides insufficient basis for relevance to hydro interests.",
     "issues": [],
