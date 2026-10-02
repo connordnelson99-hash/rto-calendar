@@ -1158,6 +1158,43 @@ input, select, textarea { font-family: inherit; color: inherit; }
   flex-shrink: 0;
 }
 
+/* Not-yet-screened marker. Deliberately quiet (dashed, muted) so it reads
+   as "unknown", distinct from both the hydro flag and an unmarked "no". */
+.pending-flag {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-muted);
+  border: 1px dashed var(--border-strong, var(--border));
+  background: transparent;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.screening-status {
+  margin-left: var(--sp-3);
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.screening-status.stale {
+  color: var(--warn-text, #8a5a00);
+  background: var(--warn-bg, rgba(255, 176, 0, 0.12));
+  border-color: var(--warn-border, rgba(255, 176, 0, 0.45));
+}
+
+@media (max-width: 900px) {
+  .screening-status { display: none; }
+}
+
 .row-meta-line {
   display: flex;
   align-items: center;

@@ -205,21 +205,43 @@ class PJMScraper(BaseRTOScraper):
                           wait_until="networkidle", timeout=30000)
                 page.wait_for_timeout(3000)
 
-                # Navigate through each required month
-                months_to_check = self._months_in_range_from_page(
-                    page, start_date, end_date
-                )
-
-                for month_offset in months_to_check:
-                    self._navigate_calendar(page, month_offset)
+                # Navigate to each month in the window by name, re-reading
+                # the header before every step. Counting clicks doesn't work
+                # here for two reasons: offsets computed up front are
+                # relative to the opening month while each click is relative
+                # to whatever is shown (so [-1, 0] went back once and never
+                # returned), and clicking an event on a spillover day (an
+                # Oct 1–8 cell in September's grid) makes PJM's calendar jump
+                # to that event's month by itself. Either way the current
+                # month's grid was skipped for the first ~16 days of every
+                # month, and PJM meetings in its second half were only found
+                # through the previous grid's trailing days.
+                for year, month in self._months_in_range(start_date, end_date):
+                    if not self._navigate_to_month(page, year, month):
+                        print(f"    could not reach {year}-{month:02d} on the "
+                              f"calendar; skipping that month")
+                        continue
 
                     # Initial map captures every (date, abbrev) target on
                     # this month's grid, before any click reflow.
                     initial_map = self._map_events_to_dates(page)
+                    if not initial_map:
+                        # PJM has meetings every month; an empty map means
+                        # the events hadn't rendered yet. One more look.
+                        page.wait_for_timeout(4000)
+                        initial_map = self._map_events_to_dates(page)
+                    # Only this month's own days. The grid also shows the
+                    # neighbouring months' leading/trailing days, and
+                    # clicking an event on one of those makes PJM's calendar
+                    # jump to that month — after which every remaining target
+                    # here fails to relocate. Those days get covered when
+                    # their own month is shown.
+                    this_month = f"{year:04d}-{month:02d}"
                     targets = [
                         (date, abbrev)
                         for _idx, date, abbrev in initial_map
                         if start_date <= date <= end_date
+                        and date.startswith(this_month)
                     ]
                     # Dedup identical (date, abbrev) pairs — same meeting
                     # rendered twice would collide on the same row anyway.
@@ -252,56 +274,71 @@ class PJMScraper(BaseRTOScraper):
 
         return meetings
 
-    def _months_in_range_from_page(self, page, start_date, end_date):
-        """
-        Determine month navigation offsets relative to the currently
-        displayed calendar month (read from the page, not the system clock).
-        """
-        # Read displayed month from the page content
+    @staticmethod
+    def _months_in_range(start_date, end_date):
+        """(year, month) for every calendar month the window touches."""
+        start_dt = datetime.strptime(start_date, "%Y-%m-%d")
+        end_dt = datetime.strptime(end_date, "%Y-%m-%d")
+        months = []
+        y, m = start_dt.year, start_dt.month
+        while (y, m) <= (end_dt.year, end_dt.month):
+            months.append((y, m))
+            y, m = (y + 1, 1) if m == 12 else (y, m + 1)
+        return months
+
+    _HEADER_MONTH_RE = re.compile(
+        r"(January|February|March|April|May|June|July|August|"
+        r"September|October|November|December)\s+(\d{4})", re.IGNORECASE)
+
+    def _displayed_month(self, page):
+        """(year, month) the FullCalendar header currently shows, or None."""
         page_text = page.evaluate(
             "document.querySelector('#calendar, .fc') "
             "? document.querySelector('#calendar, .fc').innerText.substring(0,100) "
             ": ''"
         )
-        # Try to parse "Month YYYY" from the calendar header area
-        current_year, current_month = datetime.now().year, datetime.now().month
-        m = re.search(
-            r"(January|February|March|April|May|June|July|August|"
-            r"September|October|November|December)\s+(\d{4})",
-            page_text, re.IGNORECASE
-        )
-        if m:
+        m = self._HEADER_MONTH_RE.search(page_text or "")
+        if not m:
+            return None
+        try:
+            dt = datetime.strptime(f"{m.group(1)} {m.group(2)}", "%B %Y")
+        except ValueError:
+            return None
+        return dt.year, dt.month
+
+    def _navigate_to_month(self, page, year, month, max_clicks=6):
+        """Step prev/next until the header shows (year, month).
+
+        Re-reads the header before every click, so it is correct no matter
+        where the calendar is when called — including after PJM's own
+        event-click handler has moved it. Returns False if the header can't
+        be read or the target isn't reached within max_clicks.
+        """
+        target = year * 12 + month
+        for _ in range(max_clicks + 1):
+            shown = self._displayed_month(page)
+            if shown is None:
+                return False
+            delta = target - (shown[0] * 12 + shown[1])
+            if delta == 0:
+                return True
+            direction = "prev" if delta < 0 else "next"
+            btn = page.query_selector(
+                f".fc-{direction}-button, .fc-button-{direction}, "
+                f"button[aria-label='{direction}']"
+            )
+            if not btn:
+                return False
+            btn.click()
+            page.wait_for_timeout(1500)
+            # Events render after the grid; a fixed pause sometimes mapped
+            # an empty month. A month with genuinely no events just times
+            # out here and proceeds.
             try:
-                dt = datetime.strptime(f"{m.group(1)} {m.group(2)}", "%B %Y")
-                current_year, current_month = dt.year, dt.month
-            except ValueError:
+                page.wait_for_selector(".fc-event", timeout=8000)
+            except Exception:
                 pass
-
-        current_month_num = current_year * 12 + current_month
-        start_dt = datetime.strptime(start_date, "%Y-%m-%d")
-        end_dt = datetime.strptime(end_date, "%Y-%m-%d")
-        start_month_num = start_dt.year * 12 + start_dt.month
-        end_month_num = end_dt.year * 12 + end_dt.month
-
-        return list(range(
-            start_month_num - current_month_num,
-            end_month_num - current_month_num + 1
-        ))
-
-    def _navigate_calendar(self, page, month_offset):
-        """Navigate the FullCalendar by month_offset steps."""
-        if month_offset == 0:
-            return
-        direction = "prev" if month_offset < 0 else "next"
-        selector = (
-            f".fc-{direction}-button, .fc-button-{direction}, "
-            f"button[aria-label='{direction}']"
-        )
-        for _ in range(abs(month_offset)):
-            btn = page.query_selector(selector)
-            if btn:
-                btn.click()
-                page.wait_for_timeout(1500)
+        return False
 
     def _map_events_to_dates(self, page):
         """

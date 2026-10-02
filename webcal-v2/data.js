@@ -4,6 +4,14 @@
 // in the feed gets rendered (no ACTIVE_RTOS gate).
 
 (function () {
+  // RTOs whose documents are screened even when the meeting itself was not
+  // judged relevant — their meeting titles are bare committee names, so the
+  // doc text is the only signal. Must match the gate in
+  // rto-docs/screen_documents.py run_stage2; used to decide which unscreened
+  // documents count as "pending" rather than "never going to be read".
+  const DOCS_SCREENED_REGARDLESS = new Set(
+    ["NYISO", "SPP", "SPP Markets +", "MISO", "ERCOT"]);
+
   const RTO_META = {
     PJM:      { color: "#3B82F6", bg: "#EFF6FF", label: "PJM" },
     CAISO:    { color: "#F59E0B", bg: "#FFFBEB", label: "CAISO" },
@@ -264,6 +272,11 @@
         member_url: d.member_url || null,
         posted_date: d.posted_date,
         hydro_relevant: d.hydro_relevant === true,
+        // false = screened and judged not relevant; null = never screened.
+        // Kept apart from hydro_relevant so "pending" can render differently
+        // from "no" — collapsing them hid a three-week screening outage.
+        screened: d.hydro_relevant === true || d.hydro_relevant === false,
+        screened_at: d.screened_at || null,
         hydro_relevance_reason: d.hydro_relevance_reason || null,
         ai_summary: d.ai_summary || null,
         // Held separately from ai_summary on purpose — this is the inferred
@@ -312,6 +325,18 @@
     const meetingHydro = raw.meeting_hydro_relevant === true;
     const hasHydroDocs = documents.some(d => d.hydro_relevant);
 
+    // Screening state. A meeting is pending until Stage 1 has judged it; its
+    // documents are pending only where Stage 2 will actually read them —
+    // after a "yes" at Stage 1, or for the RTOs whose docs are screened
+    // regardless because their meeting titles carry no signal (mirrors the
+    // gate in rto-docs/screen_documents.py run_stage2).
+    const meetingScreened =
+      raw.meeting_hydro_relevant === true || raw.meeting_hydro_relevant === false;
+    const docsGateOpen = meetingHydro || DOCS_SCREENED_REGARDLESS.has(raw.rto);
+    const pendingDocCount = docsGateOpen
+      ? documents.filter(d => !d.screened).length : 0;
+    const screeningPending = !meetingScreened || pendingDocCount > 0;
+
     // Resolve display time in the viewer's zone. A zone tag embedded in the
     // scraped time beats the RTO-level default (SPP tags each meeting; its
     // Denver-hosted ones are MT, not the CT the default assumes). If neither
@@ -359,6 +384,10 @@
       materialsUrl: raw.materials_url || null,
       meetingHydroRelevant: meetingHydro,
       meetingHydroReason: raw.meeting_hydro_reason || null,
+      meetingScreened,
+      meetingScreenedAt: raw.meeting_screened_at || null,
+      screeningPending,
+      pendingDocCount,
       documents,
       hydroDocCount: documents.filter(d => d.hydro_relevant).length,
       isRelevant: meetingHydro || hasHydroDocs,
@@ -427,7 +456,36 @@
       digestItems: currentWeek.items,
       weeks,
       currentWeekKey: currentWeekStart,
+      screening: screeningStatus(events, today),
     };
+  }
+
+  // Pipeline freshness, derived from the data itself so the UI can say
+  // "screened 3 days ago" without a separate status feed. Timestamps are
+  // SQLite's UTC "YYYY-MM-DD HH:MM:SS"; they sort as strings.
+  function screeningStatus(events, today) {
+    let newestAt = null;
+    for (const e of events) {
+      if (e.meetingScreenedAt && (!newestAt || e.meetingScreenedAt > newestAt)) {
+        newestAt = e.meetingScreenedAt;
+      }
+      for (const d of e.documents) {
+        if (d.screened_at && (!newestAt || d.screened_at > newestAt)) {
+          newestAt = d.screened_at;
+        }
+      }
+    }
+    // Pending count over the stretch a reader is likely looking at: last
+    // week through the scraper's lookahead.
+    const from = addDaysIso(today, -7);
+    const to = addDaysIso(today, 16);
+    const pendingCount = events.filter(
+      e => e.screeningPending && e.date >= from && e.date <= to).length;
+    const newestDate = newestAt ? newestAt.slice(0, 10) : null;
+    const ageDays = newestDate
+      ? Math.round((Date.parse(today) - Date.parse(newestDate)) / 86400000)
+      : null;
+    return { newestAt, ageDays, pendingCount };
   }
 
   // Markdown export of the weekly digest. Same hydro filter as the popup,

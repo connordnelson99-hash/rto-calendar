@@ -781,6 +781,14 @@ const DetailPane = ({ event, onClose, onOpenDoc }) => {
                   <span className="hydro-tri"/> Hydro-relevant
                 </span>
               )}
+              {!e.isRelevant && e.screeningPending && (
+                <span className="pending-flag"
+                      title={e.meetingScreened
+                        ? `${e.pendingDocCount} document${e.pendingDocCount === 1 ? "" : "s"} not yet screened`
+                        : "This meeting has not been screened for hydro relevance yet"}>
+                  Screening pending
+                </span>
+              )}
               {e.hasIssues && (
                 <span className="initiative-flag">
                   <Icon name="target" size={10}/> Initiative-linked

@@ -367,6 +367,12 @@ const AgendaView = ({ events, today, onSelectEvent, anchor, setAnchor }) => {
                           <span className="hydro-tri"/> {e.hydroDocCount}
                         </span>
                       )}
+                      {!e.isRelevant && e.screeningPending && (
+                        <span className="pending-flag" style={{ fontSize: 10 }}
+                              title="Not yet screened for hydro relevance">
+                          pending
+                        </span>
+                      )}
                       <span style={{ fontSize: 11, color: "var(--text-muted)" }}>
                         <Icon name="file" size={11}/> {e.documents.length}
                       </span>

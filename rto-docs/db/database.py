@@ -225,6 +225,12 @@ def migrate_db(conn):
         ("evidence",                  "TEXT"),
         ("ai_processed_at",           "TIMESTAMP"),
         ("stakeholders_extracted_at", "TIMESTAMP"),
+        # How many characters of extracted text the screener actually saw.
+        # 0 means the verdict was title-only — the download had failed or the
+        # file had no extractable text that run. Stage 2 reopens those rows
+        # once text arrives, instead of letting a blind verdict stand forever.
+        # NULL on rows screened before this existed (not reopened).
+        ("screened_text_chars",       "INTEGER"),
     ]
     for col, col_type in doc_additions:
         if col not in doc_existing:
@@ -372,7 +378,8 @@ def save_meeting_screening(conn, meeting_id, hydro_relevant, reason):
 
 def save_ai_screening(conn, doc_id, hydro_relevant, reason, summary=None,
                       topics=None, directness=None, evidence=None,
-                      hydro_read_through=None, source_names_hydro=None):
+                      hydro_read_through=None, source_names_hydro=None,
+                      text_chars=None):
     """Store Haiku screening result for a document. `topics` is a list of
     controlled-vocabulary tags (see screen_documents.TOPIC_TAGS), stored
     semicolon-joined; None/[] leaves any existing tags untouched.
@@ -386,7 +393,10 @@ def save_ai_screening(conn, doc_id, hydro_relevant, reason, summary=None,
     `summary` so a downstream reader can tell document content from analyst
     inference; `source_names_hydro` is 1/0 for whether the source text itself
     ever names hydro. All are COALESCEd, so a re-run that omits them preserves
-    what's there."""
+    what's there.
+
+    `text_chars` is how much extracted text the verdict was based on; 0 marks
+    a title-only screening that Stage 2 should redo once text arrives."""
     conn.execute("""
         UPDATE documents
         SET hydro_relevant = ?,
@@ -397,6 +407,7 @@ def save_ai_screening(conn, doc_id, hydro_relevant, reason, summary=None,
             topics = COALESCE(?, topics),
             directness = COALESCE(?, directness),
             evidence = COALESCE(?, evidence),
+            screened_text_chars = COALESCE(?, screened_text_chars),
             ai_processed_at = CURRENT_TIMESTAMP
         WHERE id = ?
     """, (1 if hydro_relevant else 0, reason, summary,
@@ -405,6 +416,7 @@ def save_ai_screening(conn, doc_id, hydro_relevant, reason, summary=None,
           ";".join(topics) if topics else None,
           directness,
           json.dumps(evidence, ensure_ascii=False) if evidence else None,
+          text_chars,
           doc_id))
     conn.commit()
 
@@ -701,6 +713,10 @@ def export_calendar_json(conn, output_path=None):
             "materials_url": row["materials_url"],
             "meeting_hydro_relevant": bool(row["hydro_relevant"]) if row["hydro_relevant"] is not None else None,
             "meeting_hydro_reason": row["hydro_relevance_reason"],
+            # null = never screened. The UI must show that as "pending", not
+            # as "not relevant" — collapsing the two hid a three-week
+            # screening outage in Sep 2026.
+            "meeting_screened_at": row["meeting_screened_at"],
             "issues": [dict(r) for r in meeting_issues],
             "documents": [],
         }
@@ -757,6 +773,7 @@ def export_calendar_json(conn, output_path=None):
                         "posted_date": doc["posted_date"],
                         "hydro_relevant": bool(doc["hydro_relevant"]) if doc["hydro_relevant"] is not None else None,
                         "hydro_relevance_reason": doc["hydro_relevance_reason"],
+                        "screened_at": doc["ai_processed_at"],
                         "ai_summary": doc["ai_summary"],
                         # Kept separate from ai_summary on purpose: this is the
                         # analyst's inference, not something the doc asserts.

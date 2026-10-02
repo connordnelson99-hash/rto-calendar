@@ -44,6 +44,11 @@ const MeetingRow = ({ event, selected, onSelect }) => {
               <span className="hydro-tri"/> {e.hydroDocCount > 0 ? `${e.hydroDocCount} doc${e.hydroDocCount>1?"s":""}` : "Relevant"}
             </span>
           )}
+          {!e.isRelevant && e.screeningPending && (
+            <span className="pending-flag" title="Not yet screened for hydro relevance — the next pipeline run will judge it">
+              Screening pending
+            </span>
+          )}
         </div>
         <div className="row-meta-line">
           {e.committee && <><span className="committee">{e.committee}</span><span className="dot">·</span></>}

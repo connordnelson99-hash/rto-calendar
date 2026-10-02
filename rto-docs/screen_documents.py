@@ -874,7 +874,16 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200,
         # Re-run if either gate is unset. Existing pre-stakeholder docs
         # have ai_processed_at set but stakeholders_extracted_at IS NULL,
         # so this naturally backfills the stakeholder column on next run.
-        where.append("(d.ai_processed_at IS NULL OR d.stakeholders_extracted_at IS NULL)")
+        #
+        # Also reopen title-only verdicts (screened_text_chars = 0) once text
+        # exists. CI re-downloads every in-window document daily, so a file
+        # that 403'd or timed out on day one usually has text by day two —
+        # but the verdict stamped on day one used to stand forever. 429 docs
+        # were judged blind that way before this gate existed.
+        where.append(
+            "(d.ai_processed_at IS NULL OR d.stakeholders_extracted_at IS NULL"
+            " OR (d.screened_text_chars = 0"
+            "     AND d.extracted_text IS NOT NULL AND d.extracted_text <> ''))")
     if rto_filter:
         where.append("d.rto = ?")
         params.append(rto_filter.upper())
@@ -948,7 +957,8 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200,
                                   topics=topics, directness=directness,
                                   evidence=evidence,
                                   hydro_read_through=read_through,
-                                  source_names_hydro=names_hydro)
+                                  source_names_hydro=names_hydro,
+                                  text_chars=doc_len)
                 save_document_stakeholders(
                     conn, doc["id"], stakeholders,
                     source_text=doc["extracted_text"]

@@ -87,6 +87,15 @@ jobs:
         working-directory: rto-docs
         run: python run_scrapers.py --export-only
 
+      - name: Pipeline health check
+        # Compares today's numbers to the recent baseline (meetings per RTO,
+        # text-extraction ratio, screening freshness and backlog, export
+        # sanity) and appends anything out of range to the failure marker.
+        # Always exits 0 so the commit below still publishes; the "Flag
+        # soft" step then turns the run red and sends the failure email.
+        working-directory: rto-docs
+        run: python check_health.py
+
       - name: Commit DB + JSON if changed
         run: |
           git config user.name  'github-actions[bot]'
@@ -96,6 +105,11 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Scrape: $(date -u +%Y-%m-%d) [skip ci]"
+            # main may have moved during the ~2h run (a code push). Replay
+            # this data-only commit on top rather than failing the push and
+            # discarding the day's screening. Two scrape runs can't overlap
+            # (concurrency group), so a genuine data conflict is not expected.
+            git pull --rebase origin main
             git push
           fi
 

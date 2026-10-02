@@ -3,6 +3,29 @@
 
 const { useState, useEffect, useMemo, useCallback } = React;
 
+// Pipeline freshness, next to the brand. Quiet when screening ran in the
+// last day and nothing in view is waiting; turns into a warning when the
+// newest verdict is more than two days old or items in the reader's window
+// are unscreened — so a stalled pipeline is visible on the page itself
+// rather than only in CI logs.
+function ScreeningStatus({ status }) {
+  if (!status || status.ageDays == null) return null;
+  const { ageDays, pendingCount } = status;
+  const stale = ageDays > 2;
+  if (!stale && pendingCount === 0) return null;
+  const age = ageDays === 0 ? "today" : ageDays === 1 ? "yesterday" : `${ageDays} days ago`;
+  const parts = [`Last hydro screening: ${age}`];
+  if (pendingCount > 0) {
+    parts.push(`${pendingCount} meeting${pendingCount === 1 ? "" : "s"} in view pending`);
+  }
+  return (
+    <span className={"screening-status" + (stale ? " stale" : "")}
+          title="How current the AI hydro-relevance screening is. Unscreened meetings show a 'Screening pending' tag rather than counting as not relevant.">
+      {parts.join(" · ")}
+    </span>
+  );
+}
+
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "theme": "light",
   "density": "comfortable",
@@ -212,6 +235,7 @@ function App() {
         <div className="brand">
           <img src="assets/NHA-Logo.png" alt="NHA" className="brand-logo-img"/>
           <span>RTO/ISO Calendar</span>
+          <ScreeningStatus status={data.screening}/>
         </div>
         <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
           <SearchBox data={data} filters={filters} setFilters={setFilters}
