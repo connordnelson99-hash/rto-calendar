@@ -541,6 +541,44 @@ class ScreeningError(RuntimeError):
     """
 
 
+# Account-level failures: every remaining call in the run fails identically,
+# so the per-row handlers must not swallow them. From 2026-09-10 to 09-30 the
+# account's monthly spend limit was hit and every call returned a 400 "You
+# have reached your specified API usage limits" — each row logged ERROR and
+# moved on, the job stayed green, and nothing was screened for three weeks.
+_FATAL_API_MESSAGES = ("usage limits", "credit balance is too low")
+FAILURE_MARKER = Path(__file__).parent / "logs" / "scraper_failures.txt"
+
+
+def _is_fatal_api_error(e):
+    try:
+        import anthropic
+    except ImportError:
+        return False
+    if isinstance(e, (anthropic.AuthenticationError,
+                      anthropic.PermissionDeniedError)):
+        return True
+    return (isinstance(e, anthropic.BadRequestError)
+            and any(s in str(e) for s in _FATAL_API_MESSAGES))
+
+
+def _abort_on_fatal_api_error(e):
+    """Stop the run on an account-level error, leaving the CI failure marker.
+
+    The workflow's last step fails the job when the marker exists, so the
+    scheduled run sends GitHub's failure email after the commit step has
+    published whatever was screened before the error.
+    """
+    print(f"ERROR: {e}")
+    print("\n!! Anthropic API rejected the account — stopping screening. "
+          "Unscreened items stay queued for the next run.", file=sys.stderr)
+    FAILURE_MARKER.parent.mkdir(exist_ok=True)
+    with FAILURE_MARKER.open("a", encoding="utf-8") as f:
+        f.write("screening (Anthropic API account error — check usage "
+                "limits / credit balance)\n")
+    sys.exit(1)
+
+
 def _call_claude(client, prompt, schema, max_tokens=256):
     """Call Claude with a constrained output shape. Returns the parsed dict.
 
@@ -797,6 +835,8 @@ def run_stage1(conn, client, rto_filter=None, rescreen=False, dry_run=False):
             if relevant:
                 relevant_count += 1
         except Exception as e:
+            if _is_fatal_api_error(e):
+                _abort_on_fatal_api_error(e)
             print(f"ERROR: {e}")
 
     print(f"\n  Stage 1 complete: {relevant_count}/{len(meetings)} meetings flagged as relevant")
@@ -945,6 +985,8 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200,
             if relevant:
                 relevant_count += 1
         except Exception as e:
+            if _is_fatal_api_error(e):
+                _abort_on_fatal_api_error(e)
             # Nothing is saved on failure, so ai_processed_at stays NULL and
             # this document is picked up again on the next run.
             print(f"ERROR: {e}")

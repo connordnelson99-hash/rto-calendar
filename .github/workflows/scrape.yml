@@ -21,7 +21,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
@@ -46,6 +46,16 @@ jobs:
         run: python run_scrapers.py --lookback 16 --lookahead 16
 
       - name: Screen meetings + documents (Claude)
+        # Bounded and non-fatal so a backlog can't take the commit down with
+        # it. On 2026-10-01 a three-week backlog (API usage limit) ran the
+        # whole job into its timeout mid-screening; every step after was
+        # skipped, so 340 paid screenings were thrown away — and the next day
+        # would have done the same. Each row commits as it's saved, so a step
+        # killed here still publishes everything it finished, and the rest
+        # stays queued. An account-level API error exits non-zero and leaves
+        # the failure marker, which the "Flag soft" step turns into a red run.
+        timeout-minutes: 50
+        continue-on-error: true
         working-directory: rto-docs
         run: python screen_documents.py
 
@@ -99,7 +109,7 @@ jobs:
         working-directory: rto-docs
         run: |
           if [ -f logs/scraper_failures.txt ]; then
-            echo "::error::Scraper(s) failed and were skipped (calendar still published from healthy sources): $(tr '\n' ' ' < logs/scraper_failures.txt)"
+            echo "::error::Step(s) failed and were skipped (calendar still published from what succeeded): $(tr '\n' ' ' < logs/scraper_failures.txt)"
             exit 1
           fi
           echo "All scrapers succeeded."
