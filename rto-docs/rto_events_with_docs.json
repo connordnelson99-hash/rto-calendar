@@ -375,6 +375,66 @@
     "documents": []
   },
   {
+    "title": "CLLSCO Meeting",
+    "date": "2026-10-26",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "CLLSCO",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "CLLSCO (Compliance, Legal, Legislative, and Strategic Communications Operations) handles administrative, compliance, and communications matters unrelated to market-design rules affecting hydro revenue, obligations, or strategic options.",
+    "meeting_screened_at": "2026-10-10 17:27:42",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Budget & Priorities Working Group",
+    "date": "2026-10-26",
+    "time": "10:00 AM - 2:00 PM",
+    "rto": "NYISO",
+    "committee": "Budget & Priorities Working Group",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/bpwg",
+    "materials_url": "https://www.nyiso.com/bpwg",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Budget & Priorities Working Group meetings address internal NYISO operational budgets and administrative priorities, not market-design rules, revenue mechanisms, or compliance obligations that affect hydropower operators.",
+    "meeting_screened_at": "2026-10-10 17:27:44",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "WMWG Meeting",
+    "date": "2026-10-26",
+    "time": "1:30 PM",
+    "rto": "ERCOT",
+    "committee": "Wholesale Market Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/10262026-WMWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/10262026-WMWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ERCOT's Wholesale Market Working Group addresses energy pricing, ancillary services, capacity mechanisms, and storage participation rules that set precedent for hydro-relevant market design even though ERCOT has minimal hydropower, making it a valuable comparison point for NHA's cross-market analysis.",
+    "meeting_screened_at": "2026-10-10 17:27:46",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "TDTMS Meeting",
+    "date": "2026-10-26",
+    "time": "1:30 PM",
+    "rto": "ERCOT",
+    "committee": "Texas Data Transport and MarkeTrak Systems Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/10262026-TDTMS-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/10262026-TDTMS-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Data Transport and MarkeTrak Systems are routine IT and operations administration topics with no bearing on market design, revenue mechanisms, obligations, or strategic options for hydropower and pumped-storage operators.",
+    "meeting_screened_at": "2026-10-10 17:27:47",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Interconnection Process Subcommittee Meeting",
     "date": "2026-10-23",
     "time": "9:00 a.m. - 12:00 p.m.",
@@ -1171,6 +1231,29 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "20261021 AC Item 06a Current Issue Questions on Impacts of Department of Energy Actions",
+        "filename": "20261021 AC Item 06a Current Issue Questions on Impacts of Department of Energy Actions.pdf",
+        "url": "https://cdn.misoenergy.org/20261021%20AC%20Item%2006a%20Current%20Issue%20Questions%20on%20Impacts%20of%20Department%20of%20Energy%20Actions787583.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "DOE emergency declarations under FPA Section 202 and resulting cost-allocation questions directly affect MISO resource investment decisions, retirement timing, and cost recovery \u2014 all of which shape the competitiveness and revenue security of dispatchable resources including hydropower.",
+        "screened_at": "2026-10-10 17:27:58",
+        "ai_summary": "MISO's Advisory Committee is gathering stakeholder input on four questions regarding the impacts of recent executive orders and DOE actions on the region: (1) whether those actions have helped maintain resource adequacy and grid reliability; (2) what changes MISO has made or proposed to planning assumptions, resource adequacy assessments, or market rules as a result; (3) whether retirements or other member plans have been delayed and at what cost and to whom; and (4) what further federal or DOE actions are needed to maintain affordable and reliable electricity. The document frames cost responsibility and cost allocation associated with DOE emergency declarations under Section 202 of the Federal Power Act as a central issue.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage. However, DOE Section 202 emergency declarations and the cost-allocation frameworks MISO is evaluating directly affect whether dispatchable plants\u2014including hydroelectric facilities\u2014face retirement pressure or operational extensions based on federal reliability mandates, and whether those operators recover extended-operation costs through market-wide allocation or bear them themselves. A hydro owner's ability to retire or operate long-term depends heavily on how MISO resolves these cost-allocation questions and how they reshape resource adequacy expectations.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "ops-compliance",
+          "ferc-policy"
+        ],
+        "directness": "direct",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -2143,6 +2226,21 @@
     "documents": []
   },
   {
+    "title": "Resource Adequacy Modeling and Program Design (RAMPD) Track 2",
+    "date": "2026-10-16",
+    "time": "9:00 AM - 4:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Resource Adequacy Modeling and Program Design",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/resource-adequacy-modeling-and-program-design-rampd-track-2-oct-16-2026-0900-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Resource-adequacy-modeling-and-program-design",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "CAISO's Resource Adequacy Modeling and Program Design (RAMPD) track directly affects how hydro and pumped-storage facilities are accredited, valued, and compensated in capacity markets, seasonal adequacy assessments, and multi-year RA constructs\u2014all core revenue and strategic mechanisms for NHA members in California.",
+    "meeting_screened_at": "2026-10-10 17:27:49",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MSWG Net Conference",
     "date": "2026-10-15",
     "time": "12:00 PM - 4:00 PM CT",
@@ -2757,6 +2855,27 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "2026-10-15 PSPC A02 2027-2028 ARA 3 Demand Curve Values",
+        "filename": "ara3_ccp2027-28_demand_urves.xlsx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100040/ara3_ccp2027-28_demand_urves.xlsx",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ISO-NE's annual 2027-2028 Accreditation Resource Adequacy (ARA) demand-curve reset directly sets the capacity-market parameters that determine non-energy-limited resource accreditation and payment, including the CONE assumption and demand-curve slope that govern how much seasonal capacity revenue conventional hydro and other dispatchable units receive.",
+        "screened_at": "2026-10-10 17:28:04",
+        "ai_summary": "This document presents ISO-NE's proposed 2027-2028 ARA (Accreditation Resource Adequacy) demand-curve values for the annual capacity-market auction. ARA demand curves set the reserve-margin target, pricing parameters (CONE, curve slope), and accreditation mechanics that determine resource payments in the Forward Capacity Market. The document is a PSPC agenda item dated 2026-10-15; specific curve values and next steps are not extracted from the document text provided.",
+        "hydro_read_through": "The document does not mention hydro directly, but ARA demand-curve parameters\u2014particularly CONE (cost of new entry), curve slope, and reserve-margin assumptions\u2014directly determine the seasonal capacity accreditation and revenue for conventional hydro, run-of-river, and other non-energy-limited dispatchable resources in ISO-NE's market. Changes to these parameters affect both the opportunity costs used to assess hydro's market-power mitigation reference level and the total capacity payment pool available to seasonal and annual accredited units. Hydro owners should track whether the proposed curve embeds any changes in how median availability or performance penalties are applied to dispatchable resources.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -3620,6 +3739,161 @@
         ],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "09d 2026 RNA - Market Monitoring Unit Presentation",
+        "filename": "09d_MMU%202026%20RNA%20Comments%20Presentation.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59339315/09d_MMU%202026%20RNA%20Comments%20Presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The MMU's comments on the 2026 RNA address capacity-market design, demand-curve parameters, and accreditation rules that directly affect how much revenue dispatchable resources (including hydropower) earn from NYISO's capacity market, and flag retirement risk and retirements among comparable units that set context for hydro fleet planning.",
+        "screened_at": "2026-10-10 17:28:16",
+        "ai_summary": "The NYISO Market Monitoring Unit presented comments on the 2026 Reliability Needs Assessment (RNA), finding that conservative planning assumptions and inadequate market incentives are driving retirements and out-of-market procurements. The MMU identified that ICAP demand curves are inefficiently low\u2014specifically citing that the two-hour battery proxy technology underestimates Net CONE by approximately 35 percent outside New York City (based on 2024 estimates)\u2014and recommended three market-design changes: (1) selecting a proxy unit consistent with actual cost of new entry (a dual fuel combustion turbine with 20-year amortization and consideration of residual value) in the 2028 Demand Curve Reset; (2) increasing capacity procurement targets to align with reliability planning; and (3) appropriately compensating capacity suppliers for transmission security contributions. The presentation also noted that over 800 MW proposed economic retirements in 2025 and 2026, and that conservative planning assumes 2.4 GW of New York City and Long Island steam-turbine retirements within the next decade plus 443 MW of NYPA GT retirements in 2031.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage directly, but speaks to the fundamental economics of the NYISO capacity market that all dispatchable resources depend on for revenue. If the demand curve's proxy unit underestimates the cost of new entry by 35 percent outside the City, the clearing prices set by that demand curve are systemically suppressing the revenues available to conventional hydro plants competing for accreditation in those zones\u2014precisely the same accreditation and capacity-pricing framework NYISO uses for all dispatchable generators. The MMU's recommendation to reset the proxy unit and raise procurement targets in 2028 would directly affect the capacity revenue hydro plants can expect; conversely, the document's characterization of an oversupplied capacity market setting low prices despite planning-identified reliability needs is a warning that hydro owners may face continued pricing pressure unless the market design changes the MMU proposes are adopted.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "mitigation-offers"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Two-hour battery proxy technology underestimates Net CONE by approximately 35 percent outside New York City based on 2024 estimates",
+            "quote": "Two-hour battery proxy technology underestimates Net CONE by ~35\npercent outside NYC (based on 2024 estimates)",
+            "verified": false
+          },
+          {
+            "claim": "Over 800 MW proposed to economically retire in 2025 and 2026",
+            "quote": "Over 800 MW proposed to economically retire in 2025 and 2026",
+            "verified": true
+          },
+          {
+            "claim": "2.4 GW of retirements in NYC and LI assumed in the Base Case over the next decade",
+            "quote": "Half of existing steam turbines in NYC and LI assumed to retire in next\ndecade (2.4 GW of retirements) regardless of market prices",
+            "verified": false
+          },
+          {
+            "claim": "443 MW of NYPA GTs assumed to retire in 2031",
+            "quote": "NYPA GTs (443 MW) assumed to retire in 2031 despite reliability exemption",
+            "verified": true
+          },
+          {
+            "claim": "1,450 MW increase to statewide Reliability Need if illustrative scenarios were used",
+            "quote": "If illustrative scenarios discussed in the 2026 RNA were used, we estimate\nit would have increased the statewide Reliability Need by 1,450 MW",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Joe Coscia",
+            "entity": "Potomac Economics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Pallas LeeVanSchaick",
+            "entity": "Potomac Economics",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "decision",
+        "title": "09e 2026 RNA - Memo from the Market Monitoring Unit",
+        "filename": "09e_MMU%20Comments%20on%202026%20RNA%2010-9-26-final.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59339315/09e_MMU%20Comments%20on%202026%20RNA%2010-9-26-final.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO's Market Monitoring Unit assesses whether market-design changes are needed to address reliability needs, and recommends capacity-market and planning-process reforms that affect revenue adequacy, resource-adequacy accreditation, and retention incentives for dispatchable generation \u2014 all directly applicable to conventional hydro and pumped-storage participation in NYISO markets.",
+        "screened_at": "2026-10-10 17:28:34",
+        "ai_summary": "The NYISO Market Monitoring Unit comments on the 2026 Reliability Needs Assessment, finding that planning targets (statewide capacity deficiency of 225 MW in 2033 rising to 1,850 MW in 2036; New York City transmission security deficiency of 400 MW in 2032 rising to 1,850 MW in 2036) significantly exceed current market procurement levels, creating a planning-market gap. The MMU attributes this to: (1) overly conservative planning assumptions including assumed retirement of 2.6 GW of older generation by 2036 and NYPA fossil units with explicit reliability exemptions; (2) a proposed scenario-planning approach estimated to double statewide resource-adequacy needs; and (3) capacity-market demand curves based on a two-hour battery that underestimate required net cost of new entry by approximately 35 percent outside New York City. The MMU recommends: reverting to a dual-fuel combustion turbine proxy with 20-year amortization for the 2028 Demand Curve Reset; raising the capacity market's level of excess to align with implied planning margins; adopting planning principles that do not treat policy-driven retirements as exogenous; crediting partial market-based solutions against reliability needs; and using staged solutions to avoid premature commitment to oversized regulated capacity. The memo is addressed to Richard J. Dewey and is intended for the Operating Committee.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage directly. However, the MMU's core finding\u2014that market revenue under current capacity-market design is insufficient to retain existing generation despite declared reliability needs\u2014applies squarely to conventional hydro and PSH assets. The MMU documents over 800 MW of economic retirements already in motion despite reliability needs, and identifies two mechanisms that suppress revenue for dispatchable generation: a planning-market gap where conservative planning reserves exceed capacity-market procurement targets, and underestimated proxy costs in the demand curve that leave prices below what is needed to sustain capital-intensive assets with deferred maintenance. If the MMU's recommendations are adopted\u2014particularly the move to a higher-cost proxy unit and higher procurement targets\u2014NYISO capacity-market revenues would increase, directly improving the economic case for hydro retention and maintenance investment. Conversely, if the scenario-planning proposal moves forward without demand-curve reform, the revenue gap for existing dispatchable generators would widen further.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "price-formation",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "statewide capacity deficiency of 225 MW in 2033 rising to 1,850 MW in 2036",
+            "quote": "The Base Case shows a statewide capacity deficiency requiring approximately 225 MW of additional capacity in 2033 and rising to 1,850 MW in 2036.",
+            "verified": true
+          },
+          {
+            "claim": "New York City transmission security deficiency of 400 MW in 2032 rising to 1,850 MW in 2036",
+            "quote": "It also finds a New York City transmission security deficiency requiring 400 MW in 2032 and rising to 1,850 MW in 2036.",
+            "verified": true
+          },
+          {
+            "claim": "4.6 GW of generator retirements since 2019",
+            "quote": "Since 2019, New York State (\"State\") policies have led to 4.6 GW of generator retirements",
+            "verified": true
+          },
+          {
+            "claim": "assumed retirement of 2.6 GW of generation by 2036 under aging generation methodology",
+            "quote": "Based on the ages when generators have historically retired nationwide, the approach estimates 2.6 GW of generation will retire by 2036",
+            "verified": true
+          },
+          {
+            "claim": "approximately 35 percent underestimation of net cost of new entry outside New York City",
+            "quote": "We estimate this underestimated the cost of capacity needed to address reliability needs by approximately 35 percent in areas outside of New York City.",
+            "verified": true
+          },
+          {
+            "claim": "over 800 MW of generators proposed for economic retirement in 2025 and 2026",
+            "quote": "In 2025 and 2026 to date, over 800 MW of generators notified NYISO they intended to retire without a mandatory policy or environmental requirement.",
+            "verified": true
+          },
+          {
+            "claim": "estimated impact of scenario planning approach would increase statewide resource adequacy need by 375 MW in 2033 and 1,450 MW by 2036",
+            "quote": "We estimate the proposal would have increased the statewide Reliability Need by 375 MW in 2033 and 1,450 MW by 2036.",
+            "verified": true
+          },
+          {
+            "claim": "180 MW of capacity retained on Long Island and 500 MW in G-J Locality using cost-of-service rates",
+            "quote": "In 2026, NYISO retained 180 MW of capacity proposing to retire on Long Island using cost-of-service rates for four months and has retained 500 MW in the G-J Locality since August 1.",
+            "verified": true
+          },
+          {
+            "claim": "NYPA fossil units provide 443 MW of summer capacity, primarily in New York City",
+            "quote": "These units provide 443 MW of summer capacity, primarily in New York City.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Richard J. Dewey",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "David Patton",
+            "entity": "Potomac Economics (MMU for NYISO)",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Joseph Coscia",
+            "entity": "Potomac Economics (MMU for NYISO)",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Pallas LeeVanSchaick",
+            "entity": "Potomac Economics (MMU for NYISO)",
+            "role": "author",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -4158,6 +4432,55 @@
         "topics": [],
         "directness": null,
         "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261015 ERCOT CTP Batch workshop_3a_Batch",
+        "filename": "20261015-ERCOT-CTP-Batch-workshop_3a_Batch.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/10/09/20261015-ERCOT-CTP-Batch-workshop_3a_Batch.pptx",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large load interconnection rules, BYOG/PCLR participation models, and battery-storage registration frameworks set precedent for how ERCOT allocates transmission capacity and co-location arrangements, which establishes the template for similar decisions in hydro-rich markets and informs NHA members' strategic options for hybrid and storage-participation pathways.",
+        "screened_at": "2026-10-10 17:28:47",
+        "ai_summary": "ERCOT's Large Load Batch interconnection process workshop discusses standardization under PUCT Project 58481, batch restudy proposals, and co-located resource enhancements. Key mechanics include: (1) mandatory intermediate agreements with $100K study fees and $50K/MW financial security; (2) interconnection-study timelines and re-study triggers for project changes; (3) a Load Integration & Ongoing Operations (LIOO) portal with initial release in December 2026 offering read-only external access to large-load status; (4) monthly Large Load Interconnection Status Report (NPRR 1267, approved June 2025, not yet implemented) aggregating projects by load zone, TSP, load type, submission quarter, energization quarter, size range, interconnection status, and co-location status, with five-customer-minimum aggregation thresholds for anonymity; and (5) deep-dive evaluation of three battery-energy-storage configurations serving large computational loads (UPS ride-through-only, parallel BESS without grid exports, and market-participating ESR), each with distinct interconnection-study paths, modeling requirements, and registration treatments. ERCOT is triaging BYOG and PCLR enhancements including WLPUN opt-out options, dynamic-limit concepts, alternative interconnection pathways, and rules for operational batteries and temporary generation.",
+        "hydro_read_through": "This document does not address hydropower or pumped-storage directly; it concerns large-load interconnection rules, transmission-allocation mechanics, and co-located battery-storage configurations in ERCOT. However, the framework is significant for NHA members because (1) the standardized interconnection study process, financial-security and ramp-performance rules, and batch-restudy penalties establish a model that other RTOs may adopt or that set benchmarks against which alternative market designs are judged; (2) the BYOG and PCLR enhancement pipeline\u2014particularly the netted-network, temporary-generation, and operational-battery concepts\u2014demonstrates how storage and flexible load can be integrated into large-customer arrangements, creating precursors that PSH co-location or hybrid-supply models might follow; and (3) the three-configuration BESS taxonomy and separate modeling/registration pathways offer templates for how energy-storage ride-through versus market participation are legally and operationally decoupled, a distinction central to PSH participation design in other markets.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "storage",
+          "interconnection"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "LIOO portal initial release December 2026",
+            "quote": "Anticipated Release: December 2026",
+            "verified": true
+          },
+          {
+            "claim": "NPRR 1267 monthly Large Load Interconnection Status Report approved June 2025, not yet implemented",
+            "quote": "NPRR 1267 as a starting point for Large Load transparency (approved June 2025, not implemented)",
+            "verified": true
+          },
+          {
+            "claim": "Intermediate agreement includes $100K TSP/DSP study fee",
+            "quote": "TSP/DSP study fee ($100K)",
+            "verified": true
+          },
+          {
+            "claim": "Intermediate agreement includes $50K/MW financial security for system upgrades",
+            "quote": "Financial security for system upgrades ($50K/MW)",
+            "verified": true
+          },
+          {
+            "claim": "Five-customer minimum aggregation threshold for data disclosure protection",
+            "quote": "When aggregating Customer data, ERCOT should ensure that at least five Customers exist in a particular Load type subcategory prior to aggregation, to protect against accidental disclosure",
+            "verified": true
+          }
+        ],
         "issues": [],
         "stakeholders": []
       }
@@ -6836,7 +7159,7 @@
         "filename": "20261014 PSC Item 01d Management Plan.pdf",
         "url": "https://cdn.misoenergy.org/20261014%20PSC%20Item%2001d%20Management%20Plan786858.pdf",
         "member_url": null,
-        "posted_date": "2026-10-07",
+        "posted_date": "2026-10-09",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document is a management and administrative plan for the MISO Planning Subcommittee\u2014it lists meeting schedules, recurring tasks, and governance procedures with no substantive discussion of market design, revenue mechanisms, compliance obligations, or strategic options affecting hydropower.",
         "screened_at": "2026-10-08 19:14:24",
@@ -6873,6 +7196,72 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "report",
+        "title": "20261014 PSC Item 02 Liaison Report.pdf",
+        "filename": "20261014 PSC Item 02 Liaison Report.pdf",
+        "url": "https://cdn.misoenergy.org/20261014%20PSC%20Item%2002%20Liaison%20Report787587.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a liaison and logistics report covering transmission planning cycles, stakeholder feedback deadlines, workshop registration, and administrative updates\u2014none of which directly affect hydropower revenue mechanisms, compliance obligations, or strategic market-design choices.",
+        "screened_at": "2026-10-10 17:29:43",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Arthur Ashby",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "PlanningCoordinator@MISOEnergy.org"
+          },
+          {
+            "name": "Trevor Armstrong",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "PlanningCoordinator@MISOEnergy.org"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "20261014 PSC Item 04 LRTP Update.pdf",
+        "filename": "20261014 PSC Item 04 LRTP Update.pdf",
+        "url": "https://cdn.misoenergy.org/20261014%20PSC%20Item%2004%20LRTP%20Update787588.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's Long-Range Transmission Plan modeling methodology directly affects hydro's strategic revenue option of serving large co-located loads and data centers, and the transmission adequacy framework determines whether existing hydro plants retain or lose deliverability and scarcity value under future load-growth scenarios.",
+        "screened_at": "2026-10-10 17:29:54",
+        "ai_summary": "MISO presented its methodology for incorporating large-scale load (data-center and co-located industrial demand) into its Series 2 Long-Range Transmission Plan (LRTP) economic and reliability models for study years 2035, 2040, and 2045. The methodology scales large-load inputs to respect aggregate load-forecast boundaries (Light Load Transfer Function boundaries) to avoid infeasible regional conditions, with modeled large loads ranging from 21\u201329 GW across the MISO footprint under Future 2 and 33\u201348 GW under Future 3+, depending on year. MISO is building both economic (PROMOD) and reliability (PSSE/powerflow) models with a target of November 2026 Planning Advisory Committee discussion of preliminary analysis results from Future 2 Year 20, followed by continued transmission-need identification into 2027 within MISO's 7-Step Planning Process.",
+        "hydro_read_through": "The document does not mention hydropower or storage directly. However, MISO's framework for modeling large loads as fixed demand shapes will determine how much scarcity and transmission congestion appear in the models, and thus which transmission solutions are deemed 'regrets' for the region. Hydro owners whose plants face persistent congestion or locational under-valuation benefit from transmission expansion identified as needed to relieve bottlenecks under load-growth scenarios; conversely, if the modeling underestimates scarcity or assumes away congestion, transmission investment may be under-scaled and hydro's locational revenue signals will remain artificially depressed. The methodology's constraint to LTLF light-load boundaries is a modeling choice that could mask or suppress the value of flexible, dispatchable resources (such as conventional hydro or pumped storage) during peak-load or ramp-critical conditions\u2014a risk if the models treat large loads as fixed rather than dispatchable.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "transmission",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Modeled large loads of 21\u201329 GW under Future 2 (2035, 2040, 2045) and 33\u201348 GW under Future 3+ (2035, 2040, 2045) across MISO footprint",
+            "quote": "| Future and Year | Modeled Large Load (GW) |\n| F2 2035 | 21 |\n| F2 2040 | 26 |\n| F2 2045 | 29 |\n| F3+ 2035 | 33 |\n| F3+ 2040 | 42 |\n| F3+ 2045 | 48 |",
+            "verified": true
+          },
+          {
+            "claim": "Target of November 2026 Planning Advisory Committee for preliminary discussion on Future 2 analysis results",
+            "quote": "MISO is in the process of building and dispatching both economic and reliability models, with a target of November PAC for a preliminary discussion on analysis results from Future 2",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -7298,17 +7687,308 @@
   {
     "title": "Load Analysis Subcommittee Meeting",
     "date": "2026-10-14",
-    "time": "9:00 a.m. - 4:00 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "Load Analysis Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={1E6383CA-A96E-4955-9CFD-78AD30E9440C}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Load analysis subcommittee work on load forecasting, growth, and resource adequacy directly informs transmission planning, capacity market requirements, and scarcity conditions that affect hydro revenue and strategic options in the PJM footprint.",
     "meeting_screened_at": "2026-10-02 19:31:48",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20261014-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261014/20261014-agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Load forecasting for electric vehicles and behind-the-meter solar/storage directly informs PJM's resource-adequacy planning and the locational value of generation assets; changes in demand composition and distributed resources affect scarcity signals, price formation, and the strategic positioning of dispatchable and storage resources in PJM.",
+        "screened_at": "2026-10-10 17:28:57",
+        "ai_summary": "PJM's Load Analysis Subcommittee will review the methodology and results for the 2027 Long Term Load Forecast on October 14, 2026. Two presenters from S&P Global\u2014Fidel Gonzalez (electric vehicle forecast) and Ivonne Pena Cabra (behind-the-meter solar and storage forecast)\u2014will cover annual forecasting inputs for the upcoming year. Future meetings are scheduled for November 2, 2026 (materials due October 26, published October 28) and November 24, 2026 (materials due November 17, published November 19).",
+        "hydro_read_through": "This document does not mention hydropower or storage directly. The forecast inputs\u2014EV load growth and distributed solar and storage behind the meter\u2014are material to PJM's resource-adequacy baseline and long-run scarcity expectations. Upward EV forecasts increase peak load and the value of flexible generation; upward BTM storage forecasts reduce net load and can dampen scarcity pricing. Hydro owners benefit from load growth (scarcity margin tightens, price floors rise) but face headwinds from BTM solar/storage (net load flattens, ancillary-service and ramping demand may shift). The forecasts themselves are backward-looking; the strategic question for hydro is whether PJM's RA accreditation or transmission planning will adjust in response to new load or DG assumptions.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "capacity-ra"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "October 14, 2026 meeting date and 9:00 a.m. \u2013 12:00 p.m. EPT time",
+            "quote": "October 14th, 2026\n9:00 a.m. \u2013 12:00 p.m. EPT",
+            "verified": true
+          },
+          {
+            "claim": "November 2, 2026 meeting materials due October 26, 2026 and published October 28, 2026",
+            "quote": "11/2/2026 9:00-4:00 Teleconference / WebEx 10/26/2026 10/28/2026",
+            "verified": true
+          },
+          {
+            "claim": "November 24, 2026 meeting materials due November 17, 2026 and published November 19, 2026",
+            "quote": "11/24/2026 9:00-4:00 Teleconference / WebEx 11/17/2026 11/19/2026",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Andy Hevey",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Fidel Gonzalez",
+            "entity": "S&P Global",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ivonne Pena Cabra",
+            "entity": "S&P Global",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20261014-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261014/20261014-agenda-doc.docx",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Load forecasting drives resource adequacy planning and scarcity conditions that affect hydro's peak-period energy value and flexible-capacity accreditation; EV and behind-the-meter solar forecasts shape the demand profile hydro operators must serve.",
+        "screened_at": "2026-10-10 17:29:06",
+        "ai_summary": "The Load Analysis Subcommittee is holding a teleconference on October 14, 2026 to review the methodology and results of two forecasts for PJM's 2027 Long Term Load Forecast: an electric vehicle forecast and a behind-the-meter solar and storage forecast, both to be presented by S&P Global consultants. Future meetings are scheduled for November 2 and November 24, 2026, with materials due to the secretary on October 26 and November 17 respectively.",
+        "hydro_read_through": "The document does not mention hydropower or storage directly. However, long-term load forecasts are foundational inputs to resource adequacy studies and capacity accreditation processes that determine which resources clear in PJM's capacity markets and at what prices. The EV and behind-the-meter solar-and-storage forecasts being developed here will shape PJM's modeled peak demand and load shapes over the next several years\u2014changes in those shapes directly affect when and how much dispatchable energy capacity (including hydro) the region needs and what scarcity prices hydro can earn during peak periods.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "capacity-ra"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "Teleconference on October 14, 2026; 9:00 a.m. \u2013 12:00 p.m. EPT",
+            "quote": "Load Analysis Subcommittee\nTeleconference / WebEx\nOctober 14th, 2026\n9:00 a.m. \u2013 12:00 p.m. EPT",
+            "verified": true
+          },
+          {
+            "claim": "Future meeting dates: November 2, 2026 and November 24, 2026",
+            "quote": "| 11/2/2026 | 9:00-4:00 | Teleconference / WebEx | 10/26/2026 | 10/28/2026 |\n| 11/24/2026 | 9:00-4:00 | Teleconference / WebEx | 11/17/2026 | 11/19/2026 |",
+            "verified": true
+          },
+          {
+            "claim": "Materials due October 26, 2026 and November 17, 2026",
+            "quote": "| 11/2/2026 | 9:00-4:00 | Teleconference / WebEx | 10/26/2026 | 10/28/2026 |\n| 11/24/2026 | 9:00-4:00 | Teleconference / WebEx | 11/17/2026 | 11/19/2026 |",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Andy Hevey",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Fidel Gonzalez",
+            "entity": "S&P Global",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ivonne Pena Cabra",
+            "entity": "S&P Global",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "Item 02 \u2013 Draft Minutes \u2013 LAS \u2013 092826",
+        "filename": "20261014-item-02---draft-minutes---las---092826.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261014/20261014-item-02---draft-minutes---las---092826.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is draft meeting minutes from PJM's Load Analysis Subcommittee covering large load adjustment requests for the 2027 forecast\u2014a load-forecasting and demand-planning matter with no direct bearing on hydro or PSH revenue streams, compliance obligations, or strategic options.",
+        "screened_at": "2026-10-10 17:29:09",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Andy Hevey",
+            "entity": "PJM Interconnection",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Item 03 \u2013 Spglobal Electric Vehicle Forecast",
+        "filename": "20261014-item-03---spglobal-electric-vehicle-forecast.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261014/20261014-item-03---spglobal-electric-vehicle-forecast.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Electric vehicle charging demand forecasts for PJM zones directly impact load-growth drivers and system dispatch requirements that hydro operators must accommodate and may create revenue opportunities through flexible ramping and peaking supply.",
+        "screened_at": "2026-10-10 17:29:22",
+        "ai_summary": "S&P Global's September 2026 forecast projects total EV charging load in PJM will reach approximately 83 TWh annually by 2047, split between light-duty vehicles (61 TWh) and medium/heavy-duty vehicles (22 TWh). Light-duty EV peak load is forecast at 14.1 GW in October 2047 (hour 9), while medium/heavy-duty peak load reaches 5.1 GW in December 2047 (hour 4). The forecast models evolving charging behavior: early evening peaks (2027) will shift toward morning and midday charging by 2047 as time-of-use (TOU) rate structures incentivize load during solar-generation hours and as managed-charging penetration increases. Medium/heavy-duty charging remains concentrated in early morning hours (midnight\u20134 AM) across all forecast years. The analysis incorporates revised downward assumptions on BEV penetration (12% by 2035, 29% by 2045, down from prior year's 39% by 2045) due to weakened EPA and CAFE regulations and rescission of Advanced Clean Cars/Trucks rules. Forecast by PJM zone shows ComEd, PSEG, and BGE zones experiencing the largest absolute EV loads.",
+        "hydro_read_through": "This document does not mention hydro or PSH directly. However, the shift in EV charging patterns\u2014particularly the move from early evening peaks toward morning and midday charging\u2014directly reshapes the net load shape that hydro must balance. Morning charging during high solar generation creates a valley that hydro will need to fill during daytime hours and then ramp down sharply in late afternoon, increasing ramping and flexibility demands on hydro resources. The magnitude (14+ GW peak by 2047) represents significant new load volatility that will test hydro's ability to manage multiple ramp events per day, especially in shoulder-season periods when hydro availability may be constrained. For PSH specifically, the daytime charging valley and evening recharge window could improve economic dispatch windows if TOU rates create predictable arbitrage opportunities, but operational must-offer rules and minimum energy discharge requirements may limit ability to exploit those windows.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "price-formation",
+          "ramping-flexibility"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "total EV load in PJM reaches approximately 83 TWh annually by 2027\u20132047 period",
+            "quote": "Total EV load in PJM continues to increase; however, the outlook has been revised down compared to 2025 due to slower BEV growth",
+            "verified": true
+          },
+          {
+            "claim": "light-duty EV peak load reaches 14.1 GW in October 2047 at hour 9",
+            "quote": "2047 6,997 14,087 October 9",
+            "verified": true
+          },
+          {
+            "claim": "medium/heavy-duty EV peak load reaches 5.1 GW in December 2047 at hour 4",
+            "quote": "2047 2,502 5,100 December 4",
+            "verified": true
+          },
+          {
+            "claim": "BEV penetration revised to 12% by 2035 and 29% by 2045",
+            "quote": "US LV EV penetration reaches 12% by 2035 and 29% by 2045 (compared to 39% by 2045 previously)",
+            "verified": true
+          },
+          {
+            "claim": "charging behavior shifts from evening peaks to morning and midday due to TOU rates and solar penetration",
+            "quote": "Time of use (TOU) rates \u2013 Over time, time of use rates will push customers to avoid charging immediately when they get home in the evening, gradually lowering the 18-21h peak",
+            "verified": false
+          },
+          {
+            "claim": "solar penetration will cause prices to drop during daylight hours, incentivizing charging during early morning",
+            "quote": "In the mid 2030s, increasing solar PV penetration will cause prices to drop during daylight hours, incentivizing charging during the early morning and displacing late night charging",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Mobility Global",
+            "entity": "Mobility Global",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "S&P Global Energy",
+            "entity": "S&P Global Inc.",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Item 04 \u2013 Spglobal Btm Solar Storage Forecast",
+        "filename": "20261014-item-04---spglobal-btm-solar-storage-forecast.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261014/20261014-item-04---spglobal-btm-solar-storage-forecast.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Behind-the-meter solar and battery forecasting directly affects hydro's competitive position and market value through distributed solar growth, NEM reform dynamics, and battery storage deployment trajectories that reshape wholesale demand and ancillary-service opportunity costs in PJM.",
+        "screened_at": "2026-10-10 17:29:40",
+        "ai_summary": "S&P Global Energy prepared a 22-year forecast of behind-the-meter (BTM) solar photovoltaic and battery storage capacity additions across 14 PJM states (DC, DE, IL, IN, KY, MD, MI, NC, NJ, OH, PA, TN, VA, WV) through 2047, presented to PJM's Load Analysis Subcommittee on October 14, 2026. The forecast models three scenarios based on federal tax-credit policy changes from the One Big Beautiful Bill Act (OBBBA), enacted July 4, 2025, which eliminated homeowner investment tax credits (ITC) for residential solar effective December 31, 2025, and restricted third-party-owned systems to qualification through end of 2027. The base case projects total BTM solar additions of approximately 5 GW across the 14 states over 2026\u20132047, with peak battery storage additions around 2034 as the ITC for battery energy storage systems declines. Net energy metering (NEM) policy reforms\u2014already adopted or pending in multiple states\u2014are modeled as a critical constraint on distributed solar growth; eight states currently maintain NEM, six have transitioned away, and further reforms are expected to slow but not halt deployments. Maryland, New Jersey, Illinois, Pennsylvania, and North Carolina account for 66% of projected solar additions and 80% of battery additions. Residential battery additions are forecast at 2,779 MW cumulative 2026\u20132047; commercial & industrial battery additions at 1,167 MW cumulative. The forecast does not include data-center batteries and notes ongoing collaborative conversation with PJM on capacity assumptions.",
+        "hydro_read_through": "Rapid BTM solar and battery growth at the scale projected here\u20145 GW solar, 4 GW total battery storage over 22 years in PJM\u2014flattens daytime wholesale energy prices and reduces the duration and magnitude of real-time scarcity events when hydro typically earns premium revenue. Large-scale battery deployment, especially paired with solar, creates both competition for spinning reserves and ancillary-service opportunities but compresses the energy-price signals that make ramping services valuable. NEM reforms that increase time-of-use pricing create incentive structures that favor behind-the-meter storage arbitrage over grid export, further reducing the wholesale wholesale hours during which hydro's flexibility and energy would command premium prices. The document does not address how storage behind the meter participates in PJM's markets or settlement, nor how accreditation or capacity rules might evolve; those gaps matter enormously to hydro owners' long-run resource adequacy and scarcity-pricing exposure.",
+        "source_names_hydro": true,
+        "topics": [
+          "load-growth",
+          "storage",
+          "clean-energy"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "OBBBA, enacted July 4, 2025, eliminated homeowner ITC for residential solar effective December 31, 2025",
+            "quote": "The One Big Beautiful Bill Act (OBBBA) (signed into law on July 4, 2025), brought significant changes to the tax credits for wind and solar generation, including behind the meter generation \u25aa The OBBBA shortened or abruptly ended all tax credits outlined by the Inflation Reduction Act of 2022 (IRA) for solar \u2013 Starting in 2026, homeowner-owned residential solar PV systems no longer qualify for the ITC",
+            "verified": true
+          },
+          {
+            "claim": "Third-party-owned solar systems qualify for ITC through end of 2027",
+            "quote": "Tax credits for third-party owned systems (leased) are available for projects until 2028",
+            "verified": true
+          },
+          {
+            "claim": "Total BTM solar additions across 14 states projected at approximately 5 GW over 2026\u20132047",
+            "quote": "Total additions over 22 years in the 14 states are approx. 5 GW",
+            "verified": true
+          },
+          {
+            "claim": "Battery storage peak additions projected around 2034 when ITC for BESS is expected to decrease",
+            "quote": "From 2026-2035, both residential and C&I additions will increase, peaking around 2034, when the ITC for BESS is expected to decrease",
+            "verified": true
+          },
+          {
+            "claim": "Residential battery additions cumulative 2,779 MW",
+            "quote": "2,779",
+            "verified": true
+          },
+          {
+            "claim": "Commercial & industrial battery additions cumulative 1,167 MW",
+            "quote": "1,167",
+            "verified": true
+          },
+          {
+            "claim": "Five states (Maryland, New Jersey, Illinois, Pennsylvania, North Carolina) account for 66% of solar and 80% of battery additions",
+            "quote": "These states combined additions for Solar PV between 2026-2047 account for nearly 66% of the forecast across the PJM region. For batteries, combined additions in the period account for nearly 80% of the forecast across the PJM region.",
+            "verified": true
+          },
+          {
+            "claim": "Eight states maintain NEM policies; six have transitioned away or do not have NEM",
+            "quote": "Eight states currently have NEM policies in place: DC, Maryland, Delaware, Virginia, West Virginia, Pennsylvania, Ohio, New Jersey. For example, Maryland increased cap to 6,000 MW reflects a positive landscape for further additions \u2013 Six states have already transitioned from a pure NEM rate or do not currently have a NEM in place: Illinois, Indiana, Kentucky, Michigan, North Carolina, Tennessee",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Christopher Wilfong",
+            "entity": "S&P Global Energy / CERA Consulting",
+            "role": "author",
+            "email": "Christopher.Wilfong@spglobal.com"
+          },
+          {
+            "name": "Isabel Canales",
+            "entity": "S&P Global Energy / CERA Consulting",
+            "role": "author",
+            "email": "Isabel.canales@spglobal.com"
+          },
+          {
+            "name": "Ivonne Pena Cabra",
+            "entity": "S&P Global Energy / CERA Consulting",
+            "role": "author",
+            "email": "Ivonne.pena.cabra@spglobal.com"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Congestion Revenue Allocation (CRA) Phase 1 Settlements Overview",
@@ -8545,6 +9225,165 @@
             "entity": "ERCOT",
             "role": "author",
             "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "05. MPSP_IAM RMS_Update_20261013",
+        "filename": "05.-MPSP_IAM-RMS_Update_20261013.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/10/09/05.-MPSP_IAM-RMS_Update_20261013.pptx",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "ERCOT administrative modernization of identity/access management and internal market-participant portal systems \u2014 no market-design mechanism affecting hydro revenue, compliance obligations, or strategic options",
+        "screened_at": "2026-10-10 17:29:56",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "05. ERCOT_IT_Report_2026_Oct_RMS",
+        "filename": "05.-ERCOT_IT_Report_2026_Oct_RMS.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/10/09/05.-ERCOT_IT_Report_2026_Oct_RMS.pptx",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine IT operational report on MarkeTrak system performance, SLA compliance, and maintenance activities\u2014retail-market data-system mechanics with no bearing on energy market design, pricing, dispatch, capacity, or hydro revenue/obligations.",
+        "screened_at": "2026-10-10 17:29:59",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Vikram Gupta",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "05. Inadvertent Stats - July 2026",
+        "filename": "05.-Inadvertent-Stats-July-2026.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/10/09/05.-Inadvertent-Stats-July-2026.pptx",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine monthly retail-market settlement statistics report on inadvertent account gains/losses (IAG/IAL) and rescission rates for ERCOT retail electric providers; it contains no market-design provisions, revenue rules, compliance obligations, or strategic options affecting hydropower or pumped-storage participation.",
+        "screened_at": "2026-10-10 17:30:02",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Michelsen",
+            "entity": "ERCOT",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "05. Retail_SLA_RedLine_2027-RMS",
+        "filename": "05.-Retail_SLA_RedLine_2027-RMS.docx",
+        "url": "https://www.ercot.com/files/docs/2026/10/09/05.-Retail_SLA_RedLine_2027-RMS.docx",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a ERCOT retail-market IT service-level agreement (system availability targets for transaction processing, MarkeTrak tracking, and release windows) with no bearing on hydro or pumped-storage revenue streams, compliance obligations, market participation rules, or strategic options.",
+        "screened_at": "2026-10-10 17:30:06",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Aaron Smallwood",
+            "entity": "ERCOT",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Dave Pagliai",
+            "entity": "ERCOT",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Kyle Patrick",
+            "entity": "ERCOT",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Mick Hanna",
+            "entity": "ERCOT",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Trey Felton",
+            "entity": "ERCOT",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Vikram Gupta",
+            "entity": "ERCOT",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "05. RMS DR Survey Status Update Oct 13 2026",
+        "filename": "05.-RMS-DR-Survey-Status-Update-Oct-13-2026.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/10/09/05.-RMS-DR-Survey-Status-Update-Oct-13-2026.pptx",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document reports on ERCOT's demand-response and price-response survey administration for retail market participants (REPs and NOIEs); it contains no market-design rules, participation models, pricing mechanisms, or strategic developments affecting hydropower or pumped-storage revenue, obligations, or options.",
+        "screened_at": "2026-10-10 17:30:09",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Alex Sills",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": "Alex.sills@ercot.com"
+          },
+          {
+            "name": "Carl Raish",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": "Carl.raish@ercot.com"
           }
         ]
       }
@@ -15554,7 +16393,104 @@
     "meeting_hydro_reason": "CAISO's Department of Market Monitoring report on market issues and performance typically covers energy pricing, ancillary services, capacity accreditation, storage participation, and resource adequacy \u2014 all core axes for hydro and PSH revenue and operations \u2014 and serves as reference material for understanding market-design trends affecting the West's largest hydro-exporting ISO.",
     "meeting_screened_at": "2026-10-02 19:31:55",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - 2026 Second Quarter Report on Market Issues and Performance - Oct 08, 2026",
+        "filename": "presentation-2026-second-quarter-report-on-market-issues-and-performance-oct-08-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-2026-second-quarter-report-on-market-issues-and-performance-oct-08-2026.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Q2 2026 CAISO Market Monitoring report documents early EDAM market performance including energy pricing, imbalance reserves, flexible ramping products, and real-time market mitigation \u2014 all key mechanisms for hydro and PSH participation and revenue, plus Western interregional market integration now operational.",
+        "screened_at": "2026-10-10 17:30:20",
+        "ai_summary": "CAISO's Department of Market Monitoring Q2 2026 report covers market performance in the first two months of EDAM operation (May\u2013June 2026). Western electricity prices fell 49% compared to Q2 2025 amid lower natural gas prices. EDAM transfers averaged 670 MW across May and June, with PacifiCorp West averaging net inflows. The resource sufficiency evaluation failed very infrequently. Imbalance reserve costs were reasonable, though 51% of upward imbalance reserves were met by gas generation. A significant finding is the large increase in frequency of real-time flexible ramping product prices stemming from pass-group or WEIM transfer constraints in the 15-minute market. An implementation error resulted in no real-time local market power mitigation for CAISO's balancing area through July 17. Real-time imbalance offset costs varied significantly by balancing area and market participation model in June.",
+        "hydro_read_through": "The document does not mention hydro or pumped storage directly. However, it establishes the operational baseline for EDAM's first full quarter \u2014 the interregional market that Western hydro operators now participate in and depend upon for interarea trading and reserve pricing. The sharp increase in flexible ramping product pricing from transmission constraints is particularly relevant: ramping is a core hydro product, and if constraint-driven scarcity is raising its price, that represents a revenue upside but also a signal of potential reliability tightness during shoulder hours. The real-time mitigation outage and the variation in imbalance offset costs across balancing areas also matter operationally for hedging and settlement. The 49% price decline and reserve-market results provide context for seasonal hydro earnings in Q2 conditions.",
+        "source_names_hydro": false,
+        "topics": [
+          "price-formation",
+          "ramping-flexibility",
+          "seams-governance"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "May 1, 2026 EDAM launch",
+            "quote": "May 1, 2026 EDAM launch adds transfer capacity between balancing areas to day-ahead market",
+            "verified": true
+          },
+          {
+            "claim": "Electricity prices in West down 49% compared to Q2 2025",
+            "quote": "Electricity prices in West down 49% compared to Q2 2025",
+            "verified": true
+          },
+          {
+            "claim": "Total EDAM transfers averaged 670 MW across May and June",
+            "quote": "Total EDAM transfers averaged 670 MW across May and June",
+            "verified": true
+          },
+          {
+            "claim": "51% of upward imbalance reserve requirements met by gas",
+            "quote": "51% of upward imbalance reserve requirements met by gas",
+            "verified": true
+          },
+          {
+            "claim": "Big increase in frequency of real-time flexible ramping product prices with EDAM launch",
+            "quote": "Big increase in frequency of real-time flexible ramping product prices with EDAM launch",
+            "verified": true
+          },
+          {
+            "claim": "Implementation error with EDAM launch resulted in no RT local market power mitigation for CAISO balancing area through July 17",
+            "quote": "Implementation error with EDAM launch resulted in no RT local market power mitigation for CAISO balancing area through July 17",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ryan Kurlinski",
+            "entity": "CAISO Department of Market Monitoring",
+            "role": "author",
+            "email": "rkurlinski@caiso.com"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Sunshine Notice | October 2026 Commission Meeting",
+    "date": "2026-10-08",
+    "time": null,
+    "rto": "FERC",
+    "committee": "HEADLINES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/sunshine-notice-october-2026-commission-meeting",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "meeting_screened_at": "2026-10-10 17:03:01",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "Sunshine Notice | October 2026 Commission Meeting",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/sunshine-notice-october-2026-commission-meeting",
+        "member_url": null,
+        "posted_date": "2026-10-08",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a sunshine-notice agenda listing for a FERC open meeting; it announces topics without substantive content on any market-design mechanism affecting hydro revenue, obligations, or strategic options.",
+        "screened_at": "2026-10-10 17:30:22",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "MDWG Net Conference",
@@ -18487,7 +19423,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -18640,7 +19576,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -18650,7 +19586,7 @@
             "native_id": "107d1ca8-0cb2-4989-aa67-3aca42cd3b4e",
             "canonical_name": "Hybrid Resources Market Model Selection",
             "status": "evaluation in progress",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "education",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=107d1ca8-0cb2-4989-aa67-3aca42cd3b4e"
@@ -18826,7 +19762,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -18836,7 +19772,7 @@
             "native_id": "107d1ca8-0cb2-4989-aa67-3aca42cd3b4e",
             "canonical_name": "Hybrid Resources Market Model Selection",
             "status": "evaluation in progress",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "education",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=107d1ca8-0cb2-4989-aa67-3aca42cd3b4e"
@@ -19887,7 +20823,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -19936,7 +20872,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -20276,7 +21212,7 @@
             "native_id": "107d1ca8-0cb2-4989-aa67-3aca42cd3b4e",
             "canonical_name": "Hybrid Resources Market Model Selection",
             "status": "evaluation in progress",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "education",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=107d1ca8-0cb2-4989-aa67-3aca42cd3b4e"
@@ -37729,6 +38665,41 @@
     ]
   },
   {
+    "title": "FERC Announces 2027 Commission Meeting Schedule",
+    "date": "2026-10-01",
+    "time": null,
+    "rto": "FERC",
+    "committee": "NEWS RELEASES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/ferc-announces-2027-commission-meeting-schedule",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "meeting_screened_at": "2026-10-10 17:03:23",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "FERC Announces 2027 Commission Meeting Schedule",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/ferc-announces-2027-commission-meeting-schedule",
+        "member_url": null,
+        "posted_date": "2026-10-01",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document announces FERC's administrative meeting calendar for 2027 with no substantive content on market design, pricing, capacity accreditation, storage rules, or any hydro revenue stream, compliance obligation, or strategic option.",
+        "screened_at": "2026-10-10 17:30:25",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
     "title": "MORWG Net Conference",
     "date": "2026-09-30",
     "time": "11:00 AM - 5:00 PM CT",
@@ -50467,7 +51438,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -50477,7 +51448,7 @@
             "native_id": "107d1ca8-0cb2-4989-aa67-3aca42cd3b4e",
             "canonical_name": "Hybrid Resources Market Model Selection",
             "status": "evaluation in progress",
-            "stakeholder_phase": "approved",
+            "stakeholder_phase": "education",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=107d1ca8-0cb2-4989-aa67-3aca42cd3b4e"
@@ -64523,15 +65494,25 @@
         "url": "https://www.nyiso.com/documents/20142/59092453/OC%20Final%20Motions%20-%2009172026.pdf",
         "member_url": null,
         "posted_date": "2026-09-17",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
-        "evidence": [],
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large data-center load interconnections under study in NYISO create scarcity and transmission constraints that raise the strategic value of existing hydropower's flexibility and location-specific delivery capability, and the interconnection queue reform pathway affects how hydro uprates and new storage may compete for network capacity.",
+        "screened_at": "2026-10-10 17:30:34",
+        "ai_summary": "NYISO Operating Committee approves Load Interconnection System Impact Study scopes and reports for eight major data-center projects in September 2026: North East Data LLC (Q#1741), Globe Digital Holdings projects (Q#1747-1749), Arsenal Data Sites (Q#1728-1730), Greenidge 200 MW Data Center (Q#1725), Data & Technology Campus (Q#1726), New York State Artificial Intelligence Data Center (Q#1731), Wulf Compute Data Center II (Q#1732), and Cayuga Data (Q#1733). All motions passed unanimously with abstentions. The committee also approved the 2026 Steady State Voltage Limits Study. No explicit next-step deadlines are stated in the motions.",
+        "hydro_read_through": "Rapid interconnection of large, geographically dispersed data-center loads in NYISO\u2014particularly multiple facilities in upstate New York\u2014will increase locational scarcity, intertemporal load volatility, and transmission congestion; existing hydropower plants positioned on or near the transmission corridors serving these loads will gain incremental scarcity rent and ancillary-service demand. The voltage-limits study may also constrain or require reactive-power support from synchronous generators, creating upside for hydro's voltage-control capability where it is located strategically.",
+        "source_names_hydro": true,
+        "topics": [
+          "load-growth",
+          "interconnection",
+          "transmission"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Eight data-center Load Interconnection System Impact Study scopes and reports approved in September 2026",
+            "quote": "Motion #3a:\nThe Operating Committee (\"OC\") hereby approves the Load Interconnection System Impact Study scope for\nQ#1741 North East Data LLC Data Center as presented and discussed at the September 17, 2026 OC meeting.\nThe motion passed unanimously by show of hands with an abstention.\nMotion #3b:\nThe Operating Committee (\"OC\") hereby approves the Load Interconnection System Impact Study scope for\nQ#1747 Globe Digital Holdings - 1 as presented and discussed at the September 17, 2026 OC meeting.\nThe motion passed unanimously by show of hands with an abstention.\nMotion #3c:\nThe Operating Committee (\"OC\") hereby approves the Load Interconnection System Impact Study scope for\nQ#1748 Globe DH2 as presented and discussed at the September 17, 2026 OC meeting.\nThe motion passed unanimously by show of hands with an abstention.\nMotion #3d:\nThe Operating Committee (\"OC\") hereby approves the Load Interconnection System Impact Study scope for\nQ#1749 Globe DH3",
+            "verified": true
+          }
+        ],
         "issues": [],
         "stakeholders": []
       }
@@ -75336,7 +76317,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-09-28 18:58:12",
+    "meeting_screened_at": "2026-10-10 17:03:44",
     "issues": [],
     "documents": [
       {
@@ -80605,7 +81586,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-09-28 18:58:33",
+    "meeting_screened_at": "2026-10-10 17:04:05",
     "issues": [],
     "documents": [
       {
@@ -80643,7 +81624,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-09-28 18:58:54",
+    "meeting_screened_at": "2026-10-10 17:04:26",
     "issues": [],
     "documents": [
       {
@@ -81522,7 +82503,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -81680,7 +82661,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -81816,7 +82797,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -82721,7 +83702,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -82770,7 +83751,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -83235,7 +84216,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-09-28 18:59:15",
+    "meeting_screened_at": "2026-10-10 17:04:47",
     "issues": [],
     "documents": [
       {
@@ -95753,7 +96734,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-09-28 18:59:36",
+    "meeting_screened_at": "2026-10-10 17:05:08",
     "issues": [],
     "documents": [
       {
@@ -112313,7 +113294,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -112413,7 +113394,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -112696,7 +113677,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -145002,7 +145983,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -145145,7 +146126,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -145270,7 +146251,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -145908,7 +146889,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -162779,7 +163760,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -179306,7 +180287,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -197911,7 +198892,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -198004,7 +198985,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -198064,7 +199045,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -198778,7 +199759,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -198827,7 +199808,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -199169,7 +200150,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -216852,7 +217833,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -242492,7 +243473,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -242576,7 +243557,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -242663,7 +243644,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -243009,7 +243990,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -243193,7 +244174,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -243242,7 +244223,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -266447,7 +267428,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -266584,7 +267565,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -266654,7 +267635,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -267310,7 +268291,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -267359,7 +268340,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -267408,7 +268389,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
@@ -277802,7 +278783,7 @@
             "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
             "canonical_name": "Dual Fuel Schedule Requirements",
             "status": "evaluation in progress",
-            "stakeholder_phase": "options",
+            "stakeholder_phase": "packages",
             "committee_owner": "mic",
             "is_open": 1,
             "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
