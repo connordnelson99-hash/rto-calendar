@@ -1082,7 +1082,27 @@
     "meeting_hydro_reason": "The Release User Group Forum is a technical/IT operations meeting focused on software release management and deployment logistics, not a market-design, pricing, or resource-participation discussion that would affect hydro revenue, compliance obligations, or strategic options.",
     "meeting_screened_at": "2026-10-12 21:46:53",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - Release User Group Forum - Oct 13, 2026",
+        "filename": "presentation-release-user-group-forum-oct-13-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-release-user-group-forum-oct-13-2026.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-15",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Audit Committee Executive Session",
@@ -1426,6 +1446,21 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "An executive session on WEM governance and committees is administrative procedure focused on meeting logistics and committee structure, not substantive market-design rules affecting hydro revenue, compliance, or strategic options.",
     "meeting_screened_at": "2026-10-11 17:55:25",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "FERC Order No. 1920 Compliance Filing - Supplemental Proposal",
+    "date": "2026-10-26",
+    "time": "1:00 PM - 2:30 PM PT",
+    "rto": "CAISO",
+    "committee": "Initiatives",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/ferc-order-no-1920-compliance-filing-supplemental-proposal-oct-26-2026-0100-pm",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "FERC Order 1920 addresses storage participation models, resource accreditation, and capacity market rules that directly affect pumped-storage hydro revenue and compliance obligations in CAISO.",
+    "meeting_screened_at": "2026-10-16 16:17:28",
     "issues": [],
     "documents": []
   },
@@ -1928,12 +1963,89 @@
     "committee": "Special MC",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8C5CC9A0-463B-4C3E-A93C-07A9E1BBCBEF}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "A Special Market Committee meeting with no disclosed agenda or topic summary cannot be assessed for relevance to hydro revenue, obligations, or strategic options; the generic title provides no indication of whether water-dispatch rules, energy pricing, storage participation, capacity accreditation, or other hydro-material topics will be discussed.",
     "meeting_screened_at": "2026-10-07 18:59:51",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20261022-special/agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-15",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20261022-special/agenda-doc.docx",
+        "member_url": null,
+        "posted_date": "2026-10-15",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 01 \u2013 1 Tariff Section 92b Stakeholder Consultation Of Upcoming 205 Filing On Reliability Backstop Procurement \u2013 Presentation",
+        "filename": "item-01---1-tariff-section-92b-stakeholder-consultation-of-upcoming-205-filing-on-reliability-backstop-procurement---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20261022-special/item-01---1-tariff-section-92b-stakeholder-consultation-of-upcoming-205-filing-on-reliability-backstop-procurement---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-15",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "Item 01 \u2013 2 Tariff Redlines",
+        "filename": "item-01----2-tariff-redlines.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20261022-special/item-01----2-tariff-redlines.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-15",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Training for DAME Transitional Measures and Overlapping Capacity",
@@ -2401,6 +2513,58 @@
         "topics": [
           "load-growth",
           "hybrids-der"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "October 21, 2026 OC meeting",
+            "quote": "as presented and discussed at the October 21, 2026 OC meeting",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "vote",
+        "title": "03cc BIC Motion - Large Loads - Version 2",
+        "filename": "03cc_BIC%20Motion%20-%20Large%20Loads%20v2.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59417928/03cc_BIC%20Motion%20-%20Large%20Loads%20v2.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-16",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO is addressing large-load integration and co-located resources under a FERC show-cause order, which directly affects hydro's strategic options for co-location, behind-the-meter service, and participation models, and may reshape resource-adequacy and transmission-planning frameworks that determine hydro deliverability and revenue.",
+        "screened_at": "2026-10-16 16:17:38",
+        "ai_summary": "The Business Issues Committee recommends that the Management Committee approve a proposed market design and process for integrating large loads and associated resources, as described in a presentation titled 'FERC Show Cause Order on Large and Co-Located Loads' presented at the October 21, 2026 BIC meeting. The motion does not specify the design details, thresholds, or next-step timeline in this excerpt.",
+        "hydro_read_through": "Although the document does not mention hydro, large-load integration rules reshape the strategic landscape for hydro owners. Co-location rules determine whether hydro plants can serve load behind the meter or provide firm energy to data centers and other anchor loads, creating new revenue streams and potentially new dispatch obligations. Load-growth-driven scarcity also raises the value of existing hydro MW by increasing real-time prices and capacity-adequacy signals; how NYISO structures large-load interconnection and resource participation will affect transmission constraints, reserve requirements, and the locational signals that drive hydro dispatch economics.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "hybrids-der",
+          "interconnection"
+        ],
+        "directness": "direct",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "vote",
+        "title": "03dd OC Motion - Large Loads - Version 2",
+        "filename": "03dd_OC%20Motion%20-%20Large%20Loads%20v2.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59417928/03dd_OC%20Motion%20-%20Large%20Loads%20v2.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-16",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO is proposing market design and integration process for large loads and co-located resources, directly affecting hydro's strategic optionality around co-located load service, behind-the-meter arrangements, and resource accreditation in a response to a FERC show-cause order.",
+        "screened_at": "2026-10-16 16:17:44",
+        "ai_summary": "The Operating Committee recommends that the Management Committee approve a proposed market design and process for integration of large loads and associated resources, as described in a presentation titled \"FERC Show Cause Order on Large and Co-Located Loads\" presented and discussed at the October 21, 2026 OC meeting. The motion references a FERC directive requiring NYISO to address market design for large and co-located loads. No specific vote date, deadline, or implementation timeline is stated in this motion excerpt.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage. However, large-load and co-located resource integration rules directly affect hydro owners' ability to site generation alongside load, participate in wholesale markets while serving behind-the-meter demand, and compete for accreditation in capacity markets. NYISO's response to the FERC show-cause order will establish participation pathways and resource-qualification rules that determine whether existing or new hydro can capture value from load co-location\u2014a key strategic option in data-center and industrial-load scenarios increasingly common in the Northeast.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "hybrids-der",
+          "capacity-ra"
         ],
         "directness": "direct",
         "evidence": [
@@ -3445,6 +3609,25 @@
         "url": "https://www.caiso.com/documents/department-of-market-monitoring-update-oct-2026.pdf",
         "member_url": null,
         "posted_date": "2026-10-14",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "implementation",
+        "title": "Extended Day-Ahead Market Implementations Update - Oct 2026",
+        "filename": "extended-day-ahead-market-implementations-update-oct-2026.pdf",
+        "url": "https://www.caiso.com/documents/extended-day-ahead-market-implementations-update-oct-2026.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-15",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "screened_at": null,
@@ -4693,6 +4876,25 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "2026-10-20 RC A06.1 Planning Procedure 4 and Attachments",
+        "filename": "a06_1_pp4.zip",
+        "url": "https://www.iso-ne.com/static-assets/documents/100040/a06_1_pp4.zip",
+        "member_url": null,
+        "posted_date": "2026-10-15",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a procedural artifact (Planning Procedure 4 and Attachments from ISO-NE's Reliability Committee) with no extracted text available; without substantive content, no assessment of revenue mechanisms, compliance obligations, or strategic options affecting hydropower can be made.",
+        "screened_at": "2026-10-16 16:17:47",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -6993,6 +7195,63 @@
         "evidence": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20261016-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-s/2026/20261016/20261016-agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20261016-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-s/2026/20261016/20261016-agenda-doc.docx",
+        "member_url": null,
+        "posted_date": "2026-10-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Informational Only \u2013 M 3 Process Needs Status",
+        "filename": "20261016-informational-only---m-3-process-needs-status.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-s/2026/20261016/20261016-informational-only---m-3-process-needs-status.xlsx",
+        "member_url": null,
+        "posted_date": "2026-10-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -7206,7 +7465,7 @@
         "filename": "20261016-item-02---dpl-supplemental-projects-presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20261016/20261016-item-02---dpl-supplemental-projects-presentation.pdf",
         "member_url": null,
-        "posted_date": "2026-10-06",
+        "posted_date": "2026-10-16",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "screened_at": null,
@@ -7340,6 +7599,63 @@
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20261016/20261016-item-09---ppl-supplemental-projects-presentation.pdf",
         "member_url": null,
         "posted_date": "2026-10-06",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20261016-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20261016/20261016-agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20261016-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20261016/20261016-agenda-doc.docx",
+        "member_url": null,
+        "posted_date": "2026-10-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Informational Only \u2013 M 3 Process Needs Status",
+        "filename": "20261016-informational-only---m-3-process-needs-status.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2026/20261016/20261016-informational-only---m-3-process-needs-status.xlsx",
+        "member_url": null,
+        "posted_date": "2026-10-16",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "screened_at": null,
@@ -8129,7 +8445,7 @@
         "filename": "20261016-item-05---reliability-compliance-update-rscs---101626.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/rscs/2026/20261016/20261016-item-05---reliability-compliance-update-rscs---101626.pdf",
         "member_url": null,
-        "posted_date": "2026-10-12",
+        "posted_date": "2026-10-15",
         "hydro_relevant": true,
         "hydro_relevance_reason": "This document announces NERC reliability standards development and comment periods on primary frequency control, computational load modeling, DER aggregation, and capacity contribution practices \u2014 all touching hydro's ancillary-service revenue streams, compliance obligations under evolving reliability standards, and competitive positioning as resources compete for accreditation and frequency-response procurement.",
         "screened_at": "2026-10-13 19:11:49",
@@ -8188,6 +8504,57 @@
             "entity": "PJM",
             "role": "presenter",
             "email": "Gizella.Mali@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04 \u2013 Generation Resource Cold Weather Preparation 2026 \u2013 Presentation \u2013 Rscs",
+        "filename": "20261016-item-04---generation-resource-cold-weather-preparation-2026---presentation---rscs.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/rscs/2026/20261016/20261016-item-04---generation-resource-cold-weather-preparation-2026---presentation---rscs.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-15",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM is establishing cold-weather operational coordination and testing requirements applicable to all generation resources, which are direct compliance obligations for synchronous units including hydro owners; the document also addresses reactive capability verification and must-run protocols that affect how dispatchable resources are managed during scarcity periods.",
+        "screened_at": "2026-10-16 16:17:57",
+        "ai_summary": "PJM's Generation Resource Cold Weather Preparation presentation (October 16, 2026) outlines mandatory compliance procedures for generation resources during extreme winter conditions. Key obligations include: submission of Cold Weather Operating Limits in Markets Gateway following a Cold Weather Advisory (issued 3\u20135 days in advance); parameter updates and limitation reporting via Markets Gateway; reactive-capability D-curve verification during October 1\u201331, 2026, with Transmission Owner acknowledgment by November 30, 2026; completion of a seasonal fuel and emissions data request (open October 1\u201331, 2026); and optional cold-weather operational exercises (December through forecasted temperatures below 35 degrees). PJM is coordinating ~30 generation-resource site visits starting Q4 2026 through Q1 2027 in partnership with Reliability First and SERC, and enhancing gas-electric coordination protocols during critical periods to assess pipeline delivery constraints and their impact on dispatchability.",
+        "hydro_read_through": "Although the document does not mention hydropower directly, all PJM-connected synchronous generation facilities, including conventional hydro plants and pumped-storage units, are subject to these cold-weather compliance obligations. Run-of-river and reservoir-based hydro face the same Cold Weather Advisory protocol, reactive-capability verification, and operational coordination requirements as other resources; for PSH units, the charging-state and reserve-deployment constraints tied to cold-weather operating limits may directly constrain their revenue-stacking opportunities during winter peak periods. The reactive-capability verification (D-curve) is particularly material for hydro owners, as it directly feeds into PJM's accreditation and ancillary-service procurement models.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance",
+          "ancillary-services",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Cold Weather Advisory issued 3\u20135 days in advance; generators must update Cold Weather Operating Limits in Markets Gateway",
+            "quote": "Provides early notice (3-5 days) that forecasted temperatures may call for a Cold Weather Alert",
+            "verified": true
+          },
+          {
+            "claim": "Pre-Winter Reactive Capability Verification review period October 1\u201331, 2026; Transmission Owner D-curve acknowledgment November 1\u201330, 2026",
+            "quote": "Pre-Winter Review: From October 1st, 2026 - October 31st, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Seasonal Fuel and Emissions Data Request open October 1\u201331, 2026",
+            "quote": "Data Request open in eDART October 1st - October 31st, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Cold-weather testing exercise conducted during December and when temperatures forecasted below 35 degrees",
+            "quote": "During December and temperatures forecasted below 35 degrees",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "John Wolff",
+            "entity": "PJM",
+            "role": "author | presenter",
+            "email": "John.Wolff@pjm.com"
           }
         ]
       }
@@ -8342,6 +8709,96 @@
         "evidence": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20261016-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20261016/20261016-agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-16",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a PJM Sub-Regional RTEP Committee agenda listing meeting logistics, transmission-project presentations by utilities (APS, ATSI, AEP, ComEd, DEOK, EKPC), and administrative procedures; it contains no substantive market-design or operational content affecting hydro or PSH revenue, compliance obligations, or strategic options.",
+        "screened_at": "2026-10-16 16:18:01",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Katherine Graham",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20261016-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20261016/20261016-agenda-doc.docx",
+        "member_url": null,
+        "posted_date": "2026-10-16",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a procedural agenda for PJM's Sub-Regional RTEP Committee meeting covering supplemental project presentations and administrative matters; it contains no substantive proposals, tariff changes, or market-design decisions affecting revenue streams, compliance obligations, or strategic options for hydropower or pumped-storage operators.",
+        "screened_at": "2026-10-16 16:18:04",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Katherine Graham",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Informational Only \u2013 M 3 Process Needs Status",
+        "filename": "20261016-informational-only---m-3-process-needs-status.xlsx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20261016/20261016-informational-only---m-3-process-needs-status.xlsx",
+        "member_url": null,
+        "posted_date": "2026-10-16",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document title references only an M3 process-needs status update for SRRTEP-W (a PJM subregional transmission planning committee), with no extracted text; without substantive content, it cannot be determined to address any hydro revenue stream, compliance obligation, or strategic option.",
+        "screened_at": "2026-10-16 16:18:07",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 06 \u2013 EKPC Supplemental Projects Presentation",
+        "filename": "20261016-item-06---ekpc-supplemental-projects-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-w/2026/20261016/20261016-item-06---ekpc-supplemental-projects-presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-16",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document presents supplemental transmission projects in EKPC's zone under PJM's SRRTEP-W process, addressing local distribution infrastructure needs unrelated to hydropower revenue, obligations, or strategic options.",
+        "screened_at": "2026-10-16 16:18:09",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -8404,6 +8861,25 @@
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20261016-governance/item-01---governance-and-stakeholder-process-oa-and-tariff-revisions---redline.pdf",
         "member_url": null,
         "posted_date": "2026-10-13",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Item 01 \u2013 Roadmap TO Posted Redlines",
+        "filename": "item-01---roadmap-to-posted-redlines.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20261016-governance/item-01---roadmap-to-posted-redlines.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-15",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "screened_at": null,
@@ -10114,6 +10590,87 @@
             "name": "Pallas LeeVanSchaick",
             "entity": "Potomac Economics (MMU for NYISO)",
             "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "vote",
+        "title": "Final Motions",
+        "filename": "OC%20Final%20Motions%20-%2010152026.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59339315/OC%20Final%20Motions%20-%2010152026.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-15",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO Operating Committee approves interconnection study scopes for multiple high-capacity load projects and endorses the 2026 Reliability Needs Assessment, both of which directly affect transmission deliverability, resource adequacy planning, and the locational scarcity signals that determine hydro revenue and dispatch value.",
+        "screened_at": "2026-10-16 16:18:26",
+        "ai_summary": "The NYISO Operating Committee unanimously approved on October 15, 2026, the Transmission Project Interconnection System Impact Study scope for the Liberty Green Line transmission project (Q#1555) and Load Interconnection System Impact Study scopes for eight data-center, manufacturing, and infrastructure projects (Q#1750 AI Tech Steel Site, Q#1753 New York State Dept of Health Lab, Q#1754 Kenwood Tech Center, Q#1755 Site Master Plan Expansion Phase I, Q#1758 GE Vernova 2690 Balltown Road High Yard Upgrade, Q#1759 Saratoga Expansion Project, Q#1762 Highwall Data Centre, Q#1763 Patriot Forge). The Committee also concurred with key findings of the draft 2026 Reliability Needs Assessment, which was reviewed at ESPWG and TPAS stakeholder meetings from March 2026 to October 2026, and recommended Management Committee approval and Board adoption of that assessment. Environmental groups (Earthjustice, NRDC) and state/city entities (City of New York, NY Utility Intervention Unit) abstained on some or all motions.",
+        "hydro_read_through": "Load growth from data centers and industrial facilities increases demand for electric infrastructure and grid services; the interconnection and reliability studies now underway will identify transmission constraints that raise locational energy prices and reserve requirements in load pockets, creating scarcity value for hydro's dispatchability and geographic flexibility. The 2026 Reliability Needs Assessment findings\u2014shaped by hydro-conditions data and seasonal adequacy modeling\u2014are expected to inform resource adequacy rules and transmission expansion plans that determine both the zonal scarcity hydro can monetize and whether existing hydro-deliverability constraints get relief through transmission upgrades or storage siting.",
+        "source_names_hydro": true,
+        "topics": [
+          "load-growth",
+          "transmission",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "October 15, 2026 meeting date",
+            "quote": "Operating Committee Meeting\nOctober 15, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Transmission Project Interconnection System Impact Study scope for Q#1555 Liberty Green Line approved",
+            "quote": "The Operating Committee (\"OC\") hereby approves the Transmission Project Interconnection System Impact Study scope for Q#1555 Liberty Green Line as presented and discussed at the October 15, 2026 OC meeting.",
+            "verified": true
+          },
+          {
+            "claim": "Load Interconnection System Impact Study scopes for eight projects approved (Q#1750 through Q#1763)",
+            "quote": "The Operating Committee (\"OC\") hereby approves the Load Interconnection System Impact Study scope for Q#1750 AI Tech Steel Site as presented and discussed at the October 15, 2026 OC meeting.\nThe motion passed unanimously by show of hands with an abstention from Earthjustice.\nMotion #3b:\nThe Operating Committee (\"OC\") hereby approves the Load Interconnection System Impact Study scope for Q#1753 New York State Dept of Health Lab as presented and discussed at the October 15, 2026 OC meeting.\nThe motion passed unanimously by show of hands with an abstention from Earthjustice.\nMotion #3c:\nThe Operating Committee (\"OC\") hereby approves the Load Interconnection System Impact Study scope for Q#1754 Kenwood Tech Center as presented and discussed at the October 15, 2026 OC meeting.\nThe motion passed unanimously by show of hands with abstentions from Earthjustice and Natural Resources Defense Council.\nMotion #3d:\nThe Operating Committee (\"OC\") hereby approves the Load Interconnection System Impact Study scope for Q#1755 Site Master Plan Expansion Phase I as presented and discussed at the October 15, 2026 OC meeting.\nThe motion passed unanimously by show of hands with an abstention from Earthjustice.\nMotion #3e:\nThe Operating Committee (\"OC\") hereby approves the Load Interconnection System Impact Study scope for Q#1758 GE Vernova 2690 Balltown Road High Yard Upgrade as presented and discussed at the October 15, 2026 OC meeting.\nThe motion passed unanimously by show of hands with an abstention from Earthjustice.\nMotion #3f:\nThe Operating Committee (\"OC\") hereby approves the Load Interconnection System Impact Study scope for Q#1759 Saratoga Expansion Project as presented and discussed at the October 15, 2026 OC meeting.\nThe motion passed unanimously by show of hands with an abstention from Earthjustice.\nMotion #3g:\nThe Operating Committee (\"OC\") hereby approves the Load Interconnection System Impact Study scope for Q#1762 Highwall Data Centre as presented and discussed at the October 15, 2026 OC meeting.\nThe motion passed unanimously by show of hands with an abstention from Earthjustice.\nMotion #3h:\nThe Operating Committee (\"OC\") hereby approves the Load Interconnection System Impact Study scope for Q#1763 Patriot Forge as presented and discussed at the October 15, 2026 OC meeting.",
+            "verified": false
+          },
+          {
+            "claim": "2026 Reliability Needs Assessment endorsed; ESPWG and TPAS stakeholder meetings March 2026 to October 2026",
+            "quote": "The Operating Committee (OC) concurs with the key findings of the draft 2026 Reliability Needs Assessment as presented and discussed at the October 15, 2026 OC meeting, which are based upon the prior discussions and review of the report and related information at the ESPWG and TPAS stakeholder meetings from March 2026 to October 2026.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Lang, Kevin",
+            "entity": "City of New York",
+            "role": "representative",
+            "email": null
+          },
+          {
+            "name": "Lenoff, Michael",
+            "entity": "Earthjustice",
+            "role": "representative",
+            "email": null
+          },
+          {
+            "name": "Powell, Christine",
+            "entity": "Earthjustice",
+            "role": "alternate",
+            "email": null
+          },
+          {
+            "name": "Casey, Christopher",
+            "entity": "Natural Resources Defense Council",
+            "role": "representative",
+            "email": null
+          },
+          {
+            "name": "Howe, Cullen",
+            "entity": "Natural Resources Defense Council",
+            "role": "alternate",
+            "email": null
+          },
+          {
+            "name": "Haff, John",
+            "entity": "Utility Intervention Unit, Division of Consumer Protection, NY Dept. of State",
+            "role": "representative",
             "email": null
           }
         ]
@@ -13349,15 +13906,28 @@
         "url": "https://www.nyiso.com/documents/20142/59349248/101426%20bic%20final%20motions.pdf",
         "member_url": null,
         "posted_date": "2026-10-14",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
-        "evidence": [],
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Motion #2 approves revisions to the NYISO tariff affecting capacity accreditation and resource adequacy modeling, which directly impact how hydro and storage resources are accredited and valued for capacity revenue.",
+        "screened_at": "2026-10-16 16:18:32",
+        "ai_summary": "The NYISO Business Issues Committee unanimously approved (with one abstention) tariff revisions on October 14, 2026, implementing the proposal 'Improving Capacity Accreditation and Resource Adequacy Modeling: Increasing Transparency Proposal.' The revisions modify the Open Access Transmission Tariff to refine capacity accreditation and resource adequacy modeling methodologies, though the document excerpt does not detail specific technical changes or implementation timelines.",
+        "hydro_read_through": "Capacity accreditation determines how much capacity revenue conventional hydro and pumped-storage units receive in NYISO's capacity auctions. Changes to accreditation methodology and the underlying resource adequacy modeling can materially affect seasonal capacity revenues and the treatment of resource characteristics (e.g., availability profiles, energy limitations) that differ between hydro and thermal resources. The transparency enhancement suggests prior concerns about accreditation opacity or methodology consistency, which would be relevant to hydro owners seeking predictable accreditation outcomes.",
+        "source_names_hydro": true,
+        "topics": [
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "October 14, 2026 approval date",
+            "quote": "Motion passed unanimously with abstention.",
+            "verified": true
+          },
+          {
+            "claim": "Tariff revision scope: capacity accreditation and resource adequacy modeling",
+            "quote": "The Business Issues Committee (\"BIC\") hereby approves revisions to the Open Access Transmission Tariff, as more fully described in the presentation titled \"Improving Capacity Accreditation and Resource Adequacy Modeling: Increasing Transparency Proposal,\" made to the BIC on October 14, 2026.",
+            "verified": true
+          }
+        ],
         "issues": [],
         "stakeholders": []
       }
@@ -18335,7 +18905,7 @@
       },
       {
         "type": "presentation",
-        "title": "Presentation - Resource Adequacy Modeling and Program Design - Oct 9 2026",
+        "title": "Presentation - Resource Adequacy Modeling and Program Design - Oct 09, 2026",
         "filename": "Presentation-Resource-Adequacy-Modeling-and-Program-Design-Oct-9-2026.pdf",
         "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Presentation-Resource-Adequacy-Modeling-and-Program-Design-Oct-9-2026.pdf",
         "member_url": null,
@@ -18432,7 +19002,7 @@
       },
       {
         "type": "presentation",
-        "title": "Constellation Presentation - Resource Adequacy Modeling and Program Design - Oct 9, 2026",
+        "title": "Constellation Presentation - Resource Adequacy Modeling and Program Design - Oct 09, 2026",
         "filename": "Constellation-Presentation-Resource-Adequacy-Modeling-and-Program-Design-Oct-9-2026.pdf",
         "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Constellation-Presentation-Resource-Adequacy-Modeling-and-Program-Design-Oct-9-2026.pdf",
         "member_url": null,
@@ -18494,7 +19064,7 @@
       },
       {
         "type": "agenda",
-        "title": "Agenda - Resource Adequacy Modeling and Program Design - Oct 9, 2026",
+        "title": "Agenda - Resource Adequacy Modeling and Program Design - Oct 09, 2026",
         "filename": "Agenda-Resource-Adequacy-Modeling-and-Program-Design-Oct-9-2026.pdf",
         "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Agenda-Resource-Adequacy-Modeling-and-Program-Design-Oct-9-2026.pdf",
         "member_url": null,
@@ -83617,7 +84187,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-12 21:23:08",
+    "meeting_screened_at": "2026-10-16 15:53:18",
     "issues": [],
     "documents": [
       {
@@ -88886,7 +89456,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-15 16:14:39",
+    "meeting_screened_at": "2026-10-16 15:53:39",
     "issues": [],
     "documents": [
       {
@@ -88924,7 +89494,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-15 16:15:00",
+    "meeting_screened_at": "2026-10-16 15:54:00",
     "issues": [],
     "documents": [
       {
@@ -91516,7 +92086,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-15 16:15:21",
+    "meeting_screened_at": "2026-10-16 15:54:21",
     "issues": [],
     "documents": [
       {
@@ -104034,7 +104604,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-15 16:15:42",
+    "meeting_screened_at": "2026-10-16 15:54:42",
     "issues": [],
     "documents": [
       {
