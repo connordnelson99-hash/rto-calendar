@@ -300,6 +300,126 @@
     "documents": []
   },
   {
+    "title": "Operating Committee Meeting",
+    "date": "2026-11-05",
+    "time": "9:00 a.m. - 2:00 p.m.",
+    "rto": "PJM",
+    "committee": "Operating Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM Operating Committee meetings typically address dispatch, outage scheduling, operating standards, and real-time operations that directly affect hydro compliance obligations and market participation, particularly for pumped-storage hydro facilities in the PJM footprint.",
+    "meeting_screened_at": "2026-10-20 16:34:45",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Special MC Meeting",
+    "date": "2026-11-05",
+    "time": "2:15 p.m. - 5:00 p.m.",
+    "rto": "PJM",
+    "committee": "Special MC",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A bare-title 'Special MC Meeting' with no agenda detail or subject matter disclosed provides no basis to assess relevance; absent specific content on market design, products, pricing, participation rules, or compliance obligations affecting hydro, this meeting notice alone cannot be screened meaningfully.",
+    "meeting_screened_at": "2026-10-20 16:34:46",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "NEPOOL Markets Committee Meeting",
+    "date": "2026-11-05",
+    "time": "2:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Markets Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160108",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ISO-NE Markets Committee meetings routinely address energy price formation, ancillary services, capacity accreditation, storage participation rules, and other revenue and compliance topics directly affecting hydro and PSH operators in the Northeast.",
+    "meeting_screened_at": "2026-10-20 16:34:48",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "System Operations Advisory Subcommittee",
+    "date": "2026-11-05",
+    "time": "10:00 AM - 11:00 AM",
+    "rto": "NYISO",
+    "committee": "System Operations Advisory Subcommittee",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/soas",
+    "materials_url": "https://www.nyiso.com/soas",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "NYISO's System Operations Advisory Subcommittee regularly addresses transmission-grid operations, resource scheduling, dispatch protocols, and ancillary-services procurement that directly affect hydropower revenue and compliance obligations, and the meeting title suggests operational and market-design topics that would interest hydro operators.",
+    "meeting_screened_at": "2026-10-20 16:34:49",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Communication & Data Advisory Subcommittee",
+    "date": "2026-11-05",
+    "time": "9:00 AM - 10:00 AM",
+    "rto": "NYISO",
+    "committee": "Communication & Data Advisory Subcommittee",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/cdas",
+    "materials_url": "https://www.nyiso.com/cdas",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Communication & Data Advisory Subcommittee focuses on IT, data transport, and communications infrastructure rather than market design, pricing, operations, or compliance topics that affect hydropower revenue, obligations, or strategic options.",
+    "meeting_screened_at": "2026-10-20 16:34:51",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Reliable Operations Working Group (ROWG-Closed) - November 5, 2026",
+    "date": "2026-11-05",
+    "time": "12:00 PM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Reliable Operations Working Group",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/7454b1a8e2214b3d97bf9dad1edcb462.aspx",
+    "materials_url": "https://www.misoenergy.org/link/7454b1a8e2214b3d97bf9dad1edcb462.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO's Reliable Operations Working Group (closed session) likely addresses synchronous unit operating standards, resource adequacy, frequency response, and dispatch-instruction changes that directly affect hydropower participation and compliance in MISO's footprint.",
+    "meeting_screened_at": "2026-10-20 16:34:53",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "ROS Meeting",
+    "date": "2026-11-05",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Reliability and Operations Subcommittee",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/11052026-ROS-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/11052026-ROS-Meeting",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ERCOT's Reliability and Operations Subcommittee addresses frequency response, reserve requirements, and resource-dispatch standards that set precedent for how storage and flexible resources are treated across RTOs, making it a relevant comparison point for hydro market-design analysis even though Texas has minimal hydro generation.",
+    "meeting_screened_at": "2026-10-20 16:34:55",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "PUCT Meeting",
+    "date": "2026-11-05",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "The Public Utility Commission of Texas",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/11052026-PUCT-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/11052026-PUCT-Meeting",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Public Utility Commission of Texas (PUCT) is a state retail-regulatory body that does not address wholesale market design, RTF participation rules, ancillary services, capacity mechanisms, or other wholesale mechanisms relevant to hydropower revenue, obligations, or strategic options; ERCOT wholesale market design is addressed through different governance channels (ERCOT Board, stakeholder committees) rather than PUCT meetings.",
+    "meeting_screened_at": "2026-10-20 16:34:57",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MSUF Net Conference",
     "date": "2026-11-04",
     "time": "2:00 PM - 4:00 PM CT",
@@ -949,8 +1069,8 @@
     "rto": "ERCOT",
     "committee": "Planning Working Group",
     "source_url": "https://www.ercot.com/calendar",
-    "detail_url": "https://www.ercot.com/calendar/11032026-PLWG-Meeting",
-    "materials_url": "https://www.ercot.com/calendar/11032026-PLWG-Meeting",
+    "detail_url": "https://www.ercot.com/calendar/11032026-PLWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/11032026-PLWG-Meeting-_-Webex",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "ERCOT Planning Working Group meetings address resource adequacy, transmission planning, and reliability mechanisms that set cross-market precedents for energy storage participation and flexibility products relevant to NHA's comparative market-design analysis, even though ERCOT has minimal hydropower.",
     "meeting_screened_at": "2026-10-18 15:18:01",
@@ -1145,6 +1265,21 @@
     "documents": []
   },
   {
+    "title": "2028 Local Capacity Technical Study Criteria, Methodology and Assumptions",
+    "date": "2026-11-02",
+    "time": "9:00 AM - 11:00 AM PT",
+    "rto": "CAISO",
+    "committee": "Recurring processes",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/2028-local-capacity-technical-study-criteria-methodology-and-assumptions-nov-02-2026-0900-am",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "CAISO's Local Capacity Technical Study directly informs resource adequacy constructs, accreditation rules, and locational pricing signals that affect hydro plant revenues and strategic siting decisions\u2014especially as methodology changes may shift how conventional hydro and pumped-storage resources are valued for meeting local grid needs.",
+    "meeting_screened_at": "2026-10-20 16:34:58",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MIC Special Session - Regulation Market Design Phase 2 Education Session Meeting",
     "date": "2026-10-30",
     "time": "9:00 a.m. - 11:00 a.m.",
@@ -1252,7 +1387,7 @@
   {
     "title": "Installed Capacity Working Group",
     "date": "2026-10-29",
-    "time": "10:00 AM - 4:00 PM",
+    "time": "10:00 AM - 1:00 PM",
     "rto": "NYISO",
     "committee": "Installed Capacity Working Group",
     "source_url": "https://www.nyiso.com/committees",
@@ -1267,7 +1402,7 @@
   {
     "title": "Market Issues Working Group",
     "date": "2026-10-29",
-    "time": "10:00 AM - 4:00 PM",
+    "time": "10:00 AM - 1:00 PM",
     "rto": "NYISO",
     "committee": "Market Issues Working Group",
     "source_url": "https://www.nyiso.com/committees",
@@ -1282,7 +1417,7 @@
   {
     "title": "Price-Responsive Load Working Group",
     "date": "2026-10-29",
-    "time": "10:00 AM - 4:00 PM",
+    "time": "10:00 AM - 1:00 PM",
     "rto": "NYISO",
     "committee": "Price-Responsive Load Working Group",
     "source_url": "https://www.nyiso.com/committees",
@@ -1297,7 +1432,7 @@
   {
     "title": "Electric System Planning Working Group",
     "date": "2026-10-29",
-    "time": "10:00 AM - 4:00 PM",
+    "time": "10:00 AM - 1:00 PM",
     "rto": "NYISO",
     "committee": "Electric System Planning Working Group",
     "source_url": "https://www.nyiso.com/committees",
@@ -2246,7 +2381,192 @@
     "meeting_hydro_reason": "Budget & Priorities Working Group meetings address internal NYISO operational budgets and administrative priorities, not market-design rules, revenue mechanisms, or compliance obligations that affect hydropower operators.",
     "meeting_screened_at": "2026-10-10 17:27:44",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "2 2027 Draft Budget",
+        "filename": "10262026%20BPWG%20NYISO%202027%20Draft%20Budget%20Overview%20FINAL.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59473020/10262026%20BPWG%20NYISO%202027%20Draft%20Budget%20Overview%20FINAL.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-20",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a budget and operations presentation with no content affecting hydropower or pumped-storage revenue streams, compliance obligations, or strategic options\u2014it addresses NYISO internal financial planning, capital allocation, and administrative staffing.",
+        "screened_at": "2026-10-20 16:35:02",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Cheryl L. Hussey",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Patrick Kelly",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "1 Agenda",
+        "filename": "102626%20bpwg%20agenda.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59473020/102626%20bpwg%20agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-20",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a NYISO internal working-group agenda containing only administrative items (budget drafts, financial reviews, project status) with no substantive market-design content affecting hydro revenue, compliance obligations, or strategic options.",
+        "screened_at": "2026-10-20 16:35:05",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Alan Ackerman",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Cheryl Hussey",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kevin Pytel",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Nicole Bouchez",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Pat Kelly",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "4 2027 Consumer Impact Analyses",
+        "filename": "2027%20CIAs%20DRAFT%20FOR%20POSTING.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59473020/2027%20CIAs%20DRAFT%20FOR%20POSTING.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO is conducting 2027 Consumer Impact Analyses on two projects directly affecting capacity pricing and ancillary-services cost mechanisms, both of which govern revenue streams and pricing signals for all dispatchable resources including hydropower.",
+        "screened_at": "2026-10-20 16:35:13",
+        "ai_summary": "NYISO's Budget & Priorities Working Group selected two market-design projects for Consumer Impact Analysis in 2027: (1) Reliability Attribute-based Capacity Pricing for Transmission Security (SOM project #33), which has a 2028 Market Design Complete milestone targeting first-half 2028; and (2) Review of Ancillary Service Shortage Pricing (SOM project #30), which has reached Market Design Complete stage. The CIA process evaluates significant projects across six dimensions: reliability, cost impact/environment/market, new efficiencies, technology, and transparency. These projects will inform decisions on how capacity is priced for transmission-security attributes and how ancillary-service cost spikes are managed.",
+        "hydro_read_through": "The document does not mention hydro or PSH directly. However, both selected projects touch core revenue mechanisms for dispatchable resources: capacity pricing reform affects how NYISO values and compensates installed capacity across the region, while ancillary-service shortage pricing affects the cost signals for reserve and reactive-power products that hydro commonly supplies. Changes to either mechanism\u2014especially if they introduce attribute-based pricing or shortage-response rules\u2014would reshape the value proposition for hydro resources in the NYISO footprint. The Consumer Impact Analyses will quantify and compare outcomes for end-use consumers before NYISO governance votes on these designs.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "ancillary-services",
+          "price-formation"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Reliability Attribute-based Capacity Pricing for Transmission Security (SOM) (#33) with 2028 MDC deliverable targeting completion in first half of 2028",
+            "quote": "Reliability Attribute-based Capacity Pricing for Transmission Security (SOM) (#33) ... the Reliability Attribute-based Capacity pricing for Transmission Security project has a MDCP deliverable and is anticipated to have a 2028 MDC deliverable targeting completion in the first half of 2028",
+            "verified": false
+          },
+          {
+            "claim": "Review Ancillary Service Shortage Pricing (SOM) (#30) has MDC milestone",
+            "quote": "Review Ancillary Service Shortage Pricing (SOM) (#30) ... The Review of Ancillary Service Shortage Pricing project has an MDC milestone",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Nicole Bouchez, Ph.D.",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "5 2026 Project Status Update",
+        "filename": "BPWG%202026%20-%20Project%20Schedule%20Milestone%20Q4%20Final.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59473020/BPWG%202026%20-%20Project%20Schedule%20Milestone%20Q4%20Final.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document lists NYISO 2026 project-status updates across multiple market-design initiatives directly affecting hydro and storage revenue streams, obligations, and strategic options: capacity accreditation, energy-market structure, storage participation, DER/hybrid rules, interconnection processes, and load integration.",
+        "screened_at": "2026-10-20 16:35:23",
+        "ai_summary": "NYISO's 2026 project milestones track design and implementation across revenue and operational areas. Key hydro/storage-relevant projects include: ICAP Demand Curve Reset (DCR) Process Improvements (at-risk in Q4), Automatic ICAP Surplus Offers (completed Q3), Improving Capacity Accreditation and Resource Adequacy Modeling (on schedule Q4), Review of Real-Time Market Structure (on schedule Q4), Storage as Transmission (critical status, completed Q3), Flexible Load Models \u2013 Large Loads (on schedule Q4), DER Market Enhancements (critical Q4), FERC Order 2222 Compliance (on schedule Q4), Hybrid Aggregation Model (on schedule Q4), Dynamic Reserves \u2013 Phase 1 (at-risk Q4), Winter Reliability Capacity Enhancements (on schedule Q4), Reliability Planning & Large Load Integration (on schedule Q4), and Interconnection Cluster Study Process Implementation (completed Q4). Multiple projects have stakeholder-impact implications affecting market participation, bidding systems, and grid operations.",
+        "hydro_read_through": "The document does not name hydro directly, but tracks projects governing the market mechanisms on which hydro and PSH revenue depend: capacity accreditation models will determine seasonal UCAP/ELCC revenue; the real-time market review and dynamic reserves projects shape energy and flexibility pricing; storage-as-transmission and DER/hybrid aggregation rules directly affect PSH participation pathways and co-location options; and large-load integration and interconnection process improvements alter the competitive and transmission constraints facing hydro deliverability. Several projects flagged as 'at-risk' or 'critical' (DCR, Storage as Transmission, DER Enhancements, Dynamic Reserves) are on tracks that could miss year-end milestones, affecting implementation timelines and stakeholder cost.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "hybrids-der"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "ICAP Demand Curve Reset (DCR) Process and Methodology Improvements marked at-risk in Q4",
+            "quote": "ICAP Demand Curve Reset (DCR) Process and Methodology Improvements | KP | Q4 | MDC | At Risk",
+            "verified": true
+          },
+          {
+            "claim": "Automatic ICAP Surplus Offers completed Q3",
+            "quote": "Automatic ICAP Surplus Offers | AP | Q3 | MDC | Completed",
+            "verified": true
+          },
+          {
+            "claim": "Storage as Transmission marked critical status, Q3",
+            "quote": "Storage as Transmission | AP | Q3 | FRS | Critical",
+            "verified": true
+          },
+          {
+            "claim": "DER Market Enhancements marked critical status, Q4",
+            "quote": "DER Market Enhancements | AP | Q4 | MDC | Critical",
+            "verified": true
+          },
+          {
+            "claim": "Dynamic Reserves \u2013 Phase 1 marked at-risk in Q4",
+            "quote": "Dynamic Reserves \u2013 Phase 1 | KP | Q4 | Dev. Comp. | At Risk",
+            "verified": true
+          },
+          {
+            "claim": "Interconnection Cluster Study Process Implementation completed Q4",
+            "quote": "Interconnection Cluster Study Process Implementation | KP | Q4 | Deploy | Completed",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Kevin Pytel",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "WMWG Meeting",
@@ -2419,7 +2739,18 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "FERC Order 881 on transmission line ratings is a technical operational standard for managing thermal and dynamic line limits, with no direct bearing on hydropower revenue, capacity accreditation, ancillary-services pricing, storage participation models, or market-design rules that affect hydro dispatch, pricing, or strategic options.",
     "meeting_screened_at": "2026-10-19 18:21:17",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "2540f413-693d-47fd-be44-4204b722007d",
+        "canonical_name": "FERC Order No. 881 - managing transmission line ratings",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/FERC-order-no-881-managing-transmission-line-ratings"
+      }
+    ],
     "documents": []
   },
   {
@@ -2470,17 +2801,37 @@
   {
     "title": "SPF Meeting",
     "date": "2026-10-23",
-    "time": "1:00 p.m. - 2:30 p.m.",
+    "time": "1:00 p.m. - 3:00 p.m.",
     "rto": "PJM",
     "committee": "SPF",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={E9DF575E-D88E-443F-ADC1-B15F3B7D2A19}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0383890B-3FA3-4885-B384-60ECD7581C86}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SPF (Strategic Planning Forum) is PJM's governance and long-range strategy committee; without an agenda or specific topics, this generic meeting title provides insufficient evidence that it addresses market-design mechanisms affecting hydro revenue, compliance obligations, or strategic options\u2014routine SPF sessions often cover administrative or non-technical governance matters outside the hydro operators' core interests.",
     "meeting_screened_at": "2026-10-07 18:59:09",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "2027 Preliminary Calendar \u2013 Standing \u2013 Sr Standing Committees Only",
+        "filename": "20261023-2027-preliminary-calendar---standing--sr-standing-committees-only.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/stakeholder-process/2026/20261023/20261023-2027-preliminary-calendar---standing--sr-standing-committees-only.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "NEPOOL Load Forecast Committee (LFC) Meeting",
@@ -2495,7 +2846,55 @@
     "meeting_hydro_reason": "Load forecasting directly informs resource-adequacy studies, capacity-market demand curves, and seasonal energy-adequacy outlooks that shape hydro revenue and strategic positioning in ISO-NE's market.",
     "meeting_screened_at": "2026-10-07 18:59:11",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "2026-10-23 LFC A00 Agenda",
+        "filename": "a00_102326_lfc_agenda.docx",
+        "url": "https://www.iso-ne.com/static-assets/documents/100040/a00_102326_lfc_agenda.docx",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Load-forecast updates, including electrification and EV demand modeling, inform resource-adequacy studies and scarcity conditions that drive hydro revenue; these forecasts are the input data for seasonal energy-adequacy studies and capacity accreditation processes.",
+        "screened_at": "2026-10-20 16:35:29",
+        "ai_summary": "ISO-NE Load Forecast Committee meeting agenda for October 23, 2026, covering the 2027 forecast cycle. Topics include methodology overview (CELT framework, component forecasts, input data, post-processing), 2026 forecast performance through the first eight months, and electrification forecast updates including heat-pump demand modeling and EV adoption forecasts. No decisions or comment deadlines are stated.",
+        "hydro_read_through": "This document does not mention hydropower or storage. However, ISO-NE's load forecasts\u2014particularly electrification demand and EV adoption projections\u2014are inputs to the seasonal energy-adequacy studies and capacity-planning processes that determine scarcity conditions and the value of existing hydro supply. Load growth, especially from electrification, raises the effective scarcity of conventional dispatchable resources and increases the strategic value of hydro's flexibility and seasonal water storage.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "capacity-ra"
+        ],
+        "directness": "reference",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jonathan Black",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Matthew Keller",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Tim Costa",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Victoria Rojo",
+            "entity": "ISO-NE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Office Hours with ISO-NE External Affairs",
@@ -2515,7 +2914,7 @@
   {
     "title": "System Protection Advisory Subcommittee",
     "date": "2026-10-23",
-    "time": "10:00 AM - 2:00 PM",
+    "time": "10:00 AM - 11:13 AM",
     "rto": "NYISO",
     "committee": "System Protection Advisory Subcommittee",
     "source_url": "https://www.nyiso.com/committees",
@@ -2540,7 +2939,103 @@
     "meeting_hydro_reason": "The Entergy Regional State Committee Working Group is a state-regulatory oversight body focused on Entergy's retail and operational matters within MISO, not a market-design forum addressing energy pricing, ancillary services, capacity accreditation, storage participation, or other mechanisms that affect hydropower revenue and compliance.",
     "meeting_screened_at": "2026-10-07 18:59:40",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "20261023 ERSCWG Item 01 Agenda.pdf",
+        "filename": "20261023 ERSCWG Item 01 Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20261023%20ERSCWG%20Item%2001%20Agenda789827.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large-load interconnection and FERC compliance proceedings affect hydro's strategic position on transmission and resource adequacy \u2014 the FERC Show Cause order on large load accession and emergency-operations rules reshape how hydro facilities must respond and compete.",
+        "screened_at": "2026-10-20 16:35:38",
+        "ai_summary": "Agenda for Entergy Regional State Committee Working Group meeting on October 23, 2026 (10:00 am\u2013noon ET). Topics include the Generator & Load Interconnection Process (GALIP), a FERC Large Load Show Cause order (EL26-70) with MISO compliance requirements, and MISO Emergency Communications protocols. The meeting convenes regulatory and municipal representatives (Arkansas, Louisiana, Mississippi, Texas, City of New Orleans) and discusses interconnection queuing, transmission planning (",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage. However, large-load interconnection and FERC Show Cause compliance directly shape hydro's strategic environment: interconnection queue reform and accession processes determine the timing and feasibility of hydro uprates and co-located load arrangements, while emergency-communications rules may impose new dispatch obligations on synchronous generators such as conventional hydro plants. The compliance timeline and scope of MISO's response to the FERC order will determine which hydro facilities face new operational requirements.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "interconnection",
+          "ferc-policy"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Meeting scheduled for October 23, 2026, 10:00 am\u2013noon ET (9:00 am\u201311:00 am CT)",
+            "quote": "Friday, October 23, 2026\n10:00am \u2013 Noon ET (9:00am \u2013 11:00am CT)",
+            "verified": true
+          },
+          {
+            "claim": "FERC Large Load Show Cause order EL26-70 and MISO compliance discussion scheduled for 20 minutes",
+            "quote": "V. FERC Large Load Show Cause (EL26-70), MISO Compliance \u2013 Michael Kessler (MISO) (20 Minutes)",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Courtney K. Hjaltman",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "JP Morrell",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Katie Anderson",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mike Francis",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Wayne Carr",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Barton Norfleet",
+            "entity": "E-RSC WG",
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "Drew Siebenaler",
+            "entity": "Energy Futures Group",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Michael Kessler",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Trevor Hines",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Clarie Douglass",
+            "entity": "Manifest America",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Value Proposition Workshop - October 23, 2026",
@@ -2753,6 +3248,77 @@
             "entity": "PJM",
             "role": "presenter",
             "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 02 \u2013 2026 Black Start Reliability Backstop Rfp \u2013 Presentation",
+        "filename": "item-02---2026-black-start-reliability-backstop-rfp---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20261022-special/item-02---2026-black-start-reliability-backstop-rfp---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Black Start Service is an ancillary service that hydro and other generation resources supply, and this RFP establishes procurement rules, cost recovery, and qualification criteria directly affecting hydro operators' ability to bid and be compensated for this revenue stream.",
+        "screened_at": "2026-10-20 16:35:51",
+        "ai_summary": "PJM is conducting its first Black Start Reliability Backstop RFP to procure at least one Fuel-Assured Black Start resource in every transmission zone, with in-service target of June 1, 2030. The RFP opened October 19, 2026, with Level 1 high-level proposals due November 20, 2026, and Level 2 detailed proposals due March 5, 2027. Eligible proposal types include new units, addition of Black Start capability to existing units, and enhancement of existing Black Start capability. Fuel-assurance paths include on-site fuel storage, independent pipeline operation, upstream gas connections, diverse gas units, qualified hydro (meeting PJM Manual 12 Section 4.5), and qualified intermittent/hybrid resources. Transmission owners without Fuel-Assured Black Start must respond; existing Black Start providers do not need to respond. Cost recovery for Generator Owner solutions flows through OATT Schedule 6A and PJM Manuals; Transmission Owner solutions recover through OATT Attachment H or other FERC-accepted mechanisms. Awards are made on a best-fit basis, with awarded resources required to support PJM restoration regardless of other obligations.",
+        "hydro_read_through": "Hydro plants can compete in this RFP as Qualified Hydro under one of six fuel-assurance paths, offering a revenue opportunity for Black Start Service procurement and potential cost recovery under OATT mechanisms. The qualification pathway through PJM Manual 12 Section 4.5 is specific to hydro, signaling that PJM views certain hydro capabilities as eligible for this backstop procurement, though the document does not detail what hydro-specific criteria that manual applies. Depending on the scope of 'qualified hydro' in Manual 12, run-of-river and storage hydro with black-start readiness could bid into multiple zones (including cross-zonal proposals where a hydro unit in one zone supports restoration in a neighbor), creating a new revenue stream or securing existing Black Start compensation under formalized procurement and cost-recovery rules.",
+        "source_names_hydro": true,
+        "topics": [
+          "ancillary-services",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "RFP opened October 19, 2026",
+            "quote": "OCT 19 \u2022 2026 DEC 18 \u2022 2026",
+            "verified": true
+          },
+          {
+            "claim": "Level 1 proposals due November 20, 2026",
+            "quote": "NOV 20 \u2022 2026",
+            "verified": true
+          },
+          {
+            "claim": "Level 2 proposals due March 5, 2027",
+            "quote": "MAR 5 \u2022 2027",
+            "verified": true
+          },
+          {
+            "claim": "In-service target June 1, 2030",
+            "quote": "JUN 1 \u2022 2030",
+            "verified": true
+          },
+          {
+            "claim": "Qualified hydro is eligible under fuel-assurance pathways",
+            "quote": "QUALIFIED HYDRO 4 Hydro Black Start meeting PJM Manual 12, Section 4.5 criteria.",
+            "verified": false
+          },
+          {
+            "claim": "Cost recovery for TO solutions under OATT Attachment H",
+            "quote": "TO Owned: Build new BS resource TO Owned: Build new BS resource Note: Black Start Units which are owned or contracted for by a Transmission Owner as a result of the Black Start Reliability Backstop process shall be subject to cost recovery through such Transmission Owner's annual revenue requirement under such Transmission Owner's Tariff, Attachment H",
+            "verified": false
+          },
+          {
+            "claim": "Awarded resources must support restoration regardless of other obligations",
+            "quote": "Solutions awarded Black Start or Fuel-Assured Black Start service must support PJM during a restoration event, regardless of off-system sales, host loads, ancillary services, or other obligations.",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Madalin How",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Madalin.How@pjm.com"
+          },
+          {
+            "name": "Ray Lee",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Ray.Lee@pjm.com"
           }
         ]
       }
@@ -3094,7 +3660,7 @@
     "date": "2026-10-22",
     "time": "9:00 AM",
     "rto": "ERCOT",
-    "committee": "Resource Integration Working Group",
+    "committee": "Credit Finance Sub Group",
     "source_url": "https://www.ercot.com/calendar",
     "detail_url": "https://www.ercot.com/calendar/10222026-Resource-Entity-and-TSP",
     "materials_url": "https://www.ercot.com/calendar/10222026-Resource-Entity-and-TSP",
@@ -3981,6 +4547,103 @@
         ],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "03a FERC Show Cause Order on Large and Co-Located Loads - Presentation",
+        "filename": "10-21%20BIC%20-%20Large%20Loads%20Repost.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59417928/10-21%20BIC%20-%20Large%20Loads%20Repost.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-14",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large Load Integration Procedures establish new interconnection, market participation, and cost-allocation rules affecting how new demand-side loads integrate; this directly shapes transmission, capacity, and resource-adequacy obligations and revenue opportunities for synchronous generation (hydro included) through network upgrades, service-rights allocation, and co-located or partnered resource arrangements.",
+        "screened_at": "2026-10-20 16:36:10",
+        "ai_summary": "NYISO presents its framework responding to FERC's June 18, 2026 Show Cause Order (EL26-69) on large and co-located load integration. The proposal establishes Large Load Integration Procedures (LLIP) for projects \u226550 MW, with a mandatory Resource Adequacy and Modeling Period (RAMP, 90 days), System Impact Study (SIS, 90 days), and Assessment of Load Integration (ALI) to determine Firm Withdrawal Service, Non-Firm Withdrawal Service, or Zero Withdrawal Service eligibility. Large Loads must mitigate adverse resource-adequacy and transmission-security impacts by pairing with Associated Resources (co-located or partnered generation), taking non-firm service, or funding Network Upgrades. Key features include site-control screening, application fees ($10,000), study deposits ($100,000\u2013$200,000 depending on size), readiness deposits ($4,000/MW at ALI entry), and operational requirements including telemetry, ramp limits, and ride-through standards. NYISO projects LLIP-1 RAMP to begin Q3 2027 (2027 Q3 STAR base case), with ALI using 2028 Q1 STAR; LLIP-2 RAMP begins Q1 2028. A Section 205 tariff filing is scheduled for November 16, 2026, following approval at the Merchants Committee (MC) on October 28, 2026.",
+        "hydro_read_through": "This document does not mention hydropower or pumped storage directly. However, the LLIP framework is material to conventional hydro owners because it establishes how large new loads will be allocated Firm versus Non-Firm withdrawal rights and which co-located or partnered resources must be built or modified to serve them. Large Loads that cannot secure Firm Withdrawal Service without new supply create demand for Associated Resources (including renewable generation that hydro owners may co-develop or contract with); simultaneously, large loads that accept Non-Firm Withdrawal Service or Zero Withdrawal Service may reduce the scarcity value of flexible generation during peak periods. The cost-allocation and Network-Upgrade-deferral rules will determine whether existing hydro's transmission access is subsidized by or subsidizes new loads, and the 15-year commitment requirement for Associated Resources locks in relative scarcity of supply and hence peak-period pricing. The interconnection-readiness framework (site control, deposits, study gates) may also accelerate load-side competition for firm capacity on constrained paths where hydro currently operates.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "load-growth",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "FERC Show Cause Order issued June 18, 2026 (EL26-69), requiring NYISO to submit Resource Adequacy report within 30 days",
+            "quote": "On June 18, 2026, FERC issued Show Cause Orders to each FERC-jurisdictional RTO/ISO and their FERC-jurisdictional Transmission Owner (\"TO\") members on the topic of large and co-located load integration (EL26-69)",
+            "verified": true
+          },
+          {
+            "claim": "NYISO filed Resource Adequacy Informational Report on July 20, 2026",
+            "quote": "On July 20, 2026, NYISO filed its Resource Adequacy Informational Report",
+            "verified": true
+          },
+          {
+            "claim": "FERC granted abeyance on August 14, 2026, placing Show Cause proceeding on hold for 90 days",
+            "quote": "FERC granted the NYISO's, the NYTOs', and the Non-Incumbent TOs' motions for abeyance on August 14, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Section 205 tariff filing due November 16, 2026",
+            "quote": "Accordingly, NYISO will work with stakeholders to further develop design and tariff language for the Section 205 filing which is due by November 16, 2026",
+            "verified": true
+          },
+          {
+            "claim": "LLIP applies to projects with peak load \u226550 MW",
+            "quote": "A proposed commercial or industrial load, located at a single site or in close proximity, behind one or more POIs, that has a peak load of 50 MW or greater proposing to connect to the New York State Transmission System",
+            "verified": true
+          },
+          {
+            "claim": "Application Fee of $10,000 (cash)",
+            "quote": "Non-refundable Application Fee submitted with Large Load Integration Request : $10,000 (in cash)",
+            "verified": true
+          },
+          {
+            "claim": "Study Deposit 1 ranges from $100,000 to $200,000 based on project size",
+            "quote": "Study Deposit 1 based on size of project submitted with Large Load Request: \u2022 Less than 200 MW* $100,000 \u2022 Less than 500 MW & greater than or equal to 200 MW $150,000 \u2022 Greater than or equal to 500 MW $200,000",
+            "verified": true
+          },
+          {
+            "claim": "Readiness Deposit of $4,000/MW collected at ALI Entry Decision",
+            "quote": "$4,000/MW to be collected at the ALI Entry Decision for projects that elect to continue in the LLIP",
+            "verified": true
+          },
+          {
+            "claim": "Associated Resources must remain available for 15 years; early exit reclassifies Large Load as Non-Firm Withdrawal Service",
+            "quote": "Associated Resource must remain available for 15 years; early exit can reclassify the associated Large Load as NFWS",
+            "verified": true
+          },
+          {
+            "claim": "LLIP-1 RAMP begins Q3 2027 with 2027 Q3 STAR base case; ALI uses 2028 Q1 STAR",
+            "quote": "LLIP-1 (RAMP begins Q3 2027) RAMP/SIS 2027 Q3 STAR ALI 2028 Q1 STAR",
+            "verified": false
+          },
+          {
+            "claim": "LLIP-2 RAMP begins Q1 2028 with 2028 Q1 STAR base case; ALI uses 2028 Q3 STAR",
+            "quote": "LLIP-2 (RAMP begins Q1 2028) RAMP/SIS 2028 Q1 STAR ALI 2028 Q3 STAR",
+            "verified": false
+          },
+          {
+            "claim": "MC vote scheduled for October 28, 2026",
+            "quote": "October 2026 \u2022 10/28 MC Presentation & Vote",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Francesco Biancardi",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Prasad Shinde",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -4875,6 +5538,25 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "20261021 AC Item 02 IMM Assessment",
+        "filename": "20261021 AC Item 02 IMM Assessment.pdf",
+        "url": "https://cdn.misoenergy.org/20261021%20AC%20Item%2002%20IMM%20Assessment789795.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a governance and organizational-design review of MISO's market-monitoring function itself\u2014addressing institutional structure, scope boundaries, independence, and reporting lines\u2014with no bearing on hydro or PSH revenue streams, compliance obligations, or strategic options in MISO's energy and ancillary-services markets.",
+        "screened_at": "2026-10-20 16:36:13",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -4940,6 +5622,436 @@
         "hydro_relevant": false,
         "hydro_relevance_reason": "This is a routine credit and finance sub-group agenda with no content addressing hydro/PSH revenue mechanisms, compliance obligations, or strategic options.",
         "screened_at": "2026-10-15 16:42:49",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "02. CFSG_Minutes_Sep23_2026",
+        "filename": "02.-CFSG_Minutes_Sep23_2026.docx",
+        "url": "https://www.ercot.com/files/docs/2026/10/19/02.-CFSG_Minutes_Sep23_2026.docx",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a credit and settlement administrative meeting for ERCOT containing no discussion of price formation, ancillary services, capacity accreditation, storage participation, transmission, resource adequacy, or any market-design mechanism affecting generation revenue or compliance.",
+        "screened_at": "2026-10-20 16:36:23",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Anthony Lerch",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Augustine Ackon",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Austin Rosel",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Bob Wittmeyer",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Brenden Sager",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Chris Gayhart",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Debbie McKeever",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Ella Bruns",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Eric Endress",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Evan Truitt",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Gabrielle Schroeder",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Heverton Ferreira",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "James Curtis",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "James Langdon",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Jeff Moore",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Joseph Ybarra",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Justin Cockrell",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Kelsey Pearson",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Kolby Kettler",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Kristy Ashley",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Marcus Cirone",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Matt Robson",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Michelle Almazan",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Ricky Henderson",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Roberto Solis Jr",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Ryan Evans",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Sarah Kemp",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Scott Coakley",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Shuye Teng",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Vaibhav Parekh",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "William Rurode",
+            "entity": "Consumer",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Jett Price",
+            "entity": "Cooperative",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Patrick Bhirdo",
+            "entity": "Cooperative",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Cory Philips",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Kais Akhter",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Maruthi Gaddam",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Matt Folks",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Ramlok Dommaraju",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Samantha Findley",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Sanchir Dashnyam",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Zaldy Zapanta",
+            "entity": "ERCOT",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Brian Kozlowski",
+            "entity": "Independent Power Marketer",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Danice Ridge",
+            "entity": "Independent Power Marketer",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Don Meek",
+            "entity": "Independent Power Marketer",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mark Holler",
+            "entity": "Independent Power Marketer",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mark Price",
+            "entity": "Independent Power Marketer",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Loretto Martin",
+            "entity": "Independent Retail Electric Provider",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Bobby Gujavarty",
+            "entity": "Municipal",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Don Daugherty",
+            "entity": "Municipal",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Richard Santoyo",
+            "entity": "Municipal",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "04. NPRRs for Review",
+        "filename": "04.-NPRRs-for-Review.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/10/19/04.-NPRRs-for-Review.pptx",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NPRR1340 proposes Energy Storage Resource participation in a ERCOT ancillary service (Dispatchable Reliability Reserve Service); while ERCOT has no native hydro fleet, this precedent for storage participation in ancillary services and the credit/settlement treatment it establishes are directly relevant to how pumped-storage hydro would be modeled in other RTOs and to NHA's cross-market monitoring of storage design.",
+        "screened_at": "2026-10-20 16:36:37",
+        "ai_summary": "NPRR1340 adds Energy Storage Resource (ESR) participation to ERCOT's Dispatchable Reliability Reserve Service (DRRS) ancillary service, permitting ESRs to provide DRRS using discharge capability only (positive High Sustained Limit). ERCOT Credit Staff determined the change does not alter the methodology for calculating Total Potential Exposure, Estimated Aggregate Liability, or Minimum Current Exposure, but does require revisions to Section 16.11.4 to include DRRS payments and charges in Unbilled Day-Ahead Amounts (UDAA) and Real-Time Liability Completed and Not Settled (RTLCNS) components, potentially raising or lowering Total Potential Exposure. NPRR1343 introduces a bid fee for each inefficient hourly Point-to-Point (PTP) Obligation bid in ERCOT's Day-Ahead Market, modifiable by WMS recommendation and TAC approval, requiring Section 16.11.4 changes to track PTP Obligation Bid Fee charges in UDAA and potentially increasing Total Potential Exposure. NPRRs 1350 and 1351 automate outdated email-based form submissions through ERCOT's Market Participant Service Portal; Credit Staff found neither requires changes to credit monitoring or liability calculations.",
+        "hydro_read_through": "The document does not mention hydro or pumped storage. However, NPRR1340's framework for energy storage participation in an ancillary service\u2014specifically the discharge-only constraint and the credit/settlement treatment layered into liability calculations\u2014establishes a precedent for how other RTOs may design storage eligibility in their own reserve products. Pumped-storage hydro would face similar discharge-mode-only restrictions if bidding into comparable services in NYISO, PJM, or MISO, and the settlement mechanics shown here (integrating new ancillary-service charges into existing liability components) would likely parallel how PSH credit exposure gets modeled elsewhere. NPRRs 1350 and 1351 are administrative and have no hydro relevance.",
+        "source_names_hydro": false,
+        "topics": [
+          "storage",
+          "ancillary-services"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "ESR participation in DRRS would only be permitted using the discharge capability, not the charging capability (i.e., positive High Sustained Limit (HSL))",
+            "quote": "ESR participation in DRRS would only be permitted using the discharge capability, not the charging capability (i.e., positive High Sustained Limit (HSL)).",
+            "verified": true
+          },
+          {
+            "claim": "Changes to Section 16.11.4 to include in the Unbilled Day-Ahead Amounts (UDAA) and Real-Time Liability Completed and Not Settled (RTLCNS) components of the EAL and MCE to account for any payments or charges arising from the introduction of the Dispatchable Reliability Reserve Service (DRRS) Ancillary Service",
+            "quote": "It does require changes to Section 16.11.4, Determination and Monitoring of Counter-Party Credit Exposure, to include in the Unbilled Day-Ahead Amounts (UDAA) and Real-Time Liability Completed and Not Settled (RTLCNS) components of the EAL and MCE to account for any payments or charges arising from the introduction of the Dispatchable Reliability Reserve Service (DRRS) Ancillary Service",
+            "verified": true
+          },
+          {
+            "claim": "Changes may result in either a higher or lower TPE",
+            "quote": "This may result in either a higher or lower TPE.",
+            "verified": true
+          },
+          {
+            "claim": "NPRR1343 introduces a bid fee for each inefficient hourly Point-to-Point (PTP) Obligation bid in the Day-Ahead Market (DAM)",
+            "quote": "This Nodal Protocol Revision Request (NPRR) proposes the introduction of a bid fee for each inefficient hourly Point-to-Point (PTP) Obligation bid in the Day-Ahead Market (DAM).",
+            "verified": true
+          },
+          {
+            "claim": "Changes to Section 16.11.4 to include in the Unbilled Day-Ahead Amounts (UDAA) component of the EAL to account for any charges arising from the introduction of PTP Obligation Bid Fee in DAM",
+            "quote": "It does require changes to Section 16.11.4, Determination and Monitoring of Counter-Party Credit Exposure, to include in the Unbilled Day-Ahead Amounts (UDAA) component of the EAL to account for any charges arising from the introduction of PTP Obligation Bid Fee in DAM.",
+            "verified": true
+          },
+          {
+            "claim": "PTP bid fee changes may result in an increase in TPE",
+            "quote": "This may result in an increase in TPE.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "05. Section16 Track Changes ERCOT Credit",
+        "filename": "05.-Section16-Track-Changes-ERCOT-Credit.docx",
+        "url": "https://www.ercot.com/files/docs/2026/10/19/05.-Section16-Track-Changes-ERCOT-Credit.docx",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Section 16 of ERCOT Nodal Protocols describes market participant registration, qualification, and credit/financial security administration \u2014 procedural and administrative compliance rules with no bearing on hydro revenue streams, flexibility products, capacity accreditation, or resource-class-specific market design.",
+        "screened_at": "2026-10-20 16:36:40",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": true,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "06. CSM_Credit_Portal_Concept",
+        "filename": "06.-CSM_Credit_Portal_Concept.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/10/19/06.-CSM_Credit_Portal_Concept.pptx",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document describes ERCOT's internal credit-portal IT system design \u2014 a change to how Credit functions submit and track collateral documents, letters of credit, and financial statements, with no bearing on hydro or PSH revenue formation, compliance obligations, or strategic options.",
+        "screened_at": "2026-10-20 16:36:42",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "07. ERCOT Updates - Credit Exposure October 2026",
+        "filename": "07.-ERCOT-Updates-Credit-Exposure-October-2026.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/10/19/07.-ERCOT-Updates-Credit-Exposure-October-2026.pptx",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document reports ERCOT credit and collateral metrics for market participants\u2014cash, letters of credit, surety bonds, and financial exposure tracking. It contains no provisions affecting hydro or PSH revenue streams, compliance obligations, or strategic options, and no cross-market comparison value on hydro-relevant mechanisms like price formation, ancillary services, capacity accreditation, storage participation, or related topics.",
+        "screened_at": "2026-10-20 16:36:45",
         "ai_summary": null,
         "hydro_read_through": null,
         "source_names_hydro": false,
@@ -5783,11 +6895,11 @@
       },
       {
         "type": "agenda",
-        "title": "2026-10-20 RC A00 Consent Agenda",
+        "title": "2026-10-20 RC A00 Consent Agenda - Revision",
         "filename": "a02_00_102026_rc_consent_agenda.docx",
         "url": "https://www.iso-ne.com/static-assets/documents/100040/a02_00_102026_rc_consent_agenda.docx",
         "member_url": null,
-        "posted_date": "2026-10-14",
+        "posted_date": "2026-10-20",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This is a consent agenda for routine transmission and generation project notifications (breaker replacements, PPA withdrawals for solar and battery facilities) with no bearing on hydro or PSH revenue, participation rules, obligations, or strategic options.",
         "screened_at": "2026-10-15 16:44:12",
@@ -7252,7 +8364,7 @@
         "filename": "20261020 RASC Item 03 External Resources Accreditation (RASC-2024-5 and 2019-2).pdf",
         "url": "https://cdn.misoenergy.org/20261020%20RASC%20Item%2003%20External%20Resources%20Accreditation%20%28RASC-2024-5%20and%202019-2%29789136.pdf",
         "member_url": null,
-        "posted_date": "2026-10-15",
+        "posted_date": "2026-10-20",
         "hydro_relevant": true,
         "hydro_relevance_reason": "MISO's reformed accreditation methodology for external resources directly affects how capacity revenue and performance obligations are determined for resources serving MISO's footprint, including hydro and storage facilities that may participate as external resources; the accreditation basis, penalty structure, and emergency cost-recovery rules reshape the revenue and compliance landscape for non-pseudo-tied resources.",
         "screened_at": "2026-10-17 15:09:35",
@@ -7305,7 +8417,7 @@
         "filename": "20261020 RASC Item 03 External Resources Accreditation Redlines (RASC-2024-5 and 2019-2).docx",
         "url": "https://cdn.misoenergy.org/20261020%20RASC%20Item%2003%20External%20Resources%20Accreditation%20Redlines%20%28RASC-2024-5%20and%202019-2%29789137.docx",
         "member_url": null,
-        "posted_date": "2026-10-15",
+        "posted_date": "2026-10-20",
         "hydro_relevant": true,
         "hydro_relevance_reason": "MISO's two-schedule capacity accreditation methodology (53A and 53C) directly affects how conventional hydro and pumped-storage resources are accredited for seasonal capacity revenue, including explicit resource-class definitions, UCAP calculations, outage exemptions, and performance penalties.",
         "screened_at": "2026-10-17 15:09:58",
@@ -7492,7 +8604,27 @@
     "meeting_hydro_reason": "The Network Data Support Working Group addresses IT infrastructure, data management, and network administration\u2014not market-design mechanisms for energy pricing, ancillary services, capacity, storage, or resource participation that would affect hydro revenue or operations.",
     "meeting_screened_at": "2026-10-04 16:40:00",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "NDSWG Meeting Agenda 2026-10-20",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/10202026-NDSWG-Meeting-_-Webex#agenda",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a bare agenda for a Network Data Support Working Group meeting with only placeholder topic titles (DPC Tool Project Update, MOTE availability for testing) and no substantive content touching revenue, obligations, or strategic options for hydro or PSH.",
+        "screened_at": "2026-10-20 16:36:52",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "TXSETLP Meeting",
@@ -7944,7 +9076,7 @@
       },
       {
         "type": "comment",
-        "title": "4a IPPNY Comments",
+        "title": "4b IPPNY Comments",
         "filename": "IPPNY%20Comments%20NYISO%20DCRPMIP.pdf",
         "url": "https://www.nyiso.com/documents/20142/59427032/IPPNY%20Comments%20NYISO%20DCRPMIP.pdf",
         "member_url": null,
@@ -8003,6 +9135,27 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "other",
+        "title": "4a Demand Curves Simulation Tool",
+        "filename": "Demand%20Curves%20Simulation%20Tool_10-20%20ICAPWG.xlsx",
+        "url": "https://www.nyiso.com/documents/20142/59427032/Demand%20Curves%20Simulation%20Tool_10-20%20ICAPWG.xlsx",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO's demand-curve simulation tool directly affects capacity-market accreditation and clearing parameters, which determines how hydropower (including pumped-storage) resources are valued and compensated in the installed-capacity auction.",
+        "screened_at": "2026-10-20 16:36:49",
+        "ai_summary": "NYISO's Installed Capacity Working Group reviewed a Demand Curves Simulation Tool, which models the capacity-auction demand curve used to clear NYISO's capacity market. The tool simulates how different demand-curve parameters (CONE, slope, shape) affect auction prices and outcomes. No specific decision, vote, or comment deadline is stated in the available text.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage directly. However, demand-curve design controls the reservation price, shape, and clearing price in NYISO's capacity auction\u2014a primary revenue source for all accredited resources including conventional hydro and pumped-storage facilities. How the simulation tool is applied to set or adjust demand-curve parameters will materially affect the capacity revenue these resources earn each year.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -9245,7 +10398,88 @@
     "meeting_hydro_reason": "BPM changes to resource interconnection standards directly affect hydro and PSH interconnection processes, queue reform (FERC Order 2023), deliverability requirements, and surplus interconnection service eligibility \u2014 all critical to hydro development and uprate pathways in CAISO.",
     "meeting_screened_at": "2026-10-09 18:45:46",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - Business Practice Manual Change Management - Oct 19, 2026 - Stakeholder Session",
+        "filename": "presentation-business-practice-manual-change-management-oct-19-2026-stakeholder-session.pdf",
+        "url": "https://www.caiso.com/documents/presentation-business-practice-manual-change-management-oct-19-2026-stakeholder-session.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This document describes the BPM change management process for a new Resource Interconnection Standards manual (PRR 1695) affecting financial provisions (postings, deposits, penalties) that apply to all interconnecting resources, including conventional hydro and pumped-storage facilities.",
+        "screened_at": "2026-10-20 16:37:01",
+        "ai_summary": "CAISO is developing a new Business Practice Manual (BPM) for Resource Interconnection Standards (PRR 1695) to implement ISO Tariff Appendix KK, with financial topics including postings, deposits, penalties, and additional financial provisions. The PRR was submitted August 10, 2026, and the initial comment period expired September 16, 2026. Initial comments were received from American Clean Power \u2013 California (Caitlin Liotiris and Molly Croll), the Large-scale Solar Association (Susan Schneider), and EDF Power Solutions (Raeann Quadro). The BPM will be developed through stakeholder sessions, with the next session scheduled for October 26, 2026 (11:00 a.m.\u201312:00 p.m.) to cover postings, deposits, penalties, and additional financial provisions, followed by a November 16, 2026 session (12:30 p.m.\u20131:30 p.m.) on commercial viability criteria, general provisions, and non-financial provisions. The PRR will return to the initial comment phase following these stakeholder sessions.",
+        "hydro_read_through": "The document does not name hydropower or pumped storage directly; however, the interconnection-standards BPM establishes rules that apply to all resources seeking grid connection. Because financial posting, deposit, and penalty provisions apply to interconnecting projects regardless of technology, changes to these requirements would affect hydro and PSH owners' interconnection costs and compliance obligations. The status of this proceeding\u2014under development with extended stakeholder sessions and an initial comment period already closed\u2014signals that hydro operators should monitor the November session agenda for non-financial provisions that may also touch design or operational standards.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "PRR submitted 8/10/26",
+            "quote": "PRR submitted 8/10/26.",
+            "verified": true
+          },
+          {
+            "claim": "Initial comment period expired: September 16, 2026",
+            "quote": "Initial comment period expired: September 16, 2026",
+            "verified": true
+          },
+          {
+            "claim": "October 26, 2026 11:00 a.m.\u201312:00 p.m.",
+            "quote": "October 26, 2026 11:00 a.m.\u201312:00 p.m.",
+            "verified": true
+          },
+          {
+            "claim": "November 16, 2026 12:30 p.m.\u20131:30 p.m.",
+            "quote": "November 16, 2026 12:30 p.m.\u20131:30 p.m.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Caitlin Liotiris",
+            "entity": "American Clean Power \u2013 California",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Molly Croll",
+            "entity": "American Clean Power \u2013 California",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Daune Wilson",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joseph Williamson-Duffney",
+            "entity": "CAISO",
+            "role": "presenter, contact",
+            "email": "BPM_CM@caiso.com"
+          },
+          {
+            "name": "Raeann Quadro",
+            "entity": "EDF Power Solutions",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Susan Schneider",
+            "entity": "Large-scale Solar Association (LSA)",
+            "role": "commenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "MSC Zoom Meeting - Hosted by WIEB",
@@ -9295,12 +10529,12 @@
   {
     "title": "SRRTEP-S Meeting",
     "date": "2026-10-16",
-    "time": "9:00 a.m. - 10:30 a.m.",
+    "time": "2:00 p.m. - 5:00 p.m.",
     "rto": "PJM",
     "committee": "SRRTEP-S",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={78AEA9E3-B84D-47CE-B299-DC1223B2D755}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C32C76DA-5FF4-481A-BACE-EC026B7329E2}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "SRRTEP-S (System Restoration and Reactive Training & Education Panel \u2013 Study) is an operational training and education committee focused on operator preparedness and competency validation, not on market-design rules, revenue mechanisms, or strategic participation options that affect hydropower operators.",
     "meeting_screened_at": "2026-10-02 19:31:39",
@@ -16663,6 +17897,16 @@
     "issues": [
       {
         "rto": "ERCOT",
+        "native_id": "NPRR1312",
+        "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
+      },
+      {
+        "rto": "ERCOT",
         "native_id": "NPRR1340",
         "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
         "status": "Pending",
@@ -16670,6 +17914,26 @@
         "committee_owner": "PRS",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1343",
+        "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
+        "status": "Pending",
+        "stakeholder_phase": "Impact Analysis Consideration",
+        "committee_owner": "PRS",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1345",
+        "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
+        "status": "Pending",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
       },
       {
         "rto": "ERCOT",
@@ -16690,6 +17954,36 @@
         "committee_owner": "PRS",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1348"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1349",
+        "canonical_name": "NPRR1349 \u2014 765kV Transmission Outage Priority and Modeling Timelines",
+        "status": "Pending",
+        "stakeholder_phase": "Language Consideration",
+        "committee_owner": "PRS",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1349"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1350",
+        "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
+        "status": "Pending",
+        "stakeholder_phase": "Impact Analysis Consideration",
+        "committee_owner": "PRS",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1351",
+        "canonical_name": "NPRR1351 \u2014 Revisions to Section 23 Forms for the Market Participant Service Portal (MPSP)",
+        "status": "Pending",
+        "stakeholder_phase": "Impact Analysis Consideration",
+        "committee_owner": "PRS",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1351"
       }
     ],
     "documents": [
@@ -16732,6 +18026,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1312",
+            "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
@@ -16739,6 +18043,26 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1343",
+            "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1345",
+            "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
           {
             "rto": "ERCOT",
@@ -16759,6 +18083,36 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1348"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1349",
+            "canonical_name": "NPRR1349 \u2014 765kV Transmission Outage Priority and Modeling Timelines",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1349"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1350",
+            "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1351",
+            "canonical_name": "NPRR1351 \u2014 Revisions to Section 23 Forms for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1351"
           }
         ],
         "stakeholders": [
@@ -16816,6 +18170,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1312",
+            "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
@@ -16823,6 +18187,26 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1343",
+            "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1345",
+            "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
           {
             "rto": "ERCOT",
@@ -16843,6 +18227,36 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1348"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1349",
+            "canonical_name": "NPRR1349 \u2014 765kV Transmission Outage Priority and Modeling Timelines",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1349"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1350",
+            "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1351",
+            "canonical_name": "NPRR1351 \u2014 Revisions to Section 23 Forms for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1351"
           }
         ],
         "stakeholders": [
@@ -16885,6 +18299,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1312",
+            "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
@@ -16892,6 +18316,26 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1343",
+            "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1345",
+            "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
           {
             "rto": "ERCOT",
@@ -16912,6 +18356,36 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1348"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1349",
+            "canonical_name": "NPRR1349 \u2014 765kV Transmission Outage Priority and Modeling Timelines",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1349"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1350",
+            "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1351",
+            "canonical_name": "NPRR1351 \u2014 Revisions to Section 23 Forms for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1351"
           }
         ],
         "stakeholders": [
@@ -17012,6 +18486,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1312",
+            "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
@@ -17019,6 +18503,26 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1343",
+            "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1345",
+            "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
           {
             "rto": "ERCOT",
@@ -17039,6 +18543,36 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1348"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1349",
+            "canonical_name": "NPRR1349 \u2014 765kV Transmission Outage Priority and Modeling Timelines",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1349"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1350",
+            "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1351",
+            "canonical_name": "NPRR1351 \u2014 Revisions to Section 23 Forms for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1351"
           }
         ],
         "stakeholders": [
@@ -17069,6 +18603,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1312",
+            "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
@@ -17076,6 +18620,26 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1343",
+            "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1345",
+            "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
           {
             "rto": "ERCOT",
@@ -17096,6 +18660,36 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1348"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1349",
+            "canonical_name": "NPRR1349 \u2014 765kV Transmission Outage Priority and Modeling Timelines",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1349"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1350",
+            "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1351",
+            "canonical_name": "NPRR1351 \u2014 Revisions to Section 23 Forms for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1351"
           }
         ],
         "stakeholders": []
@@ -17119,6 +18713,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1312",
+            "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
@@ -17126,6 +18730,26 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1343",
+            "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1345",
+            "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
           {
             "rto": "ERCOT",
@@ -17146,6 +18770,36 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1348"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1349",
+            "canonical_name": "NPRR1349 \u2014 765kV Transmission Outage Priority and Modeling Timelines",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1349"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1350",
+            "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1351",
+            "canonical_name": "NPRR1351 \u2014 Revisions to Section 23 Forms for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1351"
           }
         ],
         "stakeholders": []
@@ -17169,6 +18823,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1312",
+            "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
@@ -17176,6 +18840,26 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1343",
+            "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1345",
+            "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
           {
             "rto": "ERCOT",
@@ -17196,6 +18880,36 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1348"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1349",
+            "canonical_name": "NPRR1349 \u2014 765kV Transmission Outage Priority and Modeling Timelines",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1349"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1350",
+            "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1351",
+            "canonical_name": "NPRR1351 \u2014 Revisions to Section 23 Forms for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1351"
           }
         ],
         "stakeholders": []
@@ -17219,6 +18933,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1312",
+            "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
@@ -17226,6 +18950,26 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1343",
+            "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1345",
+            "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
           {
             "rto": "ERCOT",
@@ -17246,6 +18990,36 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1348"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1349",
+            "canonical_name": "NPRR1349 \u2014 765kV Transmission Outage Priority and Modeling Timelines",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1349"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1350",
+            "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1351",
+            "canonical_name": "NPRR1351 \u2014 Revisions to Section 23 Forms for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1351"
           }
         ],
         "stakeholders": []
@@ -17269,6 +19043,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1312",
+            "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
@@ -17276,6 +19060,26 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1343",
+            "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1345",
+            "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
+            "status": "Pending",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
           {
             "rto": "ERCOT",
@@ -17296,6 +19100,36 @@
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1348"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1349",
+            "canonical_name": "NPRR1349 \u2014 765kV Transmission Outage Priority and Modeling Timelines",
+            "status": "Pending",
+            "stakeholder_phase": "Language Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1349"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1350",
+            "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "NPRR1351",
+            "canonical_name": "NPRR1351 \u2014 Revisions to Section 23 Forms for the Market Participant Service Portal (MPSP)",
+            "status": "Pending",
+            "stakeholder_phase": "Impact Analysis Consideration",
+            "committee_owner": "PRS",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1351"
           }
         ],
         "stakeholders": []
@@ -17560,12 +19394,12 @@
   {
     "title": "Load Analysis Subcommittee Meeting",
     "date": "2026-10-14",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "2:00 p.m. - 5:00 p.m.",
     "rto": "PJM",
     "committee": "Load Analysis Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={1E6383CA-A96E-4955-9CFD-78AD30E9440C}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C32C76DA-5FF4-481A-BACE-EC026B7329E2}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Load analysis subcommittee work on load forecasting, growth, and resource adequacy directly informs transmission planning, capacity market requirements, and scarcity conditions that affect hydro revenue and strategic options in the PJM footprint.",
     "meeting_screened_at": "2026-10-02 19:31:48",
@@ -19793,12 +21627,12 @@
   {
     "title": "DTS Meeting",
     "date": "2026-10-13",
-    "time": "9:00 a.m. - 10:00 a.m.",
+    "time": "2:00 p.m. - 5:00 p.m.",
     "rto": "PJM",
     "committee": "DTS",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={1CA490EB-7279-41C1-9590-544487609CBF}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C32C76DA-5FF4-481A-BACE-EC026B7329E2}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "DTS (Distribution Technical Subcommittee) addresses distribution-level grid operations and equipment standards with no direct bearing on generation revenue, dispatch markets, capacity mechanisms, or storage participation rules that affect hydropower owners.",
     "meeting_screened_at": "2026-10-02 19:31:49",
@@ -20110,7 +21944,7 @@
   {
     "title": "CLLSCO Meeting",
     "date": "2026-10-13",
-    "time": "9:00 a.m. - 10:00 a.m.",
+    "time": "1:00 p.m. - 4:00 p.m.",
     "rto": "PJM",
     "committee": "CLLSCO",
     "source_url": "https://www.pjm.com/calendar",
@@ -20125,12 +21959,12 @@
   {
     "title": "Tech Change Forum Meeting",
     "date": "2026-10-13",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "1:00 p.m. - 3:00 p.m.",
     "rto": "PJM",
     "committee": "Tech Change Forum",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={E587226D-3991-4F0A-B9FC-8EEC5873CBCF}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0726FB12-69D4-49A0-A962-4323CC85C37E}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The 'Tech Change Forum' is a general technology and IT governance body with no stated focus on market design, rate structure, tariff development, or operational rules that affect hydropower revenue, compliance, or strategy.",
     "meeting_screened_at": "2026-10-02 19:31:53",
@@ -20371,6 +22205,63 @@
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20261013/20261013-item-05b---general-updates---pjm-security-update---presentation.pdf",
         "member_url": null,
         "posted_date": "2026-10-06",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04c \u2013 Product Roadmap \u2013 Data Miner \u2013 Presentation",
+        "filename": "20261013-item-04c---product-roadmap---data-miner---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20261013/20261013-item-04c---product-roadmap---data-miner---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04d \u2013 Product Roadmap \u2013 Secure Share \u2013 Presentation",
+        "filename": "20261013-item-04d---product-roadmap---secure-share---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20261013/20261013-item-04d---product-roadmap---secure-share---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-19",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04f \u2013 Product Roadmap \u2013 PJM Policy Portal \u2013 Presentation",
+        "filename": "20261013-item-04f---product-roadmap---pjm-policy-portal---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/forums/tech-change/2026/20261013/20261013-item-04f---product-roadmap---pjm-policy-portal---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-19",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "screened_at": null,
@@ -37474,12 +39365,12 @@
   {
     "title": "Distributed Resources Subcommittee Meeting",
     "date": "2026-10-05",
-    "time": "1:00 p.m. - 4:00 p.m.",
+    "time": "2:00 p.m. - 5:00 p.m.",
     "rto": "PJM",
     "committee": "Distributed Resources Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8AD07BC9-4A08-462F-A7A0-83A36919BD74}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={C32C76DA-5FF4-481A-BACE-EC026B7329E2}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Distributed Resources Subcommittee meetings in PJM typically address retail DER aggregation, small-scale solar/wind/storage, and demand response\u2014topics outside the commercial wholesale market design and revenue mechanisms that affect utility-scale hydropower and pumped-storage operators, though Order 2222 participation pathways warrant occasional monitoring.",
     "meeting_screened_at": "2026-10-02 16:02:56",
@@ -81377,8 +83268,8 @@
         "native_id": "NPRR1312",
         "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
         "status": "Pending",
-        "stakeholder_phase": "Impact Analysis Consideration",
-        "committee_owner": "PRS",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
       },
@@ -81407,8 +83298,8 @@
         "native_id": "NPRR1345",
         "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
         "status": "Pending",
-        "stakeholder_phase": "Impact Analysis Consideration",
-        "committee_owner": "PRS",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "TAC",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
       },
@@ -81481,8 +83372,8 @@
             "native_id": "NPRR1312",
             "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
           },
@@ -81511,8 +83402,8 @@
             "native_id": "NPRR1345",
             "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
@@ -81589,8 +83480,8 @@
             "native_id": "NPRR1312",
             "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
           },
@@ -81619,8 +83510,8 @@
             "native_id": "NPRR1345",
             "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
@@ -81682,8 +83573,8 @@
             "native_id": "NPRR1312",
             "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
           },
@@ -81712,8 +83603,8 @@
             "native_id": "NPRR1345",
             "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
@@ -81762,8 +83653,8 @@
             "native_id": "NPRR1312",
             "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
           },
@@ -81792,8 +83683,8 @@
             "native_id": "NPRR1345",
             "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
@@ -81944,8 +83835,8 @@
             "native_id": "NPRR1312",
             "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
           },
@@ -81974,8 +83865,8 @@
             "native_id": "NPRR1345",
             "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
@@ -82031,8 +83922,8 @@
             "native_id": "NPRR1312",
             "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
           },
@@ -82061,8 +83952,8 @@
             "native_id": "NPRR1345",
             "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
@@ -82111,8 +84002,8 @@
             "native_id": "NPRR1312",
             "canonical_name": "NPRR1312 \u2014 Revisions to the Standard Form Agreement (SFA)",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1312"
           },
@@ -82141,8 +84032,8 @@
             "native_id": "NPRR1345",
             "canonical_name": "NPRR1345 \u2014 Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
             "status": "Pending",
-            "stakeholder_phase": "Impact Analysis Consideration",
-            "committee_owner": "PRS",
+            "stakeholder_phase": "Revision Request Consideration",
+            "committee_owner": "TAC",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1345"
           },
@@ -86626,7 +88517,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-19 17:57:11",
+    "meeting_screened_at": "2026-10-20 16:11:23",
     "issues": [],
     "documents": [
       {
@@ -91895,7 +93786,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-19 17:57:32",
+    "meeting_screened_at": "2026-10-20 16:11:44",
     "issues": [],
     "documents": [
       {
@@ -91933,7 +93824,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-19 17:57:53",
+    "meeting_screened_at": "2026-10-20 16:12:05",
     "issues": [],
     "documents": [
       {
@@ -94525,7 +96416,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-19 17:58:14",
+    "meeting_screened_at": "2026-10-20 16:12:26",
     "issues": [],
     "documents": [
       {
@@ -107043,7 +108934,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-19 17:58:35",
+    "meeting_screened_at": "2026-10-20 16:12:47",
     "issues": [],
     "documents": [
       {
@@ -201326,7 +203217,7 @@
         "native_id": "NPRR1343",
         "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
         "status": "Pending",
-        "stakeholder_phase": "Language Consideration",
+        "stakeholder_phase": "Impact Analysis Consideration",
         "committee_owner": "PRS",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
@@ -201489,7 +203380,7 @@
             "native_id": "NPRR1343",
             "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
@@ -201666,7 +203557,7 @@
             "native_id": "NPRR1343",
             "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
@@ -201843,7 +203734,7 @@
             "native_id": "NPRR1343",
             "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
@@ -202010,7 +203901,7 @@
             "native_id": "NPRR1343",
             "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
@@ -202170,7 +204061,7 @@
             "native_id": "NPRR1343",
             "canonical_name": "NPRR1343 \u2014 Introduction of PTP Obligation Bid Fee in DAM",
             "status": "Pending",
-            "stakeholder_phase": "Language Consideration",
+            "stakeholder_phase": "Impact Analysis Consideration",
             "committee_owner": "PRS",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1343"
