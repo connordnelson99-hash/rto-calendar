@@ -300,6 +300,323 @@
     "documents": []
   },
   {
+    "title": "2026 Open Meeting of the ISO Board of Directors",
+    "date": "2026-11-10",
+    "time": "6:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Board of Directors Open Meetings",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=161548",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "A generic Board of Directors open meeting in 2026 without specific agenda items disclosed is too early and too general to assess for hydropower-specific market-design content; relevance depends on the actual agenda materials, which are not provided.",
+    "meeting_screened_at": "2026-10-25 15:38:05",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Business Issues Committee",
+    "date": "2026-11-10",
+    "time": "10:00 AM - 4:00 PM",
+    "rto": "NYISO",
+    "committee": "Business Issues Committee",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/business-issues-committee-bic",
+    "materials_url": "https://www.nyiso.com/business-issues-committee-bic",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Business Issues Committee agenda title provides no specifics on what topics will be discussed, and the committee name alone does not signal focus on market-design mechanisms that affect hydro revenue, compliance, or strategy.",
+    "meeting_screened_at": "2026-10-25 15:38:07",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Market Subcommittee (MSC) - November 10, 2026",
+    "date": "2026-11-10",
+    "time": "9:00 AM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Market Subcommittee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/92f212d3775d4fe49646f6d3570419b6.aspx",
+    "materials_url": "https://www.misoenergy.org/link/92f212d3775d4fe49646f6d3570419b6.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO's Market Subcommittee routinely covers energy and ancillary-service price formation, capacity accreditation, storage participation rules, and flexibility products that directly affect hydro and pumped-storage revenue and compliance obligations across the MISO footprint and neighboring markets.",
+    "meeting_screened_at": "2026-10-25 15:38:09",
+    "issues": [],
+    "documents": [
+      {
+        "type": "other",
+        "title": "New Issue - Energy Deficits Resulting in Value of Lost Load (VOLL) Pricing and Ramp Rate Violati.pdf",
+        "filename": "New Issue - Energy Deficits Resulting in Value of Lost Load (VOLL) Pricing and Ramp Rate Violati.pdf",
+        "url": "https://cdn.misoenergy.org/New%20Issue%20-%20Energy%20Deficits%20Resulting%20in%20Value%20of%20Lost%20Load%20%28VOLL%29%20Pricing%20and%20Ramp%20Rate%20Violati791114.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO is examining real-time energy-price formation outcomes when VOLL (Value of Lost Load) pricing occurs alongside generator ramp-rate violations, which directly touches energy scarcity-pricing mechanisms and ramping constraints that affect hydro's revenue and dispatch flexibility.",
+        "screened_at": "2026-10-25 15:38:29",
+        "ai_summary": "MISO submitted a new issue to its Market Subcommittee on October 23, 2026, flagging outcomes in its Real-Time Energy and Operating Reserves Market when energy deficits trigger Value of Lost Load (VOLL) pricing and coincident generator ramp-rate violations without load shedding. MISO is evaluating whether pricing signals and market-clearing outputs are appropriate under these conditions. The issue spans settlements, real-time energy and ancillary-services market design, and business practices, with operational performance and reliability implications noted. No resolution deadline or dependency on other issues is specified.",
+        "hydro_read_through": "The document does not mention hydro or pumped storage directly. MISO's inquiry into VOLL pricing coupled with ramp-rate violations is material because hydro is the primary source of fast ramping in MISO's footprint and among the most constrained by ramp-rate limitations in real-time dispatch. If VOLL prices are triggered while generators (including hydro) are prevented from ramping by rate limits, hydro operators will face constrained revenue capture at scarcity prices and potential missed revenue from flexibility they could supply if ramp constraints were re-optimized. The outcome will determine whether scarcity pricing in MISO adequately compensates fast-ramping resources or whether market design changes are needed.",
+        "source_names_hydro": false,
+        "topics": [
+          "price-formation",
+          "ramping-flexibility",
+          "ancillary-services"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Submission date: October 23, 2026",
+            "quote": "Submission Date: 10/23/2026",
+            "verified": true
+          },
+          {
+            "claim": "VOLL pricing and generator ramp rate violations without load shed",
+            "quote": "Energy Deficits Resulting in Value of Lost Load (VOLL) Pricing and Ramp Rate Violations without Load Shed",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Leah Wolfe",
+            "entity": "MISO",
+            "role": "author",
+            "email": "lwolfe@misoenergy.org"
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261110 MSC Item 07 MISO\u2019s Response to IMM 2025 State of the Market Recommendations.pdf",
+        "filename": "20261110 MSC Item 07 MISO\u2019s Response to IMM 2025 State of the Market Recommendations.pdf",
+        "url": "https://cdn.misoenergy.org/20261110%20MSC%20Item%2007%20MISO%E2%80%99s%20Response%20to%20IMM%202025%20State%20of%20the%20Market%20Recommendations790784.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's response to IMM recommendations includes multiple proposals on capacity accreditation reform, make-whole payments for deviating resources, daily capacity balancing, and LMR capacity-obligation alignment\u2014all mechanisms that directly affect how dispatchable and storage resources (including run-of-river and other use-limited hydro) are accredited, valued, and held to performance standards in the capacity and ancillary-services markets.",
+        "screened_at": "2026-10-25 15:38:40",
+        "ai_summary": "MISO presented its response to six new and 32 ongoing Independent Market Monitor (IMM) recommendations from the 2025 State of the Market Report at the November 10, 2026 Market Subcommittee meeting. Among six new recommendations, MISO is actively working on three (capacity-obligation alignment with Load Modifying Resource capability, daily capacity balancing settlement to replace CRNCC rules, and capacity accreditation reforms including maintenance margin and DLOL treatment of firm and non-firm gas resources), has planned work on two (reduce make-whole and operating reserve payments for deviating resources, and penalties for resources offering emergency ranges), and disagrees with one (retroactive repricing criteria). MISO also closed eight prior recommendations, including implementation of marginal accreditation methodologies with an implementation date of 2028 and removal of Energy Efficiency from capacity eligibility. Work on capacity accreditation and load-balancing settlement is scheduled to continue through 2027\u20132028.",
+        "hydro_read_through": "The document does not name hydropower or pumped storage directly, but capacity accreditation reform\u2014particularly revision of maintenance margin, treatment of resources off-control, and DLOL (Dependable Load Obligation) treatment of gas resources\u2014sets methodology that governs how conventional hydro and storage are accredited for seasonal capacity revenue. Similarly, reforms to make-whole and operating-reserve payments for deviating resources would affect how hydro's deviation from dispatch instructions is settled, and the daily capacity balancing settlement (replacing CRNCC) could alter how hydro's energy-limited nature interacts with capacity obligations during shortage events. The timeline (2028 implementation for accreditation, 2027 for settlement design) gives hydro owners a planning window but indicates material rule changes are in flight.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "price-formation"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Implementation date of 2028 for marginal accreditation framework",
+            "quote": "FERC approved MISO's filing to implement a marginal accreditation framework with an implementation date of 2028.",
+            "verified": true
+          },
+          {
+            "claim": "Work on capacity accreditation reform continuing through 2027",
+            "quote": "Work on the first is underway, numbers two and three are being evaluated and the fourth will go into effect when DLOL is implemented in 2028.",
+            "verified": true
+          },
+          {
+            "claim": "Daily capacity balancing settlement work to continue through 2027",
+            "quote": "In August 2026, MISO introduced RASC-2026-3. Through this item, MISO will evaluate options to enhance outage policy rules with work to continue through 2027.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Zhaoxia Xie",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "zxie@misoenergy.org"
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "20261110 MSC Item 01c Minutes 20261001.pdf",
+        "filename": "20261110 MSC Item 01c Minutes 20261001.pdf",
+        "url": "https://cdn.misoenergy.org/20261110%20MSC%20Item%2001c%20Minutes%2020261001787055.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-08",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO is advancing several market-design reforms touching energy storage participation rules, reserve deliverability and procurement frameworks, and congestion management that establish precedent for how dispatchable and storage resources are optimized, compensated, and held to performance standards \u2014 including ESR dispatch and settlement mechanics that hydro operators monitor for parity.",
+        "screened_at": "2026-10-25 15:38:58",
+        "ai_summary": "Minutes from MISO Market Subcommittee meeting held October 1, 2026, in Carmel, Indiana. Key active issues include: (1) Interconnection Service Limit Constraint for Co-Located Resources (MSC-2020-2) went live October 2, 2026, in MISO's Day-Ahead and Real-Time markets (approved by FERC in Docket No. ER26-1915); (2) Enhance Reserve Deliverability for DA and RT Market (MSC-2026-2) recommends enabling Regulation Reserve Procurement Enhancement constraints on Regional Directional Transfer with $70 single-step demand curve; (3) Evaluation of Updates to Congestion Management and TCDCs (MSC-2026-6) under consideration for changes to Transmission Constraint Demand Curves; (4) Reliability Assessment Commitment (RAC) Dispatch Adjustment to Limit Stranded Fuel Risk (MSC-2026-8) addresses cost-recovery gaps, with feedback due October 16, 2026; (5) Electric Storage Resource (ESR) Roadmap now consolidated under Reliability Imperative's Market Redefinition Pillar with 2027 optimization evaluation planned; (6) Independent Market Monitor Summer 2026 review found competitive market conditions with infrequent mitigation; (7) Two new issues accepted: ESR Excessive Deficient Energy Withdrawal (MSC-2026-9) and Enhanced Communication of Market Software Issues Affecting Market Participants (MSC-2026-10); (8) Firm Flow Entitlements (FFE) modernization effort using 'Guardrail' approach under structured discussion with PJM and SPP. Next MSC meeting scheduled November 10, 2026.",
+        "hydro_read_through": "Although these minutes do not discuss conventional or pumped-storage hydro, they document MISO's evolving treatment of co-located generation, storage resources, and reserve-procurement mechanics that set templates for how use-limited assets are accredited, dispatched, and settled. The ESR optimization roadmap consolidation into the Market Redefinition Pillar signals that storage participation rules will be developed through a unified process rather than as a separate ESR track \u2014 hydro operators should track how MISO handles state-of-charge constraints, charging-mode energy treatment, and AS stacking for battery storage, as those rules often become precedent for PSH treatment. The Reserve Procurement Enhancement constraint enabling and congestion-management refinements will affect how regulation and flexibility products are cleared and paid, which hydro typically supplies; the October 16 feedback deadline on RAC stranded-fuel recovery and the November 10 presentation of final congestion-management recommendations are decision points at which hydro market-power mitigation and ramping-product mechanics may be revisited.",
+        "source_names_hydro": true,
+        "topics": [
+          "storage",
+          "ancillary-services",
+          "ramping-flexibility"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "Interconnection Service Limit Constraint for Co-Located Resources went live October 2, 2026",
+            "quote": "The Interconnection Service Limit constraint approved by FERC in Docket No. ER26-1915 will be implemented on October 1, 2026, in MISO's Day-Ahead Energy and Operating Reserve Market for the October 2, 2026, Real-Time Energy and Operating Reserve Market Operating Day.",
+            "verified": true
+          },
+          {
+            "claim": "RAC Dispatch Adjustment feedback due October 16, 2026",
+            "quote": "MISO listed potential solutions and also included a feedback request on RAC Dispatch Adjustment to Limit Stranded Fuel Risk (MSC-2026-8), with feedback due October 16, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "Improve Market Monitoring and Mitigation feedback due October 15, 2026",
+            "quote": "Included in the presentation was a feedback request on Improve Market Monitoring and Mitigation (MSC 2026-05), with feedback due October 15, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "Regulation Reserve clearing with $70 single-step demand curve recommended",
+            "quote": "MISO discussed several benefits to the market that enabling the Reg-RPE constraints on RDT provides and concluded with the recommendation to enable the Reg-RPE constraints on RDT with the $70 single step demand curve to improve regulating reserve deliverability.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Chuck Hansen",
+            "entity": null,
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kim Sperry",
+            "entity": null,
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mike Schowalter",
+            "entity": null,
+            "role": "vice chair",
+            "email": null
+          },
+          {
+            "name": "Sarah Fisher",
+            "entity": null,
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Bryan Garnett",
+            "entity": "Duke Hydro",
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "Emma O'Neil",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jane Laskowski-Hart",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Jason Howard",
+            "entity": "MISO",
+            "role": "liaison",
+            "email": null
+          },
+          {
+            "name": "Dennis Kimm",
+            "entity": "MidAmerica",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Carrie Milton",
+            "entity": "Potomac Economics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "David Patton",
+            "entity": "Potomac Economics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kelley Brown",
+            "entity": "WEC",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Markets Committee of the Board of Directors - November 10, 2026",
+    "date": "2026-11-10",
+    "time": "2:30 PM - 3:30 PM",
+    "rto": "MISO",
+    "committee": "Markets Committee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/00bb690d4ea947eaa5014aa55150e026.aspx",
+    "materials_url": "https://www.misoenergy.org/link/00bb690d4ea947eaa5014aa55150e026.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO Markets Committee meetings routinely address energy price formation, ancillary services, capacity accreditation, storage participation rules, and resource-adequacy mechanisms\u2014all core revenue and compliance axes for hydro and PSH operators, and especially relevant for any NHA members considering MISO footprint participation or cross-market analysis.",
+    "meeting_screened_at": "2026-10-25 15:38:11",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "SPWG Meeting",
+    "date": "2026-11-10",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "System Protection Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/11102026-SPWG-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/11102026-SPWG-Meeting",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "System protection topics (relay coordination, protection schemes, equipment settings) do not typically touch the revenue, compliance obligations, or strategic options that define hydro/PSH market participation, and ERCOT's lack of hydropower further reduces direct applicability to NHA member interests.",
+    "meeting_screened_at": "2026-10-25 15:38:12",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Q&A Session for Submitting a Winter 2026-27 Declaration of Weather Preparedness",
+    "date": "2026-11-10",
+    "time": "1:00 PM",
+    "rto": "ERCOT",
+    "committee": "System Protection Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/11102026-Q_A-Session-for-Submitting",
+    "materials_url": "https://www.ercot.com/calendar/11102026-Q_A-Session-for-Submitting",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Winter weather-preparedness declarations are routine resource-readiness compliance filings unrelated to market design, pricing, or hydro participation mechanics, and this Q&A session is administrative guidance on submission process rather than a policy or rule change affecting revenue, obligations, or strategic options for hydropower operators.",
+    "meeting_screened_at": "2026-10-25 15:38:15",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Q&A Session for Submitting a Winter 2026-27 Declaration of Weather Preparedness Agenda 2026-11-10",
+        "filename": null,
+        "url": "https://www.ercot.com/calendar/11102026-Q_A-Session-for-Submitting#agenda",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ERCOT winterization and resource-readiness declarations set precedent for how RTOs codify compliance obligations for dispatchable resources \u2014 including storage and flexible generation \u2014 to prepare for weather events, establishing a model that may extend to hydro-rich markets and setting cross-market comparison value for understanding operating-standard requirements.",
+        "screened_at": "2026-10-25 15:39:04",
+        "ai_summary": "ERCOT System Protection Working Group is conducting a Q&A session to help Market Participants submit Winter 2026-27 Declaration of Weather Preparedness (DoWP) documents through the Weatherization & Inspection Market Participant Portal. The session has no pre-set agenda and is designed to address questions from participants about the submission process and portal mechanics.",
+        "hydro_read_through": "This document does not mention hydropower, pumped storage, or dispatchable generation specifically. However, ERCOT's weatherization and resource-preparedness declaration framework sets a precedent for how RTOs operationalize compliance obligations for generation resources to ensure reliability during winter stress. Because hydro operators in other markets face similar winterization and outage-scheduling compliance requirements, and because ERCOT's approach to declaring and verifying resource readiness may influence how other RTOs (particularly those with hydro fleets) structure their own preparedness regimes, this Q&A session and the DoWP submission process it supports represent a comparison point for market-design treatment of operating standards that would reach hydro facilities.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance"
+        ],
+        "directness": "precedent",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
     "title": "Budget & Priorities Working Group",
     "date": "2026-11-09",
     "time": "10:00 AM - 2:00 PM",
@@ -341,6 +658,21 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The Critical Infrastructure Protection Working Group's PLWG meeting addresses cybersecurity and physical-security protocols that fall outside the market-design axes (revenue, obligations, strategic options) that affect hydropower owner decisions, participation, and compliance.",
     "meeting_screened_at": "2026-10-24 15:13:03",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Extended Day-Ahead Market Congestion Revenue Allocation",
+    "date": "2026-11-09",
+    "time": "9:00 AM - 4:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Initiatives",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-congestion-revenue-allocation-nov-09-2026-0900-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Extended-day-ahead-market-congestion-revenue-allocation",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "EDAM congestion-revenue allocation directly affects hydro export value, transmission-constrained dispatch economics, and locational price signals that shape hydro bidding strategy and revenue across Western markets where NHA members operate.",
+    "meeting_screened_at": "2026-10-25 15:38:17",
     "issues": [],
     "documents": []
   },
@@ -13578,7 +13910,7 @@
     "date": "2026-10-23",
     "time": "4:00 PM",
     "rto": "ISO-NE",
-    "committee": "Office Hours with ISO-NE External Affairs",
+    "committee": "External Affairs",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=165301",
     "materials_url": null,
@@ -21712,6 +22044,95 @@
         "evidence": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "3a Interconnection Agreement",
+        "filename": "ieso-nyiso.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59427032/ieso-nyiso.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-20",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a bilateral transmission interconnection operating agreement between IESO and NYISO governing the physical interface between Ontario and New York control areas, addressing emergency energy transactions, outage coordination, and reliability procedures with no touch on any hydro revenue stream (pricing, ancillary-service accreditation, capacity markets, or mitigation rules), compliance obligation specific to hydro, or strategic option affecting hydro participation or deliverability.",
+        "screened_at": "2026-10-25 15:39:07",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": true,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "3b Draft EE Rate Schedule for HQTE",
+        "filename": "NYISO%20Draft%20EE%20Rate%20Schedule%20for%20HQTE%209_15_26drft2_AK.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59427032/NYISO%20Draft%20EE%20Rate%20Schedule%20for%20HQTE%209_15_26drft2_AK.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Emergency energy pricing mechanism for NYISO-HQT interconnections establishes a price-formation rule (150% LBMP plus transmission and ancillary-service charges) that sets precedent for how reserve and emergency energy supplied from generation is compensated, and Hydro-Qu\u00e9bec's participation in this mechanism directly affects cross-border hydropower revenue in a regulated rate schedule filed with NYISO.",
+        "screened_at": "2026-10-25 15:39:17",
+        "ai_summary": "NYISO's emergency energy rate schedule for Hydro-Qu\u00e9bec Trans\u00e9nergie (HQTE) sets the pricing mechanism for emergency energy transfers from NYISO generating capability to Hydro-Qu\u00e9bec during system emergencies. Emergency energy will be priced at 150% of the Locational Based Marginal Price at the relevant Proxy Generator Bus, plus all transmission costs and ancillary service charges incurred to deliver the energy. Invoices are calculated hourly based on the price multiplied by the maximum MW requested in the hour. The letter is signed by Aaron Markham, NYISO Vice President of Operations, and addressed to Sophie Paquette, Manager of Regulatory Strategy and Transmission Services at Hydro-Qu\u00e9bec.",
+        "hydro_read_through": "This document establishes a contractual emergency-energy price that hydropower suppliers (Hydro-Qu\u00e9bec) receive when exporting emergency energy across the NYISO border. The 150% LBMP adder plus full ancillary-service pass-through creates a high-value pathway for emergency dispatch of hydro generation during scarcity, directly affecting the revenue model for cross-border hydro exports into the Northeast. This rate schedule also establishes how NYISO's ancillary-service charges are allocated to emergency energy, setting a precedent for cost recovery when hydro or other generators provide emergency reserves.",
+        "source_names_hydro": true,
+        "topics": [
+          "price-formation",
+          "ancillary-services"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Emergency energy price is 150% of Locational Based Marginal Price at the relevant Proxy Generator Bus plus transmission costs and ancillary service charges",
+            "quote": "The NYISO emergency energy price will be 150% of the Locational Based Marginal Price at the relevant Proxy Generator Bus over which emergency energy is scheduled plus all the transmission costs and ancillary service charges incurred to deliver the emergency energy and ancillary services to the delivery point.",
+            "verified": true
+          },
+          {
+            "claim": "Invoices calculated hourly based on price multiplied by maximum MW requested in hour",
+            "quote": "Invoices will be calculated hourly based on the price resulting from the above price multiplied by the maximum amount of MW requested in the hour.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Sophie Paquette",
+            "entity": "Hydro-Qu\u00e9bec (HQT)",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Aaron Markham",
+            "entity": "New York Independent System Operator, Inc. (NYISO)",
+            "role": "signatory",
+            "email": null
+          },
+          {
+            "name": "Alex Schnell",
+            "entity": "New York Independent System Operator, Inc. (NYISO)",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Cheryl Hussey",
+            "entity": "New York Independent System Operator, Inc. (NYISO)",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Emilie Nelson",
+            "entity": "New York Independent System Operator, Inc. (NYISO)",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Robert Fernandez",
+            "entity": "New York Independent System Operator, Inc. (NYISO)",
+            "role": "contact",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -101367,7 +101788,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-24 14:49:37",
+    "meeting_screened_at": "2026-10-25 15:15:49",
     "issues": [],
     "documents": [
       {
@@ -106636,7 +107057,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-24 14:49:58",
+    "meeting_screened_at": "2026-10-25 15:16:10",
     "issues": [],
     "documents": [
       {
@@ -106674,7 +107095,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-24 14:50:19",
+    "meeting_screened_at": "2026-10-25 15:16:31",
     "issues": [],
     "documents": [
       {
@@ -109266,7 +109687,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-24 14:50:40",
+    "meeting_screened_at": "2026-10-25 15:16:52",
     "issues": [],
     "documents": [
       {
