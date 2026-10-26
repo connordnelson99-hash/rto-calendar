@@ -1,5 +1,20 @@
 [
   {
+    "title": "MDWG Net Conference",
+    "date": "2027-01-26",
+    "time": "11:00 AM - 5:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Design Working Group",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-design-working-group-net-conference-20270126-27/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=370765",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "SPP Markets+ Design Working Group is explicitly focused on market-design rules for energy, ancillary services, capacity, and storage participation in a multi-state RTO expansion; hydro owners in the region and prospective entrants need to track how this market will price and credential their output and reserve products, and whether the accreditation and storage rules fit hydro's operating characteristics.",
+    "meeting_screened_at": "2026-10-26 18:08:06",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MGHGTF Net Conference",
     "date": "2027-01-11",
     "time": "11:00 AM - 3:00 PM CT",
@@ -296,6 +311,162 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Markets+ seams governance and interregional market design directly affects hydro owners' strategic options for RTO membership and transmission/trade mechanisms, especially relevant for Western hydro considering Markets+ vs. WEIM/EDAM participation.",
     "meeting_screened_at": "2026-08-12 13:15:17",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Resource Adequacy Subcommittee (RASC) - November 11, 2026",
+    "date": "2026-11-11",
+    "time": "9:00 AM - 4:00 PM",
+    "rto": "MISO",
+    "committee": "Resource Adequacy Subcommittee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/6e93b1335889456fb10751d2a8a0dec7.aspx",
+    "materials_url": "https://www.misoenergy.org/link/6e93b1335889456fb10751d2a8a0dec7.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO's Resource Adequacy Subcommittee addresses capacity accreditation, seasonal energy adequacy, and reliability mechanisms that directly affect hydro and storage revenue recognition, particularly relevant to NHA members' strategic options and compliance obligations in reliability constructs.",
+    "meeting_screened_at": "2026-10-26 18:08:08",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20261111 RASC Item 01c Minutes 20260930.pdf",
+        "filename": "20261111 RASC Item 01c Minutes 20260930.pdf",
+        "url": "https://cdn.misoenergy.org/20261111%20RASC%20Item%2001c%20Minutes%2020260930788441.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-13",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO is revising accreditation and outage policies affecting capacity revenue recognition, reserve margin allocation, and external resource treatment \u2014 all mechanisms that directly govern how use-limited resources like hydro and PSH secure accreditation, and indirectly affect revenue through re-allocation of PRMR and changes to outage scheduling flexibility.",
+        "screened_at": "2026-10-26 18:08:41",
+        "ai_summary": "The MISO Resource Adequacy Subcommittee met September 30, 2026, to review multiple capacity-accreditation and resource-adequacy initiatives on track for FERC filing by end of 2026 or implementation in Planning Year 2028\u20132029. PRMR Allocation (RASC-2020-4, RASC-2019-2): MISO proposed shifting from settled-load to LSE-forecasted-demand allocation based on coincident peak net load conditions, with feedback due October 8 and final tariff language in November targeting FERC filing end-of-2026. External Resource Accreditation (RASC-2024-5, RASC-2019-2): MISO presented accreditation frameworks for pseudo-tied (Schedule 53A) and non-pseudo-tied (Schedule 53C) external resources using Day-Ahead e-Tag availability data, with an Auction Clearing Price penalty mechanism for Emergency Hour performance failures; feedback due October 16, targeting Planning Year 2029\u20132030 implementation. 24-Hour Lead Time in Accreditation (RASC-2026-1): Final proposal to reduce accreditation to zero for offline resources with combined start-up and notification time exceeding 24 hours during Seasonal RA Hours, with transition through November 30, 2026, and December 1 implementation; filing scheduled October 1, 2026. Evaluation of Outage Policies (RASC-2025-2A, RASC-2026-3): MISO presented draft problem statement on current outage exemptions and planned-outage rules creating misaligned maintenance incentives; feedback on problem statement due October 15, targeting 2028\u20132029 solutions. Unified Generation and Load Collection (RASC-2026-4): MISO announced enhanced long-term load survey and planned unified data collection by 2028, expanding visibility into large loads and co-located generation; feedback due October 14.",
+        "hydro_read_through": "These four initiatives will materially reshape the accreditation and outage environment for conventional hydro and pumped-storage facilities. The PRMR shift to net-load-based allocation will alter how the system's reserve-margin obligation is split among load-serving entities, with hydro's accreditation and seasonal capacity value indexed to new peak-net-load hours rather than historical coincident peak \u2014 a change that could shift when hydro must be available. The 24-hour lead-time rule, narrowed to Seasonal RA Hours but still binding, reduces accreditation for slower-start units during periods of highest reliability risk, potentially squeezing revenue for conventional hydro plants with multi-hour start times (especially those undergoing maintenance or dewatering). The external resource accreditation framework and penalty structure are important precedent for how interregional hydro export flows and pseudo-tied PSH resources will be treated. The outage evaluation signals that MISO may relax inflexible maintenance-scheduling rules \u2014 a direct concern for hydro operators balancing seasonal water management with the current penalty structure \u2014 though MISO has explicitly scoped the LOLE model methodology out of this review, limiting the depth of the re-examination.",
+        "source_names_hydro": true,
+        "topics": [
+          "capacity-ra",
+          "ops-compliance",
+          "load-growth"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "PRMR Allocation feedback due October 8",
+            "quote": "Stakeholders were invited to provide feedback on the updated PRMR allocation proposal and the consideration of changing the PRM% basis to gross demand during peak net load conditions in the LOLE model by October 8.",
+            "verified": true
+          },
+          {
+            "claim": "External Resource Accreditation feedback due October 16",
+            "quote": "MISO requested written stakeholder feedback by October 16, 2026, on the proposed accreditation methodology, ACP penalty framework, modifications to Use Limited Resources, and draft tariff revisions.",
+            "verified": true
+          },
+          {
+            "claim": "24-Hour Lead Time in Accreditation filing scheduled October 1, 2026",
+            "quote": "Staff confirmed that the final solution and tariff language presented to RASC incorporate stakeholder input and that the proposal is scheduled for filing with the Federal Energy Regulatory Commission (FERC) on October 1, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "24-Hour Lead Time implementation beginning December 1, 2026",
+            "quote": "The revisions establish a transition period through November 30, 2026, after which the new accreditation treatment would take effect beginning December 1, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "Outage Policies feedback due October 15",
+            "quote": "Stakeholders were invited to provide comments on the draft problem statement by October 15, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "Unified Generation and Load Collection feedback due October 14",
+            "quote": "Feedback was requested on the proposed load data collection enhancements and the broader unified data collection framework by October 14, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "External Resource Accreditation targeting Planning Year 2029\u20132030 implementation",
+            "quote": "The organization plans to continue stakeholder discussions, finalize tariff language in the fourth quarter of 2026, and pursue a FERC filing targeting implementation beginning with Planning Year 2029/30 or later.",
+            "verified": true
+          },
+          {
+            "claim": "24-Hour Lead Time defines threshold: combined Start-Up Time and Start-Up Notification Time exceeding 24 hours",
+            "quote": "Under the final proposal, an offline resource will receive zero hourly real-time availability during a Seasonal RA Hour if its combined Start-Up Time and Start-Up Notification Time exceeds 24 hours, or if those offer parameters are increased by more than three hours within 36 hours of a Seasonal RA Hour.",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Trey Mayeux",
+            "entity": null,
+            "role": "vice chair",
+            "email": null
+          },
+          {
+            "name": "Werner Roth",
+            "entity": null,
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "Amanda Jones",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Andy Taylor",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Bill Peters",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chris Delk",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dominique Davis",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Emma O'Neil",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Leah Wolfe",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Zhaoxia Xie",
+            "entity": "MISO",
+            "role": "miso liaison",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "PRS Meeting",
+    "date": "2026-11-11",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Protocol Revisions Subcommittee",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/11112026-PRS-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/11112026-PRS-Meeting",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Protocol Revisions Subcommittee meetings address ERCOT operational procedures and system administration with no indication this agenda touches market design, price formation, storage participation, ancillary services, or other hydro-relevant mechanisms; absent a specific agenda showing market-design content, routine protocol administration is outside the relevance criteria.",
+    "meeting_screened_at": "2026-10-26 18:08:10",
     "issues": [],
     "documents": []
   },
@@ -615,6 +786,51 @@
         "stakeholders": []
       }
     ]
+  },
+  {
+    "title": "Interconnection Customer User Group",
+    "date": "2026-11-10",
+    "time": "1:00 PM - 2:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Interconnection Customer User Group",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-nov-10-2026-0100-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/interconnection-customer-user-group",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Interconnection Customer User Group meetings at CAISO typically address queue reform, deliverability, surplus interconnection service, and interconnection timelines that directly affect hydropower project development and uprates at existing plants.",
+    "meeting_screened_at": "2026-10-26 18:08:12",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Release User Group Forum",
+    "date": "2026-11-10",
+    "time": "10:00 AM - 11:00 AM PT",
+    "rto": "CAISO",
+    "committee": "Release User Group (RUG)",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/release-user-group-forum-nov-10-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/release-users-group-rug",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Release User Group meetings cover IT systems, software deployment, and technical operations support \u2014 not market-design mechanics, pricing, or participation rules that affect hydro revenue, compliance, or strategy.",
+    "meeting_screened_at": "2026-10-26 18:08:14",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Comments due - 2027 Grid Management Charge Revenue Requirement, Project Budget, and Rates",
+    "date": "2026-11-10",
+    "time": null,
+    "rto": "CAISO",
+    "committee": "Grid management charge revenue requirement, project budget, and rates - 2027",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/comments-due-2027-grid-management-charge-revenue-requirement-project-budget-and-rates-nov-10-2026-1200-am",
+    "materials_url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Grid-management-charge-revenue-requirement-project-budget-rates-2027",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "This meeting concerns grid-management administrative charges and budgeting mechanics, which are cost-recovery and corporate-governance matters with no bearing on market design, hydro revenue formation, operational obligations, or strategic options affecting hydropower and pumped-storage participation.",
+    "meeting_screened_at": "2026-10-26 18:08:15",
+    "issues": [],
+    "documents": []
   },
   {
     "title": "Budget & Priorities Working Group",
@@ -1702,7 +1918,40 @@
     "meeting_hydro_reason": "Operations Training User Group meetings focus on IT training logistics and internal operational procedures rather than market-design rules, revenue mechanisms, or compliance obligations that affect hydropower operators.",
     "meeting_screened_at": "2026-10-19 18:21:09",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "20261104 OTUG Item 01b Agenda.pdf",
+        "filename": "20261104 OTUG Item 01b Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20261104%20OTUG%20Item%2001b%20Agenda791213.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a training and operations logistics agenda with no bearing on hydro revenue, compliance obligations, or strategic options.",
+        "screened_at": "2026-10-26 18:08:43",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "J. Lindsey",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "K. Nash",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "WMS Meeting",
@@ -7274,6 +7523,52 @@
         ],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "Item 05e \u2013 4 Manual 21b Host Process Load Imm \u2013 Informational Material",
+        "filename": "20261028-item-05e---4-manual-21b-host-process-load-imm---informational-material.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-05e---4-manual-21b-host-process-load-imm---informational-material.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 21B defines PJM's Installed Capacity (ICAP) determination rules for generation resources, including how to account for host/process load, which directly affects capacity accreditation and therefore capacity revenue for all dispatchable generators, including hydropower facilities with co-located or customer load.",
+        "screened_at": "2026-10-26 18:08:53",
+        "ai_summary": "PJM's Manual 21B establishes rules for determining Installed Capacity (ICAP) of generation resources, including provisions for measuring and deducting host/process load that is located behind a resource's point of interconnection. The document addresses capability testing requirements (summer verification tests between June 1 and August 31), rated-capability determination based on the last 15 years of PJM summer peak conditions, and the must-offer requirement that prevents capacity resources from removing MW from the market to serve host or process load. For cogenerators and units with hosts, ICAP determination must account for the highest host/process load in the prior 36 months if it exceeds the load during the test. The Independent Market Monitor (IMM) in 2025 began contacting cogenerators and units with hosts to validate capability sufficiency; some units had to derate their ICAP as a result. The IMM recommends documenting the FAQ language in Manual 21B without making it prospective, and proposes a stakeholder process to review ICAP definition and determination holistically, including testing requirements and rated-conditions definition.",
+        "hydro_read_through": "While the document does not mention hydropower directly, it establishes capacity accreditation rules that apply to all generation resources including run-of-river and conventional hydro facilities that may have co-located load or serve customer loads. The host/process load deduction rule and the 36-month lookback for determining ICAP could affect how hydro facilities with load-serving obligations or co-location arrangements are credited capacity value, potentially reducing their capacity revenue if significant customer load is netted against gross capability. Any proposed changes to the ICAP definition or testing framework through the recommended stakeholder process would also affect hydro accreditation mechanics and seasonal capacity payments.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "ops-compliance",
+          "hybrids-der"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Summer verification tests must be performed between June 1 and August 31",
+            "quote": "Summer verification tests must be performed between June 1 and August 31",
+            "verified": true
+          },
+          {
+            "claim": "Highest host/process load in the last 36 months must be accounted for if higher than load at test time",
+            "quote": "ICAP for cogenerators and/or units providing steam/power to a host must account for the highest host/process load in the last 36 months prior to the test if higher than the host/process load during the test",
+            "verified": true
+          },
+          {
+            "claim": "IMM began contacting cogenerators in 2025",
+            "quote": "In 2025, the IMM began contacting cogenerators and/or units with hosts",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Monitoring Analytics, LLC",
+            "entity": "Monitoring Analytics, LLC",
+            "role": "author",
+            "email": "MA@monitoringanalytics.com"
+          }
+        ]
       }
     ]
   },
@@ -9692,7 +9987,7 @@
         "filename": "20261028 Winter Readiness Workshop Presentation.pdf",
         "url": "https://cdn.misoenergy.org/20261028%20Winter%20Readiness%20Workshop%20Presentation790983.pdf",
         "member_url": null,
-        "posted_date": "2026-10-23",
+        "posted_date": "2026-10-26",
         "hydro_relevant": true,
         "hydro_relevance_reason": "This seasonal readiness assessment directly addresses resource adequacy, load forecasting, transmission constraints, and reserve/uncertainty-management products that affect how dispatchable generation including conventional hydro and storage resources are committed and dispatched; winter energy adequacy and ramping requirements are critical revenue drivers for hydropower.",
         "screened_at": "2026-10-23 16:37:37",
@@ -10454,7 +10749,7 @@
     "date": "2026-10-27",
     "time": "1:30 PM",
     "rto": "ISO-NE",
-    "committee": "Transmission Committee",
+    "committee": "Markets Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=165065",
     "materials_url": null,
@@ -12659,6 +12954,25 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "report",
+        "title": "IAG_IAL_ Review_of_Timeline_Data_summary_2022-2025(2)",
+        "filename": "IAG_IAL_-Review_of_Timeline_Data_summary_2022-2025-2-.xlsx",
+        "url": "https://www.ercot.com/files/docs/2026/10/26/IAG_IAL_-Review_of_Timeline_Data_summary_2022-2025-2-.xlsx",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine IT/data systems administration report on MarkeTrak and IAL timeline metrics with no connection to market design, revenue, obligations, or strategic options affecting hydro or storage resources.",
+        "screened_at": "2026-10-26 18:08:56",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -13249,7 +13563,38 @@
         "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/FERC-order-no-881-managing-transmission-line-ratings"
       }
     ],
-    "documents": []
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - FERC Order No 881 Implementation - Oct 26, 2026",
+        "filename": "Presentation-FERC-Order-No-881-Implementation-Oct-26-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Presentation-FERC-Order-No-881-Implementation-Oct-26-2026.pdf",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "2540f413-693d-47fd-be44-4204b722007d",
+            "canonical_name": "FERC Order No. 881 - managing transmission line ratings",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/FERC-order-no-881-managing-transmission-line-ratings"
+          }
+        ],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Members Committee Meeting",
@@ -13910,7 +14255,7 @@
     "date": "2026-10-23",
     "time": "4:00 PM",
     "rto": "ISO-NE",
-    "committee": "External Affairs",
+    "committee": "Office Hours with ISO-NE External Affairs",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=165301",
     "materials_url": null,
@@ -101788,7 +102133,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-25 15:15:49",
+    "meeting_screened_at": "2026-10-26 17:44:54",
     "issues": [],
     "documents": [
       {
@@ -107057,7 +107402,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-25 15:16:10",
+    "meeting_screened_at": "2026-10-26 17:45:15",
     "issues": [],
     "documents": [
       {
@@ -107095,7 +107440,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-25 15:16:31",
+    "meeting_screened_at": "2026-10-26 17:45:36",
     "issues": [],
     "documents": [
       {
@@ -109687,7 +110032,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-25 15:16:52",
+    "meeting_screened_at": "2026-10-26 17:45:57",
     "issues": [],
     "documents": [
       {
