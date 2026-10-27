@@ -315,6 +315,306 @@
     "documents": []
   },
   {
+    "title": "EGCS Meeting",
+    "date": "2026-11-12",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "EGCS",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "EGCS is PJM's Education, Governance, and Corporate Services committee, which handles training, personnel, and administrative matters unrelated to market design, pricing, or operating standards affecting hydropower revenue, obligations, or strategic options.",
+    "meeting_screened_at": "2026-10-27 17:15:40",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "TOA-AC Special Session - Public Materials Only (No Registration) Meeting",
+    "date": "2026-11-12",
+    "time": "9:00 a.m. - 11:00 a.m.",
+    "rto": "PJM",
+    "committee": "TOA-AC Special Session - Public Materials Only (No Registration)",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "TOA-AC (Technical Operating & Administrative Advisory Committee) special sessions typically cover routine operational, administrative, and technical compliance matters unrelated to market-design revenue mechanisms, storage participation rules, or strategic hydro participation options that drive NHA member interest.",
+    "meeting_screened_at": "2026-10-27 17:15:42",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "SRRTEP-MA Meeting",
+    "date": "2026-11-12",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "SRRTEP-MA",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "SRRTEP-MA (Strategic and Reliability Review Task Equity-Minded Assessment) likely addresses resource adequacy, transmission planning, and reliability mechanisms in PJM that affect hydro revenue, deliverability, and strategic options, particularly in seasonal energy-adequacy assessments and transmission expansion affecting storage and dispatchable resources.",
+    "meeting_screened_at": "2026-10-27 17:15:44",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "SRRTEP-S Meeting",
+    "date": "2026-11-12",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "SRRTEP-S",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "SRRTEP-S (Short-Range Reliability, Transmission Planning, and Economics Subcommittee) addresses transmission planning, resource adequacy, and reliability mechanisms in PJM that directly affect hydro deliverability, capacity accreditation, and revenue; hydro resources in and around PJM (including pumped-storage facilities) depend on transmission infrastructure and seasonal resource adequacy decisions made by this committee.",
+    "meeting_screened_at": "2026-10-27 17:15:46",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "NEPOOL Participants Committee Meeting",
+    "date": "2026-11-12",
+    "time": "3:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Participants Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160084",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The NEPOOL Participants Committee is the primary policy forum at ISO-NE for debating market-design rule changes affecting all resource types including hydropower; substantive RTO proceedings on energy pricing, reserves, capacity accreditation, storage participation, and transmission reach this body, making it a core venue for tracking developments that affect hydro revenue, compliance, and strategic options.",
+    "meeting_screened_at": "2026-10-27 17:15:49",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Operating Committee",
+    "date": "2026-11-12",
+    "time": "10:00 AM - 2:00 PM",
+    "rto": "NYISO",
+    "committee": "Operating Committee",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/operating-committee-oc",
+    "materials_url": "https://www.nyiso.com/operating-committee-oc",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "NYISO Operating Committee meetings typically address operational standards, outage scheduling, dispatch protocols, and reliability requirements that directly affect hydro operators' compliance obligations and revenue\u2014including winterization, ride-through standards, metering/settlement changes, and dispatch-instruction mechanics.",
+    "meeting_screened_at": "2026-10-27 17:15:50",
+    "issues": [],
+    "documents": [
+      {
+        "type": "other",
+        "title": "Winter 2026-2027 Assessment and Preparedness",
+        "filename": "2026-2027_Winter_Capacity_Assessment_FINAL.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59409436/2026-2027_Winter_Capacity_Assessment_FINAL.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-13",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO's winter capacity assessment establishes that hydro units are treated as firm generation with a specific derate (518 MW) in capacity availability calculations; accreditation and outage assumptions directly affect hydro revenue under NYISO's capacity market and preparedness planning, which in turn influence energy-security margins and the system's reliance on dispatchable resources during extreme conditions.",
+        "screened_at": "2026-10-27 17:16:10",
+        "ai_summary": "NYISO's Winter 2026-2027 capacity assessment projects baseline capacity margins of 7,896 MW at 90th percentile and 5,729 MW at 99th percentile peak forecasts under firm-fuel scenarios. The assessment assumes 518 MW of hydro derates against total projected capacity outages of 6,832 MW (alongside 2,000 MW wind derate, 2,621 MW thermal, 1,411 MW solar). NYISO classifies all hydro as firm generation and notes that capacity margins narrow sharply under extreme cold (99-1 percentile down to 57 MW with all gas-only units removed). The assessment identifies risk from intra-day gas procurement constraints, alternate-fuel replenishment limitations during extended cold (as witnessed during the 1/23\u20132/9 2026 cold weather period), and the priority of retail gas LDC demand over electric generation. NYISO has implemented load-shedding coordination, emissions-waiver protocols with New York state, and an Energy Assessment tool to model fuel and energy shortfalls under disruption scenarios.",
+        "hydro_read_through": "Hydro units are explicitly derated at 518 MW in NYISO's accreditation baseline and treated as firm in capacity margin calculations; this treatment directly sets the availability credit hydro receives in NYISO's capacity auction and energy-security market. The assessment reveals tightening margins under extreme weather and gas-supply disruptions\u2014conditions where hydro's energy-limited nature becomes a critical operational constraint. If gas-only and dual-fuel units are unavailable (loss-of-gas scenarios), NYISO's margins shrink to near-zero (57 MW at 99th percentile with only 2,815 MW of firm-gas-backed units available), which elevates the scarcity rent and dispatch urgency for any dispatchable resource. Hydro owners should watch whether NYISO adjusts accreditation rules or derate assumptions in future assessments, especially if alternative fuels face emissions restrictions or supply constraints; such changes would flow directly into capacity-market revenue.",
+        "source_names_hydro": true,
+        "topics": [
+          "capacity-ra",
+          "ops-compliance",
+          "water-hydrology"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Hydro derate of 518 MW in 2026-2027 capacity availability",
+            "quote": "Derates: 2,000MW for wind, 518 MW for hydro, 2,621 MW for thermal units, 1,411 MW for utility-scale or front-of-the meter (FTM) solar,0 MW for energy storage,233 MW for SCRs, and 49 MW for DERs.",
+            "verified": true
+          },
+          {
+            "claim": "Baseline capacity margin of 7,896 MW at 90th percentile forecast and 5,729 MW at 99th percentile",
+            "quote": "Expected Capacity, Loss of Non-Firm Gas Case 2,224 | 1,067 | 57",
+            "verified": false
+          },
+          {
+            "claim": "Cold weather period during 1/23\u20132/9 2026 with fuel replenishment constraints",
+            "quote": "Generator burn rates of alternative fuels can exceed replenishment rates during extreme cold weather conditions, as witnessed during 2026 cold weather period of 1/23-2/9.",
+            "verified": true
+          },
+          {
+            "claim": "All hydro classified as firm generation in capacity assessment",
+            "quote": "All other generation types are considered firm. Firm fuel and non-firm fuel references for this assessment do not relate to the implementation of \"firm fuel\" characteristics elections for capacity accreditation starting with 2026-2027 Capability Year",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Aaron Markham",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "System Planning Committee of the Board of Directors - November 12, 2026",
+    "date": "2026-11-12",
+    "time": "9:00 AM - 10:30 AM",
+    "rto": "MISO",
+    "committee": "System Planning Committee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/9e67f262cf0f42fe842c9b871b44eef7.aspx",
+    "materials_url": "https://www.misoenergy.org/link/9e67f262cf0f42fe842c9b871b44eef7.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO System Planning Committee meetings address transmission expansion, resource adequacy, seasonal energy studies, and interregional transfer capability that directly affect hydro asset value, deliverability, and strategic positioning in a multi-RTO footprint.",
+    "meeting_screened_at": "2026-10-27 17:15:53",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Reliability Subcommittee (RSC) - November 12, 2026",
+    "date": "2026-11-12",
+    "time": "12:00 PM - 4:00 PM",
+    "rto": "MISO",
+    "committee": "Reliability Subcommittee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/4089117e48eb4ae9912383b25498236b.aspx",
+    "materials_url": "https://www.misoenergy.org/link/4089117e48eb4ae9912383b25498236b.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO's Reliability Subcommittee meets to address operating standards, resource adequacy, and grid reliability mechanisms that directly affect hydro and storage operators' compliance obligations, strategic participation options, and revenue via capacity/ancillary-services accreditation and seasonal adequacy design.",
+    "meeting_screened_at": "2026-10-27 17:15:54",
+    "issues": [],
+    "documents": [
+      {
+        "type": "other",
+        "title": "New Issue - Extreme Cold Weather Temperature (ECWT).pdf",
+        "filename": "New Issue - Extreme Cold Weather Temperature (ECWT).pdf",
+        "url": "https://cdn.misoenergy.org/New%20Issue%20-%20Extreme%20Cold%20Weather%20Temperature%20%28ECWT%29787253.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Extreme cold weather operating standards (EOP-012) and winterization requirements apply to all BES generators, establishing a compliance obligation that affects synchronous dispatchable resources including conventional hydropower plants that must operate or be available through these conditions.",
+        "screened_at": "2026-10-27 17:16:18",
+        "ai_summary": "MISO Reliability Subcommittee received a new issue proposal (submitted 2026-09-05 with resolution deadline 2026-10-30) requesting that MISO modify its annual Generator Winter Survey to collect both the minimum operating or design temperature and the Extreme Cold Weather Temperature (ECWT) for BES generators. The ECWT is defined as the 99.8 percentile of the past 20 years of winter season temperature data; under NERC EOP-012, generators must operate up to and including the ECWT or establish a corrective action plan, with no compliance requirement for temperatures colder than ECWT. The proposal seeks to formalize MISO's annual data collection to capture both metrics, which generators already produce for EOP-012 compliance.",
+        "hydro_read_through": "Although the document does not mention hydroelectric or pumped-storage resources by name, it addresses operating and winterization standards that apply to all BES-connected synchronous generators, including conventional hydro plants. Hydro owners operating in MISO would be subject to the ECWT threshold and must-operate-or-correct obligation, making the standardization of MISO's annual survey data collection a compliance and operational-planning matter; clarifying the baseline ECWT measurement methodology could affect how winter-condition risk assessments inform dispatch requirements and generation adequacy projections.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Submission date 09/05/2026 and resolution deadline 2026-10-30",
+            "quote": "Submission Date: 09/05/2026",
+            "verified": true
+          },
+          {
+            "claim": "Resolution deadline 2026-10-30",
+            "quote": "Resolution Deadline: 2026-10-30",
+            "verified": true
+          },
+          {
+            "claim": "ECWT defined as 99.8 percentile of past 20 years of winter season temperature data",
+            "quote": "The ECWT is the 99.8 percentile of the past 20 years of winter season temperature data.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Terry Volkmann",
+            "entity": "Consultant for Hoosier Energy",
+            "role": "author",
+            "email": "volkmannconsulting@gmail.com"
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "20261112 RSC Item 01c Minutes 20260929.pdf",
+        "filename": "20261112 RSC Item 01c Minutes 20260929.pdf",
+        "url": "https://cdn.misoenergy.org/20261112%20RSC%20Item%2001c%20Minutes%2020260929786528.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-06",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine Reliability Subcommittee meeting agenda, status updates, and administravia covering operational summaries, IT system transitions, issue-management workflow, and one unrelated proposal on relay-trip-setting modeling in cascade analysis\u2014none of which affects hydro revenue streams, compliance obligations, or strategic options.",
+        "screened_at": "2026-10-27 17:16:23",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Eric Barry",
+            "entity": null,
+            "role": "vice chair",
+            "email": null
+          },
+          {
+            "name": "Ray McCausland",
+            "entity": null,
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "Terry Volkmann",
+            "entity": "Glencoe Light & Power",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Adrian Harris",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Caid Kirby",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Don Hunter",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "John Harmon",
+            "entity": "MISO",
+            "role": "liaison",
+            "email": null
+          },
+          {
+            "name": "Saralena Bergsma",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "OTWG Meeting",
+    "date": "2026-11-12",
+    "time": "9:00 AM",
+    "rto": "ERCOT",
+    "committee": "Operations Training Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/11122026-OTWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/11122026-OTWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Operations Training Working Group meetings focus on training logistics and operational personnel development rather than market-design, revenue, compliance, or strategic options affecting hydropower resources.",
+    "meeting_screened_at": "2026-10-27 17:15:56",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "Resource Adequacy Subcommittee (RASC) - November 11, 2026",
     "date": "2026-11-11",
     "time": "9:00 AM - 4:00 PM",
@@ -1785,6 +2085,71 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "tariff",
+        "title": "2026-11-4-5 MC A03 - CAR-SA - NEPOOL Counsel Tariff Review - Memo",
+        "filename": "a03a_2026_11_4-5_car-sa_nepool_counsel_tariff_review.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100040/a03a_2026_11_4-5_car-sa_nepool_counsel_tariff_review.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Capacity Accreditation Reform (CAR-SA) redesigns seasonal capacity market mechanism and resource accreditation for all capacity-eligible resources including non-energy-limited resources (the category governing conventional hydropower), altering how seasonal capacity revenue is calculated and accredited.",
+        "screened_at": "2026-10-27 17:16:34",
+        "ai_summary": "NEPOOL Counsel reviewed ISO-NE's proposed Capacity Auction Reforms Phase 2 Tariff revisions establishing seasonal capacity auctions and resource accreditation based on Marginal Reliability Impact (MRI), with conforming changes to capacity-market rules. The memo confirms the Tariff language reflects the market design presented to Technical Committees and identifies draft issues the ISO has agreed to address. Markets Committee will vote on CAR-SA Tariff revisions within its purview at the November 4\u20135, 2026 meeting; Reliability Committee and Transmission Committee votes are scheduled for November 17 and 19, respectively. Key definitional and operational clarifications include: a new Perfect Capacity Resource definition for MRI calculation, transmission-related LOLE treatment at five percent of seasonal target (preserving existing 0.0025-day allowance for a 0.05-day seasonal target), and material-change determinations for Import Capacity Resources with ISO preliminary determination seven Business Days before deadline and participant confirmation required at least three Business Days prior.",
+        "hydro_read_through": "The document does not mention hydropower or any resource category by name; it reviews the implementing Tariff language for a seasonal capacity-accreditation redesign. Conventional hydropower participates in ISO-NE's capacity market as a non-energy-limited resource and will be subject to the new Marginal Reliability Impact (MRI) accreditation framework and seasonal capacity auction parameters once adopted. The seasonal accreditation structure, MRI reference-resource definition, and transmission-loss-of-load-expectation treatment will directly affect how much seasonal capacity (and corresponding revenue) hydro plants can clear and in which months; the mechanics of how Perfect Capacity Resource availability and material-change determinations are applied will constrain or enable claims to higher accredited capacity, particularly for facilities with variable or constrained dispatch profiles.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Markets Committee vote on November 4\u20135, 2026",
+            "quote": "At its November 4\u20135, 2026 meeting, the Markets Committee will vote on the ISO-proposed CAR-SA Tariff revisions",
+            "verified": true
+          },
+          {
+            "claim": "Reliability Committee vote on November 17; Transmission Committee vote on November 19",
+            "quote": "The Reliability Committee and Transmission Committee are scheduled to vote the provisions within their purviews on November 17 and 19, respectively.",
+            "verified": true
+          },
+          {
+            "claim": "Transmission-related LOLE allowance at five percent of seasonal target (0.0025 days for 0.05-day seasonal target)",
+            "quote": "reference to an allowance for transmission-related loss-of-load expectation equal to five percent of the Seasonal LOLE Target preserves the existing treatment in seasonal terms (0.0025 days for a 0.05-day seasonal target)",
+            "verified": true
+          },
+          {
+            "claim": "Import Capacity Resources preliminary MRI determination seven Business Days before deadline",
+            "quote": "The ISO issues the preliminary value seven Business Days before the deadline for issuing Seasonal MRI Capacity values",
+            "verified": true
+          },
+          {
+            "claim": "Participant confirmation or lower-value request at least three Business Days before deadline",
+            "quote": "the participant must confirm or request a lower value at least three Business Days before that deadline",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "capacity-auction-reforms-key-project",
+            "canonical_name": "Capacity Auction Reforms",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/capacity-auction-reforms-key-project"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Rosendo Garza, Jr.",
+            "entity": "NEPOOL Counsel (Day Pitney)",
+            "role": "contact",
+            "email": "rgarza@daypitney.com"
+          }
+        ]
       }
     ]
   },
@@ -2382,7 +2747,27 @@
     "meeting_hydro_reason": "A general forecasting forum agenda typically covers load, wind, and solar forecasting for operations and planning, which are not market-design issues affecting hydro revenue, obligations, or strategic options unless the agenda explicitly addresses hydro-specific forecast settlement, variable hydro treatment, or forecast-error penalty schemes\u2014none of which can be determined from the title alone.",
     "meeting_screened_at": "2026-10-19 18:21:13",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda - Forecasting Forum Q4 - Nov 03, 2026",
+        "filename": "agenda-forecasting-forum-q4-nov-03-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-forecasting-forum-q4-nov-03-2026.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Cost Development Subcommittee Meeting",
@@ -2472,7 +2857,212 @@
     "meeting_hydro_reason": "MISO's Multi-Year Transmission Expansion Plan (MTEP) addresses transmission planning and resource adequacy that directly affect hydro deliverability, interregional transfer capability, and the strategic positioning of storage and dispatchable resources in a region where limited hydropower may have strategic reserve or export value.",
     "meeting_screened_at": "2026-10-17 15:07:41",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "20251102 PAC Item 01b Agenda.pdf",
+        "filename": "20251102 PAC Item 01b Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20251102%20PAC%20Item%2001b%20Agenda791381.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a bare meeting agenda for MISO's Planning Advisory Committee with no substantive content on transmission planning, capacity markets, storage, pricing, or any market-design mechanism affecting hydro revenue, compliance, or strategy.",
+        "screened_at": "2026-10-27 17:16:37",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Dave Johnston",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Milica Geissler",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261102 PAC Item 02a MTEP26 Appendix F - Stakeholder Substantive Feedback.pdf",
+        "filename": "20261102 PAC Item 02a MTEP26 Appendix F - Stakeholder Substantive Feedback.pdf",
+        "url": "https://cdn.misoenergy.org/20261102%20PAC%20Item%2002a%20MTEP26%20Appendix%20F%20-%20Stakeholder%20Substantive%20Feedback791378.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's transmission planning and cost allocation decisions affect interconnection costs and deliverability for large-load projects, which sets precedent for how transmission upgrades driven by co-located loads would be funded\u2014a strategic option for hydro owners considering load-adjacent siting or hybrid configurations.",
+        "screened_at": "2026-10-27 17:16:48",
+        "ai_summary": "MISO's MTEP26 transmission expansion plan (14.7 billion dollars total; 532 projects across all categories) allocates approximately 54% of costs to large load development, with 89 Expedited Project Review projects representing $8 billion in costs. Stakeholders\u2014Clean Wisconsin (Environmental Sector), WPPI Energy, Organization of MISO States Transmission Planning Work Group, and others\u2014expressed concerns about transparency and cost-causation allocation, particularly whether existing customers subsidize transmission upgrades for new large loads. MISO responded by committing to a dedicated Large Load Project Review process and a transparency dashboard for large-load network upgrades, with a pro forma agreement on cost settlements and minimum payments to be filed with FERC in November 2026, addressing FERC's June 2026 show-cause order on cost shifting.",
+        "hydro_read_through": "This document does not address hydropower or pumped storage directly. However, the debate over cost allocation for large-load-driven transmission upgrades sets precedent for how transmission costs would be assigned if a hydro owner co-located load (data center, industrial customer) at or near a plant. MISO's emerging framework\u2014large loads bearing direct transmission costs via cost-service agreements or pro forma mechanisms rather than socialized allocation\u2014establishes the cost-shifting safeguards and transparency requirements that would apply to any hydro co-location strategy. The degree to which new load interconnection transparency and cost accountability are locked into tariff-level controls affects the economic viability of load-adjacent hydro siting.",
+        "source_names_hydro": false,
+        "topics": [
+          "transmission",
+          "load-growth",
+          "interconnection"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "14.7 billion dollars total MTEP26 investment",
+            "quote": "$14.7 billion MTEP26 set of projects",
+            "verified": true
+          },
+          {
+            "claim": "approximately 54% of costs related to large load development",
+            "quote": "approximately 54% of the portfolio's total cost is related to large load development",
+            "verified": false
+          },
+          {
+            "claim": "89 Expedited Project Review projects representing $8 billion",
+            "quote": "more than $8 billion in project costs across 89 of the 532 total MTEP26 projects \u2013 or 54% of total MTEP26 projected costs",
+            "verified": true
+          },
+          {
+            "claim": "FERC show-cause order issued June 2026",
+            "quote": "FERC's June 2026 show-cause order",
+            "verified": true
+          },
+          {
+            "claim": "MISO to file cost-shifting proposal with FERC in November 2026",
+            "quote": "MISO will be submitting its cost shifting related proposal to FERC in November 2026",
+            "verified": false
+          },
+          {
+            "claim": "532 total projects in MTEP26",
+            "quote": "Of the 532 projects in MTEP26",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Alliance for Affordable Energy",
+            "entity": "Alliance for Affordable Energy",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Clean Wisconsin",
+            "entity": "Clean Wisconsin",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "ITC Holdings",
+            "entity": "ITC Holdings",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Midwest Large Energy Consumers",
+            "entity": "Midwest Large Energy Consumers",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Organization of MISO States Transmission Planning Work Group",
+            "entity": "Organization of MISO States",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "WPPI Energy",
+            "entity": "WPPI Energy",
+            "role": "commenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "20261102 PAC Item 02a MTEP26 Presentation.pdf",
+        "filename": "20261102 PAC Item 02a MTEP26 Presentation.pdf",
+        "url": "https://cdn.misoenergy.org/20261102%20PAC%20Item%2002a%20MTEP26%20Presentation791379.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The MTEP26 transmission planning cycle determines which projects MISO will build or study, directly shaping the transmission corridors and deliverability available to existing and new generation including hydropower; large load integration (54% of $14.74B investment) affects system scarcity dynamics and the value of flexible, dispatchable resources.",
+        "screened_at": "2026-10-27 17:16:56",
+        "ai_summary": "MISO's MTEP26 (2026 transmission expansion plan) recommends 532 projects totaling $14.74 billion for Board approval in December 2026, with 54% of investment driven by large load integration and 46% for general system reliability. MISO responded to stakeholder comments by disaggregating costs, improving project transparency, and confirming coordination with Large Load Working Group on cost-responsibility mechanisms to prevent rate shifting. The Planning Advisory Committee is asked to vote by November 9, 2026 to recommend the report to the System Planning Committee; Board final approval is scheduled for December 3, 2026.",
+        "hydro_read_through": "This document does not directly address hydropower or pumped storage. However, MTEP26's $14.74 billion transmission portfolio and the unprecedented large load integration it reflects directly affects deliverability and scarcity economics for any existing hydro plant in MISO and for new hydro or storage interconnection. The split between load-driven projects (54%) and system-wide reliability projects (46%) matters for understanding whether future transmission expansion will ease or constrain hydro's export paths and the market conditions under which it operates; load growth typically raises scarcity value but can also redirect transmission investment away from existing generation's transmission rights.",
+        "source_names_hydro": false,
+        "topics": [
+          "transmission",
+          "load-growth"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "$14.74 billion total investment recommended for MTEP26 approval in December 2026",
+            "quote": "MTEP26 Total Investment $14.74 billion",
+            "verified": true
+          },
+          {
+            "claim": "54% of MTEP26 investment driven by large loads; 46% for ongoing reliability and general system needs",
+            "quote": "Investment for Ongoing Reliability Investment and General Related to System Needs Large Loads 46% 54%",
+            "verified": true
+          },
+          {
+            "claim": "532 projects recommended for MTEP26 approval",
+            "quote": "532 projects are recommended for MTEP26 approval in December",
+            "verified": true
+          },
+          {
+            "claim": "Planning Advisory Committee to vote by November 9, 2026",
+            "quote": "The Planning Advisory Committee (PAC) sectors are asked to vote on the following motion by November 9",
+            "verified": false
+          },
+          {
+            "claim": "Board final approval scheduled for December 3, 2026",
+            "quote": "Dec. 3 Full BOD Approval",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "vote",
+        "title": "20261102 PAC Item 02b MOTION for MTEP26.pdf",
+        "filename": "20261102 PAC Item 02b MOTION for MTEP26.pdf",
+        "url": "https://cdn.misoenergy.org/20261102%20PAC%20Item%2002b%20MOTION%20for%20MTEP26791380.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MTEP is MISO's transmission expansion plan that directly affects long-term investment, deliverability, and transmission access for all resources including hydropower; its adoption roadmap and scope materially shape strategic options for hydro owners.",
+        "screened_at": "2026-10-27 17:17:03",
+        "ai_summary": "The Planning Advisory Committee (PAC) recommends that the draft MTEP26 Report proceed to the System Planning Committee of the Board of Directors for approval in December 2026. The PAC sectors and MISO stakeholders have reviewed and provided written comments and suggestions on the draft report; MISO has provided written responses to substantive stakeholder feedback. The document is a motion formally advancing MTEP26 to the next governance gate.",
+        "hydro_read_through": "The document does not name hydropower or storage. MTEP (the Midcontinent transmission plan) is the vehicle by which MISO identifies transmission needs, expansion priorities, and cost allocation for interregional deliverability and resource adequacy. MISO hydro owners and storage operators depend on MTEP outcomes to understand transmission constraints affecting their export/import capability, the economics of potential uprates or expansions, and system-scarcity conditions that drive their energy and reserve revenue. The December 2026 board approval date marks the formal completion of MTEP26 planning; stakeholders with comments must engage during the PAC and board-approval window.",
+        "source_names_hydro": false,
+        "topics": [
+          "transmission",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "MTEP26 Board approval scheduled for December 2026",
+            "quote": "MISO will send to the MISO Board of Directors for approval in December 2026",
+            "verified": true
+          },
+          {
+            "claim": "PAC recommends MTEP26 proceed to System Planning Committee",
+            "quote": "The PAC recommends that the MTEP26 Report proceed to the System Planning Committee of the Board of Directors for consideration",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Q&A Session for Submitting a Winter 2026-27 Declaration of Weather Preparedness",
@@ -2669,12 +3259,762 @@
     "committee": "SOS",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={D3793E1F-D66E-4A92-9DF7-72F2B75E2826}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "PJM's SOS (Stakeholder Oversight Subcommittee) oversees market-design and operational policy work across energy pricing, ancillary services, capacity mechanisms, and transmission planning\u2014all core axes for hydro and storage revenue and compliance.",
     "meeting_screened_at": "2026-10-13 19:08:34",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20261029-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is an operations-committee agenda comprising routine administrative items, manual-update reviews, and compliance notifications with no bearing on hydro revenue mechanisms, participation rules, obligations, or strategic options.",
+        "screened_at": "2026-10-27 17:17:07",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Craig Lowe",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Madalin How",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Michael Hoke",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Michael Kelly",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Paul Dajewski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Steven Campbell",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20261029-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-agenda-doc.docx",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine PJM meeting agenda covering administrative items, system operations updates, dispatcher training, compliance briefings, and manual reviews\u2014none of which touch hydro revenue streams, compliance obligations specific to hydro, or strategic options for hydro owners.",
+        "screened_at": "2026-10-27 17:17:10",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Craig Lowe",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Madalin How",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Michael Hoke",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Michael Kelly",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Paul Dajewski",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Steven Campbell",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 02 \u2013 October 2026 Operations Summary",
+        "filename": "20261029-item-02---october-2026-operations-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-02---october-2026-operations-summary.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This operations summary documents multiple emergency and reliability events in October 2026 that triggered capacity advisories, load-management actions, and emergency dispatch directives\u2014revealing system stress conditions and operational constraints that affect the value of dispatchable generation and flexibility resources.",
+        "screened_at": "2026-10-27 17:17:25",
+        "ai_summary": "PJM's October 2026 Operations Summary reports system events including two shared-reserves events, two capacity emergencies (NERC EEA 1), one maintenance-outage recall, four capacity advisories (issued 10/12, 10/13, 10/14, and 10/19), four pre-emergency load-management reduction actions (dispatched 10/13 and 10/14 across multiple regions and control lead times), one geomagnetic disturbance warning (K-7 or greater on 10/10), six special notices related to DOE 202(c) emergency orders for backup generators and emissions-limited generation, three TLR events, and seventeen post-contingency local load-relief warnings. The documents indicate that PJM issued a DOE 202(c) order effective through 10/16/2026 permitting emergency use of specified resources and backup generators at large loads, later indicating no reliability need to continue dispatch of those resources from 10/15 forward. The summary reflects sustained tightness in available capacity and reliance on load management and emergency-generation coordination throughout mid-October.",
+        "hydro_read_through": "This document does not mention hydropower or pumped storage directly. However, the pattern of consecutive capacity advisories, load-management dispatches, and emergency orders in October 2026 demonstrates system stress\u2014periods where load approached available supply and PJM exhausted normal dispatch tools, requiring load reduction and backup-generation activation. In such conditions, conventional hydropower's ability to ramp quickly and operate at part-load (and pumped storage's dual-mode capability) would be exceptionally valuable for managing both energy scarcity and ramping flexibility. The frequency and breadth of these events suggest that resource-adequacy or flexibility-product pricing rules would meaningfully affect hydro owners' revenue during stress periods; this snapshot shows when those hours materialize.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "ops-compliance",
+          "ancillary-services"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "Capacity Advisory issued for 10/12/2026",
+            "quote": "A Capacity Advisory has been issued for 10.12.2026 in anticipation of available capacity approaching the demand requirement.",
+            "verified": true
+          },
+          {
+            "claim": "Capacity Advisory issued for 10/13/2026",
+            "quote": "A Capacity Advisory has been issued for 10.13.2026 in anticipation of available capacity approaching the demand requirement.",
+            "verified": true
+          },
+          {
+            "claim": "Capacity Advisory issued for 10/14/2026",
+            "quote": "A Capacity Advisory has been issued for 10.14.2026 in anticipation of available capacity approaching the demand requirement.",
+            "verified": true
+          },
+          {
+            "claim": "Capacity Advisory issued for 10/19/2026",
+            "quote": "A Capacity Advisory has been issued for 10.19.2026 in anticipation of available capacity approaching the demand requirement.",
+            "verified": true
+          },
+          {
+            "claim": "Pre-Emergency Load Mgmt Reduction Action dispatched 10/13/2026 at 14:00\u201321:00",
+            "quote": "A Pre-Emergency Load Mgmt Reduction Action has been issued. Load reduction start times can be found by clicking on the AEP hyperlink(s) in the Regions column. ... Lead Time(s) dispatched: Short_60,Long_120",
+            "verified": false
+          },
+          {
+            "claim": "Pre-Emergency Load Mgmt Reduction Action dispatched 10/13/2026 at 16:00\u201321:00",
+            "quote": "A Pre-Emergency Load Mgmt Reduction Action has been issued. ... Lead Time(s) dispatched: Quick_30 . Product(s) dispatched: Capacity Performance DR",
+            "verified": false
+          },
+          {
+            "claim": "Pre-Emergency Load Mgmt Reduction Action dispatched 10/14/2026 at 14:00\u201319:30",
+            "quote": "A Pre-Emergency Load Mgmt Reduction Action has been issued. ... Lead Time(s) dispatched: Long_120,Short_60",
+            "verified": false
+          },
+          {
+            "claim": "Pre-Emergency Load Mgmt Reduction Action dispatched 10/14/2026 at 16:00\u201319:30",
+            "quote": "A Pre-Emergency Load Mgmt Reduction Action has been issued. ... Lead Time(s) dispatched: Quick_30 . Product(s) dispatched: Capacity Performance DR",
+            "verified": false
+          },
+          {
+            "claim": "Geomagnetic Disturbance Warning K-7 or greater on 10/10/2026",
+            "quote": "A Geomagnetic Disturbance Warning has been issued for 13:52 on 10.10.2026 through 20:00 on 10.10.2026 . A GMD warning of K-7 or greater is in effect for this period.",
+            "verified": true
+          },
+          {
+            "claim": "DOE 202(c) emergency order through 10/16/2026 23:59",
+            "quote": "Order issued through 10/16 @ 23:59.",
+            "verified": true
+          },
+          {
+            "claim": "No reliability need for specified resources from 10/15 through order end",
+            "quote": "PJM has NOT identified a reliability need to utilize the Specified Resources identified in Exhibit A (Order No. 202-26-50 Resource List) starting on the 10/15 operating day through the end of the order on the 10/16 operating day.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03 \u2013 EDART Committee Status Monthly Updates \u2013 Presentation",
+        "filename": "20261029-item-03---edart-committee-status-monthly-updates---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-03---edart-committee-status-monthly-updates---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a technical status update on eDART, PJM's outage data system \u2014 an IT operations and data-infrastructure matter with no bearing on hydro or PSH revenue mechanisms, compliance obligations, or strategic options.",
+        "screened_at": "2026-10-27 17:17:28",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Craig Lowe",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Craig.Lowe@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04 \u2013 DTS Update \u2013 Presentation",
+        "filename": "20261029-item-04---dts-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-04---dts-update---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a training and administrative update covering PJM certification schedules, training logistics, and operational drills with no bearing on hydro or PSH revenue mechanisms, compliance obligations, or strategic market-design options.",
+        "screened_at": "2026-10-27 17:17:31",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Maureen Curley",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Maureen.Curley@pjm.com"
+          },
+          {
+            "name": "Michael Hoke",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Michael.Hoke@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 05 \u2013 Reliability Compliance Update \u2013 Presentation",
+        "filename": "20261029-item-05---reliability-compliance-update---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-05---reliability-compliance-update---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NERC is developing capacity-accreditation technical reference on ELCC and resource-type practices, including energy-limited resources, which directly governs how conventional hydro and pumped storage are assigned capacity contributions; the document also flags large-computational-load disturbance standards and primary frequency response guidelines under industry comment, both of which may affect dispatchable-resource reliability obligations and revenue.",
+        "screened_at": "2026-10-27 17:17:42",
+        "ai_summary": "PJM presented NERC standards projects and comment periods active as of late October 2026. NERC is seeking industry comments on a Capacity Contributions Technical Reference Document (comment deadline November 16, 2026) addressing effective load carrying capability (ELCC) and capacity-accreditation practices across variable and energy-limited resources, with the aim of standardizing capacity-value methodology across RTOs and non-market jurisdictions. Separately, NERC initiated Project 2026-03 on Computational Loads Disturbance Performance Standard (drafting-team nominations due November 13, 2026; comments due November 20, 2026) to develop reliability standards for data-center and large computational loads connecting to the grid. Primary Frequency Response Reliability Guidelines are also open for industry comment through November 9, 2026. Additionally, NERC announced webinars and working-group meetings on equipment failure modes, DER data and model validation, and extreme cold weather best practices.",
+        "hydro_read_through": "The Capacity Contributions Technical Reference Document explicitly addresses ELCC and energy-limited-resource capacity practices\u2014the core valuation mechanism for conventional hydro and pumped storage. Hydro owners should monitor this NERC guidance as it shapes which accreditation assumptions and seasonal-availability measurement practices become standardized across RTOs, directly affecting seasonal capacity revenue. The Primary Frequency Response guidance may impose new fast-response or ride-through obligations on synchronous resources; hydro as a primary frequency responder will need to track how these guidelines translate into RTO tariff language. The Computational Loads standard is not hydro-specific but may indirectly raise system-reliability expectations and reserve requirements if large loads' disturbance performance is tightened, creating scarcity upside for flexible dispatchable resources.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "ancillary-services",
+          "load-growth"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Capacity Contributions Technical Reference Document comment deadline November 16, 2026",
+            "quote": "October 2, 2026, to November 16, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Project 2026-03 Computational Loads Disturbance Performance Standard drafting-team nominations due November 13, 2026; comments due November 20, 2026",
+            "quote": "Action End Date\nDrafting Team\nNominations 11/13/26\nUnofficial Comment Form\nComments\n11/20/26",
+            "verified": false
+          },
+          {
+            "claim": "Primary Frequency Control Reliability Guidelines comment period through November 9, 2026",
+            "quote": "September 24, 2026, to November 9, 2026",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Derek Kassimer",
+            "entity": "NERC",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Elizabeth Davis",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "Elizabeth.Davis@pjm.com"
+          },
+          {
+            "name": "Gizella Mali",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Gizella.Mali@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 06 \u2013 1 \u2013 Manual 10 Revisions \u2013 Presentation",
+        "filename": "20261029-item-06---1---manual-10-revisions---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-06---1---manual-10-revisions---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 10 revisions touch outage reporting, scheduling, and offer rules that apply directly to all generation resources including hydropower plants in PJM.",
+        "screened_at": "2026-10-27 17:17:50",
+        "ai_summary": "PJM Manual 10 Revision 47 updates pre-scheduling operations procedures affecting generation outage reporting and classification. Changes include clarifying the definition and reporting of planned, forecasted planned, partial, and unplanned outages; strengthening eDART ticket procedures requiring detailed generator descriptions; consolidating offer rules during outages by cross-reference to Manual 11; and clarifying the sequence for scheduling planned outages following unplanned outages. The revision also updates formatting for NERC Performance standard BAL-002 in reserve definitions. SOS first endorsement read occurred October 1, 2026; October Compliance and Resource Scheduling meetings are scheduled for October 8, 16, and 28, 2026; MRC consideration is planned for November 5, 2026, with OC endorsement scheduled for November 18, 2026.",
+        "hydro_read_through": "The document does not mention hydropower. However, Manual 10 governs outage-scheduling procedures and offer rules during outages for all generation resources, including conventional hydro and pumped-storage plants in PJM. Clarifications to eDART ticketing and cross-references to offer rules in Manual 11 establish compliance and filing obligations for hydro operators; changes to the sequence for scheduling planned outages following forced outages may affect hydro maintenance planning and revenue protection. The timing and procedural clarity matter to hydro operators managing seasonal maintenance windows and must-offer compliance.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "SOS first endorsement read October 1, 2026",
+            "quote": "Oct 1\nSOS\nFirst Endorsement\nRead",
+            "verified": true
+          },
+          {
+            "claim": "OC Compliance and Resource Scheduling Committee meetings October 8, 16, and 28, 2026",
+            "quote": "OC RSCS MRC\nOct 8 Oct 16 Oct 28",
+            "verified": false
+          },
+          {
+            "claim": "MRC consideration November 5, 2026 and OC endorsement November 18, 2026",
+            "quote": "Nov 5 Nov 18\nOC MRC",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Mike Kelly",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Michael.Kelly@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 06 \u2013 2 \u2013 Manual 10 Revisions \u2013 Executive Summary",
+        "filename": "20261029-item-06---2---manual-10-revisions---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-06---2---manual-10-revisions---executive-summary.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM Manual 10 revisions establish outage reporting and scheduling procedures that hydro and PSH operators must follow, affecting their compliance obligations and dispatch eligibility under generation-owner rules.",
+        "screened_at": "2026-10-27 17:18:00",
+        "ai_summary": "PJM's Manual 10 (Pre-Scheduling Operations), Revision 47, undergoes cover-to-cover periodic review with an effective date of November 18, 2026. Key changes clarify generation outage reporting procedures: forecasted planned outages are now explicitly included in the planned-outage category; eDART is identified as the tool for outage requests; partial outage and derate are now subject to eDART ticket reporting; and generation owners' responsibility for detailed generator ticket descriptions is clarified. The manual also clarifies outage classification criteria and references offer rules during outages per Manual 11 (Energy & Ancillary Services Market Operations). The revision relocates and consolidates offer rules across sections 2.1 through 2.4 (generation outages, planned outages, maintenance outages, and forced outages) and updates formatting for NERC Performance Standard BAL-002 in reserve definitions. Committee approval: SOS October 1st and October 29th, OC October 8th and November 5th, MRC 1st read October 28, 2026, MRC voting November 18, 2026.",
+        "hydro_read_through": "The document does not name hydropower or storage resources; it applies to all PJM generation owners. However, conventional hydro and pumped-storage operators are subject to PJM's generation outage procedures and must comply with the clarified eDART reporting requirements, partial outage classifications, and outage-offer rules now codified in Manual 10. The reference to Manual 11 offer rules during outages is particularly material because hydro and PSH\u2014as dispatchable and often use-limited resources\u2014are typically constrained by must-offer and opportunity-cost-based energy-offer rules when forced or planned outages occur, and clarification of when those rules apply affects compliance timing and bidding strategy.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Effective Date November 18, 2026",
+            "quote": "Effective Date November 18, 2026",
+            "verified": true
+          },
+          {
+            "claim": "MRC 1st read date October 28, 2026; MRC voting date November 18, 2026",
+            "quote": "MRC 1st read date: October 28, 2026\nMRC voting date: November 18, 2026",
+            "verified": true
+          },
+          {
+            "claim": "SOS review dates October 1st and October 29th; OC review dates October 8th and November 5th",
+            "quote": "SOS \u2013 October 1st, October 29th\nOC \u2013 October 8th, November 5th",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "Item 06 \u2013 3 \u2013 Manual 10 Revisions \u2013 Redline",
+        "filename": "20261029-item-06---3---manual-10-revisions---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-06---3---manual-10-revisions---redline.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a procedural manual for PJM generation outage scheduling and reporting that applies to all generation resources (thermal, wind, solar, storage) under PJM's operational framework; it does not address hydro-specific revenue mechanisms, accreditation rules, dispatch treatment, or strategic participation options that would differentiate hydro from other dispatchable or storage resources.",
+        "screened_at": "2026-10-27 17:18:03",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Michael Zhang",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 07 \u2013 1 \u2013 Manual 14d Revisions \u2013 Presentation",
+        "filename": "20261029-item-07---1---manual-14d-revisions---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-07---1---manual-14d-revisions---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 14D establishes generator operational requirements and data-submission obligations that apply to all generators in PJM, including hydroelectric plants and pumped-storage facilities; periodic revisions to metering, accreditation inputs, periodic task scheduling, and reactive-capability reporting directly govern hydro operator compliance duties and capacity-accreditation processes.",
+        "screened_at": "2026-10-27 17:18:13",
+        "ai_summary": "PJM Manual 14D Revision 72 updates generator operational requirements across multiple sections. Key changes include: clarification that unit availability is an input to PJM's capacity accreditation process (Section 5.3.5); updating seasonal frequency for fuel and emissions data requests (Section 7.3.6); updating NERC MOD-026-2 data submission requirements and removing MOD-027-1 (Sections 7.3.6); adding required training specifications for operating personnel with annual (Jan 1\u2013Dec 31) and initial (within 6 months) training deadlines (Section 7.3.6, Attachment A); updating reactive capability reporting procedures (Attachment D); and restoring curtailment-indicator references for wind and solar resources. Administrative updates align manual references to other PJM operating manuals and NERC standards. The document is scheduled for first endorsement read in October 2026, with Operations Committee review and Member Request for Consent anticipated in November 2026.",
+        "hydro_read_through": "The document does not name hydropower or pumped storage directly; however, Manual 14D applies to all generator types in PJM and establishes compliance obligations and data-submission requirements that hydro and PSH operators must meet. The clarification that unit availability feeds PJM's capacity accreditation process directly affects how hydroelectric and pumped-storage units are credited for capacity value and seasonal accreditation. Training and metering requirements apply across resource types and set the baseline for hydro operational compliance. Changes to NERC MOD-026-2 data submissions may impose new dynamic-modeling or performance-documentation burdens on hydro owners in PJM's queue.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Unit availability is an input to PJM's accreditation process for capacity resources",
+            "quote": "Clarified unit availability is an input to PJM's accreditation process for capacity resources",
+            "verified": true
+          },
+          {
+            "claim": "Seasonal frequency of fuel and emissions data request updated",
+            "quote": "Updated the Seasonal Fuel and Emissions Data Request section to reflect the new seasonal frequency of the data request",
+            "verified": true
+          },
+          {
+            "claim": "NERC MOD-027-1 removed and MOD-026-1 updated to MOD-026-2",
+            "quote": "Updated NERC MOD-026-1 & MOD-027-1 Data Submittals section title to remove MOD-027-1 and update to MOD-026-1 to MOD-026-2",
+            "verified": true
+          },
+          {
+            "claim": "Annual training for operating personnel runs Jan 1\u2013Dec 31; initial training within 6 months of qualification",
+            "quote": "Updated Attachment A to reflect the new dates for - Annual Training for Operating Personnel (Jan 1 - Dec 31) and Initial Training for Operating Personnel (Within 6 months of an individual's qualification)",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Mike Kelly",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Michael.Kelly@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 07 \u2013 2 \u2013 Manual 14d Revisions \u2013 Executive Summary",
+        "filename": "20261029-item-07---2---manual-14d-revisions---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-07---2---manual-14d-revisions---executive-summary.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Manual 14D is PJM's generator operational-requirements standard; this executive summary describes routine periodic updates to references, contact information, wind/solar dispatchability checklists, and procedural documentation with no changes to revenue mechanisms, accreditation rules, compliance obligations, or strategic participation pathways that would affect hydro or PSH owners.",
+        "screened_at": "2026-10-27 17:18:16",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "Item 07 \u2013 3 \u2013 Manual 14d Revisions \u2013 Redline",
+        "filename": "20261029-item-07---3---manual-14d-revisions---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-07---3---manual-14d-revisions---redline.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Manual 14D is PJM's foundational operational rulebook for all generators; revisions to dispatch, metering, ancillary services, reactive-power requirements, outage procedures, and market-participation rules directly affect hydro and PSH operators' compliance obligations, revenue accreditation, and dispatch instructions.",
+        "screened_at": "2026-10-27 17:18:30",
+        "ai_summary": "PJM Manual 14D Revision 72 (effective 11/18/2026) is a comprehensive redline covering generator operational and market-participation requirements. Major revisions in this cycle include: updated references to capacity accreditation processes (Section 5.3.5, clarifying unit availability as input to PJM's capacity-resource accreditation), refined voltage-control and reactive-power rules for generators (Section 7.1.2 and Attachment D, with new NERC Category 2 applicability for mid-sized inverter-based resources and mandatory Voltage Control Mode for AVRs), expanded synchrophasor (PMU) communication standards for generators \u2265100 MW queued after October 1, 2012 (Section 4.3, specifying IEEE C37.118 compliance, 30-frame-per-second data collection, and \u2264100 millisecond end-to-end latency), cold-weather preparation guidelines (Attachment N, refreshed for both conventional and inverter-based units), metering requirements for energy-storage resources and hybrid facilities (Section 4.2, Exhibits 7\u20138), and wind/solar dispatchability and curtailment-indicator guidance (Section 8, Section 12, Attachment M). The document reflects PJM operations and market-participation norms binding on all interconnected generators; it is a procedural update, not a rule proposal, and carries no comment deadline or future vote.",
+        "hydro_read_through": "Although the manual does not name hydro or pumped-storage resources, it establishes binding operational and settlement procedures applicable to all conventional and dispatchable generators in PJM. Hydro owners are directly subject to: (1) the clarified capacity-accreditation pathway, which determines seasonal capacity revenue for hydro plants; (2) reactive-power curve registration and voltage-control compliance (newly mandatory Voltage Control Mode and NERC Category 2 GO/GOP standards), which affect dispatch instructions and may trigger enforcement for non-compliance; (3) synchrophasor data submission requirements for units \u2265100 MW, affecting real-time telemetry and compliance posture; and (4) metering and settlement specifications for any hydro-storage co-location or hybrid configurations. Pumped-storage hydro is explicitly covered under the energy-storage metering examples (Exhibit 8), establishing charging-energy and state-of-charge settlement rules. Any revisions to outage-scheduling, must-offer, or dispatch-coordination procedures (Sections 7.1\u20137.3) likewise apply to all synchronous units including hydro.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance",
+          "capacity-ra",
+          "ancillary-services"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Revision 72 effective 11/18/2026",
+            "quote": "Revision: 72\nEffective Date: November 18, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Section 5.3.5 clarifies unit availability as input to PJM's accreditation process for capacity resources",
+            "quote": "Clarified unit availability is an input to PJM's accreditation process for capacity resources",
+            "verified": true
+          },
+          {
+            "claim": "Synchrophasor (PMU) measurement devices required at all new generator interconnections 100 MW or larger queued on or after October 1, 2012",
+            "quote": "Synchrophasor measurement devices (PMUs) are required at all new generator interconnections 100MW or larger that entered PJM's interconnection queue on or after October 1, 2012",
+            "verified": true
+          },
+          {
+            "claim": "PMU data collection rate: minimum 30 frames per second, end-to-end latency \u2264100 milliseconds",
+            "quote": "at the minimum rate of 30 frames per second. ... End-to-end (GO PMU to PJM PDC) latency should be less than or equal to 100 milliseconds",
+            "verified": false
+          },
+          {
+            "claim": "Voltage Control Mode mandatory for automatic voltage regulators (AVRs); NERC Category 2 GO/GOP compliance for mid-sized inverter-based resources",
+            "quote": "Clarified that the only acceptable AVR mode is Voltage Control Mode, without documented and approved exception",
+            "verified": true
+          },
+          {
+            "claim": "Energy Storage Resource metering rules for co-located end-use load (Exhibit 8)",
+            "quote": "Energy Storage Resources that are co-located with end use load that is not Station Power shall provide a device for measurement of MWh located directly on the Energy Storage Resource terminals",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Michael Zhang",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Item 07 \u2013 4 \u2013 Periodic Tasks Document \u2013 Redline",
+        "filename": "20261029-item-07---4---periodic-tasks-document---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-07---4---periodic-tasks-document---redline.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This operational guideline sets testing, reporting, and compliance deadlines for all generation resources in PJM, including requirements for hydro (capability verification, reactive testing, black-start, dynamic modeling) that affect revenue accreditation, must-offer obligations, and participation eligibility.",
+        "screened_at": "2026-10-27 17:18:45",
+        "ai_summary": "PJM's Generation Owner Periodic Tasks guideline (effective November 2026, Revision 5) establishes semi-annual capability verification for hydro units (summer testing only; winter tests waived), annual reactive capability testing for units \u226520 MVA and facilities \u226575 MVA aggregate including run-of-river hydro, black-start testing requirements, NERC MOD-026-2/027 dynamic modeling submissions, and annual VOM/fuel-cost policy reviews for cost-based offering. Key deadlines: Summer capability June\u2013August; Winter capability December\u2013February (hydro exempt); Reactive testing every five years minimum; Black-start annual or within 13 months; MOD-026-2 within 365 days of in-service or 180 days of configuration change, then every 10 years; VOM review June\u2013December; Fuel-cost policy every three years (Jan. 1 or Nov. 1 expiration). Hydro is explicitly named as exempted from winter net-capability testing and listed as fast-start capable by default.",
+        "hydro_read_through": "Hydro and run-of-river resources must pass specific testing and modeling compliance cycles that determine their accreditation value in capacity markets and their eligibility for energy-market participation. The summer-only capability exemption for hydro and the fast-start-capable default status are long-standing; the document's significance lies in the reactive-testing and dynamic-modeling frequency bands (five-year minimums for reactive, ten-year cycles for MOD-026-2 after initial in-service submission), which affect how often a hydro owner must invest in testing and whether model updates could delay or enable participation upgrades. The scope includes run-of-river hydro alongside traditional hydro, applying the same testing regime to variable hydro as to conventional resources.",
+        "source_names_hydro": true,
+        "topics": [
+          "capacity-ra",
+          "ops-compliance",
+          "ancillary-services"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Hydro units test only in summer; no winter verification test required",
+            "quote": "* Winter verification tests can be summer tests corrected to winter conditions. Hydro units test only in the summer;\n no winter verification test is required for hydro units.",
+            "verified": true
+          },
+          {
+            "claim": "Reactive capability testing minimum of five-year cycle",
+            "quote": "Periodicity Minimum of five every years",
+            "verified": true
+          },
+          {
+            "claim": "MOD-026-2 submittal within 365 days of going in-service or 180 days of qualifying configuration change, then every 10 years",
+            "quote": "\u2022 Within 365 days of going in-service or making an equipment change\nPeriodicity \u2022 Within 180 days of qualifying configuration change at the facility\n\u2022 Subsequent verification on or before the 10-year anniversary of the last transmittal",
+            "verified": true
+          },
+          {
+            "claim": "Run-of-river hydro included in reactive capability testing scope",
+            "quote": "Generating plants/facilities with a gross aggregate nameplate rating greater than 75 MVA including inverter-\nbased Energy Storage Resources, and variable resources such as wind, solar, run of river hydro, etc.",
+            "verified": true
+          },
+          {
+            "claim": "Hydro designated as fast-start capable by default",
+            "quote": "There are Generator technology types that are FS capable by default including: All CTs, Hydro, Solar, Landfill, Diesels, Battery, Wind, and\nAll Economic Load Response.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Black Start Unit contacts",
+            "entity": null,
+            "role": "contact",
+            "email": "Blackstart@pjm.com"
+          },
+          {
+            "name": "Capacity Market Operations contacts",
+            "entity": null,
+            "role": "contact",
+            "email": "RPM_Hotline@pjm.com"
+          },
+          {
+            "name": "Fast-start capable request contacts",
+            "entity": null,
+            "role": "contact",
+            "email": "FastStartCapable@pjm.com"
+          },
+          {
+            "name": "Fuel cost and emissions policy contacts",
+            "entity": null,
+            "role": "contact",
+            "email": "FuelCostPolicyAnalysis@pjm.com"
+          },
+          {
+            "name": "Generation Owners",
+            "entity": null,
+            "role": "contact",
+            "email": "gadssupport@pjm.com"
+          },
+          {
+            "name": "MOD-032 submittal contacts",
+            "entity": null,
+            "role": "contact",
+            "email": "MOD-032@pjm.com"
+          },
+          {
+            "name": "NERC MOD-026-027 submittal contacts",
+            "entity": null,
+            "role": "contact",
+            "email": "NERC.Transmission.Planner@pjm.com"
+          },
+          {
+            "name": "Reactive testing contacts",
+            "entity": null,
+            "role": "contact",
+            "email": "ReactiveTesting@pjm.com"
+          },
+          {
+            "name": "Voltage schedule contacts",
+            "entity": null,
+            "role": "contact",
+            "email": "voltageschedules@pjm.com"
+          },
+          {
+            "name": "PJM Generation Department",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Training support",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "TrainingSupport@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 08 \u2013 1 \u2013 Manual 03 Revisions \u2013 Presentation",
+        "filename": "20261029-item-08---1---manual-03-revisions---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-08---1---manual-03-revisions---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a routine periodic review of PJM Manual 03 (Transmission Operations) updating NERC standard references, with no changes to market rules, participation models, settlement, or operational requirements affecting hydro or PSH revenue, obligations, or strategic options.",
+        "screened_at": "2026-10-27 17:18:48",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "M03_Change",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "M03_Change@pjm.com"
+          },
+          {
+            "name": "Steve Campbell",
+            "entity": "PJM",
+            "role": "author, presenter",
+            "email": "Steven.Campbell@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 08 \u2013 2 \u2013 Manual 03 Revisions \u2013 Executive Summary",
+        "filename": "20261029-item-08---2--manual-03-revisions---executive-summary.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-08---2--manual-03-revisions---executive-summary.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine bi-annual procedural update to PJM's Transmission Operations Manual that refreshes obsolete NERC Standard references; it does not change any market-design rule, revenue mechanism, obligation, or strategic option affecting hydropower or storage participation.",
+        "screened_at": "2026-10-27 17:18:51",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "manual",
+        "title": "Item 08 \u2013 3 \u2013 Manual 03 Revisions \u2013 Redline",
+        "filename": "20261029-item-08---3---manual-03-revisions---redline.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/sos/2026/20261029/20261029-item-08---3---manual-03-revisions---redline.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a redline revision to PJM's transmission operations manual covering thermal limits, voltage control, outage scheduling, and remedial action schemes \u2014 core operational procedures for transmission system management with no hydro-specific treatment, no market design changes affecting hydro's revenue streams, and no new compliance obligations or strategic options for hydro owners.",
+        "screened_at": "2026-10-27 17:18:54",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Nicole Scott",
+            "entity": "PJM",
+            "role": "author",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "MC Information Webinar Meeting",
@@ -2704,7 +4044,65 @@
     "meeting_hydro_reason": "NYISO's Installed Capacity Working Group sets the rules for capacity-market accreditation, UCAP/ELCC treatment, and auction design that directly affect hydropower and pumped-storage revenue and compliance obligations in the Northeast.",
     "meeting_screened_at": "2026-10-13 19:08:38",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "1 Agenda",
+        "filename": "1%20icap%20miwg%20prlwg%20agenda%20102926.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59530011/1%20icap%20miwg%20prlwg%20agenda%20102926.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "3 Reliability Planning Process Reforms: Enabling Supply-Side Solutions",
+        "filename": "RPP_Reform_ESPWG_1029.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59530011/RPP_Reform_ESPWG_1029.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "2 Time-Differentiated TCCs MDCP",
+        "filename": "Time%20Differentiated%20TCCs_20261029_final.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59530011/Time%20Differentiated%20TCCs_20261029_final.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Market Issues Working Group",
@@ -3358,6 +4756,139 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "report",
+        "title": "20261029 LLWG Item 03 Liaison Report",
+        "filename": "20261029 LLWG Item 03 Liaison Report.pdf",
+        "url": "https://cdn.misoenergy.org/20261029%20LLWG%20Item%2003%20Liaison%20Report791477.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261029 LLWG Item 06 Large Load Application and Study Process (LLWG 2026 7)",
+        "filename": "20261029 LLWG Item 06 Large Load Application and Study Process (LLWG-2026-7).pdf",
+        "url": "https://cdn.misoenergy.org/20261029%20LLWG%20Item%2006%20Large%20Load%20Application%20and%20Study%20Process%20%28LLWG-2026-7%29791445.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261029 LLWG Item 02c BPM 033 Ramp Requirements (Section 10) (LLWG 2026 3)",
+        "filename": "20261029 LLWG Item 02c BPM-033 Ramp Requirements (Section 10) (LLWG-2026-3).pdf",
+        "url": "https://cdn.misoenergy.org/20261029%20LLWG%20Item%2002c%20BPM-033%20Ramp%20Requirements%20%28Section%2010%29%20%28LLWG-2026-3%29791444.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261029 LLWG Item 08a BPM 033 Large Load Applicability (Section 2) (LLWG 2026 3)",
+        "filename": "20261029 LLWG Item 08a BPM-033 Large Load Applicability (Section 2) (LLWG-2026-3).pdf",
+        "url": "https://cdn.misoenergy.org/20261029%20LLWG%20Item%2008a%20BPM-033%20Large%20Load%20Applicability%20%28Section%202%29%20%28LLWG-2026-3%29791446.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261029 LLWG Item 07 Interconnection Reliability Requirements Stability Assessment(LLWG 2026 3)",
+        "filename": "20261029 LLWG Item 07 Interconnection Reliability Requirements Stability Assessment(LLWG-2026-3).pdf",
+        "url": "https://cdn.misoenergy.org/20261029%20LLWG%20Item%2007%20Interconnection%20Reliability%20Requirements%20Stability%20Assessment%28LLWG-2026-3%29791412.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261029 LLWG Item 08b Firm Service Step Up Study Process (LLWG 2026 1)DRAFT BPM 020",
+        "filename": "20261029 LLWG Item 08b Firm Service Step Up Study Process (LLWG-2026-1)DRAFT BPM-020.pdf",
+        "url": "https://cdn.misoenergy.org/20261029%20LLWG%20Item%2008b%20Firm%20Service%20Step%20Up%20Study%20Process%20%28LLWG-2026-1%29DRAFT%20BPM-020791384.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261029 LLWG Item 08b Firm Service Step Up Process (LLWG 2026 1) BPM 020 r35 redlines DRAFT",
+        "filename": "20261029 LLWG Item 08b Firm Service Step Up Process (LLWG-2026-1) BPM-020-r35 redlines DRAFT.docx",
+        "url": "https://cdn.misoenergy.org/20261029%20LLWG%20Item%2008b%20Firm%20Service%20Step%20Up%20Process%20%28LLWG-2026-1%29%20BPM-020-r35%20redlines%20DRAFT791383.docx",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -5366,7 +6897,7 @@
         "filename": "20261028-agenda.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-agenda.pdf",
         "member_url": null,
-        "posted_date": "2026-10-21",
+        "posted_date": "2026-10-26",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This document is a procedural agenda for a PJM committee meeting listing agenda items and administrative requirements with no substantive proposal content on hydro/PSH revenue mechanisms, compliance obligations, or strategic options disclosed.",
         "screened_at": "2026-10-22 17:00:26",
@@ -5505,7 +7036,7 @@
         "filename": "20261028-agenda-doc.docx",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-agenda-doc.docx",
         "member_url": null,
-        "posted_date": "2026-10-21",
+        "posted_date": "2026-10-26",
         "hydro_relevant": true,
         "hydro_relevance_reason": "The agenda covers multiple mechanisms directly affecting hydro/PSH revenue and obligations: Storage as a Transmission Asset (SATA) and Phase II design affecting PSH valuation and dispatch; Regulation Market Redesign Phase 2 touching ancillary-services accreditation; Generator Operational Requirements and Interconnection Security Requirements revisions affecting compliance; and Large Load Show Cause on ride-through requirements affecting dispatchable resource obligations.",
         "screened_at": "2026-10-22 17:00:43",
@@ -7493,7 +9024,7 @@
         "filename": "20261028-item-03---9-tariff-part-x-subpart-c-section-603-dev-revisions---redline.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-03---9-tariff-part-x-subpart-c-section-603-dev-revisions---redline.pdf",
         "member_url": null,
-        "posted_date": "2026-10-23",
+        "posted_date": "2026-10-26",
         "hydro_relevant": true,
         "hydro_relevance_reason": "PJM's Expedited Interconnection Track (EIT) process revision directly affects interconnection timelines, security requirements, and study procedures that would apply to new hydropower and pumped-storage projects seeking to queue and interconnect in the PJM footprint.",
         "screened_at": "2026-10-24 15:14:30",
@@ -7569,6 +9100,196 @@
             "email": "MA@monitoringanalytics.com"
           }
         ]
+      },
+      {
+        "type": "tariff",
+        "title": "Item 03 \u2013 10 Tariff Part Ix Subpart D Dev Revisions Redline \u2013 PJM Proposed Amendments",
+        "filename": "20261028-item-03---10-tariff-part-ix-subpart-d-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-03---10-tariff-part-ix-subpart-d-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "Item 03 \u2013 11 Tariff Part Ix Subpart E Ucsa Dev Revisions Redline \u2013 PJM Proposed Amendments",
+        "filename": "20261028-item-03---11-tariff-part-ix-subpart-e-ucsa-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-03---11-tariff-part-ix-subpart-e-ucsa-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "Item 03 \u2013 12 Tariff Part Ixh Nucra Dev Revisions Redline \u2013 PJM Proposed Amendments",
+        "filename": "20261028-item-03---12-tariff-part-ixh-nucra-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-03---12-tariff-part-ixh-nucra-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "Item 03 \u2013 13 Tariff Part Ixj Csa Dev Revisions Redline \u2013 PJM Proposed Amendments",
+        "filename": "20261028-item-03---13-tariff-part-ixj-csa-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-03---13-tariff-part-ixj-csa-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "Item 03 \u2013 4 Tariff Part Viii Subpart A Section 400 V Dev Revisions Redline \u2013 PJM Proposed Amendments",
+        "filename": "20261028-item-03---4-tariff-part-viii-subpart-a-section-400-v-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-03---4-tariff-part-viii-subpart-a-section-400-v-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "Item 03 \u2013 5 Tariff Part Viii Subpart C Sections 406 And 408 Dev Revisions Redline \u2013 PJM Proposed Amendments",
+        "filename": "20261028-item-03---5-tariff-part-viii-subpart-c-sections-406-and-408-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-03---5-tariff-part-viii-subpart-c-sections-406-and-408-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "Item 03 \u2013 6 Tariff Part Viiic 410 Decision Point Iii Dev Revisions Redline \u2013 PJM Proposed Amendments",
+        "filename": "20261028-item-03---6-tariff-part-viiic-410-decision-point-iii-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-03---6-tariff-part-viiic-410-decision-point-iii-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "Item 03 \u2013 7 Tariff Part Viii Subpart H Section 435 Dev Revisions Redline \u2013 PJM Proposed Amendments",
+        "filename": "20261028-item-03---7-tariff-part-viii-subpart-h-section-435-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-03---7-tariff-part-viii-subpart-h-section-435-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "Item 03 \u2013 8 Tariff Part Ixb GIA Dev Revisions Redline \u2013 PJM Proposed Amendments",
+        "filename": "20261028-item-03---8-tariff-part-ixb-gia-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-03---8-tariff-part-ixb-gia-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "Item 03 \u2013 9 Tariff Part X Subpart C Section 603 Dev Revisions Redline \u2013 PJM Proposed Amendments",
+        "filename": "20261028-item-03---9-tariff-part-x-subpart-c-section-603-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-03---9-tariff-part-x-subpart-c-section-603-dev-revisions-redline---pjm-proposed-amendments.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -7875,7 +9596,7 @@
         "filename": "20261028-item-05b---1-system-operations-report---presentation.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20261028/20261028-item-05b---1-system-operations-report---presentation.pdf",
         "member_url": null,
-        "posted_date": "2026-10-21",
+        "posted_date": "2026-10-27",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "screened_at": null,
@@ -9548,6 +11269,44 @@
         ],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "9 FERC Show Cause Order on Large and Co-Located Loads - Revised",
+        "filename": "Large%20Loads%20presentation%20for%20MC%20posting%20(redline).pdf",
+        "url": "https://www.nyiso.com/documents/20142/59483202/Large%20Loads%20presentation%20for%20MC%20posting%20(redline).pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "9b OATT 44 - Attachment LL New Section - Revised",
+        "filename": "OATT%2044%20-%20Attachment%20LL%20NEW%20SECTION_MC%20version_incremental%20from%20MC%20posting%20(redline).pdf",
+        "url": "https://www.nyiso.com/documents/20142/59483202/OATT%2044%20-%20Attachment%20LL%20NEW%20SECTION_MC%20version_incremental%20from%20MC%20posting%20(redline).pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -11150,11 +12909,11 @@
       },
       {
         "type": "other",
-        "title": "2026-10-27 TC/MC/RC A02.0 New England Large Load Show Cause Order (EL26-72) - Section I.2.2 Redlines",
+        "title": "2026-10-27 TC/MC/RC A02.0 New England Large Load Show Cause Order (EL26-72) - Section I.2.2 Redlines - Rev. 1",
         "filename": "2026_10_27_large_load_tc_mc_rc_section_i.2.2_redlines.docx",
         "url": "https://www.iso-ne.com/static-assets/documents/100040/2026_10_27_large_load_tc_mc_rc_section_i.2.2_redlines.docx",
         "member_url": null,
-        "posted_date": "2026-10-22",
+        "posted_date": "2026-10-26",
         "hydro_relevant": false,
         "hydro_relevance_reason": "This is a tariff redline document for rules of construction and definitions (Section I.2.2); it contains no proposals, decisions, or mechanisms affecting hydro or PSH revenue, obligations, or strategic options\u2014it is boilerplate definitional text with no market-design substance.",
         "screened_at": "2026-10-23 16:38:46",
@@ -11685,6 +13444,36 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "presentation",
+        "title": "2026-10-27 TC/MC/RC A02(C) New England Large Load Show Cause Order (EL26-72) - NEPGA Presentation",
+        "filename": "a02b_tc_rc_mc_large_load_nepga_presentation.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100040/a02b_tc_rc_mc_large_load_nepga_presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-26",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "large-loads-integration-key-project",
+            "canonical_name": "Large Loads Integration",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/large-loads-integration-key-project"
+          }
+        ],
+        "stakeholders": []
       }
     ]
   },
@@ -12274,7 +14063,27 @@
     "meeting_hydro_reason": "The MISO Ballot Box Workshop addresses internal governance and voting procedures, not market-design mechanics affecting hydro revenue, compliance obligations, or strategic options.",
     "meeting_screened_at": "2026-10-12 21:46:58",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "20261027 MBB Workshop Recording.mp4",
+        "filename": "20261027 MBB Workshop Recording.mp4",
+        "url": "https://cdn.misoenergy.org/20261027%20MBB%20Workshop%20Recording791609.mp4",
+        "member_url": null,
+        "posted_date": "2026-10-27",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Gas Resource Management: Draft Tariff Language: After the Fact Cost Recovery for Natural Gas Resources",
@@ -14255,7 +16064,7 @@
     "date": "2026-10-23",
     "time": "4:00 PM",
     "rto": "ISO-NE",
-    "committee": "Office Hours with ISO-NE External Affairs",
+    "committee": "External Affairs",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=165301",
     "materials_url": null,
@@ -21537,7 +23346,7 @@
         "filename": "20261020 RASC Item 02 PRMR Allocation (RASC-2020-4 and 2019-2).pdf",
         "url": "https://cdn.misoenergy.org/20261020%20RASC%20Item%2002%20PRMR%20Allocation%20%28RASC-2020-4%20and%202019-2%29789134.pdf",
         "member_url": null,
-        "posted_date": "2026-10-23",
+        "posted_date": "2026-10-27",
         "hydro_relevant": true,
         "hydro_relevance_reason": "MISO's proposed change to Planning Reserve Margin Requirement (PRMR) allocation methodology \u2014 shifting from Coincident Peak Demand to Coincident Net Peak Demand \u2014 directly affects how resource adequacy requirements are allocated to load-serving entities and will influence accreditation and capacity revenue for all dispatchable resources including conventional hydropower and pumped storage.",
         "screened_at": "2026-10-17 15:09:23",
@@ -27892,7 +29701,27 @@
     "meeting_hydro_reason": "Large-load interconnection and co-located load are explicitly listed as strategic options affecting hydro owners' ability to serve load and participate in markets, and CAISO's treatment of large loads in tariff design directly influences hydro revenue and operational flexibility in a load-constrained region.",
     "meeting_screened_at": "2026-10-02 16:00:55",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "tariff",
+        "title": "Revised Draft Tariff Language - Large Loads Order to Show Cause - Oct 26, 2026",
+        "filename": "Revised-Draft-tariff-language-large-loads-order-to-show-cause-Oct-26-2026.docx",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Revised-Draft-tariff-language-large-loads-order-to-show-cause-Oct-26-2026.docx",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Comments due - 2026-2027 Transmission Planning Process",
@@ -102133,7 +103962,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-26 17:44:54",
+    "meeting_screened_at": "2026-10-27 16:52:53",
     "issues": [],
     "documents": [
       {
@@ -107402,7 +109231,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-26 17:45:15",
+    "meeting_screened_at": "2026-10-27 16:53:14",
     "issues": [],
     "documents": [
       {
@@ -107440,7 +109269,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-10-26 17:45:36",
+    "meeting_screened_at": "2026-10-27 16:53:35",
     "issues": [],
     "documents": [
       {
