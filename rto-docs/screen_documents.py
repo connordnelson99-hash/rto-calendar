@@ -41,7 +41,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from db.database import (
     get_connection, init_db,
     save_meeting_screening, save_ai_screening,
-    save_document_stakeholders,
+    save_document_stakeholders, STAGE2_ALL_DOCS_RTOS_SQL,
 )
 
 # ── Shared system prompt ────────────────────────────────────────────────────
@@ -865,8 +865,9 @@ def run_stage2(conn, client, rto_filter=None, rescreen=False, limit=200,
         # SPP's Markets+ working groups, MISO's Planning Advisory Committee,
         # or ERCOT's WMS/PRS. Screening every doc on its own extracted text
         # recovers the relevant material those meetings carry.
-        "(m.hydro_relevant = 1 OR d.rto IN "
-        "('NYISO', 'SPP', 'SPP Markets +', 'MISO', 'ERCOT'))",
+        # The list is shared with prune_extracted_text, which must never clear
+        # text this gate would still read.
+        f"(m.hydro_relevant = 1 OR d.rto IN {STAGE2_ALL_DOCS_RTOS_SQL})",
     ]
     params = []
 

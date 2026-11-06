@@ -421,8 +421,16 @@ def save_ai_screening(conn, doc_id, hydro_relevant, reason, summary=None,
     conn.commit()
 
 
+# RTOs whose documents Stage 2 screens even when Stage 1 judged the meeting not
+# relevant (their meeting titles are too thin for Stage 1 — see run_stage2 in
+# screen_documents.py). One list for both the screening gate and the pruner, so
+# the pruner can never clear text that screening would still read.
+STAGE2_ALL_DOCS_RTOS = ("NYISO", "SPP", "SPP Markets +", "MISO", "ERCOT")
+STAGE2_ALL_DOCS_RTOS_SQL = "(" + ", ".join(f"'{r}'" for r in STAGE2_ALL_DOCS_RTOS) + ")"
+
+
 def prune_extracted_text(conn, older_than_days=60, dry_run=False):
-    """Clear `extracted_text` for old, already-screened documents, then VACUUM.
+    """Clear `extracted_text` for old documents screening is done with, then VACUUM.
 
     The DB is committed to git on every scrape, and extracted_text is ~75% of
     its size (54 MB of 72 MB in Aug 2026) — it was on track to cross GitHub's
@@ -433,9 +441,19 @@ def prune_extracted_text(conn, older_than_days=60, dry_run=False):
     Two guards:
       * Only documents whose meeting is older than `older_than_days`, so the
         digest window and anything a rescreen would plausibly touch is kept.
-      * Only documents with `ai_processed_at` set. Clearing the text of an
-        UNSCREENED document would make it permanently unscreenable — there is
-        no second chance for those, so they are never pruned regardless of age.
+      * Only documents screening is finished with: either Stage 2 screened it
+        (`ai_processed_at` set), or Stage 2 will never read it because Stage 1
+        judged its meeting not relevant (`hydro_relevant = 0`) and its RTO is
+        not in STAGE2_ALL_DOCS_RTOS. A document still waiting on Stage 1 or
+        Stage 2 is never pruned regardless of age: clearing its text would make
+        it permanently unscreenable.
+
+    The second branch matters. Before it, documents from not-relevant meetings
+    (mostly PJM) were never screened, so the screened-only guard kept their text
+    forever: 14.7 MB of the 95.7 MB DB on 2026-10-29, and the main reason the
+    file kept growing toward GitHub's limit. If a later Stage 1 rescreen flips
+    such an old meeting to relevant, Stage 2 judges its documents on title only,
+    the same trade-off already accepted for pruned screened documents.
 
     VACUUM is required: without it SQLite keeps the freed pages and the file on
     disk doesn't shrink at all. Returns (docs_pruned, bytes_freed).
@@ -444,8 +462,10 @@ def prune_extracted_text(conn, older_than_days=60, dry_run=False):
         SELECT d.id, LENGTH(d.extracted_text) AS n
         FROM documents d JOIN meetings m ON m.id = d.meeting_id
         WHERE d.extracted_text IS NOT NULL
-          AND d.ai_processed_at IS NOT NULL
           AND m.meeting_date < date('now', '-{int(older_than_days)} days')
+          AND (d.ai_processed_at IS NOT NULL
+               OR (m.hydro_relevant = 0
+                   AND d.rto NOT IN {STAGE2_ALL_DOCS_RTOS_SQL}))
     """).fetchall()
     ids = [r["id"] for r in rows]
     freed = sum(r["n"] or 0 for r in rows)
