@@ -30,6 +30,21 @@
     "documents": []
   },
   {
+    "title": "MORWG Face-To-Face",
+    "date": "2027-02-03",
+    "time": "11:00 AM - 4:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Operations and Reliability Working Group",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-operations-and-reliability-working-group-face-to-face-20270203/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=370774",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "SPP Markets+ is an emerging multi-state RTO platform that will affect hydro participation rules, capacity accreditation, energy pricing, and ancillary-service design across a footprint including hydropower-operating regions, making operational and reliability working-group sessions highly relevant to hydro strategic positioning and compliance obligations.",
+    "meeting_screened_at": "2026-11-09 22:35:05",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MDWG Net Conference",
     "date": "2027-01-26",
     "time": "11:00 AM - 5:00 PM CT",
@@ -71,6 +86,21 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Markets+ GHG Task Force conference addresses GHG attribution and accounting mechanisms in a multi-state market footprint, which directly affects how Northwest and other hydro-rich regions' exports are valued and credited in clean-energy programs\u2014a core revenue and market-design issue for NHA members.",
     "meeting_screened_at": "2026-10-23 16:35:12",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "MORWG Net Conference",
+    "date": "2027-01-07",
+    "time": "11:00 AM - 4:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Operations and Reliability Working Group",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-operations-and-reliability-working-group-net-conference-20270107/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=370774",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Markets+ Operations and Reliability Working Group meetings address market design, resource participation rules, and reliability mechanisms affecting hydro and storage resources in SPP's footprint and serve as reference for comparative analysis across RTOs.",
+    "meeting_screened_at": "2026-11-09 22:35:07",
     "issues": [],
     "documents": []
   },
@@ -281,6 +311,66 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "ERCOT Operations Working Group meetings typically address operational logistics, IT systems, and routine dispatch procedures rather than market-design topics (price formation, ancillary services, capacity accreditation, storage participation, or reliability mechanisms) that would interest NHA members or serve as cross-market comparison points.",
     "meeting_screened_at": "2026-11-08 18:06:07",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Interconnection Customer User Group",
+    "date": "2026-11-24",
+    "time": "1:00 PM - 2:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Interconnection Customer User Group",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-nov-24-2026-0100-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/interconnection-customer-user-group",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Interconnection queue reform, surplus interconnection service, uprates, and deliverability rules directly affect hydropower developers' ability to interconnect new capacity and upgrade existing plants, and CAISO's queue-management practices are actively scrutinized by NHA members.",
+    "meeting_screened_at": "2026-11-09 22:35:08",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Storage Design and Modeling",
+    "date": "2026-11-24",
+    "time": "1:00 PM - 4:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Storage design and modeling",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/storage-design-and-modeling-nov-24-2026-0100-pm",
+    "materials_url": "https://stakeholdercenter.caiso.com/StakeholderInitiatives/Storage-design-modeling",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "CAISO's Storage Design and Modeling committee directly addresses participation rules, accreditation, state-of-charge management, and charging/discharge treatment for pumped-storage hydro and battery storage, which are core revenue and compliance concerns for NHA members.",
+    "meeting_screened_at": "2026-11-09 22:35:10",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Release User Group Forum",
+    "date": "2026-11-24",
+    "time": "10:00 AM - 11:00 AM PT",
+    "rto": "CAISO",
+    "committee": "Release User Group (RUG)",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/release-user-group-forum-nov-24-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/release-users-group-rug",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Release User Group meetings cover IT systems, software deployment, and technical operations \u2014 routine infrastructure management with no connection to market design, pricing, participation rules, or strategic hydropower interests.",
+    "meeting_screened_at": "2026-11-09 22:35:11",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Extended Day-Ahead Market (EDAM) Performance",
+    "date": "2026-11-24",
+    "time": "9:00 AM - 11:00 AM PT",
+    "rto": "CAISO",
+    "committee": "Extended Day-Ahead Market (EDAM) Performance",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-edam-performance-nov-24-2026-0900-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/extended-day-ahead-market-edam-market-performance",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "EDAM performance reporting directly affects revenue realization, market power mitigation, and competitive dynamics for NHA members in the West; EDAM is a strategic participation pathway and seam-governance choice for hydro and storage resources across the CAISO footprint and expanding westward, and performance data illuminates price formation, energy accreditation, and ramping-product outcomes that hydro operators must track.",
+    "meeting_screened_at": "2026-11-09 22:35:14",
     "issues": [],
     "documents": []
   },
@@ -1446,12 +1536,51 @@
     "committee": "LC - Public Materials Only (No Registration)",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={6DC1DB31-C27C-4474-98BA-069BC690399F}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The meeting title is a generic administrative designation for public materials access with no specific agenda, substantive topic, or market-design content that would indicate relevance to hydropower revenue, obligations, or strategic options.",
     "meeting_screened_at": "2026-11-07 17:51:04",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20261117-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/lc/2026/20261117/20261117-agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "LC Membership",
+        "filename": "20261117-lc-membership.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/lc/2026/20261117/20261117-lc-membership.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-08",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "2026 Market Policy Catalog and Roadmap",
@@ -2046,7 +2175,46 @@
     "meeting_hydro_reason": "Settlements User Group meetings focus on billing, metering, and settlement administration mechanics rather than market-design rules affecting hydro revenue, capacity accreditation, participation models, or operational obligations.",
     "meeting_screened_at": "2026-11-07 17:51:37",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "20261116 SUG Item 01b Agenda.pdf",
+        "filename": "20261116 SUG Item 01b Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20261116%20SUG%20Item%2001b%20Agenda794843.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a routine agenda for a Settlements User Group administrative meeting with no substantive market-design content; it lists only meeting logistics, time slots, and presenter names for standard monthly settlement reports\u2014no proposal, rule change, or decision affecting hydro revenue streams, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-09 22:35:20",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jonas Cruz",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Julie Burkholder",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mollie Dawson",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Large Load Working Group (LLWG) - November 16, 2026",
@@ -2061,7 +2229,227 @@
     "meeting_hydro_reason": "Large load interconnection and growth affect hydro's strategic value through scarcity signals and peak-demand revenue opportunities, and MISO's load-serving rules may shape co-location and behind-the-meter service options for hydro owners.",
     "meeting_screened_at": "2026-11-07 17:51:38",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "tariff",
+        "title": "20261116 LLWG Item 04 draft Tariff ATTACHMENT LLL Form of Agreement for Large Load Cost Recovery Agreement",
+        "filename": "20261116 LLWG Item 04 draft Tariff ATTACHMENT LLL_Form of Agreement for Large Load Cost Recovery Agreement.docx",
+        "url": "https://cdn.misoenergy.org/20261116%20LLWG%20Item%2004%20draft%20Tariff%20ATTACHMENT%20LLL_Form%20of%20Agreement%20for%20Large%20Load%20Cost%20Recovery%20Agreement795009.docx",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large Load Cost Recovery Agreement tariff attachment establishes transmission-cost allocation and cost-shifting mechanisms that directly affect how transmission-dependent resources\u2014including hydropower serving large loads\u2014are charged for network upgrades and interconnection service.",
+        "screened_at": "2026-11-09 22:35:35",
+        "ai_summary": "MISO has drafted Attachment LLL, a form of cost-recovery agreement between large load transmission customers, transmission owners, and MISO to establish the terms and conditions by which transmission network upgrade costs are recovered and cost-shifting among transmission customers is mitigated. The agreement offers two cost-recovery mechanisms: transmission owners may roll upgrade costs into their tariffed rates (3.3), or directly assign costs to the large load customer (3.4). Under the rollback method, the large load customer pays an Annual Incremental Revenue Requirement (Annual IRR) based on a 20-year levelized fixed-charge rate applied to the Large Load Network Upgrade capital cost, with yearly supplemental payments required if transmission service revenue for that load falls short of the Yearly Required Revenue Commitment. The agreement specifies a 20-year term or until the customer fully satisfies its payment obligations, requires financial security equal to estimated upgrade costs, and includes default and cross-default provisions tying payment obligations to the underlying transmission service agreement. Exhibits C and D detail the revenue-requirement calculation formulas and supplemental-payment determination. The document was reviewed at the Large Load Working Group meeting on November 16, 2026, and is subject to FERC acceptance.",
+        "hydro_read_through": "This document does not mention hydropower, pumped storage, or run-of-river resources directly. However, the cost-allocation framework applies to any transmission customer requesting network upgrades to interconnect a large load, including high-consumption loads that might be co-located with or served by hydroelectric generation. Hydropower owners or hybrid resources co-locating with large loads could be classified as large load transmission customers under this tariff, making them subject to these cost-recovery obligations\u2014specifically, the supplemental-payment mechanism that requires them to cover any shortfall between their actual transmission-service revenue and the fixed annual revenue requirement. For conventional hydro plants already interconnected, this framework establishes precedent for how future transmission-cost allocation and scarcity-pricing mechanisms might work: the 20-year levelized-cost approach and the supplemental-payment design (calculating unmet revenue requirement annually) are particularly relevant to understanding how use-limited resources with variable output would interact with fixed transmission-cost obligations. The agreement's treatment of cost-shifting mitigation and default triggers tied to transmission-service revenue could affect how hydro plants' dispatch and revenue patterns are evaluated under similar cost-allocation schemes.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "transmission",
+          "interconnection"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "20-year term",
+            "quote": "the term of this Agreement begins on the Effective Date and shall continue until the earlier of twenty (20) years after the date the final Large Load Network Upgrade goes in-service or the date Large Load Transmission Customer has satisfied in full its Total Required Revenue Commitment",
+            "verified": true
+          },
+          {
+            "claim": "Annual Incremental Revenue Requirement (Annual IRR) based on 20-year levelized calculation",
+            "quote": "The 20-Year IRR for each Large Load Network Upgrade is the revenue requirement of the full return on and of the Large Load Network Upgrade(s) over a twenty (20)-year period, including the capital cost, return, depreciation, operations and maintenance, and taxes associated with the Large Load Network Upgrade. The 20-Year IRR on an annual basis shall be referred to as the Annual Incremental Revenue Requirement",
+            "verified": true
+          },
+          {
+            "claim": "Supplemental payment if transmission service revenue falls short of yearly commitment",
+            "quote": "If the Transmission Service revenue attributable to Large Load Transmission Customer on behalf of the Large Load during a calendar year (the \"Large Load Transmission Customer's Large Load Annual Transmission Service Revenue\") is less than Large Load Transmission Customer's Yearly Required Revenue Commitment, Large Load Transmission Customer shall be required to make a Supplemental Payment to the Transmission Provider",
+            "verified": true
+          },
+          {
+            "claim": "Financial security equal to estimated capital cost",
+            "quote": "Large Load Transmission Customer shall provide each Transmission Owner with security in the form of irrevocable security reasonably acceptable to each Transmission Owner (for example, a letter of credit, surety bond, or parent guaranty) in an amount equal to the estimated capital cost of the Large Load Network Upgrade(s)",
+            "verified": true
+          },
+          {
+            "claim": "Ninety-day invoice deadline after calendar year end",
+            "quote": "Within ninety (90) days after the end of every calendar year during the term of this Agreement, the Transmission Provider shall issue an invoice to Large Load Transmission Customer indicating the amount of the Supplemental Payment due, if any",
+            "verified": true
+          },
+          {
+            "claim": "Forty-five-day security provision deadline",
+            "quote": "Large Load Transmission Customer shall provide the initial Required Security within the later of: (a) forty-five (45) Calendar Days of the execution of this Agreement by all Parties",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "tariff",
+        "title": "20261116 LLWG Item 04 draft Tariff ATTACHMENT MMM Large Load Impacted TO Cost Recovery Agreement",
+        "filename": "20261116 LLWG Item 04 draft Tariff_ATTACHMENT MMM_Large Load Impacted TO Cost Recovery Agreement.docx",
+        "url": "https://cdn.misoenergy.org/20261116%20LLWG%20Item%2004%20draft%20Tariff_ATTACHMENT%20MMM_Large%20Load%20Impacted%20TO%20Cost%20Recovery%20Agreement795010.docx",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This MISO tariff attachment establishes cost-recovery rules for transmission network upgrades required by large-load interconnection requests, affecting how transmission-constrained projects (including pumped-storage and large hydropower facilities seeking firm delivery) will be charged for grid upgrades outside their pricing zone.",
+        "screened_at": "2026-11-09 22:35:51",
+        "ai_summary": "MISO's Large Load Impacted Transmission Owner (ITO) Cost Recovery Agreement is a tariff attachment governing how Large Load Transmission Customers pay for transmission network upgrades (ITO-Large Load Network Upgrades) located outside the pricing zone of the point of withdrawal. The Agreement establishes two cost-recovery paths: (1) Transmission Owner may roll capital costs into its rates under a levelized fixed-charge formula based on Transmission Owner's Attachment O data, with monthly payments due by the 15th of each month and annual adjustments effective each June 1, for a default term of 240 months; or (2) Transmission Owner may directly assign costs via separate agreement with Large Load Transmission Customer providing required financial security equal to the estimated capital cost. Large Load Transmission Customer must post irrevocable security (letter of credit, surety bond, or parent guaranty) within 45 calendar days of agreement execution or, if filed unexecuted with FERC, within 45 calendar days of FERC acceptance or filing; failure to post security within the specified timeframe results in immediate withdrawal of the Large Load Application. The Agreement includes cross-default provisions linking it to any companion Large Load Network Upgrade Construction Agreement, audit rights for 24 months post-in-service for design/procurement costs and 12 months post-update for annual formula inputs, and a one-time true-up adjustment calculated within one year of in-service date using actual capital costs. The agreement requires FERC approval prior to effectiveness.",
+        "hydro_read_through": "This document does not mention hydropower or pumped storage. However, large hydroelectric and pumped-storage projects requiring firm transmission delivery outside their local pricing zone would fall within the definition of 'Large Load Transmission Customer' if their interconnection triggers ITO network upgrades. The cost-recovery mechanism\u2014particularly the levelized monthly payment over 20 years and the requirement to post upfront financial security equal to estimated upgrade cost\u2014establishes the financial obligations such projects must meet to secure transmission service. For a pumped-storage facility or large hydro project, the critical read is the 45-day security deadline and the terms under which costs can be recovered: owners need to understand whether their project's interconnection would trigger this agreement, what the total levelized cost would be (based on Transmission Owner's WACC and tax rates pulled from Attachment O), and how (or whether) those transmission costs affect project economics relative to the energy and ancillary-service revenues the plant would earn.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "transmission",
+          "load-growth"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Large Load Transmission Customer shall post required security within 45 calendar days of agreement execution, or within 45 calendar days of FERC acceptance/filing if agreement filed unexecuted; failure results in immediate withdrawal of Large Load Application.",
+            "quote": "Unless the Parties otherwise agree, the Required Security shall be provided within the later of: (a) forty-five (45) Calendar Days of the execution of this Agreement; (b) forty-five (45) Calendar Days of acceptance of this Agreement by FERC if this Agreement is filed unexecuted and the Required Security is being protested by Large Load Transmission Customer; or (c) forty-five (45) Calendar Days of the date of filing of this Agreement if it is filed unexecuted and the Required Security is not being protested by Large Load Transmission Customer...Failure to provide the Required Security within the timeframe above will result in the Large Load Application being immediately withdrawn.",
+            "verified": false
+          },
+          {
+            "claim": "Monthly payments due by 15th of month; annual payment option available after first June 1 following in-service date of last upgrade, with annual payments due by June 15 each year thereafter.",
+            "quote": "Each Payment shall be due and payable by the 15th day of each month (\"Monthly Due Date\") for the Term of this Agreement, or, if Large Load Transmission Customer elects to switch to an annual payment after the first June 1 following the In-Service Date of the last ITO-Large Load Network Upgrade(s), each annual Payment for the ITO-Large Load Network Upgrade(s) shall be due and payable by the 15th day of June of each year",
+            "verified": true
+          },
+          {
+            "claim": "Payment formula updated annually effective June 1 using Transmission Owner's Attachment O inputs.",
+            "quote": "Transmission Owner shall provide Large Load Transmission Customer with notice each year of the change in Payment amount as a result of annual changes to Transmission Owner's Attachment O Formula Rate",
+            "verified": true
+          },
+          {
+            "claim": "Default term is 240 months (20 years) of payments; alternative terms permitted by mutual agreement.",
+            "quote": "This Agreement shall continue, as applicable, (a) until two hundred forty (240) months of Payments for each ITO-Large Load Network Upgrade governed by this Agreement have been collected by Transmission Provider from Large Load Transmission Customer, unless the Parties mutually agree on a different term for this Agreement",
+            "verified": true
+          },
+          {
+            "claim": "One-time true-up adjustment calculated within one year of in-service date based on actual versus estimated capital costs.",
+            "quote": "A one-time true-up adjustment shall be calculated within one (1) year of the In-Service Date when the Actual ITO-Large Load Network Upgrade(s) Initial Capital Cost is known",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "20261116 LLWG Item 01b Agenda",
+        "filename": "20261116 LLWG Item 01b Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20261116%20LLWG%20Item%2001b%20Agenda795008.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large-load interconnection and integration rules shape transmission capacity available to hydro, dispatch flexibility requirements imposed on all dispatchable resources in MISO, and ride-through/stability standards that extend to synchronous resources like conventional hydro.",
+        "screened_at": "2026-11-09 22:36:01",
+        "ai_summary": "The MISO Large Load Working Group agenda for November 16, 2026 covers interconnection and operational standards applicable to large loads and generation in MISO's footprint. Key items include BPM-033 ramp requirements, PMU requirements, and ride-through requirements (LLWG-2026-3); conditional non-firm transmission service rules (LLWG-2026-5); interconnection reliability requirements including stability assessment (LLWG-2026-3); BPM-033 large-load applicability (LLWG-2026-3); reserve enhancements for large-load integration (LLWG-2026-2); and large-load forecast requirements and incentives. The working group will review MISO's response to a Large Load Show Cause Order. Meeting runs 11:00 am\u20134:30 pm ET on November 16.",
+        "hydro_read_through": "The document does not name hydropower. However, ramp requirements, ride-through standards, PMU requirements, and stability-assessment rules in BPM-033 apply to all dispatchable generation including conventional hydro, shaping their dispatch flexibility obligations and operational-compliance costs. Large-load forecasting and reserve-enhancement items touch whether MISO expects scarcity during large-load growth periods, which would drive the value and accreditation of hydro's ramping and peaking capacity. Conditional non-firm transmission service and interconnection-reliability rules constrain the transmission availability hydro plants can use for energy and ancillary-service sales.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "ops-compliance",
+          "interconnection"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Meeting date and time",
+            "quote": "November 16, 2026\n11:00 am to 4:30 pm ET / 10:00 am to 3:30 pm CT",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Jones",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chris Larson",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chris Plante",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Christine Ross",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Hemant Patil",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Joshua Schabla",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Marc Keyser",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mojtaba Sepehry",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Weiqing Jiang",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "20261116 LLWG Steering Committee Status Report",
+        "filename": "20261116 LLWG Steering Committee Status Report.pdf",
+        "url": "https://cdn.misoenergy.org/20261116%20LLWG%20Steering%20Committee%20Status%20Report795011.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a governance and meeting-administration report for MISO's Steering Committee covering scheduling changes, stakeholder governance procedures, and data-confidentiality decisions \u2014 none of which touch hydro revenue mechanisms, operating compliance, or strategic market options.",
+        "screened_at": "2026-11-09 22:36:04",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Brian Drumm",
+            "entity": "MISO",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Dan Scripps",
+            "entity": "MISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "CMWG Meeting",
@@ -2169,6 +2557,56 @@
             "entity": "PJM Interconnection LLC",
             "role": "presenter",
             "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Generation Resource Cold Weather Checklist Data Request",
+        "filename": "20261113-generation-resource-cold-weather-checklist-data-request.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/rscs/2026/20261113/20261113-generation-resource-cold-weather-checklist-data-request.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM has issued a mandatory winterization data request for all generation owners, including dispatchable resources like hydro, as an operational compliance obligation tied to Generator Operational Requirements and tariff enforcement, with a December 15, 2026 submission deadline and potential FERC referral for non-compliance.",
+        "screened_at": "2026-11-09 22:36:13",
+        "ai_summary": "PJM has issued a mandatory Generation Resource Cold Weather Checklist data request effective November 1, 2026, requiring all generation owners to submit responses no later than December 15, 2026. The request is part of PJM Manual 14-D Generator Operational Requirements, Section 7.5.2, and applies to all generation owners as a requirement for reliable operations planning and enhanced situational awareness. Non-compliance may result in referral to the FERC Office of Enforcement and is potentially actionable as a violation of the Tariff, the applicable Interconnection Service Agreement (ISA), and/or Operating Agreement section 11.3.1. Responses must be submitted through eDART web forms or TXT file upload and will be shared with Monitoring Analytics, LLC (PJM's independent market monitor) and potentially with regulators.",
+        "hydro_read_through": "The document does not specifically name hydropower or pumped storage. However, this winterization data request is mandatory for all generation owners, including conventional hydro and pumped-storage facilities as dispatchable resources subject to PJM's operational requirements. Hydro owners in the PJM territory must comply with the December 15, 2026 deadline and face potential enforcement action and tariff violations if they do not submit; winterization readiness directly affects the operational reliability obligations that hydro plants must meet year-round, and reporting compliance feeds into PJM's operational planning and the market monitor's oversight.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Mandatory data request effective November 1, 2026",
+            "quote": "PJM has issued this data request effective November 1, 2026, in accordance with PJM Manual 14-D Generator Operational Requirements, Section 7.5.2 Generation Resource Cold Weather Checklist.",
+            "verified": true
+          },
+          {
+            "claim": "Submission deadline of December 15, 2026",
+            "quote": "PJM requires that Generation Owners complete this data request no later than 23:59 EPT on December 15, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "Potential FERC enforcement referral for non-compliance",
+            "quote": "Failure to comply may result in potential referral to FERC Office of Enforcement, and is potentially actionable as a violation of the Tariff, the applicable ISA, and/or Operating Agreement section 11.3.1.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Monitoring Analytics, LLC",
+            "entity": "Monitoring Analytics, LLC",
+            "role": "independent market monitor",
+            "email": null
+          },
+          {
+            "name": "eDART survey contact",
+            "entity": "PJM",
+            "role": "contact",
+            "email": "edartgosurvey@pjm.com"
           }
         ]
       }
@@ -3029,6 +3467,77 @@
             "name": "Tom Kaslow",
             "entity": "NEPOOL",
             "role": "budget & finance subcommittee chair",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "2026-11 System and Market Operations Report",
+        "filename": "system-and-market-ops-report-november-2026.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100041/system-and-market-ops-report-november-2026.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document reports October 2026 market operations and winter 2026/2027 outlook for ISO-NE, addressing hydro's energy production, ancillary-services pricing, capacity-market parameters, and energy-adequacy assessments that directly affect hydro revenue and strategic planning.",
+        "screened_at": "2026-11-09 22:36:28",
+        "ai_summary": "ISO-NE's November 2026 System & Market Operations Report presents October 2026 market data and a 2026/2027 winter outlook for the NEPOOL Participants Committee. Hydro output in October 2026 averaged 473 MWh (8% higher month-over-month, 3% higher year-over-year). Day-Ahead Ancillary Services pricing post-implementation adjustments took effect October 22, including Forecast Energy Requirement (FER) Demand Quantity and Strike Price Adjustments. Energy Market Value in October was $412 million (down 8% month-over-month and 12% year-over-year), while Ancillary Services market value was $10 million (up 41% month-over-month but down 42% year-over-year). The winter outlook forecasts peak demand of 20,483 MW (50/50) and projects capacity margins of ~3,100 MW (50/50) for the week beginning January 9, 2027, with energy shortfall risk below the Regional Energy Shortfall Threshold (REST) criteria of 3% magnitude and 18 hours duration. Forward Capacity Market CCP 19 (2028-2029) interim RA qualification for 2026 completed October 16 with Qualified Capacities finalizing November 2, 2026. Notable transmission outages affecting interregional transfer capability are scheduled through late November 2026.",
+        "hydro_read_through": "Hydro operators should track the October performance metrics and winter capacity/energy outlook as indicators of seasonal revenue drivers. The continued measurement and reporting of hydro output (473 MWh average) reflects ISO-NE's use of hydro in the energy market and as a demand-reference resource for capacity accreditation; changes in how ancillary-services pricing is calculated (FER demand-quantity and strike-price adjustments effective October 22) may alter the ancillary-services revenue opportunity for dispatchable resources. The winter outlook's energy-adequacy assessment (shortfall analysis against REST criteria) informs resource-scarcity signals and peak-season pricing\u2014hydro's flexibility value depends partly on whether extreme-weather scenarios stress the system, and the projection of adequate capacity and energy (versus breach of REST thresholds) suggests moderate winter scarcity risk for this season. The transmission outage schedule (affecting New York\u2013New England and New Brunswick\u2013New England interchange) may constrain hydro export deliverability during peak winter weeks and should factor into forward-price and opportunity-cost considerations.",
+        "source_names_hydro": true,
+        "topics": [
+          "price-formation",
+          "ancillary-services",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Hydro output in October 2026 averaged 473 MWh",
+            "quote": "Hydro 473 8% \u2191 3% \u2191",
+            "verified": true
+          },
+          {
+            "claim": "Ancillary Services market value in October 2026 was $10 million, up 41% month-over-month but down 42% year-over-year",
+            "quote": "Ancillary Services[c] 10 41% \u2191 -42% \u2193",
+            "verified": true
+          },
+          {
+            "claim": "Energy Market Value in October 2026 was $412 million, down 8% month-over-month and 12% year-over-year",
+            "quote": "Energy Market Value[b] 412 -8% \u2193 -12% \u2193",
+            "verified": true
+          },
+          {
+            "claim": "Day-Ahead Ancillary Services post-implementation adjustments, including Forecast Energy Requirement (FER) Demand Quantity Adjustment and Strike Price Adjustment, took effect October 22",
+            "quote": "Day-Ahead Ancillary Services (DAAS) post-implementation adjustments, including the Forecast Energy Requirement (FER) Demand Quantity Adjustment and the Strike Price Adjustment, took effect with the October 22 Day-Ahead market",
+            "verified": true
+          },
+          {
+            "claim": "Lowest projected capacity margins are ~3,100 MW (50/50 forecast) for the week beginning January 9",
+            "quote": "The lowest projected capacity margins are ~3,100 MW (50/50 forecast) and ~2,100 MW (90/10 forecast), both for the week beginning January 9",
+            "verified": true
+          },
+          {
+            "claim": "REST criteria is defined as acceptable shortfall magnitude of 3% and acceptable shortfall duration of 18 hours",
+            "quote": "The REST criteria is defined as follows: \u2013 acceptable shortfall magnitude of 3% \u2013 acceptable shortfall duration of 18 hours",
+            "verified": true
+          },
+          {
+            "claim": "2026 interim RA qualification Determination Notifications issued October 16, 2026 with Qualified Capacities finalized November 2, 2026",
+            "quote": "Qualification Determination Notifications were issued on October 16, 2026 and Qualified Capacities will be finalized on November 2, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "50/50 winter peak demand forecast is 20,483 MW, approximately 112 MW (0.6%) higher than 2025/26 forecast",
+            "quote": "50/50 winter peak demand forecast of 20,483 MW, which is ~112 MW (~0.6%) higher than the 2025/26 forecast",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Stephen M. George",
+            "entity": "ISO-NE",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -4118,6 +4627,57 @@
         ],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "03 Operations Report - October 2026",
+        "filename": "03_Operations_Report_202610_v1.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59409436/03_Operations_Report_202610_v1.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO operational report showing monthly performance data including hydro generation, capacity unavailability, and transmission congestion patterns relevant to hydro revenue streams and operational constraints.",
+        "screened_at": "2026-11-09 22:36:38",
+        "ai_summary": "NYISO's October 2026 Operations Performance Metrics report provides monthly operational and market performance data. The report identifies hydro nameplate capacity at 6,324 MW (including pumped storage hydro, per the note) and tracks hydro capacity unavailable in the day-ahead market reaching monthly maximum levels shown in Figure 11. Net load ramp analysis and forecasting performance metrics quantify the variability hydro typically supplies; October wind production averaged 583 MWh with 26% capacity factor, FTM solar 127 MWh at 20% capacity factor. Congestion residual costs and uplift allocations are shown monthly through October 2026. The report identifies Lake Erie circulation patterns and desired net interchange (DNI) trends affecting regional transfer capability. No policy changes, rule proposals, or next-step actions are presented\u2014this is a retrospective operational snapshot.",
+        "hydro_read_through": "While this report does not discuss hydro-specific market rules or revenue mechanisms, it establishes operational performance baselines for a fleet member to benchmark their own dispatch, availability, and the ramp-provision value they are providing. The inclusion of hydro nameplate and monthly capacity-unavailable data against wind and solar shows how hydro's dispatchability is being tracked relative to intermittent resources; owners should monitor whether planned unavailability or forced outages are correlating with high-ramp or high-congestion months. The Lake Erie circulation and DNI ramp-limit events (Oct 1, 13, 17, 19) identify transmission constraints that hydraulic dispatch would need to address; repeated DNI ramp limits in fall months signal potential revenue opportunity from flexible ramping when the system faces net-load volatility.",
+        "source_names_hydro": true,
+        "topics": [
+          "ops-compliance",
+          "transmission",
+          "ramping-flexibility"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "Hydro nameplate capacity 6,324 MW",
+            "quote": "Hydro, 6,324 MW",
+            "verified": true
+          },
+          {
+            "claim": "October wind production 583 MWh with 26% capacity factor",
+            "quote": "| Wind | 491 | 730 | 828 | 812 | 498 | 700 | 632 | 624 | 472 | 420 | 311 | 350 | 583 |\n| Wind Capacity Factor | 23% | 35% | 39% | 38% | 26% | 33% | 31% | 28% | 22% | 19% | 14% | 16% | 26% |",
+            "verified": false
+          },
+          {
+            "claim": "FTM solar production 127 MWh with 20% capacity factor",
+            "quote": "| FTM Solar | 73 | 35 | 26 | 25 | 41 | 70 | 89 | 107 | 126 | 122 | 117 | 112 | 127 |\n| FTM Solar Capacity Factor | 17% | 9% | 6% | 6% | 11% | 17% | 22% | 25% | 31% | 29% | 28% | 18% | 20% |",
+            "verified": false
+          },
+          {
+            "claim": "Hydro includes pumped storage hydro",
+            "quote": "Note:\nHydroincudes pumped storage hydro",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "NYISO Operations Analysis and Services",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -4134,7 +4694,116 @@
     "meeting_hydro_reason": "MISO System Planning Committee meetings address transmission expansion, resource adequacy, seasonal energy studies, and interregional transfer capability that directly affect hydro asset value, deliverability, and strategic positioning in a multi-RTO footprint.",
     "meeting_screened_at": "2026-10-27 17:15:53",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "20261112 System Planning Committee of the BOD Item 02 Agenda.pdf",
+        "filename": "20261112 System Planning Committee of the BOD Item 02 Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20261112%20System%20Planning%20Committee%20of%20the%20BOD%20Item%2002%20Agenda794878.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MTEP26 (MISO Transmission Expansion Plan) review affects hydro strategic options: transmission-planning outcomes determine interregional transfer capability, deliverability of hydro exports, and non-wires alternatives that may compete with or complement hydro resources.",
+        "screened_at": "2026-11-09 22:36:43",
+        "ai_summary": "The System Planning Committee will review MISO's 2026 Transmission Expansion Plan (MTEP26), including results summary, stakeholder feedback, and public comments, with a recommendation for full Board approval. The agenda is dated November 12, 2026; no vote date or comment deadline is stated in this agenda document.",
+        "hydro_read_through": "MTEP26 approval shapes MISO's transmission investment roadmap. For hydro owners, especially those exporting across seams, the plan's outcome determines interregional transfer limits, which directly affect the scarcity premium and energy revenue available at export nodes. Transmission constraints or congestion management rules embedded in the final plan also influence whether run-of-river and seasonal hydro can deliver firm capacity to served load.",
+        "source_names_hydro": false,
+        "topics": [
+          "transmission",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Aubrey Johnson",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Laura Rauch",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261112 System Planning Committee of the BOD Item 04 2026 Work Plan.pdf",
+        "filename": "20261112 System Planning Committee of the BOD Item 04 2026 Work Plan.pdf",
+        "url": "https://cdn.misoenergy.org/20261112%20System%20Planning%20Committee%20of%20the%20BOD%20Item%2004%202026%20Work%20Plan794877.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a calendar and schedule of MISO System Planning Committee meetings for 2026, with no substantive content about hydro revenue streams, obligations, or strategic options; it names agenda topics (MTEP, resource adequacy, interconnection queue) that matter to hydro, but the document itself contains only dates, times, and locations\u2014no policy, rule, or finding that would affect a hydro owner's decisions.",
+        "screened_at": "2026-11-09 22:36:46",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "20261112 System Planning Committee of the BOD Item 03 MTEP26 Update and Substantive Comments Review.pdf",
+        "filename": "20261112 System Planning Committee of the BOD Item 03 MTEP26 Update and Substantive Comments Review.pdf",
+        "url": "https://cdn.misoenergy.org/20261112%20System%20Planning%20Committee%20of%20the%20BOD%20Item%2003%20MTEP26%20Update%20and%20Substantive%20Comments%20Review794876.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MTEP26 transmission expansion planning directly affects deliverability and interregional transfer capability for hydro resources, and establishes precedent for cost assignment to large loads that compete with hydro's scarcity-value revenue.",
+        "screened_at": "2026-11-09 22:36:57",
+        "ai_summary": "MISO's 2026 Transmission Expansion Plan (MTEP26) comprises 532 projects totaling $14.7 billion, with 54% of investment ($7.956 billion across 79 large-load-related projects) driven by 26.6 GW of approved large load additions expected in service by 2030. The plan responds to FERC's June 2026 Section 206 show cause order requiring MISO to ensure large loads bear their own transmission costs through pro forma agreements and a transparency dashboard. Stakeholder feedback addressed affordability, cost shifting, and alternatives assessment; MISO confirmed that large load arrangements provide direct responsibility for associated transmission investment or other rate-protection mechanisms. The Planning Advisory Committee will vote on recommending MTEP26 to the Board of Directors; full Board approval is scheduled for December 3, 2026.",
+        "hydro_read_through": "This document does not mention hydropower directly; it addresses transmission expansion and cost allocation for large-load interconnection. Massive load growth (26.6 GW) and the transmission build it requires will reshape MISO's scarcity conditions and thereby affect spot-energy pricing and the value of hydro's flexibility and ramping services across a larger, more load-concentrated footprint. The pro forma cost-allocation framework\u2014ensuring large loads pay for their own network upgrades\u2014is strategically important for hydro owners competing against those loads: if cost-shifting were permitted, new loads would artificially suppress the locational scarcity signals that drive hydro's real-time energy and ancillary-services revenue. The interregional planning enhancements with SPP also matter for hydro's deliverability and reserve-sharing arrangements at seams.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "transmission",
+          "interconnection"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "MTEP26 comprises 532 projects totaling $14.7 billion",
+            "quote": "MISO and its stakeholders are recommending 532 projects for MTEP26 approval, enabling continued reliability, generation interconnection and new load\nInvestment Summary Subregional Highlights\n$14.7 billion\ntotal cost",
+            "verified": true
+          },
+          {
+            "claim": "54% of investment driven by large load integration",
+            "quote": "Investment\n54% Related Investment for\nto Large Loads",
+            "verified": false
+          },
+          {
+            "claim": "26.6 GW of large load additions approved",
+            "quote": "MTEP26 consists of transmission to facilitate the reliable interconnection of about\n26 GW of large load additions",
+            "verified": true
+          },
+          {
+            "claim": "Large loads expected in service between now and 2030",
+            "quote": "Approved additions are expected to be in\nservice between now and 2030",
+            "verified": false
+          },
+          {
+            "claim": "FERC June 2026 Section 206 show cause order",
+            "quote": "Follows requirements of FERC's June 2026\nSection 206 show cause order",
+            "verified": false
+          },
+          {
+            "claim": "Board approval scheduled December 3, 2026",
+            "quote": "Dec. 3\nFull BOD\nApproval",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Reliability Subcommittee (RSC) - November 12, 2026",
@@ -6406,6 +7075,77 @@
             "name": "Stephanie Dobert",
             "entity": "NYISO",
             "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "4 Market Operations Report - October 2026",
+        "filename": "Market%20Operations%20Report.BIC_11.10.26.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59606410/Market%20Operations%20Report.BIC_11.10.26.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Monthly operational metrics on energy and ancillary-service pricing, uplift costs, and dispatch patterns that directly affect hydro revenue streams and market-clearing mechanics.",
+        "screened_at": "2026-11-09 22:37:12",
+        "ai_summary": "NYISO Market Operations Report for October 2026 presented to the Business Issues Committee on November 10, 2026. October 2026 LBMP averaged $44.25/MWh (load-weighted day-ahead) compared to $45.01/MWh in September and $47.40/MWh in October 2025. Year-to-date monthly average cost through October 2026 was $83.04/MWh, a 17% increase from $70.97/MWh in October 2025. Daily energy send-out averaged 354 GWh/day in October, lower than 401 GWh/day in September 2026. Uplift (excluding NYISO cost of operations) was $(0.32)/MWh in October versus $(0.16)/MWh in September. Ancillary service prices for 10-minute spinning reserve, non-synchronous reserve, 30-minute operating reserve, and regulation are reported across all NYISO zones (West, East, SENY, NYC, Long Island) and across day-ahead, real-time commitment, and real-time market intervals, with October DAM regulation averaging $33.66/MWh and RTC regulation at $19.00/MWh. The report includes zonal LBMP component analysis (energy, losses, congestion) and external comparison pricing with ISO-NE, PJM, Ontario IESO, and controllable external lines (Cross Sound Cable, Northport-Norwalk, Neptune, Linden VFT, Hudson VFT, Hydro-Quebec interconnections).",
+        "hydro_read_through": "Hydro operators in NYISO depend on real-time energy pricing, uplift mechanisms (particularly local and statewide reliability shares for out-of-merit dispatch), and ancillary-service compensation\u2014especially regulation, spinning reserve, and operating-reserve markets where flexible hydro is a canonical supplier. The month-to-month and year-over-year price trends shown here (lower October LBMP vs. prior year, but year-to-date cost elevated) and the uplift recovery patterns reflect conditions that constrain or support hydro revenue depending on load, transmission congestion, and competing resources. Ancillary-service prices varying by zone and market interval indicate where dispatch opportunity exists; regulation prices in particular (ranging from $13.56\u2013$33.66/MWh DAM in October across zones) directly affect run-of-river and storage facility bid strategy and revenue realization. Cross-border pricing and external line flows (Hydro-Quebec, PJM, ISO-NE) matter to Northwest-to-NYISO hydro exporters and to pumped-storage operators managing state-of-charge and opportunity-cost positioning.",
+        "source_names_hydro": true,
+        "topics": [
+          "price-formation",
+          "ancillary-services",
+          "mitigation-offers"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "October 2026 LBMP (load-weighted day-ahead) $44.25/MWh",
+            "quote": "LBMP for October is $44.25/MWh; lower than $45.01/MWh in September 2026 and lower than $47.40/MWh in October 2025.",
+            "verified": true
+          },
+          {
+            "claim": "October 2025 LBMP $47.40/MWh",
+            "quote": "lower than $47.40/MWh in October 2025",
+            "verified": true
+          },
+          {
+            "claim": "Year-to-date monthly average cost through October 2026 $83.04/MWh (17% increase from October 2025)",
+            "quote": "October 2026 average year-to-date monthly cost of $83.04/MWh is a 17% increase from $70.97/MWh in October 2025.",
+            "verified": true
+          },
+          {
+            "claim": "Daily send-out October 2026 354 GWh/day",
+            "quote": "Average daily send-out is 354 GWh/day in October; lower than 401 GWh/day in September 2026 and lower than 359 GWh/day in October 2025.",
+            "verified": true
+          },
+          {
+            "claim": "Uplift October 2026 $(0.32)/MWh",
+            "quote": "Uplift (not including NYISO cost of operations) is $(0.32)/MWh, lower than $(0.16)/MWh in September.",
+            "verified": true
+          },
+          {
+            "claim": "October 2026 regulation average DAM $33.66/MWh",
+            "quote": "Regulation 66.35 28.97 14.06 13.48 17.03 13.70 23.54 13.52 13.56 33.66",
+            "verified": true
+          },
+          {
+            "claim": "October 2026 regulation average RTC $19.00/MWh",
+            "quote": "Regulation 37.81 26.00 17.50 13.92 14.11 15.08 19.84 13.34 12.32 19.00",
+            "verified": true
+          },
+          {
+            "claim": "Meeting date November 10, 2026",
+            "quote": "Business Issues Committee Meeting: November 10, 2026, Rensselaer, NY",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Shaun Johnson",
+            "entity": "NYISO",
+            "role": "author",
             "email": null
           }
         ]
@@ -10483,8 +11223,105 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "EDAM congestion-revenue allocation directly affects hydro export value, transmission-constrained dispatch economics, and locational price signals that shape hydro bidding strategy and revenue across Western markets where NHA members operate.",
     "meeting_screened_at": "2026-10-25 15:38:17",
-    "issues": [],
-    "documents": []
+    "issues": [
+      {
+        "rto": "CAISO",
+        "native_id": "b009c20b-d59e-421d-ba8b-1c8de230d32a",
+        "canonical_name": "Extended day-ahead market - congestion revenue allocation",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market-congestion-revenue-allocation"
+      }
+    ],
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Presentation - Extended Day-Ahead Market Congestion Revenue Allocation Phase 2 - Nov 9, 2026",
+        "filename": "Presentation-Extended-Day-Ahead-Market-Congestion-Revenue-Allocation-Phase-2-Nov-9-2026.pdf",
+        "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Presentation-Extended-Day-Ahead-Market-Congestion-Revenue-Allocation-Phase-2-Nov-9-2026.pdf",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "CRA Phase 2 directly governs how congestion revenues are allocated between CAISO CRRs and EDAM OATT transmission rights\u2014a foundational mechanism affecting hydropower's ability to hedge transmission congestion costs and realize the value of transmission-dependent revenue sources.",
+        "screened_at": "2026-11-09 22:37:24",
+        "ai_summary": "CAISO's Extended Day-Ahead Market Congestion Revenue Allocation Phase 2 initiative proposes a common Simultaneous Feasibility Test (SFT) to allocate congestion revenues to both CAISO Congestion Revenue Rights (CRRs) and eligible EDAM firm point-to-point and network integration transmission service (OATT) rights based on their effectiveness on constraints across the EDAM footprint. The working group met November 9, 2026, to discuss design principles, eligible transmission rights (long-term firm PTP/NITS, monthly firm, and conditional firm), CAISO CRR modeling comparability, and SFT tiered structures. Stakeholder comments submitted by November 30, 2026, will inform the next working group meeting in December, with simulated SFT results targeted for a January meeting. The initiative will pilot indicative (non-binding) voting at key decision points: end of working group phase (prior to Q1 2027 straw proposal), straw-to-draft transition, draft-to-final transition, and final-to-Governing-Body recommendation.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage directly. However, CRRs and firm transmission rights are the primary hedging instruments for transmission-constrained hydro facilities, and this redesign of congestion-revenue allocation will determine whether and how much congestion-cost protection those rights provide. Hydropower operators depend on firm transmission reservations and CRR allocations to lock in a hedge value for generation at capacity-constrained locations; under Concept #3, that hedge value will be determined by the SFT's modeling of parallel flows and constraint effectiveness across the EDAM footprint rather than by day-ahead market LMP differentials alone. The inclusion of conditional-firm transmission rights and the treatment of wheels-through and exports in the SFT will also affect how much CRR feasibility remains available for load-serving entities holding hydro resources.",
+        "source_names_hydro": false,
+        "topics": [
+          "transmission",
+          "price-formation",
+          "seams-governance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Stakeholder comments submitted by November 30, 2026",
+            "quote": "Stakeholder comments to this workshop are requested by November 30, 2026.",
+            "verified": true
+          },
+          {
+            "claim": "Next working group meeting in December",
+            "quote": "Next working group, informed by stakeholder comments, will be arranged in December.",
+            "verified": true
+          },
+          {
+            "claim": "Simulated SFT results targeted for January meeting",
+            "quote": "Results are targeted for potentially a January working group meeting",
+            "verified": true
+          },
+          {
+            "claim": "Indicative voting at end of working group phase prior to Q1 2027 straw proposal",
+            "quote": "The first vote will occur at the end of the working group phase, prior to the straw proposal in Q1 2027.",
+            "verified": true
+          },
+          {
+            "claim": "Additional votes at straw-to-draft, draft-to-final, and final-to-Governing-Body transitions",
+            "quote": "Additional votes will occur: \u2022 Vote to recommend moving from Straw proposal to Draft Final Proposal \u2022 Vote to recommend moving from Draft Final Proposal to Final Proposal \u2022 Vote to recommend taking Final Proposal to the WEM Governing Body for approval",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "CAISO",
+            "native_id": "b009c20b-d59e-421d-ba8b-1c8de230d32a",
+            "canonical_name": "Extended day-ahead market - congestion revenue allocation",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/Extended-day-ahead-market-congestion-revenue-allocation"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Allie Mace",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Christina Guimera",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Milos Bosanac",
+            "entity": "CAISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Idaho Power",
+            "entity": "Idaho Power",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Comments due - FERC 881 Implementation Discussion with RC West TOP",
@@ -13241,7 +14078,68 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The Public Utility Commission of Texas (PUCT) is a state retail-regulatory body that does not address wholesale market design, RTF participation rules, ancillary services, capacity mechanisms, or other wholesale mechanisms relevant to hydropower revenue, obligations, or strategic options; ERCOT wholesale market design is addressed through different governance channels (ERCOT Board, stakeholder committees) rather than PUCT meetings.",
     "meeting_screened_at": "2026-10-20 16:34:57",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1214",
+        "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
+        "status": "Approved on 11/05/2026",
+        "stakeholder_phase": "PUCT for consideration",
+        "committee_owner": "PUCT",
+        "is_open": 0,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1301",
+        "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
+        "status": "Approved on 11/05/2026",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "PUCT",
+        "is_open": 0,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1328",
+        "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
+        "status": "Approved on 11/05/2026",
+        "stakeholder_phase": "PUCT for consideration",
+        "committee_owner": "PUCT",
+        "is_open": 0,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1335",
+        "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
+        "status": "Approved on 11/05/2026",
+        "stakeholder_phase": "PUCT for consideration",
+        "committee_owner": "PUCT",
+        "is_open": 0,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1338",
+        "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
+        "status": "Approved on 11/05/2026",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "PUCT",
+        "is_open": 0,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "NPRR1339",
+        "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
+        "status": "Approved on 11/05/2026",
+        "stakeholder_phase": "Revision Request Consideration",
+        "committee_owner": "PUCT",
+        "is_open": 0,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
+      }
+    ],
     "documents": []
   },
   {
@@ -23351,6 +24249,35 @@
             "name": "Tayler Amatto",
             "entity": "Charles River Associates",
             "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Recording Of Charles River Associates Review Forecast Methodology \u2013 Post Meeting",
+        "filename": "20261102-recording-of-charles-river-associates-review-forecast-methodology---post-meeting.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261102/20261102-recording-of-charles-river-associates-review-forecast-methodology---post-meeting.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Data-center load-forecasting methodology directly affects PJM's resource-adequacy constructs and scarcity signals that determine hydro revenue from energy pricing and capacity markets; this touches load-growth strategic option and capacity-market design.",
+        "screened_at": "2026-11-09 22:37:30",
+        "ai_summary": "PJM's Load Analysis Subcommittee reviewed Charles River Associates' methodology for forecasting data-center loads on November 2, 2026. The document is a recording link and cover page only; no substantive methodology, findings, timeline, or next steps are included in the text excerpt provided.",
+        "hydro_read_through": "The document does not name hydro or storage resources. However, data-center load-forecasting methodology feeds directly into PJM's resource-adequacy and seasonal-energy studies, which determine whether scarcity conditions emerge and thereby set the marginal value of hydro's flexibility and energy; forecasting errors in large-load growth can shift the timing and magnitude of capacity-market payments and energy price uplift that hydro revenues depend on. The scope and accuracy of data-center projections will influence whether PJM concludes additional capacity or ramping services are needed, which shapes procurement signals hydro owners see.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Charles River Associates",
+            "entity": "Charles River Associates",
+            "role": "presenter",
             "email": null
           }
         ]
@@ -35534,17 +36461,45 @@
         "url": "https://www.nyiso.com/documents/20142/59483202/Multiple%20Intervenors%20Statement%20at%20the%20MC%20Meeting%20on%20October%2028,%202026%204928-0179-4268%20v.1.pdf",
         "member_url": null,
         "posted_date": "2026-10-30",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
-        "evidence": [],
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FERC compliance filing on large and co-located load definitions affects hydro's strategic options for behind-the-meter arrangements and load-co-location participation, and sets precedent for how RTOs handle dispatchable and storage resources serving large loads.",
+        "screened_at": "2026-11-09 22:37:39",
+        "ai_summary": "Multiple Intervenors, representing approximately 55 large industrial, commercial, and institutional energy consumers in New York, submitted a statement to NYISO's Management Committee on October 28, 2026, supporting NYISO's proposed compliance filing responding to a FERC Show Cause Order on Large and Co-Located Loads. The statement, delivered by counsel Amanda De Vito Trinsey on behalf of Multiple Intervenors, endorses NYISO's elimination of the Sizeable Load category, removal of the BOLT concept, addition of the Computational Large Load definition, and avoidance of new requirements on existing customers absent significant expansions or load-type changes. Multiple Intervenors expressed residual concerns about operational and performance requirements that may impede economic development for new Large Load C&I facilities, the adequacy of cost-allocation framework review by stakeholders, and grandfathering treatment for projects in development.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage directly. However, FERC's Show Cause Order and NYISO's response on co-located loads reshape the rules under which hydro or PSH facilities could serve large loads behind the meter or as adjacent resources. The definitions and requirements NYISO establishes for Large Loads and Computational Large Loads\u2014such as operational standards, firm-withdrawal thresholds, and supply-contracting obligations\u2014will constrain which hydro assets can participate in co-location arrangements and what obligations they face if they do, directly affecting a strategic option for hydro owners seeking revenue beyond wholesale-market participation.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "interconnection",
+          "ferc-policy"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Multiple Intervenors statement at NYISO Management Committee on October 28, 2026",
+            "quote": "On October 28, 2026, Multiple Intervenors, an unincorporated association of approximately 55 large industrial, commercial, and institutional energy consumers with manufacturing and other facilities located throughout New York, made a statement at the NYISO's Management Committee (\"MC\") meeting",
+            "verified": true
+          },
+          {
+            "claim": "NYISO eliminated Sizeable Load category, removed BOLT concept, and added Computational Large Load definition",
+            "quote": "NYISO's decision to eliminate the proposed Sizeable Load category, remove the BOLT concept, add the Computational Large Load definition",
+            "verified": true
+          }
+        ],
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Amanda De Vito Trinsey",
+            "entity": "Couch White, LLP",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Kirk Dixon",
+            "entity": "NYISO",
+            "role": "contact",
+            "email": "kdixon@nyiso.com"
+          }
+        ]
       }
     ]
   },
@@ -37340,7 +38295,7 @@
     "date": "2026-10-27",
     "time": "1:30 PM",
     "rto": "ISO-NE",
-    "committee": "Markets Committee",
+    "committee": "Transmission Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=165065",
     "materials_url": null,
@@ -38284,15 +39239,40 @@
         "url": "https://www.iso-ne.com/static-assets/documents/100040/a02b_tc_rc_mc_large_load_nepga_presentation.pdf",
         "member_url": null,
         "posted_date": "2026-10-26",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
-        "evidence": [],
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "ISO-NE's proposal to curtail large loads at a price trigger directly affects revenue from scarcity pricing and high-price periods; the price threshold and seasonal adjustments implicate price formation and the market signals available to all generators, including hydro during extreme conditions.",
+        "screened_at": "2026-11-09 22:37:49",
+        "ai_summary": "ISO-NE proposes to curtail large loads interconnected through Interim or Non-Firm Contract Demand Service when the Locational Marginal Price exceeds $250/MWh in Day-Ahead and Real-Time Energy Markets as part of compliance with FERC Docket No. EL26-47. NEPGA opposes the $250/MWh threshold and proposes instead Seasonal Large Load Re-Dispatch Prices of $350/MWh (Summer) and $500/MWh (Winter), supported by supply-stack data showing significant generator offers above those thresholds during extreme-day peak hours. NEPGA also offers an alternative: delay the curtailment-threshold specification beyond ISO-NE's November 16 compliance filing to allow more thorough design consideration. Jurisdictional questions remain under review.",
+        "hydro_read_through": "Although this document does not mention hydropower, it directly governs high-price revenue in ISO-NE. A $250/MWh curtailment trigger would cut into the highest-revenue hours when marginal generation costs are highest\u2014precisely when a hydro unit's economic scarcity value materializes. The competing thresholds ($350\u2013$500/MWh) and the alternative to leave the trigger undefined until after a compliance filing both extend or compress the window in which hydro energy earns premium prices during stress events. The supply-stack analysis showing abundant generation above both thresholds supports the argument that curtailment at $250/MWh risks suppressing scarcity signals that would otherwise reward flexible generation.",
+        "source_names_hydro": false,
+        "topics": [
+          "price-formation",
+          "load-growth",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "ISO-NE proposes curtailment trigger at $250/MWh when LMP exceeds that level in Day-Ahead and Real-Time Energy Markets",
+            "quote": "proposes to curtail Large Loads interconnected through Interim or Non-Firm Contract Demand Service (NFCDS) when the Locational Marginal Price exceeds $250/MWh in the Day-Ahead and Real-Time Energy Markets",
+            "verified": true
+          },
+          {
+            "claim": "NEPGA proposes Seasonal Large Load Re-Dispatch Prices of $350/MWh (Summer) and $500/MWh (Winter)",
+            "quote": "Seasonal Large Load Re-Dispatch Prices set at $350/MWh (Summer) and $500/MWh (Winter)",
+            "verified": true
+          },
+          {
+            "claim": "NEPGA's alternative proposes no discrete trigger be filed in compliance filing, deferring decision to after November 16 date",
+            "quote": "no discrete trigger filed in compliance filing",
+            "verified": true
+          },
+          {
+            "claim": "FERC Docket No. EL26-47 is the underlying show-cause order on large and co-located load interconnections",
+            "quote": "Federal Energy Regulatory Commission's Show Cause Order on Large and Co-Located Load Interconnections (Docket No. EL26-47)",
+            "verified": true
+          }
+        ],
         "issues": [
           {
             "rto": "ISO-NE",
@@ -38305,7 +39285,14 @@
             "url": "https://www.iso-ne.com/committees/key-projects/large-loads-integration-key-project"
           }
         ],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Bruce Anderson",
+            "entity": "ISO New England Inc.",
+            "role": "author",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -38903,12 +39890,12 @@
         "url": "https://cdn.misoenergy.org/20261027%20MBB%20Workshop%20Recording791609.mp4",
         "member_url": null,
         "posted_date": "2026-10-27",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a video recording of a MISO Ballot Box Workshop with no extractable text content; machine extraction yielded no substantive material on price formation, ancillary services, capacity accreditation, storage participation, interconnection, transmission, resource adequacy, water/hydrology, or other hydro-relevant market-design topics.",
+        "screened_at": "2026-11-09 22:37:51",
         "ai_summary": null,
         "hydro_read_through": null,
-        "source_names_hydro": null,
+        "source_names_hydro": false,
         "topics": [],
         "directness": null,
         "evidence": [],
@@ -41826,17 +42813,46 @@
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20261022-special/minutes-20261022.pdf",
         "member_url": null,
         "posted_date": "2026-11-05",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Black start service is an ancillary service that hydro and PSH units are often required to provide or can be strategically accredited to supply, making this RFP discussion relevant to hydro participation models and compliance obligations in PJM.",
+        "screened_at": "2026-11-09 22:37:58",
+        "ai_summary": "PJM held a special Operating Committee session on October 22, 2026, to provide education on the 2026 Black Start Reliability Backstop RFP. Ray Lee and Madalin How from PJM led a presentation followed by Q&A. The document is a meeting-minutes record of attendees and administrative details; substantive content on the RFP design, qualification criteria, or procurement parameters is not included in this extract.",
+        "hydro_read_through": "Black start capability is a reliability service that synchronous generation\u2014including conventional hydropower and some pumped-storage facilities\u2014can be called upon to provide during system restoration events. This RFP signals PJM's need for black-start capacity and may establish terms under which hydro owners can bid or be obligated to participate in that service. The minutes do not disclose the RFP mechanics or payment terms, but the existence of a dedicated backstop procurement indicates an active market-design element affecting hydro's service obligations and potential revenue streams.",
+        "source_names_hydro": false,
+        "topics": [
+          "ancillary-services",
+          "capacity-ra",
+          "ops-compliance"
+        ],
+        "directness": "direct",
         "evidence": [],
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "J. Warner-Freeman",
+            "entity": "PJM Interconnection",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Lauren Strella Wahba",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Madalin How",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ray Lee",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -41999,17 +43015,48 @@
         "url": "https://www.iso-ne.com/static-assets/documents/100041/2026_10_22_pac_meeting_minute.pdf",
         "member_url": null,
         "posted_date": "2026-11-02",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is meeting minutes recording only the attendance list, transmission-infrastructure asset-management projects, and procedural planning-process updates; none of these topics touch hydro or PSH revenue streams, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-09 22:38:36",
         "ai_summary": null,
         "hydro_read_through": null,
-        "source_names_hydro": null,
+        "source_names_hydro": false,
         "topics": [],
         "directness": null,
         "evidence": [],
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "M. Saravanan",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "R. Kornitsky",
+            "entity": "ISO New England",
+            "role": "secretary",
+            "email": null
+          },
+          {
+            "name": "S. Abhyankar",
+            "entity": "ISO New England",
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "S. Judd",
+            "entity": "ISO New England",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Rafael Panos",
+            "entity": "National Grid",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -43317,17 +44364,53 @@
         "url": "https://www.caiso.com/documents/comments-six-cities-joint-market-seams-workshop-oct-22-2026.pdf",
         "member_url": null,
         "posted_date": "2026-11-06",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
-        "evidence": [],
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Market seams governance between CAISO and SPP, and how cross-market coordination of congestion management and curtailment processes affect market results in EDAM and WEIM \u2014 a strategic option for hydro owners choosing between market participation frameworks.",
+        "screened_at": "2026-11-09 22:38:06",
+        "ai_summary": "Six Cities (Anaheim, Azusa, Banning, Colton, Pasadena, Riverside, California) submitted stakeholder comments on the October 22, 2026 CAISO Market Seams Workshop, focused on the Western Loading Relief (WLR) process and Enhanced Curtailment Calculator (ECC) discussed in the CAISO-SPP Joint Report filed in FERC Docket No. AD26-10. The Six Cities reiterate their prior request for additional stakeholder discussion on how WLR and ECC deployment would affect CAISO market results, particularly in the Extended Day-Ahead Market and Western Energy Imbalance Market, and on congestion management at CAISO-SPP market interfaces. Comments were submitted by November 5, 2026.",
+        "hydro_read_through": "This document does not address hydropower or pumped storage directly. However, it flags market-seams governance and cross-market congestion coordination between CAISO and SPP as an active policy issue; how WLR and ECC are implemented affects the locational scarcity signals and congestion pricing that shape hydro revenue and delivery capability across WEIM and potential future EDAM participation, which is a critical strategic choice for NHA members operating in the Western region.",
+        "source_names_hydro": false,
+        "topics": [
+          "seams-governance"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "Joint Market Seams Workshop held October 22, 2026",
+            "quote": "Joint Market Seams Workshop that was held on October 22, 2026",
+            "verified": true
+          },
+          {
+            "claim": "CAISO-SPP Joint Report filed in FERC Docket No. AD26-10",
+            "quote": "CAISO-SPP Joint Report to the Federal Energy Regulatory Commission (\"FERC\") filed in Docket No. AD26-10",
+            "verified": true
+          },
+          {
+            "claim": "Comments submitted by November 5, 2026",
+            "quote": "Submissions are requested by close of business on November 5, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Submitted on 11.5.2026",
+            "quote": "Date Submitted 11.5.2026",
+            "verified": false
+          }
+        ],
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Bonnie Blair",
+            "entity": "Thompson Coburn LLP",
+            "role": "co-author",
+            "email": "bblair@thompsoncoburn.com"
+          },
+          {
+            "name": "Meg McNaul",
+            "entity": "Thompson Coburn LLP",
+            "role": "author",
+            "email": "mmcnaul@thompsoncoburn.com"
+          }
+        ]
       },
       {
         "type": "comment",
@@ -43336,17 +44419,50 @@
         "url": "https://www.caiso.com/documents/comments-portland-general-electric-joint-market-seams-workshop-oct-22-2026.pdf",
         "member_url": null,
         "posted_date": "2026-11-06",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
-        "evidence": [],
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Market seams coordination between CAISO and SPP directly affects transmission service priorities, tag curtailment mechanics, and redispatch procedures that determine how hydro and storage facilities can export energy and realize revenue across seams; Western-interconnection hydro exporters depend on these transmission-service and market-interaction rules.",
+        "screened_at": "2026-11-09 22:38:17",
+        "ai_summary": "Portland General Electric submitted comments on the October 22, 2026 CAISO\u2013SPP Joint Market Seams Workshop addressing the Western Interconnection Loading Relief (WLR) process and Enhanced Curtailment Calculator (ECC). PGE requests additional technical detail and worked examples on: transmission-service priorities and E-Tag Service Requests (ETSRs) across multiple transmission-provider legs; Total Transfer Capability reductions and replacement schedules; the interaction between WLR, market optimization, reliability directives, and transmission derates; dynamic-schedule functionality in the ECC; treatment of untagged real-time schedules when TTC is reduced; and an integrated testing plan with scenarios, participants, and operational-readiness criteria. PGE recommends that subsequent 2027 quarterly workshops emphasize end-to-end operational scenarios, failure and edge cases, direct participation by reliability coordinators and transmission-service providers, smaller technical working sessions, a published testing roadmap with results, and a public issues-and-resolution tracker. Comments are due by close of business on November 5, 2026.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage directly. However, Western hydro exporters depend on tag curtailment and transmission-service administration to access export paths, and the WLR and ECC mechanisms PGE is scrutinizing will determine how transmission relief obligations interact with market redispatch and which generation gets curtailed when relief is ordered. PGE's detailed questions about transmission priorities, tag mechanics, dynamic-transfer treatment, and the sequence of RC directives versus market solutions touch the operational foundation for hydro's out-of-region revenue and the predictability of its transmission access. How these seams processes are implemented\u2014and whether replacement or redispatch schedules can undermine the priority of tagged export paths\u2014materially affects the realized value of transmission service for any hydro facility exporting across the CAISO\u2013SPP seam.",
+        "source_names_hydro": false,
+        "topics": [
+          "seams-governance",
+          "transmission",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Comments due by close of business on November 5, 2026",
+            "quote": "Submissions are requested by close of business on November 5, 2026",
+            "verified": true
+          },
+          {
+            "claim": "October 22, 2026 Joint Market Seams Workshop held",
+            "quote": "This template has been created for submission of stakeholder comments on the Market Seams Workshop that was held on Oct 22, 2026",
+            "verified": true
+          },
+          {
+            "claim": "PGE requests continued quarterly workshops in 2027",
+            "quote": "The October 22 materials indicate that the organizations anticipate continuing the workshops quarterly with hybrid participation",
+            "verified": true
+          }
+        ],
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Kalia Savage",
+            "entity": "Portland General Electric",
+            "role": "author",
+            "email": "503-464-7432"
+          },
+          {
+            "name": "Sanman Rokade",
+            "entity": "Portland General Electric",
+            "role": "contact",
+            "email": null
+          }
+        ]
       },
       {
         "type": "comment",
@@ -43355,17 +44471,44 @@
         "url": "https://www.caiso.com/documents/comments-pacificorp-joint-market-seams-workshop-oct-22-2026.pdf",
         "member_url": null,
         "posted_date": "2026-11-06",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
-        "evidence": [],
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Market seams governance and interregional coordination rules directly affect hydro exports, transmission use, and intertemporal settlement across CAISO, SPP, and Western markets where hydro fleet participates.",
+        "screened_at": "2026-11-09 22:38:24",
+        "ai_summary": "PacifiCorp submitted comments on CAISO's Joint Market Seams Workshop held October 22, 2026, addressing the Western Loading Relief (WLR) process. PacifiCorp supports the framework for managing jointly impacted constraints and encourages CAISO and SPP to detail export priority treatment, schedule interactions across market timelines, transmission use for wheeling transactions, and redispatch-cost allocation in future workshops toward a late 2027 target. The submission requests practical examples of how high-priority and uncommitted exports function under stressed conditions, how neighboring market schedule adjustments interact, and how transmission rights and tagging affect cross-market transactions.",
+        "hydro_read_through": "The document does not mention hydropower or storage resources by name, but seams governance\u2014how CAISO, SPP, and other Western RTOs coordinate dispatch, settlements, and transmission use\u2014is foundational to hydro revenue and portfolio strategy. Export priority rules, transmission rights management, and timeline interactions directly affect whether hydro can deliver energy to higher-value markets under stressed conditions, when hydro's scarcity value is highest. PacifiCorp's push for clarity on practical mechanics\u2014especially redispatch cost allocation and export priority under stress\u2014suggests these rules remain unsettled and will reshape how hydro plants are committed and run across the West.",
+        "source_names_hydro": false,
+        "topics": [
+          "seams-governance",
+          "transmission",
+          "price-formation"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "workshop held October 22, 2026",
+            "quote": "The October 22 workshop was a helpful overview of the Western Loading Relief (WLR) process",
+            "verified": true
+          },
+          {
+            "claim": "late 2027 target",
+            "quote": "they work toward the late 2027 target",
+            "verified": true
+          },
+          {
+            "claim": "comment deadline November 5, 2026",
+            "quote": "Submissions are requested by close of business on November 5, 2026",
+            "verified": true
+          }
+        ],
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Connor Kennedy",
+            "entity": "PacifiCorp",
+            "role": "author",
+            "email": "518-396-9912"
+          }
+        ]
       },
       {
         "type": "comment",
@@ -43374,17 +44517,44 @@
         "url": "https://www.caiso.com/documents/comments-idaho-power-joint-market-seams-workshop-oct-22-2026.pdf",
         "member_url": null,
         "posted_date": "2026-11-06",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
-        "evidence": [],
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This comment addresses EDAM/Markets+ seams coordination, congestion management, and economic redispatch mechanisms that will directly affect how hydropower and storage resources are compensated and dispatched across Western market boundaries.",
+        "screened_at": "2026-11-09 22:38:33",
+        "ai_summary": "Idaho Power comments on the CAISO/SPP Joint Market Seams Workshop (October 22, 2026). IPC supports WLR (Worst-case Loading Relief) as a reliability backstop and urges clearer frameworks for when economic redispatch in EDAM and Markets+ should manage congestion before WLR is invoked. IPC highlights three design priorities: (1) define the boundary between market optimization and reliability-driven relief; (2) recognize and compensate resources and transactions that provide counterflow relief of shared constraints; and (3) avoid double-counting relief when one market has already redispatched for a constraint that WLR might later address. Comments were submitted November 5, 2026. The document does not mention hydro or storage directly but addresses the seams mechanisms governing inter-market redispatch and cost allocation.",
+        "hydro_read_through": "The document does not mention hydropower or pumped storage by name, but it directly shapes the rules by which hydro and storage resources will be economically redispatched across EDAM and Markets+ seams and how their congestion-relief value will be priced and allocated. IPC's emphasis on compensating counterflow transactions and avoiding double-counting of relief is material to hydro owners because conventional hydro and PSH are the primary resources capable of dynamic, cost-effective redispatch to relieve shared transmission constraints. How the seams framework credits that flexibility \u2014 and whether it allows hydro to realize the scarcity value of constraint relief \u2014 will significantly influence hydro revenue in the coordinated EDAM/Markets+ footprint.",
+        "source_names_hydro": false,
+        "topics": [
+          "seams-governance",
+          "price-formation",
+          "transmission"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Joint Market Seams Workshop held October 22, 2026",
+            "quote": "the Market Seams Workshop that was held on Oct 22, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Comments submitted November 5, 2026",
+            "quote": "Submissions are requested by close of business on November 5, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Idaho Power submitted the comment on 11/5/2026",
+            "quote": "Date Submitted | 11/5/2026",
+            "verified": false
+          }
+        ],
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Blake Hubbard",
+            "entity": "Idaho Power",
+            "role": "author",
+            "email": "208-388-5246"
+          }
+        ]
       }
     ]
   },
@@ -49307,17 +50477,49 @@
         "url": "https://www.caiso.com/documents/decision-on-variable-operations-and-maintenance-cost-review-motion-oct-20-2026.pdf",
         "member_url": null,
         "posted_date": "2026-10-27",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
-        "evidence": [],
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The decision establishes default variable operations and maintenance cost adders and a new default variable operations cost framework for storage resources \u2014 directly affecting how storage (including pumped-storage hydro) is compensated for operations costs in the Western Energy Market.",
+        "screened_at": "2026-11-09 22:38:43",
+        "ai_summary": "The WEM Governing Body approved revisions to default variable operations and maintenance cost adders and establishment of a default variable operations cost for storage resources, per a memorandum dated October 13, 2026. Management is authorized to file the tariff amendment with FERC and to incorporate any Commission guidance from an initial ruling. The vote was 3-0 (Campbell, Decker, Kondziolka in favor).",
+        "hydro_read_through": "The document does not name hydro or pumped storage explicitly. However, storage-resource operational-cost rules set the compensation framework that determines how much PSH and other storage facilities recover for variable O&M \u2014 a core revenue stream alongside energy and ancillary-service sales. Changes to default cost adders and per-storage-unit cost treatment would flow directly to PSH owners' make-whole or cost-recovery calculations in the WEM footprint.",
+        "source_names_hydro": false,
+        "topics": [
+          "storage"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Memorandum dated October 13, 2026",
+            "quote": "as described in the memorandum dated October 13, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Vote date October 20, 2026; Vote count 3-0",
+            "quote": "WEM Governing Body Action: Vote Count: 3-0\nCampbell Y\nDecker Y\nKondziolka Y",
+            "verified": true
+          }
+        ],
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Member Campbell",
+            "entity": null,
+            "role": "voter",
+            "email": null
+          },
+          {
+            "name": "Member Decker",
+            "entity": null,
+            "role": "voter",
+            "email": null
+          },
+          {
+            "name": "Member Kondziolka",
+            "entity": null,
+            "role": "voter",
+            "email": null
+          }
+        ]
       },
       {
         "type": "other",
@@ -49326,17 +50528,36 @@
         "url": "https://www.caiso.com/documents/election-of-wem-governing-body-vice-chair-motion-oct-20-2026.pdf",
         "member_url": null,
         "posted_date": "2026-10-27",
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a governance motion electing a WEM Governing Body Vice Chair\u2014a procedural matter of internal RTO administration with no bearing on hydro/PSH revenue streams, compliance obligations, or strategic market-design options.",
+        "screened_at": "2026-11-09 22:38:46",
         "ai_summary": null,
         "hydro_read_through": null,
-        "source_names_hydro": null,
+        "source_names_hydro": false,
         "topics": [],
         "directness": null,
         "evidence": [],
         "issues": [],
-        "stakeholders": []
+        "stakeholders": [
+          {
+            "name": "Anita Decker",
+            "entity": null,
+            "role": "elected to position",
+            "email": null
+          },
+          {
+            "name": "Campbell",
+            "entity": null,
+            "role": "seconded motion",
+            "email": null
+          },
+          {
+            "name": "Kondziolka",
+            "entity": null,
+            "role": "moved motion",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -54714,15 +55935,45 @@
         "url": "https://stakeholdercenter.caiso.com/InitiativeDocuments/Revised-Draft-tariff-language-large-loads-order-to-show-cause-Oct-26-2026.docx",
         "member_url": null,
         "posted_date": null,
-        "hydro_relevant": null,
-        "hydro_relevance_reason": null,
-        "screened_at": null,
-        "ai_summary": null,
-        "hydro_read_through": null,
-        "source_names_hydro": null,
-        "topics": [],
-        "directness": null,
-        "evidence": [],
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large Load interconnection rules reshape transmission planning and dispatch coordination for co-located generation (including hydro uprates and repowering), define interconnection-queue treatment and deliverability accreditation for existing plants, and establish scheduling/settlement obligations for resources paired with large loads\u2014all material to hydro owners' interconnection costs and operational flexibility.",
+        "screened_at": "2026-11-09 22:39:02",
+        "ai_summary": "CAISO revised tariff language implementing Large Load Order to Show Cause, effective [February 14, 2027/effective date] as specified in Section 25.7. Large Loads are defined as End Users with peak load \u226550 MW at a single interconnection point. Generating Units co-locating with Large Loads must have Interconnection Studies accounting for their net impact on the grid; Interconnection Customers must submit co-located load requests to Participating TOs by cluster-window close to be studied together. Existing Generating Facilities adding co-located load or Large Load must request CAISO evaluation under Section 25.1 modification rules (90-day advance notice); costs for modification assessment borne by requester. Large Loads may participate in CAISO Markets as Proxy Demand Resources, Reliability Demand Response Resources, Participating Loads, or Non-Generator Resources, alone or in aggregation with co-located generation. Participating TOs must collect dynamic disturbance data (voltage, current, real/reactive power, frequency) from Large Loads and ability to disconnect them in emergencies. Flexible Interim Load Interconnection (FILI) permits Large Loads to energize before Network Upgrades complete, under curtailment agreements posted on CAISO website. Transmission Planning Process (Section 24) incorporates Large Load data\u2014aggregate MW by zone and planned Network Upgrades with costs\u2014in comprehensive planning. Scheduling Coordinators must submit Large Load forecasts, real-time operational deviations, and telemetry; Large Loads charged hourly user rates for Regulation Down/Up Reserve and Reliability Services on gross metered demand.",
+        "hydro_read_through": "The document does not name hydropower or pumped storage. However, the Large Load framework materially affects hydro owners in three ways. First, any existing hydro plant considering uprates or adding behind-the-meter load-serving capability (e.g., co-locating with a data-center customer) must now navigate Interconnection Studies and modification reviews that account for the net impact of generation plus load, potentially triggering new Network Upgrades and cost allocation; the 90-day notice requirement and CAISO cost-recovery rule reshape project-development timelines and capital planning. Second, co-located generation paired with Large Loads gets integrated Network Upgrade cost allocation, which for an existing plant could mean paying for upgrades previously borne by the load customer\u2014the tariff assigns costs to the Generating Unit 'unless the CAISO and Participating TO agree' otherwise, creating negotiation leverage for generators. Third, Large Loads' new participation models (especially Participating Load and Proxy Demand Response) plus their separate metering and telemetry obligations create operational coordination requirements that affect how hydro interacts with demand-response and grid-balancing services; if a hydro plant co-locates with a Large Load customer, the plant's own Ancillary Services offerings and must-offer rules may be constrained by the load's dispatch and curtailment obligations.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "load-growth",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Large Load defined as End User with peak load of 50 MW or greater",
+            "quote": "Large Load \u2013 An End User located at a single site whosebehind one or more pPoints of iInterconnection is to the CAISO Controlled Grid, and that has a peak load of 50 MW or greater.",
+            "verified": true
+          },
+          {
+            "claim": "Effective date: February 14, 2027 or effective date",
+            "quote": "The CAISO will not consider any Load a Large Load subject to the CAISO Tariff where the Load is operational or has a complete request with the Participating TO before [February 14, 2027/effective date]",
+            "verified": true
+          },
+          {
+            "claim": "90-day advance notice required for Generating Facility modifications including co-located load addition",
+            "quote": "Pursuant to the modification provisions of their GIAs, Generating Facilities that have achieved their Commercial Operation Date may make modifications to their Generating Facilities where the CAISO and the Participating TO are notified at least ninety (90) calendar days in advance of commencement of work",
+            "verified": true
+          },
+          {
+            "claim": "Costs for modification assessment borne by party making the request",
+            "quote": "Costs incurred by the Participating TO and the CAISO (if any) shall be borne by the party making the request under Section 25.5",
+            "verified": true
+          },
+          {
+            "claim": "Network Upgrade cost allocation defaults to Generating Unit unless CAISO and Participating TO agree otherwise",
+            "quote": "Network Upgrade and Interconnection Facility assignments and cost allocations pursuant to the RIS will assume they are for the Generating Facility unless the CAISO and Participating TO agree that the Network Upgrade or Interconnection Facility is for the Large Load only.",
+            "verified": true
+          }
+        ],
         "issues": [],
         "stakeholders": []
       }
@@ -68812,7 +70063,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-08 17:42:52",
+    "meeting_screened_at": "2026-11-09 22:11:22",
     "issues": [],
     "documents": [
       {
@@ -91034,7 +92285,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-08 17:43:13",
+    "meeting_screened_at": "2026-11-09 22:11:43",
     "issues": [],
     "documents": [
       {
@@ -128255,10 +129506,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1214",
         "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
       },
       {
@@ -128285,10 +129536,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1301",
         "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "Revision Request Consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
       },
       {
@@ -128315,10 +129566,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1328",
         "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
       },
       {
@@ -128345,10 +129596,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1335",
         "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
       },
       {
@@ -128375,20 +129626,20 @@
         "rto": "ERCOT",
         "native_id": "NPRR1338",
         "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "Revision Request Consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
       },
       {
         "rto": "ERCOT",
         "native_id": "NPRR1339",
         "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "Revision Request Consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
       },
       {
@@ -158494,10 +159745,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1214",
         "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
       },
       {
@@ -158524,10 +159775,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1335",
         "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
       },
       {
@@ -158554,20 +159805,20 @@
         "rto": "ERCOT",
         "native_id": "NPRR1338",
         "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "Revision Request Consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
       },
       {
         "rto": "ERCOT",
         "native_id": "NPRR1339",
         "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "Revision Request Consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
       },
       {
@@ -158683,10 +159934,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -158713,10 +159964,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -158743,20 +159994,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -158976,10 +160227,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -159006,10 +160257,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -159036,20 +160287,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -159259,10 +160510,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -159289,10 +160540,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -159319,20 +160570,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -159522,10 +160773,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -159552,10 +160803,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -159582,20 +160833,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -159682,10 +160933,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -159712,10 +160963,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -159742,20 +160993,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -159842,10 +161093,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -159872,10 +161123,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -159902,20 +161153,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -160004,10 +161255,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -160034,10 +161285,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -160064,20 +161315,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -160167,10 +161418,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -160197,10 +161448,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -160227,20 +161478,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -184807,10 +186058,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1214",
         "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
       },
       {
@@ -184867,10 +186118,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1335",
         "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
       },
       {
@@ -184897,20 +186148,20 @@
         "rto": "ERCOT",
         "native_id": "NPRR1338",
         "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "Revision Request Consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
       },
       {
         "rto": "ERCOT",
         "native_id": "NPRR1339",
         "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "Revision Request Consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
       },
       {
@@ -184986,10 +186237,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -185046,10 +186297,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -185076,20 +186327,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -185212,10 +186463,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -185272,10 +186523,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -185302,20 +186553,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -185420,10 +186671,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -185480,10 +186731,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -185510,20 +186761,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -185593,10 +186844,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -185653,10 +186904,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -185683,20 +186934,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -185768,10 +187019,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -185828,10 +187079,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -185858,20 +187109,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -186019,10 +187270,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -186079,10 +187330,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -186109,20 +187360,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -186246,10 +187497,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -186306,10 +187557,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -186336,20 +187587,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -186413,10 +187664,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -186473,10 +187724,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -186503,20 +187754,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -186573,10 +187824,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -186633,10 +187884,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -186663,20 +187914,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -210160,10 +211411,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1301",
         "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "Revision Request Consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
       },
       {
@@ -210200,10 +211451,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1328",
         "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
       },
       {
@@ -210404,10 +211655,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -210444,10 +211695,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
           {
@@ -210629,10 +211880,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -210669,10 +211920,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
           {
@@ -210854,10 +212105,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -210894,10 +212145,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
           {
@@ -211054,10 +212305,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -211094,10 +212345,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
           {
@@ -243536,10 +244787,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1214",
         "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
       },
       {
@@ -243556,10 +244807,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1301",
         "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "Revision Request Consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
       },
       {
@@ -243596,10 +244847,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1328",
         "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
       },
       {
@@ -243616,20 +244867,20 @@
         "rto": "ERCOT",
         "native_id": "NPRR1338",
         "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "Revision Request Consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
       },
       {
         "rto": "ERCOT",
         "native_id": "NPRR1339",
         "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "Revision Request Consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
       },
       {
@@ -243699,10 +244950,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -243719,10 +244970,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -243759,10 +245010,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
           {
@@ -243779,20 +245030,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -243876,10 +245127,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -243896,10 +245147,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -243936,10 +245187,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
           {
@@ -243956,20 +245207,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -244053,10 +245304,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -244073,10 +245324,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -244113,10 +245364,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
           {
@@ -244133,20 +245384,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -244220,10 +245471,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -244240,10 +245491,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -244280,10 +245531,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
           {
@@ -244300,20 +245551,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -244380,10 +245631,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -244400,10 +245651,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -244440,10 +245691,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1328",
             "canonical_name": "NPRR1328 \u2014 Establishment of Generation Firming Program",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1328"
           },
           {
@@ -244460,20 +245711,20 @@
             "rto": "ERCOT",
             "native_id": "NPRR1338",
             "canonical_name": "NPRR1338 \u2014 Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1338"
           },
           {
             "rto": "ERCOT",
             "native_id": "NPRR1339",
             "canonical_name": "NPRR1339 \u2014 Protocol Clean Up and Alignment with RTC+B Implementation",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1339"
           },
           {
@@ -287511,10 +288762,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1214",
         "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
       },
       {
@@ -287541,10 +288792,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1301",
         "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "Revision Request Consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
       },
       {
@@ -287631,10 +288882,10 @@
         "rto": "ERCOT",
         "native_id": "NPRR1335",
         "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-        "status": "Pending",
+        "status": "Approved on 11/05/2026",
         "stakeholder_phase": "PUCT for consideration",
         "committee_owner": "PUCT",
-        "is_open": 1,
+        "is_open": 0,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
       },
       {
@@ -287684,10 +288935,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -287714,10 +288965,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -287804,10 +289055,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -287867,10 +289118,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -287897,10 +289148,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -287987,10 +289238,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -288041,10 +289292,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -288071,10 +289322,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -288161,10 +289412,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -288224,10 +289475,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -288254,10 +289505,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -288344,10 +289595,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -288431,10 +289682,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -288461,10 +289712,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -288551,10 +289802,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -288601,10 +289852,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -288631,10 +289882,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -288721,10 +289972,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -288778,10 +290029,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -288808,10 +290059,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -288898,10 +290149,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -288952,10 +290203,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -288982,10 +290233,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -289072,10 +290323,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -289133,10 +290384,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -289163,10 +290414,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -289253,10 +290504,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -289310,10 +290561,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -289340,10 +290591,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -289430,10 +290681,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
@@ -289480,10 +290731,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1214",
             "canonical_name": "NPRR1214 \u2014 Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1214"
           },
           {
@@ -289510,10 +290761,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1301",
             "canonical_name": "NPRR1301 \u2014 Align Protocols to Constraint Activation Procedure",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "Revision Request Consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1301"
           },
           {
@@ -289600,10 +290851,10 @@
             "rto": "ERCOT",
             "native_id": "NPRR1335",
             "canonical_name": "NPRR1335 \u2014 Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-            "status": "Pending",
+            "status": "Approved on 11/05/2026",
             "stakeholder_phase": "PUCT for consideration",
             "committee_owner": "PUCT",
-            "is_open": 1,
+            "is_open": 0,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1335"
           },
           {
