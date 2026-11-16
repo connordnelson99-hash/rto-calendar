@@ -240,6 +240,754 @@
     "documents": []
   },
   {
+    "title": "Market Implementation Committee Meeting",
+    "date": "2026-12-02",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Market Implementation Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={6C6B7638-0D84-4C01-9572-9C2A284B2734}",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM Market Implementation Committee oversees tariff changes and market rule modifications across energy, capacity, and ancillary-services design that directly affect hydropower and pumped-storage revenue, obligations, and strategic participation options in the PJM footprint.",
+    "meeting_screened_at": "2026-11-16 21:42:12",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "Draft Minutes \u2013 MIC \u2013 1142026",
+        "filename": "20261202-draft-minutes---mic---1142026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mic/2026/20261202/20261202-draft-minutes---mic---1142026.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-12",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses hybrid-resource market participation models and energy-storage market redesign (direct impact on PSH revenue participation), plus capacity-testing requirements specific to hydroelectric resources (direct impact on hydro accreditation obligations).",
+        "screened_at": "2026-11-16 21:42:36",
+        "ai_summary": "PJM Market Implementation Committee (MIC) met November 4, 2026, and endorsed three major items for downstream committees: (1) wind and solar dispatch conforming changes to Manual 11; (2) winter peak load calculation for load-management sites, with friendly amendments effective for the Delivery Year 2027/2028; (3) dual fuel schedule requirements deferred to December 2026 MIC meeting. Under working items, the committee discussed Hybrid Resources Market Model Selection, examining mixed-technology facilities' market participation and design components; PJM Energy Storage Resource Model Enhancements with solution options presented by Eolian Energy and PJM staff; and Capacity Testing Requirements for hydroelectric resources, presented by Dominion Energy, with education on PJM's generation outage scheduling. All three working-item tracks remain open for interest identification and design component refinement.",
+        "hydro_read_through": "Hydroelectric operators should monitor the Capacity Testing Requirements track, which directly addresses how hydro assets are tested to qualify for and maintain PJM capacity-market accreditation. The working item on hybrid resources and storage-model enhancements affects strategic options for pumped-storage and co-located hydroelectric facilities to participate in energy and ancillary-services markets. The winter peak-load definition changes may also influence how hydro-supplied load-management services are accredited in future delivery years if applicable to hydroelectric load-response resources.",
+        "source_names_hydro": true,
+        "topics": [
+          "capacity-ra",
+          "storage",
+          "hybrids-der"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Winter Peak Load definition review starting in Delivery Year 2027/2028",
+            "quote": "Review the definition of Winter Peak Load starting in Delivery Year 2027/2028 to address whether sites that are frequently dispatched during winter hour ending 0900 are experiencing WPL erosion",
+            "verified": true
+          },
+          {
+            "claim": "Dual Fuel Schedule Requirements deferred to December MIC meeting",
+            "quote": "Erik Heinle, Constellation, made a motion to defer an endorsement of the solution proposal to the December MIC meeting.",
+            "verified": true
+          },
+          {
+            "claim": "Capacity Testing Requirements for hydroelectric resources presented",
+            "quote": "Jim Davis, Dominion Energy, presented education as well as a Problem Statement & Issue Charge on Capacity Testing Requirements for hydroelectric resources.",
+            "verified": true
+          }
+        ],
+        "issues": [
+          {
+            "rto": "PJM",
+            "native_id": "537db0b7-2fbc-4939-a758-10aa7aa9a9dd",
+            "canonical_name": "Calculation of Winter Peak Load for Curtailed Load Sites",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "approved",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=537db0b7-2fbc-4939-a758-10aa7aa9a9dd"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "1053757b-0754-41a1-ac64-38fdf7174613",
+            "canonical_name": "Capacity Testing Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "approved",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=1053757b-0754-41a1-ac64-38fdf7174613"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "c736eb37-2b12-4250-a053-dd439c066f52",
+            "canonical_name": "Dual Fuel Schedule Requirements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "packages",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=c736eb37-2b12-4250-a053-dd439c066f52"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "107d1ca8-0cb2-4989-aa67-3aca42cd3b4e",
+            "canonical_name": "Hybrid Resources Market Model Selection",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "education",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=107d1ca8-0cb2-4989-aa67-3aca42cd3b4e"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "0a48ab03-08ee-4411-84ef-690798fa30cf",
+            "canonical_name": "PJM Energy Storage Resource Model Enhancements",
+            "status": "evaluation in progress",
+            "stakeholder_phase": "options",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=0a48ab03-08ee-4411-84ef-690798fa30cf"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "93900eb5-1665-49be-b717-1049fc94b652",
+            "canonical_name": "Resource Scheduling Prior to the Day Ahead Energy Market",
+            "status": "solution alternatives proposed",
+            "stakeholder_phase": "consensus",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=93900eb5-1665-49be-b717-1049fc94b652"
+          },
+          {
+            "rto": "PJM",
+            "native_id": "beea7ceb-8033-4ee1-a54a-a4680c9357ec",
+            "canonical_name": "Wind and Solar Resource Dispatch in Real-time Market Clearing Engines",
+            "status": "awaiting implementation & ferc approval",
+            "stakeholder_phase": "completed",
+            "committee_owner": "mic",
+            "is_open": 1,
+            "url": "https://www.pjm.com/committees-and-groups/issue-tracking/issue-tracking-details.aspx?Issue=beea7ceb-8033-4ee1-a54a-a4680c9357ec"
+          }
+        ],
+        "stakeholders": [
+          {
+            "name": "Katie Guerry",
+            "entity": "Brookfield Power Piney & Deep Creek LLC",
+            "role": "attendee",
+            "email": null
+          },
+          {
+            "name": "Todd Ament",
+            "entity": "Cube Hydro Partners, LLC; Eagle Creek Hydro Holdings, LLC; Great Falls Hydroelectric Company Limited Partnership; Mahoning Creek Hydroelectric Company, LLC; York Haven Power Company, LLC",
+            "role": "attendee",
+            "email": null
+          },
+          {
+            "name": "Jim Davis",
+            "entity": "Dominion Energy",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chien Harriman",
+            "entity": "Eolian Energy",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jason Ciabattoni",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jason Shoemaker",
+            "entity": "PJM Interconnection",
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "Michael Kelly",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Michael Olaleye",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Stefan Starkov",
+            "entity": "PJM Interconnection",
+            "role": "secretary",
+            "email": null
+          },
+          {
+            "name": "Vijay Shah",
+            "entity": "PJM Interconnection",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Consumer Liaison Group Meeting",
+    "date": "2026-12-02",
+    "time": "5:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Consumer Liaison Group",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=159984",
+    "materials_url": null,
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Consumer Liaison Group meetings focus on retail-market mechanics, customer issues, and consumer advocacy rather than wholesale market design, revenue mechanisms, or operational rules affecting hydropower and storage generators.",
+    "meeting_screened_at": "2026-11-16 21:42:13",
+    "issues": [],
+    "documents": [
+      {
+        "type": "other",
+        "title": "2026 Election Notice",
+        "filename": "clg_election_notice_december_2026.pdf",
+        "url": "https://www.iso-ne.com/static-assets/documents/100040/clg_election_notice_december_2026.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "Installed Capacity Working Group",
+    "date": "2026-12-02",
+    "time": "10:00 AM - 4:00 PM",
+    "rto": "NYISO",
+    "committee": "Installed Capacity Working Group",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/icapwg",
+    "materials_url": "https://www.nyiso.com/icapwg",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Installed Capacity Working Group addresses capacity-accreditation mechanisms (UCAP/ELCC), auction parameters, and performance rules that directly affect how hydro and pumped-storage resources are credited and compensated in NYISO's capacity market.",
+    "meeting_screened_at": "2026-11-16 21:42:14",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Market Issues Working Group",
+    "date": "2026-12-02",
+    "time": "10:00 AM - 4:00 PM",
+    "rto": "NYISO",
+    "committee": "Market Issues Working Group",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/miwg",
+    "materials_url": "https://www.nyiso.com/miwg",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "NYISO's Market Issues Working Group regularly addresses energy price formation, ancillary services design, capacity accreditation, and storage participation rules that directly affect hydropower and pumped-storage revenue and compliance obligations.",
+    "meeting_screened_at": "2026-11-16 21:42:15",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Price-Responsive Load Working Group",
+    "date": "2026-12-02",
+    "time": "10:00 AM - 4:00 PM",
+    "rto": "NYISO",
+    "committee": "Price-Responsive Load Working Group",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/prlwg",
+    "materials_url": "https://www.nyiso.com/prlwg",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Price-responsive load working group meetings typically address retail demand-side management, customer billing incentives, and load-shifting programs for end-use consumers, which are outside the market-design axes (revenue, obligations, strategic options) that affect hydro and PSH operators' portfolios and dispatch.",
+    "meeting_screened_at": "2026-11-16 21:42:17",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Advisory Committee (AC) - December 2, 2026",
+    "date": "2026-12-02",
+    "time": "8:30 AM - 3:25 PM",
+    "rto": "MISO",
+    "committee": "Advisory Committee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/b2cd8a26c6154f978808b2a6384c2b5c.aspx",
+    "materials_url": "https://www.misoenergy.org/link/b2cd8a26c6154f978808b2a6384c2b5c.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO's Advisory Committee reviews market-design changes, rate cases, and operational policies that affect all generator classes including hydropower and storage participants; the December 2026 agenda likely covers energy pricing, ancillary services, capacity accreditation, and transmission rules material to hydro revenue and compliance.",
+    "meeting_screened_at": "2026-11-16 21:42:18",
+    "issues": [],
+    "documents": [
+      {
+        "type": "vote",
+        "title": "20261202 AC Item 05c Ballot - ADRC Representatives",
+        "filename": "20261202 AC Item 05c Ballot - ADRC Representatives.docx",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2005c%20Ballot%20-%20ADRC%20Representatives794911.docx",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a ballot for MISO Advisory Committee members to elect representatives to the Alternate Dispute Resolution (ADR) Committee of the Board of Directors \u2014 an internal governance/administrative matter with no bearing on hydro revenue streams, compliance obligations, or strategic options in market design.",
+        "screened_at": "2026-11-16 21:42:39",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Ricketts",
+            "entity": null,
+            "role": "candidate",
+            "email": null
+          },
+          {
+            "name": "Valy Goepfrich",
+            "entity": null,
+            "role": "candidate",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "vote",
+        "title": "20261202 AC Item 05b Ballot - AC Leadership",
+        "filename": "20261202 AC Item 05b Ballot - AC Leadership.docx",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2005b%20Ballot%20-%20AC%20Leadership794910.docx",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is an internal MISO Advisory Committee leadership ballot for 2027 chair and vice-chair positions\u2014a corporate governance vote with no bearing on market design, rate-setting, operational rules, or strategic options affecting hydropower revenue, compliance, or participation.",
+        "screened_at": "2026-11-16 21:42:41",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Stakeholder Relations",
+            "entity": "MISO",
+            "role": "contact",
+            "email": "stakeholderrelations@misoenergy.org"
+          }
+        ]
+      },
+      {
+        "type": "vote",
+        "title": "20261202 AC Item 05a Ballot - Nominating Committee of the BOD",
+        "filename": "20261202 AC Item 05a Ballot - Nominating Committee of the BOD.docx",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2005a%20Ballot%20-%20Nominating%20Committee%20of%20the%20BOD794909.docx",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a ballot for Advisory Committee members to elect representatives to the Board of Directors Nominating Committee\u2014a governance/administrative matter unrelated to any hydro revenue stream, compliance obligation, or strategic market option.",
+        "screened_at": "2026-11-16 21:42:43",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Arash Ghodsian",
+            "entity": null,
+            "role": null,
+            "email": null
+          },
+          {
+            "name": "Marcus Hawkins",
+            "entity": null,
+            "role": null,
+            "email": null
+          },
+          {
+            "name": "Susan Rossi",
+            "entity": null,
+            "role": null,
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261202 AC Item 05b Bio Mitch Myhre AC Vice Chair",
+        "filename": "20261202 AC Item 05b Bio Mitch Myhre AC Vice Chair.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2005b%20Bio%20Mitch%20Myhre%20AC%20Vice%20Chair794811.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a biographical entry for a MISO Advisory Committee member with no discussion of market rules, revenue mechanisms, compliance obligations, or strategic options affecting hydropower.",
+        "screened_at": "2026-11-16 21:42:45",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Mitchell Myhre",
+            "entity": "Alliant Energy",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261202 AC Item 05b Bio Dan Scripps AC Chair",
+        "filename": "20261202 AC Item 05b Bio Dan Scripps AC Chair.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2005b%20Bio%20Dan%20Scripps%20AC%20Chair794810.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-09",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a biographical note on the MISO Advisory Committee Chair with no discussion of market design, pricing, services, obligations, strategic options, or any mechanism affecting hydro or PSH revenue, compliance, or operations.",
+        "screened_at": "2026-11-16 21:42:47",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Dan Scripps",
+            "entity": "Michigan Public Service Commission (MPSC)",
+            "role": "miso advisory committee chair",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261202 AC Item 05a Bio Susan Rossi MISO BOD Nominating Committee",
+        "filename": "20261202 AC Item 05a Bio Susan Rossi MISO BOD Nominating Committee.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2005a%20Bio%20Susan%20Rossi%20MISO%20BOD%20Nominating%20Committee793424.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a biographical sketch of a Xcel Energy executive nominated to a MISO board committee; it contains no information about market rules, revenue mechanisms, compliance obligations, or strategic options affecting hydropower or pumped-storage operators.",
+        "screened_at": "2026-11-16 21:42:49",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Susan Rossi",
+            "entity": "Xcel Energy",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261202 AC Item 05c Bio David Ricketts ADR Committee",
+        "filename": "20261202 AC Item 05c Bio David Ricketts ADR Committee.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2005c%20Bio%20David%20Ricketts%20ADR%20Committee793259.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-03",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a biographical entry for an Advisory Committee member; it contains no proposal, decision, finding, or mechanism touching hydro revenue, obligations, or strategic options.",
+        "screened_at": "2026-11-16 21:42:51",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "David Ricketts",
+            "entity": "Vistra Corp.",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261202 AC Item 05a Bio Marcus Hawkins MISO BOD Nominating Committee",
+        "filename": "20261202 AC Item 05a Bio Marcus Hawkins MISO BOD Nominating Committee.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2005a%20Bio%20Marcus%20Hawkins%20MISO%20BOD%20Nominating%20Committee792467.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-29",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a biographical sketch of a MISO Board nominee (Marcus Hawkins, a Wisconsin Public Service Commissioner) with no content addressing hydropower revenue, obligations, or strategic options.",
+        "screened_at": "2026-11-16 21:42:53",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Marcus Hawkins",
+            "entity": "Public Service Commission of Wisconsin",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Tony Evers",
+            "entity": "State of Wisconsin",
+            "role": null,
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "20261202 AC Item 01c Minutes 20261021docx",
+        "filename": "20261202 AC Item 01c Minutes 20261021docx.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2001c%20Minutes%2020261021docx792104.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-28",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses interconnection queue management, large-load cost allocation, and transmission planning (MTEP26)\u2014all of which affect hydro's strategic options for siting new capacity, uprates, and deliverability; it also discusses resource adequacy, planning uncertainty from federal policy, and gas-electric coordination, which shape the value and revenue environment for dispatchable generation including hydro.",
+        "screened_at": "2026-11-16 21:43:07",
+        "ai_summary": "MISO Advisory Committee meeting of October 21, 2026, covering interconnection and transmission planning priorities and cost-allocation concerns. The committee selected 'Interconnection and State of the Queue' as the December Board discussion topic, with draft questions to be circulated by the chair; they also selected 'Gas Electric Harmonization/Fuel Supply Readiness' for December/February discussion. The Transmission Owners reported ongoing coordination with MISO and Organization of MISO States (OMS) to respond to FERC's June 2026 Show Cause Order requiring mitigation of cost shifting and clarification of cost responsibility for network upgrades; a Large Load Working Group meeting is scheduled for October 29. The Planning Advisory Committee interim chair presented MTEP26, which includes 532 projects totaling approximately $14.7 billion in investment and enabling 26.6 GW of load additions, with approximately 70% expected in service within three years; Expedited Project Review requests are driven primarily by load growth, with the Central region representing the largest activity and the South region including three of the top four projects. The Advisory Committee also discussed impacts of Department of Energy actions and Executive Orders on resource adequacy, planning, markets, and state jurisdiction.",
+        "hydro_read_through": "The document does not name hydropower or pumped storage. However, three elements matter for hydro owners: (1) queue-management and interconnection-cost allocation reforms will determine transmission service availability and cost for any new hydro or PSH plant seeking grid connection in MISO, as well as uprates at existing facilities; (2) MTEP26's heavy weighting toward load-driven transmission investment in the Central and South regions signals where MISO's planning capital is flowing and may constrain interconnection service to generation resources elsewhere; (3) the Current Issue discussion on gas-electric harmonization and fuel-supply readiness may surface policies on dispatchable-resource adequacy that could favor or constrain valuation of conventional hydro and PSH as flexibility and reliability providers.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "transmission",
+          "load-growth"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "October 29 Large Load Working Group meeting date",
+            "quote": "Additional details will be shared with stakeholders during the October 29 Large Load Working Group meeting.",
+            "verified": true
+          },
+          {
+            "claim": "MTEP26 comprises 532 projects, $14.7 billion, and 26.6 GW load additions",
+            "quote": "MTEP26 includes 532 projects representing approximately $14.7 billion in investment and enabling 26.6 GW of load additions.",
+            "verified": true
+          },
+          {
+            "claim": "Approximately 70% of MTEP26 projects in service within three years",
+            "quote": "Approximately 70% of projects are expected to be placed in service within the next three years.",
+            "verified": true
+          },
+          {
+            "claim": "Top ten recommended projects represent 44% of MTEP26 investment",
+            "quote": "The top ten recommended projects represent approximately 44% of total MTEP26 investment and are largely driven by load growth.",
+            "verified": true
+          },
+          {
+            "claim": "FERC June 2026 Show Cause Order",
+            "quote": "Commission's June 2026 Show Cause Order requiring MISO and the Owners to 1) mitigate the risk of cost shifting among transmission customers",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jag Mukherjee",
+            "entity": "Ernst & Young",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Tia Elliott",
+            "entity": "IPP/EWG Sector",
+            "role": "ac member",
+            "email": null
+          },
+          {
+            "name": "Carmen Clark",
+            "entity": "MISO",
+            "role": "miso liaison",
+            "email": null
+          },
+          {
+            "name": "Eileen King",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Michelle Quinn",
+            "entity": "MISO",
+            "role": "miso support",
+            "email": null
+          },
+          {
+            "name": "Brian Drumm",
+            "entity": "MISO Advisory Committee",
+            "role": "vice chair",
+            "email": null
+          },
+          {
+            "name": "Dan Scripps",
+            "entity": "MISO Advisory Committee",
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "John Wolfram",
+            "entity": "MISO Advisory Committee",
+            "role": "nominating committee representative",
+            "email": null
+          },
+          {
+            "name": "Mitch Myhre",
+            "entity": "MISO Advisory Committee",
+            "role": "finance subcommittee chair",
+            "email": null
+          },
+          {
+            "name": "Dave Johnston",
+            "entity": "MISO Planning Advisory Committee",
+            "role": "interim chair",
+            "email": null
+          },
+          {
+            "name": "Tricia DeBleeckere",
+            "entity": "Organization of MISO States",
+            "role": "executive director",
+            "email": null
+          },
+          {
+            "name": "John Liskey",
+            "entity": "Public Consumer Advocates",
+            "role": "ac member",
+            "email": null
+          },
+          {
+            "name": "Susan Rossi",
+            "entity": "Transmission Owners",
+            "role": "ac member",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261202 AC Item 05f Stakeholder Governance Guide Clean",
+        "filename": "20261202 AC Item 05f Stakeholder Governance Guide Clean.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2005f%20Stakeholder%20Governance%20Guide%20Clean791914.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-28",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document addresses MISO stakeholder governance procedures for elections, proxy assignments, and electronic voting \u2014 administrative processes with no bearing on hydro revenue streams, compliance obligations, or strategic options in market design.",
+        "screened_at": "2026-11-16 21:43:08",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261202 AC Item 05f Stakeholder Governance Guide Redlines",
+        "filename": "20261202 AC Item 05f Stakeholder Governance Guide Redlines.docx",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2005f%20Stakeholder%20Governance%20Guide%20Redlines791915.docx",
+        "member_url": null,
+        "posted_date": "2026-10-28",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document redlines MISO stakeholder governance procedures (election rules, voting mechanics, proxy administration) with no connection to hydropower revenue, compliance obligations, or strategic market-design options.",
+        "screened_at": "2026-11-16 21:43:10",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261202 AC Item 05a Bio Arash Ghodsian MISO BOD Nominating Committee",
+        "filename": "20261202 AC Item 05a Bio Arash Ghodsian MISO BOD Nominating Committee.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2005a%20Bio%20Arash%20Ghodsian%20MISO%20BOD%20Nominating%20Committee791916.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-28",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a biographical sketch of a MISO Board Nominating Committee candidate with no discussion of market design, revenue mechanisms, compliance obligations, or strategic options affecting hydro or PSH operators.",
+        "screened_at": "2026-11-16 21:43:12",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Arash Ghodsian",
+            "entity": "Invenergy LLC",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261202 AC Item 05c Bio Valy Goepfrich ADR Committee",
+        "filename": "20261202 AC Item 05c Bio Valy Goepfrich ADR Committee.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2005c%20Bio%20Valy%20Goepfrich%20ADR%20Committee791913.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-28",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a biographical nomination of a WPPI Energy executive for appointment to MISO's Alternative Dispute Resolution Committee; it contains no content on market design, resource rules, revenue mechanisms, compliance obligations, or strategic options affecting hydropower or pumped-storage operations.",
+        "screened_at": "2026-11-16 21:43:14",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Valy T. Goepfrich",
+            "entity": "WPPI Energy",
+            "role": "author",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "WMS Meeting",
+    "date": "2026-12-02",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Wholesale Market Subcommittee",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/12022026-WMS-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/12022026-WMS-Meeting",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ERCOT Wholesale Market Subcommittee meetings address energy price formation, ancillary services design, and market participation rules that serve as important cross-market comparison points for hydro participation models and revenue structures, even though ERCOT operates in a hydropower-scarce region.",
+    "meeting_screened_at": "2026-11-16 21:42:19",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MCUF/MSUF Joint Face-to-Face",
     "date": "2026-12-01",
     "time": "9:00 AM - 5:00 PM CT",
@@ -391,6 +1139,21 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Human Resources Committee meetings address corporate staffing, compensation, and organizational management with no bearing on market design, pricing, dispatch rules, or operational standards affecting hydropower revenue, compliance, or strategy.",
     "meeting_screened_at": "2026-11-15 18:36:50",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "2026 Infrastructure Policy Roadmap",
+    "date": "2026-12-01",
+    "time": "1:00 PM - 3:00 PM PT",
+    "rto": "CAISO",
+    "committee": "2026 Infrastructure policy catalog and roadmap process",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/2026-infrastructure-policy-roadmap-dec-01-2026-0100-pm",
+    "materials_url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/2026-Infrastructure-policy-catalog-and-roadmap-process",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "An infrastructure policy catalog and roadmap process focused on grid infrastructure planning, without explicit reference to market design, revenue mechanisms, ancillary services, storage rules, capacity accreditation, or operational compliance touching hydro resources, is too generic to constitute actionable market-design content for hydropower owners; hydro interests are better served by CAISO's specific market or rate-design proceedings.",
+    "meeting_screened_at": "2026-11-16 21:42:21",
     "issues": [],
     "documents": []
   },
@@ -915,7 +1678,46 @@
     "meeting_hydro_reason": "A governance and committees meeting focused on WEM (Western Energy Market) administrative structure and board organization is unlikely to contain substantive market-design content affecting hydropower revenue, compliance obligations, or strategic options.",
     "meeting_screened_at": "2026-11-08 18:06:08",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Final Agenda - WEM Governing Body General Session - Nov 23, 2026",
+        "filename": "agenda-wem-governing-body-general-session-nov-23-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-wem-governing-body-general-session-nov-23-2026.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "decision",
+        "title": "Decision on WEM Governing Body Memberships - Memo - Nov 23, 2026",
+        "filename": "decision-on-wem-governing-body-memberships-memo-nov-23-2026.pdf",
+        "url": "https://www.caiso.com/documents/decision-on-wem-governing-body-memberships-memo-nov-23-2026.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Comments due - Extended Day-ahead Market Congestion Revenue Allocation",
@@ -974,6 +1776,21 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Installed Capacity Working Group addresses NYISO's ICAP/capacity market design, accreditation rules, and performance-based mechanisms that directly affect hydro and PSH revenue, seasonal accreditation, and participation terms.",
     "meeting_screened_at": "2026-11-12 19:53:41",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "CLLSCO Meeting",
+    "date": "2026-11-23",
+    "time": "1:00 p.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "CLLSCO",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "CLLSCO (Compliance, Licensing, Legal, and Settlements Committee Operations) focuses on internal compliance, legal, and administrative matters rather than market-design mechanisms affecting hydro revenue, obligations, or strategic options.",
+    "meeting_screened_at": "2026-11-16 21:42:22",
     "issues": [],
     "documents": []
   },
@@ -1493,6 +2310,16 @@
         "committee_owner": null,
         "is_open": 1,
         "url": "https://www.iso-ne.com/committees/key-projects/order-no-2023-key-project"
+      },
+      {
+        "rto": "ISO-NE",
+        "native_id": "transmission-right-sizing-key-project",
+        "canonical_name": "Transmission Right-Sizing",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/transmission-right-sizing-key-project"
       }
     ],
     "documents": [
@@ -1798,7 +2625,18 @@
         "topics": [],
         "directness": null,
         "evidence": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "transmission-right-sizing-key-project",
+            "canonical_name": "Transmission Right-Sizing",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/transmission-right-sizing-key-project"
+          }
+        ],
         "stakeholders": []
       },
       {
@@ -1836,7 +2674,7 @@
   {
     "title": "Load Forecasting Task Force",
     "date": "2026-11-19",
-    "time": "10:00 AM - 2:00 PM",
+    "time": "10:00 AM - 11:00 AM",
     "rto": "NYISO",
     "committee": "Load Forecasting Task Force",
     "source_url": "https://www.nyiso.com/committees",
@@ -1846,7 +2684,85 @@
     "meeting_hydro_reason": "Load forecasting directly informs resource-adequacy constructs, seasonal energy studies, and transmission-planning studies that shape hydro's strategic options and scarcity-driven revenue opportunities, particularly in seasonal and multi-year outlooks that hydro operators monitor for water-allocation planning.",
     "meeting_screened_at": "2026-11-07 17:50:33",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "00 Agenda",
+        "filename": "LFTF%20Agenda%2011192026.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59729486/LFTF%20Agenda%2011192026.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-16",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Load forecasting is critical input to seasonal resource adequacy and energy-scarcity assessment, which directly affects hydropower's strategic value and revenue exposure across time horizons.",
+        "screened_at": "2026-11-16 21:43:20",
+        "ai_summary": "NYISO Load Forecasting Task Force meeting scheduled for November 19, 2026, 10:00\u201311:00 a.m. via WebEx. Agenda items: (1) introductions by Bryan Irrgang; (2) preliminary weather-normalized peak forecast for the 2027 ICAP (Installed Capacity) Forecast presented by Max Schuler; (3) new business. Next meeting scheduled for December 4, 2026.",
+        "hydro_read_through": "The document does not mention hydro directly. Load forecasts drive NYISO's seasonal and annual resource-adequacy assessments, which determine how scarce energy conditions are expected to be \u2014 the fundamental driver of energy and capacity revenue for hydropower. The 2027 ICAP forecast in particular sets the baseline against which hydro's seasonal accreditation and contribution to system adequacy will be evaluated.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "load-growth"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Meeting date November 19, 2026, 10:00 a.m. \u2013 11:00 a.m.",
+            "quote": "November 19, 2026\nWebEx Only\n10:00 am \u2013 11:00 am",
+            "verified": true
+          },
+          {
+            "claim": "2027 ICAP Forecast preliminary weather normalized peak will be presented",
+            "quote": "2026 Preliminary Weather Normalized Peak for\nthe 2027 ICAP Forecast",
+            "verified": false
+          },
+          {
+            "claim": "Next meeting December 4, 2026",
+            "quote": "LFTF \u2013 December 4, 2026",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Bryan Irrgang",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Max Schuler",
+            "entity": "NYISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "02 2026 Preliminary Weather Normalized Peak for the 2027 ICAP Forecast",
+        "filename": "2027_ICAP_V1a.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59729486/2027_ICAP_V1a.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-16",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Load-forecasting methodology and economic data for capacity planning inputs touch general demand projections but contain no provisions, rules, or strategic mechanisms affecting hydro revenue, obligations, or asset options.",
+        "screened_at": "2026-11-16 21:43:22",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Max Schuler",
+            "entity": "NYISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Audit and Finance Committee of the Board of Directors - November 19, 2026",
@@ -6875,6 +7791,85 @@
         "evidence": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "20261118 PAC Item 02a IPWG Status Report.pdf",
+        "filename": "20261118 PAC Item 02a IPWG Status Report.pdf",
+        "url": "https://cdn.misoenergy.org/20261118%20PAC%20Item%2002a%20IPWG%20Status%20Report796493.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-16",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses interconnection queue management and process improvements affecting all generators seeking grid access, including potential hydro and storage entrants navigating MISO's queue and distributed-generation plan.",
+        "screened_at": "2026-11-16 21:43:31",
+        "ai_summary": "MISO's Interconnection Process Working Group (IPWG) met on October 13, 2026, and reports to the Planning Advisory Committee. The group reviewed queue management issues and approved adding a standing agenda item on Continuous Queue Improvements. Stakeholders requested greater transparency in Affected Systems Studies timelines and flagged that the Queue Cap Dashboard had not been updated for several months prior to the DPP 2026 window closing, calling for automation of MISO tools to maintain reliability. Amanda Fong presented a DPP Schedule update noting MISO's proposal for a single restudy in Phase 3 of the DPP process; stakeholders inquired about impacts on deposit-holding periods. Gala Disasa reported on restudy-process implementation details to be reflected in updated Business Practices Manuals. Next IPWG meeting is scheduled for December 8, 2026. MISO also committed to addressing a stakeholder-raised issue regarding reactive-power dispatch settings applied uniformly across MISO South units in DPP 2022.",
+        "hydro_read_through": "Although the document does not mention hydropower or storage directly, interconnection queue transparency and timeliness matter to hydro entrants and storage developers. Improvements to Affected Systems Studies transparency, restudy scheduling clarity, and dashboard accuracy reduce delays and uncertainty in cost-allocation studies\u2014critical for large capital projects. The proposed single-restudy approach in Phase 3 and deposit-refund implications could affect project economics and financing timelines for hydro and PSH interconnection customers navigating MISO's distributed generation planning.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Next IPWG meeting scheduled for December 8, 2026",
+            "quote": "Next meeting date: December 8, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Last IPWG meeting was October 13, 2026",
+            "quote": "Last meeting date: October 13, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Queue Cap Dashboard had not been updated for several months prior to DPP 2026 window closing",
+            "quote": "Stakeholders also raised the issue of automating the Queue Cap Dashboard, as has not been updated for several months. In the run up to the DPP 2026 window closing, many Interconnection Customers relied on the Dashboard, unaware that it had not been updated.",
+            "verified": true
+          },
+          {
+            "claim": "Stakeholders requested standing agenda item on Continuous Queue Improvements",
+            "quote": "Stakeholders requested that an on-going action item be added to the Management Plan regarding Continuous Queue Improvements.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Fong",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Angela Maiko",
+            "entity": "MISO",
+            "role": "vice chair",
+            "email": null
+          },
+          {
+            "name": "Erin Murphy",
+            "entity": "MISO",
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "Gala Disasa",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Hannah Ford",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kyle Trotter",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -11142,12 +12137,89 @@
     "committee": "ISAC",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={479765AD-E65D-4724-BDCC-27E73F674F6F}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "ISAC (Independent System Administrator Committee) is a governance and stakeholder-oversight body; without an agenda showing specific market-design topics, a generic ISAC meeting agenda is unlikely to contain substantive detail on revenue, compliance, or strategic issues hydro operators monitor.",
     "meeting_screened_at": "2026-11-07 17:51:19",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20261116-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/state-commissions/isac/2026/20261116/20261116-agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20261116-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/state-commissions/isac/2026/20261116/20261116-agenda-doc.docx",
+        "member_url": null,
+        "posted_date": "2026-11-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "Draft Minutes \u2013 09142026",
+        "filename": "20261116-draft-minutes---09142026.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/state-commissions/isac/2026/20261116/20261116-draft-minutes---09142026.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-13",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "Item 2 \u2013 TEAC Update",
+        "filename": "20261116-item-2---teac-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/state-commissions/isac/2026/20261116/20261116-item-2---teac-update.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-13",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Resource Adequacy Modeling and Program Design (RAMPD): Track 5: MIC Enhancements",
@@ -11546,6 +12618,25 @@
         "url": "https://www.caiso.com/documents/presentation-storage-offer-format-market-surveillance-committee-nov-16-2026.pdf",
         "member_url": null,
         "posted_date": "2026-11-13",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Presentation - Default Energy Bid - Nov 16, 2026",
+        "filename": "presentation-default-energy-bid-nov-16-2026.pdf",
+        "url": "https://www.caiso.com/documents/presentation-default-energy-bid-nov-16-2026.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-16",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "screened_at": null,
@@ -12590,6 +13681,60 @@
             "entity": "NYISO",
             "role": "presenter",
             "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "6 DCR Process Improvements - Revised",
+        "filename": "DCR%20P&MI%20-%2011162026%20Draft%20v1.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59683276/DCR%20P&MI%20-%2011162026%20Draft%20v1.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-11",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "NYISO capacity-market demand-curve reset alters the accreditation and pricing framework that determines seasonal capacity revenue for all capacity resources, including conventional hydro and pumped-storage units subject to NYISO accreditation and participation.",
+        "screened_at": "2026-11-16 21:43:45",
+        "ai_summary": "NYISO proposes comprehensive revisions to the Installed Capacity (ICAP) demand curve design for the 2029\u20132033 reset period and beyond. The proposal introduces a kinked (multi-segment) demand curve replacing the current single straight-line structure, with four key pivot points: Max Clearing Point (125% of seasonal gross CONE at 60% of minimum requirement for NYCA/NYC, 50% for LI and G-J Locality), Level of Excess (calculated as the greater of 4-year average higher-demand impact or retained generation, with floor at proxy unit size and ceiling at largest supply contingency), Inflection Point (at 2x the LOE MW, priced at a DCR-determined percentage of net CONE for avoidable fixed costs), and Zero Crossing Point (112% NYCA, 118% G-J, 126% NYC, 132% LI, where demand curve reaches zero price). The proposal codifies the Max Clearing Point and Zero Crossing Point quantities in tariff prior to 2029\u20132033 DCR, with quantities and prices of LOE and Inflection Point to be determined during each reset. The document also proposes annual updates to financial parameters (cost of debt, risk-free rate, tax rate) and expansion of residual-value assessment scope. NYISO plans to return to the 12/2/2026 ICAPWG meeting for further discussion and targets stakeholder approval at the 12/9/2026 Business Issues Committee meeting.",
+        "hydro_read_through": "The document does not name hydropower or pumped-storage resources. However, the demand-curve reset directly affects capacity-accreditation and seasonal-capacity-revenue formation for all capacity resources, including conventional hydro and PSH units operating in NYISO. The kinked structure and new Level of Excess and Inflection Point parameters will alter the price signals hydro receives across different system conditions\u2014the multi-segment slope is designed to reflect differentiated reliability value as the system moves from tight to surplus conditions. For use-limited resources like conventional hydro and PSH (which must manage energy over a season), the shape and pivot points of the demand curve critically determine whether capacity revenue can sustain operation and investment; a flatter slope in some segments and steeper in others may change the revenue adequacy picture depending on when in the reset period (and under what hydrological conditions) the market clears. Hydro owners should monitor the final parameterization\u2014especially how LOE and Inflection Point are calculated from planning data and resource-retention decisions\u2014because those will set the capacity-accreditation framework for 2029\u20132033 onward.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Max Clearing Price 125% of seasonal gross CONE for 2029-2033 DCR",
+            "quote": "A maximum clearing price of 125% of gross CONE is intended to maintain sufficient protection against estimation uncertainty and support investment when the system is short",
+            "verified": true
+          },
+          {
+            "claim": "Max Clearing Price MW at 60% for NYCA and NYC; 50% in LI and G-J Locality for 2029-2033 DCR",
+            "quote": "the NYISO proposes that the maximum clearing price MW be set at 60% for NYCA and NYC and 50% in LI and the G-J Locality",
+            "verified": false
+          },
+          {
+            "claim": "Zero Crossing Point recommendations: NYCA 112%, G-J 118%, NYC 126%, LI 132%",
+            "quote": "The NYISO recommends the following ZCPs be implemented for the 2029-2033 DCR: Location Current ZCP NYISO Recommendation 112% NYCA 112% (floored at current ZCP) G-J 115% 118% NYC 118% 126% LI 118% 132%",
+            "verified": true
+          },
+          {
+            "claim": "NYISO targeting stakeholder approval at 12/9/2026 Business Issues Committee meeting",
+            "quote": "NYISO is targeting to seek stakeholder approval of the proposal at the 12/9/2026 Business Issues Committee (BIC) meeting.",
+            "verified": true
+          },
+          {
+            "claim": "Return to 12/2/2026 ICAPWG meeting for further discussion",
+            "quote": "The NYISO plans to return to the 12/2/2026 ICAPWG meeting to further discuss the proposal and associated draft tariff revisions.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Michael Ferrari",
+            "entity": "NYISO (CNRI)",
+            "role": "author, presenter",
+            "email": "mferrari@nyiso.com"
           }
         ]
       }
@@ -14092,6 +15237,71 @@
         ],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261116 LLWG Item 01d Management Plan",
+        "filename": "20261116 LLWG Item 01d Management Plan.pdf",
+        "url": "https://cdn.misoenergy.org/20261116%20LLWG%20Item%2001d%20Management%20Plan796361.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-16",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large Load Working Group is developing operational, interconnection, and resource adequacy rules (ride-through, PMU, ramp requirements, stability assessment, reserve products, telemetry) that apply to all dispatchable resources including hydropower facilities at MISO, affecting both compliance obligations and revenue from ancillary services and reliability products.",
+        "screened_at": "2026-11-16 21:43:55",
+        "ai_summary": "The Large Load Working Group (LLWG) Management Plan dated November 4, 2026 outlines the working group's charter, recurring tasks, and meeting schedule through Q4 2027. The plan identifies active issues under development including: Large Load Firm Service Step Up (LLWG-2026-1), Large Load Reserve Product Enhancements (LLWG-2026-2), Interconnection Reliability Requirements with stability assessment, PMU and ride-through requirements (LLWG-2026-3), telemetry and PMU requirements (LLWG-2026-4C), Conditional/Non-firm Transmission Service (LLWG-2026-5), Load Addition Resource Study (LLWG-2026-6), Large Load Application and Study Process (LLWG-2026-7), and Cost Shifting Risk Among Transmission Customers (LLWG-2026-8). Key deliverables and decision points are scheduled through November 2026 and into 2027, with final tariff redlines and BPM updates due October 29, 2026 and November 16, 2026 respectively.",
+        "hydro_read_through": "The LLWG is developing operational reliability rules (PMU requirements, ride-through standards, ramp requirements, stability assessments, telemetry) that would apply to conventional hydropower as a dispatchable resource in MISO's footprint, directly affecting hydropower owners' compliance obligations and operating costs. The reserve product enhancements and transmission-service frameworks may also reshape how hydropower bids flexibility and ancillary services. While the document frames these as \"large load\" issues, the underlying BPM and operational standards would govern all dispatchable generators meeting the connection requirements.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance",
+          "interconnection",
+          "ancillary-services"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "November 16 (afternoon) meeting with BPM-033 PMU Requirements, Ride Through Requirement, and Ramp Requirements review",
+            "quote": "November 16 (afternoon)\n Review response to Large Load show cause order\n  Large Load Reserve Product Enhancements (LLWG-2026-2)\n BPM-033 PMU Requirements (Section 8) (LLWG-2026-3) \n BPM-033 Ride Through Requirement (LLWG-2026-3) \n BPM-033 Ramp Requirements (Section 10) (LLWG-2026-3)",
+            "verified": false
+          },
+          {
+            "claim": "October 29, 2026 scheduled for final tariff redlines and BPM updates",
+            "quote": "October 29\n  Large Load Firm Service Step Up (LLWG-2026-1) BPM\n Conditional/Non-firm Transmission Service (LLWG-2026-5) Final Tariff Redlines \n  Large Load Application and Study Process (LLWG-2026-7)\n Cost Shifting Risk Among Transmission Customers (LLWG-2026-8)\n  BPM-033 Redlines\n BPM-020 Redlines",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Jones",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Chris Plante",
+            "entity": "MISO",
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "Eileen King",
+            "entity": "MISO",
+            "role": "stakeholder relations",
+            "email": null
+          },
+          {
+            "name": "Marc Keyser",
+            "entity": "MISO",
+            "role": "miso liaison",
+            "email": null
+          },
+          {
+            "name": "Werner Roth",
+            "entity": "MISO",
+            "role": "vice chair",
+            "email": null
+          }
+        ]
       }
     ]
   },
@@ -21424,6 +22634,25 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "vote",
+        "title": "Final Motions",
+        "filename": "111026%20bic%20final%20motions.pdf",
+        "url": "https://www.nyiso.com/documents/20142/59606410/111026%20bic%20final%20motions.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-16",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -79173,7 +80402,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-13 19:15:29",
+    "meeting_screened_at": "2026-11-16 21:18:47",
     "issues": [],
     "documents": [
       {
@@ -85468,7 +86697,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-13 19:15:50",
+    "meeting_screened_at": "2026-11-16 21:19:08",
     "issues": [],
     "documents": [
       {
@@ -99545,6 +100774,16 @@
         "committee_owner": null,
         "is_open": 1,
         "url": "https://www.iso-ne.com/committees/key-projects/order-no-2023-key-project"
+      },
+      {
+        "rto": "ISO-NE",
+        "native_id": "transmission-right-sizing-key-project",
+        "canonical_name": "Transmission Right-Sizing",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/transmission-right-sizing-key-project"
       }
     ],
     "documents": [
@@ -99728,6 +100967,16 @@
             "committee_owner": null,
             "is_open": 1,
             "url": "https://www.iso-ne.com/committees/key-projects/order-no-2023-key-project"
+          },
+          {
+            "rto": "ISO-NE",
+            "native_id": "transmission-right-sizing-key-project",
+            "canonical_name": "Transmission Right-Sizing",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/transmission-right-sizing-key-project"
           }
         ],
         "stakeholders": []
@@ -107690,7 +108939,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-13 19:16:12",
+    "meeting_screened_at": "2026-11-16 21:19:29",
     "issues": [],
     "documents": [
       {
