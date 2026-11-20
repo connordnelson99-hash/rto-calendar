@@ -345,6 +345,21 @@
     "documents": []
   },
   {
+    "title": "Markets+ Participant Executive Committee Meeting 20261204",
+    "date": "2026-12-04",
+    "time": "11:00 AM - 1:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Participant Executive Committee",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-participant-executive-committee-meeting-20261204/",
+    "materials_url": "https://www.spp.org/calendar-list/marketsplus-participant-executive-committee-meeting-20261204/",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Markets+ is a proposed Western multi-state RTO co-led by SPP addressing market seams, regional energy adequacy, transmission planning, and resource-dispatch coordination\u2014a governance and market-design topic directly relevant to NHA members evaluating RTO participation choices and market-design harmonization across the West alongside WEIM and EDAM.",
+    "meeting_screened_at": "2026-11-20 19:52:25",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MGHGTF Net Conference",
     "date": "2026-12-03",
     "time": "11:00 AM - 3:00 PM CT",
@@ -1568,6 +1583,25 @@
         "evidence": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "Examples for Opt In and Opt Out Resources and Bid Cost Recovery",
+        "filename": "examples-for-opt-in-and-opt-out-resources-and-bid-cost-recovery.xlsx",
+        "url": "https://www.caiso.com/documents/examples-for-opt-in-and-opt-out-resources-and-bid-cost-recovery.xlsx",
+        "member_url": null,
+        "posted_date": "2026-11-20",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -1589,7 +1623,7 @@
   {
     "title": "Planning Committee Meeting",
     "date": "2026-12-01",
-    "time": "9:00 a.m. - 12:00 p.m.",
+    "time": "11:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "Planning Committee",
     "source_url": "https://www.pjm.com/calendar",
@@ -1609,12 +1643,226 @@
     "committee": "Transmission Expansion Advisory Committee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={646BCDDD-6541-4527-88DE-7D842F29F67D}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Transmission expansion planning directly affects hydro deliverability, interregional transfer capability, and storage-as-transmission alternatives\u2014all key to NHA members' strategic options and revenue realization in PJM and adjacent markets.",
     "meeting_screened_at": "2026-11-15 18:36:41",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "presentation",
+        "title": "Item 02 \u2013 Jcpl Supplemental Projects \u2013 Presentation",
+        "filename": "20261201-item-02---jcpl-supplemental-projects---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20261201/20261201-item-02---jcpl-supplemental-projects---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-20",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document describes equipment replacement and substation condition assessment at a specific PJM transmission facility; it contains no rules, market-design changes, pricing mechanisms, or compliance obligations that would affect hydropower or pumped-storage revenue, dispatch, or operational strategy.",
+        "screened_at": "2026-11-20 19:52:28",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 03 \u2013 Aep Supplemental Projects \u2013 Presentation",
+        "filename": "20261201-item-03---aep-supplemental-projects---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20261201/20261201-item-03---aep-supplemental-projects---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document presents AEP's supplemental transmission projects, many driven by large new customer loads (data centers 852 MW, 1000\u20131200 MW industrial loads) requiring major transmission expansion; load growth directly increases scarcity and thus hydro revenue, and transmission-system upgrades that relieve bottlenecks improve all resources' deliverability and revenue opportunities.",
+        "screened_at": "2026-11-20 19:52:43",
+        "ai_summary": "AEP presented to PJM's Transmission Expansion Advisory Committee (TEAC) on December 1, 2026, a slate of supplemental transmission projects spanning nine M-3 process needs. Projects driven by customer service include new facilities in Virginia (1000 MW by 10/2030), West Virginia (1080 MW by 2/2029 and 1200 MW by 9/2029), Indiana (852 MW data center by 7/2029), Kentucky (1000 MW by Q4 2028), and Ohio (500\u20131300 MW loads between 12/2028 and Q3 2031). Equipment-condition projects include replacement of four 765 kV circuit breakers at Flatlick station (estimated cost $30.239 M, in-service 11/12/2029) and rebuild of a 345 kV line in northwest Ohio (estimated cost $607.548 M, in-service 09/26/2031). The largest single project is the northwest Ohio 345 kV customer delivery and system reinforcements coordinating five customer needs, with total transmission cost estimate of $607.548 M. Stakeholders must submit comments within 10 days of the meeting to inform the next phase of the M-3 process.",
+        "hydro_read_through": "The document does not mention hydro or pumped storage directly. However, it documents one of the largest regional load growths in PJM: approximately 2.3 GW of new large-load capacity (primarily data centers and industrial customers) entering the AEP zone by 2031. This load growth\u2014especially concentrated, uninterruptible data-center demand\u2014will create sustained scarcity rents and high locational marginal prices at AEP delivery points, raising the value of every MW of existing hydro generation in and around AEP's footprint. The corresponding transmission expansions (new 765 kV and 345 kV stations, line extensions, reinforcements) also reduce delivery constraints and improve the operational flexibility and revenue-stacking opportunities for existing generation, including synchronous conventional hydro if any is present in the zone. For hydro owners with resources downstream of these bottlenecks, completed transmission expansion removes a cap on their market participation.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "transmission",
+          "capacity-ra"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "Red Arrow customer requesting 1000 MW in Carroll County, Virginia by 10/2030",
+            "quote": "A customer has requested new service for 1000 MW in Carroll County, Virginia by 10/2030.\n\u2022 Initial Load: 10 MW, Expected Date: 10/2029\n\u2022 Total Load: 1,000 MW, Expected Date: 10/2030",
+            "verified": true
+          },
+          {
+            "claim": "Tamarack customer requesting 1080 MW in Mason County, West Virginia by 2/2029",
+            "quote": "A customer has requested new service for 1080 MW in Mason County, West Virginia by 2/2029.\n\u2022 Initial Load: 96 MW, Expected Date: 02/2029\n\u2022 Total Load: 1,080 MW, Expected Date: 09/2031",
+            "verified": true
+          },
+          {
+            "claim": "Project Nutella data center 852 MW in Granger, Indiana by 7/2029",
+            "quote": "A customer has requested new service for a 852MW data center in the Granger, IN area. Requested in service date: 300MW by 12/31/2027, 852MW by 7/31/2029",
+            "verified": true
+          },
+          {
+            "claim": "Venator Station 1000 MW in Boyd County, Kentucky by Q4 2028",
+            "quote": "A customer has request new service for 1000 MW in Boyd County, Kentucky by Q4 of 2028.",
+            "verified": true
+          },
+          {
+            "claim": "Project Avalon 1200 MW in Putnam County, West Virginia by 9/2029",
+            "quote": "A customer has requested new service for 1200 MW in Putnam County, West Virginia by 9/2029.",
+            "verified": true
+          },
+          {
+            "claim": "Northwest Ohio loads totaling approximately 2.3 GW between 12/2028 and Q3 2031",
+            "quote": "to support the proposed total demand of approximately 2.3 GW in the NW OH area",
+            "verified": true
+          },
+          {
+            "claim": "Flatlick Breaker Replacement $30.239 M in-service 11/12/2029",
+            "quote": "Transmission Cost Estimate: $30.239 M\nProjected In-Service: 11/12/2029",
+            "verified": true
+          },
+          {
+            "claim": "Northwest Ohio 345 kV transmission cost $607.548 M in-service 09/26/2031",
+            "quote": "Transmission Cost Estimate: $607.548 M\nProjected In-Service: 09/26/2031",
+            "verified": true
+          },
+          {
+            "claim": "10-day comment deadline after TEAC meeting on 12/01/2026",
+            "quote": "Stakeholders must submit any comments within 10 days of this meeting in order to provide time\nnecessary to consider these comments prior to the next phase of the M-3 process",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04 \u2013 EKPC Supplemental Projects \u2013 Presentation",
+        "filename": "20261201-item-04---ekpc-supplemental-projects---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20261201/20261201-item-04---ekpc-supplemental-projects---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large-load interconnection (data-center or industrial customer) in a transmission zone triggers transmission planning and resource-adequacy implications for existing hydro deliverability and scarcity pricing upside.",
+        "screened_at": "2026-11-20 19:52:53",
+        "ai_summary": "EKPC (East Kentucky Power Cooperative) presented a supplemental transmission project to PJM's Transmission Expansion Advisory Committee (TEAC) on December 1, 2026, driven by a new customer service need in Carroll County, Kentucky. The customer has requested transmission service with a ramp schedule: 7 MW by December 2028, 170 MW by June 2029, 330 MW by June 2030, 620 MW by June 2031, and 720 MW by June 2032. The project is in the \"Need Meeting\" stage of the M-3 transmission-planning process. Stakeholders must submit comments on the need within 10 days of the meeting. The document outlines the M-3 process timeline, which includes Needs, Solutions, and Supplemental Projects phases, with subsequent local-plan submission to PJM's RTEP (Regional Transmission Expansion Plan) following completion of a \"Do No Harm\" analysis and stakeholder comment periods.",
+        "hydro_read_through": "The document does not mention hydropower or hydro resources. However, the project involves a large customer-driven transmission expansion in PJM, adding up to 720 MW of load by 2032. Such expansions can alter transmission congestion patterns and regional scarcity conditions; whether the project requires new transmission corridors or reinforces existing hydro export paths will shape locational price signals and the value of hydro's ability to ramp to meet sudden load growth in adjacent zones. The 10-day comment deadline also signals hydro owners' opportunity to engage in TEAC's supplemental project review before the Solutions phase solidifies design options.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "transmission",
+          "interconnection"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "New customer service request in Carroll County, Kentucky",
+            "quote": "A new customer has requested transmission service in Carroll County, KY.",
+            "verified": true
+          },
+          {
+            "claim": "Load ramp schedule: 7 MW by December 2028, 170 MW by June 2029, 330 MW by June 2030, 620 MW by June 2031, 720 MW by June 2032",
+            "quote": "The initial load is expected to be 7 MW in 12/21/2028 with a load ramp schedule as follows:\n170 MW by 6/2029\n330 MW by 6/2030\n620 MW by 6/2031\n720 MW by 6/2032",
+            "verified": true
+          },
+          {
+            "claim": "Stakeholder comment deadline: 10 days after the December 1, 2026 meeting",
+            "quote": "Stakeholders must submit any comments within 10 days of this meeting in order to provide time necessary to consider these comments prior to the next phase of the M-3 process",
+            "verified": true
+          },
+          {
+            "claim": "Project is at Need Meeting stage of M-3 process",
+            "quote": "Process Stage: Need Meeting TEAC - 12/01/2026",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 05 \u2013 PPL Supplemental Projects \u2013 Presentation",
+        "filename": "20261201-item-05---ppl-supplemental-projects---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20261201/20261201-item-05---ppl-supplemental-projects---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Large-load customer interconnection and transmission expansion in PJM affects deliverability of existing and future generation resources, including hydropower; load-growth-driven transmission scarcity is a strategic-option lever for hydro revenue.",
+        "screened_at": "2026-11-20 19:53:04",
+        "ai_summary": "PJM's Transmission Expansion Advisory Committee reviewed three customer-driven transmission projects in the PPL transmission zone on 2026-12-01. Moore's Hill (PPL-2026-0058) addresses a 600 MW facility request near Berwick, PA, with 300 MW in-service by 09/2029 and full 600 MW by 09/2030. Tamarack 500-230kV Substation (PPL-2026-0056) is a $486 M solution to serve an additional 700 MW of load with projected in-service 05/30/2031, including new switchyards, a ~25-mile 500kV line, transformers, and reactive-power equipment. Elimsport 230kV Lines (PPL-2026-0031) is a $158.5M-$169.5M project to deliver 300 MW of load from Allenwood, PA, with phased in-service starting 05/30/2029. All three are customer-service-driven additions to PJM's M-3 transmission-planning process; stakeholders must submit comments within 10 days following the 2026-12-01 meeting.",
+        "hydro_read_through": "This document does not mention hydropower or storage resources. However, three large customer loads of 600 MW, 700 MW, and 300 MW queuing for PJM interconnection signal material load growth in the PPL zone, which typically increases scarcity rents and peak energy prices in constrained corridors \u2014 hydro operators with capacity to reach these loads or the nodes they will stress stand to capture higher revenues. The transmission solutions proposed (new 500kV lines, expanded switchyards, reactive-power equipment) suggest PJM's planners foresee transmission-congestion pressure in that zone; this creates both near-term export opportunity for existing generation and long-term interregional-transfer limitation risk. Hydro owners should monitor whether these projects proceed and whether they alter feasible flowpaths and nodal locational margins.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "transmission"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "Moore's Hill: 300 MW in-service 09/2029, 600 MW by 09/2030",
+            "quote": "Initial Load: 300 MW, Expected Date: 09/2029\n\u2022 Total Load: 600 MW, Expected Date: 09/2030",
+            "verified": true
+          },
+          {
+            "claim": "Tamarack project $486 M cost, in-service 05/30/2031",
+            "quote": "Transmission Cost Estimate: $486 M\nProjected In-Service: 05/30/2031",
+            "verified": true
+          },
+          {
+            "claim": "Elimsport project $158.5M\u2013$169.5M cost, in-service 05/30/2029",
+            "quote": "Transmission Cost Estimate: $158.5M $169.5 M\nProjected In-Service: 05/30/2029",
+            "verified": true
+          },
+          {
+            "claim": "10-day stakeholder comment deadline after 2026-12-01 meeting",
+            "quote": "Stakeholders must submit any comments within 10 days of this meeting in order to provide time necessary to consider these comments prior to the next phase of the M-3 process",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 06 \u2013 Peco Supplemental Projects Presentation",
+        "filename": "20261201-item-06---peco-supplemental-projects-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20261201/20261201-item-06---peco-supplemental-projects-presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-20",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document addresses transmission infrastructure replacement and upgrades in PJM's PECO zone \u2014 equipment condition, circuit-breaker ratings, and line rebuilds \u2014 with no bearing on hydro or PSH revenue formation, participation rules, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-20 19:53:06",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "presentation",
+        "title": "Item 07 \u2013 DOM Supplemental Projects \u2013 Presentation",
+        "filename": "20261201-item-07---dom-supplemental-projects---presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2026/20261201/20261201-item-07---dom-supplemental-projects---presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-20",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document addresses transmission infrastructure replacement and local load-growth interconnection needs in Dominion's planning zone\u2014standard utility transmission planning content with no bearing on hydro revenue formation, storage participation, ancillary-service accreditation, capacity markets, rate design, or any mechanism that would change a hydro or PSH owner's market position, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-20 19:53:10",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Electric System Planning Working Group",
@@ -2037,12 +2285,394 @@
     "committee": "Load Analysis Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={FCC69B73-649B-4762-8044-6EA387F341A8}",
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Load Analysis Subcommittee meetings in PJM may address load growth, large-load interconnections, and resource adequacy/scarcity signals that directly affect hydro revenue and strategic positioning in capacity and energy markets.",
     "meeting_screened_at": "2026-11-08 18:06:03",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda",
+        "filename": "20261124-agenda.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261124/20261124-agenda.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This agenda addresses data-center load forecasting and large-load adjustments that will be incorporated into PJM's 2027 resource-adequacy and capacity-planning baseline \u2014 a core strategic input affecting scarcity pricing, capacity-market demand curves, and the revenue environment for all dispatchable resources including hydropower.",
+        "screened_at": "2026-11-20 19:53:19",
+        "ai_summary": "The Load Analysis Subcommittee will meet on November 24, 2026, to review PJM's data-center large-load adjustment submissions and forecast methodology for the 2027 Load Forecast. Charles River Associates will present a third-party review of the data-center forecast adjustments (presenters: Margarita Patria and Michael May); PJM staff (Molly Mooney) will provide updates on PJM's internal review of the data-center large-load adjustments for 2027. Emily Boyd (PJM) will also review loads and model results from Summer 2026. An updated S&P Global presentation on Illinois behind-the-meter battery (BESS) outlook will be posted with materials (author: Andy Hevey).",
+        "hydro_read_through": "Data-center load forecasts drive PJM's resource-adequacy baseline and capacity-market demand curves, which in turn set the scarcity pricing and accreditation environment for all capacity resources including hydropower. Faster-than-anticipated large-load growth (as flagged by the S&P update on rebate-driven BESS adoption) will raise peak and shoulder-hour demand, increasing the revenue value of dispatchable capacity and energy; conversely, behind-the-meter solar and storage adoption by large loads could reduce grid export opportunities and alter the temporal pattern of real-time needs. The 2027 load forecast incorporating these adjustments will anchor PJM's capacity-market parameters and operating-reserve requirements for the year ahead.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Meeting on November 24, 2026",
+            "quote": "November 24th, 2026\n9:00 a.m. \u2013 4:00 p.m. EPT",
+            "verified": true
+          },
+          {
+            "claim": "2027 Load Forecast review",
+            "quote": "PJM Preliminary Large Load Adjustments 2027 Load Forecast Review",
+            "verified": true
+          },
+          {
+            "claim": "Summer 2026 review of loads and model results",
+            "quote": "Summer 2026 Review\nEmily Boyd, PJM, will review loads and model results from Summer 2026",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Andy Hevey",
+            "entity": null,
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Margarita Patria",
+            "entity": "Charles River Associates",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Michael May",
+            "entity": "Charles River Associates",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Emily Boyd",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Molly Mooney",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "Agenda Doc",
+        "filename": "20261124-agenda-doc.docx",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261124/20261124-agenda-doc.docx",
+        "member_url": null,
+        "posted_date": "2026-11-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This Load Analysis Subcommittee agenda addresses data-center large-load forecasting and adjustments for PJM's 2027 load forecast, which directly touches hydro's strategic option to serve co-located load and benefit from load-growth scarcity signals that raise the value of existing capacity.",
+        "screened_at": "2026-11-20 19:53:27",
+        "ai_summary": "PJM's Load Analysis Subcommittee met on November 24, 2026, to review data-center forecasting methodology and large-load adjustments for the 2027 load forecast. Charles River Associates presented a third-party review of data center large load adjustment submissions and forecast methodology (presenters: Margarita Patria and Michael May). PJM staff (Molly Mooney) provided an update on PJM's review of data center large load adjustment forecasts for 2027. Emily Boyd, PJM, reviewed loads and model results from Summer 2026. An informational posting from S&P Global on Illinois behind-the-meter battery (BTM BESS) outlook reflecting faster-than-anticipated market response to new rebate incentives was included in materials (posted by Andy Hevey).",
+        "hydro_read_through": "The document does not directly mention hydropower or pumped storage. However, PJM's incorporation of large data-center load forecasts into resource-adequacy planning affects how much scarcity rent and peak-capacity value will be available to existing hydro resources over the planning horizon. Load-growth adjustments in the annual forecast determine reserve-margin studies and capacity-accreditation baselines; faster-than-expected load additions (particularly at large co-located facilities) would tighten the reserve margin and increase the opportunity-cost value of dispatchable generation, including conventional hydro and PSH during peak and scarcity windows.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "November 24, 2026 meeting",
+            "quote": "November 24th, 2026",
+            "verified": true
+          },
+          {
+            "claim": "2027 Load Forecast review",
+            "quote": "PJM Preliminary Large Load Adjustments 2027 Load Forecast Review",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Andy Hevey",
+            "entity": null,
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Margarita Patria",
+            "entity": "Charles River Associates",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Michael May",
+            "entity": "Charles River Associates",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Emily Boyd",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Molly Mooney",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "Item 02 \u2013 Draft Minutes \u2013 LAS \u2013 110226",
+        "filename": "20261124-item-02---draft-minutes---las---110226.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261124/20261124-item-02---draft-minutes---las---110226.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses data-center load forecasting methodology for PJM, which is a strategic option that affects the value and dispatch utilization of existing hydro capacity through demand growth and scarcity pricing signals.",
+        "screened_at": "2026-11-20 19:53:35",
+        "ai_summary": "PJM's Load Analysis Subcommittee met on November 2, 2026, to review a third-party assessment by Charles River Associates of PJM's data-center large-load adjustment submissions and data-center forecast methodology. The minutes do not elaborate on the findings or recommendations; the document records meeting administration, attendance, and future meeting dates (next meeting 11/24/2026). This is a planning reference supporting PJM's load-growth outlook.",
+        "hydro_read_through": "The document does not mention hydro or its role. PJM's data-center load forecasting feeds resource-adequacy and scarcity-pricing studies; faster-than-baseline load growth from large industrial loads increases the marginal value of existing dispatchable generation, including hydropower, by raising both peak-hour scarcity rents and the probability of binding energy-market constraints. Accuracy of data-center forecasts therefore affects the revenue trajectory hydro owners rely on when modeling long-term asset value.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "Next meeting date: November 24, 2026, 9:00 a.m. to 4:00 p.m. EPT, with materials due November 17, 2026, and published November 19, 2026.",
+            "quote": "11/24/2026 9:00-4:00 Teleconference / WebEx 11/17/2026 11/19/2026",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Margarita Patria",
+            "entity": "Charles River Associates",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Michael May",
+            "entity": "Charles River Associates",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Andy Hevey",
+            "entity": "PJM Interconnection",
+            "role": "author",
+            "email": null
+          },
+          {
+            "name": "Dean Manno",
+            "entity": "PJM Interconnection",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 03 \u2013 Charles River Associates Review Of Data Center Forecast",
+        "filename": "20261124-item-03---charles-river-associates-review-of-data-center-forecast.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261124/20261124-item-03---charles-river-associates-review-of-data-center-forecast.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Data-center load growth creates scarcity and raises demand on the transmission and generation systems, which increases the strategic value of existing hydropower resources and informs capacity and resource-adequacy planning\u2014both critical to hydro owners' long-term revenue.",
+        "screened_at": "2026-11-20 19:53:46",
+        "ai_summary": "Charles River Associates (CRA) presented a forecast of data-center demand growth across the PJM region through 2046, based on a bottom-up assessment of EDC/LSE pipeline submissions and a top-down reconciliation with PJM's load forecast. The study projects data-center demand to grow from 11.6 GW today to 49.3 GW by 2032, with uncertainty spanning 17.6 GW by 2046 (p2.5\u2013p97.5 confidence band). The forecast uses tiered risk assessment (Tier 1\u20134) based on contractual maturity and permitting status; nearly all large projects are concentrated in AEP, with significant clusters expected in up to eight PJM zones by 2032. CRA's probability-adjusted forecasts account for local moratoriums, permitting delays, and project materialization risk via Monte Carlo simulation (N=2,000 runs per year).",
+        "hydro_read_through": "This document does not mention hydro or storage. However, the forecast establishes the demand-side input to PJM's resource-adequacy and transmission-planning studies, which determine whether capacity markets will be tight or loose and whether transmission constraints will raise scarcity prices. A sustained 49+ GW data-center load by 2032 implies sustained high peak-hour and shoulder-hour scarcity in many zones, which would significantly increase both energy-price realizations and ancillary-service revenues for dispatchable resources; hydro's ability to ramp and respond to load variation makes it a primary beneficiary of load-growth scarcity and a hedge against demand-side investment risk.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "capacity-ra",
+          "transmission"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "Data-center demand projected to grow from 11.6 GW today to 49.3 GW by 2032, with uncertainty spanning 17.6 GW by 2046",
+            "quote": "Demand implied by the current project pipeline grows from 11.6 GW today to 49.3 GW by 2032, with uncertainty spanning 17.6 GW by 2046",
+            "verified": true
+          },
+          {
+            "claim": "Simulated 2032 demand: p2.5=44.7 GW, mean=49.3 GW, p97.5=53.6 GW",
+            "quote": "\u2013 2032: (44.7, 49.3, 53.6)",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Allen Hu",
+            "entity": "Charles River Associates",
+            "role": "modeling and forecasting support (top-down)",
+            "email": null
+          },
+          {
+            "name": "Margarita Patria",
+            "entity": "Charles River Associates",
+            "role": "project director",
+            "email": null
+          },
+          {
+            "name": "Michael May",
+            "entity": "Charles River Associates",
+            "role": "modeling and forecasting lead",
+            "email": null
+          },
+          {
+            "name": "Nyah Spearman",
+            "entity": "Charles River Associates",
+            "role": "modeling and forecasting support (top-down)",
+            "email": null
+          },
+          {
+            "name": "Oliver Stove",
+            "entity": "Charles River Associates",
+            "role": "technical director",
+            "email": null
+          },
+          {
+            "name": "Tayler Amatto",
+            "entity": "Charles River Associates",
+            "role": "project manager and bottom-up workstream lead",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "Item 04 \u2013 PJM Preliminary Large Load Adjustments 2027 Load Forecast",
+        "filename": "20261124-item-04---pjm-preliminary-large-load-adjustments-2027-load-forecast.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261124/20261124-item-04---pjm-preliminary-large-load-adjustments-2027-load-forecast.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "PJM's load forecast adjustment process directly affects transmission capacity planning and resource adequacy assessments that determine reserve margins and scarcity conditions affecting hydro revenue and dispatch strategy.",
+        "screened_at": "2026-11-20 19:53:58",
+        "ai_summary": "PJM presented preliminary large-load adjustments for the 2027 load forecast at its Load Analysis Subcommittee meeting on November 24, 2026. The document describes the methodology for evaluating data-center and large industrial load requests submitted by PJM's distribution companies and load-serving entities (EDCs/LSEs), categorizing them as Firm (projects with Electric Service Obligation or Construction Commitment) or Nonfirm, and applying industry-characteristic adjustments (3-year ramp periods, 70% utilization targets). PJM compared submissions against Charles River Associates' third-party probabilistic analysis and uncertainty bands. Results are presented by EDC/LSE across the 2027\u20132032 timeframe, with final 2027 Load Forecast scheduled for publication by January 15, 2027, and a final Load Analysis Subcommittee review on January 26, 2027. Manual 19 Attachment B compliance submissions from large-load requesters are due January 8, 2027.",
+        "hydro_read_through": "This document does not mention hydro. However, the load forecast directly shapes PJM's reserve-margin analysis and transmission planning, both of which determine the scarcity conditions and peak-availability windows where hydro's energy and flexibility generate value. A materially higher data-center load ramp than PJM's 2026 forecast would increase peak-load forecasts and potentially tighten summer reserve margins, raising the opportunity cost of storage, the value of dispatch flexibility, and accreditation for seasonal capacity. Conversely, if data centers ramp slower or lower than past estimates, reserve margins relax and hydro's scarcity revenue falls. The methodology and results here set the baseline capacity-need assumption for PJM's 2027 resource-adequacy and planning cycle.",
+        "source_names_hydro": false,
+        "topics": [
+          "load-growth",
+          "capacity-ra",
+          "transmission"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "PJM Preliminary Large Load Adjustments 2027 Load Forecast presentation to Load Analysis Subcommittee on November 24, 2026",
+            "quote": "PJM Preliminary Large Load Adjustments\n2027 Load Forecast\nMolly Mooney\nLoad Analysis Subcommittee\nNovember 24, 2026",
+            "verified": true
+          },
+          {
+            "claim": "Final 2027 Load Forecast scheduled for January 15, 2027 publication",
+            "quote": "2027 Load Forecast posting by January 15, 2027 (including tables,\nsupplement)",
+            "verified": true
+          },
+          {
+            "claim": "Large-load adjustment submitter compliance deadline of January 8, 2027",
+            "quote": "As required by Manual 19 Attachment B: Large Load Adjustment\nsubmitters provide document by January 8, 2027",
+            "verified": true
+          },
+          {
+            "claim": "Final Load Analysis Subcommittee meeting to review forecast on January 26, 2027",
+            "quote": "LAS meeting to review CRA report and final 2027 Load Forecast on\nJanuary 26, 2027",
+            "verified": true
+          },
+          {
+            "claim": "Firm projects extended to 3-year ramp, with 70% utilization applied by year 4",
+            "quote": "By year 4, data centers on average are at 50-70% utilization. Selected 70%.",
+            "verified": true
+          },
+          {
+            "claim": "2026 methodology used 3-year ramp and 70% utilization",
+            "quote": "2026 Load Forecast\n\u2013 Conversations in first half of 2025 settled on 3-yr ramp and 70% as a reasonable\nstarting point for default parameters",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Molly Mooney",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Molly.Mooney@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Item 05 \u2013 Review Of Preliminary Summer 2026 Loads",
+        "filename": "20261124-item-05---review-of-preliminary-summer-2026-loads.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261124/20261124-item-05---review-of-preliminary-summer-2026-loads.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document reports preliminary summer 2026 load forecasts and peak-load tracking data for PJM; it contains no market-design mechanisms, revenue rules, compliance obligations, or strategic options affecting hydropower or pumped-storage owners.",
+        "screened_at": "2026-11-20 19:54:01",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Emily Boyd",
+            "entity": "PJM",
+            "role": "author",
+            "email": "Emily.Boyd@pjm.com"
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "Reference Informational Item \u2013 Spglobal Btm Solar Storage Forecast Update",
+        "filename": "20261124-reference-informational-item---spglobal-btm-solar-storage-forecast-update.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20261124/20261124-reference-informational-item---spglobal-btm-solar-storage-forecast-update.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a behind-the-meter solar and battery capacity forecast for PJM territory prepared by S&P Global; it tracks distributed-solar and residential/C&I battery deployment trends under different policy scenarios but does not address hydropower revenue, compliance obligations, or strategic options\u2014and storage rules examined here apply only to batteries and rooftop solar, not to pumped-storage hydro or conventional hydro participation in wholesale markets.",
+        "screened_at": "2026-11-20 19:54:05",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": true,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Christopher Wilfong",
+            "entity": "S&P Global Energy",
+            "role": "author",
+            "email": "Christopher.Wilfong@spglobal.com"
+          },
+          {
+            "name": "Isabel Canales",
+            "entity": "S&P Global Energy",
+            "role": "author",
+            "email": "Isabel.canales@spglobal.com"
+          },
+          {
+            "name": "Ivonne Pena Cabra",
+            "entity": "S&P Global Energy",
+            "role": "author",
+            "email": "Ivonne.pena.cabra@spglobal.com"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Steering Committee (SC) - November 24, 2026",
@@ -2471,7 +3101,55 @@
     "meeting_hydro_reason": "Interconnection queue reform, surplus interconnection service, uprates, and deliverability rules directly affect hydropower developers' ability to interconnect new capacity and upgrade existing plants, and CAISO's queue-management practices are actively scrutinized by NHA members.",
     "meeting_screened_at": "2026-11-09 22:35:08",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Agenda - Interconnection Customer User Group - Nov 24, 2026",
+        "filename": "agenda-interconnection-customer-user-group-nov-24-2026.pdf",
+        "url": "https://www.caiso.com/documents/agenda-interconnection-customer-user-group-nov-24-2026.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Interconnection queue reform, deliverability rules, and RIS (Renewable Integration System) withdrawal penalties directly affect hydro owners' ability to advance and operate projects through CAISO's interconnection process and their compliance obligations thereafter.",
+        "screened_at": "2026-11-20 19:54:12",
+        "ai_summary": "CAISO Interconnection Customer User Group meeting on November 24, 2026, will address five agenda items: (1) ICUG meeting documentation and information access (Gridwell); (2) WECC Unapproved Model Update Requirements for pre-COD queue projects; (3) Intra-Cluster Prioritization; (4) Interconnection Process Enhancements 5.0+ Filing; and (5) RIS Withdrawal Penalties. The meeting will be held Nov 24, 2026 and is open to the public.",
+        "hydro_read_through": "The document does not mention hydro directly. However, three of the five agenda items bear on hydro owners' interconnection obligations and strategic options: Intra-Cluster Prioritization and Interconnection Process Enhancements affect queue reform and project advancement timing (critical for new hydro and PSH capacity); WECC model update requirements constrain pre-COD study and operational planning; and RIS Withdrawal Penalties create a compliance cost or strategic constraint on queue withdrawal decisions that existing and new hydro projects must navigate.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "CAISO Interconnection Customer User Group meeting on November 24, 2026",
+            "quote": "Interconnection Customer User Group 11/24/26 Agenda",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "CAISO",
+            "entity": "CAISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Gridwell",
+            "entity": "Gridwell",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "LSA",
+            "entity": "LSA",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Storage Design and Modeling",
@@ -2590,7 +3268,7 @@
   {
     "title": "Interconnection Process Subcommittee Meeting",
     "date": "2026-11-23",
-    "time": "2:00 p.m. - 2:45 p.m.",
+    "time": "9:00 a.m. - 12:00 p.m.",
     "rto": "PJM",
     "committee": "Interconnection Process Subcommittee",
     "source_url": "https://www.pjm.com/calendar",
@@ -4497,6 +5175,111 @@
           {
             "name": "Mark Henry",
             "entity": "TRE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "7. ERCOT IBRWG Industry Updates 11-17-2026",
+        "filename": "ERCOT_IBRWG_Industry_Updates_11172026.pptx",
+        "url": "https://www.ercot.com/files/docs/2026/11/20/ERCOT_IBRWG_Industry_Updates_11172026.pptx",
+        "member_url": null,
+        "posted_date": "2026-11-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Interconnection standards and requirements for inverter-based resources (IBRs) set precedent for how storage and distributed resources will be evaluated, modeled, and tested in queue processes that affect hydro deliverability and storage participation pathways.",
+        "screened_at": "2026-11-20 19:54:25",
+        "ai_summary": "ERCOT's Inverter-Based Resource Working Group presented updates on DOE-supported i2X initiatives focused on interconnection study harmonization and IBR standards implementation. The i2X STITCH forum is convening regional study processes (MISO, ERCOT, CAISO, WECC utilities, SPP, PJM, Duke Carolinas, Southern Company) with a technical whitepaper on interconnection harmonization due February 2027. The i2X FIRST forum presented IEEE 2800.2 test and verification procedures for IBRs, identifying key gaps in adoption strategy, software upgrade verification, and mapping of verification evidence to NERC modeling requirements (MOD-026-2, PRC-028/029/030). Key takeaways emphasize phased adoption timelines, recognition of equivalent IEC tests to avoid duplicative testing, and integration of conformity assessment from design through commissioning.",
+        "hydro_read_through": "Although this document addresses inverter-based resources, not conventional hydro or pumped storage, the interconnection study harmonization and IBR modeling/testing standards being developed will influence queue processes and generator requirements that affect all new resource types. How regional studies are structured, what modeling and testing rigor they require, and whether prior utility testing is recognized will set precedent for how storage projects and uprates at existing hydro plants are evaluated. The NERC standards alignment (PRC-028/029/030) also establishes performance compliance expectations that may extend to synchronous generators.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "ops-compliance"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "i2X STITCH technical whitepaper due February 2027",
+            "quote": "regional study processes, challenges and gaps, recommended practices and harmonization opportunities will be summarized in the whitepaper, published by the end of the meeting series, in February 2027",
+            "verified": false
+          },
+          {
+            "claim": "December 10, 2026 i2X STITCH meeting on Southern Company regional process",
+            "quote": "NEW: December 10, 2026, 11 a.m.- 1 p.m. ET: Regional Study Process Cont. (Southern Company)",
+            "verified": true
+          },
+          {
+            "claim": "IEEE 2800.2 establishes verification responsibilities from OEM type testing through post-commissioning performance assessment",
+            "quote": "IEEE 2800.2 establishes verification responsibilities across the IBR lifecycle, from OEM type testing and model validation to design evaluation, \"as-build\" verification, commissioning and post-commissioning performance assessment and model validation.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Bruce Tsuchida",
+            "entity": "Brattle",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Aaron Griffin",
+            "entity": "Duke Energy",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kyle Hord",
+            "entity": "Duke Energy",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sam Bustillos",
+            "entity": "EPE",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ryan Quint",
+            "entity": "Elevate Energy Consulting",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Sirisha Tanneeru",
+            "entity": "Elevate Energy Consulting",
+            "role": "presenter; discussion facilitator",
+            "email": null
+          },
+          {
+            "name": "Kathleen Fraser",
+            "entity": "Energy Strategies",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Julia Matevosyan",
+            "entity": "Energy Systems Integration Group (ESIG)",
+            "role": "chief engineer; ercot ibrwg chair; presenter",
+            "email": "julia@esig.energy"
+          },
+          {
+            "name": "Mohamed El Khatib",
+            "entity": "Invenergy",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mostafa Sedighizadeh",
+            "entity": "SPP",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Miguel Campos",
+            "entity": "Vestas",
             "role": "presenter",
             "email": null
           }
@@ -11451,6 +12234,16 @@
     "issues": [
       {
         "rto": "ERCOT",
+        "native_id": "NOGRR288",
+        "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+        "status": "Pending",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
+      },
+      {
+        "rto": "ERCOT",
         "native_id": "NPRR1317",
         "canonical_name": "NPRR1317 \u2014 Creation of Non-Settled Generator (NSG) and Clarification of the Types, Usage, and Registration of Distributed Generation",
         "status": "Pending",
@@ -11461,6 +12254,16 @@
       },
       {
         "rto": "ERCOT",
+        "native_id": "NPRR1340",
+        "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+        "status": "Pending",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+      },
+      {
+        "rto": "ERCOT",
         "native_id": "NPRR1350",
         "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
         "status": "Pending",
@@ -11468,6 +12271,16 @@
         "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+      },
+      {
+        "rto": "ERCOT",
+        "native_id": "PGRR122",
+        "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
+        "status": "Pending",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
+        "is_open": 1,
+        "url": "https://www.ercot.com/mktrules/issues/PGRR122"
       },
       {
         "rto": "ERCOT",
@@ -11520,6 +12333,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NOGRR288",
+            "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1317",
             "canonical_name": "NPRR1317 \u2014 Creation of Non-Settled Generator (NSG) and Clarification of the Types, Usage, and Registration of Distributed Generation",
             "status": "Pending",
@@ -11530,6 +12353,16 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1340",
+            "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1350",
             "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
             "status": "Pending",
@@ -11537,6 +12370,16 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "PGRR122",
+            "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
           {
             "rto": "ERCOT",
@@ -11645,6 +12488,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NOGRR288",
+            "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1317",
             "canonical_name": "NPRR1317 \u2014 Creation of Non-Settled Generator (NSG) and Clarification of the Types, Usage, and Registration of Distributed Generation",
             "status": "Pending",
@@ -11655,6 +12508,16 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1340",
+            "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1350",
             "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
             "status": "Pending",
@@ -11662,6 +12525,16 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "PGRR122",
+            "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
           {
             "rto": "ERCOT",
@@ -11756,6 +12629,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NOGRR288",
+            "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1317",
             "canonical_name": "NPRR1317 \u2014 Creation of Non-Settled Generator (NSG) and Clarification of the Types, Usage, and Registration of Distributed Generation",
             "status": "Pending",
@@ -11766,6 +12649,16 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1340",
+            "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1350",
             "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
             "status": "Pending",
@@ -11773,6 +12666,16 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "PGRR122",
+            "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
           {
             "rto": "ERCOT",
@@ -11806,6 +12709,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NOGRR288",
+            "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1317",
             "canonical_name": "NPRR1317 \u2014 Creation of Non-Settled Generator (NSG) and Clarification of the Types, Usage, and Registration of Distributed Generation",
             "status": "Pending",
@@ -11816,6 +12729,16 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1340",
+            "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1350",
             "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
             "status": "Pending",
@@ -11823,6 +12746,16 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "PGRR122",
+            "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
           {
             "rto": "ERCOT",
@@ -11856,6 +12789,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NOGRR288",
+            "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1317",
             "canonical_name": "NPRR1317 \u2014 Creation of Non-Settled Generator (NSG) and Clarification of the Types, Usage, and Registration of Distributed Generation",
             "status": "Pending",
@@ -11866,6 +12809,16 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1340",
+            "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1350",
             "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
             "status": "Pending",
@@ -11873,6 +12826,16 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "PGRR122",
+            "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
           {
             "rto": "ERCOT",
@@ -11906,6 +12869,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NOGRR288",
+            "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1317",
             "canonical_name": "NPRR1317 \u2014 Creation of Non-Settled Generator (NSG) and Clarification of the Types, Usage, and Registration of Distributed Generation",
             "status": "Pending",
@@ -11916,6 +12889,16 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1340",
+            "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1350",
             "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
             "status": "Pending",
@@ -11923,6 +12906,16 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "PGRR122",
+            "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
           {
             "rto": "ERCOT",
@@ -11956,6 +12949,16 @@
         "issues": [
           {
             "rto": "ERCOT",
+            "native_id": "NOGRR288",
+            "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1317",
             "canonical_name": "NPRR1317 \u2014 Creation of Non-Settled Generator (NSG) and Clarification of the Types, Usage, and Registration of Distributed Generation",
             "status": "Pending",
@@ -11966,6 +12969,16 @@
           },
           {
             "rto": "ERCOT",
+            "native_id": "NPRR1340",
+            "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
+          },
+          {
+            "rto": "ERCOT",
             "native_id": "NPRR1350",
             "canonical_name": "NPRR1350 \u2014 Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
             "status": "Pending",
@@ -11973,6 +12986,16 @@
             "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1350"
+          },
+          {
+            "rto": "ERCOT",
+            "native_id": "PGRR122",
+            "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
+            "status": "Pending",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
+            "is_open": 1,
+            "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
           {
             "rto": "ERCOT",
@@ -14127,12 +15150,12 @@
   {
     "title": "Tech Change Forum Meeting",
     "date": "2026-11-17",
-    "time": "2:00 p.m. - 2:45 p.m.",
+    "time": "1:00 p.m. - 3:00 p.m.",
     "rto": "PJM",
     "committee": "Tech Change Forum",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={479765AD-E65D-4724-BDCC-27E73F674F6F}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7CC22FA7-F24A-4115-91B4-65C4FE3A74E7}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "Tech Change Forum meetings typically address IT infrastructure, system operations, and technical tools rather than market design, pricing mechanisms, or revenue structures that directly affect hydropower and storage operators.",
     "meeting_screened_at": "2026-11-07 17:51:02",
@@ -14333,12 +15356,12 @@
   {
     "title": "LC - Public Materials Only (No Registration) Meeting",
     "date": "2026-11-17",
-    "time": "2:00 p.m. - 2:45 p.m.",
+    "time": "3:00 p.m. - 5:00 p.m.",
     "rto": "PJM",
     "committee": "LC - Public Materials Only (No Registration)",
     "source_url": "https://www.pjm.com/calendar",
     "detail_url": null,
-    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={479765AD-E65D-4724-BDCC-27E73F674F6F}",
+    "materials_url": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={6DC1DB31-C27C-4474-98BA-069BC690399F}",
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "The meeting title is a generic administrative designation for public materials access with no specific agenda, substantive topic, or market-design content that would indicate relevance to hydropower revenue, obligations, or strategic options.",
     "meeting_screened_at": "2026-11-07 17:51:04",
@@ -16731,6 +17754,32 @@
             "entity": "Williams Companies",
             "role": "presenter",
             "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "Item 04 \u2013 1 \u2013 Emergency Energy Settlements Clarification \u2013 Updated Presentation",
+        "filename": "20261116-item-04---1---emergency-energy-settlements-clarification---updated-presentation.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/disrs/2026/20261116/20261116-item-04---1---emergency-energy-settlements-clarification---updated-presentation.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-20",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document addresses settlement procedures for demand-side Load Management events in PJM's emergency-energy program, a mechanism specific to dispatchable demand resources and not applicable to hydropower or pumped-storage facilities.",
+        "screened_at": "2026-11-20 19:54:27",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Scott Baker",
+            "entity": "PJM",
+            "role": "presenter",
+            "email": "Scott.Baker@pjm.com"
           }
         ]
       }
@@ -26232,8 +27281,8 @@
         "native_id": "NPRR1340",
         "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
         "status": "Pending",
-        "stakeholder_phase": "TAC for consideration",
-        "committee_owner": "TAC",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
       },
@@ -26301,8 +27350,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -26414,8 +27463,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -26522,8 +27571,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -26605,8 +27654,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -26675,8 +27724,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -26745,8 +27794,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -34195,8 +35244,8 @@
         "native_id": "NOGRR288",
         "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
         "status": "Pending",
-        "stakeholder_phase": "TAC for consideration",
-        "committee_owner": "TAC",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
       },
@@ -34205,8 +35254,8 @@
         "native_id": "PGRR122",
         "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
         "status": "Pending",
-        "stakeholder_phase": "TAC for consideration",
-        "committee_owner": "TAC",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/PGRR122"
       }
@@ -34234,8 +35283,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -34244,8 +35293,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           }
@@ -34293,8 +35342,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -34303,8 +35352,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           }
@@ -34394,8 +35443,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -34404,8 +35453,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           }
@@ -34434,8 +35483,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -34444,8 +35493,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           }
@@ -34474,8 +35523,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -34484,8 +35533,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           }
@@ -34534,8 +35583,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -34544,8 +35593,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           }
@@ -34685,8 +35734,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -34695,8 +35744,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           }
@@ -34836,8 +35885,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -34846,8 +35895,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           }
@@ -34883,8 +35932,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -34893,8 +35942,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           }
@@ -77541,7 +78590,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-19 20:55:00",
+    "meeting_screened_at": "2026-11-20 19:26:40",
     "issues": [],
     "documents": [
       {
@@ -77576,7 +78625,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-19 20:55:21",
+    "meeting_screened_at": "2026-11-20 19:27:01",
     "issues": [],
     "documents": [
       {
@@ -77611,7 +78660,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-19 20:55:42",
+    "meeting_screened_at": "2026-11-20 19:27:22",
     "issues": [],
     "documents": [
       {
@@ -77646,7 +78695,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-19 20:56:24",
+    "meeting_screened_at": "2026-11-20 19:28:04",
     "issues": [],
     "documents": [
       {
@@ -77681,7 +78730,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-19 20:56:03",
+    "meeting_screened_at": "2026-11-20 19:27:43",
     "issues": [],
     "documents": [
       {
@@ -80847,8 +81896,8 @@
         "native_id": "NPRR1340",
         "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
         "status": "Pending",
-        "stakeholder_phase": "TAC for consideration",
-        "committee_owner": "TAC",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
       },
@@ -80976,8 +82025,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -81120,8 +82169,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -81249,8 +82298,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -81436,8 +82485,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -81553,8 +82602,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -81663,8 +82712,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -81773,8 +82822,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -81883,8 +82932,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -81993,8 +83042,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -85307,7 +86356,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-19 20:56:45",
+    "meeting_screened_at": "2026-11-20 19:28:25",
     "issues": [],
     "documents": [
       {
@@ -91602,7 +92651,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-19 20:57:06",
+    "meeting_screened_at": "2026-11-20 19:28:46",
     "issues": [],
     "documents": [
       {
@@ -111156,8 +112205,8 @@
         "native_id": "NOGRR288",
         "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
         "status": "Pending",
-        "stakeholder_phase": "TAC for consideration",
-        "committee_owner": "TAC",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
       },
@@ -111166,8 +112215,8 @@
         "native_id": "PGRR122",
         "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
         "status": "Pending",
-        "stakeholder_phase": "TAC for consideration",
-        "committee_owner": "TAC",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/PGRR122"
       },
@@ -111215,8 +112264,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -111225,8 +112274,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -111330,8 +112379,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -111340,8 +112389,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -111404,8 +112453,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -111414,8 +112463,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -111584,8 +112633,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -111594,8 +112643,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -111755,8 +112804,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -111765,8 +112814,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -111990,8 +113039,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -112000,8 +113049,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -112057,8 +113106,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -112067,8 +113116,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -112167,8 +113216,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -112177,8 +113226,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -112358,8 +113407,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -112368,8 +113417,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -112442,8 +113491,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -112452,8 +113501,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -112509,8 +113558,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -112519,8 +113568,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -112619,8 +113668,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -112629,8 +113678,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -112692,8 +113741,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -112702,8 +113751,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -112776,8 +113825,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -112786,8 +113835,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -112862,8 +113911,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -112872,8 +113921,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -112935,8 +113984,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -112945,8 +113994,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -113026,8 +114075,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -113036,8 +114085,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -113086,8 +114135,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -113096,8 +114145,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -113166,8 +114215,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -113176,8 +114225,8 @@
             "native_id": "PGRR122",
             "canonical_name": "PGRR122 \u2014 Reliability Performance Criteria for Loss of Load",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/PGRR122"
           },
@@ -266447,8 +267496,8 @@
         "native_id": "NPRR1340",
         "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
         "status": "Pending",
-        "stakeholder_phase": "TAC for consideration",
-        "committee_owner": "TAC",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
       },
@@ -266610,8 +267659,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -266787,8 +267836,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -266964,8 +268013,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -267131,8 +268180,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -267291,8 +268340,8 @@
             "native_id": "NPRR1340",
             "canonical_name": "NPRR1340 \u2014 Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NPRR1340"
           },
@@ -271810,8 +272859,8 @@
         "native_id": "NOGRR288",
         "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
         "status": "Pending",
-        "stakeholder_phase": "TAC for consideration",
-        "committee_owner": "TAC",
+        "stakeholder_phase": "Board for consideration",
+        "committee_owner": "BOARD",
         "is_open": 1,
         "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
       },
@@ -271872,8 +272921,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -271939,8 +272988,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -271999,8 +273048,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272063,8 +273112,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272172,8 +273221,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272232,8 +273281,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272296,8 +273345,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272360,8 +273409,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272424,8 +273473,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272495,8 +273544,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272565,8 +273614,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272632,8 +273681,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272692,8 +273741,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272752,8 +273801,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272816,8 +273865,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272907,8 +273956,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -272984,8 +274033,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -273103,8 +274152,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -273170,8 +274219,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -273237,8 +274286,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -273297,8 +274346,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
@@ -273361,8 +274410,8 @@
             "native_id": "NOGRR288",
             "canonical_name": "NOGRR288 \u2014 Related to NPRR1340, Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
             "status": "Pending",
-            "stakeholder_phase": "TAC for consideration",
-            "committee_owner": "TAC",
+            "stakeholder_phase": "Board for consideration",
+            "committee_owner": "BOARD",
             "is_open": 1,
             "url": "https://www.ercot.com/mktrules/issues/NOGRR288"
           },
