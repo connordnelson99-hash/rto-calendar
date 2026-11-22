@@ -255,6 +255,192 @@
     "documents": []
   },
   {
+    "title": "TEAC Special Session - Order 1920 Meeting",
+    "date": "2026-12-08",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "TEAC Special Session - Order 1920",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM's TEAC (Transmission and Energy Markets Committee) special session on FERC Order 1920 likely addresses transmission-queue reform and interconnection-service rules that directly affect hydro project deliverability and strategic positioning, plus potential storage and resource-adequacy implications tied to transmission planning.",
+    "meeting_screened_at": "2026-11-22 19:06:15",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "DTS Meeting",
+    "date": "2026-12-08",
+    "time": "9:00 a.m. - 10:00 a.m.",
+    "rto": "PJM",
+    "committee": "DTS",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The DTS (Distribution Technical Services) committee typically addresses retail-market, distribution-system operations, and customer-service topics outside the wholesale market-design axes that affect hydropower revenue, obligations, and strategic options.",
+    "meeting_screened_at": "2026-11-22 19:06:16",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Audit Advisory Committee Meeting",
+    "date": "2026-12-08",
+    "time": "11:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "Audit Advisory Committee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Audit Advisory Committee meetings address internal auditing, compliance, and governance processes that do not touch market-design mechanisms, revenue rules, or strategic options material to hydropower and pumped-storage operators.",
+    "meeting_screened_at": "2026-11-22 19:06:18",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "NEPOOL Markets Committee Meeting",
+    "date": "2026-12-08",
+    "time": "2:30 PM",
+    "rto": "ISO-NE",
+    "committee": "Markets Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=160109",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "ISO-NE Markets Committee meetings regularly address energy price formation, ancillary-service design, capacity-accreditation mechanisms, and storage participation rules that directly affect hydropower and pumped-storage operators' revenue and compliance obligations in the Northeast.",
+    "meeting_screened_at": "2026-11-22 19:06:19",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Interconnection Process Working Group (IPWG) - December 8, 2026",
+    "date": "2026-12-08",
+    "time": "9:00 AM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Interconnection Process Working Group",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/1c61f7282b184f82bccec7caa615eada.aspx",
+    "materials_url": "https://www.misoenergy.org/link/1c61f7282b184f82bccec7caa615eada.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO's Interconnection Process Working Group addresses queue reform, deliverability, and must-offer rules that directly affect hydro asset uprates, new hydro/pumped-storage interconnection pathways, and strategic options for resource owners, including FERC Order 2023 compliance mechanics.",
+    "meeting_screened_at": "2026-11-22 19:06:21",
+    "issues": [],
+    "documents": [
+      {
+        "type": "minutes",
+        "title": "20261208 IPWG Item 01c Minutes 20261013",
+        "filename": "20261208 IPWG Item 01c Minutes 20261013.pdf",
+        "url": "https://cdn.misoenergy.org/20261208%20IPWG%20Item%2001c%20Minutes%2020261013789959.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-20",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Generator interconnection queue reform and restudy process changes affect the deliverability, timeline, and cost allocation for new hydro and pumped-storage projects in MISO's interconnection queue.",
+        "screened_at": "2026-11-22 19:06:39",
+        "ai_summary": "The MISO Interconnection Process Working Group reviewed updates to its queue cycle restudy process (PAC-2023-1). MISO explained its post-Phase 3 project withdrawal evaluation process, including how reliability screening determines whether restudies, upgrade removals, or cost reallocations are needed; unnecessary upgrades are canceled while remaining upgrade costs may be redistributed among remaining projects without requiring a full restudy. MISO indicated additional process details will be incorporated into future BPM-015 revisions. The DPP 2026 Cycle application deadline has been extended to January 15, 2027, with kickoff to begin at least 90 days after the deadline. The Affected System Study tariff filing was accepted by FERC on September 22 and is in effect for the DPP 2022 cycle.",
+        "hydro_read_through": "Hydro and pumped-storage projects in MISO's interconnection queue face material changes to cost recovery and study timeline. The restudy-avoidance process and cost-reallocation rules change whether project sponsors can be relieved of network upgrade obligations when other projects withdraw, directly affecting project economics and deployment windows. The extended DPP 2026 deadline and standardized study schedule with granular milestones create new planning points but also introduce manual-process risk that stakeholders flagged as potentially delaying cost recovery signals and study completion.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "transmission"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "DPP 2026 Cycle application deadline extended to January 15, 2027",
+            "quote": "DPP 2026 Cycle Schedule Update \u2013 Application deadline extended to January 15 2027",
+            "verified": true
+          },
+          {
+            "claim": "Kickoff to begin at least 90 days after application deadline",
+            "quote": "Kickoff to begin at least 90 days after application deadline.",
+            "verified": true
+          },
+          {
+            "claim": "Affected System Study tariff filing accepted by FERC on September 22",
+            "quote": "Affected System Study (AFS) Tariff Filing Update - Accepted by FERC September 22",
+            "verified": true
+          },
+          {
+            "claim": "AFS language consistent with Order 2023 and in effect for DPP 2022 cycle",
+            "quote": "Language is consistent with Order 2023 and is in effect for the DPP 2022 cycle.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Amanda Fong",
+            "entity": "MISO",
+            "role": "presenter; dpp cycle schedule update",
+            "email": null
+          },
+          {
+            "name": "Eileen King",
+            "entity": "MISO",
+            "role": "presenter; action items",
+            "email": null
+          },
+          {
+            "name": "Gala Disasa",
+            "entity": "MISO",
+            "role": "presenter; queue cycle restudy process",
+            "email": null
+          },
+          {
+            "name": "Hannah Ford",
+            "entity": "MISO",
+            "role": "presenter; giaa survey results",
+            "email": null
+          },
+          {
+            "name": "Kyle Trotter",
+            "entity": "MISO",
+            "role": "presenter; liaison report",
+            "email": null
+          },
+          {
+            "name": "Erin Murphy",
+            "entity": "NextEra",
+            "role": "presenter; chair ipwg",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Expedited Project Review Technical Study Task Force (EPR-TSTF) - December 8, 2026",
+    "date": "2026-12-08",
+    "time": "12:00 PM - 1:00 PM",
+    "rto": "MISO",
+    "committee": "Expedited Project Review Technical Study Task Force",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/8311051659a9455eadb8f7be19ace50a.aspx",
+    "materials_url": "https://www.misoenergy.org/link/8311051659a9455eadb8f7be19ace50a.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Expedited Project Review Technical Study Task Force addresses transmission interconnection project engineering and queue-management processes without direct connection to hydropower revenue, compliance, or strategic market-design participation mechanisms that NHA members track.",
+    "meeting_screened_at": "2026-11-22 19:06:22",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Board of Directors Meeting",
+    "date": "2026-12-08",
+    "time": null,
+    "rto": "ERCOT",
+    "committee": "Board of Directors",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/12082026-Board-of-Directors-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/12082026-Board-of-Directors-Meeting",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Board of Directors meetings focus on corporate governance, oversight, and administration rather than specific market-design or operational mechanisms that affect hydropower revenue, compliance, or strategy.",
+    "meeting_screened_at": "2026-11-22 19:06:23",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "RSCS Meeting",
     "date": "2026-12-07",
     "time": "9:00 a.m. - 10:00 a.m.",
@@ -431,6 +617,36 @@
     "meeting_hydro_relevant": false,
     "meeting_hydro_reason": "An annual corporate meeting of ERCOT Members is a governance and administrative proceeding with no indicated substantive agenda on market design, pricing, ancillary services, or operational rules that would concern hydropower operators or storage developers.",
     "meeting_screened_at": "2026-11-21 18:49:23",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "2026-2027 Transmission Planning Process: Long-term LCR",
+    "date": "2026-12-07",
+    "time": "1:00 PM - 4:00 PM PT",
+    "rto": "CAISO",
+    "committee": "2026-2027 Transmission planning process",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/2026-2027-transmission-planning-process-long-term-lcr-dec-07-2026-0100-pm",
+    "materials_url": "https://stakeholdercenter.caiso.com/RecurringStakeholderProcesses/2026-2027-Transmission-planning-process",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Long-term transmission planning, including Local Capacity Requirements (LCR) studies and transmission expansion, directly affects hydropower deliverability, interregional transfer capability, and strategic options for hydro resources in California's grid.",
+    "meeting_screened_at": "2026-11-22 19:06:25",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Market Simulation - Extended Day-Ahead Market Enhancements 2026",
+    "date": "2026-12-07",
+    "time": "9:00 AM - 10:00 AM PT",
+    "rto": "CAISO",
+    "committee": "Market simulation",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/market-simulation-extended-day-ahead-market-enhancements-2026-dec-07-2026-0900-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/market-simulation",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Extended Day-Ahead Market (EDAM) enhancements directly affect Western hydropower exports, revenue formation, and scheduling of both conventional and pumped-storage hydro resources participating in the expanded footprint.",
+    "meeting_screened_at": "2026-11-22 19:06:26",
     "issues": [],
     "documents": []
   },
@@ -78913,7 +79129,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-21 18:22:49",
+    "meeting_screened_at": "2026-11-22 18:43:58",
     "issues": [],
     "documents": [
       {
@@ -78948,7 +79164,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-21 18:23:10",
+    "meeting_screened_at": "2026-11-22 18:44:19",
     "issues": [],
     "documents": [
       {
@@ -78983,7 +79199,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-21 18:23:31",
+    "meeting_screened_at": "2026-11-22 18:44:41",
     "issues": [],
     "documents": [
       {
@@ -79018,7 +79234,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-21 18:24:13",
+    "meeting_screened_at": "2026-11-22 18:45:23",
     "issues": [],
     "documents": [
       {
@@ -79053,7 +79269,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-21 18:23:52",
+    "meeting_screened_at": "2026-11-22 18:45:02",
     "issues": [],
     "documents": [
       {
@@ -86679,7 +86895,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-21 18:24:34",
+    "meeting_screened_at": "2026-11-22 18:45:44",
     "issues": [],
     "documents": [
       {
@@ -92974,7 +93190,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-21 18:24:55",
+    "meeting_screened_at": "2026-11-22 18:46:05",
     "issues": [],
     "documents": [
       {
