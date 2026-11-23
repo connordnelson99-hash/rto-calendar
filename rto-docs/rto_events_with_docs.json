@@ -1,5 +1,20 @@
 [
   {
+    "title": "MDWG Net Conference",
+    "date": "2027-02-23",
+    "time": "11:00 AM - 5:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Design Working Group",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-design-working-group-net-conference-20270223-24/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=370765",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Markets+ Design Working Group addresses fundamental market-design topics including energy pricing, ancillary services, capacity mechanisms, and storage participation rules that directly affect hydropower and pumped-storage operators' revenue and compliance obligations across the SPP footprint and emerging multi-RTO seams.",
+    "meeting_screened_at": "2026-11-23 23:36:08",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MGHGTF Net Conference",
     "date": "2027-02-19",
     "time": "11:00 AM - 3:00 PM CT",
@@ -165,6 +180,21 @@
     "documents": []
   },
   {
+    "title": "MRATF Net Conference",
+    "date": "2027-01-05",
+    "time": "11:00 AM - 3:00 PM CT",
+    "rto": "SPP Markets +",
+    "committee": "Markets+ Resource Adequacy Task Force",
+    "source_url": "https://www.spp.org/events/",
+    "detail_url": "https://www.spp.org/calendar-list/marketsplus-resource-adequacy-task-force-net-conference-20270105/",
+    "materials_url": "https://www.spp.org/spp-documents-filings/?id=370801",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Resource adequacy task forces directly address accreditation rules, seasonal energy studies, and participation mechanisms for hydro and storage resources, which are core revenue and strategic-option drivers for NHA members evaluating Markets+ membership in the West.",
+    "meeting_screened_at": "2026-11-23 23:36:10",
+    "issues": [],
+    "documents": []
+  },
+  {
     "title": "MSC Zoom Meeting - Hosted by WIEB",
     "date": "2026-12-18",
     "time": "11:00 AM - 12:00 PM CT",
@@ -236,6 +266,213 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The SPP Markets+ Seams Working Group addresses market-seams governance and interregional coordination (EDAM/WEIM/Markets+ architecture), which directly affects hydro owners' strategic options for market participation, transmission access, and revenue exposure across regional boundaries.",
     "meeting_screened_at": "2026-09-10 15:40:12",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Post CIFP Workshop - Large Load Registry Manual Meeting",
+    "date": "2026-12-09",
+    "time": "9:00 a.m. - 4:00 p.m.",
+    "rto": "PJM",
+    "committee": "Post CIFP Workshop - Large Load Registry Manual",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Large Load Registry Manual is administrative/operational documentation for load registration and does not address market-design mechanisms affecting hydro revenue, compliance obligations, or strategic positioning.",
+    "meeting_screened_at": "2026-11-23 23:36:10",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Lessons Learned: Implementing Order No. 2023 Cluster Studies",
+    "date": "2026-12-09",
+    "time": "6:00 PM",
+    "rto": "ISO-NE",
+    "committee": "Planning Advisory Committee",
+    "source_url": "https://www.iso-ne.com/calendar",
+    "detail_url": "https://www.iso-ne.com/calendar?eventId=166052",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Order 2023 cluster studies directly affect interconnection queues and deliverability for new and upgraded hydro resources; ISO-NE's Planning Advisory Committee discussion of implementation lessons will inform how existing and prospective hydro owners navigate interconnection rules and timelines.",
+    "meeting_screened_at": "2026-11-23 23:36:12",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Business Issues Committee",
+    "date": "2026-12-09",
+    "time": "10:00 AM - 4:00 PM",
+    "rto": "NYISO",
+    "committee": "Business Issues Committee",
+    "source_url": "https://www.nyiso.com/committees",
+    "detail_url": "https://www.nyiso.com/business-issues-committee-bic",
+    "materials_url": "https://www.nyiso.com/business-issues-committee-bic",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Business Issues Committee agenda title provides no specifics; without topic detail, there is no basis to infer discussion of market design, revenue mechanisms, compliance obligations, or strategic options affecting hydropower and storage operators.",
+    "meeting_screened_at": "2026-11-23 23:36:13",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Planning Subcommittee (PSC) - December 9, 2026",
+    "date": "2026-12-09",
+    "time": "9:00 AM - 3:00 PM",
+    "rto": "MISO",
+    "committee": "Planning Subcommittee",
+    "source_url": "https://www.misoenergy.org/engage/tools/calendar/",
+    "detail_url": "https://www.misoenergy.org/link/280ad3c694614291a0ecc5ea8dce9fd8.aspx",
+    "materials_url": "https://www.misoenergy.org/link/280ad3c694614291a0ecc5ea8dce9fd8.aspx",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "MISO Planning Subcommittee meetings regularly address resource adequacy, transmission planning, and renewable/storage integration that affect hydro market participation, dispatch rules, and revenue models in the MISO footprint and neighboring interconnects.",
+    "meeting_screened_at": "2026-11-23 23:36:15",
+    "issues": [],
+    "documents": [
+      {
+        "type": "other",
+        "title": "20261209 PSC Item 01e Patrick Jehring Chair.pdf",
+        "filename": "20261209 PSC Item 01e Patrick Jehring Chair.pdf",
+        "url": "https://cdn.misoenergy.org/20261209%20PSC%20Item%2001e%20Patrick%20Jehring%20Chair790388.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-22",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a biographical profile of the Planning Subcommittee chair; it contains no substantive content on market design, revenue mechanisms, compliance obligations, or strategic options affecting hydropower or pumped-storage owners.",
+        "screened_at": "2026-11-23 23:36:32",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Patrick Jehring",
+            "entity": "GridLiance (NextEra Energy Transmission, LLC)",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "20261209 PSC Item 01c Minutes 20261014.pdf",
+        "filename": "20261209 PSC Item 01c Minutes 20261014.pdf",
+        "url": "https://cdn.misoenergy.org/20261209%20PSC%20Item%2001c%20Minutes%2020261014790091.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-21",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's Long-Range Transmission Planning (LRTP) and load-scaling methodology directly affect transmission-network modeling and resource-adequacy constraints that influence hydro deliverability, scarcity pricing, and valuation during light-load conditions when hydro's flexibility commands premium value.",
+        "screened_at": "2026-11-23 23:36:41",
+        "ai_summary": "MISO presented methodology results for modeling large-scale load additions in the LRTP's Series 2 Future Economic and Reliability models. The process scales large loads within the regional LRTP framework to prevent infeasible conditions during light-load hours, constraining how much load can fit into Local Resource Zones per the Long-Term Load Forecast boundaries. MISO confirmed that large-load data through June Expedited Project Review (EPR) cycles have been incorporated into model updates, with continued analysis planned through 2027 and robustness-testing scenarios to follow. LRTP preliminary discussion on Future 2 results are targeted for the November Planning Advisory Committee (PAC) meeting.",
+        "hydro_read_through": "Light-load constraint modeling in LRTP directly affects how much transmission capacity and scarcity rents will be available to hydro during low-demand hours\u2014the hours when hydro's energy is least valuable and when transmission congestion patterns diverge most sharply from peak pricing. MISO's approach of scaling regional load to prevent non-physical model behavior may mask localized transmission bottlenecks that hydro would need to navigate to export during those periods, and uncertainty about how large co-located loads (studied separately in the Expedited Project Review process) will interact with hydro's ramping and ancillary-service value remains unresolved pending next-year discussions.",
+        "source_names_hydro": true,
+        "topics": [
+          "transmission",
+          "load-growth",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "large-load data through June EPR cycles have been incorporated into model updates",
+            "quote": "MISO confirmed that large-load data through June EPR cycles have been incorporated into the model updates",
+            "verified": true
+          },
+          {
+            "claim": "analysis will continue through 2027, after which MISO plans to begin evaluating robustness-testing scenarios",
+            "quote": "analysis will continue through 2027, after which MISO plans to begin evaluating robustness-testing scenarios",
+            "verified": true
+          },
+          {
+            "claim": "Preliminary discussion on analysis results from Future 2 are currently being targeted for the November PAC meeting",
+            "quote": "Preliminary discussion on analysis results from Future 2 are currently being targeted for the November PAC meeting",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Natalie McIntire",
+            "entity": null,
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Caid Kirby",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Greg Plauck",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Trevor Armstrong",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261209 PSC Item 01e Bio Natalie McIntire Vice Chair.pdf",
+        "filename": "20261209 PSC Item 01e Bio Natalie McIntire Vice Chair.pdf",
+        "url": "https://cdn.misoenergy.org/20261209%20PSC%20Item%2001e%20Bio%20Natalie%20McIntire%20Vice%20Chair788706.pdf",
+        "member_url": null,
+        "posted_date": "2026-10-14",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a biographical note on a Planning Subcommittee Vice Chair with no substantive discussion of market rules, revenue mechanisms, compliance obligations, or strategic options affecting hydropower or storage.",
+        "screened_at": "2026-11-23 23:36:44",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Natalie McIntire",
+            "entity": "Natural Resources Defense Council (NRDC) - Sustainable FERC Project",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "PRS Meeting",
+    "date": "2026-12-09",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Protocol Revisions Subcommittee",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/12092026-PRS-Meeting",
+    "materials_url": "https://www.ercot.com/calendar/12092026-PRS-Meeting",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "Protocol Revisions Subcommittee meetings focus on ERCOT's operational procedures and technical protocols rather than market-design mechanisms (price formation, ancillary services, capacity accreditation, storage participation, or flexibility products) that would warrant cross-market tracking for hydropower comparison.",
+    "meeting_screened_at": "2026-11-23 23:36:17",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "SSWG Meeting",
+    "date": "2026-12-09",
+    "time": "9:30 AM",
+    "rto": "ERCOT",
+    "committee": "Steady State Working Group",
+    "source_url": "https://www.ercot.com/calendar",
+    "detail_url": "https://www.ercot.com/calendar/12092026-SSWG-Meeting-_-Webex",
+    "materials_url": "https://www.ercot.com/calendar/12092026-SSWG-Meeting-_-Webex",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Steady State Working Group addresses power-flow analysis, fault analysis, and synchronous stability studies\u2014technical transmission-simulation topics with no direct bearing on hydropower revenue, compliance obligations, or strategic market-design options.",
+    "meeting_screened_at": "2026-11-23 23:36:18",
     "issues": [],
     "documents": []
   },
@@ -439,6 +676,91 @@
     "meeting_screened_at": "2026-11-22 19:06:23",
     "issues": [],
     "documents": []
+  },
+  {
+    "title": "Interconnection Customer User Group",
+    "date": "2026-12-08",
+    "time": "1:00 PM - 2:00 PM PT",
+    "rto": "CAISO",
+    "committee": "Interconnection Customer User Group",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-dec-08-2026-0100-pm",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/interconnection-customer-user-group",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Interconnection Customer User Group meetings address queue reform, surplus interconnection service, delivery of existing and new hydro resources, and participation options (DER, hybrid, storage) \u2014 all strategic and compliance issues for NHA members in California.",
+    "meeting_screened_at": "2026-11-23 23:36:20",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "Release User Group Forum",
+    "date": "2026-12-08",
+    "time": "10:00 AM - 11:00 AM PT",
+    "rto": "CAISO",
+    "committee": "Release User Group (RUG)",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/release-user-group-forum-dec-08-2026-1000-am",
+    "materials_url": "https://www.caiso.com/meetings-events/topics/release-users-group-rug",
+    "meeting_hydro_relevant": false,
+    "meeting_hydro_reason": "The Release User Group Forum is an operational/IT forum focused on CAISO system releases and technical implementation, not on market design, revenue mechanisms, operational standards, or strategic options affecting hydropower and pumped-storage operators.",
+    "meeting_screened_at": "2026-11-23 23:36:21",
+    "issues": [],
+    "documents": []
+  },
+  {
+    "title": "WEM Governing Body Meeting",
+    "date": "2026-12-08",
+    "time": null,
+    "rto": "CAISO",
+    "committee": "Board of Governors - Governance and committees",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/wem-governing-body-meeting-15",
+    "materials_url": "https://www.caiso.com/about/governance-committees",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Western Energy Markets (WEM) governance meetings address market-seams integration and participation rules affecting hydro exports and resource-adequacy constructs across the West, a key strategic-options area for NHA members evaluating RTO membership and market participation choices.",
+    "meeting_screened_at": "2026-11-23 23:36:23",
+    "issues": [],
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "Memo - Decision on Consent Agenda - Oct 2026",
+        "filename": "memo-decision-on-consent-agenda-oct-2026.pdf",
+        "url": "https://www.caiso.com/documents/memo-decision-on-consent-agenda-oct-2026.pdf",
+        "member_url": null,
+        "posted_date": null,
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The memo references WEM Governing Body approval of market-rule changes affecting EDAM/WEIM locational marginal price formation and operations-maintenance cost treatment \u2014 a seams-governance and precedent matter for Western hydropower participation in EDAM.",
+        "screened_at": "2026-11-23 23:36:51",
+        "ai_summary": "CAISO Board of Governors consent agenda for October 28, 2026, includes approval of a Variable Operations and Maintenance Cost Review proposal previously approved by the WEM Governing Body on October 20, 2026. The charter specifies that market-rule changes applicable to EDAM or WEIM, or that change locational marginal price formation, require WEM Governing Body approval first, then ISO Board approval via consent agenda. The memo provides no detail on the substance of the cost-review proposal itself.",
+        "hydro_read_through": "The document does not name hydro or storage resources. However, the governance structure it describes \u2014 delegation of EDAM/WEIM market-rule authority to a separate Governing Body with Board approval as a consent step \u2014 affects how operational and cost-treatment rules evolve for all resources participating in Western markets. For NHA members evaluating EDAM participation and terms, this governance pathway determines how quickly rules touching their revenue (operations-cost treatment, make-whole mechanisms, opportunity-cost offerings) can change and who controls them.",
+        "source_names_hydro": false,
+        "topics": [
+          "seams-governance"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "October 28, 2026, Board of Governors general session consent agenda",
+            "quote": "The October 28, 2026, Board of Governors general session consent agenda will consist of the following two items",
+            "verified": true
+          },
+          {
+            "claim": "WEM Governing Body approved Management's proposal on October 20, 2026",
+            "quote": "In its general session meeting on October 20, 2026, the WEM Governing Body approved Management's proposal on variable operations maintenance review",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Roger Collanton",
+            "entity": "CAISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "RSCS Meeting",
@@ -949,6 +1271,387 @@
             "name": "Robert F. Lurie",
             "entity": "White Dog Strategies",
             "role": "candidate",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "agenda",
+        "title": "20261203 Annual MISO Members and BOD Item 01a-01 Agenda.pdf",
+        "filename": "20261201 Annual MISO Members and BOD Item 01a-01 Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Annual%20MISO%20Members%20and%20BOD%20Item%2001a-01%20Agenda797692.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a Board of Directors open-session agenda containing only procedural items (roll call, elections, committee reports, budget review, governance); it does not address any market-design mechanism, capacity accreditation, ancillary-services procurement, storage participation, transmission planning, or operational standards that would affect hydro or PSH revenue, obligations, or strategic options.",
+        "screened_at": "2026-11-23 23:36:57",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Barbara Krumsiek",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Erik Takayesu",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jeff Lemmer",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "John Bear",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mark Johnson",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Melissa Brown",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Robert Lurie",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Theresa Wise",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Timothy Caister",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Todd Raba",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261203 Annual MISO Members Item 01b Election Results.pdf",
+        "filename": "20261201 Annual MISO Members Item 01b Election Results.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Annual%20MISO%20Members%20Item%2001b%20Election%20Results797687.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Board election results are corporate governance unrelated to market rules, revenue mechanisms, compliance obligations, or strategic options affecting hydropower.",
+        "screened_at": "2026-11-23 23:36:59",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261203 BOD Item 06a MISO 2026 Financial Performance.pdf",
+        "filename": "20261203 BOD Item 06a MISO 2026 Financial Performance.pdf",
+        "url": "https://cdn.misoenergy.org/20261203%20BOD%20Item%2006a%20MISO%202026%20Financial%20Performance797690.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a purely financial reporting document on MISO's 2026 budget performance, operating expenses, project investments, and cash forecasts \u2014 it contains no market-design rules, pricing mechanisms, ancillary-service procurement, capacity accreditation, storage participation models, interconnection policies, or any other substantive development affecting hydro or PSH revenue streams, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-23 23:37:02",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261203 BOD Item 07a 2027 Operating and Investment Budgets.pdf",
+        "filename": "20261203 BOD Item 07a 2027 Operating and Investment Budgets.pdf",
+        "url": "https://cdn.misoenergy.org/20261203%20BOD%20Item%2007a%202027%20Operating%20and%20Investment%20Budgets797691.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a purely administrative budget and financial planning document with no content on market design, pricing mechanisms, reserve products, capacity accreditation, storage participation, interconnection rules, or any other substantive rule affecting hydro or PSH revenue, obligations, or strategic options.",
+        "screened_at": "2026-11-23 23:37:04",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "20261203 BOD Item 02a Minutes 20260917.pdf",
+        "filename": "20261203 BOD Item 02a Minutes 20260917.pdf",
+        "url": "https://cdn.misoenergy.org/20261203%20BOD%20Item%2002a%20Minutes%2020260917797688.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is MISO Board of Directors meeting minutes covering governance, compensation, election, and administrative matters with no content on market design, rate-setting, operational standards, or strategic market participation affecting hydro or PSH revenue, obligations, or options.",
+        "screened_at": "2026-11-23 23:37:10",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Yvonne Capel-Vickery",
+            "entity": "Alliance for Affordable Energy",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "John Liskey",
+            "entity": "Citizens Utility Board of Michigan",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Allegra Nottage",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Andre Porter",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Barbara Krumsiek",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jennifer Curran",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "John R. Bear",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Kristina Tridico",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Marilee J. Springer",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Melissa Brown",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Renuka Chatterjee",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Timothy Caister",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Todd Ramey",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jamie McGough",
+            "entity": "Meridian Compensation Partners, LLC",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Commissioner Dan Scripps",
+            "entity": "Michigan Public Service Commission",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Chris Nelson",
+            "entity": "Organization of MISO States",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jason Blake",
+            "entity": "SERC Reliability Corporation",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Simon Mahan",
+            "entity": "Southern Renewable Energy Association",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Brian Drumm",
+            "entity": "Transmission Owners Committee",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261203 BOD Item 02d 2027 Board Committee Assignments.pdf",
+        "filename": "20261203 BOD Item 02d 2027 Board Committee Assignments.pdf",
+        "url": "https://cdn.misoenergy.org/20261203%20BOD%20Item%2002d%202027%20Board%20Committee%20Assignments797689.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a corporate-governance filing listing board-committee membership assignments for 2027 with no bearing on hydro revenue streams, operational obligations, or strategic market options.",
+        "screened_at": "2026-11-23 23:37:14",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Allegra Nottage",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Aubrey Johnson",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Melissa Brown",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Nirav Shah",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Renuka Chatterjee",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Ted Vatnsdal",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Barbara Krumsiek",
+            "entity": "MISO Board of Directors",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Bob Lurie",
+            "entity": "MISO Board of Directors",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Erik Takayesu",
+            "entity": "MISO Board of Directors",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Jeff Lemmer",
+            "entity": "MISO Board of Directors",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Joel Cook",
+            "entity": "MISO Board of Directors",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Kristen Marquardt",
+            "entity": "MISO Board of Directors",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Mark Johnson",
+            "entity": "MISO Board of Directors",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Nancy Lange",
+            "entity": "MISO Board of Directors",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Todd Raba",
+            "entity": "MISO Board of Directors",
+            "role": "contact",
             "email": null
           }
         ]
@@ -1790,6 +2493,396 @@
             "email": null
           }
         ]
+      },
+      {
+        "type": "agenda",
+        "title": "20261202 AC Item 01b Agenda",
+        "filename": "20261202 AC Item 01b Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2001b%20Agenda797714.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a pure governance and administrative agenda for MISO's Advisory Committee meeting \u2014 it lists meeting logistics, committee housekeeping, board liaison activities, and governance procedures with no content addressing hydro or PSH revenue mechanisms, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-23 23:37:19",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Andre Porter",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Bob Kuzman",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Brian Drumm",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Carmen Clark",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dan Scripps",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Eileen King",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Forest Eidbo",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Hannah Ford",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "John Liskey",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Tricia DeBleeckere",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "20261202 AC Item 09 Main Parent Entity Status Updates",
+        "filename": "20261202 AC Item 09 Main Parent Entity Status Updates.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2009%20Main%20Parent%20Entity%20Status%20Updates797715.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's Resource Adequacy Subcommittee is developing changes to Planning Reserve Margin allocation, external resource accreditation, and outage policies that directly govern how capacity resources (including conventional and storage resources) are valued, penalized, and dispatched \u2014 affecting hydro and PSH revenue from capacity markets and setting precedent for treatment of use-limited resources under outage and penalty rules.",
+        "screened_at": "2026-11-23 23:37:33",
+        "ai_summary": "MISO's Resource Adequacy Subcommittee (RASC) is advancing three issues affecting capacity-market participation. Issue 1: MISO proposed allocating Planning Reserve Margin Requirement by Coincident Net Peak Demand, recognizing a shift in time of system risk; a December 2026 FERC filing is targeted with implementation in Planning Year 2029/2030. Issue 2: External resource accreditation filing delayed to Q1 2027 to address stakeholder concerns on accreditation adjustments and non-performance penalties; the proposed Auction Clearing Price Penalty now requires a minimum of five Emergency Hours per season before applying. Issue 3: MISO is evaluating outage policies in the capacity construct, with initial direction to remove the Capacity Replacement Non-Compliance Charge (CRNCC) related to the 31-day outage rule and pair it with modifications to replacement rules, potential Auction Clearing Price clawback, and possible daily capacity-balancing settlement. The Loss of Load Expectation Working Group reported seasonal UCAP Planning Reserve Margin percentages for Planning Year 2027/2028: Summer 7.9%, Fall 17.6%, Winter 19.0%, Spring 26.4%. The next RASC meeting is scheduled for January 13, 2027.",
+        "hydro_read_through": "The document does not name hydropower or pumped storage. Conventional hydro and PSH participate in MISO's capacity market as accredited resources; the accreditation criteria and outage/penalty rules being revised here directly determine their seasonal capacity revenue and constrain their operational flexibility. The proposed elimination of CRNCC penalties for the 31-day outage rule and move toward daily settlement would materially alter how outages affect PSH and storage resources' capacity revenue and opportunity-cost economics, particularly for use-limited resources. The external resource accreditation changes, especially the five-emergency-hour threshold and MW tolerance-band approach, suggest MISO is recalibrating how it treats non-traditional or limited-availability resources in capacity qualification \u2014 a category into which both run-of-water hydro and energy-limited PSH fit.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "ops-compliance",
+          "storage"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "December 2026 FERC filing targeted with Planning Year 2029/2030 implementation",
+            "quote": "MISO is targeting a December 2026 FERC filing, with an implementation date for PY 2029/2030.",
+            "verified": true
+          },
+          {
+            "claim": "External Resource Accreditation filing delayed to Q1 2027",
+            "quote": "To allow for additional times to address ongoing stakeholder concerns, MISO decided to delay its External Resource accreditation filing to Q1 2027.",
+            "verified": true
+          },
+          {
+            "claim": "Minimum of five Emergency Hours per season required before Auction Clearing Price Penalty applies",
+            "quote": "The proposed Auction Clearing Price Penalty was revised to require a minimum of five Emergency Hours per season before any penalty would apply and to use a MW tolerance band rather than a set 90% threshold.",
+            "verified": true
+          },
+          {
+            "claim": "Initial direction to remove Capacity Replacement Non-Compliance Charge (CRNCC) related to 31-day outage rule",
+            "quote": "MISO's initial direction for solution identification aims to remove the Capacity Replacement Non-Compliance Charge (CRNCC) as it relates to the 31-day outage rule and pair it with other potential changes",
+            "verified": true
+          },
+          {
+            "claim": "Summer UCAP PRM 7.9%, Fall 17.6%, Winter 19.0%, Spring 26.4% for PY 2027/2028",
+            "quote": "MISO reviewed the LOLE Study results, with the following seasonal PRM values: Summer UCAP PRM%: 7.9% Fall UCAP PRM%: 17.6% Winter UCAP PRM%: 19.0% Spring UCAP PRM%: 26.4%",
+            "verified": false
+          },
+          {
+            "claim": "Next RASC meeting scheduled for January 13, 2027",
+            "quote": "The next RASC meeting is currently scheduled for January 13, 2027.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Werner Roth",
+            "entity": "MISO",
+            "role": "rasc chair",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261202 AC Item 06e Management Plan",
+        "filename": "20261202 AC Item 06e Management Plan.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2006e%20Management%20Plan797626.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a governance calendar and administrative management plan for MISO's Advisory Committee; it contains no market-design content touching hydro or PSH revenue, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-23 23:37:37",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Brian Drumm",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Carmen Clark",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Dan Scripps",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Eileen King",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261202 AC Item 04 Consumer Advocate Letter to MISO BOD",
+        "filename": "20261202 AC Item 04 Consumer Advocate Letter to MISO BOD.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2004%20Consumer%20Advocate%20Letter%20to%20MISO%20BOD797616.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a funding request to MISO for formation of a consumer-advocate organization (MOCA) focused on residential ratepayer representation; it addresses governance and cost allocation but contains no provisions, mechanisms, or rule changes affecting hydro revenue, compliance obligations, participation models, or strategic options.",
+        "screened_at": "2026-11-23 23:37:39",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "John R. Bear",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "MISO Organization of Consumer Advocates",
+            "entity": "MISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "title": "20261202 AC Item 04 Public Consumer Advocates Request for Funding_ Presentation",
+        "filename": "20261202 AC Item 04 Public Consumer Advocates Request for Funding_ Presentation.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2004%20Public%20Consumer%20Advocates%20Request%20for%20Funding_%20Presentation797617.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document proposes funding for a residential consumer-advocacy organization (MOCA) within MISO's stakeholder process; it addresses governance and cost-sharing among consumer advocates but contains no content touching hydro or PSH revenue streams, compliance obligations, strategic options, or market-design mechanisms.",
+        "screened_at": "2026-11-23 23:37:42",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Office of the Consumer Advocate",
+            "entity": "Office of the Consumer Advocate",
+            "role": "supporter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261202 AC Item 08 Session with the Board of Directors Questions - Interconnection and the State of the Queue",
+        "filename": "20261202 AC Item 08 Session with the Board of Directors Questions - Interconnection and the State of the Queue.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2008%20Session%20with%20the%20Board%20of%20Directors%20Questions%20-%20Interconnection%20and%20the%20State%20of%20the%20Queue797583.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's interconnection queue reform directly affects hydro and PSH plants' ability to deliver new generation and storage capacity, their cost of grid access, and their position in a competitive procurement environment\u2014core strategic options and revenue-enabling infrastructure for hydro operators.",
+        "screened_at": "2026-11-23 23:37:54",
+        "ai_summary": "MISO Advisory Committee discussion with the Board on the state of the generator interconnection queue and reform efforts. MISO added 10.7 GW of nameplate capacity (5.1 GW accredited) in 2025, with 15.5 GW projected online by end of 2026, but backlogs persist\u201445 GW of approved projects report expected delays in commercial operations dates. Current projection is 8.6 GW/year of interconnection, up from 4.7 GW/year historically but still short of the 15 GW/year targeted by MISO members. The session poses four questions to the Board: what is working and what pain points remain in the current process; what lessons can be learned from other RTOs; how can transmission planning better integrate with queue improvement; and how to preserve competitive procurement opportunities while reducing queue processing times.",
+        "hydro_read_through": "The document does not name hydro or pumped storage specifically. However, interconnection queue delays and backlog directly constrain hydro and PSH projects' ability to reach market, and competitive scarcity from load growth raises the value of accelerated grid access for all generation. MISO's focus on (1) accrediting nameplate additions into capacity revenue, (2) linking transmission planning to generator interconnection, and (3) balancing queue speed against competitive procurement design affects the cost and timing of hydro/PSH capacity delivery and the revenue horizon these projects can rely on. The 45 GW of approved-but-delayed projects represents direct opportunity cost\u2014delayed revenue realization\u2014for all technologies including hydro.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "transmission",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "10.7 GW of nameplate capacity (5.1 GW accredited) added to system in 2025, largest annual capacity addition in MISO history",
+            "quote": "In 2025, MISO added 10.7 GW of nameplate capacity (5.1 GW accredited) to the system, representing the largest annual capacity addition in MISO history.",
+            "verified": true
+          },
+          {
+            "claim": "15.5 GW of new nameplate capacity (9.6 GW accredited) projected online by end of 2026",
+            "quote": "with 15.5 GW of new nameplate capacity (9.6 GW accredited) projected to be online by the end of 2026.",
+            "verified": true
+          },
+          {
+            "claim": "45 GW of approved generator interconnection agreements reporting expected delay in commercial operations date",
+            "quote": "45 GW of projects with approved generator interconnection agreements reporting an expected delay in commercial operations date.",
+            "verified": true
+          },
+          {
+            "claim": "Current interconnection projection 8.6 GW/year vs. historical 4.7 GW/year and target 15 GW/year",
+            "quote": "the emerging projection for interconnection included in the OMS-MISO Annual Survey is 8.6 GW/ year \u2013 a significant jump from the 4.7 GW/ year historical projection, but still well short of the 15 GW of new generation per year included the plans of MISO members.",
+            "verified": true
+          },
+          {
+            "claim": "Over 10,000 active interconnection requests throughout the country at end of 2022, representing over 2,000 GW capacity, cited in FERC Order 2023 rulemaking",
+            "quote": "FERC noted that there were over 10,000 active interconnection requests in interconnection queues throughout the country at the end of 2022, representing over 2,000 gigawatts (GW) of potential generation and storage capacity",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "20261202 AC Item 01d Legal Update",
+        "filename": "20261202 AC Item 01d Legal Update.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2001d%20Legal%20Update797584.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's upcoming tariff revisions on Electric Storage Resources transmission-charge exemptions, interregional HVDC capacity accreditation, and market-monitoring mitigation measures touch storage participation rules, capacity-resource definition, and market-power controls that set precedent for PSH and affect PSH owners' revenue and compliance obligations in the interconnection and capacity domains.",
+        "screened_at": "2026-11-23 23:38:07",
+        "ai_summary": "MISO Legal Update summarizes 644 tariff filings year-to-date as of 11/20/2026 and lists nine anticipated filings in the 45-day outlook (through 12/31/2026). Items of note: (1) Tariff revision to broaden Electric Storage Resources (ESRs) exemption from transmission charges when charging while economically dispatched (anticipated 11/23/2026, ER27-____-000); (2) MISO's response to Invenergy complaint (EL27-12-000) requesting that interregional merchant HVDC transmission facilities be accredited as Capacity Resources, with MISO's answer due 11/24/2026 but motion for extension through 12/18/2026 pending; (3) MISO-SPP Joint Operating Agreement (JOA) Section 9.4 revisions to coordinate with SPP Interconnection Cluster Study process and implement Order 2023 requirements (anticipated 12/15/2026, ER27-____-000); (4) Tariff revisions to Module D on Market Monitoring and Mitigation measures (anticipated 12/31/2026, ER27-____-000). The document does not indicate approval status or final rule text.",
+        "hydro_read_through": "This document does not mention hydropower directly. However, the anticipated filings touch PSH owners' interests in four ways: (1) the ESR transmission-charge exemption may establish precedent for how charging treatment and dispatch incentives apply to storage generally, including PSH; (2) the HVDC capacity-accreditation question (EL27-12-000) tests whether non-traditional transmission resources can claim RA capacity, which could shift MISO's capacity-market definition in ways that affect PSH's accreditation pathway or competitive position; (3) the MISO-SPP JOA revision implements FERC Order 2023 interconnection cluster-study coordination, which governs queue reform and deliverability rules PSH projects navigate; (4) the Module D market-monitoring tariff revision may revise mitigation thresholds or offer-development rules that apply to use-limited resources. The deadlines signal active rulemaking in tariff and compliance domains PSH owners track.",
+        "source_names_hydro": false,
+        "topics": [
+          "storage",
+          "capacity-ra",
+          "interconnection"
+        ],
+        "directness": "precedent",
+        "evidence": [
+          {
+            "claim": "644 filings year-to-date as of 11/20/2026",
+            "quote": "2026 = 644 (Year to Date 11/20/2026)",
+            "verified": true
+          },
+          {
+            "claim": "ESR transmission-charge exemption anticipated 11/23/2026",
+            "quote": "MISO to submit Tariff revisions to broaden the scope of the exemption of Electric Storage Resources (\"ESRs\") from transmission charges when charging while economically dispatched to provide a service. 11/23/2026 ER27-____-000",
+            "verified": false
+          },
+          {
+            "claim": "Invenergy HVDC complaint answer due 11/24/2026 with extension motion pending through 12/18/2026",
+            "quote": "MISO's answer to the complaint filed by Invenergy in Docket No. EL27-12-000 is due 11/24/2026; however, MISO filed a motion for extension through 12/18/2026. That request is currently pending.",
+            "verified": true
+          },
+          {
+            "claim": "MISO-SPP JOA revision anticipated 12/15/2026 to implement Order 2023 interconnection requirements",
+            "quote": "MISO to submit Revisions to Section 9.4 of the MISO-SPP JOA to add coordination with SPP Interconnection Cluster Study process; coordination and process improvement consistent with Order 2023; add affected system FCA compliance requirements; clarify the tie line upgrade and cost allocation requirements; and miscellaneous language clean up. 12/15/2026",
+            "verified": false
+          },
+          {
+            "claim": "Module D market-monitoring and mitigation tariff revision anticipated 12/31/2026",
+            "quote": "MISO to submit Tariff revisions to Module D regarding the Market Monitoring and Mitigation measures. 12/31/2026 ER27-____-000",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "20261202 AC Item 07 MISO Strategy Update",
+        "filename": "20261202 AC Item 07 MISO Strategy Update.pdf",
+        "url": "https://cdn.misoenergy.org/20261202%20AC%20Item%2007%20MISO%20Strategy%20Update797582.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's strategic update addresses capacity accreditation, storage participation optimization, ramp and flexibility management, large-load integration affecting stability, and transmission planning \u2014 all direct drivers of hydropower revenue, operational obligations, and strategic positioning in a high-renewables portfolio.",
+        "screened_at": "2026-11-23 23:38:17",
+        "ai_summary": "MISO issued a strategic update covering 25 years of RTO evolution and three forward priorities: (1) managing ramp and stability risk as solar capacity nearly doubles from 32 GW to 64 GW by 2030 and inverter-based resources reach 83 GW in 2027, requiring enhanced flexibility; (2) integrating large loads (data centers forecast at 16\u201330 GW by 2031) with speed-to-power and reliability assurance; and (3) improving business outcomes through accreditation reform, storage resource optimization, dynamic reserves, and congestion-pricing reform. The document identifies stability risk crossing a reliability threshold in 2027 without ride-through standards and transmission upgrades. MISO commits to improving accreditation and peak-risk-period alignment, optimizing storage participation, reforming congestion pricing, and enabling large-load integration; it requests member collaboration on flexibility coordination, commissioning of reliability control equipment, and dialogue on grid utilization.",
+        "hydro_read_through": "Hydropower's core revenue\u2014energy scarcity pricing and ramp product compensation\u2014stands to improve as MISO explicitly prioritizes flexibility signals and ramp-driven market mechanisms in response to net-load volatility. However, hydro's seasonal availability and use-limited characteristics mean accreditation reform and storage-participation optimization (mentioned as explicit commitments) could redraw seasonal capacity revenue; the document does not specify how seasonal hydro availability will be treated in improved accreditation or whether run-of-river and pumped-storage operations will be optimized jointly or separately. Large-load integration and stability risk mitigation also create demand for fast-ramping and black-start capability\u2014services hydro can supply\u2014but require investment in transmission and ride-through compliance that may fall on existing resources.",
+        "source_names_hydro": true,
+        "topics": [
+          "capacity-ra",
+          "ramping-flexibility",
+          "storage"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "solar capacity forecast to nearly double from 32 GW to 64 GW by 2030",
+            "quote": "Solar doubles, from 32 GW to 64 GW by 2030",
+            "verified": false
+          },
+          {
+            "claim": "inverter-based resources reaching 83 GW in 2027",
+            "quote": "Today 2027\n0 68 83\n~80 GW",
+            "verified": true
+          },
+          {
+            "claim": "data-center compute-driven loads forecast at 16\u201330 GW by 2031",
+            "quote": "Current Trajectory\n16 22 30\n2031",
+            "verified": true
+          },
+          {
+            "claim": "stability risk may cross reliability threshold in 2027",
+            "quote": "Without action, stability risk may cross a reliability threshold in 2027",
+            "verified": true
+          },
+          {
+            "claim": "MISO commits to improve accreditation and peak-risk-period alignment and optimize storage participation",
+            "quote": "Improve accreditation and peak risk period alignment \u2022 Optimize storage resource participation",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -2303,7 +3396,642 @@
     "meeting_hydro_reason": "MISO Markets Committee meetings routinely address energy price formation, capacity accreditation, ancillary-services design, storage participation rules, and reliability mechanisms that directly affect hydro and PSH revenue and compliance, and this meeting falls in the active compliance and redesign window for MISO market rules.",
     "meeting_screened_at": "2026-11-15 18:36:46",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "other",
+        "title": "20261201 Markets Committee of the BOD Item 04 MISO IMM Best Practies Review.pdf",
+        "filename": "20261201 Markets Committee of the BOD Item 04 MISO IMM Best Practies Review.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Markets%20Committee%20of%20the%20BOD%20Item%2004%20MISO%20IMM%20Best%20Practies%20Review797813.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document reviews MISO's market-monitoring governance models and organizational structure; it does not address market-design mechanisms for revenue formation, compliance obligations, or strategic options for hydro or PSH participants.",
+        "screened_at": "2026-11-23 23:38:19",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "20261201 Markets Committee of the BOD Item 05 RI Update and Response to 2025 IMM SOM.pdf",
+        "filename": "20261201 Markets Committee of the BOD Item 05 RI Update and Response to 2025 IMM SOM.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Markets%20Committee%20of%20the%20BOD%20Item%2005%20RI%20Update%20and%20Response%20to%202025%20IMM%20SOM797618.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's market reforms directly affect capacity accreditation methodology (marginal DLOL framework, LMR alignment), ramp product pricing (Up Ramp demand curve), reserve products, and deliverability rules\u2014all core revenue mechanisms for dispatchable resources including conventional hydro.",
+        "screened_at": "2026-11-23 23:38:33",
+        "ai_summary": "MISO's December 2026 Markets Committee report documents operational performance improvements and strategic priorities through 2027-2028. Key reforms advancing in 2026 include: Up Ramp demand curve (filed Aug. 4, reducing ramp-scarcity intervals by 64% year-to-date), Uninstructed Deviation Enhancement settlement rules (filed June 1, effective 2028/29), marginal accreditation framework with FERC approval effective 2028, and Load Modifying Resource accreditation alignment. MISO closed eight prior Independent Market Monitor recommendations and prioritized six new ones from the 2025 State of the Market Report, including capacity accreditation reform (maintenance margin, off-control resource treatment, DLOL for firm/non-firm gas), daily capacity-balancing settlement to replace non-compliance charges, and make-whole payment reduction. Dynamic Ramp & Regulation Requirements (MSC 2026-11) and Multi-Interval Optimization for Energy Storage Resources targeting VOLL pricing are slated for 2027-2028 implementation. Out-of-market operator actions decreased 63% versus 2024, real-time Revenue Sufficiency Guarantee costs fell >$100M annually, and demand-response resources provided 85% of requested megawatts in recent events.",
+        "hydro_read_through": "The document does not mention hydro or pumped storage directly. However, MISO's reforms reshape revenue streams and operational flexibility for dispatchable resources. The Up Ramp demand curve and Dynamic Ramp & Regulation Requirements strengthen scarcity pricing for ramping capability\u2014a core hydro product\u2014while marginal accreditation and DLOL-treatment changes will reset how seasonal capacity is credited and priced for resources with variable energy availability. The Multi-Interval Optimization initiative for 'Energy Storage Resources' and emerging ramp/regulation deliverability rules set market precedent for how storage-like operating flexibility is valued; conventional hydro participation in those frameworks would be affected by those design choices, though this document does not specify how hydro resources are classified within them.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "price-formation",
+          "ramping-flexibility"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Up Ramp demand curve filed Aug. 4, with 64% reduction in intervals of day-ahead ramp shortage",
+            "quote": "Up Ramp demand curve\n Aug. 4 \u25b2 Filed\n64% reduction in intervals of day ahead ramp",
+            "verified": false
+          },
+          {
+            "claim": "Uninstructed Deviation Enhancement settlement rules filed June 1, effective 2028/29",
+            "quote": "Uninstructed Deviation settlement rules SOM\n June 1 \u25b2 Approved, effective 2028/29",
+            "verified": false
+          },
+          {
+            "claim": "Marginal accreditation framework FERC approved, effective 2028; LMR accreditation aligned under new marginal DLOL framework",
+            "quote": "FERC approved MISO's filing to implement a marginal accreditation framework with an implementation date of 2028. Additionally, MISO filed changes to LMR accreditation to align it with other resources under the new marginal DLOL framework.",
+            "verified": true
+          },
+          {
+            "claim": "Annual real-time Revenue Sufficiency Guarantee costs fell more than $100M per year in recent years",
+            "quote": "In the recent years, annual real-time Revenue Sufficiency Guarantee costs have fallen by more than $100 million per year.",
+            "verified": true
+          },
+          {
+            "claim": "Out-of-market operator actions reduced 63% versus 2024",
+            "quote": "63% Change in out-of-market Operator actions* vs. 2024",
+            "verified": false
+          },
+          {
+            "claim": "Demand response provided 85% of requested megawatts in recent events",
+            "quote": "85% Average megawatts requested in recent events provided by Demand Response & Load Modifying Resources",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "agenda",
+        "title": "20261201 Markets Committee of the BOD Item 02 Agenda.pdf",
+        "filename": "20261201 Markets Committee of the BOD Item 02 Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Markets%20Committee%20of%20the%20BOD%20Item%2002%20Agenda797624.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a bare agenda for a MISO Markets Committee meeting with no substantive content on market rules, revenue mechanisms, obligations, or strategic options affecting hydropower or storage.",
+        "screened_at": "2026-11-23 23:38:36",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Jagoron Mukherjee",
+            "entity": "EY-Parthenon",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Carrie Milton",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dr. Renuka Chatterjee",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Tim Aliff",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Zak Joundi",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "minutes",
+        "title": "20261201 Markets Committee of the BOD Item 03 Minutes 20260915.pdf",
+        "filename": "20261201 Markets Committee of the BOD Item 03 Minutes 20260915.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Markets%20Committee%20of%20the%20BOD%20Item%2003%20Minutes%2020260915797625.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's emergency pricing procedures and congestion-cost escalation during the July heat wave touch energy price formation and scarcity pricing mechanics that directly affect real-time revenue; the IMM's summer monitoring report on congestion, reserve accreditation methodology, and solar overaccreditation correction also affect capacity revenue and ramping product demand.",
+        "screened_at": "2026-11-23 23:38:52",
+        "ai_summary": "MISO's Markets Committee reviewed the Independent Market Monitor's Summer 2026 quarterly report on September 15, 2026. The IMM reported that real-time congestion costs rose more than 50% from summer 2025 to $656 million in summer 2026, an unusual trend not tracking with a 3% to 6% decline in gas prices. During the July 13\u201317 heat wave, MISO escalated to emergency procedures on July 15, with Load Modifying Resources (LMRs) released and emergency pricing continuing for three hours after LMR cancellation. The IMM noted that solar overaccreditation would be corrected by Direct Loss of Load accreditation. The share of congestion on constraints with excess derates dropped from 35% to 23% between 2024 and 2026 following improved operator actions under guidelines and use of the Uninstructed Deviation Enhancement flag. The Committee approved the 2027 IMM Budget and scheduled the Annual IMM Review for October and State of the Market Response for December 2026.",
+        "hydro_read_through": "The document does not name hydropower or pumped storage. However, the spike in real-time congestion costs and emergency pricing escalation during tight summer conditions directly touch energy and congestion-relief price signals\u2014the primary revenue levers for hydro in the energy market and ramping products. The growing evening net load ramp demand from solar expansion signals an increasing need for ramping capacity and flexibility products, which conventional hydro is positioned to supply. Changes in how MISO accredits and treats reserve resources and handles constraint-driven congestion mechanics (the UDE flag and derate guidelines) reshape the operational incentives and revenue exposure that use-limited resources face in real-time markets.",
+        "source_names_hydro": false,
+        "topics": [
+          "price-formation",
+          "ramping-flexibility",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Real-time congestion costs rose more than 50% from summer 2025 to summer 2026, totaling $656 million",
+            "quote": "real-time congestion costs were up by more than 50% from last summer to a total of $656 million",
+            "verified": true
+          },
+          {
+            "claim": "MISO escalated to emergency procedures on July 15 during the July 13\u201317 heat wave",
+            "quote": "He commented on the July 13-17 heat wave, during which MISO escalated to emergency procedures on July 15.",
+            "verified": true
+          },
+          {
+            "claim": "Emergency pricing continued for three hours after Load Modifying Resources were canceled",
+            "quote": "This led to three hours of emergency pricing after LMRs were canceled.",
+            "verified": true
+          },
+          {
+            "claim": "Energy prices fell 5% compared to last summer",
+            "quote": "She reported that energy prices fell 5% compared to last summer",
+            "verified": true
+          },
+          {
+            "claim": "Gas prices fell up to 6%",
+            "quote": "although gas prices fell up to 6%",
+            "verified": true
+          },
+          {
+            "claim": "The share of congestion on constraints with excess derates dropped from 35% to 23% between 2024 and 2026",
+            "quote": "She reported that the share of congestion on constraints with excess derates has dropped from 35% to 23% of total congestion from 2024 to 2026",
+            "verified": true
+          },
+          {
+            "claim": "Annual IMM Review scheduled for October; State of the Market Response scheduled for December 2026",
+            "quote": "Dr. Chatterjee noted that the Annual IMM Review would be held at the October Committee meeting, and the State of the Market Response will be provided to the Committee at the December meeting.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "John Liskey",
+            "entity": "Citizens Utility Board of Michigan",
+            "role": "public commenter",
+            "email": null
+          },
+          {
+            "name": "Natalie McIntire",
+            "entity": "Clean Grid Alliance",
+            "role": "public commenter",
+            "email": null
+          },
+          {
+            "name": "Jagoron Mukherjee",
+            "entity": "EY Parthenon",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Andre Porter",
+            "entity": "MISO",
+            "role": "senior vice president, chief strategy officer, and general counsel",
+            "email": null
+          },
+          {
+            "name": "Barbara J. Krumsiek",
+            "entity": "MISO",
+            "role": "committee member",
+            "email": null
+          },
+          {
+            "name": "DL Oates",
+            "entity": "MISO",
+            "role": "executive director market and grid research",
+            "email": null
+          },
+          {
+            "name": "Dr. Renuka Chatterjee",
+            "entity": "MISO",
+            "role": "vice president, operations",
+            "email": null
+          },
+          {
+            "name": "Erik Takayesu",
+            "entity": "MISO",
+            "role": "director",
+            "email": null
+          },
+          {
+            "name": "J.T. Smith",
+            "entity": "MISO",
+            "role": "executive director system wide operations",
+            "email": null
+          },
+          {
+            "name": "Jeff Lemmer",
+            "entity": "MISO",
+            "role": "committee member",
+            "email": null
+          },
+          {
+            "name": "Jennifer Curran",
+            "entity": "MISO",
+            "role": "senior vice president, planning & operations",
+            "email": null
+          },
+          {
+            "name": "Joel Cook",
+            "entity": "MISO",
+            "role": "committee member",
+            "email": null
+          },
+          {
+            "name": "John R. Bear",
+            "entity": "MISO",
+            "role": "chief executive officer and director",
+            "email": null
+          },
+          {
+            "name": "Kristina Tridico",
+            "entity": "MISO",
+            "role": "deputy general counsel and assistant corporate secretary",
+            "email": null
+          },
+          {
+            "name": "Mark S. Johnson",
+            "entity": "MISO",
+            "role": "director",
+            "email": null
+          },
+          {
+            "name": "Matt Elliott",
+            "entity": "MISO",
+            "role": "participant",
+            "email": null
+          },
+          {
+            "name": "Nancy Lange",
+            "entity": "MISO",
+            "role": "committee member",
+            "email": null
+          },
+          {
+            "name": "Robert F. Lurie",
+            "entity": "MISO",
+            "role": "committee member",
+            "email": null
+          },
+          {
+            "name": "Theresa Wise",
+            "entity": "MISO",
+            "role": "chair, markets committee",
+            "email": null
+          },
+          {
+            "name": "Timothy Caister",
+            "entity": "MISO",
+            "role": "vice president, legal and regulatory affairs",
+            "email": null
+          },
+          {
+            "name": "Todd M. Raba",
+            "entity": "MISO",
+            "role": "director",
+            "email": null
+          },
+          {
+            "name": "Todd Ramey",
+            "entity": "MISO",
+            "role": "senior vice president, markets & digital strategy",
+            "email": null
+          },
+          {
+            "name": "Zak Joundi",
+            "entity": "MISO",
+            "role": "executive director, market & grid strategy",
+            "email": null
+          },
+          {
+            "name": "Carrie Milton",
+            "entity": "Potomac Economics",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Dr. David Patton",
+            "entity": "Potomac Economics, Ltd.",
+            "role": "independent market monitor",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261201 Markets Committee of the BOD Item 08 2027 Work Plan.pdf",
+        "filename": "20261201 Markets Committee of the BOD Item 08 2027 Work Plan.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Markets%20Committee%20of%20the%20BOD%20Item%2008%202027%20Work%20Plan797622.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a meeting-calendar work plan for the MISO Markets Committee containing only dates, agenda items, and logistics with no substantive market-design content on pricing, ancillary services, capacity, storage, interconnection, or compliance rules that would affect hydropower or PSH revenue, obligations, or strategic options.",
+        "screened_at": "2026-11-23 23:38:54",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261201 Markets Committee of the BOD Item 09a Response to June Action Item.pdf",
+        "filename": "20261201 Markets Committee of the BOD Item 09a Response to June Action Item.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Markets%20Committee%20of%20the%20BOD%20Item%2009a%20Response%20to%20June%20Action%20Item797623.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "FTR funding and congestion-hedging effectiveness directly affect market participants' ability to hedge transmission constraints, a strategic revenue stream for dispatchable resources including hydro; MISO's deliberate auction-design choices (annual vs. monthly capability) and planned stakeholder-process changes to FTR and ARR procurement mechanics are market-design actions hydro owners must track.",
+        "screened_at": "2026-11-23 23:39:05",
+        "ai_summary": "MISO's response to a Markets Committee June 2026 action item examines PJM outage practices and their potential impact on MISO's FTR funding shortfall. The Independent Market Monitor reported in spring 2026 that about half of the FTR funding shortfall was attributable to the timing of outages in PJM as a potential contributing factor. MISO's review found that outage uncertainty on PJM facilities is comparable to that on MISO's own, and concludes the broader issue is how FTR auctions account for outage uncertainty regardless of source. MISO manages this uncertainty through annual and incremental monthly auctions and has previously implemented measures\u2014originally for planning year 2022/23 and continuing into the current year\u2014to reduce capability in the annual auction and sell capacity in monthly auctions, balancing FTR funding performance with transmission-capability availability for hedging. MISO is working through the stakeholder process to address deficiencies in procuring appropriate hedges; the IMM has proposed moving to a monthly-only auction, and MISO stakeholders and OMS have proposed other changes that MISO is considering.",
+        "hydro_read_through": "The document does not name hydro or hydropower. However, MISO's FTR market directly affects dispatchable generators' ability to hedge transmission congestion and locational price risk\u2014a core revenue-protection mechanism for hydro and PSH plants that derive value from intra-market spreads and congestion patterns. The deliberate shift to relying more on monthly auctions (fewer committed hedges in the annual phase) could reduce the hedging certainty available to load-following resources planning annual dispatch. Conversely, if monthly auctions improve funding outcomes, they could make residual hedging more reliable. The stakeholder-process work MISO is undertaking\u2014including the IMM's monthly-only proposal\u2014will shape whether and how FTR auction design evolves to match actual outage and system conditions; hydro owners benefit from funding certainty (more revenue stability) but may also value higher available hedging volumes to protect against price volatility.",
+        "source_names_hydro": false,
+        "topics": [
+          "price-formation",
+          "transmission"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Independent Market Monitor reported in spring 2026 that about half of the FTR funding shortfall was attributable to the timing of outages in PJM",
+            "quote": "In its spring 2026 Quarterly Report, the Independent Market Monitor (IMM) reported that about half of the FTR funding shortfall was attributable to the timing of outages in PJM as a potential contributing factor.",
+            "verified": true
+          },
+          {
+            "claim": "MISO has implemented measures originally for planning year 2022/23, continuing into the current year, to reduce capability in the annual auction and sell capacity in monthly auctions",
+            "quote": "These changes were originally implemented for planning year 2022/23, and have continued into the current year.",
+            "verified": true
+          },
+          {
+            "claim": "IMM has proposed moving to a monthly-only FTR auction",
+            "quote": "The IMM has proposed changes, including moving to a monthly-only auction as highlighted in their report.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "RENUKA CHATTERJEE",
+            "entity": "MISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "20261201 Markets Committee of the BOD Item 05a MISO Response to 2025 IMM SOM Report.pdf",
+        "filename": "20261201 Markets Committee of the BOD Item 05a MISO Response to 2025 IMM SOM Report.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Markets%20Committee%20of%20the%20BOD%20Item%2005a%20MISO%20Response%20to%202025%20IMM%20SOM%20Report797619.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's response to its Independent Market Monitor addresses six new and twenty-six existing recommendations spanning energy price formation, ancillary-services and operating-reserve settlement rules, capacity accreditation methodology, demand curves, outage policies, and emergency-performance penalties \u2014 all mechanisms that govern use-limited resource compensation and are directly applicable to dispatchable hydro and pumped-storage facilities in MISO.",
+        "screened_at": "2026-11-23 23:39:21",
+        "ai_summary": "MISO has filed a formal narrative response to the IMM's 2025 State of the Market Report, which contained six new recommendations to enhance market performance. MISO agrees with five of the six new recommendations but disagrees with one (repricing criteria) and requires further evaluation of proposed solutions for four others. Of the six new recommendations: (1) MISO disagrees with developing criteria to limit retroactive market repricing; (2) MISO agrees but plans further evaluation of reducing make-whole and operating-reserve payments for deviating resources (Planned); (3) MISO agrees and is actively working (Active) to align capacity obligations with LMR capability and ensure large loads are in the forecast; (4) MISO agrees but requires further analysis to replace CRNCC penalty rules with daily capacity-balancing settlement (Active); (5) MISO agrees but needs to evaluate solutions for capacity-accreditation reforms including maintenance margin, treatment of off-control resources, gas-fuel classification in DLOL, and solar-accreditation hours (Active); and (6) MISO agrees and will evaluate penalties for resources that overstate emergency capabilities and fail to perform (Planned). Additionally, MISO provided updates on 26 existing recommendations, with 12 classified as Active, 13 as Planned, six as Deferred, and one as Disagree across the five-year planning horizon. Among existing recommendations, notable actions in design or implementation phases include modifications to RDT demand-curve steps and RPE binding limits (Design), requiring descriptions in CROW outage tickets (Design/Implement), and improvements to Forced Off Asset Event criteria (Design). The response was prepared by MISO's Executive Director of Markets and Grid Strategy for discussion with the Markets Committee of the Board on December 1, 2026.",
+        "hydro_read_through": "The document addresses MISO's regulatory agenda for market rules governing use-limited resources and dispatchable generation broadly. Though it never names hydro or pumped storage, the recommendations span mechanisms that directly affect them: operating-reserve settlement (2025-2 on deviating-resource payments), capacity accreditation (2025-5 reforming maintenance margin, off-control treatment, and gas-fuel classification), outage policies (2025-4 replacing CRNCC rules), and emergency-offer penalties (2025-6). Conventional hydro and PSH operators clearing capacity in MISO face these rules; changes to how reserves are credited during dispatch deviations, how accreditation treats partial availability, how outages are priced and incentivized, and how emergency ranges are penalized would affect their revenue recovery and operational flexibility. The active work streams (2025-3 on load forecasting and large-load obligations, 2025-4 on capacity settlement, 2025-5 on accreditation) are on MISO's near-term agenda and merit tracking; agreement in principle on 2025-5 and 2025-6 suggests those items may move toward design phases in 2027.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "ancillary-services",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "December 1, 2026 Markets Committee discussion scheduled",
+            "quote": "summary presentation for the planned discussion with the Markets Committee of the Board of Directors on December 1",
+            "verified": true
+          },
+          {
+            "claim": "Of 32 recommendations, 12 are Active, 13 are Planned, six are Deferred, and one is Disagree",
+            "quote": "Of the 32 recommendations, 12 are Active, 13 are Planned, six are Deferred, and one is Disagree.",
+            "verified": true
+          },
+          {
+            "claim": "MISO has resolved 98 of 130 recommendations over 21 years",
+            "quote": "MISO has resolved 98 of these, including six in 2025. Because recommendations differ in complexity and impact",
+            "verified": true
+          },
+          {
+            "claim": "26 GW of new large loads projected through 2030, primarily data centers",
+            "quote": "MISO is projecting 26 GW of new large loads primarily led by new data centers.",
+            "verified": true
+          },
+          {
+            "claim": "2025-2 (deviating-resource reserves) status: Planned",
+            "quote": "MISO Five-Year Action: Planned",
+            "verified": true
+          },
+          {
+            "claim": "2025-3 (load forecast/LMR alignment) status: Active",
+            "quote": "MISO Five-Year Action: Active",
+            "verified": true
+          },
+          {
+            "claim": "2025-4 (CRNCC replacement) status: Active",
+            "quote": "MISO Five-Year Action: Active",
+            "verified": true
+          },
+          {
+            "claim": "2025-5 (capacity accreditation reform) status: Active",
+            "quote": "MISO Five-Year Action: Active",
+            "verified": true
+          },
+          {
+            "claim": "2025-6 (emergency-range penalties) status: Planned",
+            "quote": "MISO Five-Year Action: Planned",
+            "verified": true
+          },
+          {
+            "claim": "2025-1 (repricing criteria) status: Disagree",
+            "quote": "MISO Five-Year Action: Disagree",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Dr. Patton",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Zak Joundi",
+            "entity": "MISO",
+            "role": "author",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "20261201 Markets Committee of the BOD Item 06 MISO Operations Report.pdf",
+        "filename": "20261201 Markets Committee of the BOD Item 06 MISO Operations Report.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Markets%20Committee%20of%20the%20BOD%20Item%2006%20MISO%20Operations%20Report797620.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The document addresses MISO's market performance during emergency conditions, pricing quality, and reserve/ramp product adequacy\u2014all touching hydro's ancillary-service revenue and ramping-flexibility products, plus capacity-accreditation signals via winter resource-adequacy outlook.",
+        "screened_at": "2026-11-23 23:39:34",
+        "ai_summary": "MISO's Operations Report to the Markets Committee (December 1, 2026) reviews performance through fall 2026, documenting two emergency events in September where rapid import loss and congestion created reserve shortages, triggering EEA-2 declarations and VOLL pricing. MISO identifies market-quality issues (3 pricing intervals corrected post-event) and proposes 2027 performance-target recalibrations\u2014Unit Commitment Efficiency down from 92\u201394\u201396% to 90\u201392\u201394%, and Market Funding Efficiency adjusted to 7\u20138\u201310 months \u226595%\u2014to reflect larger evening net-load ramps (up to 15.2 GW/hr vs. 9.3 GW/hr in April) and planned operational improvements in regulation, ramp, and reserve-deliverability management. Winter 2026\u201327 resource-adequacy clearing shows 132 GW planned reserve margin against 107 GW probable demand, but four load pockets in the South Region remain at elevated risk; MISO notes improved winter readiness and coordination but expects continued load-pocket advisories.",
+        "hydro_read_through": "Although the document does not name hydropower, the September emergency events and ramp-forecasting challenges are directly material to hydro's ramping and reserve-accreditation revenue. The expanded evening net-load ramps (15.2 GW/hr) and documented reserve-shortage pricing indicate growing scarcity in flexibility products\u2014the primary value stream for dispatchable hydro during stress periods. Hydro owners should track MISO's 2027 reserve-deliverability initiatives and congestion-forecasting improvements, as these shape both AS procurement signals and whether offline or fuel-limited reserves (a chronic issue for run-of-river and storage hydro) will be better integrated into sufficiency calculations.",
+        "source_names_hydro": true,
+        "topics": [
+          "ramping-flexibility",
+          "ancillary-services",
+          "capacity-ra"
+        ],
+        "directness": "reference",
+        "evidence": [
+          {
+            "claim": "September 2 emergency: imports dropped 4.5 GW in 25 minutes, EEA-2 declared, VOLL pricing for 5 intervals",
+            "quote": "\u2022 Tagging system issue cut some imports in error \u2022 Reliably served 122.9 GW peak \u2022 ~4.5 GW imports lost in 25 minutes",
+            "verified": true
+          },
+          {
+            "claim": "2027 Unit Commitment Efficiency target: 90% / 92% / 94% (down from 92% / 94% / 96%)",
+            "quote": "Unit Commitment Efficiency | 92% / 94% / 96% | 92% | 90% / 92% / 94%",
+            "verified": true
+          },
+          {
+            "claim": "2027 Market Funding Efficiency target: 7 / 8 / 10 months \u2265 95%",
+            "quote": "Market Funding Efficiency | 7 / 9 / 11 months at 95% or above | 7 of 10 months | 7 / 8 / 10 months \u2265 95%",
+            "verified": true
+          },
+          {
+            "claim": "Evening net-load ramp April 2026 actual: 9.3 GW/hr; December 2027 estimate: 15.2 GW/hr",
+            "quote": "Evening net-load ramp (GW per hour) April 2026 (actual) 9.3 ... Dec. 2027 (indicative) 15.2",
+            "verified": false
+          },
+          {
+            "claim": "Winter 2026\u201327 resource-adequacy clearing: 132 GW planned reserve margin, 114 GW high-demand, 107 GW probable demand",
+            "quote": "The MISO Seasonal Margin Requirement 132 GW* Resource Adequacy ... 114 GW High Demand Probable Demand 107 GW",
+            "verified": false
+          },
+          {
+            "claim": "Winter peak forecast 2026: 107 GW on 1/27/2026",
+            "quote": "Winter Peak (GW) 106 108 105 107 Winter 2023/24 2024/25 2025/26 Winter 2026 Forecast",
+            "verified": false
+          },
+          {
+            "claim": "Real-time congestion cost fall 2026: $351M",
+            "quote": "REAL-TIME CONGESTION ($M)** ... $351",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "20261201 Markets Committee of the BOD Item 07 IMM Report.pdf",
+        "filename": "20261201 Markets Committee of the BOD Item 07 IMM Report.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Markets%20Committee%20of%20the%20BOD%20Item%2007%20IMM%20Report797621.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Independent Market Monitor quarterly report identifying major revenue disruptions from evening net load ramp management failures, energy shortage pricing, and proposals affecting slow-ramping unit economics and capacity accreditation \u2014 directly touches hydro's ramping/flexibility revenue and market mitigation rules.",
+        "screened_at": "2026-11-23 23:39:52",
+        "ai_summary": "MISO's Independent Market Monitor (Potomac Economics) reported for Fall 2026 (data through Nov. 15) that energy and contingency reserve shortages occurred in evening ramp hours with unprecedented frequency, costing roughly $2 billion in total, priced at the $10,000/MWh cap. Solar output rose 9% despite 13% fall in gas prices, driving energy prices up 48% year-over-year as the cumulative evening net load ramp grew 31% and reached 30 GW on two days. Five major events occurred (Sept. 2, Sept. 17, Sept. 28, Oct. 6, Oct. 18); Sept. 2 alone cost $605 million due to a 4 GW import curtailment error, and Sept. 17 cost $1,074 million with 5 GW of generation stranded behind constraints. The IMM recommends six improvements: (1) establish an energy demand curve rising to $6,000/MWh, (2) pre-position slow-ramping units via Baseload Pre-Positioning (BPP) or Look-Ahead Dispatch (LAD) software, (3) coordinate TLR curtailments with neighbors, (4) pursue Interchange Optimization with SPP, (5) improve renewable forecast errors in commitment tools, and (6) accurately estimate stranded MWs in control-room visibility tools. BPP simulations on 24 high-ramp days showed $2.5 million total production cost savings and would reduce SMP from $210/MWh to $135/MWh. Real-time congestion rose 31% to $776.3 million; FTR shortfalls of ~$61 million resulted from two modeling errors (radial constraints and unmodeled interface constraint). Emergency-range availability also deteriorated \u2014 1 GW of 2.5 GW typical emergency MWs were unavailable during September emergencies, and 500 MW dispatched did not respond; the IMM recommends penalties for non-performance.",
+        "hydro_read_through": "Conventional hydropower with fast ramp capability (and pumped-storage hydro) are the canonical suppliers of the flexibility product now severely undersupplied in evening hours. The document does not name hydro but its core problem \u2014 slow-ramping thermal units cannot access their available capacity within 5-minute real-time dispatch windows despite being pre-positioned by day-ahead commitment tools \u2014 is precisely the inverse of hydro's natural advantage. The proposed Baseload Pre-Positioning mechanism would change how MISO settles and compensates units during shortage hours, potentially shifting value away from flexible resources if the mechanism assumes that slow units should be held harmless when ramping cannot be accessed. The energy demand curve rising to $6,000/MWh would increase scarcity-pricing upside but only if hydro can actually offer into those shortage events; the capacity accreditation questions around emergency-range performance and GVTC inflation also affect how hydro's flexibility is credited in the Planning Resource Auction. Lastly, real-time congestion at $776 million and FTR shortfalls from modeling errors signal transmission constraints that may limit hydro's ability to export, particularly from Northwest facilities.",
+        "source_names_hydro": true,
+        "topics": [
+          "price-formation",
+          "ramping-flexibility",
+          "capacity-ra"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Energy and reserve shortages with costs of almost $2 billion",
+            "quote": "shortages valued at almost $2 billion",
+            "verified": true
+          },
+          {
+            "claim": "Solar output rose 9 percent over last year",
+            "quote": "solar output rose 9 percent over last year",
+            "verified": true
+          },
+          {
+            "claim": "Cumulative evening net load ramp grew 31 percent and reached 30 GW on 2 days",
+            "quote": "Rising solar and load levels have caused the cumulative evening net load ramp to grow 31 percent and reached as high as 30 GW on 2 days",
+            "verified": true
+          },
+          {
+            "claim": "Energy prices rose 48 percent year-over-year despite 13% fall in gas prices",
+            "quote": "average gas prices fell by 13 percent but energy prices rose 48 percent",
+            "verified": true
+          },
+          {
+            "claim": "September 2 event cost $605 million",
+            "quote": "September 2 $10,000 $605 Mill",
+            "verified": true
+          },
+          {
+            "claim": "September 17 event cost $1,074 million",
+            "quote": "September 17 $10,000 $1,074 Mill",
+            "verified": true
+          },
+          {
+            "claim": "Real-time congestion rose 31 percent to $776.3 million",
+            "quote": "Real-time congestion rose 31% from last fall to $776 million",
+            "verified": true
+          },
+          {
+            "claim": "FTR shortfalls of approximately $61 million",
+            "quote": "Two significant issues contributed to unusually large FTR shortfalls (~$61M)",
+            "verified": true
+          },
+          {
+            "claim": "Baseload Pre-Positioning would reduce SMP from $210/MWh to $135/MWh on simulated days",
+            "quote": "Actual SMP: $210/MWh... SMP with BPP: $135/MWh",
+            "verified": false
+          },
+          {
+            "claim": "Energy demand curve recommendation to $6,000 per MWh",
+            "quote": "Establish an energy demand curve that rises to $6000 per MWh",
+            "verified": true
+          },
+          {
+            "claim": "2.5 GW typically available emergency generation, 1 GW unavailable during September emergencies",
+            "quote": "2.5 GW is typically available on normal days, but roughly 1 GW of the capability was unavailable during the two emergencies in September 2026",
+            "verified": true
+          },
+          {
+            "claim": "500 MW dispatched by real-time market did not respond",
+            "quote": "An additional 500 MW dispatched by the real-time market did not respond",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Carrie Milton",
+            "entity": "Potomac Economics",
+            "role": "author",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Locational Enrollment Service (LES) for Load Modifying Resources Workshop - December 1, 2026",
@@ -2353,7 +4081,355 @@
     "meeting_hydro_reason": "MISO's System Planning Committee addresses transmission planning, resource adequacy, and interregional transfer capability affecting hydro deliverability and strategic options, plus seasonal energy studies and non-wires alternatives relevant to hydro owners' market participation choices.",
     "meeting_screened_at": "2026-11-15 18:36:49",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "20261201 System Planning Committee of the BOD Item 02 Agenda.pdf",
+        "filename": "20261201 System Planning Committee of the BOD Item 02 Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20System%20Planning%20Committee%20of%20the%20BOD%20Item%2002%20Agenda797655.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "The agenda covers MISO transmission planning and generator interconnection queue updates, both of which directly affect hydro and PSH deliverability, interconnection pathways, and strategic positioning in MISO's footprint.",
+        "screened_at": "2026-11-23 23:39:57",
+        "ai_summary": "MISO System Planning Committee meeting on December 1, 2026, in Orlando covering (1) Prior MTEP Status Report, (2) Reliability Imperative: Transmission Evolution, (3) Variance Analysis Overview, (4) Generator Interconnection Queue Update, (5) 2026 & 2027 Work Plan Review. Agenda items identify transmission planning and queue dynamics as core discussion topics, with no specific decisions or deadlines stated in the agenda itself.",
+        "hydro_read_through": "The agenda does not name hydro directly, but transmission planning (MTEP), generator interconnection queue management, and work-plan priorities are the mechanisms through which MISO shapes hydro's ability to deliver power, secure interconnection capacity, and compete with other resources. Hydro owners operating or seeking to interconnect in MISO should monitor how transmission constraints are being identified and prioritized, and what the queue update reveals about interconnection costs and timelines for new or uprated capacity.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "transmission",
+          "ops-compliance"
+        ],
+        "directness": "direct",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Aubrey Johnson",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Jeanna Furnish",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Laura Rauch",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261201 System Planning Committee of the BOD Item 05 RI Tran. Evol..pdf",
+        "filename": "20261201 System Planning Committee of the BOD Item 05 RI Tran. Evol..pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20System%20Planning%20Committee%20of%20the%20BOD%20Item%2005%20RI%20Tran.%20Evol.797650.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's large load framework and transmission planning directly affect the deliverability, interconnection pathway, and strategic options for hydro owners seeking to serve large loads through co-location or proximate arrangements, and the interregional coordination efforts touch transmission-dependent revenue.",
+        "screened_at": "2026-11-23 23:40:10",
+        "ai_summary": "MISO presented its Reliability Imperative transmission evolution strategy, including a Large Load Project Review (LLPR) framework that processes large-load interconnection applications in approximately 120 days (3 cycles per year) with cost-shifting protections and transparent pricing. The framework includes operational requirements, co-located generation agreements (ZGIA, zero-injection arrangements), aligned generation-and-load studies (LARS), and interim/permanent transmission service options (Firm Service Step Up, GRITS, NITS) for flexible loads. Requested effective dates range from December 4, 2026 (operational requirements) through March 16, 2027 (implemented in 2029 for permanent service). MISO is also advancing Long Range Transmission Planning (LRTP) studies across South and Midwest regions, with initial findings identifying economic and reliability system needs across all planning regions; further analysis continues into 2027. MISO is pursuing interregional coordination including Order 1920 compliance filings and a $175 million SPARK grant with PJM for transmission optimization at the MISO-PJM seam (bringing total potential to $350 million with utility/customer matches), and has launched a 2026-27 Coordinated System Plan with SPP to identify opportunities along the northern seam.",
+        "hydro_read_through": "The large-load framework creates new interconnection pathways and service options that could allow conventional hydro plants or pumped-storage facilities with proximate flexible loads or behind-the-meter generation to participate more efficiently, particularly through ZGIA (zero-injection arrangements) and LARS (aligned studies). The transmission-planning expansion and interregional SPARK grant work could also improve long-term deliverability for hydro exports and cross-regional energy transfers. However, the document does not address how existing conventional hydro or storage resources will be treated under these new frameworks, nor does it clarify how their energy or ancillary-service offerings interact with large-load cost-allocation or how their own interconnection rights may be affected by the accelerated large-load process.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "load-growth",
+          "transmission"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "Large Load Project Review (LLPR) studies and approves large loads in about 120 days (3 cycles per year)",
+            "quote": "Studies and approves large loads in\nabout 120 days (3 cycles per year)",
+            "verified": false
+          },
+          {
+            "claim": "Operational requirements effective date December 4, 2026",
+            "quote": "December 4, 2026",
+            "verified": true
+          },
+          {
+            "claim": "ZGIA effective date October 18, 2026 pending FERC deficiency resolution",
+            "quote": "October 18, 2026*\n*Pending resolution of FERC deficiency",
+            "verified": false
+          },
+          {
+            "claim": "LARS effective date December 2, 2026",
+            "quote": "December 2, 2026",
+            "verified": true
+          },
+          {
+            "claim": "LLPR effective date February 14, 2027",
+            "quote": "February 14, 2027",
+            "verified": true
+          },
+          {
+            "claim": "Permanent service options effective March 16, 2027 (implemented in 2029)",
+            "quote": "March 16, 2027\n(Implemented in 2029)",
+            "verified": true
+          },
+          {
+            "claim": "SPARK grant to Indiana of $175 million for MISO-PJM transmission optimization, bringing total potential to $350 million with matches",
+            "quote": "In September, the U.S. Department of Energy (DOE) selected Indiana to receive a\n$175 million grant through its SPARK program to optimize transmission across the MISO-PJM\nseam. ... Some utilities and large\nSoutheast load customers committed to match contributions, bringing the total potential to $350 million.",
+            "verified": false
+          },
+          {
+            "claim": "2024-25 Coordinated System Plan with SPP closed; 2026-27 plan launched in fall",
+            "quote": "2024-25 Coordinated System Plan (CSP) closed: The study identified two high-performing\nportfolio options. ... 2026-27 Coordinated System Plan launched: The RTOs launched this study in the fall.",
+            "verified": false
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261201 System Planning Committee of the BOD Item 06 Variance Analysis.pdf",
+        "filename": "20261201 System Planning Committee of the BOD Item 06 Variance Analysis.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20System%20Planning%20Committee%20of%20the%20BOD%20Item%2006%20Variance%20Analysis797651.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document describes MISO's variance-analysis process for cost and schedule monitoring of transmission projects in MTEP; it touches transmission planning but contains no rules or outcomes that would change hydro or PSH revenue streams, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-23 23:40:12",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "report",
+        "title": "20261201 System Planning Committee of the BOD Item 07 GIQ Update.pdf",
+        "filename": "20261201 System Planning Committee of the BOD Item 07 GIQ Update.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20System%20Planning%20Committee%20of%20the%20BOD%20Item%2007%20GIQ%20Update797652.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's queue reform, approval of 57 GW in generation (including 22% storage, 7% hybrid), and interconnection-process improvements directly affect hydro and PSH owners' ability to interconnect, build, and obtain accreditation; the Joint Targeted Interconnection Queue enables 28 GW of capacity at the MISO-SPP seam, touching transmission deliverability and strategic interconnection decisions for existing and new resources.",
+        "screened_at": "2026-11-23 23:40:25",
+        "ai_summary": "MISO's Generator Interconnection Queue Update (December 1, 2026) reports that MISO approved 57 GW of new generation in 2026, comprising 31% solar, 28% gas, 22% storage, 7% hybrid, and 5% wind through its standard Definitive Planning Phase process. The Expedited Resource Addition Study (ERAS) pipeline is winding down with approximately 29 GW expected to be approved for online operation by 2029. MISO expects to clear the queue backlog by the end of 2027, achieving a one-year queue experience. The Joint Targeted Interconnection Queue (JTIQ) reached full subscription this fall and enabled 28 GW of joint capacity at the MISO-SPP seam through coordinated transmission upgrades. MISO has 45 GW of projects in Waiting status with signed Generator Interconnection Agreements facing delays beyond their expected commercial operation dates, and is implementing processing improvements including simplification of Affected System Studies and restrictions on late-phase restudies to reduce delays and study churn.",
+        "hydro_read_through": "Although the document does not mention hydropower or pumped-storage facilities by name, it establishes MISO's interconnection capacity and timelines affecting all dispatchable and storage resources. The 22% storage composition of approved 2026 generation and the 71% storage component of ERAS projects shows strong deployment momentum for energy-storage technologies that compete with and set operational and revenue precedent for PSH. The JTIQ transmission coordination at the MISO-SPP seam is directly relevant to conventional hydro in the broader footprint seeking to export into MISO, as it establishes how joint transmission portfolios get funded and sequenced. The delay patterns documented (45 GW in Waiting status with grace periods extending 6\u20137 years) and processing-time improvements (Order 2023 alignment, queue-cap implementation) will shape the timeline and cost landscape for any hydro resource seeking new or surplus interconnection service in MISO or at its seams.",
+        "source_names_hydro": false,
+        "topics": [
+          "interconnection",
+          "storage",
+          "transmission"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "57 GW of new generation approved in 2026, with 22% storage and 7% hybrid composition",
+            "quote": "MISO approved 57 GW of new generation to connect; these resources are now included in the waiting category and should come online in three to six years | Storage 22%",
+            "verified": false
+          },
+          {
+            "claim": "28 GW of capacity enabled through Joint Targeted Interconnection Queue at MISO-SPP seam",
+            "quote": "Enabled 28 GW of joint capacity",
+            "verified": true
+          },
+          {
+            "claim": "Approximately 29 GW expected from ERAS process by 2029",
+            "quote": "MISO expects to approve about 29 GW of new generation, which will come online by 2029",
+            "verified": true
+          },
+          {
+            "claim": "MISO expects to clear queue backlog by end of 2027 with one-year queue experience",
+            "quote": "MISO expects to clear the queue backlog by the end of 2027, creating a predictable no more than one-year queue experience",
+            "verified": true
+          },
+          {
+            "claim": "45 GW of projects in Waiting status with delays extending up to 6\u20137 years",
+            "quote": "Delayed generation with signed GIAs reporting expected commercial operation date | 6\u20137 years | 2 GW",
+            "verified": false
+          },
+          {
+            "claim": "ERAS projects are 71% storage by composition",
+            "quote": "Storage 71%",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261201 System Planning Committee of the BOD Item 08 2026 Work Plan.pdf",
+        "filename": "20261201 System Planning Committee of the BOD Item 08 2026 Work Plan.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20System%20Planning%20Committee%20of%20the%20BOD%20Item%2008%202026%20Work%20Plan797653.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a calendrical agenda for MISO's System Planning Committee's 2026 meetings, listing only the meeting dates, times, and high-level topic categories (MTEP review, generator-interconnection queue updates, resource adequacy, transmission planning, reliability); it contains no proposal, decision, finding, or specific mechanism affecting hydro or PSH revenue streams, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-23 23:40:28",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261201 System Planning Committee of the BOD Item 08 2027 Work Plan.pdf",
+        "filename": "20261201 System Planning Committee of the BOD Item 08 2027 Work Plan.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20System%20Planning%20Committee%20of%20the%20BOD%20Item%2008%202027%20Work%20Plan797654.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a 2027 meeting calendar and work plan for MISO's System Planning Committee\u2014a scheduling and administrative item with no substantive market-design content that affects hydro revenue streams, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-23 23:40:30",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "20261201 System Planning Committee of the BOD Item 03 Minutes 20260915.pdf",
+        "filename": "20261201 System Planning Committee of the BOD Item 03 Minutes 20260915.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20System%20Planning%20Committee%20of%20the%20BOD%20Item%2003%20Minutes%2020260915797648.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "MISO's Long-Term Resource Adequacy Update and MTEP26 transmission planning portfolio directly touch hydro's strategic options: load-growth scarcity (32.6 GW of large load additions in expedited review, 20 GW expected 2027\u20132028), resource accreditation reforms transitioning to Direct Loss of Load, and transmission expansion coordinating regional interregional planning for reliability and flexibility.",
+        "screened_at": "2026-11-23 23:40:43",
+        "ai_summary": "MISO System Planning Committee reviewed long-term resource adequacy and preliminary MTEP26 transmission plan on September 15, 2026. Resource Adequacy Director Neil Shah reported rapid load growth requiring additional generation capacity, record resource additions strengthening capacity margins, and ongoing accreditation reforms including transition to Direct Loss of Load (DLOL) with streamlined data collection. Transmission Planning Executive Director Laura Rauch reported MTEP26 now includes 562 projects spanning nearly 2,500 new and upgraded line miles, with the majority addressing local reliability needs and unprecedented volume of large load additions. The rolling Expedited Project Review (EPR) process approved 32.6 GW of large load additions for the year (up from 26.4 GW last quarter), with in-service dates 2026\u20132031 and 20 GW expected for 2027 and 2028. Stakeholder feedback on MTEP26 is due September 28 through October 12. Committee will review stakeholder comments on MTEP26 at its November meeting.",
+        "hydro_read_through": "The document does not mention hydro directly, but several elements matter to hydro owners. The surge in large load additions (32.6 GW expedited in 2026 alone, with 20 GW targeted for 2027\u20132028) signals sustained scarcity that raises the economic value of existing hydro generation and flexibility services. MISO's transition to Direct Loss of Loss accreditation and streamlined data collection will reset how seasonal and emergency capacity value is measured for use-limited resources like conventional hydro \u2014 an accreditation reform that typically narrower hydro availability in shoulder seasons. The MTEP26 emphasis on coordinating local, regional, and interregional planning for 'flexibility as the footprint evolves' also suggests MISO is factoring flexibility procurement into transmission expansion, an opportunity for hydro owners to influence planning inputs if they engage in the stakeholder comment window (deadline October 12).",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "load-growth",
+          "transmission"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "32.6 GW of large load additions proposed and approved through EPRs for the year, up from 26.4 GW last quarter",
+            "quote": "32.6 GW of large load additions are proposed and approved through EPRs for the year, which is an increase from the 26.4 GW reported last quarter",
+            "verified": true
+          },
+          {
+            "claim": "20 GW of load expected for 2027 and 2028",
+            "quote": "In-service dates for these EPRs range from 2026 to 2031, with 20 GW of load expected for 2027 and 2028",
+            "verified": true
+          },
+          {
+            "claim": "MTEP26 includes 562 projects spanning nearly 2,500 new and upgraded line miles",
+            "quote": "The preliminary MTEP26 portfolio now includes 562 projects spanning nearly 2,500 new and upgraded line miles",
+            "verified": true
+          },
+          {
+            "claim": "Stakeholder feedback deadline September 28 through October 12",
+            "quote": "stakeholder feedback would be received September 28 through October 12",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Ebony Mitchell",
+            "entity": "Arkansas Advanced Energy Association",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Mike Showalter",
+            "entity": "Fresh Energy",
+            "role": "commenter",
+            "email": null
+          },
+          {
+            "name": "Andre T. Porter",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Aubrey Johnson",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Erik Takayesu",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "John R. Bear",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Kristina Tridico",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          },
+          {
+            "name": "Laura Rauch",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mark S. Johnson",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Neil Shah",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Timothy Caister",
+            "entity": "MISO",
+            "role": "contact",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "report",
+        "title": "20261201 System Planning Committee of the BOD Item 04 Prior MTEP Status Report.pdf",
+        "filename": "20261201 System Planning Committee of the BOD Item 04 Prior MTEP Status Report.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20System%20Planning%20Committee%20of%20the%20BOD%20Item%2004%20Prior%20MTEP%20Status%20Report797649.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a transmission planning status report covering MISO's transmission expansion portfolio, project pipeline, and competitive process outcomes; it does not address energy pricing, ancillary-service accreditation, capacity markets, storage participation, interconnection queue design, or any other mechanism affecting hydro or PSH revenue, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-23 23:40:45",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "Human Resources Committee of the Board of Directors - December 1, 2026",
@@ -2368,7 +4444,251 @@
     "meeting_hydro_reason": "Human Resources Committee meetings address corporate staffing, compensation, and organizational management with no bearing on market design, pricing, dispatch rules, or operational standards affecting hydropower revenue, compliance, or strategy.",
     "meeting_screened_at": "2026-11-15 18:36:50",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "20261201 Human Resources Committee of the BOD Item 02 Agenda.pdf",
+        "filename": "20261201 Human Resources Committee of the BOD Item 02 Agenda.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Human%20Resources%20Committee%20of%20the%20BOD%20Item%2002%20Agenda797686.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a Human Resources Committee agenda covering internal personnel matters (incentive plans, calendar reviews, action items) with no bearing on hydro or PSH revenue streams, compliance obligations, or strategic options in market design.",
+        "screened_at": "2026-11-23 23:40:48",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Julie Munsell",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Mark Johnson",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          },
+          {
+            "name": "Ted Vatnsdal",
+            "entity": "MISO",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261201 Human Resources Committee of the BOD Item 05 2026 HRC Calendar.pdf",
+        "filename": "20261201 Human Resources Committee of the BOD Item 05 2026 HRC Calendar.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Human%20Resources%20Committee%20of%20the%20BOD%20Item%2005%202026%20HRC%20Calendar797684.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a Human Resources Committee calendar listing meeting dates and HR-related agenda items (incentive plans, compensation, succession planning) with no bearing on hydropower or PSH revenue, compliance obligations, or strategic market-design options.",
+        "screened_at": "2026-11-23 23:40:49",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261201 Human Resources Committee of the BOD Item 06 2027 HRC Calendar.pdf",
+        "filename": "20261201 Human Resources Committee of the BOD Item 06 2027 HRC Calendar.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Human%20Resources%20Committee%20of%20the%20BOD%20Item%2006%202027%20HRC%20Calendar797685.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is a corporate Human Resources Committee meeting calendar focused on internal compensation, performance review, and succession planning \u2014 entirely corporate governance unrelated to market rules, revenue mechanisms, compliance obligations, or strategic options in energy markets.",
+        "screened_at": "2026-11-23 23:40:52",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "minutes",
+        "title": "20261201 Human Resources Committee of the BOD Item 03 Minutes 20260910.pdf",
+        "filename": "20261201 Human Resources Committee of the BOD Item 03 Minutes 20260910.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Human%20Resources%20Committee%20of%20the%20BOD%20Item%2003%20Minutes%2020260910797681.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is MISO human resources committee meeting minutes covering internal corporate governance \u2014 executive compensation, incentive-plan design, and HR calendar \u2014 with no bearing on market rules, revenue mechanisms, compliance obligations, or strategic options affecting hydropower or pumped-storage operations.",
+        "screened_at": "2026-11-23 23:41:00",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Allegra Nottage",
+            "entity": "MISO",
+            "role": "senior vice president of human resources and chief diversity & inclusion officer",
+            "email": null
+          },
+          {
+            "name": "Andre T. Porter",
+            "entity": "MISO",
+            "role": "senior vice president, chief strategy officer, and general counsel",
+            "email": null
+          },
+          {
+            "name": "Barbara J. Krumsiek",
+            "entity": "MISO",
+            "role": "committee member",
+            "email": null
+          },
+          {
+            "name": "Erik Takayesu",
+            "entity": "MISO",
+            "role": "committee member",
+            "email": null
+          },
+          {
+            "name": "Jeff Lemmer",
+            "entity": "MISO",
+            "role": "director",
+            "email": null
+          },
+          {
+            "name": "Jennifer Curran",
+            "entity": "MISO",
+            "role": "senior vice president planning and operations",
+            "email": null
+          },
+          {
+            "name": "Joel Cook",
+            "entity": "MISO",
+            "role": "committee member",
+            "email": null
+          },
+          {
+            "name": "John R. Bear",
+            "entity": "MISO",
+            "role": "president, chief executive officer and director",
+            "email": null
+          },
+          {
+            "name": "Kristina Tridico",
+            "entity": "MISO",
+            "role": "deputy general counsel and assistant corporate secretary",
+            "email": null
+          },
+          {
+            "name": "Marilee Springer",
+            "entity": "MISO",
+            "role": "counsel to the board",
+            "email": null
+          },
+          {
+            "name": "Mark S. Johnson",
+            "entity": "MISO",
+            "role": "chair",
+            "email": null
+          },
+          {
+            "name": "Nancy Lange",
+            "entity": "MISO",
+            "role": "committee member",
+            "email": null
+          },
+          {
+            "name": "Robert F. Lurie",
+            "entity": "MISO",
+            "role": "director",
+            "email": null
+          },
+          {
+            "name": "Ted Vatnsdal",
+            "entity": "MISO",
+            "role": "executive director, strategic risk management",
+            "email": null
+          },
+          {
+            "name": "Theresa Wise",
+            "entity": "MISO",
+            "role": "director",
+            "email": null
+          },
+          {
+            "name": "Timothy R. Caister",
+            "entity": "MISO",
+            "role": "vice president, legal & federal regulatory affairs",
+            "email": null
+          },
+          {
+            "name": "Todd M. Raba",
+            "entity": "MISO",
+            "role": "committee member",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "20261201 Human Resources Committee of the BOD Item 04a 2026 STI Performance.pdf",
+        "filename": "20261201 Human Resources Committee of the BOD Item 04a 2026 STI Performance.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Human%20Resources%20Committee%20of%20the%20BOD%20Item%2004a%202026%20STI%20Performance797682.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a Human Resources Committee report on MISO's internal short-term incentive compensation plan and operational performance metrics; it contains no market-design changes, revenue rules, compliance obligations, or strategic options affecting hydropower or pumped-storage owners.",
+        "screened_at": "2026-11-23 23:41:02",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "20261201 Human Resources Committee of the BOD Item 04b 2027 STI Plan.pdf",
+        "filename": "20261201 Human Resources Committee of the BOD Item 04b 2027 STI Plan.pdf",
+        "url": "https://cdn.misoenergy.org/20261201%20Human%20Resources%20Committee%20of%20the%20BOD%20Item%2004b%202027%20STI%20Plan797683.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This document is an internal MISO HR incentive-plan design with operational and financial metrics for staff compensation; it does not establish or modify any market rule, tariff provision, or resource-participation model that would affect hydropower or pumped-storage revenue, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-23 23:41:04",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "WPPI Energy",
+            "entity": "WPPI Energy",
+            "role": "commenter",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "2026 Infrastructure Policy Roadmap",
@@ -2398,7 +4718,108 @@
     "meeting_hydro_reason": "SPP Markets+ Resource Adequacy Task Force meetings address resource-adequacy constructs, seasonal energy-adequacy studies, and capacity/accreditation mechanisms that directly affect hydro revenue and strategic positioning in a developing multi-state market footprint.",
     "meeting_screened_at": "2026-11-07 17:50:16",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "agenda",
+        "title": "11302026_MRATF Agenda.docx  [in MRATF Meeting Materials 20261130.zip]",
+        "filename": "11302026_MRATF Agenda.docx",
+        "url": "https://www.spp.org/Documents/78423/MRATF%20Meeting%20Materials%2020261130.zip#z=11302026%2F11302026_MRATF%20Agenda.docx",
+        "member_url": "https://www.spp.org/spp-documents-filings/?id=370801",
+        "posted_date": "2026-11-30",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a meeting agenda with no substantive content on hydro/PSH revenue streams, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-23 23:41:05",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      },
+      {
+        "type": "other",
+        "title": "MRATF 1130.pptx  [in MRATF Meeting Materials 20261130.zip]",
+        "filename": "MRATF 1130.pptx",
+        "url": "https://www.spp.org/Documents/78423/MRATF%20Meeting%20Materials%2020261130.zip#z=11302026%2FMRATF%201130.pptx",
+        "member_url": "https://www.spp.org/spp-documents-filings/?id=370801",
+        "posted_date": "2026-11-30",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a meeting logistics and agenda slide deck with no substantive market-design content, absent text addressing resource adequacy mechanics, capacity accreditation, energy pricing, ancillary services, or any hydro-relevant obligation or revenue stream.",
+        "screened_at": "2026-11-23 23:41:09",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Austin Causey",
+            "entity": null,
+            "role": "proxy",
+            "email": null
+          },
+          {
+            "name": "Sachi Begur",
+            "entity": "PSE",
+            "role": "presenter",
+            "email": null
+          }
+        ]
+      },
+      {
+        "type": "other",
+        "title": "MRATF MIR41R .pptx  [in MRATF Meeting Materials 20261130.zip]",
+        "filename": "MRATF MIR41R .pptx",
+        "url": "https://www.spp.org/Documents/78423/MRATF%20Meeting%20Materials%2020261130.zip#z=11302026%2FMRATF%20MIR41R%20.pptx",
+        "member_url": "https://www.spp.org/spp-documents-filings/?id=370801",
+        "posted_date": "2026-11-30",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "This Markets+ protocol amendment addresses must-offer obligation compliance for Resources with CROW derates \u2014 a direct issue for use-limited resources like hydropower and pumped storage, whose availability constraints can create gaps between nameplate, derated capacity, and accredited obligation.",
+        "screened_at": "2026-11-23 23:41:21",
+        "ai_summary": "MIR 41-R proposes splitting into MIR 41.1R and MIR 41.2R to address gaps in Markets+ Protocols Section 4.1.6 must-offer obligations. The concern: when a Resource's CROW derate is not reflected in its MaxECOL adjustment by the Market Participant, the MP receives credit toward meeting must-offer obligations up to the full (unadjusted) MaxECOL, even though actual available capacity is lower. Example shows a scenario where Resource A's inflated MaxECOL masks actual 400 MW capability, allowing Resource B to offer less than available and the MP to pass a 900 MW must-offer obligation with only 800 MW truly offered to the day-ahead market. MIR 41.1 targets immediate implementation ahead of Markets+ Go Live; MIR 41.2 explores automatic CROW derate override of MaxECOL for future implementation. Target approval is February 2027 MPEC per the next-steps slide.",
+        "hydro_read_through": "The document does not name hydropower or pumped storage. However, the must-offer obligation and CROW derate mechanics described here directly govern use-limited resources whose energy is constrained by inflow, state-of-charge, or outage conditions. For such resources, a derate that is not properly reflected in accredited obligation creates a compliance risk: the resource appears to meet mandatory-offer requirements on paper while actual capability lags, potentially exposing operators to shortfall penalties or market-design corrections later. The split-MIR structure suggests MIR 41.1 is the near-term fix for the obligation-accounting gap, while MIR 41.2 defers a larger system design question (automatic MaxECOL override) that would require more implementation work.",
+        "source_names_hydro": false,
+        "topics": [
+          "ops-compliance",
+          "capacity-ra",
+          "seams-governance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "MIR 41-R text reference to Section 4.1.6 and Must-Offer",
+            "quote": "Markets+ Protocols, Section 4.1.6: If the enhanced logic for CROW derates is not added to the market design, circle back with MDWG and MRATF with respect to Must-Offer.",
+            "verified": true
+          },
+          {
+            "claim": "Current behavior: Generation Derate does not automatically override MaxECOL",
+            "quote": "A Generation Derate will not automatically override the Resource's MaxECOL, but the MP \"must update Resource Offer parameters to reflect changes in Resource availability and capability.\"",
+            "verified": true
+          },
+          {
+            "claim": "Staff recommends MIR 41.1 ahead of Go Live and MIR 41.2 for future exploration",
+            "quote": "This would be a change in current behavior and a large implementation lift that SPP staff does not believe is feasible ahead of Markets+ Go Live\nThis topic is what SPP staff recommends exploring in the future via MIR 41.2\nAssuming MIR 41.2 is not implemented ahead of Go Live, SPP staff recommends pursuing MIR 41.1 ahead of Go Live",
+            "verified": true
+          },
+          {
+            "claim": "Example scenario: Resource with derate (400 MW) but unadjusted MaxECOL (500 MW) receives full credit",
+            "quote": "Because of \"inflated\" MaxECOL of Resource A, Resource B does not need to offer up to full available capability of 500 MW and MP1 can still pass the DA MOO despite only 800 MW of actual available capacity offered to DAM",
+            "verified": true
+          },
+          {
+            "claim": "Target approval timeline: February 2027 MPEC",
+            "quote": "Target Feb MPEC",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
   },
   {
     "title": "SOS Meeting",
@@ -3653,7 +6074,155 @@
     "meeting_hydro_reason": "EDAM performance reporting directly affects revenue realization, market power mitigation, and competitive dynamics for NHA members in the West; EDAM is a strategic participation pathway and seam-governance choice for hydro and storage resources across the CAISO footprint and expanding westward, and performance data illuminates price formation, energy accreditation, and ramping-product outcomes that hydro operators must track.",
     "meeting_screened_at": "2026-11-09 22:35:14",
     "issues": [],
-    "documents": []
+    "documents": [
+      {
+        "type": "report",
+        "title": "Extended Day-Ahead Market Performance - October Report",
+        "filename": "extended-day-ahead-market-performance-october-report.pdf",
+        "url": "https://www.caiso.com/documents/extended-day-ahead-market-performance-october-report.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "EDAM performance report documenting market operations, price formation, transfer revenues, and new flexibility products (imbalance reserves and reliability capacity) across four BAAs including two hydropower-rich regions (PacifiCorp and PGE); hydro owners benefit from understanding co-optimization outcomes, regional pricing signals, and how flexibility is valued in the expanded footprint.",
+        "screened_at": "2026-11-23 23:41:34",
+        "ai_summary": "CAISO's October 2026 monthly EDAM performance report covering operations during PGE's first month in the market (entry October 1, 2026). The report documents: day-ahead market execution (22 of 31 days published before 1:00 p.m. target); resource sufficiency (CAISO, PACE, and PGE passed all hourly imbalance reserve components, PACW passed 99.87 percent of hours); regional energy prices increasing to approximately $53/MWh in CAISO, $40/MWh in PACE, and $45/MWh in PACW and PGE; expanded transfer capability allowing different areas to simultaneously import/export different products; new imbalance reserve and reliability capacity products remaining low-priced outside peak ramp periods; and preliminary CRR revenue adequacy at approximately 93 percent. The report also documents market costs (total approximately $1.15 billion, up 14 percent from September) and ongoing settlement and GHG treatment issues under review.",
+        "hydro_read_through": "Hydro resources in PACE, PACW, and PGE territories are now coordinating energy and flexibility procurement with CAISO through a single day-ahead market, expanding the addressable footprint for their energy and ramping services. The report shows hydro and storage contributed notably to evening peak clearing in PGE's first month, and the new imbalance reserve and reliability capacity products (procured separately from energy and sourced from different resources based on regional conditions) offer an additional revenue mechanism for flexibility that has historically been hydro's comparative advantage\u2014the question for owners is whether the low prices for these products in October reflect sustainable market value or temporary conditions early in EDAM maturity.",
+        "source_names_hydro": true,
+        "topics": [
+          "price-formation",
+          "ramping-flexibility",
+          "seams-governance"
+        ],
+        "directness": "direct",
+        "evidence": [
+          {
+            "claim": "PGE entry date and first-month milestone",
+            "quote": "On October 1, 2026, Portland General Electric Company (PGE) successfully joined the EDAM market.",
+            "verified": true
+          },
+          {
+            "claim": "Day-ahead results publication metric",
+            "quote": "Results were published before the 1:00 p.m. target on 22 of 31 days, compared with 23 of 30 days in September.",
+            "verified": true
+          },
+          {
+            "claim": "Resource sufficiency outcomes",
+            "quote": "CAISO, PACE, and PGE passed the upward and downward imbalance reserve components of the Resource Sufficiency Evaluation in every hour, while PACW passed almost all (99.87 percent) hours in each direction.",
+            "verified": true
+          },
+          {
+            "claim": "CAISO day-ahead energy price",
+            "quote": "Day-ahead energy prices increased from September to approximately $53/MWh in CAISO",
+            "verified": true
+          },
+          {
+            "claim": "PACE day-ahead energy price",
+            "quote": "approximately $40/MWh in PACE",
+            "verified": false
+          },
+          {
+            "claim": "PACW and PGE day-ahead energy prices",
+            "quote": "and $45/MWh in PACW, while PGE averaged approximately $45/MWh in its first month.",
+            "verified": true
+          },
+          {
+            "claim": "CRR revenue adequacy preliminary result",
+            "quote": "Preliminary CRR revenue adequacy was approximately 93 percent",
+            "verified": true
+          },
+          {
+            "claim": "Total wholesale market costs and percentage change",
+            "quote": "Total costs were approximately $1.15 billion, up 14 percent from September",
+            "verified": true
+          },
+          {
+            "claim": "Imbalance reserve payments across EDAM",
+            "quote": "October imbalance reserve payments across EDAM were approximately $3.0 million and reliability capacity payments approximately $4.5 million",
+            "verified": true
+          },
+          {
+            "claim": "CAISO imbalance reserve and reliability capacity cost share",
+            "quote": "Together, CAISO's imbalance reserve and reliability capacity costs represented less than 1 percent of total CAISO wholesale market costs.",
+            "verified": true
+          }
+        ],
+        "issues": [],
+        "stakeholders": [
+          {
+            "name": "Abhishek Hundiwale",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Auswin Thomas",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Guillermo Bautista Alderete",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Jennie Araj",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Jimmy Li",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Kun Zhao",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Kyle Pelham",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Li He",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Miheer Shah",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Scott Lehman",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Yanda Jiang",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          },
+          {
+            "name": "Yuqi Zhou",
+            "entity": "CAISO",
+            "role": "co-author",
+            "email": null
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Comments due - Assembly Bill 825 - California Job Study",
@@ -3708,6 +6277,21 @@
         "stakeholders": []
       }
     ]
+  },
+  {
+    "title": "Interconnection Process Subcommittee Meeting",
+    "date": "2026-11-24",
+    "time": "9:00 a.m. - 12:00 p.m.",
+    "rto": "PJM",
+    "committee": "Interconnection Process Subcommittee",
+    "source_url": "https://www.pjm.com/calendar",
+    "detail_url": null,
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "PJM's Interconnection Process Subcommittee addresses generator interconnection queuing, deliverability, surplus services, and uprates\u2014all core strategic options and obligations for hydro and storage developers entering or expanding in PJM.",
+    "meeting_screened_at": "2026-11-23 23:36:24",
+    "issues": [],
+    "documents": []
   },
   {
     "title": "MTWG Net Conference",
@@ -4189,8 +6773,42 @@
         "evidence": [],
         "issues": [],
         "stakeholders": []
+      },
+      {
+        "type": "vote",
+        "title": "Co Located Load Order Workshop Stakeholder Feedback Poll \u2013 Questions Received By 11 20 26",
+        "filename": "20261123-co-located-load-order-workshop-stakeholder-feedback-poll---questions-received-by-11-20-26.pdf",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20261123/20261123-co-located-load-order-workshop-stakeholder-feedback-poll---questions-received-by-11-20-26.pdf",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": null,
+        "hydro_relevance_reason": null,
+        "screened_at": null,
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": null,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
+  },
+  {
+    "title": "Rescheduled:  WEM Governing Body General Session",
+    "date": "2026-11-23",
+    "time": "2:00 PM - 2:30 PM PT",
+    "rto": "CAISO",
+    "committee": "Board of Governors - Governance and committees",
+    "source_url": "https://www.caiso.com/meetings-events/meetings",
+    "detail_url": "https://www.caiso.com/meetings-events/calendar/rescheduled-wem-governing-body-general-session-nov-23-2026-0200-pm",
+    "materials_url": "https://www.caiso.com/about/governance-committees",
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "The Western Energy Market (WEM) Governing Body addresses market seams, interregional governance, and transmission coordination affecting Western hydropower exports and participation options, particularly for NHA members choosing between EDAM/WEIM market structures.",
+    "meeting_screened_at": "2026-11-23 23:36:26",
+    "issues": [],
+    "documents": []
   },
   {
     "title": "MSC Zoom Meeting - Hosted by WIEB",
@@ -15931,7 +18549,7 @@
         "filename": "20261117-lc-membership.pdf",
         "url": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/lc/2026/20261117/20261117-lc-membership.pdf",
         "member_url": null,
-        "posted_date": "2026-11-08",
+        "posted_date": "2026-11-22",
         "hydro_relevant": null,
         "hydro_relevance_reason": null,
         "screened_at": null,
@@ -20414,7 +23032,7 @@
         "filename": "20261116 LLWG Item 02c BPM-033 Large Load DRAFT_PMU (LLWG-2026-3)_redline.docx",
         "url": "https://cdn.misoenergy.org/20261116%20LLWG%20Item%2002c%20BPM-033%20Large%20Load%20DRAFT_PMU%20%28LLWG-2026-3%29_redline795701.docx",
         "member_url": null,
-        "posted_date": "2026-11-11",
+        "posted_date": "2026-11-23",
         "hydro_relevant": true,
         "hydro_relevance_reason": "This document establishes operational and technical requirements for phasor measurement units (PMUs) at Computational Loads in MISO, which constitutes a new synchronous-unit monitoring and compliance obligation affecting all large dispatchable resources including conventional hydropower and pumped-storage facilities at the interconnection boundary.",
         "screened_at": "2026-11-12 20:01:36",
@@ -79094,7 +81712,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-14 17:32:55",
+    "meeting_screened_at": "2026-11-23 23:10:57",
     "issues": [],
     "documents": [
       {
@@ -79129,7 +81747,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-22 18:43:58",
+    "meeting_screened_at": "2026-11-23 23:11:18",
     "issues": [],
     "documents": [
       {
@@ -79164,7 +81782,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-22 18:44:19",
+    "meeting_screened_at": "2026-11-23 23:11:39",
     "issues": [],
     "documents": [
       {
@@ -79199,7 +81817,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-22 18:44:41",
+    "meeting_screened_at": "2026-11-23 23:12:00",
     "issues": [],
     "documents": [
       {
@@ -79234,7 +81852,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-22 18:45:23",
+    "meeting_screened_at": "2026-11-23 23:12:21",
     "issues": [],
     "documents": [
       {
@@ -79269,7 +81887,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-22 18:45:02",
+    "meeting_screened_at": "2026-11-23 23:12:42",
     "issues": [],
     "documents": [
       {
@@ -86895,7 +89513,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-22 18:45:44",
+    "meeting_screened_at": "2026-11-23 23:13:03",
     "issues": [],
     "documents": [
       {
@@ -93190,7 +95808,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-22 18:46:05",
+    "meeting_screened_at": "2026-11-23 23:13:24",
     "issues": [],
     "documents": [
       {
@@ -290135,7 +292753,18 @@
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "The Reliability Committee addresses resource adequacy, capacity accreditation, and operational standards that directly affect hydropower and pumped-storage participation in ISO-NE markets.",
     "meeting_screened_at": "2026-06-09 14:18:19",
-    "issues": [],
+    "issues": [
+      {
+        "rto": "ISO-NE",
+        "native_id": "operational-impacts-of-extreme-weather-events",
+        "canonical_name": "Operational Impacts of Extreme Weather Events",
+        "status": "Active",
+        "stakeholder_phase": null,
+        "committee_owner": null,
+        "is_open": 1,
+        "url": "https://www.iso-ne.com/committees/key-projects/operational-impacts-of-extreme-weather-events"
+      }
+    ],
     "documents": [
       {
         "type": "other",
@@ -290787,7 +293416,18 @@
         ],
         "directness": null,
         "evidence": [],
-        "issues": [],
+        "issues": [
+          {
+            "rto": "ISO-NE",
+            "native_id": "operational-impacts-of-extreme-weather-events",
+            "canonical_name": "Operational Impacts of Extreme Weather Events",
+            "status": "Active",
+            "stakeholder_phase": null,
+            "committee_owner": null,
+            "is_open": 1,
+            "url": "https://www.iso-ne.com/committees/key-projects/operational-impacts-of-extreme-weather-events"
+          }
+        ],
         "stakeholders": [
           {
             "name": "Jinye Zhao",
