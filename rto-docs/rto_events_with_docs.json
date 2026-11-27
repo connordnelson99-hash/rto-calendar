@@ -480,7 +480,7 @@
     "date": "2026-12-11",
     "time": "2:00 PM",
     "rto": "ISO-NE",
-    "committee": "Interregional Planning Stakeholder Advisory Committee",
+    "committee": "Planning Advisory Committee",
     "source_url": "https://www.iso-ne.com/calendar",
     "detail_url": "https://www.iso-ne.com/calendar?eventId=165343",
     "materials_url": null,
@@ -15206,6 +15206,41 @@
     "documents": []
   },
   {
+    "title": "November 2026 Highlights | FERC insight | Volume 11",
+    "date": "2026-11-23",
+    "time": null,
+    "rto": "FERC",
+    "committee": "HEADLINES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/november-2026-highlights-ferc-insight-volume-11",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "meeting_screened_at": "2026-11-27 20:54:45",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "November 2026 Highlights | FERC insight | Volume 11",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/november-2026-highlights-ferc-insight-volume-11",
+        "member_url": null,
+        "posted_date": "2026-11-23",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "Document is a press-release headline summary with no extracted text; cannot assess substantive content against hydro revenue, compliance, or strategic options.",
+        "screened_at": "2026-11-27 21:19:48",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
     "title": "MSC Zoom Meeting - Hosted by WIEB",
     "date": "2026-11-20",
     "time": "11:00 AM - 12:00 PM CT",
@@ -19248,6 +19283,185 @@
             "email": "rkurlinski@caiso.com"
           }
         ]
+      }
+    ]
+  },
+  {
+    "title": "Summaries | November 2026 Commission Meeting",
+    "date": "2026-11-19",
+    "time": null,
+    "rto": "FERC",
+    "committee": "HEADLINES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/summaries-november-2026-commission-meeting",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "meeting_screened_at": "2026-11-27 20:55:06",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "Summaries | November 2026 Commission Meeting",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/summaries-november-2026-commission-meeting",
+        "member_url": null,
+        "posted_date": "2026-11-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "The document is a press-release summary of FERC Commission meeting agendas and decisions with no text extracted; without substantive content, no specific market-design mechanisms, revenue streams, compliance obligations, or strategic options affecting hydropower can be identified.",
+        "screened_at": "2026-11-27 21:19:51",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "FERC Chairman Marks First Year Advancing America\u2019s Energy Infrastructure and Strengthening Grid Reliability",
+    "date": "2026-11-19",
+    "time": null,
+    "rto": "FERC",
+    "committee": "NEWS RELEASES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/ferc-chairman-marks-first-year-advancing-americas-energy-infrastructure-and",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "meeting_screened_at": "2026-11-27 20:55:27",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "FERC Chairman Marks First Year Advancing America\u2019s Energy Infrastructure and Strengthening Grid Reliability",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/ferc-chairman-marks-first-year-advancing-americas-energy-infrastructure-and",
+        "member_url": null,
+        "posted_date": "2026-11-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a FERC press release marking a chair's first-year accomplishments; it contains no specific market-design rule, proposal, or mechanism that would change hydropower or pumped-storage revenue, compliance obligations, or strategic options.",
+        "screened_at": "2026-11-27 21:19:53",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "FERC Approves Major Gas Infrastructure Facilities to Get American Energy Moving",
+    "date": "2026-11-19",
+    "time": null,
+    "rto": "FERC",
+    "committee": "NEWS RELEASES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/ferc-approves-major-gas-infrastructure-facilities-get-american-energy-moving",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "meeting_screened_at": "2026-11-27 20:55:49",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "FERC Approves Major Gas Infrastructure Facilities to Get American Energy Moving",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/ferc-approves-major-gas-infrastructure-facilities-get-american-energy-moving",
+        "member_url": null,
+        "posted_date": "2026-11-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a FERC press release on natural-gas infrastructure approvals; it does not address energy markets, pricing, dispatch rules, storage participation, capacity accreditation, ancillary services, transmission planning affecting hydro deliverability, or any mechanism governing hydropower or pumped-storage revenue, compliance, or strategy.",
+        "screened_at": "2026-11-27 21:19:56",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "FERC\u2019s Annual Enforcement Report Highlights Tough Action to Shield Consumers from Fraud and Unfair Costs",
+    "date": "2026-11-19",
+    "time": null,
+    "rto": "FERC",
+    "committee": "NEWS RELEASES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/fercs-annual-enforcement-report-highlights-tough-action-shield-consumers-fraud-and",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "meeting_screened_at": "2026-11-27 20:56:10",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "FERC\u2019s Annual Enforcement Report Highlights Tough Action to Shield Consumers from Fraud and Unfair Costs",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/fercs-annual-enforcement-report-highlights-tough-action-shield-consumers-fraud-and",
+        "member_url": null,
+        "posted_date": "2026-11-19",
+        "hydro_relevant": false,
+        "hydro_relevance_reason": "This is a FERC enforcement press release on fraud and unfair-cost prosecution; it addresses enforcement case outcomes and consumer-protection actions, not market design, participation rules, revenue mechanisms, compliance obligations, or strategic options touching hydro or PSH.",
+        "screened_at": "2026-11-27 21:19:59",
+        "ai_summary": null,
+        "hydro_read_through": null,
+        "source_names_hydro": false,
+        "topics": [],
+        "directness": null,
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
+      }
+    ]
+  },
+  {
+    "title": "2026-2027 Winter Energy Market & Electric Reliability Assessment",
+    "date": "2026-11-19",
+    "time": null,
+    "rto": "FERC",
+    "committee": "HEADLINES",
+    "source_url": "https://www.ferc.gov/news-events/news/news-releases-headlines",
+    "detail_url": "https://www.ferc.gov/news-events/news/2026-2027-winter-energy-market-electric-reliability-assessment",
+    "materials_url": null,
+    "meeting_hydro_relevant": true,
+    "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
+    "meeting_screened_at": "2026-11-27 20:56:31",
+    "issues": [],
+    "documents": [
+      {
+        "type": "press-release",
+        "title": "2026-2027 Winter Energy Market & Electric Reliability Assessment",
+        "filename": null,
+        "url": "https://www.ferc.gov/news-events/news/2026-2027-winter-energy-market-electric-reliability-assessment",
+        "member_url": null,
+        "posted_date": "2026-11-19",
+        "hydro_relevant": true,
+        "hydro_relevance_reason": "Winter reliability assessment and energy market outlook directly inform hydro owners' revenue expectations, strategic positioning around seasonal adequacy, and compliance with resource-availability obligations during peak winter demand periods.",
+        "screened_at": "2026-11-27 21:20:05",
+        "ai_summary": "FERC's 2026-2027 Winter Energy Market & Electric Reliability Assessment is a press-release headline-only document with no extracted text content; it appears to be an announcement of a comprehensive winter reliability and market outlook covering the 2026-2027 period. The substance of the assessment\u2014its findings, affected regions, methodology, and any recommendations\u2014cannot be determined from this extract.",
+        "hydro_read_through": "The document does not name hydropower or pumped storage. Winter reliability assessments typically examine seasonal resource adequacy, hydro-conditions outlooks, and transmission constraints during peak winter demand\u2014periods when reservoir levels, snowmelt forecasts, and cold-weather forced outages directly determine hydro's availability and revenue. For hydro owners in regions with winter peak demand (Northeast, Northwest, mid-Atlantic), seasonal adequacy findings often influence capacity pricing, ancillary-services demand, and strategic unit-maintenance scheduling. The directness rating reflects that this appears to be background analytical material rather than a rule or mechanism directly regulating a hydro revenue stream.",
+        "source_names_hydro": false,
+        "topics": [
+          "capacity-ra",
+          "water-hydrology",
+          "ops-compliance"
+        ],
+        "directness": "reference",
+        "evidence": [],
+        "issues": [],
+        "stakeholders": []
       }
     ]
   },
@@ -37929,7 +38143,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-14 17:31:30",
+    "meeting_screened_at": "2026-11-27 20:56:52",
     "issues": [],
     "documents": [
       {
@@ -45175,7 +45389,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-14 17:31:51",
+    "meeting_screened_at": "2026-11-27 20:57:13",
     "issues": [],
     "documents": [
       {
@@ -58789,7 +59003,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-14 17:32:12",
+    "meeting_screened_at": "2026-11-27 20:57:34",
     "issues": [],
     "documents": [
       {
@@ -85815,7 +86029,7 @@
     "materials_url": null,
     "meeting_hydro_relevant": true,
     "meeting_hydro_reason": "Auto-flagged: FERC markets-policy item; doc-level screener decides per-article relevance.",
-    "meeting_screened_at": "2026-11-14 17:32:33",
+    "meeting_screened_at": "2026-11-27 20:57:55",
     "issues": [],
     "documents": [
       {
